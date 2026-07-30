@@ -1,0 +1,1236 @@
+{
+  "notice": "Entry created successfully.",
+  "entry": {
+    "title": "DRAFT -- June 2026: Smarter Cost Control, Governed AI Access, and Richer Mosaic Modeling",
+    "url": "/software/blog/june-2026-smarter-cost-control-governed-ai-access-richer-mosaic-modeling",
+    "lead_paragraph": {
+      "type": "doc",
+      "attrs": {},
+      "uid": "18473a8742a84a29b1fbf726658eac45",
+      "children": [
+        {
+          "text": ""
+        }
+      ],
+      "_version": 1
+    },
+    "content": [
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "79adbb68ef864e2e811fe9d6a908a109",
+            "children": [
+              {
+                "type": "h3",
+                "uid": "57f6e8a818ee4d9291ea6dac5786203c",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Quick Answer",
+                    "attrs": {
+                      "style": {
+                        "color": "rgb(26, 78, 159)"
+                      }
+                    },
+                    "bold": true,
+                    "font-color": "#fa660f"
+                  },
+                  {
+                    "text": " ",
+                    "attrs": {
+                      "style": {
+                        "color": "rgb(26, 78, 159)"
+                      }
+                    },
+                    "font-color": "#fa660f"
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "uid": "fd06bd9461b842078a9b3fd6f9cdb6cb",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "li",
+                    "uid": "7ae6ef31730d47a9abbf19b670b41f1d",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "079a90b8983b4b06905a5d702ed10270",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "June 2026 brings smarter cloud cost visibility across Snowflake and Databricks analytics assets.",
+                            "bold": true
+                          },
+                          {
+                            "text": " Sentinel Cost Intelligence attributes platform spend back to governed assets and surfaces AI-powered optimization recommendations daily."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "7421539b834748608caec091e526d66e",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "6a88da85b75d4ef59805e3c2d15ac267",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Flexible joins and custom calendars let Mosaic models reflect how the business actually operates.",
+                            "bold": true
+                          },
+                          {
+                            "text": " Teams can now show entities with missing activity and align time dimensions to fiscal, retail, or academic calendars without manual workarounds."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "a62369ba1eba40e585b853d4e7087d6a",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "bf75591bf7164d81b570ad46104f3d0b",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Governed AI access, reusable agent prompts, and MCP support extend trusted context to AI tools.",
+                            "bold": true
+                          },
+                          {
+                            "text": " MCP-compatible applications can query MTDI and Intelligent Cubes through the Mosaic endpoint with existing security policies automatically applied."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs626b0461d491d6b3"
+          }
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "c98003f2ed3549c683d4554ee21fce7b",
+            "children": [
+              {
+                "type": "p",
+                "uid": "14ca2901e8d942ac9bbc15d3d241369e",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The June release makes the universal semantic layer more operational. It is no longer just where trusted metrics are defined. It is where teams see what analytics costs to run, model the business as it actually works, and deliver trusted context to people and AI agents wherever decisions happen."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs228e5add5158aff6"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "Cost Control, Complete Analysis, and Governed AI Access",
+          "_metadata": {
+            "uid": "cs500bde3a2bd8c38f"
+          },
+          "section_id": "cost-control-complete-analysis-and-governed-ai-access"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "bada1d2122c74829a47c4671bba2f70c",
+            "children": [
+              {
+                "type": "p",
+                "uid": "c425851a378a47a59105e054dfe80f3e",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "As analytics and AI usage grow, organizations need more than access to data. They need visibility into what trusted analytics costs to run, confidence that analysis reflects the full business population, and a governed way to extend business context into AI tools. This release addresses all three through Sentinel Cost Intelligence, flexible join behavior, reusable agent setup, and Model Context Protocol support for existing analytical assets."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "a0085a5a944b4b759b235d9c26c609c0",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "AI-Powered Cost Intelligence Across Data Platforms",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "224aee7575a5400f8be3d91170e6c0f4",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Cloud data costs can grow quickly when teams cannot see which models, datasets, queries, and usage patterns are driving spend. Sentinel Cost Intelligence helps close that visibility gap by attributing data platform costs back to the governed analytics assets behind the work, starting with Snowflake and Databricks."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "91a2d74f4f324cf899189db825a79fb0",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Administrators can connect a billing source in Workstation, then Sentinel applies query tagging, attributes spend at the dataset level, and refreshes cost insights daily. A dedicated Cost Intelligence view highlights top cost drivers and surfaces AI-powered recommendations, such as unloading inactive datasets, tuning refresh cadences, or switching between live and in-memory modes when usage patterns justify it."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "fe57ccfdc7ef4d67a440329fb49e3e72",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "For data and analytics teams, that means clearer cost accountability, fewer idle or over-refreshed assets, and more confident decisions about when and where to optimize cloud spend."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "52144e10ab544c1497ee7a7bde02ee11",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "[IMAGE PLACEHOLDER]",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "893be4d24937440499713d3b2217c370",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Upload asset to Contentstack and replace this placeholder — source: Mosaic Sentinel Cost Intelligence screenshot"
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "11f817e1c3f7437fa9d5b6f3d2a8eb6c",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Flexible Joins Across Mosaic Models and Schema",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "8b0387cac43b401cbe89e5e3e33162fb",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Standard joins can exclude records when matching fact or lookup data is missing. For many analytical questions, that can produce incomplete or misleading results. A customer with no orders this quarter still exists. A store with no transactions last month is still part of a regional report. A borrower with no current activity is still in a portfolio."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "c3214c6f280f40bb8598cc8322663f7d",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Modelers can now define attribute-level join behavior in Mosaic Models and Mosaic Schema, formerly Project Schema, selecting from four options: matched records only, all lookup values, all fact or relationship records, or all records regardless of match. This makes it easier to show customers, stores, borrowers, or other business entities even when related activity is missing, handle null-heavy datasets more cleanly, and build analysis around the actual business question rather than the default shape of the underlying data."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "52f9d8d9cdc5492cb5d8f8183c42a546",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The result is more complete analysis by design: reports reflect the full business population, not just the records with matching fact data."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "ea3324b3ceb7400b81148bb2ed19d7ad",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "[Video: https://microstrategy.sharepoint.com/sites/MKT/_layouts/15/stream.aspx?id=%2Fsites%2FMKT%2FShared%20Documents%2FMKT%20%2D%20Product%20Marketing%2FSource%20Files%20for%20PMM%20Assets%2FQuarterly%20What%27s%20New%20Product%20Release%2FWhat%27s%20New%20Images%2F26%2E06%20Mosaic%20Outer%20Join%20Demo%2Emov&ct=1781634469782&or=EXCEL%2DWEB%2EBODY%2ENT&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ef8b4d093%2D88fe%2D41c4%2D8c75%2Da6342fd4c306]"
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "59c737fabba945a7a5328d285ed872cd",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Reusable Context and Prompts for Smarter Agents",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "d6bd43dc0c76402ba87181babf4a83fe",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "A new agent should not require teams to recreate the same column descriptions, instructions, and prompt patterns from scratch. As organizations deploy more agents across business domains, reuse becomes a governance and consistency issue, not just a productivity issue."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "fb8c8277023d49cca80ffdcab6482fee",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Strategy Agents are now faster to build and easier to standardize. Creators can import and export column descriptions and custom instructions, then use a prompt library to add up to 25 reusable prompts for common business questions. For business users, that means faster access to recurring analytical questions, more consistent answers across agents, and better handling of complex queries through multiple reasoning paths before the agent responds."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "38ef5cf27c4a4d5a8ed028d7076bf7b4",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "[Video: https://microstrategy.sharepoint.com/sites/MKT/_layouts/15/stream.aspx?id=%2Fsites%2FMKT%2FShared%20Documents%2FMKT%20%2D%20Product%20Marketing%2FSource%20Files%20for%20PMM%20Assets%2FQuarterly%20What%27s%20New%20Product%20Release%2FWhat%27s%20New%20Images%2F26%2E06%20Agents%20What%27s%20New%2Emp4&ct=1781633138294&or=EXCEL%2DWEB%2EBODY%2ENT&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E539d159b%2D604c%2D40b9%2D91ba%2De77003ed1ae1]"
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "5d46e820864f40aaa147faa96804abcf",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "MCP Support for MTDI and Intelligent Cubes",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "8f9e1504323b494dae3878cc4755e680",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Without governed semantic access, AI agents fall back on raw schemas: data without the business logic, access controls, and consistent definitions that make analytics reliable. Earlier this year, Model Context Protocol, or MCP, support gave AI tools access to Mosaic model semantics. This release extends that reach to Multi-Table Data Import, or MTDI, and Intelligent Cubes, including the in-memory and live analytical assets that power many of the analytics workflows organizations have already built."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "25f2de5aed4248d087ff872056d1829d",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "MCP-compatible AI applications can now discover available projects and cubes, retrieve semantic descriptions, and run semantic queries against in-memory and live analytical data through the Mosaic endpoint, with existing security policies and audit controls applied. No raw schema exposure. Less custom integration work for each AI tool."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "cff9435593f34d89b149ae50a56ceb90",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "That means organizations extending AI workflows into operational analytics can use governed data assets they already own, without rebuilding the semantic layer for each new AI tool that gets deployed."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "b4f0a3a1bd3242668d51cfe0c8756376",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "[Video: https://microstrategy.sharepoint.com/sites/MKT/_layouts/15/stream.aspx?id=%2Fsites%2FMKT%2FShared%20Documents%2FMKT%20%2D%20Product%20Marketing%2FSource%20Files%20for%20PMM%20Assets%2FQuarterly%20What%27s%20New%20Product%20Release%2FWhat%27s%20New%20Images%2F26%2E06%20MTDI%20MCP%2Emp4&ct=1781633105412&or=EXCEL%2DWEB%2EBODY%2ENT&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E133b5671%2D1d3e%2D42ac%2D9bb4%2Dcd0ca451473c]"
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "csfcab69761a2d07e5"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "Greater Control Across the Mosaic Modeling Lifecycle",
+          "_metadata": {
+            "uid": "csa7121a5181e08ed1"
+          },
+          "section_id": "greater-control-across-the-mosaic-modeling-lifecycle"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "c9d67cd73d044f96b8f74b52ca85eb60",
+            "children": [
+              {
+                "type": "p",
+                "uid": "50604a9fb8174c6dbf6350d6871d1cb3",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "This release gives teams more control over how Mosaic models are created, governed, and consumed. Data teams can configure AI-assisted modeling behaviors, align calendars to real business cycles, and expose clearer column names to downstream tools and AI applications."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "583b40fdf87a4d2a9697fa1787d10c32",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Granular Controls for Mosaic AI Auto Modeling",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "5803ac192084467a81d017e1068c9283",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Auto modeling in Mosaic accelerates the modeling process by automatically linking attributes, merging matching columns, and creating multi-form attributes. For most teams, that acceleration is valuable. For teams in regulated industries or environments with strict governance requirements, unexpected automated links or merges can introduce risk."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "66b7307a63cb4f0eb4a8ab5bbc3a94cb",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Data teams can now turn specific auto modeling behaviors on or off at the model level: AI naming, automatic attribute linking, automatic column merging, and auto-creation of multi-form attributes. Original column names can be preserved. AI-generated suggestions remain available for manual review and selective application rather than being applied automatically. These controls are clearly documented and auditable."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "394c1b0e89c74b4ca34ba09e4b7ab92f",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "That gives data teams the benefits of AI-assisted modeling without giving up the governance predictability that production environments require."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "bf0a0d38e0c84c1786b894bd9d80dcae",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "[IMAGE PLACEHOLDER]",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "b54833bb92104acebe84f39a7536a859",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Upload asset to Contentstack and replace this placeholder — source: Granular Controls for Mosaic AI Auto Modeling screenshot"
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "d969ad4dafbf4e038d60fce7fa034f6d",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Custom Calendars with Flexible Week and Year Support",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "d4e20d5f2b11433f91cb49024055a131",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Most analytics platforms assume a January-to-December calendar. Many enterprises do not use one. Retailers use 4-4-5 calendars. Financial services firms close their quarters in March, June, September, or October. Academic institutions run on September-to-August cycles. Aligning Mosaic time dimensions to those cycles previously required manual workarounds and ongoing maintenance."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "6cde89798445444b9da187ede7881eff",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Teams can upload a CSV defining the dates, weeks, months, quarters, and years that match the organization's actual calendar. Mosaic validates the structure, ensures periods are consecutive, and automatically creates familiar time attributes with ISO-style display formats. Reports and dashboards built on those models reflect the calendar the business actually uses."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "de7c74e8d83a47278bfd26c27f3e795a",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "That reduces calendar workarounds and gives teams more time to focus on analysis instead of maintaining date logic outside the model."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "d866d0ffb09b40af99be1eeaeb737edd",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Custom Column Naming for Mosaic Models in the Universal Semantic Layer",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "4e06f62678d145a7854f394693c42843",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "As MCP clients, Power BI, and SQL tools connect to Mosaic through the Universal Semantic Layer, the column names they see determine how useful that connection is. Auto-generated or source-system column names create friction for AI agents and downstream analysts who expect business-friendly labels."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "1c84a2d682904a02a942a5c2e7627f24",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Modelers can now define column naming conventions at the Mosaic model level. Attribute forms and metrics can use aliases from the underlying data source as their USL column names, with intelligent fallbacks when aliases are blank or unsuitable. Existing integrations are preserved while new and AI-facing consumers see cleaner, more descriptive labels."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "e07d9fc573554b1a90b3683c9421bc84",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "MCP clients and connected AI tools see the column names the business intends, not whatever the source system happened to use. Cleaner labels give AI tools clearer business context and reduce confusion for analysts working downstream."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "csa741272672df8000"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "Streamline BI Administration, Reporting, and Delivery",
+          "_metadata": {
+            "uid": "cs4087b950ee89feaf"
+          },
+          "section_id": "streamline-bi-administration-reporting-and-delivery"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "63f5e9ffadf44750b5e9fe0cc0cb8668",
+            "children": [
+              {
+                "type": "p",
+                "uid": "5a083e12ad16483e91e3fc555a9aa785",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "BI teams need to manage environments, modernize administration, build business-ready reporting, and deliver trusted analytics into the tools users already rely on. This release improves that workflow across Workstation Web, Python automation, tenant isolation, Financial Row Sets, Personal Views in Library, and Google Drive delivery."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "0e96983143a64ab3accb004b9e58ac30",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Browser-Based Administration with Workstation Web",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "db7ccc3a5da2471e9c393d7aff026b5e",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "For teams with mixed operating systems, distributed administrators, or locked-down endpoints, browser-based Workstation reduces the IT dependency around core administration and modeling work. Workstation is now available in one click from Library with no separate install, covering user management, schema design, data source configuration, and core administration workflows."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "27e518cef4fe47ffa2fd70999d98d139",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Because Workstation Web is part of the Strategy platform, teams can reduce desktop deployment overhead, avoid version conflicts, and get the latest capabilities through regular platform upgrades. Single-environment workflows are available now, with cross-environment migration support planned for later this year."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "5189ccd9c3a24286ae55dfe30cc122b4",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "[IMAGE PLACEHOLDER]",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "34b708a0f6c14158a29024cd93e940f0",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Upload asset to Contentstack and replace this placeholder — source: Workstation Web animated demo"
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "e12c6643f9e14ba69050182711eecf19",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Modernize Command Manager Scripts with Python",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "6c20b227d9224600a9cce97c3ff9f2ea",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Many administrators have years of automation built in Command Manager, covering deployments, security, maintenance, and routine platform administration. As teams move toward Python and Workstation-based automation, rewriting those scripts manually can be time-consuming and risky."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "33195401cd9e4feba568ec948c21a9a5",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The Command Manager to mstrio-py Migration Assistant gives administrators a guided path forward. Teams can upload existing Command Manager scripts and generate reviewable Python workflows mapped to common mstrio-py administration tasks, then inspect, refine, and validate the output step by step."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "1ea2213911fb4ce3b54b9b58f328ae15",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The result is a safer transition from legacy scripting to modern, Strategy-supported Python automation. Organizations can preserve existing automation investments, lower operational risk, and modernize at a manageable pace ahead of Command Manager deprecation."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "7732c3b8f40044b1a79a3c1524e5d49f",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "[Video: https://microstrategy.sharepoint.com/sites/MKT/_layouts/15/stream.aspx?id=%2Fsites%2FMKT%2FShared%20Documents%2FMKT%20%2D%20Product%20Marketing%2FSource%20Files%20for%20PMM%20Assets%2FQuarterly%20What%27s%20New%20Product%20Release%2FWhat%27s%20New%20Images%2F26%2E06%20CM%20%2D%20Python%20Migration%20Assistant%2Emp4&ct=1781635078547&or=EXCEL%2DWEB%2EBODY%2ENT&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E059b82cf%2Dfdeb%2D42d0%2D8c5c%2D88317c67295c]"
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "14331194e89040f58f07352f26621db7",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Enterprise-Grade Tenant Isolation",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "bc4bd6e640984476b1aebd92f2498585",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "For software providers, OEM use cases, or enterprises managing analytics across separate business units, tenant isolation has often meant separate deployments, duplicated administration, and higher operating overhead."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "5da206fe86e34c4288956827ba0ac5a3",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Multiple tenants can now run inside a single Strategy environment while keeping content, users, projects, and administration separated by design. For organizations managing multiple business units or OEM deployments, this reduces the need for separate environments while preserving tenant-level control and separation."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "897df47968644a33b671879b986286b3",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Financial Row Sets for Modern Grid",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "9372c666d15448be9f04234008df23be",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Finance teams building P&L statements, balance sheets, and cash flow reports often need to combine multiple row sets with different filters, aggregations, and formatting in one view. Until now, that often meant exporting to Excel or forcing complex statements into a single grid structure."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "c8aeec074fc144b0b6363b5ba94cab05",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "With Financial Row Sets, authors can stack multiple row sets in a single Modern Grid, each with its own dataset, filters, headers, subtotals, and formatting, while sharing the same columns across the full view. The result is cleaner financial reporting directly in Strategy, with support for drill-through and export to PDF or Excel."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "41a66c36e1054fda98caaefbbfb5f09e",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "[Video: https://microstrategy.sharepoint.com/sites/MKT/_layouts/15/stream.aspx?id=%2Fsites%2FMKT%2FShared%20Documents%2FMKT%20%2D%20Product%20Marketing%2FSource%20Files%20for%20PMM%20Assets%2FQuarterly%20What%27s%20New%20Product%20Release%2FWhat%27s%20New%20Images%2F26%2E06%20Row%20Sets%2Emp4&ct=1781634709112&or=EXCEL%2DWEB%2EBODY%2ENT&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E490c22d3%2Dcb1e%2D4166%2D82ee%2De83c2e0f2107]"
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "6443edd583444e888049db6c497ca48b",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Personal Views from Strategy Web Now Open in Library",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "6da4b2a7e9f341a1a69d33faf07a60a9",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Users who save Personal Views in Strategy Web with specific filters, prompts, and layout changes have had to return to Web to access those views with their settings applied, creating a split workflow between two surfaces."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "552e8a4207b849edbb18ddbf9f73f53a",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Personal View subscriptions created in Strategy Web now open directly from the Library Subscriptions panel with all saved preferences automatically applied. Users can save any view as a Library bookmark from there. Personal Views are not deleted automatically, so teams can move at their own pace, and the surface-switching friction that slows Library adoption for teams with existing Web workflows goes away."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "be50d2eb97be479aafbd306b3d18b7a3",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "[Video: https://microstrategy.sharepoint.com/sites/MKT/_layouts/15/stream.aspx?id=%2Fsites%2FMKT%2FShared%20Documents%2FMKT%20%2D%20Product%20Marketing%2FSource%20Files%20for%20PMM%20Assets%2FQuarterly%20What%27s%20New%20Product%20Release%2FWhat%27s%20New%20Images%2F26%2E06%20Personal%20Views%20in%20Library%20to%20Bookmarks%2Emp4&ct=1781637443086&or=EXCEL%2DWEB%2EBODY%2ENT&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E9eee0032%2Dc97d%2D4fbc%2Db5c8%2Ddab9823d5e1b]"
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "66ca951e16894a39872015578b8b9989",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Deliver Subscription Content to Google Drive",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "03fa2fc301f5479a82a7a1cb85fa839a",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Teams using Google Workspace as their daily environment should receive scheduled analytics content where they already work, not as attachments they must download and relocate."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "c7559906169c44d2bbbcc14886726870",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Administrators can configure Google Drive as a subscription delivery destination in Workstation, with control over destination folders, recipient routing, and output format including Google Sheets, Excel, CSV, and HTML. Business users can subscribe to any dashboard or report from Library and have it delivered automatically to their personal Google Drive as a Google Sheets file on whatever schedule they choose. Delivery runs within existing Strategy access controls, without creating a parallel data path outside the platform."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "7a37311774f0433c834ddcdf3452e6bf",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "That removes a manual export step and keeps trusted analytics inside the workflow for teams already working in Google Workspace."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "66026af383a4415cad324ea0c1122c0f",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "June 2026 makes the semantic layer more operational: models that reflect real business cycles, cloud spend that is visible at the model level, and trusted context delivered to AI agents, financial reporting, Google Workspace, and browser-based workflows."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "8ce917ef2b1c4b418aa3f2994dc030fd",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Learn more about these June updates on our What's New page and product documentation."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs17147b2604f84ea6"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "Frequently Asked Questions",
+          "_metadata": {
+            "uid": "cs229cdff7660a14af"
+          },
+          "section_id": "frequently-asked-questions"
+        }
+      },
+      {
+        "accordion": {
+          "accordion_item": [
+            {
+              "title": "What is included in the Strategy Software June 2026 release?",
+              "_metadata": {
+                "uid": "csd99563367dfdb928"
+              },
+              "content": {
+                "type": "doc",
+                "attrs": {},
+                "uid": "9aedcd49962441faacf6a1535d3b6ffc",
+                "children": [
+                  {
+                    "type": "p",
+                    "attrs": {},
+                    "uid": "dc99810df31f43baa947c121d1a3a4f8",
+                    "children": [
+                      {
+                        "text": "Strategy Software's June 2026 release focuses on smarter cost control, more flexible Mosaic modeling, and governed AI access. Highlights include Sentinel Cost Intelligence, flexible joins across Mosaic Models and Mosaic Schema, reusable agent prompts and instructions, Model Context Protocol support for Multi-Table Data Import and Intelligent Cubes, custom calendars, granular AI auto modeling controls, custom USL column naming, Financial Row Sets for Modern Grid, Google Drive subscription delivery, Workstation Web, Command Manager to Python migration, Personal Views in Library, and enterprise-grade tenant isolation."
+                      }
+                    ]
+                  }
+                ],
+                "_version": 1
+              }
+            },
+            {
+              "title": "How does Sentinel Cost Intelligence work with Snowflake and Databricks?",
+              "_metadata": {
+                "uid": "csee42411d78b1c04b"
+              },
+              "content": {
+                "type": "doc",
+                "attrs": {},
+                "uid": "6cde00e53e42456fbacd5e4f8ffca1d8",
+                "children": [
+                  {
+                    "type": "p",
+                    "attrs": {},
+                    "uid": "40b38124ef7841b4be69f69fece3e999",
+                    "children": [
+                      {
+                        "text": "Sentinel Cost Intelligence connects to billing data sources in Workstation and applies query tagging so data platform spend can be attributed back to governed analytics assets. Starting with Snowflake and Databricks, Sentinel refreshes cost insights daily and highlights top cost drivers in a dedicated Cost Intelligence view. It also surfaces AI-powered recommendations, such as unloading inactive datasets, adjusting refresh cadences, or switching between live and in-memory modes when usage patterns justify it. Administrators can use these recommendations to prioritize optimization actions without exporting data to a separate cost management tool."
+                      }
+                    ]
+                  }
+                ],
+                "_version": 1
+              }
+            },
+            {
+              "title": "How do reusable prompts and instructions improve Strategy Agents?",
+              "_metadata": {
+                "uid": "cs0f2119ae6a5db60e"
+              },
+              "content": {
+                "type": "doc",
+                "attrs": {},
+                "uid": "fa03a54cc2104f92ad906032325bdc2d",
+                "children": [
+                  {
+                    "type": "p",
+                    "attrs": {},
+                    "uid": "4830ba60e9b140b69c09a33ebdb89160",
+                    "children": [
+                      {
+                        "text": "Strategy Agents now make it easier to reuse setup work across agents. Creators can import and export column descriptions and custom instructions, then use a prompt library to add up to 25 reusable prompts for common business questions. This helps teams build agents faster, standardize behavior across business domains, and give business users one-click access to recurring analytical questions. For more complex questions, agents can try multiple reasoning paths before responding, improving consistency and reliability."
+                      }
+                    ]
+                  }
+                ],
+                "_version": 1
+              }
+            },
+            {
+              "title": "What does Model Context Protocol support for MTDI and Intelligent Cubes enable?",
+              "_metadata": {
+                "uid": "csbf75e9ac7c6de86f"
+              },
+              "content": {
+                "type": "doc",
+                "attrs": {},
+                "uid": "4c11d51febf24645a78de760d028239b",
+                "children": [
+                  {
+                    "type": "p",
+                    "attrs": {},
+                    "uid": "056d5adfb726485f8a182ace11e48c78",
+                    "children": [
+                      {
+                        "text": "Model Context Protocol, or MCP, support for Multi-Table Data Import, or MTDI, and Intelligent Cubes lets MCP-compatible AI applications discover available projects and cubes, retrieve semantic descriptions, and run semantic queries against in-memory and live analytical data through the Mosaic endpoint. The same security policies and audit controls that govern human analytics users apply to AI agents. This helps teams extend AI workflows into operational analytics using governed data assets they already own, without exposing raw schemas or rebuilding the semantic layer for each new AI tool."
+                      }
+                    ]
+                  }
+                ],
+                "_version": 1
+              }
+            },
+            {
+              "title": "How does custom calendar support in Mosaic models work?",
+              "_metadata": {
+                "uid": "csf3b56259e560a45f"
+              },
+              "content": {
+                "type": "doc",
+                "attrs": {},
+                "uid": "64e4d48fd25145f4803a430891ac5541",
+                "children": [
+                  {
+                    "type": "p",
+                    "attrs": {},
+                    "uid": "6f3e803f929142bd96a52d2387564ab5",
+                    "children": [
+                      {
+                        "text": "Custom calendar support lets architects upload a CSV that defines the dates, weeks, months, quarters, and years that match the organization's actual business calendar. Mosaic validates the structure, checks that periods are consecutive, and creates familiar time attributes with ISO-style display formats. This helps organizations model fiscal calendars, retail 4-4-5 calendars, academic calendars, and other non-standard calendar structures directly in Mosaic. Reports and dashboards built on those models reflect the calendar the business actually uses, reducing manual date logic and calendar workarounds."
+                      }
+                    ]
+                  }
+                ],
+                "_version": 1
+              }
+            },
+            {
+              "title": "What does flexible join control change for Mosaic modeling?",
+              "_metadata": {
+                "uid": "csccf30716c71075f2"
+              },
+              "content": {
+                "type": "doc",
+                "attrs": {},
+                "uid": "84a2d43d028545ed9024524e94383c4a",
+                "children": [
+                  {
+                    "type": "p",
+                    "attrs": {},
+                    "uid": "ac19c5ef1278484ea5dfdb6cbf0fe79c",
+                    "children": [
+                      {
+                        "text": "Flexible join control lets modelers define attribute-level join behavior in Mosaic Models and Mosaic Schema, formerly Project Schema. Modelers can choose from four options: matched records only, all lookup values, all fact or relationship records, or all records regardless of match. This makes it easier to show customers with no orders, stores with no transactions, borrowers with no current activity, or other business entities where related activity is missing. The result is more complete analysis that reflects the full business population, not just the records with matching fact data."
+                      }
+                    ]
+                  }
+                ],
+                "_version": 1
+              }
+            },
+            {
+              "title": "What are granular controls for Mosaic AI Auto Modeling?",
+              "_metadata": {
+                "uid": "cs9e8b42833f9930bf"
+              },
+              "content": {
+                "type": "doc",
+                "attrs": {},
+                "uid": "5a4249ba83214c21acb7182231db02f8",
+                "children": [
+                  {
+                    "type": "p",
+                    "attrs": {},
+                    "uid": "2d780bc72da545c4b6c8f836813c9069",
+                    "children": [
+                      {
+                        "text": "Granular controls for Mosaic AI Auto Modeling let data teams decide which AI-assisted modeling behaviors are applied automatically and which remain suggestions for review. Teams can control AI naming, automatic attribute linking, automatic column merging, and multi-form attribute creation at the model level. This gives teams the speed of AI-assisted modeling while preserving the governance predictability required in production environments. Original column names can be preserved, and AI-generated suggestions can be reviewed before being applied."
+                      }
+                    ]
+                  }
+                ],
+                "_version": 1
+              }
+            },
+            {
+              "title": "What does custom column naming for Mosaic Models enable?",
+              "_metadata": {
+                "uid": "cs083fd14ac7627739"
+              },
+              "content": {
+                "type": "doc",
+                "attrs": {},
+                "uid": "f5a341f368f943169b7306a32cbe9f69",
+                "children": [
+                  {
+                    "type": "p",
+                    "attrs": {},
+                    "uid": "3d58356e9e9e4eca82a240b5cf57da69",
+                    "children": [
+                      {
+                        "text": "Custom column naming lets modelers define clearer column names for Mosaic Models exposed through the Universal Semantic Layer. Attribute forms and metrics can use aliases from the underlying data source as their USL column names, with fallbacks when aliases are blank or unsuitable. This matters as MCP clients, Power BI, SQL tools, and AI applications connect to Mosaic. Cleaner, business-friendly column names reduce confusion for analysts and give AI tools more useful context than raw source-system names."
+                      }
+                    ]
+                  }
+                ],
+                "_version": 1
+              }
+            },
+            {
+              "title": "What else is included in the June 2026 release for delivery and administration?",
+              "_metadata": {
+                "uid": "cs31370882879dfcdc"
+              },
+              "content": {
+                "type": "doc",
+                "attrs": {},
+                "uid": "be7e68bccbc44b649bc68fb9a18f603a",
+                "children": [
+                  {
+                    "type": "p",
+                    "attrs": {},
+                    "uid": "b4a48918a4e749e194539c9d164fb693",
+                    "children": [
+                      {
+                        "text": "Google Drive subscription delivery lets administrators route scheduled analytics content to specific Drive folders in Google Sheets, Excel, CSV, or HTML format. Business users can set up their own deliveries from Library on any schedule, within existing Strategy access controls. Personal Views created in Strategy Web now open directly from the Library Subscriptions panel with saved filters, prompts, and layout preferences applied. Users can save any view as a Library bookmark, and Personal Views are not deleted automatically so teams can move at their own pace. Enterprise-grade tenant isolation allows multiple business units or OEM customers to run within a single Strategy environment while keeping content, users, projects, and administration separated by design. This can reduce the need for separate environments while preserving tenant-level control and separation."
+                      }
+                    ]
+                  }
+                ],
+                "_version": 1
+              }
+            },
+            {
+              "title": "What is Workstation Web and who is it for?",
+              "_metadata": {
+                "uid": "cs05a0f83d5324871a"
+              },
+              "content": {
+                "type": "doc",
+                "attrs": {},
+                "uid": "0b53f2dbf0974f619ef317c6ac0e9e8f",
+                "children": [
+                  {
+                    "type": "p",
+                    "attrs": {},
+                    "uid": "9ae360da9c764798b188497f5469f28d",
+                    "children": [
+                      {
+                        "text": "Workstation Web brings core administration and modeling workflows into the browser. It is designed for teams with mixed operating systems, distributed administrators, or locked-down endpoints where installing a Windows desktop application creates friction. Administrators can launch Workstation Web from Library and manage workflows such as user management, schema design, data source configuration, and core administration tasks. Single-environment workflows are available now, with cross-environment migration support planned for later this year."
+                      }
+                    ]
+                  }
+                ],
+                "_version": 1
+              }
+            },
+            {
+              "title": "What does the Command Manager to Python Migration Assistant do?",
+              "_metadata": {
+                "uid": "csd571f6e0784e1b24"
+              },
+              "content": {
+                "type": "doc",
+                "attrs": {},
+                "uid": "a40943301a2e40cebd7b77f3d147d9ac",
+                "children": [
+                  {
+                    "type": "p",
+                    "attrs": {},
+                    "uid": "7ace2c7bfeee4f3b86cac1f51ae17064",
+                    "children": [
+                      {
+                        "text": "The Command Manager to mstrio-py Migration Assistant helps administrators move legacy Command Manager automation into modern, Strategy-supported Python workflows. Teams can upload existing Command Manager scripts, generate reviewable Python workflows mapped to common mstrio-py administration tasks, and validate the output step by step. This helps preserve existing automation investments, lower operational risk, and modernize at a manageable pace ahead of Command Manager deprecation."
+                      }
+                    ]
+                  }
+                ],
+                "_version": 1
+              }
+            },
+            {
+              "title": "What are Financial Row Sets in Modern Grid?",
+              "_metadata": {
+                "uid": "cs3292eb0f372c35a4"
+              },
+              "content": {
+                "type": "doc",
+                "attrs": {},
+                "uid": "4605c444415241b0b45c736ed1002311",
+                "children": [
+                  {
+                    "type": "p",
+                    "attrs": {},
+                    "uid": "c425b3d142ed4f4bac7c2613f1942997",
+                    "children": [
+                      {
+                        "text": "Financial Row Sets let authors stack multiple row sets in a single Modern Grid, each with its own dataset, filters, headers, subtotals, banding, and formatting while sharing the same columns across the full view. This makes it easier to build financial statements such as P&L reports, balance sheets, and cash flow reports directly in Strategy. Finance teams can create cleaner financial reporting views with support for drill-through and export to PDF or Excel, reducing the need to rebuild complex statements outside the platform."
+                      }
+                    ]
+                  }
+                ],
+                "_version": 1
+              }
+            }
+          ],
+          "_metadata": {
+            "uid": "csed832ec3b758c637"
+          },
+          "accordion_options": "closed"
+        }
+      }
+    ],
+    "cta_section": [],
+    "related_posts": [],
+    "seo": {
+      "meta_title": "June 2026: Smarter Cost Control, Governed AI & Mosaic Modeling",
+      "meta_description": "Strategy's June 2026 release delivers cloud cost visibility, flexible Mosaic modeling, and governed AI access via MCP. See what analytics costs to run.",
+      "keywords": "universal semantic layer, governed AI access, cloud analytics cost control, Mosaic modeling, enterprise BI semantic layer",
+      "social_thumbnail_override": null,
+      "enable_search_indexing": true
+    },
+    "page_properties": {
+      "navigation_title": "",
+      "header_color": null,
+      "hide_header_nav": false,
+      "hide_header_cta": false,
+      "hide_footer": false,
+      "disable_global_promo_banner": false,
+      "hide_auto_expert": false,
+      "sfid": "",
+      "marketo_id": "",
+      "cta_section": []
+    },
+    "resource_data": {
+      "date": "2026-06-18T00:00:00.000Z",
+      "type": "Blog",
+      "title": "June 2026: Smarter Cost Control, Governed AI Access, and Richer Mosaic Modeling",
+      "description": "Strategy's June 2026 release delivers cloud cost visibility, flexible Mosaic modeling, and governed AI access via MCP. See what analytics costs to run.",
+      "featured": false
+    },
+    "tags": [],
+    "publish_date": "2026-06-18T00:00:00.000Z",
+    "author": [
+      {
+        "uid": "bltc4039c14acf38817",
+        "_content_type_uid": "blog_author"
+      }
+    ],
+    "locale": "en",
+    "uid": "blt3cd0f47c06e1cf66",
+    "created_by": "blte12f8d786df2b4b9",
+    "updated_by": "blte12f8d786df2b4b9",
+    "created_at": "2026-06-17T15:29:54.166Z",
+    "updated_at": "2026-06-17T15:29:54.166Z",
+    "ACL": {},
+    "_version": 1,
+    "_in_progress": false
+  }
+}

@@ -1,0 +1,327 @@
+{
+  "title": "The Person Who Owns Your Data Definitions Owns Your AI Solutions",
+  "subtitle": "",
+  "slug": "the-person-who-owns-your-data-definitions-owns-your-ai-solutions",
+  "url": "/the-person-who-owns-your-data-definitions-owns-your-ai-solutions",
+  "author": "Juliana Schoettler",
+  "authorBio": "",
+  "publishDate": "2026-07-21T00:00:00.000Z",
+  "seo": {
+    "metaTitle": "Who Owns Your Data Definitions Owns Your AI Solutions",
+    "metaDescription": "Discover why owning your data definitions is the key to trustworthy AI. Learn how a semantic layer turns business choices into reliable AI outcomes.",
+    "metaDescriptionFromDoc": false,
+    "targetKeywords": [
+      "data definitions AI",
+      "semantic layer",
+      "enterprise AI analytics",
+      "governed metrics",
+      "AI-ready data foundation"
+    ],
+    "metaDescriptionAlternatives": [
+      "AI outputs reflect whoever defines your metrics. See how Strategy's semantic layer lets analytics leaders own their data definitions at scale.",
+      "Undefined metrics mean AI defines success for you. Learn how governed data definitions make enterprise AI trustworthy and actionable."
+    ],
+    "primaryKeywords": [
+      "data definitions AI",
+      "semantic layer",
+      "enterprise AI analytics",
+      "governed metrics",
+      "AI-ready data foundation"
+    ],
+    "secondaryKeywords": [
+      "business metric governance",
+      "data ownership strategy",
+      "BI decision-making",
+      "consistent revenue metrics",
+      "trusted AI outputs",
+      "enterprise data governance",
+      "analytics data definitions",
+      "AI data reliability",
+      "semantic layer for BI",
+      "data-driven AI strategy",
+      "enterprise analytics leadership",
+      "metric standardization"
+    ],
+    "longTailKeywords": [
+      "why data definitions matter for enterprise AI",
+      "how to make AI outputs trustworthy for business decisions",
+      "what happens when AI defines your business metrics",
+      "how to govern data definitions across a large organization",
+      "best way to standardize metrics for AI at scale",
+      "why a semantic layer improves AI reliability",
+      "how to align AI outputs with business goals",
+      "what is a semantic layer and why does it matter for AI",
+      "how enterprise analytics leaders can control AI outcomes",
+      "why undefined metrics lead to untrustworthy AI results",
+      "how to own your data definitions before deploying AI",
+      "best practices for governed metrics in enterprise AI analytics"
+    ],
+    "brandedKeywords": [
+      "Strategy",
+      "Strategy Mosaic",
+      "Strategy semantic layer",
+      "Strategy enterprise analytics",
+      "Strategy AI-ready data"
+    ]
+  },
+  "quickAnswer": [
+    {
+      "headline": "AI is only as good as the data definitions your business chooses to own.",
+      "body": "Undefined or inherited data definitions lead to AI outputs that don't reflect your business reality or goals."
+    },
+    {
+      "headline": "A semantic layer codifies your business choices, not just your data.",
+      "body": "Defining metrics like revenue consistently across your org is what makes AI trustworthy and actionable at scale."
+    },
+    {
+      "headline": "If no human defines success, AI will define it for you — for better or worse.",
+      "body": "Trustworthy AI requires deliberate human choices about what your business does and what success looks like."
+    }
+  ],
+  "quickAnswerFromDoc": false,
+  "heroMedia": null,
+  "body": [
+    {
+      "type": "section",
+      "heading": "",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "I remember the first time I learned about generative AI. I was at the climbing gym, and my climbing partner asked me if I was using ChatGPT. I told him I had no idea what that is. His response was, \"All the cool kids are doing it.\" Even after he explained it further, I remember leaving that conversation still having no idea what ChatGPT was or how it would be even remotely useful for what I did in tech."
+        },
+        {
+          "type": "paragraph",
+          "text": "Fast forward over two years, and it feels like I'm watching that same conversation play out, over and over again, at every level of, not only business, but our culture as a whole. I listen to the spectrum of perspectives across the conversation, from true believers to skeptics to AI deniers. But one thing is clear – no one, even those who believe in AI, has a clear answer about what AI is meant to do for our society. The privilege of being part of so many of the same conversations, however, is that the underlying cause of that vagueness has become clear to me over time."
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Though it's capable of "
+            },
+            {
+              "text": "doing",
+              "italic": true
+            },
+            {
+              "text": " many things, AI isn't inherently meant to "
+            },
+            {
+              "text": "be",
+              "italic": true
+            },
+            {
+              "text": " anything. What makes AI valuable is how we use it, and that's based on the one thing that AI isn't truly capable of:"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Choice."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "AI as a Force for Clarity",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "I would say at this point in my AI journey, I am probably closer on the spectrum to believer than anything. However, that progress was measured, and it came from being thrust into first running AI development on our Support chatbot, then running our internal AI enablement and then product managing our customer-facing AI solutions."
+        },
+        {
+          "type": "paragraph",
+          "text": "I did not buy into AI immediately. I felt like I could do most things, like generate emails or create training content, just as easily myself. Over time, I started to understand that there were things that I maybe didn't want to do, or wanted to do faster, where AI could help. After a while, I was able to clarify what things I enjoyed doing and wanted to do myself (like writing this blog) vs where AI could take away the tasks I didn't care about and allowed me to do the things I wanted to do faster and at greater scale."
+        },
+        {
+          "type": "paragraph",
+          "text": "The last part of that sentence is likely to get a few eye rolls since it's the sales pitch that's been repeated about where AI has value: take away the things you don't care about and let you focus on the things you do."
+        },
+        {
+          "type": "paragraph",
+          "text": "If that's what you were focused on, then you were ignoring the most important part of that sentence:"
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "I was able to clarify what things I enjoyed doing and wanted to do myself.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "This",
+              "italic": true
+            },
+            {
+              "text": " is where AI provides value. Not by doing things that we couldn't do before, or things that we could do before but faster, but by forcing us to tilt our heads and shift our perspective on the way we're doing things in the first place. To challenge assumptions and help us to reconsider how the world works."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The value of AI isn't the technology at all, but the forcing function that is revealing that maybe our defaults were never defaults but choices we deferred or forgot were made by people who, in many cases, no longer exist."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Giving Power Back to Your Business",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "So, this next part may come off as a sales pitch. It's not. It's me having sat through over a year of conversations with customers about why their AI initiative isn't working and observing the conversation that's being ignored: why they need AI at all and, more deeply, what is their business even for?"
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "I talked a little bit about this in "
+            },
+            {
+              "text": "my post",
+              "url": "https://software.strategy.com/blog/stop-overengineering-problems-you-dont-have?_gl=1*kct8n9*_gcl_au*MTUzNjc4MDU1Ny4xNzgwMzI0MjEy"
+            },
+            {
+              "text": " about overengineering solutions for problems you don't have. What I mean here is, if you have clarity about what your business does and what success looks like, there isn't even a question of what problem AI will solve for you. It's just a natural extension of a shared overall vision that everyone in your entire organization can speak to."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "I've not met many organizations that exist from that level of vision. That's not a failure; I think it's just something that is important to be aware of so that you start paying attention to what choices are yours to make so that you can build towards something real and meaningful."
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Now the part where this is going to sound like a pitch. I realized a lot of this from listening to conversations around the semantic layer and AI. People trying to understand why it matters, and getting bogged down in conversations about features – how does a semantic layer work; what does it mean for AI; "
+            },
+            {
+              "text": "what is a semantic layer even",
+              "url": "https://software.strategy.com/strategymosaic"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Those conversations helped me to understand that the semantic layer was important "
+            },
+            {
+              "text": "even before enterprise AI existed.",
+              "italic": true
+            },
+            {
+              "text": " A semantic layer is more than data definitions, it's codified choice. It is expressing how you define success for your business."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The example I like to give is revenue. Depending on your department or function, revenue can be defined in a number of different ways (gross, net, etc.). Someone has to decide what version of revenue success is going to be measured against. Similarly, different organizations may want to define region differently based on where their business has a presence. These aren't defaults – these are choices someone, somewhere, at some point has to make."
+        },
+        {
+          "type": "paragraph",
+          "text": "In the times before AI, those choices were often made on the fly in reconciliation meetings. As a Support engineer, I personally saw the lack of clarity that was hidden underneath reports in datasets for dashboards that seemed to tell one story and, looking at the data, told something completely different. Clicking into a dataset on what appeared to be a clean looking dashboard, I would find five different versions of what was effectively the same attribute; or I would see at least three different definitions of revenue that were then being aggregated to create a new version of revenue so that the person looking at the dashboard (usually an executive) would see the story they wanted to."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Without Clarity, AI Will Never Reflect Your Reality",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Your data is never going to reflect some kind of objective reality. If you continue to believe that, your AI solution will continue to fail. Your data "
+            },
+            {
+              "text": "should",
+              "italic": true
+            },
+            {
+              "text": " reflect the choices you've made about your business. More often than not, however, your data reflects definitions that someone who no longer works for your organization created when building a report for an executive who also may not even be around. This decision was forgotten and nothing has been changed since."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "This was not acceptable before AI, but it was more easily ignorable during the time of traditional BI since dashboards are relatively static and, though inefficient, a dashboard developer could build the story they needed by doing a little data massaging. With AI, the state of your data is now exposed at scale. If you were to give AI access to all of your datasets at one time, it would likely be impossible for an LLM to make heads or tails of it without a human providing guidance around what to do with any lack of clarity. The amount of effort it would take to try to reconcile all the issues in your data would likely far outweigh the effort to manually clean up your data to begin with."
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "This means that the person who owns your data definitions now owns your AI solutions.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Alternatively, in the absence of you making a choice about how to define your data, AI is going to make that choice for you. That's fine if you want AI to run your business for you or effectively serve as decision-maker for your organization. Some might even say this is the future of autonomous AI. I'm not going to argue here whether or not this is achievable or an ideal future for business or even our society. I will argue, however, that this is not the path to AI you can trust."
+        },
+        {
+          "type": "paragraph",
+          "text": "If you want trustworthy AI, at some point, some human somewhere has to make a choice. That choice should be based in clarity about what your business does and what success looks like."
+        },
+        {
+          "type": "paragraph",
+          "text": "If you don't know what success is for you, how will you ever know what it looks like for AI?"
+        }
+      ]
+    }
+  ],
+  "faq": [],
+  "postFaqContent": [],
+  "suggestedTaxonomyTerms": [
+    "Semantic Layer",
+    "Enterprise AI",
+    "Data Governance",
+    "Analytics",
+    "AI Strategy"
+  ],
+  "cta_list": [
+    {
+      "headline": "Take control of your data and AI solutions",
+      "body": "Take control of your data and AI solutions with Mosaic today.",
+      "buttonText": "Mosaic",
+      "buttonUrl": "https://software.strategy.com/strategymosaic"
+    }
+  ],
+  "internalLinks": [
+    "/blog/stop-overengineering-problems-you-dont-have"
+  ],
+  "externalLinks": [
+    "https://software.strategy.com/blog/stop-overengineering-problems-you-dont-have?_gl=1*kct8n9*_gcl_au*MTUzNjc4MDU1Ny4xNzgwMzI0MjEy",
+    "https://software.strategy.com/strategymosaic"
+  ],
+  "validationWarnings": [
+    "No author name or publish date found in the document.",
+    "The [BOLD] tag before section headings (e.g. 'AI as a Force for Clarity', 'Giving Power Back to Your Business', etc.) appears to indicate H2-level headings formatted as bold paragraphs rather than semantic H2 tags — treated as H2 section headings based on document structure.",
+    "The CTA at the end of the document is inline within a paragraph ([B]CTA[/B]: ...) rather than in a [BOX] element — extracted to cta_list based on action-oriented content and link presence.",
+    "Internal link path extracted by stripping the query string from the full URL for the overengineering post — full URL with query string preserved in externalLinks.",
+    "No hero image or video found in the document.",
+    "No FAQ section detected.",
+    "publishDate was not found in the document — defaulted to tomorrow (2026-07-21T00:00:00.000Z). Confirm before publishing.",
+    "No Quick Answer box found in document — 3 bullets synthesized from article content. Review before publishing and edit in the Contentstack editor if needed."
+  ]
+}

@@ -1,0 +1,1768 @@
+{
+  "entry": {
+    "title": "v2 -- Your Data Is Free Now. Your Meaning Is the Lock-In.",
+    "url": "/software/blog/your-data-is-free-now-your-meaning-is-the-lock-in",
+    "lead_paragraph": {
+      "type": "doc",
+      "attrs": {},
+      "uid": "fa108a968d1948f980c77fa80c0813c4",
+      "children": [
+        {
+          "text": ""
+        }
+      ],
+      "_version": 1
+    },
+    "content": [
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "37abe3821ca041cd971c4226cea9c7e7",
+            "children": [
+              {
+                "type": "h3",
+                "uid": "33917f4f3a154a78a7fa46227d76d4db",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Quick Answer",
+                    "attrs": {
+                      "style": {
+                        "color": "rgb(26, 78, 159)"
+                      }
+                    },
+                    "bold": true,
+                    "font-color": "#fa660f"
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "uid": "610534aff7a346c5bafe91032abf6671",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "li",
+                    "uid": "d0820c7e69eb4970afa4ea3efdcaa92c",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "0a7999c521414e5ab8a675bfe3c09301",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Every major platform converged on a context layer, and that is where lock-in now lives.",
+                            "bold": true
+                          },
+                          {
+                            "text": " Snowflake, Databricks, AWS, Microsoft, and SAP all shipped meaning layers in 2026, relocating vendor lock-in from storage to semantics."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "77eff1c885db40ada5882ec880f26183",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "79ed68aec0a348cea7ac2310463a3f3a",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Business meaning such as definitions, ontologies, and governance does not travel inside a Parquet file.",
+                            "bold": true
+                          },
+                          {
+                            "text": " Open table formats freed the bytes, but the business context that makes data useful remains trapped inside each platform's engine."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "ca5de2c04ecd4bac87b5dd712e3386e3",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "67d6aa1f2ee34b218487e28a6f699cd5",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "You are paying on two meters simultaneously and you funded the lock-in yourself.",
+                            "bold": true
+                          },
+                          {
+                            "text": " Every context lookup burns token spend and platform compute at once, and the meaning was auto-built on your dime inside their control plane."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "csb3657177390226cd"
+          }
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "04e96b4b08fd4620b0d37b27821bd7b8",
+            "children": [
+              {
+                "type": "p",
+                "uid": "96c9fdbd025b44f99403b1e94bc962c0",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "ON ENTERPRISE AI · 2026     |     A FIELD GUIDE FOR DATA & AI LEADERS",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "5e7a0c8aa6b5497696e334fbf37115bb",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "I spend my weeks with two kinds of leaders. The data leaders bolting AI onto a foundation that was never built to hold it, watching it stall. And the leaders handed an AI mandate who have never once had to think about the data underneath them. Different chairs, same result. The invoice climbs every month and the value never arrives."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "12a861ffe2054035ad03f6f2e23e6487",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "You can see it in the numbers most people are too polite to say out loud. The most cited enterprise study of the year found that the large majority of AI pilots produced no measurable return, and the reason was almost never the model. The systems simply did not understand the business they were supposed to serve. At the same time the spend keeps compounding. Gartner now has worldwide AI spending crossing two and a half trillion dollars this year. So we have the most expensive technology wave in a generation landing on the thinnest results anyone has seen, and the space between those two facts is the most important thing happening in enterprise data right now."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "d5bab099b8aa4c42abdc27ee49ecb21c",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The reason is not the model. It is not the effort either. The meaning got left behind. And the platforms just spent their biggest launches of the year proving it."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cse4157afbe0270f72"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "Everyone built the same thing in the same quarter",
+          "_metadata": {
+            "uid": "cscd6966bfb3693e50"
+          },
+          "section_id": "everyone-built-the-same-thing-in-the-same-quarter"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "e5e981f9328d44068c80843c53bcb09b",
+            "children": [
+              {
+                "type": "p",
+                "uid": "8c4bdd60560e4fc48e5de4011feca875",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "If you only read the headlines from this year's summits, you saw a hundred separate product launches and a lot of noise about agents. Read them together and the noise resolves into a single, almost startling agreement. Every major platform built a context layer."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "csf41dcfa8a836d7a7"
+          }
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "13735a4e8556467d89b499b7602c21bd",
+            "children": [
+              {
+                "type": "p",
+                "uid": "a4cfca98d0814657b06643b072d9f974",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "[IMAGE PLACEHOLDER]",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "1214d51a90ae441b8c99cc3cebeb0671",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Upload asset to Contentstack and replace this placeholder — source: image_0.png"
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs797efe0cc8ae086e"
+          }
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "2c45f5ca345f4813b22c634b69990359",
+            "children": [
+              {
+                "type": "p",
+                "uid": "2b0490bb67064ce8831b3cf69890a80f",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Five companies with different origins, building the same capability in the same season."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "d44e167225a7441aa8e45b2d745e699b",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Snowflake shipped Horizon Context and Cortex Sense. Databricks shipped Genie and Unity Catalog Semantics. AWS shipped Context, a knowledge graph that grounds agents in governed data. Microsoft has Fabric IQ doing the same across its lake. SAP is leaning on the business logic it has authored for fifty years. Five companies with wildly different origins and philosophies, building the same capability, in the same season, and spending their flagship keynotes on it."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "e5055b8cfc5242979cd9ad8228add412",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "When competitors who agree on nothing else suddenly converge on one thing, that is not a coincidence and it is not a fad. It is the market telling you where the value moved. For a decade the fight was about storage and compute. This year the fight quietly relocated to the layer that sits on top of the data and tells the machine what the data actually means. That relocation is the whole story, and almost nobody is pricing it correctly."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs60afca6d996114a7"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "Give the silo war its due, because we won it",
+          "_metadata": {
+            "uid": "cse7421b871cb9588e"
+          },
+          "section_id": "give-the-silo-war-its-due-because-we-won-it"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "95e89501e5324c798d9cb452681bc105",
+            "children": [
+              {
+                "type": "p",
+                "uid": "ebe53be49c094515a4757a7b54b10a88",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Start with the genuinely good news, because it is real and it earned. For years the entire industry fought to get data out of its silos, and we more or less won that war. Apache Iceberg became the common table format, so your data is no longer trapped in one vendor's proprietary storage. The warehouses learned to read each other's catalogs. Zero-copy sharing retired whole categories of pipelines that used to exist only to move bytes from one place to another. And the Model Context Protocol gave agents a standard doorway into the systems where work actually happens."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "b4314996de424c7d854624164ce977ce",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Add it up and your data is more portable today than it has ever been. You can keep it in an open format, leave it where it lives, and let almost any engine reach it without copying or rewriting a thing. If the entire game were moving data from one place to another, we could declare victory and go home."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "7a80af77e0ec4fc7b79b222f92986a33",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "We cannot, and the reason is the part the launch coverage skips entirely."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "csb486c1f8353c0afa"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "Moving the data is not the same as moving what it means",
+          "_metadata": {
+            "uid": "csfa9b21bd5fbe37cd"
+          },
+          "section_id": "moving-the-data-is-not-the-same-as-moving-what-it-means"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "cfbf5ca5b6a647d3b67516e4f96fa37e",
+            "children": [
+              {
+                "type": "p",
+                "uid": "5cba5d93b389478b8d509743177f35b0",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "A table is just rows and columns until someone tells you what the columns mean. A file full of numbers does not know that your fiscal year starts in February. It does not know that revenue excludes intercompany sales, or that a customer does not count until the contract is signed, or which of your six competing definitions of an active user is the one the board actually sees on the slide. All of that, the business meaning that turns raw data into something a person or an agent can reason about, lives in a separate layer entirely. And that layer does not travel inside a Parquet file."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "0a66cd401ad24a8ea9f999b4e1ba8811",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "A way to picture it. Think of your open data as a pile of words, perfectly portable, that you can ship anywhere. Context is the dictionary that tells you what those words mean in your business. You can hand someone every word you own, but without the dictionary they cannot read a single sentence. The data got standardized. The dictionary did not, and that is the layer this whole article is about.",
+                    "bold": true,
+                    "attrs": {
+                      "style": {
+                        "color": "rgb(233, 112, 50)"
+                      }
+                    },
+                    "font-color": "#fa660f"
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "c18c763686f545eda6eb387a234f002a",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "This is the layer every platform just built. And here is the thing that should stop a value engineering leader cold: they are building it out of your own data, automatically, and you are paying for the privilege. More on that meter later. First, how they build it, because the how is where the lock-in hides."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs0f1a7ea1110279b4"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "How the platforms build your context",
+          "_metadata": {
+            "uid": "cs48c174ce5b546391"
+          },
+          "section_id": "how-the-platforms-build-your-context"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "33bae37966cb458aadff9b9b5b860c8c",
+            "children": [
+              {
+                "type": "p",
+                "uid": "02a41076966a4568a0434e351a7a8e9f",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Each platform constructs that meaning a slightly different way, but the move is the same: read everything around your data and assemble a model of what your business means."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "36a94ebee4d547a9ac39846929330f83",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Databricks calls its version Genie. It learns continuously from your tables, your past queries, your dashboards, your pipelines, and the apps you have connected to it, and it assembles a living picture of how your business fits together. It even ranks competing definitions by a kind of authority score, so the metric that is used most and trusted most rises to the top."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "851a06d932a145618746bdaa827afb55",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Snowflake calls its version Horizon Context, paired with Cortex Sense. It reads your schemas, your query history, your lineage, your dbt models, and your BI tools, and instead of caching one static model it assembles the right context the moment an agent asks a question. Snowflake also keeps a deliberate split: people curate and govern the definitions, and the runtime engine serves them to agents."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "47c55e2bedc742989b6013e100b98fb6",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "AWS shipped Context, which maps the relationships across your governed data into a knowledge graph and lets agents search it at query time. It routes the inferred relationships through human data stewards who promote them to production before any agent is allowed to trust them."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "a8cb010d7e0148ec94ebb671f44ce84e",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Microsoft's Fabric IQ does the same over OneLake, and it can bootstrap from the Power BI semantic models many enterprises already have. SAP takes the opposite road entirely. It does not need to infer meaning from metadata because it already authored that meaning across fifty years as the system of record, so it hands the definitions down from the top."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "3eed04591b2245b5abb20e378c23722e",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Notice what every one of them quietly admits. Each keeps a human in the loop. Snowflake curates. Databricks pairs its automation with an annotated glossary. AWS routes through stewards. They all know the same uncomfortable truth: the machine can draft the meaning, but a person still has to decide which revenue number is the official one. That decision has never been a technology problem. It is a political one, and it is the part of this work that has been hard since long before any of this. I call the cost of that decision the reconciliation tax. Most companies have paid it for years without naming it, in the merger that never fully integrated, in the five teams with five versions of one metric, in the dashboard nobody quite trusts. AI does not remove that tax. It makes it urgent, because now an agent will act on whichever definition it was handed, confidently, at machine speed."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs239c4fd49b3bf3b5"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "The model was never the bottleneck",
+          "_metadata": {
+            "uid": "cs6ca0f48b539c4dd3"
+          },
+          "section_id": "the-model-was-never-the-bottleneck"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "3815b549baa64151a5489b807b150c52",
+            "children": [
+              {
+                "type": "p",
+                "uid": "6ba5be3bcbe34155846a2b53e94db720",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "I want to say something plainly, as someone who has spent his career on the data side of this rather than the model side. The model is not the hard part anymore, and you do not have to take my word for it. The vendors proved it with their own benchmarks, almost against their own marketing instinct."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "csb52fa071994ea2bc"
+          }
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "6d23d3ba4b994743b73e66318dfe6678",
+            "children": [
+              {
+                "type": "p",
+                "uid": "3d1df5360af443d3bf8ba802de3168a5",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "[IMAGE PLACEHOLDER]",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "329041187fd040b098e5c8f7374ac8dc",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Upload asset to Contentstack and replace this placeholder — source: image_1.png"
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "csf4e8b239fae8d9ee"
+          }
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "eb2b3e95474047ca946700a2953c97ff",
+            "children": [
+              {
+                "type": "p",
+                "uid": "924e99e4d1b34af398aea33733aa4494",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Snowflake's own testing: the same agents climb from 23% to 83% as more governed context is switched on. Cortex Sense was in private preview, so treat 83% as a near-future figure."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "e7a05adc6f9947d0a408373bda4997a9",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Snowflake put real numbers on it, from its own internal testing on complex enterprise questions. A frontier coding agent reaching into Snowflake with just the standard connector answered 23 percent of them correctly. Snowflake's own CoWork and CoCo agents, which sit inside the platform's governance, reached 47 percent. Turn on Cortex Sense, the layer that assembles the business context at runtime, and the same agents hit 83 percent. Databricks reported a similar jump with its Genie Ontology, 52.4 percent for the strongest general-purpose coding agent against 84.5 percent for Genie. One honest caveat: these are vendor numbers measured on their own test sets, and Cortex Sense was in private preview when Snowflake published that 83 percent, so treat it as a near-future figure rather than today's shipping product."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "be2746d6a89d4e5cacff9bc1fae142b2",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Read those numbers and the conclusion is hard to avoid. What separated the worst result from the best was not a smarter model. It was more business context. Frontier intelligence is becoming abundant and close to interchangeable. What separates a system you can trust from an expensive demo is the meaning you feed it. So when a vendor tells you the differentiator is their model, be skeptical. The differentiator is the context, and the real question is who controls it."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs0620700f0cfca002"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "What that context is actually made of",
+          "_metadata": {
+            "uid": "cs3a9c4421ea0d0553"
+          },
+          "section_id": "what-that-context-is-actually-made-of"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "292d8b67840249249fdffaf94345c56f",
+            "children": [
+              {
+                "type": "p",
+                "uid": "903c7b9887654c9d867f6eaf8efff184",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "If context is the prize, it is worth being precise about what sits inside it, because not all of it carries equal weight. Two parts do the heavy lifting."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs396cffc87356736d"
+          }
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "1befabc473eb472a964749320707225f",
+            "children": [
+              {
+                "type": "p",
+                "uid": "d522730df68d405f8091a098f9fbce9e",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "[IMAGE PLACEHOLDER]",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "e04cbe64e93c4c868b7cf93af0ac5325",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Upload asset to Contentstack and replace this placeholder — source: image_2.png"
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "csbb827b1baeee95be"
+          }
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "d87d75309cc34339891160600005b51d",
+            "children": [
+              {
+                "type": "p",
+                "uid": "462119d2b8d24c018106db66faedc407",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The two parts that carry the weight: what the numbers mean, and how they connect."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "c571e65c4c1c4a8eb0c7f3d61c2fbaca",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The first is the semantic layer. This is the governed set of definitions, the authoritative answer to what a number actually is, so that revenue means the same thing on Tuesday that it meant on Monday no matter which tool or agent asks. Everything else depends on this, because a relationship built on a wrong number is just a confident wrong answer delivered faster."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "449bdb213ae64a19803faeb4c4e72ac4",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The second is the ontology. This is the map of how things connect: that a customer is a kind of account, that an order ties to a product through a line item, so an agent can reason across the business instead of looking up one isolated fact at a time. Graphs, lineage, and governance live alongside these too, but the semantic layer and the ontology are the two pieces that decide whether the rest is worth anything. Get the definitions right and the relationships right, and you have something an agent can actually be trusted with. Get them wrong, and a better model just helps you be wrong at scale."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs8bf249bd668c4904"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "The lock-in moved to the context layer",
+          "_metadata": {
+            "uid": "csb28f03ffbffad757"
+          },
+          "section_id": "the-lock-in-moved-to-the-context-layer"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "460a69040d344788a84d35c6ceb7e034",
+            "children": [
+              {
+                "type": "p",
+                "uid": "1c5bb8e88f1a4b75ab462fad1b5f5e2f",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Now the turn, and it is the entire point of this piece. The platforms build that context beautifully. But the context only works inside their house."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs5c0901cd304ad04f"
+          }
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "08687523c3394d2ba94b540c017c3a16",
+            "children": [
+              {
+                "type": "p",
+                "uid": "bc77611ad96f41fa82cec3a44b64e7f6",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "[IMAGE PLACEHOLDER]",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "012556b6912d4e11a1441bd6081c6aed",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Upload asset to Contentstack and replace this placeholder — source: image_3.png"
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cse37f7f2408d38326"
+          }
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "1e711b3bb1b34fd1a1fb1a388e34c93c",
+            "children": [
+              {
+                "type": "p",
+                "uid": "88c9e2fd2a9f4b3e80d7e883510334d7",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Storage and compute opened up, and you won that. The lock simply moved one floor higher."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "37c29c358778408b91b7708b685939a4",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "You can take your data anywhere. Iceberg made sure of that, and it is genuinely yours to move. But the moment you want to use the meaning, you come back to their platform. The definitions run through their engine. The governance is enforced at their catalog. The ontology and the agent identities live in their control plane. If you have to return to the platform to use your own meaning, and you are pushed to lean on the rest of their stack to do it, that is the lock-in. Plainly. No marketing language required."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "6d2db2c3987046fe8cd295c135c80ca8",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "So say it without flinching. The lock-in moved to the context layer. It used to live in storage and compute, and that fight is over, and the customer mostly won it. It moved up one level, into the meaning. An open table format is not the same as open meaning. The bytes are free to roam. The understanding that makes the bytes useful is not."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "f3517cd2b2c94b5cb050e3f03ae0b992",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "And the cruel part is that the understanding is the expensive part. The data was always replaceable. You can copy it, move it, regenerate it. Your business meaning is the thing you cannot easily rebuild, because it took years of human argument to settle and it encodes how your specific company actually works. That is precisely the asset that just got welded to one vendor's engine."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs86ecf4d385c571d9"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "So where should your context live?",
+          "_metadata": {
+            "uid": "cs7688166bdf28326b"
+          },
+          "section_id": "so-where-should-your-context-live"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "34e12dad80724c20a2ebef9ff56684c3",
+            "children": [
+              {
+                "type": "p",
+                "uid": "498588091a53411d9bc212c37b9918d7",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Once you accept that the lock-in moved to the context layer, the real question gets simple and a little uncomfortable. There are only three places your context can live, and they are not equal."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs7573a16a43ab72bf"
+          }
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "c6346f9df4a341ce999fa5b8a67edaf9",
+            "children": [
+              {
+                "type": "p",
+                "uid": "62475cbddcb04265b90844a58a526bbb",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "[IMAGE PLACEHOLDER]",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "a415c626e9b941bfae52efc9091e03cf",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Upload asset to Contentstack and replace this placeholder — source: image_4.png"
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "csd9962489fd155375"
+          }
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "5ae295bfd8fc4870a278ab221bb37b62",
+            "children": [
+              {
+                "type": "p",
+                "uid": "6cb47fafd1504449a14aa9d8991c5cbb",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Three places to put your context. Only the independent layer lets meaning travel across every source and model."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "33dc0effd2ed4682985a5b8906073ee2",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "It can live inside the model. This is the wrong layer, and it is worth being clear about why, because a lot of early AI projects started right here. You feed your business meaning into the prompt, and it burns tokens on every single call. The context window is finite, so it does not scale to the breadth of a real enterprise. It is ungoverned, with no lineage, no access control, and no human who ever decided that this definition was the official one. And worst of all, it chains your meaning to one model. The whole point of an open AI strategy is to pick the best model this year and a different one next year. If your context is engineered into a single model, you redo that work every time you switch, so you either overpay forever or you quietly stop switching. Your meaning should outlive any model you happen to be running this quarter."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "43305ea87c124fa6904354ab69839fda",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "It can live inside the data platform. This is governed and genuinely powerful, and for some companies it is the right answer. But it is structurally caged, for three reasons. First, it is bound to one engine. A semantic view defined in Snowflake runs in Snowflake. Databricks metric views run in Databricks. The definition does not port. So if you run both, and most large enterprises do, you define revenue twice and the two slowly drift apart. Second, it only sees its own data. The platform builds meaning out of the data and metadata it holds, so it cannot author governed meaning across SAP, Salesforce, Oracle, and the files sitting outside it, except through partial federation. Third, its incentive runs opposite to yours. The platform earns when compute and tokens spin, so it has no reason to make that layer cheaper for you."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "36c2f951e28942fcb675205990c04bb0",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "And the lock-in there costs far more than the extra compute everyone expects. You also pay token spend on their meter that you cannot optimize away, because you do not control the layer. You pay a redefinition tax, settling your key metrics once per platform and then paying forever to reconcile the drift. You inherit model lock, because their agent runtime is tuned to their own AI. You lose negotiating leverage at renewal, because your meaning is hostage and you cannot credibly threaten to leave. You get governance fragmentation, with lineage and access enforced differently in each house. And you feel data gravity, because once your meaning lives there you are pulled to move more data and more workloads in to keep it coherent, which tightens the lock every quarter. If you ever do try to leave, you rebuild the entire semantic and ontology asset from scratch."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "87eb15d1be3c4997b7f8dd4f21d6f690",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The third place is an independent layer that you own. Defined once, sitting across every source, readable by any model, and built for efficiency because efficiency is the only thing it sells. That is the one option where your meaning travels, your governance stays consistent, and you keep the leverage. It is not that the platforms build a bad dictionary. They build a very good one. They just build it inside a library that only opens for them."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "csafa6ca3cf2999422"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "You are paying on two meters, not one",
+          "_metadata": {
+            "uid": "csc1f867f991c4d10e"
+          },
+          "section_id": "you-are-paying-on-two-meters-not-one"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "713e119ac9f9454e95c2c27f3b746ec3",
+            "children": [
+              {
+                "type": "p",
+                "uid": "12845beaffaf473c8d60101692bf112f",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "This is the part I see most clearly from the value engineering seat, and the part that almost never makes it onto a keynote slide. When your meaning lives in their house, you pay on two meters at the same time."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cse189afccf5b90d2d"
+          }
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "869ca4bacd8740a7834439fd5836f42f",
+            "children": [
+              {
+                "type": "p",
+                "uid": "3cac02a0235e45cda95ea919dbf44154",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "[IMAGE PLACEHOLDER]",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "5f7ff823f4ec413ba0563a847970b8b2",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Upload asset to Contentstack and replace this placeholder — source: image_5.png"
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs325f3de53fea01de"
+          }
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "e85f7c5c62dc466680f92bb324f40cd9",
+            "children": [
+              {
+                "type": "p",
+                "uid": "31d800ebda46410fa10a3e4c745358b7",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Both meters run hot inside the platform. An independent layer slows both."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "363eccadb94740b5af2092ccb64e27f6",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The first is the token meter. Every time an agent answers a question, it assembles the context at runtime, and that assembly burns tokens. A short question does not stay short. By the time the system has found the right tables, pulled the definitions, walked through a few reasoning steps, and called a tool or two, an eleven-word request has quietly become thousands of tokens, sometimes tens of thousands. Gartner estimates that an agentic task burns somewhere between five and thirty times the tokens of a simple chatbot reply. Per-token prices keep falling, which sounds like relief and is not, because the volume is climbing far faster than the price is dropping. I have watched a team's monthly AI spend go from a rounding error to a number the finance leader circles in red. One engineering organization reportedly burned through its entire annual AI budget in four months once coding agents caught on. There are documented cases of a single autonomous run racking up thousands of dollars in tokens before it produced anything useful."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "226a44709f9942088ec7778e6b4c5a53",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The second is the platform meter. Every one of those context lookups also fires a query on their engine, on their compute, billed their way. So one business question spins two meters at once, and both of them belong to the platform."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "70bb3125d63c4b47a8b3143f4b6b56c8",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Here is where independence changes the math, and changes it twice. Hand a model a clean, governed set of definitions instead of a pile of raw tables to interpret, and it reads less, guesses less, and loops less. In practice that is roughly half the tokens for a typical question, and with an agent architecture that answers straight from the governed layer instead of re-reasoning from scratch every time, token deflection can climb as high as ninety-eight percent. That is the token meter slowing down. At the same time, an independent layer caches the common answers, pre-builds the heavy aggregations, and pushes only the smallest necessary query down to the warehouse, so far fewer queries actually hit your compute. That is the platform meter slowing down too. And because your meaning is not trapped in one house, you keep your negotiating leverage at renewal instead of paying whatever the meter happens to read."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "195d05cf0c0143be9c6692c114353861",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The logic underneath all of it is simple and worth stating bluntly. A platform earns money when the meter spins. It has no reason on earth to help you spin it less. An independent layer earns nothing when the meter spins. It only wins when your meters slow down, so making them slow down is the entire job. Those are not equivalent incentives, and you feel the difference on every invoice."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs3ab040e7983bfb6d"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "And you funded the thing that locks you in",
+          "_metadata": {
+            "uid": "cs9d16ea92c1175317"
+          },
+          "section_id": "and-you-funded-the-thing-that-locks-you-in"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "d45f8f6de570480981a4145c07d347ba",
+            "children": [
+              {
+                "type": "p",
+                "uid": "ef02b0bf765441608a851d585e68aa31",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "There is one more turn of the screw, and it is the detail that should make a finance leader put the pen down. That context the platform built for you, so helpfully and automatically out of your own data, you paid for it. Every bit of it was assembled on your token meter and your compute meter. The single most valuable and least portable asset you now own, the one thing that would cost the most to rebuild anywhere else, you funded its construction inside someone else's control plane. You did not just accept the lock-in. You paid to build it, by the token, and you will keep paying to maintain it."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs320544962eef93ab"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "The honest other side, because there is one",
+          "_metadata": {
+            "uid": "cs2770b2af95a395b1"
+          },
+          "section_id": "the-honest-other-side-because-there-is-one"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "a6618281304149d1b2a53f162739a078",
+            "children": [
+              {
+                "type": "p",
+                "uid": "652f761b0ffb4644aed058d15f8aeefb",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "I am not going to pretend a single platform is always the wrong answer, because it is not, and you should distrust anyone who tells you otherwise. For plenty of companies, keeping everything in one house is exactly right. You move less data. You pay fewer egress bills. You secure fewer copies. You govern one system instead of stitching five together, and you get to value faster because there is simply less to coordinate. If you are genuinely a single-platform company and you fully intend to stay one, take the native context layer and do not look back. It will be the fastest path you have."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "4c78490b0f484429a78e780c06ca97b1",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The mistake is not choosing a platform. The mistake is pouring your business meaning into one without realizing you just made the most expensive and least reversible architectural decision of the decade, and without ever asking for a way back out.",
+                    "bold": true,
+                    "attrs": {
+                      "style": {
+                        "color": "rgb(233, 112, 50)"
+                      }
+                    },
+                    "font-color": "#fa660f"
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "1b7bd3fe1acc4b2da421d6ada3dde8db",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "And here is the inconvenient fact that applies to most large enterprises: you are not a single-platform shop, whatever the architecture diagram on the wall claims. The buyers' surveys keep finding the same pattern, that a clear majority of Databricks accounts also run Snowflake, a large share of Snowflake accounts also run Databricks, and nearly all of them have SAP and Oracle somewhere underneath, plus a long tail of older systems no one wants to touch. If that is your reality, a context layer that only works inside one of those houses does not solve your problem at all. It relocates the problem, and it charges you for the move."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs7588bb44eff64759"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "What I would actually put on the table",
+          "_metadata": {
+            "uid": "csc7815173022486f7"
+          },
+          "section_id": "what-i-would-actually-put-on-the-table"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "859d5a1bc39c4b17a35edc4ab2a64794",
+            "children": [
+              {
+                "type": "p",
+                "uid": "0cb0ec5ab9b7400e87824130ca75ff7e",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Not as a pitch. As the questions I would ask if I were sitting on your side of the table."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "13e1ca67f636467b98f509f76ec45355",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Treat context as a contract term, not a feature. Before you deepen any single-platform context investment, get the answer in writing. Can you export the semantic models, the glossary, the ontology, and the lineage in an open, portable format, and who owns the context the platform auto-generates from your data. If moving your meaning to another platform would take more than a quarter, you are locked in, and you should price that into the deal the way you once priced egress."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "1101e4a0d26a4eb087eeac247b8245c0",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Open the data, hedge the meaning. Standardizing the data layer on open formats is low risk, so do it now. But keep the authoritative version of your most important definitions, what revenue means, what a customer is, in a layer that does not belong to any single platform, and let each platform's native context enrich those definitions rather than own them."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "b45aaa79c75e4ff5be4669a48d33c184",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Instrument the bill before you scale agents, not after. Model your token cost per workflow, not per chatbot, because the agentic multiplier is the thing that turns a pilot into a budget crisis. Put hard spend caps and cost-per-outcome reporting in place before a fleet of agents is loose on your data."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "bb288faf177547809339b6de8738c172",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Make the consolidation call on purpose. Decide deliberately whether you are a one-platform company or a multi-platform one, and choose your context strategy to match. Either answer can be correct. Drifting into one by accident is the only answer that is wrong."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "7f499f256e7b4141b4f98b1cc7ea4469",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Fund the human part. Budget for the stewards and the cross-functional group that settles which number is official, because the automation will carry you most of the way and then stop exactly at the hard part. Assuming the machine will make that call for you is how you end up with a confident agent and a wrong answer."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "csc48bbe90b4077338"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "The question that cuts through all of it",
+          "_metadata": {
+            "uid": "csa4fe4440261e5501"
+          },
+          "section_id": "the-question-that-cuts-through-all-of-it"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "a2283f1f36974f47b42e42052994f56c",
+            "children": [
+              {
+                "type": "p",
+                "uid": "6f782b9e53cb47cbb51b2694c65125da",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The vendors have placed their bets, and the announcements are just them turning their cards face up. The convergence is the real signal in all the noise. This is not one company's gamble you can wait out. It is the shape of the category now, and the decision is already in front of you whether anyone framed it for you or not."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "db820cb85e4141538f34370ebda7f57a",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "So before you sign anything, make every platform answer one question in plain language. Where does my business meaning live, who pays to build it, and can I take it with me when I leave. If the answer is clean, wonderful. If it is not, you are not buying a platform. You are buying a switching cost with a very good user interface."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "4119b980179d462d84ac602811d40a0d",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The lock-in moved to the context layer while everyone was busy admiring the agents. The leaders who notice first, and who keep their meaning in their own hands, are the ones who will still have leverage when the bill comes due.",
+                    "bold": true,
+                    "attrs": {
+                      "style": {
+                        "color": "rgb(233, 112, 50)"
+                      }
+                    },
+                    "font-color": "#fa660f"
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "csf784244da4920296"
+          }
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "4c801b3a3a0444bcbca8d431da9183e7",
+            "children": [
+              {
+                "type": "h4",
+                "uid": "907e18e8101947ceafd1adf8d98268ef",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "",
+                    "font-color": "#fa660f"
+                  }
+                ]
+              },
+              {
+                "type": "h4",
+                "uid": "580ba11c9f814435b19661fd83581d78",
+                "attrs": {},
+                "children": [
+                  {
+                    "font-color": "#fa660f",
+                    "text": "SOURCES"
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs2cc6dc34eeb8c23f"
+          }
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "2b327c6fe84b4ba28ced6995dac5ecbc",
+            "children": [
+              {
+                "type": "h4",
+                "uid": "e78a3630689d487fa03cf6df2dc50f0a",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "",
+                    "font-color": "#fa660f"
+                  }
+                ]
+              },
+              {
+                "type": "h4",
+                "uid": "20a02bc56dc645a99dada89ed9d7889e",
+                "attrs": {},
+                "children": [
+                  {
+                    "font-color": "#fa660f",
+                    "text": "Accuracy figures"
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "613afdaf267b4a37b71321bbef5f9f93",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Snowflake (23% / 47% / 83%, Cortex Sense in private preview): Snowflake CoWork: The Personal Work Agent for Every Knowledge Worker, Snowflake blog, June 2026. "
+                  },
+                  {
+                    "type": "a",
+                    "uid": "32bb08d42fc04fe6bc1afceebd0fd9ba",
+                    "attrs": {
+                      "url": "https://www.snowflake.com/en/blog/snowflake-cowork-personal-work-agent/",
+                      "target": "_blank"
+                    },
+                    "children": [
+                      {
+                        "text": "https://www.snowflake.com/en/blog/snowflake-cowork-personal-work-agent/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "1f6bc6356cff44f49d2841d6001965f9",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Databricks (52.4% vs 84.5% with Genie Ontology, internal 28-question benchmark): Introducing Genie One, Genie Agents, and Genie Ontology, Databricks blog, June 2026. "
+                  },
+                  {
+                    "type": "a",
+                    "uid": "24207a6f8d6848a8a988209379f50788",
+                    "attrs": {
+                      "url": "https://www.databricks.com/blog/introducing-genie-one-genie-ontology-and-genie-agents",
+                      "target": "_blank"
+                    },
+                    "children": [
+                      {
+                        "text": "https://www.databricks.com/blog/introducing-genie-one-genie-ontology-and-genie-agents"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs3aa5eed7cac3df84"
+          }
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "781001ba297046a69bffb2ee9b1e10c8",
+            "children": [
+              {
+                "type": "h4",
+                "uid": "87ad1f77663447cca9fe8227f1b8506b",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "",
+                    "font-color": "#fa660f"
+                  }
+                ]
+              },
+              {
+                "type": "h4",
+                "uid": "78fb8b4e66f640f89ab915d0cab8292d",
+                "attrs": {},
+                "children": [
+                  {
+                    "font-color": "#fa660f",
+                    "text": "Market and cost figures"
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "c4901a35d0c84026b4d394346510114b",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "95% of enterprise GenAI pilots show no measurable P&L return: The GenAI Divide: State of AI in Business 2025, MIT Project NANDA, July 2025. Coverage: "
+                  },
+                  {
+                    "type": "a",
+                    "uid": "467e453a636246f5996259cd634b5116",
+                    "attrs": {
+                      "url": "https://fortune.com/2025/08/18/mit-report-95-percent-generative-ai-pilots-at-companies-failing-cfo/",
+                      "target": "_blank"
+                    },
+                    "children": [
+                      {
+                        "text": "https://fortune.com/2025/08/18/mit-report-95-percent-generative-ai-pilots-at-companies-failing-cfo/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "899e332e411b400d9dded7799d5e8e32",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Worldwide AI spending over $2.5 trillion in 2026: Gartner Forecasts Worldwide AI Spending to Grow 47% in 2026, May 19, 2026. "
+                  },
+                  {
+                    "type": "a",
+                    "uid": "2a7b3d8bfb36412b9e763cedab682de7",
+                    "attrs": {
+                      "url": "https://www.gartner.com/en/newsroom/press-releases/2026-05-19-gartner-forecasts-worldwide-ai-spending-to-grow-47-percent-in-2026",
+                      "target": "_blank"
+                    },
+                    "children": [
+                      {
+                        "text": "https://www.gartner.com/en/newsroom/press-releases/2026-05-19-gartner-forecasts-worldwide-ai-spending-to-grow-47-percent-in-2026"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "da6cdb2e8a0f4edebb55fd5440b0a458",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Agentic tasks use 5 to 30 times the tokens of a chatbot: Gartner Predicts That by 2030, Performing Inference on an LLM With 1 Trillion Parameters Will Cost GenAI Providers Over 90% Less Than in 2025, March 25, 2026. "
+                  },
+                  {
+                    "type": "a",
+                    "uid": "77da1983717e4d8bbe707e46f48e8988",
+                    "attrs": {
+                      "url": "https://www.gartner.com/en/newsroom/press-releases/2026-03-25-gartner-predicts-that-by-2030-performing-inference-on-an-llm-with-1-trillion-parameters-will-cost-genai-providers-over-90-percent-less-than-in-2025",
+                      "target": "_blank"
+                    },
+                    "children": [
+                      {
+                        "text": "https://www.gartner.com/en/newsroom/press-releases/2026-03-25-gartner-predicts-that-by-2030-performing-inference-on-an-llm-with-1-trillion-parameters-will-cost-genai-providers-over-90-percent-less-than-in-2025"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "0ef90be79b204d04aba12184f6f186a1",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Most large enterprises run both Snowflake and Databricks (roughly 60% of Databricks accounts also run Snowflake): ETR / theCUBE Research, 2024. "
+                  },
+                  {
+                    "type": "a",
+                    "uid": "40687c62be424406b484c4e49b9b8a84",
+                    "attrs": {
+                      "url": "https://siliconangle.com/2024/07/27/databricks-vs-snowflake-not-zero-sum-game/",
+                      "target": "_blank"
+                    },
+                    "children": [
+                      {
+                        "text": "https://siliconangle.com/2024/07/27/databricks-vs-snowflake-not-zero-sum-game/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "csab5230f1bb92116e"
+          }
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "764c6359c46e4f43b7f68fbfe2925a76",
+            "children": [
+              {
+                "type": "h4",
+                "uid": "cdc070a3ebb34b7780c3e28a38818b63",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "",
+                    "font-color": "#fa660f"
+                  }
+                ]
+              },
+              {
+                "type": "h4",
+                "uid": "0f79107aef6d4624b6bebcff25f3433b",
+                "attrs": {},
+                "children": [
+                  {
+                    "font-color": "#fa660f",
+                    "text": "Platform context products"
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "27f8afe04e954962a7e83540b81a19d8",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "AWS Context: Context intelligence for your data and AI agents at scale, AWS blog, June 2026. "
+                  },
+                  {
+                    "type": "a",
+                    "uid": "a2b017fc40884d6ab5476f13fca1a23e",
+                    "attrs": {
+                      "url": "https://aws.amazon.com/blogs/machine-learning/context-intelligence-for-your-data-and-ai-agents-at-scale/",
+                      "target": "_blank"
+                    },
+                    "children": [
+                      {
+                        "text": "https://aws.amazon.com/blogs/machine-learning/context-intelligence-for-your-data-and-ai-agents-at-scale/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "4194ba612de74075a83ccc8d2274c30e",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Microsoft Fabric IQ: What is Fabric IQ? Microsoft Learn. "
+                  },
+                  {
+                    "type": "a",
+                    "uid": "de226397e51a4f9e9979afc16328a42f",
+                    "attrs": {
+                      "url": "https://learn.microsoft.com/en-us/fabric/iq/overview",
+                      "target": "_blank"
+                    },
+                    "children": [
+                      {
+                        "text": "https://learn.microsoft.com/en-us/fabric/iq/overview"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs9b1152beb688e37b"
+          }
+        }
+      }
+    ],
+    "cta_section": [],
+    "related_posts": [],
+    "seo": {
+      "meta_title": "Your Data Is Free. Your Business Meaning Is the Lock-In.",
+      "meta_description": "Lock-in moved from storage to semantics. Discover why your business context is trapped inside platform engines and what it costs you.",
+      "keywords": "semantic layer lock-in, enterprise data governance, AI analytics foundation, business context layer, data meaning portability",
+      "social_thumbnail_override": null,
+      "enable_search_indexing": true
+    },
+    "page_properties": {
+      "navigation_title": "",
+      "header_color": null,
+      "hide_header_nav": false,
+      "hide_header_cta": false,
+      "hide_footer": false,
+      "disable_global_promo_banner": false,
+      "hide_auto_expert": false,
+      "sfid": "",
+      "marketo_id": "",
+      "cta_section": []
+    },
+    "resource_data": {
+      "date": "2026-07-02",
+      "type": "Blog",
+      "title": "Your Data Is Free Now. Your Meaning Is the Lock-In.",
+      "description": "Lock-in moved from storage to semantics. Discover why your business context is trapped inside platform engines and what it costs you.",
+      "featured": false
+    },
+    "tags": [],
+    "publish_date": "2026-07-01",
+    "author": [
+      {
+        "uid": "blt3a10c8421e9a79cd",
+        "_content_type_uid": "blog_author"
+      }
+    ],
+    "taxonomies": [
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "product_updates"
+      },
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "mosaic"
+      },
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "semantic_layer"
+      },
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "ai_trends"
+      },
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "analytics"
+      },
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "business_intelligence"
+      }
+    ]
+  },
+  "_mapping_warnings": [
+    "No explicit publish date found beyond 2026 — inferred from context references to this year being 2026.",
+    "Author bio is inferred from the bold metadata line ASIM LILANI · GLOBAL VP, VALUE ENGINEERING · STRATEGY — no separate bio paragraph present.",
+    "The SOURCES section and its subheadings appear after the final section. They were placed inside the last body section rather than treated as a separate structural element, as no FAQ or postFaqContent pattern applies. Human review recommended for placement.",
+    "Five IMAGE_EMBEDDED markers are present with no filenames or alt text in the document. Alt text has been inferred from the italic captions that follow each image.",
+    "No CTA boxes detected in the document.",
+    "No FAQ section detected.",
+    "The italic subtitle paragraph after H1 was mapped as the subtitle field rather than a body block.",
+    "The BOLD line ASIM LILANI · GLOBAL VP, VALUE ENGINEERING · STRATEGY was used for author and authorBio fields and excluded from body to avoid duplication.",
+    "The BOLD line ON ENTERPRISE AI · 2026 | A FIELD GUIDE FOR DATA & AI LEADERS was included as a bold paragraph run in the intro section for completeness.",
+    "No Quick Answer box found in document — 3 bullets synthesized from article content. Review before publishing and edit in the Contentstack editor if needed.",
+    "Image block missing assetUid — source: image_0.png",
+    "Image block missing assetUid — source: image_1.png",
+    "Image block missing assetUid — source: image_2.png",
+    "Image block missing assetUid — source: image_3.png",
+    "Image block missing assetUid — source: image_4.png",
+    "Image block missing assetUid — source: image_5.png"
+  ]
+}

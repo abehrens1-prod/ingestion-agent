@@ -1,0 +1,1217 @@
+{
+  "title": "AI Token Cost and Accuracy Benchmark: Evaluating Strategy Mosaic Against Direct Text-to-SQL Execution",
+  "subtitle": "Benchmark Evidence on Query Accuracy, Coverage, and AI Token Cost Reduction",
+  "slug": "ai-token-cost-and-accuracy-benchmark",
+  "url": "/software/ai-token-cost-and-accuracy-benchmark",
+  "description": "As organizations deploy AI agents to query enterprise data, the accuracy and cost of those queries depend on one thing: what context the AI receives. AI doesn't know your business \u2014 it doesn't know what your metrics mean, how your data is structured, or which rules apply, so it guesses. Strategy Software's Mosaic is the semantic context layer that gives AI the business context it needs to be reliable, governed, and effective.",
+  "publishedYear": "2026",
+  "seo": {
+    "metaTitle": "AI Token Cost & Accuracy Benchmark: Mosaic vs Text-to-SQL",
+    "metaDescription": "See how Strategy Mosaic achieved 100% accuracy vs. direct PostgreSQL's costly failures\u2014and cut AI token costs 98% in enterprise analytics.",
+    "metaDescriptionFromDoc": false,
+    "targetKeywords": [
+      "text-to-SQL accuracy benchmark",
+      "AI analytics token cost optimization",
+      "semantic layer for AI agents",
+      "enterprise AI data accuracy",
+      "AI-driven analytics cost reduction"
+    ],
+    "metaDescriptionAlternatives": [
+      "Discover why direct text-to-SQL failed 2 of 17 queries with 5\u201310\u00d7 inflated results\u2014and how Strategy Mosaic eliminates the risk at 98% lower token cost.",
+      "Learn how Strategy Mosaic's semantic layer fixes AI analytics accuracy and reduces token costs from $15,500 to under $450/month at enterprise scale."
+    ],
+    "primaryKeywords": [
+      "text-to-SQL accuracy benchmark",
+      "AI analytics token cost optimization",
+      "semantic layer for AI agents",
+      "enterprise AI data accuracy",
+      "AI-driven analytics cost reduction"
+    ],
+    "secondaryKeywords": [
+      "fan-out inflation SQL error",
+      "multi-fact-table join failure",
+      "LLM schema context tokens",
+      "natural language to SQL enterprise",
+      "BI semantic layer governance",
+      "AI query accuracy enterprise data",
+      "SQL generation AI agent",
+      "data architecture AI reliability",
+      "AI analytics cost at scale",
+      "governed AI analytics",
+      "schema context elimination",
+      "enterprise analytics accuracy benchmark"
+    ],
+    "longTailKeywords": [
+      "why does text-to-SQL return wrong answers in enterprise analytics",
+      "how to reduce AI token costs in business intelligence",
+      "why does direct SQL generation produce inflated financial results",
+      "how does a semantic layer improve AI query accuracy",
+      "what causes fan-out inflation in multi-fact-table SQL joins",
+      "how to govern AI agents querying enterprise databases",
+      "best way to reduce LLM token consumption in analytics pipelines",
+      "why AI analytics answers look right but are wrong",
+      "how much does text-to-SQL cost at enterprise scale",
+      "how does Strategy Mosaic compare to direct PostgreSQL for AI queries",
+      "what is the cost of AI token usage for 200 queries per day",
+      "how to make AI agents reliable for enterprise data questions"
+    ],
+    "brandedKeywords": [
+      "Strategy",
+      "Strategy Mosaic",
+      "Strategy Software",
+      "Strategy AI Agents",
+      "Mosaic semantic layer"
+    ]
+  },
+  "brief": [
+    {
+      "boldSentence": "Mosaic answered all 17 benchmark questions correctly; direct PostgreSQL failed 2 with 5\u201310\u00d7 financially inflated results.",
+      "supportingText": "Both PostgreSQL failures were structurally predictable: multi-fact-table joins produced fan-out inflation and cross-policy misattribution that returned plausible numbers with no SQL error, undetectable without prior knowledge of the correct answer."
+    },
+    {
+      "boldSentence": "Strategy AI Agents reduce AI token consumption by approximately 98% versus direct PostgreSQL by eliminating schema context from the LLM entirely.",
+      "supportingText": "Rather than sending raw schema context (~4,800 tokens per query), AI Agents pass only the natural language question (~50\u2013100 tokens) to the LLM; Mosaic handles schema lookup, SQL generation, and execution. At production scale with 20 analysts running 200 queries/day, this reduces costs from ~$15,500/month to under $450/month."
+    },
+    {
+      "boldSentence": "Mosaic MCP reduces per-query AI token costs by 37% in benchmark conditions and 50\u201370% at production scale with caching enabled.",
+      "supportingText": "Schema context is compressed from 4,428 tokens to 2,073 tokens (53% reduction) via a semantic API, while average SQL token count drops from 174 to 132 (24% reduction). Both effects compound as schema size grows, where PostgreSQL overhead scales linearly with table count."
+    }
+  ],
+  "body": [
+    {
+      "type": "section",
+      "heading": "",
+      "subheading": "",
+      "level": 2,
+      "isCallout": false,
+      "calloutRationale": "",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "Executive Summary",
+          "level": 2
+        },
+        {
+          "type": "paragraph",
+          "text": "As organizations deploy AI agents to query enterprise data, the accuracy and cost of those queries depend on one thing: what context the AI receives. AI doesn't know your business. It doesn't know what your metrics mean, how your data is structured, or which rules apply, so it guesses. The answer looks right but often isn't. Strategy Software's Mosaic is the context layer that fixes this, the semantic layer that gives AI the business context it needs to be reliable, governed, and effective."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mosaic was benchmarked against direct PostgreSQL querying across 17 insurance claims analytics questions on a real-world insurance data model with 28 tables. The findings are clear on both dimensions:"
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Accuracy: ",
+              "bold": true
+            },
+            {
+              "text": "Mosaic answered all 17 questions correctly. PostgreSQL answered 15. The 2 failures were not random, they were structurally predictable wrong answers on complex multi-table queries, returning financially inflated numbers that looked valid but were not."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Cost: ",
+              "bold": true
+            },
+            {
+              "text": "Mosaic significantly reduces AI token consumption and per-query costs. The same semantic model that prevents wrong answers also reduces what organizations pay to run AI analytics at scale."
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Query",
+            "Direct SQL Returned",
+            "Correct Answer",
+            "Error"
+          ],
+          "rows": [
+            [
+              "Policy 336: coverage limit",
+              "$40,688,000",
+              "$5,086,000",
+              "8x inflated"
+            ],
+            [
+              "Policy 336: catastrophe payout",
+              "$23,000",
+              "$13,600",
+              "5x inflated"
+            ],
+            [
+              "Policy 337: catastrophe payout",
+              "$9,000",
+              "$0",
+              "100% misattributed from Policy 336"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "label": "",
+          "text": "Each query executed successfully and returned a number. Only Mosaic returned correct answers in all three cases."
+        },
+        {
+          "type": "paragraph",
+          "text": "The sections that follow explain the root causes of both failure modes, the benchmark methodology, and the architectural reasons Mosaic addresses them. For organizations evaluating AI analytics infrastructure, the evidence points to one conclusion: the semantic layer is what makes AI reliable on enterprise data."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "1. Token Cost and Wrong Answers in AI-Driven Analytics",
+      "subheading": "",
+      "level": 2,
+      "isCallout": false,
+      "calloutRationale": "",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The dominant pattern for AI analytics today is text-to-SQL: the AI model receives raw schema information, generates a SQL query, and executes it against the database. Sequeda et al. (2023) establish text-to-SQL as the standard deployment baseline, and it is widely used in production environments today. It has two distinct failure modes that become more costly at scale."
+        },
+        {
+          "type": "heading",
+          "text": "1.1 Token Cost",
+          "level": 3
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Every text-to-SQL query requires the AI model to first receive the full schema: table names, column names, data types, and foreign key relationships. For a 28-table schema this adds approximately 4,428 tokens of schema context per query.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "approximately 4,428 tokens of schema context per query",
+              "bold": true
+            },
+            {
+              "text": ". For production enterprise schemas with 100\u2013500+ tables, this grows to 100,000+ tokens per query."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "At current LLM pricing of $3.00 per million input tokens, a ten-person analytics team running 200 queries per day against a 200-table schema incurs over $15,000/month in schema context overhead alone, before any SQL query is executed against the data. This cost is paid fresh on every query; schema context is not cached across stateless LLM calls."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Current LLM pricing",
+            "Number of analysts",
+            "Number of queries",
+            "Schema context overhead"
+          ],
+          "rows": [
+            [
+              "$3.00 per 1M input tokens",
+              "10",
+              "200 queries per day, 200-table schema",
+              "$15K/month"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "1.2 Wrong Answers from Complex Queries",
+          "level": 3
+        },
+        {
+          "type": "paragraph",
+          "text": "When an AI model generates SQL against a raw schema, it must independently reason about join paths, bridge tables, and aggregation grain. That business logic is entirely absent from the schema definitions. For simple single-table queries this works. For queries spanning multiple fact tables, the model frequently selects the wrong join path and returns numbers that are materially wrong but structurally valid."
+        },
+        {
+          "type": "callout",
+          "label": "",
+          "text": "There is no error, no warning, and no way for the user to know the answer is wrong without already knowing the correct answer."
+        },
+        {
+          "type": "paragraph",
+          "text": "In this benchmark, two multi-fact-table questions returned results from PostgreSQL that were 5\u201310\u00d7 inflated or attributed to the wrong policy. Neither failure triggered a SQL error. Both results would have passed routine review by an analyst who did not already know the correct answer."
+        },
+        {
+          "type": "heading",
+          "text": "1.3 Join Complexity and Business Logic",
+          "level": 3
+        },
+        {
+          "type": "paragraph",
+          "text": "Analytical schemas in real enterprises are layered: star schemas, snowflake schemas, ACORD insurance models, Kimball dimensional designs, all involving multiple fact tables joined through carefully chosen bridge tables. The correct join path is not derivable from column names alone; it is encoded in business rules."
+        },
+        {
+          "type": "paragraph",
+          "text": "Text-to-SQL generation requires the AI to infer those business rules from table names on every query. The wider the schema, the more plausible join paths exist, and the more likely the AI selects the wrong one."
+        },
+        {
+          "type": "callout",
+          "label": "",
+          "text": "The semantic layer encodes the correct path once and applies it consistently."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "2. How the Semantic Layer Addresses These Failures",
+      "subheading": "",
+      "level": 2,
+      "isCallout": false,
+      "calloutRationale": "",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "A semantic layer sits between the AI and the database. Rather than exposing raw table structures, it presents business-oriented concepts such as \"total premium,\" \"claim payout,\" and \"loss ratio,\" backed by validated join logic. Mosaic's implementation provides three architectural protections against the failure modes described above."
+        },
+        {
+          "type": "heading",
+          "text": "2.1 Fan-Out Protection",
+          "level": 3
+        },
+        {
+          "type": "paragraph",
+          "text": "Fan-out, in plain terms, is what happens when a join multiplies rows before an aggregation gets to sum them."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Without Mosaic",
+            "With Mosaic"
+          ],
+          "rows": [
+            [
+              "A 5-year policy generates 5 rows in policy_coverage_detail. When the AI joins that table to a claims table through a shared key, each claim row matches all 5 coverage rows, and SUM() counts every dollar five times. The query returns a valid number. The number is wrong by a factor of 5.",
+              "Mosaic isolates fact tables at the semantic model level. When a query requires both coverage limits and claim payments, Mosaic computes each aggregate independently, then joins the pre-aggregated results at the policy grain. The multiplicative error never has the opportunity to form."
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "2.2 Canonical Bridge Routing",
+          "level": 3
+        },
+        {
+          "type": "paragraph",
+          "text": "A canonical path is the single authoritative route through a schema to connect two entities. In the benchmark dataset, claims can be connected to policies via two paths: through insurable_object_identifier (shorter, but ambiguous) or through the claim_coverage bridge table (canonical, which enforces correct policy-year attribution). Without a semantic model, an AI will frequently take the shorter path because it looks correct from the column names alone. That path produces plausible results for simple scenarios and systematically wrong results when multiple policy years or shared insurable objects are involved."
+        },
+        {
+          "type": "callout",
+          "label": "",
+          "text": "Mosaic encodes the canonical path once in the semantic model. Every subsequent query, regardless of analyst, AI model, or interface, follows the same validated route."
+        },
+        {
+          "type": "heading",
+          "text": "2.3 Compressed Semantic Context",
+          "level": 3
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Rather than sending the full raw schema, Mosaic exposes a semantic API (get_semantics) that returns business-friendly field names, pre-computed relationships, and filtered context relevant to the question. This compresses schema context from 4,428 tokens to 2,073 tokens, a ",
+              "bold": false
+            },
+            {
+              "text": "53% reduction",
+              "bold": true
+            },
+            {
+              "text": ", while simultaneously making that context more precise and less prone to misinterpretation."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The SQL generated against this context is correspondingly simpler. Analysts write GROUP BY queries instead of multi-table JOIN chains. Average SQL token count drops from 174 to 132 per query, a 24% reduction. Both effects compound directly into per-query cost."
+        },
+        {
+          "type": "heading",
+          "text": "2.4 Simple vs. Complex Queries: Why the Gap Widens",
+          "level": 3
+        },
+        {
+          "type": "paragraph",
+          "text": "For straightforward questions, the performance difference between Mosaic and raw SQL is primarily economic: Mosaic is 37% cheaper. For multi-fact-table questions, the difference is categorical: Mosaic returns the correct answer; PostgreSQL does not. This distinction matters more over time. Enterprise data models are growing in complexity as more data sources, stricter governance requirements, expanding AI initiatives, and distributed analytics all push schemas toward the multi-fact-table patterns where raw SQL fails."
+        },
+        {
+          "type": "paragraph",
+          "text": "Organizations often pilot AI analytics on simple questions and see comparable results from both approaches. They then deploy at scale, and the complex, high-stakes queries begin to fail."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Query Type",
+            "Example",
+            "PostgreSQL",
+            "Mosaic"
+          ],
+          "rows": [
+            [
+              "Simple: single table",
+              "Premium per policy",
+              "Correct",
+              "Correct, 37% cheaper"
+            ],
+            [
+              "Moderate: 2-table join with clear FK",
+              "Claims by location",
+              "Correct",
+              "Correct, 37% cheaper"
+            ],
+            [
+              "Complex: multi-fact-table aggregation",
+              "Coverage limit + total claims per policy",
+              "Wrong (8-10x fan-out inflation)",
+              "Correct, 37% cheaper"
+            ],
+            [
+              "Complex: bridge-table attribution",
+              "Catastrophe payout by policy",
+              "Wrong (5x inflation + misattribution)",
+              "Correct, 37% cheaper"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "3. Benchmark Methodology",
+      "subheading": "",
+      "level": 2,
+      "isCallout": false,
+      "calloutRationale": "",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "All results in this paper derive from live execution against real data. No metrics are theoretical or estimated; where direct measurement was not possible (due to MCP protocol limitations on server-side timing), data points are clearly labeled with their derivation method."
+        },
+        {
+          "type": "heading",
+          "text": "3.1 Dataset",
+          "level": 3
+        },
+        {
+          "type": "paragraph",
+          "text": "The dataset follows an ACORD-aligned (U.S. insurance industry standard) insurance data model with 28 tables capturing policies, coverage details, claims, financial amounts, and party relationships. The schema includes the multi-row-per-policy patterns created by multi-year policy terms, exactly the structural condition that triggers fan-out errors in naive SQL."
+        },
+        {
+          "type": "list",
+          "style": "bullet",
+          "items": [
+            "Source: Chat-With-Your-Data benchmark (data.world/cwd-benchmark-data)",
+            "Semantic model: Mosaic Library (linked in original benchmark)"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "3.2 Test Scope",
+          "level": 3
+        },
+        {
+          "type": "list",
+          "style": "bullet",
+          "items": [
+            "17 questions spanning single-table lookups, multi-table aggregations, ratio calculations, exposure analysis, and cross-domain attribution",
+            "Live execution against both PostgreSQL and Mosaic MCP connections, with no synthetic or replayed data",
+            "SQL generated by Claude Code MCP for both systems, ensuring equivalent AI generation quality",
+            "Token counts measured from actual API responses (schema context) and query character lengths (\u00f74, standard approximation)",
+            "PostgreSQL execution times measured via EXPLAIN ANALYZE: 0.2ms\u20136.7ms, negligible relative to LLM inference time of ~13\u201314s for both tools"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "3.3 Mosaic Configuration",
+          "level": 3
+        },
+        {
+          "type": "paragraph",
+          "text": "Three one-time configurations were required to encode business intent not inferable from column names:"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Configuration",
+            "Problem",
+            "Business Impact"
+          ],
+          "rows": [
+            [
+              "Party ID unification",
+              "person_identifier and organization_identifier map to the same semantic key as agreement_party_role.party_identifier, but names differ and no FK exists",
+              "Accurate party-to-policy traversal; without this, party queries misjoin or return empty results"
+            ],
+            [
+              "Case + type normalization",
+              "party_identifier vs Party_Identifier (case mismatch); bigint vs integer (type mismatch) prevent auto-join",
+              "Consistent join routing across party tables without runtime cast errors"
+            ],
+            [
+              "Policy number parsing",
+              "agreement_name holds 'Policy 31003000336'; policy.policy_number holds '31003000336'. Direct equality join fails due to prefix.",
+              "Premium-to-claim analysis at policy level. Computed field strips prefix via SPLIT_PART(agreement_name, ' ', 2)."
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "These configurations are one-time setup. Once encoded, they apply automatically to every subsequent query, regardless of user, interface, or AI model."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "4. Accuracy Results: Where Semantics Prevent Failure",
+      "subheading": "",
+      "level": 2,
+      "isCallout": true,
+      "calloutRationale": "Contains benchmark accuracy statistics and specific financial error quantification",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Of 17 questions, both systems answered 15 correctly. On the remaining 2, PostgreSQL returned plausible but materially wrong numbers; Mosaic returned correct answers in both cases. These failures are not isolated to this dataset. Any query that joins two fact tables through a shared dimension key, without semantic isolation, will produce the same inflation. They are ",
+              "bold": false
+            },
+            {
+              "text": "predictable structural failures of naive multi-fact-table SQL",
+              "bold": true
+            },
+            {
+              "text": ", and they would affect every analyst querying this data without a semantic model."
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Metric",
+            "Mosaic",
+            "Without Mosaic",
+            "Difference"
+          ],
+          "rows": [
+            [
+              "Correct answers (17 questions)",
+              "17 / 17 = 100%",
+              "15 / 17 = 88.2%",
+              "-11.8%"
+            ],
+            [
+              "First-attempt success rate",
+              "100%",
+              "94.1%",
+              "-5.9%"
+            ],
+            [
+              "Wrong answer rate",
+              "0%",
+              "11.8%",
+              "+11.8%"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "4.1 Question 16: Coverage Limits and Total Claims per Policy",
+          "level": 3
+        },
+        {
+          "type": "paragraph",
+          "text": "Question: \"What is the total coverage limit and total claims per policy?\""
+        },
+        {
+          "type": "table",
+          "headers": [
+            "",
+            "Policy 31003000336",
+            "Result vs Correct"
+          ],
+          "rows": [
+            [
+              "PostgreSQL",
+              "Limit: $40,688,000 / Claims: $136,000",
+              "8\u201310\u00d7 inflated (fan-out)"
+            ],
+            [
+              "Mosaic",
+              "Limit: $5,086,000 / Claims: $13,600",
+              "Correct"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Root Cause",
+          "level": 3
+        },
+        {
+          "type": "paragraph",
+          "text": "policy_coverage_detail contains one row per policy per coverage year. A 5-year policy produces 5 PCD rows. When the AI joins policy_amount (fact table) to claim_amount (fact table) through this shared key, each claim row joins to all 5 coverage year rows, multiplying claim amounts by 5 before SUM() aggregates. The query shape (one output row per policy) looks correct. The inflation is invisible without prior knowledge of the correct answer."
+        },
+        {
+          "type": "heading",
+          "text": "Why Mosaic Is Correct",
+          "level": 3
+        },
+        {
+          "type": "paragraph",
+          "text": "The semantic model isolates fact tables. Coverage and claim metrics are computed via independent canonical paths and combined only as pre-aggregated results at the policy grain. The multiplicative error cannot form."
+        },
+        {
+          "type": "heading",
+          "text": "4.2 Question 17: Total Catastrophe Payout per Policy",
+          "level": 3
+        },
+        {
+          "type": "paragraph",
+          "text": "Question: \"What is the total catastrophe payout per policy?\""
+        },
+        {
+          "type": "table",
+          "headers": [
+            "",
+            "Policy 31003000336",
+            "Policy 31003000337"
+          ],
+          "rows": [
+            [
+              "PostgreSQL",
+              "$23,000 (5\u00d7 inflated)",
+              "$9,000 (misattributed from Policy 336)"
+            ],
+            [
+              "Mosaic",
+              "$13,600 (correct)",
+              "Not returned (correct \u2014 no catastrophe payouts)"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Root Causes (Two Compounding Errors)",
+          "level": 3
+        },
+        {
+          "type": "list",
+          "style": "bullet",
+          "items": [
+            "Fan-out: insurable_object_identifier appears across multiple PCD rows, multiplying claim_amount rows before aggregation.",
+            "Bridge misselection: Connecting claims to policies via insurable_object_identifier bypasses the claim_coverage bridge, which contains the authoritative policy-year linkage. Claims belonging to Policy 336 leak into Policy 337 because both policies share an insurable object."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Why Mosaic Is Correct",
+          "level": 3
+        },
+        {
+          "type": "paragraph",
+          "text": "The semantic model enforces the path: claim \u2192 claim_coverage \u2192 policy_coverage_detail \u2192 policy. This is the only valid attribution path. Both overcounting and cross-policy leakage are structurally prevented."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "5. Token Economics",
+      "subheading": "",
+      "level": 2,
+      "isCallout": true,
+      "calloutRationale": "Contains detailed token cost comparison tables with specific benchmark measurements",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Without business context, AI has to rediscover how your data works on every query. It loads the schema, reasons about relationships, and generates SQL from scratch each time. That burns tokens before any actual analysis begins. Mosaic addresses this directly because business logic is pre-defined in the semantic layer, AI receives only what it needs."
+        },
+        {
+          "type": "heading",
+          "text": "5.1 Mosaic MCP (Semantic Layer via Model Context Protocol)",
+          "level": 3
+        },
+        {
+          "type": "paragraph",
+          "text": "Mosaic MCP gives the LLM the business context it needs, not the full raw schema. Mosaic provides the governed definitions, relationships, and join logic so the SQL is accurate and precise. The LLM produces the query, but Mosaic defines what that query should look like, abstracting JOIN complexity into simple GROUP BY queries."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Token Component",
+            "Mosaic MCP",
+            "PostgreSQL",
+            "Reduction"
+          ],
+          "rows": [
+            [
+              "Schema context / query",
+              "2,073 tokens",
+              "4,428 tokens",
+              "53%"
+            ],
+            [
+              "SQL tokens (avg)",
+              "132 tokens",
+              "174 tokens",
+              "24%"
+            ],
+            [
+              "Total input tokens / query",
+              "~2,405 tokens",
+              "~4,802 tokens",
+              "50%"
+            ],
+            [
+              "Cost / query",
+              "$0.01246",
+              "$0.01966",
+              "37%"
+            ],
+            [
+              "Total cost: 17 questions",
+              "$0.2119",
+              "$0.3342",
+              "$0.12 saved"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Note: Cost calculated at $3.00/M input tokens + $15.00/M output tokens. Schema context measured from live get_semantics API responses and DDL character counts \u00f74."
+        },
+        {
+          "type": "heading",
+          "text": "5.2 Strategy AI Agents",
+          "level": 3
+        },
+        {
+          "type": "paragraph",
+          "text": "Strategy AI Agents extend Mosaic's semantic layer into pre-built automations. They are purpose-built agents that answer business questions by routing directly through Mosaic's governed business context, with near-zero token overhead. Rather than optimizing what the LLM receives, they remove the LLM from query generation entirely \u2014 Mosaic handles schema lookup, SQL generation, and execution, and the LLM receives only the natural language question."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Token Component",
+            "Strategy AI Agents",
+            "Mosaic MCP",
+            "PostgreSQL"
+          ],
+          "rows": [
+            [
+              "Schema context",
+              "~0 tokens",
+              "2,073",
+              "4,428"
+            ],
+            [
+              "SQL tokens",
+              "~0 tokens",
+              "132",
+              "174"
+            ],
+            [
+              "Question text only",
+              "~50\u2013100 tokens",
+              "200",
+              "200"
+            ],
+            [
+              "Total / query",
+              "~50\u2013100 tokens",
+              "~2,405",
+              "~4,802"
+            ],
+            [
+              "vs PostgreSQL baseline",
+              "~98% reduction",
+              "50% reduction",
+              "Baseline"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Strategy AI Agents deliver approximately 98% token reduction vs direct PostgreSQL and 96% reduction vs Mosaic MCP. AI token consumption is virtually zero; cost is deflected from the LLM provider to the Mosaic software platform. This architecture scales linearly: adding users, questions, or larger schemas does not increase token costs, because no schema context ever touches the LLM."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "6. Where Savings Compound in Production",
+      "subheading": "",
+      "level": 2,
+      "isCallout": false,
+      "calloutRationale": "",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The benchmark numbers above are conservative by design. They were measured against a 28-table demo dataset, without caching, without multi-turn conversation history, and at only 17 questions. Each constraint compresses the measured savings relative to production reality."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Factor",
+            "Benchmark Conditions",
+            "Production Reality"
+          ],
+          "rows": [
+            [
+              "Schema size",
+              "28 tables, ~7K chars",
+              "100\u2013500+ tables \u2192 100K+ chars; PostgreSQL overhead grows linearly with table count"
+            ],
+            [
+              "Mosaic caching",
+              "Disabled (fresh queries)",
+              "Enabled \u2192 schema tokens drop to $0.00 on repeat queries within session"
+            ],
+            [
+              "Query volume",
+              "17 questions, one session",
+              "Hundreds per analyst per day; 10-person team = thousands of daily queries"
+            ],
+            [
+              "Conversation history",
+              "Not included",
+              "Multi-turn sessions re-send full schema + history each turn (PostgreSQL); Mosaic optimizes context"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "6.1 Production Estimates",
+          "level": 3
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "With Mosaic MCP:",
+              "bold": true
+            },
+            {
+              "text": " Conservative 50\u201370% cost reduction in production, rising toward the upper bound as schema size increases and caching compounds across sessions."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "With Strategy AI Agents:",
+              "bold": true
+            },
+            {
+              "text": " 95\u201398% cost reduction regardless of schema complexity, query volume, or team size. Schema size is irrelevant because no schema context ever reaches the LLM. This is a fundamentally schema-invariant cost architecture."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "label": "Production Scale Illustration",
+          "text": "An enterprise with 200 tables, 20 analysts running 200 queries/day, at $3.00/M input tokens: PostgreSQL baseline is approximately $15,500/month in schema context overhead. Strategy AI Agents reduce this to under $450/month in question-text tokens. Annual saving: approximately $181,000, before accounting for reduced error correction and re-query costs."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "7. Mosaic in the Broader Semantic Layer Landscape",
+      "subheading": "",
+      "level": 2,
+      "isCallout": false,
+      "calloutRationale": "",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Semantic layers as a category have been independently validated by multiple vendors and academic researchers. Recent benchmarks from other providers, run against the same ACME Insurance dataset used in this study, confirm that well-implemented semantic layers achieve near-100% accuracy for queries within their modeled scope, dramatically outperforming direct text-to-SQL approaches. This is the right conclusion: the category works."
+        },
+        {
+          "type": "paragraph",
+          "text": "But not all semantic layer architectures are equivalent. The distinctions that matter in production are coverage, cost, and what happens at the boundaries of the model."
+        },
+        {
+          "type": "heading",
+          "text": "7.1 The Coverage Gap: What Happens When the Semantic Layer Can't Answer",
+          "level": 3
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Some semantic layer implementations rely on a metric engine that enforces strict entity traversal rules. When a query requires too many joins, or joins across entity types that haven't been explicitly modeled, those implementations return an error rather than a wrong answer.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "This is far better than a wrong answer. But it is also not an answer."
+        },
+        {
+          "type": "paragraph",
+          "text": "Published benchmarks on this same dataset show that certain metric-layer architectures require new intermediate models before complex multi-hop queries can be answered at all. Mosaic's semantic model is designed to encode relationships between existing tables without requiring new intermediate models to be written, tested, and deployed. For organizations with complex, normalized schemas, this distinction has meaningful implications for the time between deployment and full query coverage."
+        },
+        {
+          "type": "callout",
+          "label": "Mosaic works with your schema as it exists",
+          "text": "Most semantic layer implementations require new intermediate models before complex queries can be answered. Mosaic encodes relationships between existing tables through configuration \u2014 with no restructuring, no new model development, no deployment cycle. In complex, normalized enterprise schemas, that difference is measured in months."
+        },
+        {
+          "type": "heading",
+          "text": "7.2 Token Costs: What Competitive Benchmarks Don't Measure",
+          "level": 3
+        },
+        {
+          "type": "paragraph",
+          "text": "Published accuracy benchmarks from other semantic layer vendors focus exclusively on correctness. None have addressed token cost reduction at the level Mosaic's testing does, and none have published anything comparable to Strategy AI Agents' external agent architecture."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Dimension",
+            "Semantic Layer (industry)",
+            "Mosaic MCP",
+            "Strategy AI Agents"
+          ],
+          "rows": [
+            [
+              "Accuracy vs. raw SQL",
+              "Near-100% for covered queries",
+              "100% (17/17)",
+              "100% (17/17)"
+            ],
+            [
+              "Coverage of complex joins",
+              "Varies \u2014 may require new modeling",
+              "Full coverage via config",
+              "Full coverage via config"
+            ],
+            [
+              "Token cost vs. raw SQL",
+              "Not published",
+              "37% reduction per query",
+              "~98% reduction \u2014 near zero"
+            ],
+            [
+              "Schema-invariant cost model",
+              "No",
+              "Partial (caching helps)",
+              "Yes \u2014 schema never reaches LLM"
+            ],
+            [
+              "AI cost scales with user count",
+              "Yes",
+              "Yes (minimized)",
+              "No \u2014 question text only"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "7.3 Strategy AI Agents: A Different Architectural Category",
+          "level": 3
+        },
+        {
+          "type": "paragraph",
+          "text": "Strategy AI Agents represent a fundamentally different architectural approach. Rather than optimizing how much schema context is sent to the LLM, they eliminate schema context from the LLM loop entirely. The LLM receives only the natural language question, 50 to 100 tokens, and Mosaic's MCP server handles the rest: schema lookup, query planning, execution, and result formatting."
+        },
+        {
+          "type": "paragraph",
+          "text": "This architecture has three properties that no other published semantic layer approach has matched simultaneously:"
+        },
+        {
+          "type": "list",
+          "style": "bullet",
+          "items": [
+            [
+              {
+                "text": "Schema-invariant cost:",
+                "bold": true
+              },
+              {
+                "text": " A 500-table enterprise schema costs exactly the same as a 28-table demo schema in LLM tokens: zero. Accuracy gains from the semantic model are preserved while token costs are eliminated."
+              }
+            ],
+            [
+              {
+                "text": "User-count-invariant cost:",
+                "bold": true
+              },
+              {
+                "text": " Adding 100 more analysts does not increase AI token consumption. Each analyst's question costs approximately 75 tokens regardless of how many people are asking."
+              }
+            ],
+            [
+              {
+                "text": "Zero wrong answers by construction:",
+                "bold": true
+              },
+              {
+                "text": " The LLM is never asked to write SQL. It cannot produce a wrong join because it never writes a join. The Mosaic MCP produces deterministic, semantically-validated queries every time."
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "8. ROI Framework",
+      "subheading": "",
+      "level": 2,
+      "isCallout": false,
+      "calloutRationale": "",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Use the following to calculate projected savings based on your organization's deployment parameters."
+        },
+        {
+          "type": "heading",
+          "text": "8.1 Mosaic MCP Savings",
+          "level": 3
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Input Variable",
+            "Value / Formula"
+          ],
+          "rows": [
+            [
+              "Monthly AI database queries (all users)",
+              "_______________"
+            ],
+            [
+              "Avg tokens per query (PostgreSQL baseline)",
+              "~4,800 tokens"
+            ],
+            [
+              "Mosaic MCP token reduction",
+              "50%"
+            ],
+            [
+              "Monthly token savings",
+              "[queries] \u00d7 2,400 tokens \u00d7 [AI provider $/M rate]"
+            ],
+            [
+              "Annual LLM cost savings",
+              "[monthly] x 12"
+            ],
+            [
+              "Analyst time saved correcting wrong queries",
+              "[# wrong queries/month] \u00d7 [avg correction time] \u00d7 [hourly cost]"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "8.2 Strategy AI Agents Savings (Maximum Cost Deflection)",
+          "level": 3
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Input Variable",
+            "Value / Formula"
+          ],
+          "rows": [
+            [
+              "Monthly AI database queries (all users)",
+              "_______________"
+            ],
+            [
+              "Strategy AI Agents token reduction",
+              "~98%"
+            ],
+            [
+              "Monthly token savings",
+              "[queries] \u00d7 4,700 tokens \u00d7 [AI provider $/M rate]"
+            ],
+            [
+              "Annual LLM cost savings",
+              "[monthly] x 12"
+            ],
+            [
+              "Schema-size independence",
+              "100-500+ table schemas cost the same as 28-table schemas: zero schema tokens"
+            ],
+            [
+              "User-count independence",
+              "AI token cost does not scale with number of users"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "8.3 Choosing the Right Pathway",
+          "level": 3
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Profile",
+            "Recommended",
+            "Why"
+          ],
+          "rows": [
+            [
+              "Existing LLM integrations needing optimization",
+              "Mosaic MCP",
+              "37% immediate savings, drop-in improvement"
+            ],
+            [
+              "High query volume (BI/data teams, 100+ queries/day)",
+              "Strategy AI Agents",
+              "Maximum token deflection at scale"
+            ],
+            [
+              "Complex enterprise schemas (100+ tables)",
+              "Strategy AI Agents",
+              "Schema complexity doesn't affect token costs"
+            ],
+            [
+              "New AI initiatives with budget constraints",
+              "Strategy AI Agents",
+              "Start at near-zero AI infrastructure cost"
+            ],
+            [
+              "Multi-tenant SaaS applications",
+              "Strategy AI Agents",
+              "AI cost does not scale with user count"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Conclusion",
+      "subheading": "",
+      "level": 2,
+      "isCallout": false,
+      "calloutRationale": "",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Connecting AI agents directly to raw databases is not merely expensive; it is structurally unreliable for the complex multi-table queries that drive enterprise analytics decisions."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mosaic's semantic layer addresses both dimensions simultaneously. By encoding business logic (canonical join paths, fan-out protections, party-identity unification) once in the semantic model, every subsequent query inherits those guarantees regardless of which AI model, analyst, or interface issues it. The accuracy improvement is not a tuning artifact; it is a structural property of the architecture."
+        },
+        {
+          "type": "paragraph",
+          "text": "The cost savings are equally structural. Mosaic MCP reduces schema context overhead by 53% and SQL complexity by 24%, delivering 37% cost reduction in the benchmark and 50\u201370% at production scale with caching. Strategy AI Agents remove the AI from the query execution path entirely, achieving 95\u201398% cost reduction regardless of schema complexity, an architecture that makes AI query costs effectively schema-invariant and user-count-invariant."
+        },
+        {
+          "type": "paragraph",
+          "text": "For organizations evaluating AI analytics infrastructure, the question is no longer whether to use a semantic layer. The benchmark data demonstrates its necessity for accurate results on multi-fact-table queries."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Technical Proof Points",
+      "subheading": "",
+      "level": 2,
+      "isCallout": true,
+      "calloutRationale": "Summary of key benchmark proof points \u2014 most citable statistics in the document",
+      "blocks": [
+        {
+          "type": "list",
+          "style": "bullet",
+          "items": [
+            [
+              {
+                "text": "100% accuracy:",
+                "bold": true
+              },
+              {
+                "text": " 17/17 questions answered correctly across all complexity levels and query types."
+              }
+            ],
+            [
+              {
+                "text": "50% token reduction:",
+                "bold": true
+              },
+              {
+                "text": " Mosaic MCP, measured in live testing against 28-table ACORD-aligned schema."
+              }
+            ],
+            [
+              {
+                "text": "~98% token reduction:",
+                "bold": true
+              },
+              {
+                "text": " Strategy AI Agents: external agent architecture eliminates schema and SQL tokens from LLM context entirely."
+              }
+            ],
+            [
+              {
+                "text": "0% wrong answers:",
+                "bold": true
+              },
+              {
+                "text": " vs 11.8% with direct PostgreSQL; both PostgreSQL failures involved 5\u201310\u00d7 financial inflation or policy misattribution."
+              }
+            ],
+            [
+              {
+                "text": "37% cost savings:",
+                "bold": true
+              },
+              {
+                "text": " Per query in benchmark (Mosaic MCP); rises to 50\u201370% at production scale with caching enabled."
+              }
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Source: Insurance Claims Analytics Benchmark: 17 questions, live execution, measured token counts"
+        },
+        {
+          "type": "paragraph",
+          "text": "Data model: ACORD-aligned insurance schema (data.world/cwd-benchmark-data)"
+        },
+        {
+          "type": "paragraph",
+          "text": "SQL queries generated and executed via Claude Code MCP. Token counts measured from live API responses and query character lengths. Original benchmark authored by Sushma Ganapuram, Strategy Software."
+        }
+      ]
+    }
+  ],
+  "cta": {
+    "headline": "See How Mosaic Can Reduce Your AI Query Costs",
+    "body": "Calculate your projected savings using the ROI Framework, or contact Strategy Software to evaluate Mosaic against your enterprise data model.",
+    "buttonText": "Request a Demo",
+    "buttonUrl": ""
+  },
+  "internalLinks": [],
+  "externalLinks": [
+    "https://data.world/cwd-benchmark-data",
+    "https://strategysoftware.com"
+  ],
+  "validationWarnings": [
+    "The opening table in the source document had a malformed/split title cell ('Direc' + 't') \u2014 reconstructed full title as 'AI Token Cost and Accuracy Benchmark: Evaluating Strategy Mosaic Against Direct Text-to-SQL Execution'.",
+    "Several tables in the source had incomplete or merged header rows (e.g., the Executive Summary error table had only one header row with 4 columns but data was spread across multiple list and paragraph elements). These were reconstructed as flat tables based on surrounding context.",
+    "The '53% Token spend reduction' callout in section 2.3 was presented as a large styled H3 stat block \u2014 folded into the paragraph text as a bold inline stat.",
+    "The section numbered list items (1., 2., 3. etc.) appeared as [LIST] markers in the source TOC and as heading text in body. Preserved numbering in all section headings.",
+    "publishedYear set to '2026' based on copyright notice '\u00a92026' at document footer.",
+    "No explicit CTA section found in the document. A synthesized CTA was created from the ROI Framework section context and company contact information.",
+    "The source document's table for Section 8.1 and 8.2 had bold formatting on some rows (Annual LLM cost savings) \u2014 preserved where identifiable but some row-level bold may have been missed due to mixed formatting signals.",
+    "The 'strategysoftware.com' URL was listed without https:// protocol in the document footer \u2014 added as https://strategysoftware.com in externalLinks.",
+    "data.world/cwd-benchmark-data was listed without full https:// \u2014 added assumed full URL https://data.world/cwd-benchmark-data."
+  ]
+}

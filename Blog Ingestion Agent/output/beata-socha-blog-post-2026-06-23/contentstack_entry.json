@@ -1,0 +1,1910 @@
+{
+  "entry": {
+    "title": "Why Analytics Stall: How Missing Semantic Logic Slows Data Teams",
+    "url": "/software/blog/why-analytics-stall-how-missing-semantic-logic-slows-data-teams",
+    "lead_paragraph": {
+      "type": "doc",
+      "attrs": {},
+      "uid": "654f1aa977d64fcca0a53bcd1edfb2f0",
+      "children": [
+        {
+          "text": ""
+        }
+      ],
+      "_version": 1
+    },
+    "content": [
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "2274b28e806d44f5aeadace73e670bd5",
+            "children": [
+              {
+                "type": "h3",
+                "uid": "ca091665c52a437babf4b4e2b7bf6726",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Quick Answer",
+                    "attrs": {
+                      "style": {
+                        "color": "rgb(26, 78, 159)"
+                      }
+                    },
+                    "bold": true,
+                    "font-color": "#fa660f"
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "uid": "7f90c73bd87543a280fcc20d2b007bf7",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "li",
+                    "uid": "636cd99e181147fe8f703b3c5a267964",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "43d37db2b1684cfc9c351cfbf73a97bb",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Nearly 80% of data teams spend more than half their time preparing data, not analyzing it.",
+                            "bold": true
+                          },
+                          {
+                            "text": " This is not a tooling problem. It is a semantic logic problem caused by fragmented business definitions across systems."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "966b5fbbbc5c4e72a2237b225b149022",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "3b21663ff9bd4d3a9d97d70e841440dd",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Adding more tools often makes fragmented semantic logic worse, not better.",
+                            "bold": true
+                          },
+                          {
+                            "text": " Every new platform introduces another place where business definitions can diverge, increasing complexity and maintenance burden."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "125b8d7f09454bd4bf996fc5c365bc86",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "772a0a81ae004d5c8ad9ac07d75f8cbe",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Leading organizations centralize business definitions to create a shared semantic foundation.",
+                            "bold": true
+                          },
+                          {
+                            "text": " This reduces the data preparation burden and enables consistent, trusted analytics across every tool and workflow."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs17a623b2202a7bf7"
+          }
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "ff6e888d18364eb7b5d540726134c879",
+            "children": [
+              {
+                "type": "p",
+                "uid": "2f9e14b312674adeace30b310109af5b",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Despite years of investment in analytics, many data teams still spend more time preparing data than generating insights."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "b96c40d9aedb474384c5c172d6f68005",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "According to the "
+                  },
+                  {
+                    "type": "a",
+                    "uid": "44419074008f465e9ec32a87f6509d4e",
+                    "attrs": {
+                      "url": "https://www.strategy.com/pl/software/research-and-reports/data-ai-analytics-trends-across-organizations-in-2026",
+                      "target": "_blank"
+                    },
+                    "children": [
+                      {
+                        "text": "2026 Data, AI & Analytics Trends Report"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ", nearly "
+                  },
+                  {
+                    "text": "80% of data teams spend more than half of their time preparing data instead of analyzing it.",
+                    "bold": true
+                  },
+                  {
+                    "text": " ",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "f0ee8a9b700840b282054967f8212ba4",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "That isn't a marginal inefficiency. It's a structural bottleneck, and one of the clearest signals that an enterprise's analytics strategy is not scaling."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "d018cf6117d94c0ea711b0329fbc1eb2",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The question isn't whether data preparation is consuming too much time. The question is why."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs42c58f7826c0b1be"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "Why Data Preparation Remains an Enterprise Bottleneck",
+          "_metadata": {
+            "uid": "cs88969601bc16772a"
+          },
+          "section_id": "why-data-preparation-remains-an-enterprise-bottleneck"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "12316d9d94e547dab9dad708639dcad8",
+            "children": [
+              {
+                "type": "p",
+                "uid": "169d95b6e17b4556b62b93dcba5819c9",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Data analytics can be divided into three stages: data preparation, validation, and action.",
+                    "bold": true,
+                    "italic": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "89d71596687b404993571fde75e80208",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Before business intelligence became more accessible, data preparation was a time-consuming and highly manual process. Specialists were expected to work across dozens of data sources, hundreds of key performance indicators, and thousands of rows of data under increasingly demanding timelines.",
+                    "bold": true,
+                    "italic": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "60fb935e3fa34fd8b754365447674c05",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "While modern analytics platforms, cloud warehouses, and artificial intelligence have reduced some of that burden, many enterprises ",
+                    "bold": true,
+                    "italic": true
+                  },
+                  {
+                    "text": "remain",
+                    "bold": true,
+                    "italic": true
+                  },
+                  {
+                    "text": " trapped in the first stage.",
+                    "bold": true,
+                    "italic": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "1372deba7059476b9f1e65d7b8b0681c",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "When asked why analytics initiatives continue to stall, organizations often point to one of three explanations:",
+                    "bold": true,
+                    "italic": true
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "uid": "33fdab64d97d4b48b04603b70389eb3f",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "li",
+                    "uid": "d9477acc097d4fa184d3f13f48af7e60",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "4b31fd94a68b4a67b535b21462f42a86",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Our data teams do not have enough automation."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "390e5073135a492da661d6e98706fa67",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "d6c2b584952d4bce9c4e1589a0037ae6",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "We do not have the right platform."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "4f5960cb6d0d4a33b0fac0355cc8816f",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "e81eac62a4474e698e4cc20453e6c3ec",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "There is not enough artificial intelligence to go around."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "7314e3b8e9314a21a63213f132ac58fc",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "But these enterprises already operate modern data stacks. They store data across multiple cloud warehouses, use several business intelligence tools, and rely on increasingly sophisticated analytics capabilities.",
+                    "bold": true,
+                    "italic": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "e184ee4983aa473aa4662789f4ebbdb4",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The problem ",
+                    "bold": true,
+                    "italic": true
+                  },
+                  {
+                    "text": "isn't",
+                    "bold": true,
+                    "italic": true
+                  },
+                  {
+                    "text": " a lack of technology. ",
+                    "bold": true,
+                    "italic": true
+                  },
+                  {
+                    "text": "It's",
+                    "bold": true,
+                    "italic": true
+                  },
+                  {
+                    "text": " a lack of shared business meaning across that technology.",
+                    "bold": true,
+                    "italic": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "d70d641b41984faca83f314367038d07",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Why do data teams struggle with data preparation?",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "fcbc25d988934bfa8b698be9cd899828",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Data teams struggle with data preparation because they cannot apply consistent semantic logic across their technology stack. Semantic logic is the collection of business rules, relationships, and definitions that determine how raw data is interpreted and calculated across an organization. When that logic is fragmented across systems, data preparation becomes an exercise in reconstruction. Instead of relying on shared business context, teams are forced to recreate definitions, metrics, and relationships across every new tool and workflow."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "c4d43719c3554a2fb4bdd32ec493614b",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "As ",
+                    "bold": true,
+                    "italic": true
+                  },
+                  {
+                    "text": "Erika ",
+                    "bold": true,
+                    "italic": true
+                  },
+                  {
+                    "text": "Moreno, VP of Product at Strategy",
+                    "bold": true,
+                    "italic": true
+                  },
+                  {
+                    "text": ", puts it:",
+                    "bold": true,
+                    "italic": true
+                  }
+                ]
+              },
+              {
+                "type": "blockquote",
+                "uid": "44952a2fd91648e685528a4e21344a6a",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "p",
+                    "uid": "814bbb59bdbf49dfae2796c78db04991",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "text": "\"Fragmented logic is the hidden tax on every analytics initiative.\""
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs4ec88678a7862d59"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "How Data Fragmentation Keeps Data Teams Stuck in Preparation",
+          "_metadata": {
+            "uid": "cs923014f233f72f9f"
+          },
+          "section_id": "how-data-fragmentation-keeps-data-teams-stuck-in-preparation"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "221bb536686c420c9241285aa41a4eea",
+            "children": [
+              {
+                "type": "p",
+                "uid": "146a43e86f774ec0b56a2f8113c4bddf",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "When data lives across multiple warehouses, applications, and business intelligence tools without a shared business context, it becomes increasingly difficult to interpret consistently."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "3e572496c6b24b46bcaef8d9f2e6df80",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "This is where data fragmentation begins."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "36736ef0eb3a4ef7aebdd0778bd3ffb2",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Data fragmentation occurs when business definitions, metrics, and relationships are distributed across disconnected systems instead of being managed centrally. Rather than operating from a shared source of truth, organizations end up maintaining multiple versions of the same logic across their analytics environments."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "d00e9128fe0d4ffd87b6159e0a39d849",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "As semantic logic becomes scattered, the shared business context begins to break apart."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "c7fe645618f24d0aaef6ff510fad4730",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "What is data fragmentation?",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "bfa5af6cbb7d48488f42d3920261071d",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Data fragmentation is the condition in which semantic logic and definitions are spread across multiple tools, forcing teams to repeatedly recreate definitions, metrics, and relationships in order to analyze data consistently. As organizations add more systems, dashboards, and pipelines, the number of places where semantic logic can diverge continues to grow. Over time, this makes data preparation difficult because every analysis begins with a different interpretation of the same information."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs97dbd3748d78690e"
+          }
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "0c1fa704f76049839b52aaff328e6e10",
+            "children": [
+              {
+                "type": "h4",
+                "uid": "696fc681137f46ea80f3279e11cce172",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "",
+                    "font-color": "#fa660f"
+                  }
+                ]
+              },
+              {
+                "type": "h4",
+                "uid": "922770e214894bc9939d3da953628f0f",
+                "attrs": {},
+                "children": [
+                  {
+                    "font-color": "#fa660f",
+                    "text": "The Operational Impact of Data Fragmentation"
+                  }
+                ]
+              },
+              {
+                "type": "table",
+                "uid": "e21caa36c4e34f88a18ed6823061d892",
+                "attrs": {
+                  "rows": 4,
+                  "cols": 2,
+                  "colWidths": [
+                    100,
+                    100
+                  ]
+                },
+                "children": [
+                  {
+                    "type": "tr",
+                    "uid": "01eda5bba72447fe9546d1e8699af8bf",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "th",
+                        "uid": "f1d0c1ce24fc4808b186b81f4dbce3d9",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "b3c79b14f35d4173b2d8d0c1040dd622",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Impact",
+                                "bold": true
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "th",
+                        "uid": "130cc72dd64b4ad1bd069eb99b3f5180",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "4c85fc01fa394a728f4fd6966bd5adb1",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Description",
+                                "bold": true
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "tr",
+                    "uid": "de7b550837544ba79edf518159213b0c",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "td",
+                        "uid": "2530f1e06a504ffa992dac3d33b69b28",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "a2ee8a7347944fb981819b91760436e1",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Manual Reconciliation"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "60db1c725be84f268c28fb509c1a1b21",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "8bd87f440ee24f41a85b19ae7a3d2c8a",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "When data logic is fragmented across tools, analysts must manually reconcile and reconstruct business logic before they can begin generating insights. As a result, data teams are forced to compare dashboards, validate outputs, and trace discrepancies."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "tr",
+                    "uid": "f0101b8458eb4d65ad9b56124c2366cc",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "td",
+                        "uid": "4f6357d650bf4ce096aebb62e71a3c20",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "435deba80baa4f11b68d081d3b170717",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Metric Inconsistency"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "9ed605a721c549a8b4323b2c9ff3f1b0",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "1f8364dab2f6463184e374cf86b1616d",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Over time, departments begin receiving different answers for the same key performance indicators. Without shared semantic logic, teams create their own definitions of revenue, customer count, or churn, forcing the organization into a continuous cycle of verification and rework."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "tr",
+                    "uid": "f71178a20137484f82558c8346f9d2d2",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "td",
+                        "uid": "1ce02300d26c4d498b3cd06129340c62",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "bb4781ff9273445e8aee90634dfd5e96",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Complexity"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "fd608506479b4a55a81db8bb631f24a7",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "bb5b7aa0d89f4fb69645a18f7905e287",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "As the data stack expands, productivity often declines. Every new application, dashboard, and pipeline introduces another place where business definitions can diverge. Instead of increasing agility, complexity increases the effort required to generate trusted insights."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "2adb3ef6a19741acaebf8dfa6c2c5bea",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Data fragmentation scatters business definitions across disconnected tools, forcing teams to repeatedly ",
+                    "bold": true,
+                    "italic": true
+                  },
+                  {
+                    "text": "validate",
+                    "bold": true,
+                    "italic": true
+                  },
+                  {
+                    "text": " metrics and reducing trust in the data they rely on",
+                    "bold": true,
+                    "italic": true
+                  },
+                  {
+                    "text": ". According to the ",
+                    "bold": true,
+                    "italic": true
+                  },
+                  {
+                    "type": "a",
+                    "uid": "874c715d38454e38a6031cb5450150d0",
+                    "attrs": {
+                      "url": "https://www.strategy.com/pl/software/research-and-reports/data-ai-analytics-trends-across-organizations-in-2026",
+                      "target": "_blank"
+                    },
+                    "children": [
+                      {
+                        "text": "2026 Data, AI & Analytics Trends Report",
+                        "bold": true,
+                        "italic": true
+                      }
+                    ]
+                  },
+                  {
+                    "text": ", this ",
+                    "bold": true,
+                    "italic": true
+                  },
+                  {
+                    "text": "fragmentation drives unpredictable costs",
+                    "bold": true,
+                    "italic": true
+                  },
+                  {
+                    "text": ", as organizations struggle to ",
+                    "bold": true,
+                    "italic": true
+                  },
+                  {
+                    "text": "optimize",
+                    "bold": true,
+                    "italic": true
+                  },
+                  {
+                    "text": " usage patterns in siloed environments.",
+                    "bold": true,
+                    "italic": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "e7b86268388e47f7af29a741c26251b6",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The consequences of fragmentation extend far beyond analyst productivity. They shape how quickly an organization can make decisions, scale analytics, and prepare for artificial intelligence.",
+                    "bold": true,
+                    "italic": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "3a6d4ec27b6c4202b8ad87a6d060cd58",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "What are the real costs of fragmented data?",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "c7c103ad061146e7a8e7e3d0ea941acf",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Data fragmentation transforms high-value analytical work into endless data infrastructure maintenance. As business logic becomes increasingly distributed, organizations spend more time maintaining definitions than generating insights. Without a centralized approach to managing business logic, complexity grows with every new tool introduced into the environment."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs965e1bdb25ace0ba"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "Why Adding More Tools Makes the Problem Worse",
+          "_metadata": {
+            "uid": "csc86648cabdb0cb37"
+          },
+          "section_id": "why-adding-more-tools-makes-the-problem-worse"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "a86bc704d8dc47cd816cd1885ad75728",
+            "children": [
+              {
+                "type": "p",
+                "uid": "d4b66203ecc84276bdae53abb4fea376",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "When productivity declines, the natural response is to invest in more technology. New platforms promise automation, acceleration, and faster insight generation.",
+                    "bold": true,
+                    "italic": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "8fc1406c560041b58858e26185ed36c1",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "But when the underlying issue is ",
+                    "bold": true,
+                    "italic": true
+                  },
+                  {
+                    "text": "fragmented",
+                    "bold": true,
+                    "italic": true
+                  },
+                  {
+                    "text": " business logic, adding more tools often amplifies the problem. Every new system introduces another place where definitions can diverge. Business logic becomes embedded in dashboards, pipelines, and models across an increasingly complex ecosystem.",
+                    "bold": true,
+                    "italic": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "04b665bbf4f5497baa3ec4c4d5dc7845",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Instead of reducing complexity, organizations create more points of inconsistency, each requiring ongoing validation and maintenance.",
+                    "bold": true,
+                    "italic": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "a6a6aedbbadd40bf868458345a49db08",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "As Erika Moreno notes:",
+                    "bold": true,
+                    "italic": true
+                  }
+                ]
+              },
+              {
+                "type": "blockquote",
+                "uid": "db1bf8b1eb904d578350c5ee789cbf36",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "p",
+                    "uid": "28016b5757164ba59ef842d9b13e2570",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "text": "\"We are trying to force reconciliation to happen manually at every step.\""
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "169de0cfa75b49d4b3c9a299b527127e",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "This creates a cycle that becomes increasingly difficult to break."
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "uid": "62bc21e4061e4f438997cf486cb07384",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "li",
+                    "uid": "3b5446f4c8004f4f8064fcc0a98a6dda",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "d35dfe5f47b740969b9fe895b02f4ad2",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "More tools lead to more fragmentation"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "8678fb78548d4e6a92d26e9793768545",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "a42de1f9f2a0472196f6904cc113c345",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "More fragmentation leads to more preparation work"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "8ef1fc51bf1848d88244456fb2899d36",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "989c98e6e11d4c29bdd33f8bca1a0f19",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "More preparation work creates pressure to invest in even more technology, restarting the cycle"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "2e293d6d61254c1fb831b2de7ef80a2c",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The problem isn't that organizations lack technology. The problem is that every new technology inherits the same inconsistent definitions that already exist across the environment."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs2c5525b06f23bb76"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "The Three Pillars for Scalable Enterprise Analytics",
+          "_metadata": {
+            "uid": "csd3eb1087433ef0e9"
+          },
+          "section_id": "the-three-pillars-for-scalable-enterprise-analytics"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "43df1e24dc184638a3d95ee8a8a3f3ff",
+            "children": [
+              {
+                "type": "p",
+                "uid": "bdd05b3cad8941bfaa5f1548e4596c91",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "If the current approach is not working, the question becomes what needs to change.",
+                    "bold": true,
+                    "italic": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "546f0d2148b14fdea1a61fb841aa57f6",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Instead of adding more tools or features, modern enterprises are investing in a ",
+                    "bold": true,
+                    "italic": true
+                  },
+                  {
+                    "text": "stronger foundation",
+                    "bold": true,
+                    "italic": true
+                  },
+                  {
+                    "text": ". ",
+                    "bold": true,
+                    "italic": true
+                  },
+                  {
+                    "text": "When asked which capabilities matter most for scaling analytics, leaders prioritize ",
+                    "bold": true,
+                    "italic": true
+                  },
+                  {
+                    "text": "consistency, trust, and control over novelty",
+                    "bold": true,
+                    "italic": true
+                  },
+                  {
+                    "text": ".",
+                    "bold": true,
+                    "italic": true
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs6e553591f842561f"
+          }
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "07b944a2169748baa9ce22a4092190a5",
+            "children": [
+              {
+                "type": "h4",
+                "uid": "95f94d89d3044d0baa9dbcf17f7d989e",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "",
+                    "font-color": "#fa660f"
+                  }
+                ]
+              },
+              {
+                "type": "h4",
+                "uid": "41377dadc920435db79397504240535f",
+                "attrs": {},
+                "children": [
+                  {
+                    "font-color": "#fa660f",
+                    "text": "1. Semantic Consistency"
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "f6f094d201fe4cd7ad2b23d97dde4cf4",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "If core metrics such as revenue, customer count, or churn are defined differently across systems, no amount of downstream optimization will fix the problem.",
+                    "bold": true,
+                    "italic": true
+                  },
+                  {
+                    "text": " ",
+                    "bold": true,
+                    "italic": true
+                  },
+                  {
+                    "text": "Semantic consistency is not a reporting concern. It is a prerequisite for ",
+                    "bold": true,
+                    "italic": true
+                  },
+                  {
+                    "text": "scale",
+                    "bold": true,
+                    "italic": true
+                  },
+                  {
+                    "text": ".",
+                    "bold": true,
+                    "italic": true
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs8eef1a9ba66360dc"
+          }
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "1278c48850e44acf9f02ef39d94b2ef2",
+            "children": [
+              {
+                "type": "h4",
+                "uid": "393808bfdf88433ead21cac95c455e88",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "",
+                    "font-color": "#fa660f"
+                  }
+                ]
+              },
+              {
+                "type": "h4",
+                "uid": "dfa7e039b30c410d942d19bd9e00d3f5",
+                "attrs": {},
+                "children": [
+                  {
+                    "font-color": "#fa660f",
+                    "text": "2. Governed Self-Service"
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "65f18faecaf74da1abbbc4ec9eca5d1a",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Enterprises want business users to explore and analyze data independently. But without shared definitions and clear ownership, self-service",
+                    "bold": true,
+                    "italic": true
+                  },
+                  {
+                    "text": " often creates more definitions instead of insights.",
+                    "bold": true,
+                    "italic": true
+                  },
+                  {
+                    "text": " They need",
+                    "bold": true,
+                    "italic": true
+                  },
+                  {
+                    "text": " a model where users can move quickly while still ",
+                    "bold": true,
+                    "italic": true
+                  },
+                  {
+                    "text": "operating",
+                    "bold": true,
+                    "italic": true
+                  },
+                  {
+                    "text": " within certified definitions and agreed-upon business rules.",
+                    "bold": true,
+                    "italic": true
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cse7a2425bfa2a9d56"
+          }
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "5586c80464434162b92d46307d8e1556",
+            "children": [
+              {
+                "type": "h4",
+                "uid": "04b0b83fe8d343fd95156843a4b988f6",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "",
+                    "font-color": "#fa660f"
+                  }
+                ]
+              },
+              {
+                "type": "h4",
+                "uid": "e086e3a7576c4636bbf616ed5bfb68bd",
+                "attrs": {},
+                "children": [
+                  {
+                    "font-color": "#fa660f",
+                    "text": "3. AI-Ready Foundations"
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "6e7bf0295a6248ada01fec9cfe672cc3",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Contrary to common assumptions, artificial intelligence ",
+                    "bold": true,
+                    "italic": true
+                  },
+                  {
+                    "text": "doesn't",
+                    "bold": true,
+                    "italic": true
+                  },
+                  {
+                    "text": " ",
+                    "bold": true,
+                    "italic": true
+                  },
+                  {
+                    "text": "eliminate",
+                    "bold": true,
+                    "italic": true
+                  },
+                  {
+                    "text": " the need for structure. It depends on it.",
+                    "bold": true,
+                    "italic": true
+                  },
+                  {
+                    "text": " ",
+                    "bold": true,
+                    "italic": true
+                  },
+                  {
+                    "text": "AI can accelerate decisions, but only when it ",
+                    "bold": true,
+                    "italic": true
+                  },
+                  {
+                    "text": "operates",
+                    "bold": true,
+                    "italic": true
+                  },
+                  {
+                    "text": " on ",
+                    "bold": true,
+                    "italic": true
+                  },
+                  {
+                    "text": "trusted",
+                    "bold": true,
+                    "italic": true
+                  },
+                  {
+                    "text": " business context.",
+                    "bold": true,
+                    "italic": true
+                  },
+                  {
+                    "text": " ",
+                    "bold": true,
+                    "italic": true
+                  },
+                  {
+                    "text": "Well-defined business logic ensures that AI produces answers that are both accurate and repeatable.",
+                    "bold": true,
+                    "italic": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "0e7182e5b8d4438aa7187525a4345034",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Increasingly, leading enterprises are treating ",
+                    "bold": true,
+                    "italic": true
+                  },
+                  {
+                    "text": "semantic ",
+                    "bold": true,
+                    "italic": true
+                  },
+                  {
+                    "text": "logic as a shared asset rather than something embedded inside individual dashboards and pipelines. ",
+                    "bold": true,
+                    "italic": true
+                  },
+                  {
+                    "text": "They",
+                    "bold": true,
+                    "italic": true
+                  },
+                  {
+                    "text": " are ",
+                    "bold": true,
+                    "italic": true
+                  },
+                  {
+                    "text": "building stronger foundations that allow every tool to ",
+                    "bold": true,
+                    "italic": true
+                  },
+                  {
+                    "text": "operate",
+                    "bold": true,
+                    "italic": true
+                  },
+                  {
+                    "text": " from the same business context.",
+                    "bold": true,
+                    "italic": true
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "csa40ccaa45eeb5717"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "Why the Data Preparation Bottleneck Is a Maturity Signal",
+          "_metadata": {
+            "uid": "cs51002e9a7526a5bd"
+          },
+          "section_id": "why-the-data-preparation-bottleneck-is-a-maturity-signal"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "695427d47ef24c5d86dacc5d13a73386",
+            "children": [
+              {
+                "type": "p",
+                "uid": "eac60405548d449691b1361d74d09c69",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Most organizations view excessive data preparation as an ",
+                    "bold": true,
+                    "italic": true
+                  },
+                  {
+                    "text": "efficiency",
+                    "bold": true,
+                    "italic": true
+                  },
+                  {
+                    "text": " problem. Leading organizations view it as a signal.",
+                    "bold": true,
+                    "italic": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "ac0cb2d838d443d080ee6848e0cfd390",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "When teams spend the majority of their time reconstructing definitions and validating metrics, it usually means foundational capabilities are missing:",
+                    "bold": true,
+                    "italic": true
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "uid": "3aa33a23ebf246d188600c182c7fff43",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "li",
+                    "uid": "84d8c3d65b654f7086d17c8fdf252876",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "45c80652264c48e88c5b8314a311724c",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "centralized business logic"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "74286bafbd4c4204bb66224da0e020fa",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "31fc3b80d26b4b31af3f81f0920ad4e2",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "reusable definitions"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "178e737f3dcd4269bf56c72723310fac",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "0fde729796c046f79ae7ff74af137d46",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "shared governance"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "db722b8e6f0d48e495f907226257ab9f",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "091f365e45204f72a87ce7314e9029de",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "trusted business context"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "85197689418b454fafc28f3ace8d8f6d",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Simply put, the architecture forces teams to repeatedly recreate business meaning that should already be shared across the enterprise.",
+                    "bold": true,
+                    "italic": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "21bc7d4ab0ed49f7a2d1f15d2009ec0a",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The ",
+                    "bold": true,
+                    "italic": true
+                  },
+                  {
+                    "type": "a",
+                    "uid": "d960a567feb34941a96942e52e4d5834",
+                    "attrs": {
+                      "url": "https://www.strategy.com/pl/software/research-and-reports/data-ai-analytics-trends-across-organizations-in-2026",
+                      "target": "_blank"
+                    },
+                    "children": [
+                      {
+                        "text": "2026 Data, AI & Analytics Trends Report",
+                        "bold": true,
+                        "italic": true
+                      }
+                    ]
+                  },
+                  {
+                    "text": " captures this clearly",
+                    "bold": true,
+                    "italic": true
+                  },
+                  {
+                    "text": ":",
+                    "bold": true,
+                    "italic": true
+                  }
+                ]
+              },
+              {
+                "type": "blockquote",
+                "uid": "3e92b9ad8b8c47c2a0d881ae145c5a0a",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "p",
+                    "uid": "2da4e987a46648799227721544c8daab",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "text": "\"The longer teams remain in manual prep loops, the smaller the window becomes for meaningful insights.\""
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs1d5724b4bede4f06"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "What Leading Organizations Are Doing Differently",
+          "_metadata": {
+            "uid": "cs3b052734391e53e0"
+          },
+          "section_id": "what-leading-organizations-are-doing-differently"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "e4d7930967814c33b74adc9f8281650f",
+            "children": [
+              {
+                "type": "p",
+                "uid": "8b4a24f5e83946db98f9b977a1070da5",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Organizations making progress are not simply working faster. The ",
+                    "bold": true,
+                    "italic": true
+                  },
+                  {
+                    "text": "2026 Data, AI & Analytics Trends Report",
+                    "bold": true,
+                    "italic": true
+                  },
+                  {
+                    "text": " ",
+                    "bold": true,
+                    "italic": true
+                  },
+                  {
+                    "text": "shows that they are changing the foundations that analytics depend on.",
+                    "bold": true,
+                    "italic": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "18089fdddf7f4297bec8047f020ef962",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Rather than treating data preparation as an unavoidable cost of doing analytics, they are investing in capabilities that reduce the need for constant reconstruction and validation in the first place.",
+                    "bold": true,
+                    "italic": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "a690b4131104466589fd85d4b473fc40",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The question is no longer whether data teams need to spend less time preparing data. It is how the highest-performing organizations are making that possible.",
+                    "bold": true,
+                    "italic": true
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs5c3a9a9ca024490e"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "Frequently Asked Questions",
+          "_metadata": {
+            "uid": "cse59b1982eb6742e2"
+          },
+          "section_id": "frequently-asked-questions"
+        }
+      },
+      {
+        "accordion": {
+          "accordion_item": [
+            {
+              "title": "Why do data teams spend so much time preparing data?",
+              "_metadata": {
+                "uid": "csc4c6532af20bbe81"
+              },
+              "content": {
+                "type": "doc",
+                "attrs": {},
+                "uid": "d2d5870f7b6c4075b6e5ec2c32c7a17e",
+                "children": [
+                  {
+                    "type": "p",
+                    "attrs": {},
+                    "uid": "c1b6d5d1f81b4087943294b9e5da413f",
+                    "children": [
+                      {
+                        "text": "Many organizations lack consistent semantic logic and shared business definitions across their technology environments. As a result, teams spend significant time reconciling metrics and recreating business meaning before they can generate insights."
+                      }
+                    ]
+                  }
+                ],
+                "_version": 1
+              }
+            },
+            {
+              "title": "What is semantic logic?",
+              "_metadata": {
+                "uid": "cs633e00461b654496"
+              },
+              "content": {
+                "type": "doc",
+                "attrs": {},
+                "uid": "f1366bd7e6ba4996b1f7ed9f381d225b",
+                "children": [
+                  {
+                    "type": "p",
+                    "attrs": {},
+                    "uid": "a60e21943b3b484b92fd4adf15f2cca7",
+                    "children": [
+                      {
+                        "text": "Semantic logic is the collection of business rules, relationships, and definitions that determine how raw data is interpreted and calculated across an organization."
+                      }
+                    ]
+                  }
+                ],
+                "_version": 1
+              }
+            },
+            {
+              "title": "What causes data fragmentation?",
+              "_metadata": {
+                "uid": "cs9f42ee81d84073e9"
+              },
+              "content": {
+                "type": "doc",
+                "attrs": {},
+                "uid": "732f7cd095de40d7a4e2bb51b62be6e5",
+                "children": [
+                  {
+                    "type": "p",
+                    "attrs": {},
+                    "uid": "596874c6d2d4412b9e03f12a6bf4ddfd",
+                    "children": [
+                      {
+                        "text": "Data fragmentation occurs when business definitions and logic are distributed across disconnected systems instead of being managed centrally."
+                      }
+                    ]
+                  }
+                ],
+                "_version": 1
+              }
+            },
+            {
+              "title": "Can adding more tools solve data preparation problems?",
+              "_metadata": {
+                "uid": "cs0749a80477ad6171"
+              },
+              "content": {
+                "type": "doc",
+                "attrs": {},
+                "uid": "a0094dcba53b4d6599b6d2f1f8b9dda1",
+                "children": [
+                  {
+                    "type": "p",
+                    "attrs": {},
+                    "uid": "5d87d7121e9e403696161c18939dbfb5",
+                    "children": [
+                      {
+                        "text": "Not necessarily. When business logic is fragmented, adding more tools often creates additional places where definitions can diverge."
+                      }
+                    ]
+                  }
+                ],
+                "_version": 1
+              }
+            },
+            {
+              "title": "Why is semantic consistency important for artificial intelligence?",
+              "_metadata": {
+                "uid": "cs2e95b294928d2123"
+              },
+              "content": {
+                "type": "doc",
+                "attrs": {},
+                "uid": "c70114b935444f0a959afd57d25480cc",
+                "children": [
+                  {
+                    "type": "p",
+                    "attrs": {},
+                    "uid": "91058942df0048ad8e4d9a96322cb066",
+                    "children": [
+                      {
+                        "text": "Artificial intelligence depends on trusted business context. Without consistent definitions and logic, AI systems can produce unreliable answers."
+                      }
+                    ]
+                  }
+                ],
+                "_version": 1
+              }
+            }
+          ],
+          "_metadata": {
+            "uid": "csbf1a784b4da7c407"
+          },
+          "accordion_options": "closed"
+        }
+      }
+    ],
+    "cta_section": [],
+    "related_posts": [],
+    "seo": {
+      "meta_title": "Why Analytics Stall: Missing Semantic Logic Slows Data Teams",
+      "meta_description": "Discover why fragmented semantic logic stalls data teams. Learn how centralizing business definitions with Strategy cuts prep time and builds trusted analytics.",
+      "keywords": "semantic layer for enterprise analytics, data preparation bottleneck, semantic logic in BI, centralized business definitions, enterprise analytics strategy",
+      "social_thumbnail_override": null,
+      "enable_search_indexing": true
+    },
+    "page_properties": {
+      "navigation_title": "",
+      "header_color": null,
+      "hide_header_nav": false,
+      "hide_header_cta": false,
+      "hide_footer": false,
+      "disable_global_promo_banner": false,
+      "hide_auto_expert": false,
+      "sfid": "",
+      "marketo_id": "",
+      "cta_section": []
+    },
+    "resource_data": {
+      "date": "2026-06-23T00:00:00.000Z",
+      "type": "Blog",
+      "title": "Why Analytics Stall: How Missing Semantic Logic Slows Data Teams",
+      "description": "Discover why fragmented semantic logic stalls data teams. Learn how centralizing business definitions with Strategy cuts prep time and builds trusted analytics.",
+      "featured": false
+    },
+    "tags": [],
+    "publish_date": "2026-06-23T00:00:00.000Z",
+    "author": [
+      {
+        "uid": "bltaed29ca054d0f5b0",
+        "_content_type_uid": "blog_author"
+      }
+    ],
+    "taxonomies": [
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "product_updates"
+      },
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "mosaic"
+      },
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "semantic_layer"
+      },
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "ai_trends"
+      },
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "analytics"
+      },
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "business_intelligence"
+      }
+    ]
+  },
+  "_mapping_warnings": [
+    "No author name or publish date found in the document.",
+    "The second [H2] tag in the 'Why Data Preparation Remains an Enterprise Bottleneck' section appears to be a bold-italic paragraph formatted as an H2 — treated as a paragraph block within that section rather than a new section heading.",
+    "The second [H2] tag in the 'Why the Data Preparation Bottleneck Is a Maturity Signal' section similarly appears to be a bold-italic lead paragraph formatted as H2 — treated as a paragraph block within that section.",
+    "H4 headings (1. Semantic Consistency, 2. Governed Self-Service, 3. AI-Ready Foundations) were mapped as H3 heading blocks since only H2 and H3 are supported in the schema.",
+    "The CTA table at the end of 'What Leading Organizations Are Doing Differently' was extracted as a cta_list entry. The URL was inferred from the context of the 2026 Report link used elsewhere in the document.",
+    "Erika Moreno is identified as VP of Product at Strategy — no additional author bio or affiliation details were present in the document.",
+    "The blockquote attributed to the 2026 Data, AI & Analytics Trends Report ('The longer teams remain...') does not have a named individual author — treated as a publication-attributed blockquote.",
+    "publishDate was not found in the document — defaulted to pipeline run date (2026-06-23T00:00:00.000Z). Confirm before publishing.",
+    "CTA 1 ('Read the 2026 Data, AI & Analytics Trends Report') — cta_section is a reference to a Promo entry; add the Promo UID manually in the CS editor."
+  ]
+}

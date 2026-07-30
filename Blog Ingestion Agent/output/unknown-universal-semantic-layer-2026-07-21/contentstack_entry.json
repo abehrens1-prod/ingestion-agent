@@ -1,0 +1,2114 @@
+{
+  "entry": {
+    "title": "v1 -- What Problems Does a Universal Semantic Layer Solve for Enterprise AI?",
+    "url": "/blog/what-problems-does-a-universal-semantic-layer-solve-for-enterprise-ai",
+    "lead_paragraph": {
+      "type": "doc",
+      "attrs": {},
+      "uid": "067ea7a97ced472696a0bb57a6bf0cba",
+      "children": [
+        {
+          "text": ""
+        }
+      ],
+      "_version": 1
+    },
+    "content": [
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "00018c1754644df7976d6da3d39198ee",
+            "children": [
+              {
+                "type": "h3",
+                "uid": "b59040db1ce1478cb3652d0a5fd1e5d6",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Quick Answer",
+                    "attrs": {
+                      "style": {
+                        "color": "rgb(26, 78, 159)"
+                      }
+                    },
+                    "bold": true,
+                    "font-color": "#fa660f"
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "uid": "539e3ad2ae5a44bebe292a7629451c7d",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "li",
+                    "uid": "17f44eea20474b4893e18f452cf57c3f",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "1b2ffcfaf2da4eac9f76ee4d49391cb7",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Enterprise AI often produces answers that look right and aren't.",
+                            "bold": true
+                          },
+                          {
+                            "text": " Dashboards disagree with each other, the same question can return two different SQL queries, and security rules that apply on a BI dashboard may not apply when an AI agent reaches the warehouse through a different access path."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "52092e29c2f2447085635c988231cd76",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "e8f716730b27411ea7485b960db930f0",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "The root cause is missing business context.",
+                            "bold": true
+                          },
+                          {
+                            "text": " AI systems don't have the business context to interpret enterprise data correctly on their own, which undermines accuracy, consistency, governance, portability, and cost control."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "d9b9ad4f6c074aab9ffbd378b6ca841c",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "9df0587565b84a57b110d1c32ff824fd",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "A Universal Semantic Layer solves this by giving AI that missing business context directly.",
+                            "bold": true
+                          },
+                          {
+                            "text": " Strategy Mosaic does this by sitting above the existing data stack as one governed layer that connected tools and AI systems can draw from."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs46b093a4ea7d98a1"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "Enterprises are pointing AI at the wrong place",
+          "_metadata": {
+            "uid": "csf7a3ae532c8e493f"
+          },
+          "section_id": "enterprises-are-pointing-ai-at-the-wrong-place"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "dce38e047deb446a915cec5d7a3bee85",
+            "children": [
+              {
+                "type": "p",
+                "uid": "b6452d06553944ad80c8011094b9a11d",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Having enterprise AI isn't the same as maximizing its true potential."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "3cce3ef342dd49c2a52d653405e409c1",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Most organizations with heavy investments in AI tend to focus on the speed and accuracy of the insights they can gain. But those two benefits require more than just data sources."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "7ffcf28f475543d2b3e590fd767b0f3c",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The truth is that AI can be connected across thousands of warehouses, applications, and BI tools, and still fail to deliver results. Not because the data is lacking, but because the AI is trying to extract business context from sources that weren't built to explain themselves."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "0516906958ca48a08c4ff9bfcc6408d0",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "a",
+                    "uid": "e2cf6a9dacf5487ab843a9eee1ffda71",
+                    "attrs": {
+                      "url": "https://software.strategy.com/research-and-reports/make-data-ai-ready-via-semantic-layer-platforms",
+                      "target": "_blank"
+                    },
+                    "children": [
+                      {
+                        "text": "Forrester's 2026 Report"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " puts this plainly: "
+                  },
+                  {
+                    "text": "agentic AI stalls when enterprise data lacks a consistent, shared semantic foundation.",
+                    "bold": true
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "csdbfc19b5b1bc6d0b"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "Without shared business context, AI works in the dark",
+          "_metadata": {
+            "uid": "csf555399802121906"
+          },
+          "section_id": "without-shared-business-context-ai-works-in-the-dark"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "e4aabf0d1d234cab9d87ee28c3b4cd6f",
+            "children": [
+              {
+                "type": "p",
+                "uid": "ac269bd35f634443bfab1c2c60e27f87",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "In enterprise analytics, business context refers to metric definitions, metadata, business rules, relationships, join paths, hierarchies, and access policies that give raw data meaning. It helps users understand what a metric is, where it comes from, and how it drives decision-making value."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "5e727227f792432b88441d66abd49758",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "But that business context doesn't trace across the enterprise. It naturally fragments because different teams and AI tools create isolated definitions based on their own narrow goals. This fragmentation causes AI to generate inaccurate answers because it extracts conflicting interpretations from these isolated contexts."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "d7802f4e33a041c1a059560c9ff02f51",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "That's when enterprises see problems with:"
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "uid": "e7cf32db28d8408e9f5fe1db6f60cf67",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "li",
+                    "uid": "5ca89b53d184412faba43499d2cb007a",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "a773f25f21c143c18f863d581f0153e2",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Accuracy: AI can get answers wrong on complex, multi-table questions."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "66a2b355a68f49cd9bea7d5d88c124e4",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "4f779a02bd91418281d16a9ffe8e0dda",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Consistency: The same question can return different answers depending on the model."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "940b86f25fd140b9b59b842adf5e4a95",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "6859aca560f9446b9246f9f9970eecc2",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Governance: Access rules may not travel with the data when an AI agent uses a different access path."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "631a9b3383954392937d925954b11d22",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "63cf928ce87c48659753f1c1856bd7ba",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Portability: Business logic gets trapped inside a single AI/BI tool, and may need to be recreated or revalidated when a team changes platforms."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "7a3948cf37fd466aaf257f6b7fc27757",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "e997388cbfc84edcb3109debe8e55267",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Cost: AI and data platforms repeat context processing and query work the enterprise has already defined."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "95c59e82d8cc497e8bd4ebc897fdfad7",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "What happens when data lacks semantic consistency?",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "50ff23ced0d24c9f82e95525be4f1f18",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "When data lacks business context, it can lead to data misinterpretation, flawed strategic decisions, and difficulty explaining the \"why\" behind performance shifts. Without the rules and relationships behind a metric, the number may look conclusive while its meaning remains unclear. This gap often forces organizations to rely on guesswork, misallocate resources, and struggle with low user adoption of BI tools."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs8d44ad69b827c12d"
+          }
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "4697995e060846caa92c19758dd74217",
+            "children": [
+              {
+                "type": "p",
+                "uid": "eb0cef5ba6d04a0188a5641f70f9a7de",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "[IMAGE PLACEHOLDER]",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "737f00d5ad044f199eb985c87b981e5b",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Upload asset to Contentstack and replace this placeholder — source: image_0.png"
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "csba732875fb7c7515"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "The accuracy problem: AI must guess business logic",
+          "_metadata": {
+            "uid": "cs987a84b28c795829"
+          },
+          "section_id": "the-accuracy-problem-ai-must-guess-business-logic"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "ef527fc75b4c4473868aadb2271e6543",
+            "children": [
+              {
+                "type": "p",
+                "uid": "221d1f5cc5e8408680ef344d109aaad8",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "When you ask AI a business question, three things happen before you see an answer:"
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "uid": "c31f4fc9960a47418216f2141f5c866f",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "li",
+                    "uid": "be85cc092d6e49e9ab823b041fd9da79",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "59ccbb647f6c440c8ff66977b1394a73",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "The model interprets what you're asking,"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "257b03edb7ab454aaa2e58a70c25e72e",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "5ff38d75d58842e4829e4e5d4a533bde",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "It translates that into a query the underlying database can run,"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "e403f729e7da48da824f1afce439d95a",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "8356d042901c4dc69a273e66377a9975",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "It executes it and returns the result."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "3faea60e2ff84e16bfb8af6344c48c9e",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The middle step is where things go wrong."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "350fa1a140a04ec2b5c10f204dfe1ed9",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "For the AI to accurately write that query, it needs clear business logic ",
+                    "bold": true
+                  },
+                  {
+                    "text": "regarding",
+                    "bold": true
+                  },
+                  {
+                    "text": " which tables hold data, how they join, and what that data is called. ",
+                    "bold": true
+                  },
+                  {
+                    "text": "Business logic refers to the programmed rules, formulas, and data relationships that explain how raw data is calculated and converted into metrics. A raw schema doesn't fully capture that logic."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "aaba98c012ed4d41aa14bcdf6b97082d",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "As a result, the schema tells you a "
+                  },
+                  {
+                    "text": "table",
+                    "italic": true
+                  },
+                  {
+                    "text": " exists and what its columns are named. But it doesn't tell you the business context behind it. It doesn't share that an "
+                  },
+                  {
+                    "text": "\"Active Customer\"",
+                    "italic": true
+                  },
+                  {
+                    "text": " tag excludes anyone who hasn't logged in for 90 days. It doesn't tell you that Claims and Coverage tables shouldn't be joined directly on the "
+                  },
+                  {
+                    "text": "\"policy ID\"",
+                    "italic": true
+                  },
+                  {
+                    "text": " tag without aggregating each fact table separately first."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "933ed3d7aefd4d8396d1a0acb3b75660",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "How accuracy erodes in real-time:",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "958380e1811340b299afadefa6054696",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Take an insurance company. It's tracking multi-year Policies in one table and Claims in another. If a query joins those tables directly on \"policy ID\" before aggregating each fact table independently, each claim will match every year of the policy. The total will inflate before it ever gets summarized. A coverage limit that should read a few million dollars can come back five to ten times too high, while this query keeps running in the background. No error, no warning, just a number that's flawed but looks normal."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "d5a90aeb79e84713a676253fb1e65aa0",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "An AI model fills gaps in business logic by guessing, based on patterns from other schemas it's seen. On simple questions, the problem can be harder to see. On the multi-table queries that make up much of enterprise reporting, it becomes more apparent."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs7bfc2cbdecbf3aee"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "The consistency problem: same question, different answers",
+          "_metadata": {
+            "uid": "csd53a9e5c9470bdd3"
+          },
+          "section_id": "the-consistency-problem-same-question-different-answers"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "2c27b8c2f775443aaa98e7acc6956dc7",
+            "children": [
+              {
+                "type": "p",
+                "uid": "e12634a6dd8843a49a649d700d756dc9",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "There's another issue: large language models are naturally probabilistic. That means if you ask the same question twice, you can get two different queries, especially across different models or app versions."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "71941d88fcfa4f29902db549a087caa6",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "In a dashboard, a person may still have an opportunity to catch an obviously wrong number. ",
+                    "bold": true
+                  },
+                  {
+                    "text": "I",
+                    "bold": true
+                  },
+                  {
+                    "text": "n ",
+                    "bold": true
+                  },
+                  {
+                    "text": "an ",
+                    "bold": true
+                  },
+                  {
+                    "text": "AI-powered ",
+                    "bold": true
+                  },
+                  {
+                    "text": "workflow",
+                    "bold": true
+                  },
+                  {
+                    "text": " ",
+                    "bold": true
+                  },
+                  {
+                    "text": "where AI ",
+                    "bold": true
+                  },
+                  {
+                    "text": "calculates ",
+                    "bold": true
+                  },
+                  {
+                    "text": "at",
+                    "bold": true
+                  },
+                  {
+                    "text": " ",
+                    "bold": true
+                  },
+                  {
+                    "text": "lightening",
+                    "bold": true
+                  },
+                  {
+                    "text": " speed without human oversight",
+                    "bold": true
+                  },
+                  {
+                    "text": ", nothing catches it.",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "9e9d641517fe47a3921d3ecbba14b3e2",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Most teams try to solve this by focusing on the surface-level symptom. They try to write better prompts with narrower instructions and more guardrails."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "0053e6f84fc44d26ae8254f498943033",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "But that doesn't fix the underlying issue of fragmented semantic logic. The AI model is still the one generating the query. Its probabilistic system won't guarantee a deterministic answer, no matter how carefully you word the prompt."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "csf654f04b45d9883e"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "The governance problem: rules don't travel with the data",
+          "_metadata": {
+            "uid": "cs1c070192a1f8fc77"
+          },
+          "section_id": "the-governance-problem-rules-don-t-travel-with-the-data"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "cf9f48aa69944da18bef057b6cc9c382",
+            "children": [
+              {
+                "type": "p",
+                "uid": "b5c329fd6ded4ee7b73028086bd915b8",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Row-level and column-level security rules can be tool-specific. One BI tool's governance may not travel through a different access path. The same risk appears when an AI agent queries the underlying data warehouse."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "fbacec6f01a04a7f8db743f8a0a1c7b1",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "A policy that limits the claims a regional manager can see on a dashboard may not limit what that manager's AI can retrieve if the restriction exists only inside the BI tool.",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "136f086162704661acdf9a3d557096b3",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "When enterprises try to enforce governance separately inside each tool, it fragments the data further. Every time a team adds a data source or a new way to query it, the governance risk increases."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "923f739479d246bdaa2ca30201c0bcf3",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "This issue is compounded by the fact that enterprises don't run one warehouse feeding one BI tool. They run several:"
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "uid": "f5fe801e22e14509b1696dc3066b0263",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "li",
+                    "uid": "11acd944d4804d709ff3c6a125d09612",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "b7664e43897a436e972c4bf171e2befe",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "A cloud warehouse for finance"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "8cb4474316c449588a625aac11a71159",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "9e9e5e1299f74d47919cff865e300c03",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "A lakehouse for product data"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "bdef1100374340ffad58f460abe2513b",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "4868cee89e9443dc91e756bb568ef64b",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Unique operational databases no one's consolidated"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "0b3697042e2b4c1994901566c39fd5ed",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "When a new AI agent or application connects to them, it must solve the same join-path and access-control problem on its own. This happens because no shared architecture layer guarantees that the same definitions, join paths, and access controls apply."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "csc5312dd879cbce29"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "The portability problem: business logic trapped in one tool",
+          "_metadata": {
+            "uid": "cs943e79598fde9537"
+          },
+          "section_id": "the-portability-problem-business-logic-trapped-in-one-tool"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "79131d82f2634583afb9b6d4a6287d46",
+            "children": [
+              {
+                "type": "p",
+                "uid": "e737f59ce5bc4f00a5d4eeae653f4db2",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Even where the logic is right, it's often stuck. Metrics and definitions written inside a specific BI tool, in that tool's proprietary format, may not be directly portable to another tool or AI model. The moment data or analysis moves outside that platform, the data logic must be rebuilt from scratch and revalidated."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "b7b153b594624e30914fbb4a182888f8",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "This becomes an even larger issue if the enterprise decides to change anything: swap a BI tool, add a new warehouse, or try a different LLM."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "4c2f237ddba04791ab350b3c1936ee26",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "If the business logic is embedded in the thing being replaced, ",
+                    "bold": true
+                  },
+                  {
+                    "text": "changing ",
+                    "bold": true
+                  },
+                  {
+                    "text": "it means rebuilding the ",
+                    "bold": true
+                  },
+                  {
+                    "text": "business ",
+                    "bold": true
+                  },
+                  {
+                    "text": "logic ",
+                    "bold": true
+                  },
+                  {
+                    "text": "again",
+                    "bold": true
+                  },
+                  {
+                    "text": ".",
+                    "bold": true
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs5dce76780bb09c02"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "The cost problem: re-explaining your schema on every query",
+          "_metadata": {
+            "uid": "cs1159f281dacc0742"
+          },
+          "section_id": "the-cost-problem-re-explaining-your-schema-on-every-query"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "a6208e3ced0145c59fe725a70952a679",
+            "children": [
+              {
+                "type": "p",
+                "uid": "b7ca99c146504e85b2a9da5c5711f275",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Without predefined logic and context, an AI model must reprocess the relevant parts of a schema on every query."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "671bcebb0ce444729a0b2dcd61de3cb0",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "An enterprise analytics team runs hundreds or thousands of queries a day. ",
+                    "bold": true
+                  },
+                  {
+                    "text": "That",
+                    "bold": true
+                  },
+                  {
+                    "text": " amounts to",
+                    "bold": true
+                  },
+                  {
+                    "text": " ",
+                    "bold": true
+                  },
+                  {
+                    "text": "the ",
+                    "bold": true
+                  },
+                  {
+                    "text": "compute",
+                    "bold": true
+                  },
+                  {
+                    "text": " ",
+                    "bold": true
+                  },
+                  {
+                    "text": "budget ",
+                    "bold": true
+                  },
+                  {
+                    "text": "spent ",
+                    "bold": true
+                  },
+                  {
+                    "text": "re-deriving answers ",
+                    "bold": true
+                  },
+                  {
+                    "text": "that ",
+                    "bold": true
+                  },
+                  {
+                    "text": "were ",
+                    "bold": true
+                  },
+                  {
+                    "text": "already ",
+                    "bold": true
+                  },
+                  {
+                    "text": "established",
+                    "bold": true
+                  },
+                  {
+                    "text": " ",
+                    "bold": true
+                  },
+                  {
+                    "text": "the last time someone asked",
+                    "bold": true
+                  },
+                  {
+                    "text": " the same ",
+                    "bold": true
+                  },
+                  {
+                    "text": "question",
+                    "bold": true
+                  },
+                  {
+                    "text": ".",
+                    "bold": true
+                  },
+                  {
+                    "text": " ",
+                    "bold": true
+                  },
+                  {
+                    "text": "T",
+                    "bold": true
+                  },
+                  {
+                    "text": "hat overhead compounds. ",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "3be81359c5684c30a1082f3f8855a631",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Strategy Software has published the specific token and cost figures this produces in production. "
+                  },
+                  {
+                    "type": "a",
+                    "uid": "35bd328d24a4438aa5bcd48bbba66dd8",
+                    "attrs": {
+                      "url": "https://software.strategy.com/ai-token-cost-and-accuracy-benchmark",
+                      "target": "_blank"
+                    },
+                    "children": [
+                      {
+                        "text": "Explore it here →"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs2d55c1b88e338f51"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "How a Universal Semantic Layer solves these problems",
+          "_metadata": {
+            "uid": "cs11f7a628fa011812"
+          },
+          "section_id": "how-a-universal-semantic-layer-solves-these-problems"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "2f1d1e244fe040e1b3266e57c976c037",
+            "children": [
+              {
+                "type": "p",
+                "uid": "1a8c1134bec64b5ba9f5f94ac2b283a1",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "A Universal Semantic Layer fixes these problems by separating two jobs that most AI setups leave bundled together."
+                  }
+                ]
+              },
+              {
+                "type": "ol",
+                "uid": "07bd028af44b492387186e4f62937a79",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "li",
+                    "uid": "c65642c7e7e44950a5871409ff778a52",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "ad082df098cb442e99d9e2b9cf0211a3",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "The AI model handles natural language: understanding what's being asked."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "89208863f4ef419194fd3997e7eb5c27",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "01697a56cc994bfda77fb6268ae979a0",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "The Semantic Layer handles the query: translating that question into SQL using business logic a team has already defined once, the same way every time."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "68d7966873a945ccb52daaec6e5130ed",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Strategy Mosaic does this by sitting above the warehouses and databases an enterprise already has, rather than requiring any of them to change.  Business logic, join paths, and access rules are"
+                  },
+                  {
+                    "text": " defined once",
+                    "bold": true
+                  },
+                  {
+                    "text": " and "
+                  },
+                  {
+                    "text": "applied consistentl",
+                    "bold": true
+                  },
+                  {
+                    "text": "y",
+                    "bold": true
+                  },
+                  {
+                    "text": ",",
+                    "bold": true
+                  },
+                  {
+                    "text": " no matter which system or application asks."
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "uid": "4f1f5c676d4c47e09da9ce0991290304",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "li",
+                    "uid": "8a00cf4b919f4e3f91d0771b115517be",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "a3639af3c1ee47489f0cdc5271ab97c2",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Connect and model a data source in Mosaic, and it can use the same centralized governance framework."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "59b98fdac1e14e7788bd29afe3e70869",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "6194a3a383de4124aef9cff5b000e7d2",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Add an AI agent through Mosaic, and it inherits the existing business logic and context."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "9fcdffe0fd844304a3f7dc5c5193cc4f",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "d7740d69cdf147f3a1fe444f32385ee2",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Swap a BI tool or an LLM, and the logic underneath doesn't move because it was never tied to either one."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "7e24dce103b2404da8318b63999a8066",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Because Mosaic itself generates the SQL instead of the AI model, the join paths are fixed and repeatable. The same governed definitions and query logic apply whether the request comes through Claude, Power BI, or a custom agent."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "csfe660b6c47e3416e"
+          }
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "53bf205350054c5380de2d0d2e394e76",
+            "children": [
+              {
+                "type": "p",
+                "uid": "eb20f92336864ec9b82c45b96afe8545",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "[IMAGE PLACEHOLDER]",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "11f88eeda74c441d9b86b74a70c9d626",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Upload asset to Contentstack and replace this placeholder — source: image_1.png"
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "csf737ead2cab87b50"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "Universal Semantic Layer vs. traditional data architecture",
+          "_metadata": {
+            "uid": "csfa71498a7297d58b"
+          },
+          "section_id": "universal-semantic-layer-vs-traditional-data-architecture"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "b250be09d3fc4b0bb11e41de93635935",
+            "children": [
+              {
+                "type": "table",
+                "uid": "a946530012754347be6e851ef74212ea",
+                "attrs": {
+                  "rows": 6,
+                  "cols": 3,
+                  "colWidths": [
+                    40,
+                    84,
+                    76
+                  ]
+                },
+                "children": [
+                  {
+                    "type": "tr",
+                    "uid": "20628058e4ab410a83dcb90da5c90fb5",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "th",
+                        "uid": "7a70d13e0e814823b2feecf905b20c40",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "d739b5a2764447008b68144e1708dfae",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Dimension",
+                                "bold": true
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "th",
+                        "uid": "2b94ec113f394e70b653ea9928e91b39",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "512f70cf536f4e4a962ed629aa3af06d",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Traditional, tool-embedded approach",
+                                "bold": true
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "th",
+                        "uid": "cf75c75e49fb442994aedc6410ad3e92",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "5219834bdf694785bd092c8c2cd24ed9",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Universal Semantic Layer (Strategy Mosaic)",
+                                "bold": true
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "tr",
+                    "uid": "a4fdb27816ab44eaad8d53bcab09ee06",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "td",
+                        "uid": "edbdf137e31a4fe8b5c2e6384e0d6683",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "658e3078392c4ef6b841c15d9cc67150",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Business logic"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "59a59ba3cbdd4c7797c40ddf7141f684",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "ee3960abf3c547218fd7b607e3bdde96",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Defined separately inside each BI tool"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "38a09f5dccab478ca9150ce0c1d100f0",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "391b2b6334654badaa7e2407e829e97b",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Defined once, reused across connected tools"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "tr",
+                    "uid": "2b9c84c43e5046c3a2e4b654ccc87dec",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "td",
+                        "uid": "a7c56f5df5ee4d2fa5e0c1986caa1984",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "b70ba725b2104ce286044e4bcc2f9bcc",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Governance"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "67a87821b7bf4beeb3a544ccbf6b6167",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "d987edfa32a84945937c8c6a885aa6af",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Enforced per tool, and may not apply through other access paths"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "c80c8746459847a0b839f88c1bbc1fd9",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "171a82094d4a49d79b2a7d0bd88e1c05",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Enforced centrally across connected access paths"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "tr",
+                    "uid": "84fde5c71f594272aec1bd365237dcdf",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "td",
+                        "uid": "692ef4400d43465281f42655cf05687c",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "27cae997c2b1453494d3d38cc6ad7d7b",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "AI readiness"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "05eee3f3e7a545cd8ee4b7a615d52e71",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "3865df48d9b84dd5b84420c9be15a0c7",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "AI infers joins and definitions from raw schema"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "05cc6902b4444b74ae574e07c8b83ac9",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "b1e547e7591841a296984c57c7972a47",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "AI receives governed context instead of relying on raw schema alone"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "tr",
+                    "uid": "4a8af39b250646898a1e195a120a8fea",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "td",
+                        "uid": "0cc7b5006209475bb8cc2becbbc76d44",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "f92c46ecc37f436883c636af11ec8c90",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Portability"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "cbfe072ab4b34ee493b93b4a16ef3173",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "b0294f9feabd416fbeb6071a3205f63f",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Logic rebuilt when a tool or platform changes"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "c19cc82fe2054306a202e7f926b18aae",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "f81d056df65d44368d6dc3d97d0f044c",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Logic can remain intact when a tool or platform changes"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "tr",
+                    "uid": "c110258bcfb24eed9edfa14a4dedab9a",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "td",
+                        "uid": "c2faa1d14aaa4f6ab7d4bfd367ffdf59",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "9c9154065b30434bbd607a5a550b4b1d",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Cost at scale"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "a91f65cc6ff04464a02dd69edb13b8cc",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "210776520f724ca8b093881c880bd523",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "High; Schema re-interpreted on every query"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "a32b435b0b674cccb072774e46b80eec",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "a6394e49f5764eadbd16e78f27803f89",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Low; Business context defined once, reused per query"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "csa20da68355bc95a5"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "How to evaluate a semantic layer architecture",
+          "_metadata": {
+            "uid": "cs54f8e2e032d78506"
+          },
+          "section_id": "how-to-evaluate-a-semantic-layer-architecture"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "9463d81574274569a35a64ce61558074",
+            "children": [
+              {
+                "type": "p",
+                "uid": "1df78501b3b34d75869e17690842bdb1",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Diagnosing these problems is one thing. Telling a genuinely universal semantic layer apart from a tool that just uses the term is another. Three questions do most of the work."
+                  }
+                ]
+              },
+              {
+                "type": "h4",
+                "uid": "075a5af80531438e826b8d6c66b533ec",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Is the logic independent of any single platform?"
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "3e7faebd4afa45bc876e8bae5abbeb6f",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Many semantic layers ship bundled into one cloud warehouse or one BI tool, which is convenient until that platform changes. Swap warehouses or bring in a new AI framework next year, and logic built inside the old one doesn't come with you. A genuinely universal layer sits as its own independent layer between any data platform and any consuming tool, not inside one of them."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "1c1cf814dd794b998d956d61cbc81b49",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "For enterprise AI, also check who generates the SQL. If the LLM still owns query generation, probabilistic behavior can still enter the business-logic layer. Strategy Mosaic keeps SQL generation in its deterministic engine while the LLM handles natural language."
+                  }
+                ]
+              },
+              {
+                "type": "h4",
+                "uid": "c39de5426a0c4037b0b74d1358aad5b2",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Does it control compute cost, not just correctness?"
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "e36880508ba5495b91ab836f7c4c6cef",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Passing every query straight through to the warehouse without caching gets expensive fast at enterprise query volumes. Look for a semantic layer that caches and reuses computed results across users and models, so the same calculation isn't re-executed as a new warehouse query every time a similar question is asked."
+                  }
+                ]
+              },
+              {
+                "type": "h4",
+                "uid": "1a62483bde124c8783355eb8ff043ddc",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Does it support open agent protocols like MCP?"
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "59f97f749756475b93387bd3769e56aa",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Remember that Model Context Protocol (MCP) provides the access path. It doesn't guarantee deterministic query generation. That depends on the semantic definitions, governance, and execution architecture behind the connection. A semantic layer that only exposes proprietary connectors limits which AI agents reach it. Strategy Mosaic supports MCP, so MCP-compatible agents such as Claude, ChatGPT, Copilot Studio, and Gemini can reach governed Mosaic metrics as pre-validated tools."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs83fc588c2e3f5f6d"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "Is a Universal Semantic Layer right for your enterprise?",
+          "_metadata": {
+            "uid": "cs33711cd38c0b2f41"
+          },
+          "section_id": "is-a-universal-semantic-layer-right-for-your-enterprise"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "13f82f5ca739419ab4ef4d8eb8d28e0e",
+            "children": [
+              {
+                "type": "p",
+                "uid": "b630bf8eee6e4c6890def138fee8f86a",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "If your organization runs AI against more than one data platform, has more than one BI tool in production, or has already seen an AI agent produce a confident number nobody can fully explain, these problems are probably already showing up somewhere in the stack, whether or not they've been traced back to a root cause yet."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs3d1cdb5c6ae9f839"
+          }
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "bfaf1d9621d44062b24035ed8035976f",
+            "children": [
+              {
+                "type": "p",
+                "uid": "e86204a372df498d959ce0ca5596a569",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "[ PROMO PLACEHOLDER — Replace with Promo block in Contentstack editor ]"
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "81e425b8aaaa44b6abf8d8e4ad092398",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "CTA: \"Explore the Semantic Layer Comparison Hub\""
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "21c12f8c4f864f1192f238614ae388b0",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Button: Explore the Semantic Layer Comparison Hub →"
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs318e7cf4d4b5b98d"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "Frequently Asked Questions",
+          "_metadata": {
+            "uid": "cseae8602edcdc082f"
+          },
+          "section_id": "frequently-asked-questions"
+        }
+      },
+      {
+        "accordion": {
+          "accordion_item": [
+            {
+              "title": "What is a Universal Semantic Layer?",
+              "_metadata": {
+                "uid": "csc4de9106b6ef801c"
+              },
+              "content": {
+                "type": "doc",
+                "attrs": {},
+                "uid": "9a69d5cab84d44a581f563d828641f6f",
+                "children": [
+                  {
+                    "type": "p",
+                    "attrs": {},
+                    "uid": "a283fc17f5a647158b447d024fd97739",
+                    "children": [
+                      {
+                        "text": "A Universal Semantic Layer is a governed layer that sits between an enterprise's data sources and the tools and AI systems that consume them, translating raw schema into business definitions that stay consistent everywhere. Strategy Mosaic is built as an independent, vendor-agnostic version of this architecture."
+                      }
+                    ]
+                  }
+                ],
+                "_version": 1
+              }
+            },
+            {
+              "title": "What problems does a Universal Semantic Layer solve?",
+              "_metadata": {
+                "uid": "csbebfc872da5dac45"
+              },
+              "content": {
+                "type": "doc",
+                "attrs": {},
+                "uid": "5d45e73d287d41afa3ff97bb4de2acea",
+                "children": [
+                  {
+                    "type": "p",
+                    "attrs": {},
+                    "uid": "2bec8ad49b084dba94ede12228be3e12",
+                    "children": [
+                      {
+                        "text": "It addresses AI generating wrong answers from guessed business logic, the same question returning different results depending on which model or tool asks, governance rules that don't travel with data once AI agents query it directly, and business logic that has to be rebuilt every time a team changes BI tools or platforms."
+                      }
+                    ]
+                  }
+                ],
+                "_version": 1
+              }
+            },
+            {
+              "title": "Does a Universal Semantic Layer replace my data warehouse?",
+              "_metadata": {
+                "uid": "csd7e6cc64798cde82"
+              },
+              "content": {
+                "type": "doc",
+                "attrs": {},
+                "uid": "186232cef7a04b279463a87d2d1d72f5",
+                "children": [
+                  {
+                    "type": "p",
+                    "attrs": {},
+                    "uid": "9da9ac0d257e4c199b1bdaddbc495aa2",
+                    "children": [
+                      {
+                        "text": "No. Strategy Mosaic sits above existing warehouses, lakehouses, and databases rather than replacing them. Data stays where it is; Mosaic adds a governed layer of business definitions and access rules on top of the infrastructure an enterprise already has."
+                      }
+                    ]
+                  }
+                ],
+                "_version": 1
+              }
+            },
+            {
+              "title": "Can a Universal Semantic Layer work with the BI tools we already use?",
+              "_metadata": {
+                "uid": "cs468a9d7777e2523a"
+              },
+              "content": {
+                "type": "doc",
+                "attrs": {},
+                "uid": "d08ce3f2c53943bb883a135d31d8c9cf",
+                "children": [
+                  {
+                    "type": "p",
+                    "attrs": {},
+                    "uid": "da07873137b6442dafc794a993cdc1fc",
+                    "children": [
+                      {
+                        "text": "Yes. Strategy Mosaic is designed to work with existing BI tools, including Power BI and Tableau, rather than requiring a replacement. Business logic is defined once in Mosaic and made available to connected BI and AI systems through supported access paths."
+                      }
+                    ]
+                  }
+                ],
+                "_version": 1
+              }
+            },
+            {
+              "title": "When should an enterprise consider implementing a Universal Semantic Layer?",
+              "_metadata": {
+                "uid": "cs6c51f72e552183c2"
+              },
+              "content": {
+                "type": "doc",
+                "attrs": {},
+                "uid": "91eb109f346142f28764705825435690",
+                "children": [
+                  {
+                    "type": "p",
+                    "attrs": {},
+                    "uid": "222390b69b4d4d4589083f56156ef07f",
+                    "children": [
+                      {
+                        "text": "Organizations running AI or BI across more than one data platform, seeing inconsistent metrics between tools or teams, or planning to scale AI agents on enterprise data are the clearest candidates. Implementing the layer earlier can reduce how much business logic becomes embedded in individual tools and later needs to be untangled."
+                      }
+                    ]
+                  }
+                ],
+                "_version": 1
+              }
+            }
+          ],
+          "_metadata": {
+            "uid": "cs2be19504d259c7e1"
+          },
+          "accordion_options": "closed"
+        }
+      }
+    ],
+    "cta_section": [],
+    "related_posts": [],
+    "seo": {
+      "meta_title": "What Problems Does a Universal Semantic Layer Solve?",
+      "meta_description": "Discover why enterprise AI fails without business context. Strategy Mosaic's Universal Semantic Layer delivers governed, consistent data AI can trust.",
+      "keywords": "universal semantic layer, enterprise AI analytics, semantic layer for AI, governed metrics layer, AI-ready data foundation",
+      "social_thumbnail_override": null,
+      "enable_search_indexing": true
+    },
+    "page_properties": {
+      "navigation_title": "",
+      "header_color": null,
+      "hide_header_nav": false,
+      "hide_header_cta": false,
+      "hide_footer": false,
+      "disable_global_promo_banner": false,
+      "hide_auto_expert": false,
+      "sfid": "",
+      "marketo_id": "",
+      "cta_section": []
+    },
+    "resource_data": {
+      "date": "2026-07-22T00:00:00.000Z",
+      "type": "Blog",
+      "title": "What Problems Does a Universal Semantic Layer Solve for Enterprise AI?",
+      "description": "Discover why enterprise AI fails without business context. Strategy Mosaic's Universal Semantic Layer delivers governed, consistent data AI can trust.",
+      "featured": false
+    },
+    "tags": [],
+    "publish_date": "2026-07-22T00:00:00.000Z",
+    "author": [
+      {
+        "uid": "blt125868092579e0b4",
+        "_content_type_uid": "blog_author"
+      }
+    ],
+    "taxonomies": [
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "semantic_layer"
+      },
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "analytics"
+      },
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "business_intelligence"
+      }
+    ]
+  },
+  "_mapping_warnings": [
+    "No author or publish date found in the document.",
+    "The Quick Answer table contained a single narrative paragraph, not a bulleted list; it was split into sentence-level items as best-fit given the extraction rules. Human review recommended to confirm intended structure.",
+    "The comparison table near 'Is a Universal Semantic Layer right for your enterprise?' appears to be a CTA box with two cells ('Understanding the problems...' and 'Explore the Semantic Layer Comparison Hub →') but contains no explicit URL for the button; added to cta_list with empty buttonUrl — human review needed to supply the correct URL.",
+    "The [H4] headings inside 'How to evaluate a semantic layer architecture' were mapped as level-4 heading blocks inside the parent H2 section, as the extraction rules specify only H2 creates new sections. H3/H4 headings go inside blocks.",
+    "Two [IMAGE_EMBEDDED] markers were found with no source filenames or alt text; mapped as image_0.png and image_1.png respectively.",
+    "The [BOLD] paragraph in 'The consistency problem' section contains what appears to be a typo ('lightening' instead of 'lightning') — preserved verbatim as found in document.",
+    "The list items under 'Without shared business context' contained inline bold markers (e.g. [B]Accuracy[/B]); these were preserved in the items as plain text with the label prepended — the list block type does not support per-item rich formatting. Human review may want to convert these to paragraph runs if bold formatting is critical.",
+    "The FAQ section heading was 'Frequently asked questions' — matched and extracted correctly.",
+    "publishDate was not found in the document — defaulted to tomorrow (2026-07-22T00:00:00.000Z). Confirm before publishing.",
+    "Image block missing assetUid — source: image_0.png",
+    "Image block missing assetUid — source: image_1.png",
+    "Suggested taxonomy terms with no configured match: Enterprise AI, Data Governance. Add them to contentstack.taxonomy_terms in config.yaml (with UID from Contentstack) if relevant, or apply manually in the CS editor.",
+    "CTA 1 ('Explore the Semantic Layer Comparison Hub') — placeholder text block inserted before FAQ. Create a Promo entry in CS using the extracted headline and button text, then replace the placeholder with the Promo block and move it to the correct position."
+  ]
+}

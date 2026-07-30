@@ -1,0 +1,788 @@
+{
+  "entry": {
+    "title": "v1 -- Governing the AI Interface: How Agents Query Mosaic Data via MCP",
+    "url": "/blog/governing-the-ai-interface-how-agents-query-mosaic-data-via-mcp",
+    "lead_paragraph": {
+      "type": "doc",
+      "attrs": {},
+      "uid": "666d9da0592e41ada33112833ae3d407",
+      "children": [
+        {
+          "text": ""
+        }
+      ],
+      "_version": 1
+    },
+    "content": [
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "3f35a58659b14d8fbc0d8db319109c4c",
+            "children": [
+              {
+                "type": "h3",
+                "uid": "a67177bc1e97436a9c23b9a193c2f6e0",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Quick Answer",
+                    "attrs": {
+                      "style": {
+                        "color": "rgb(26, 78, 159)"
+                      }
+                    },
+                    "bold": true,
+                    "font-color": "#fa660f"
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "uid": "00749260589c41db9f2302d776f046d3",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "li",
+                    "uid": "4ff843f76c414ae8830d0c8e4f7d8c39",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "88030ad3d7d846c9a8ecf500bfb3ff37",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "AI agents need a standard communication language to discover approved enterprise metrics."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "fcae0c1f94a24c3698561a0686375bd5",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "bf1438f4f7104b138a2cc84aa7a9ffa8",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Model Context Protocol (MCP) provides a universal open connection standard for AI agents."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "0af34c8da33f4283adfcadde1aa0b5a4",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "872b4afab7a044f78e2a39ec783ce32b",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "A unified semantic layer exposes Mosaic schema including Intelligent Cubes and agile Mosaic models as one consistent set of business truths."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs69eaa7cbdeb1993a"
+          }
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "6795e20613464ab889948cf20d09f837",
+            "children": [
+              {
+                "type": "p",
+                "uid": "5cf4c8abdfdf49c2b920e1082f277414",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "By exposing these organized data structures through a secure connection point, Strategy Mosaic allows AI agents to safely find and query data while keeping business definitions and security rules perfectly consistent."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "673aa11df14440e79325c95f40eecd2e",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "As organizations adopt autonomous AI agents, data teams run into a difficult integration bottleneck. Traditionally, giving an AI tool access to company data required extensive manual translation. Because every AI tool has its own unique way of reading information, software engineers had to build a custom bridge by hand for every single tool. As a result, anytime an organization adopted a new AI assistant, or reorganized its internal databases, a developer had to manually rewrite that bridge."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "31bdd2bebb5f4350b95b09f78201f5c4",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The only other alternative was allowing the AI tool to write its own database code directly against raw, unorganized data tables. This forced the AI to deduce complex math calculations and security rules entirely on its own."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "050ea1f9fa904322ba7ed2f3d839b28f",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "This approach quickly falls apart at scale. It places a massive computing strain on databases, which drives up technology costs. It also compromises data security. When every AI tool connects differently, tracking which tool has access to specific information becomes nearly impossible. This structural fragmentation also undermines accuracy, as two different AI tools can easily return conflicting answers for the exact same business metric."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "b70cf29811024ce5bce4513dea4e2b51",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "To solve this problem efficiently, an organization needs two specific pieces in place. First, you need a standard communication language that the AI tool can speak. Second, you need a highly organized, secure data structure for that AI to read. This is exactly why Strategy Mosaic combines the open Model Context Protocol (MCP) with its semantic layer."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs423f0f27e4b168f9"
+          }
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "57dce92603764d089cf686650a449473",
+            "children": [
+              {
+                "type": "p",
+                "uid": "fe5ab30c4eba4a17923c96281009271b",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "[IMAGE PLACEHOLDER]",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "ee6d1f5344814d7aac6ace50c261916f",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Upload asset to Contentstack and replace this placeholder — source: image_0.png"
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs513b8a81894757fc"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "Why AI Agents Need More Than Raw Database Tables",
+          "_metadata": {
+            "uid": "csc2b734827f1f93cc"
+          },
+          "section_id": "why-ai-agents-need-more-than-raw-database-tables"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "87a7d83bf0954686917ce7b3335d357d",
+            "children": [
+              {
+                "type": "p",
+                "uid": "745aa2aaa21e4069accf6159f7da435b",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "When a human analyst evaluates company performance, they rarely run calculations across millions of rows of raw, chaotic data. Instead, they use pre-sorted, organized data collections to get answers in seconds. This prevents a massive processing burden from slowing down the primary company databases."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "687f1a6dfcd84ccfa777ab3c89ebb186",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Strategy governs these collections through two sophisticated layers:"
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "uid": "aeb002ecb6e04c24917d3d27ad62953c",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "li",
+                    "uid": "d66a24205e0d462582d076a9307e9c2a",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "37a6b9ccb5d14514a1e22ea3c1ecfe19",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Mosaic schema: This is our enterprise-grade modeling layer where centrally managed assets, such as optimized Intelligent Cubes, attributes, and metrics, are built and stored. Designed for complex enterprise scenarios, schema provides central BI teams with fine-grained control, advanced performance tuning, and strict system-level governance."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "58b8061c47554881a684f2736c4a72f5",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "ab90d5ce3bce47958685a0681940abba",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Mosaic models: This is our agile layer designed for rapid experimentation. Data teams and business departments can quickly shape new metrics, attributes, and policies without the initial complexity of schema, with the ability to promote successful models into the enterprise schema as they mature."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "9ad99049781545c28e5a653182bfa168",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Mosaic presents both as a single, unified semantic layer. Whether a definition lives in a high-scale schema or an agile model, the AI agent sees one consistent set of business concepts."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "1b9fa7e36d91464dacbb6bc81b98e134",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "When an AI agent is asked a business question, it faces the exact same struggles as a human analyst. Raw database tables introduce major hurdles that lead to three specific problems."
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "uid": "ac416445e98641e88be8f8e414b6cbd5",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "li",
+                    "uid": "ea392822335d411b897fcc006019c624",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "2d7b51a988a44ca69639481327f5a8d9",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Context and Memory Overload: Forcing an AI to read raw table layouts and deduce how they connect wastes a large portion of its limited memory. The agent consumes its memory capacity with structural tech details before it even has a chance to analyze the actual business question."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "af99a59e884c4ea1b35493f83c14929e",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "a1e0d56d7e804deaa782de29b5362ef2",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "High Costs and Slow Answers: If an AI must search through a massive database every time a user asks a simple question, cloud technology expenses escalate and users experience significant response delays."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "247c5909d6a94eac8732bd50053b71ca",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "268d3c251d734668a8409c48bac359d7",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Calculation Errors: When an AI is left to navigate raw tables on its own, it frequently misinterprets how columns are calculated and returns incorrect numbers for core company metrics."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "f076b5b1a55a481486c42f7d4ada57a9",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "By pointing the AI toward the Mosaic semantic layer instead of raw warehouse tables, the agent no longer has to calculate metrics on the fly. Whether it is querying a highly tuned Intelligent Cube within your schema or a newly deployed Mosaic model, it simply reads from a secure, pre-approved set of business truth."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "csd7d4ed5e0474aa93"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "Standardizing the Connection: The Role of MCP",
+          "_metadata": {
+            "uid": "cs18f60e5342aee48a"
+          },
+          "section_id": "standardizing-the-connection-the-role-of-mcp"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "e0cc345265f14857b352c153c309f52a",
+            "children": [
+              {
+                "type": "p",
+                "uid": "54a531f038f74e1f8582d9aebf5e697b",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Even with clean data structures, the translation problem remains if every AI agent requires a different custom connection. Anthropic's Model Context Protocol (MCP) solves this by acting as a universal adapter, much like how standard wall outlets allowed any appliance to plug into the power grid without custom wiring."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "c143a2e0274c471ea546ae601e6463f6",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Instead of building a separate connection for every different AI tool your company wants to use, your data team sets up an MCP server just once. Because MCP is an open standard, any AI tool that supports it can instantly talk to your data without any extra engineering work. This includes standard developer tools and hubs like Claude Desktop or VSCode."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "e88228c9a63043eb9d2b4035a6e50663",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The protocol operates using three core building blocks."
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "uid": "a5fab4becd37442384c0b7e83712f1f4",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "li",
+                    "uid": "43f1f382a5f34b668020fadb6e83e272",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "695ebab66c9f4a47bbb480fc37db9aa7",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Tools: These are actions the agent can actively run, such as pulling a specific report from a data cube."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "af1b937a36e049cd8eb2ed01cee28406",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "8babf52670bc41c4bf9e78d603b25727",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Resources: This is the background context the agent can read, such as documentation, table descriptions, and data names."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "f8e5ef1265cf4791b17057db36a372a6",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "c0e06cd359484dc5a4e39d06936b1bc9",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Prompts: These are built-in templates that guide the AI model on how to phrase its questions correctly."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "csf6628f01bff46ca5"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "Architecting the Flow: Strategy Mosaic's MCP Endpoint",
+          "_metadata": {
+            "uid": "csa492d87a7419eeb8"
+          },
+          "section_id": "architecting-the-flow-strategy-mosaic-s-mcp-endpoint"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "428a4baa92844c77b5b9e6c60eb79ae3",
+            "children": [
+              {
+                "type": "p",
+                "uid": "38d3cd84ce2643de93d97a393a2405b5",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Without a dedicated gateway, an AI agent has no secure way to communicate with your internal data architecture. Strategy Mosaic solves this by providing a secure connection point, a native MCP endpoint, directly over its universal semantic layer."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "229c777e9d214d5b91d6690e192c2a76",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "This semantic layer is critical because it acts as the central brain for your data, governing the entire business logic, data hierarchies, and definitions in one place. Think of the MCP endpoint as a dedicated, secure service line built specifically for AI to access that brain. Instead of trying to navigate complex database walls, the AI agent simply connects to this single designated endpoint. Because both sides speak the same standard protocol, Mosaic instantly recognizes the agent, verifies its permissions, and securely opens up access to your schema and models as native resources."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "94ef409a4b094fb992b23221748a9f3c",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Here is how a standard query lifecycle unfolds when an autonomous agent interacts with Mosaic through this connection."
+                  }
+                ]
+              },
+              {
+                "type": "ol",
+                "uid": "5b2e471cd9234b0384b501debccf5283",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "li",
+                    "uid": "e7c63fb9b53542f8affd377ec50dcd3d",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "558738da41af447abcc0ccdc94846c64",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Discovery and Tool Registration: The AI client connects to the Strategy Mosaic MCP server. The server automatically shares what it is capable of doing, presenting the certified models and schema objects as approved tools that the AI is allowed to use."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "edb9d242947b4fc7bda27bb6fc72fc08",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "747ef0b334574f90b75e9b38b4e2de3f",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Context Ingestion: The agent inspects the layout of the selected resource. Instead of scanning through raw rows of a database, it reads the business layout to learn what metrics are already calculated and what filtering rules it needs to follow."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "7af0eaeed9fb4309a8c0c15601f03f9e",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "4e6cb04146c24d89b72dfd6642f386d1",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Query Execution: When a business user asks a question, the agent formats a structured request and sends it over the secure connection line. This automatically triggers the data model or schema using the exact filters requested by the user."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "d808bc1549ea47d88df1113d7e545bc1",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "9d1e218963c34c338a5d592fae2fcdb7",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Security Filtering: Before any data is retrieved, Strategy Mosaic intercepts the request. It checks the identity of both the AI agent and the employee asking the question, evaluating them against your centralized security and access control policies."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "03d4976a3f6b4ef494ca2007fd3dfedc",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "dfe7a06c6a974c268e548dffeb50debe",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Fast Response Delivery: The query resolves inside the semantic layer in less than a second. The secure, structured result is sent right back to the agent, which easily translates the data into a natural language answer for the user."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs14966b5a41a3e966"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "Centralized Governance That Doesn't Break",
+          "_metadata": {
+            "uid": "cs17e906cbe84c5297"
+          },
+          "section_id": "centralized-governance-that-doesn-t-break"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "37442c5306de436393fb315194ad9015",
+            "children": [
+              {
+                "type": "p",
+                "uid": "10b8a354e5244600af3bf42be75b4e17",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The primary advantage of routing AI agents through Mosaic's MCP endpoint is that data governance is completely separated from the AI application itself."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "b30f37c3859143c294106ec80d216af0",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "If a company relies on custom prompt instructions or application-level filters to control an AI, a slight shift in the model's logic can lead to data leaks or broken access rules. In the Mosaic architecture, data assets must be explicitly approved and certified at the semantic layer before being exposed to an AI."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "csb5443f4a17066726"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "The Central Rule of Agentic Analytics",
+          "_metadata": {
+            "uid": "cs77a1c96c046ecd76"
+          },
+          "section_id": "the-central-rule-of-agentic-analytics"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "c74fa18a84a14e2b9099e69c1ca70ab2",
+            "children": [
+              {
+                "type": "p",
+                "uid": "756490477a564e0ba6392d61304f563f",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Security, access policies, and data controls are defined once at the semantic layer. Whether a human executive opens a BI dashboard, a data scientist opens a Python notebook, or an autonomous AI agent submits an MCP request, the exact same rules apply uniformly."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "5fe0011d7d104e54bedf93a5cb4374be",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "By combining the open infrastructure of MCP with the consistency of Strategy Mosaic's unified semantic layer, organizations can finally provide a dependable framework for enterprise AI adoption."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs645ced753246a777"
+          }
+        }
+      }
+    ],
+    "cta_section": [],
+    "related_posts": [],
+    "seo": {
+      "meta_title": "How AI Agents Query Mosaic Data via MCP",
+      "meta_description": "See how Strategy Mosaic uses MCP to let AI agents query governed metrics via a secure semantic layer. Consistent, trusted data at enterprise scale.",
+      "keywords": "AI agent data governance, Model Context Protocol MCP, semantic layer for AI agents, enterprise AI analytics, governed metrics for AI",
+      "social_thumbnail_override": null,
+      "enable_search_indexing": true
+    },
+    "page_properties": {
+      "navigation_title": "",
+      "header_color": null,
+      "hide_header_nav": false,
+      "hide_header_cta": false,
+      "hide_footer": false,
+      "disable_global_promo_banner": false,
+      "hide_auto_expert": false,
+      "sfid": "",
+      "marketo_id": "",
+      "cta_section": []
+    },
+    "resource_data": {
+      "date": "2026-07-22T00:00:00.000Z",
+      "type": "Blog",
+      "title": "Governing the AI Interface: How Agents Query Mosaic Data via MCP",
+      "description": "See how Strategy Mosaic uses MCP to let AI agents query governed metrics via a secure semantic layer. Consistent, trusted data at enterprise scale.",
+      "featured": false
+    },
+    "tags": [],
+    "publish_date": "2026-07-22T00:00:00.000Z",
+    "author": [
+      {
+        "uid": "blt700e5af72bbe12e2",
+        "_content_type_uid": "blog_author"
+      }
+    ],
+    "taxonomies": [
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "semantic_layer"
+      },
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "analytics"
+      }
+    ]
+  },
+  "_mapping_warnings": [
+    "No author or publish date found in the document.",
+    "The [BOLD] tags before section headings were treated as H2 section headings based on document structure rather than explicit [H2] markers.",
+    "The [BOLD] tag before the title was treated as the document H1.",
+    "Numbered list items in the Architecting the Flow section each had a bold heading followed by a paragraph and were merged into single list item strings.",
+    "No hero image URL or asset UID was available for the embedded image; sourcePath set to image_0.png as placeholder.",
+    "No FAQ section detected in the document.",
+    "No CTA boxes or action-oriented link boxes detected in the document.",
+    "Quick Answer bullets were extracted from the inline [P] block labeled Quick Answer at the top of the document rather than from a [BOX_START]/[BOX_END] wrapper and were treated as doc-provided quick answer.",
+    "publishDate was not found in the document — defaulted to tomorrow (2026-07-22T00:00:00.000Z). Confirm before publishing.",
+    "Image block missing assetUid — source: image_0.png",
+    "Suggested taxonomy terms with no configured match: Enterprise AI, Data Governance, Model Context Protocol. Add them to contentstack.taxonomy_terms in config.yaml (with UID from Contentstack) if relevant, or apply manually in the CS editor."
+  ]
+}

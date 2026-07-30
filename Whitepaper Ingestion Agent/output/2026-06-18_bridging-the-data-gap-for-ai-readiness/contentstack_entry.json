@@ -1,0 +1,3490 @@
+{
+  "entry": {
+    "title": "v1 | Bridging the Data Gap for AI Readiness",
+    "url": "/software/bridging-the-data-gap-for-ai-readiness",
+    "content_blocks": [
+      {
+        "section": {
+          "section_id": "hero",
+          "_metadata": {
+            "uid": "cs602cae1692c1a3c0"
+          },
+          "section_header": [
+            {
+              "text": {
+                "text_content": {
+                  "type": "doc",
+                  "uid": "89d0e1a1dcb54b0990fddcc109b21ad3",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "h1",
+                      "uid": "4ebd95747a324aaebb7d546bf5d6d3f4",
+                      "attrs": {
+                        "style": {
+                          "text-align": "center"
+                        },
+                        "redactor-attributes": {}
+                      },
+                      "children": [
+                        {
+                          "text": "Bridging the Data Gap for AI Readiness",
+                          "attrs": {
+                            "style": {
+                              "color": "rgb(0, 0, 0)"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "h3",
+                      "uid": "4d2d1a0a411a478cbf2a251d643090d7",
+                      "attrs": {
+                        "style": {
+                          "text-align": "center"
+                        },
+                        "redactor-attributes": {}
+                      },
+                      "children": [
+                        {
+                          "text": "Why a Unified, Mature Data Fabric Is Essential for Scalable, Trustworthy AI",
+                          "attrs": {
+                            "style": {
+                              "color": "rgb(250, 102, 15)"
+                            }
+                          },
+                          "font-color": "#fa660f"
+                        },
+                        {
+                          "text": " ",
+                          "attrs": {
+                            "style": {
+                              "color": "rgb(250, 102, 15)"
+                            }
+                          },
+                          "font-color": "#fa660f"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "p",
+                      "uid": "f5d7776b35b04a55b183b6877659dc8c",
+                      "attrs": {
+                        "style": {
+                          "text-align": "center"
+                        },
+                        "redactor-attributes": {}
+                      },
+                      "children": [
+                        {
+                          "text": "To get real value from AI, enterprises need clean, connected, and accessible data. But outdated systems and poor data management get in the way—almost half of organizations name legacy tools as their top challenge inhibiting AI readiness. A data fabric fixes this by connecting scattered data sources, enabling real-time access, and improving data quality and governance so that AI efforts are reliable, secure, and ready to scale.",
+                          "attrs": {
+                            "style": {
+                              "color": "rgb(85, 85, 85)"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "_version": 98
+                },
+                "_metadata": {
+                  "uid": "csf54bfee08bc84511"
+                }
+              }
+            }
+          ],
+          "limit_header_width": "75%",
+          "columns": [
+            {
+              "mod_column": {
+                "column_name": "The Brief",
+                "_metadata": {
+                  "uid": "cse4ed3ba60f989ae0"
+                },
+                "accent_box_options": [
+                  {
+                    "size": "Medium",
+                    "styles": [
+                      "Outlined"
+                    ],
+                    "outline_styles": [
+                      "outlineThin",
+                      "outlineColorOrange"
+                    ],
+                    "flag": "",
+                    "_metadata": {
+                      "uid": "csdf166f5f803490b7"
+                    },
+                    "align": null,
+                    "bg_color": "White",
+                    "bg_custom_color": "",
+                    "bg_image": null,
+                    "text_color": null,
+                    "add_link": []
+                  }
+                ],
+                "content": [
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "0e62a2f8655a42baa612a3cfb0e72d5a",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "h3",
+                            "uid": "29e89a32818942f49771ac20abe07754",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "The Brief",
+                                "font-color": "#000000"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "ul",
+                            "uid": "ccf8aa3df29044a1a684095ad74e2911",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "type": "li",
+                                "uid": "0316e880163843488ae340833664a0fd",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "5cff42e14f0e4cbc92192ad7d9112357",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "Only 21% of organizations have fully embedded AI into their operations, leaving 79% in early or partial stages.",
+                                        "bold": true
+                                      },
+                                      {
+                                        "text": " Despite high interest in generative AI, most enterprises are still held back by fragmented data, inconsistent definitions, and governance gaps that prevent reliable AI outputs, according to Enterprise Strategy Group."
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "li",
+                                "uid": "1a5d851edce84cf8b1bcea7d010c1c76",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "7fe3325757344a1c9748cabd1658dfed",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "49% of organizations cite complex data across legacy tools as their top challenge for AI readiness.",
+                                        "bold": true
+                                      },
+                                      {
+                                        "text": " With 64% of organizations pulling data from 100 to 499 sources daily, the need for integration at scale is acute. Siloed systems and inconsistent data definitions make it nearly impossible for AI to ingest clean, well-structured data."
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "li",
+                                "uid": "f5fbf11f3ec24ead932947379b85beb5",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "b8b3e0de6e734a199900ba717a952d23",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "94% of organizations plan to increase investments in data readiness over the next year.",
+                                        "bold": true
+                                      },
+                                      {
+                                        "text": " Data quality is now considered a critical or high priority by 74% of organizations. A mature data fabric—with unified access, semantic consistency, granular security, and active metadata—is the foundation required to move AI from pilots to enterprise-wide scale."
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 98
+                      },
+                      "_metadata": {
+                        "uid": "cs26a21e09af326695"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "columns_per_row": 1,
+          "column_alignment": "Center, Top",
+          "section_footer": [],
+          "limit_footer_width": null,
+          "more_column_options": {
+            "column_spacing": "Default",
+            "one_column_limit_width": "75%",
+            "two_column_split": null,
+            "reverse_column_order_mobile": false,
+            "accent_box_stretch": false
+          },
+          "more_section_options": {
+            "text_color": "Dark",
+            "padding": "Default",
+            "add_divider": [],
+            "bg_color": "White",
+            "bg_custom_color": "",
+            "bg_image": null,
+            "mobile_bg_image": null,
+            "parallax_bg": false,
+            "bg_video_id": ""
+          }
+        }
+      },
+      {
+        "section": {
+          "section_id": "executive-summary",
+          "_metadata": {
+            "uid": "csb0a170fe724a612d"
+          },
+          "section_header": [],
+          "limit_header_width": null,
+          "columns": [
+            {
+              "mod_column": {
+                "column_name": "banner",
+                "_metadata": {
+                  "uid": "csa05eb051fac367ed"
+                },
+                "accent_box_options": [],
+                "content": [
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "d3821aa59c3840eeaaf3093193db31fe",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "h2",
+                            "uid": "1159e853d5f5434b802b5fe95273abd8",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Executive Summary",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(0, 0, 0)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 98
+                      },
+                      "_metadata": {
+                        "uid": "csf17753994d4a97be"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  },
+                  {
+                    "divider": {
+                      "style": "thin",
+                      "spacing": "12",
+                      "custom_spacing": null,
+                      "_metadata": {
+                        "uid": "cs7baa7849758668ce"
+                      },
+                      "color": "colorOrange",
+                      "opacity": "1",
+                      "width": "100"
+                    }
+                  },
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "7ae9270f2a7e415d9909cc23fb9c9f7e",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "ae25fb3f47394a798083d04829d1b41b",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "To get real value from AI, enterprises need clean, connected, and accessible data. But outdated systems and poor data management get in the way. In fact, almost half of organizations name legacy tools as their top challenge inhibiting AI readiness.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "2375cb9853e941acbc7aabb195f960bc",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "A data fabric fixes this by connecting scattered data sources, enabling real-time access, and improving data quality and governance. It supports AI efforts by making data reliable, secure, and ready to use.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "144725abf903432f8a5b4c7233886133",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "49%",
+                                "bold": true,
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "7f45101b7d794aaa8854e41b253bfb53",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "of organizations consider complex data across legacy tools as a top challenge for AI readiness — Enterprise Strategy Group (part of TechTarget)",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 98
+                      },
+                      "_metadata": {
+                        "uid": "cs62c276e9bae3d0d3"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "columns_per_row": 1,
+          "column_alignment": "Center, Top",
+          "section_footer": [],
+          "limit_footer_width": null,
+          "more_column_options": {
+            "column_spacing": "Default",
+            "one_column_limit_width": "75%",
+            "two_column_split": null,
+            "reverse_column_order_mobile": false,
+            "accent_box_stretch": false
+          },
+          "more_section_options": {
+            "text_color": "Dark",
+            "padding": "Short bottom only",
+            "add_divider": [],
+            "bg_color": "White",
+            "bg_custom_color": "",
+            "bg_image": null,
+            "mobile_bg_image": null,
+            "parallax_bg": false,
+            "bg_video_id": ""
+          }
+        }
+      },
+      {
+        "section": {
+          "section_id": "introduction",
+          "_metadata": {
+            "uid": "csa3ae3c41a43973ea"
+          },
+          "section_header": [],
+          "limit_header_width": null,
+          "columns": [
+            {
+              "mod_column": {
+                "column_name": "banner",
+                "_metadata": {
+                  "uid": "cs3f0cdf316d98fe3b"
+                },
+                "accent_box_options": [],
+                "content": [
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "b2835cf41a7448c9b39e0bffb981a7aa",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "h2",
+                            "uid": "8658c503a50240f2949f0209ba00bce2",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Introduction",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(0, 0, 0)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 98
+                      },
+                      "_metadata": {
+                        "uid": "cs8289e0d7f518ef2a"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  },
+                  {
+                    "divider": {
+                      "style": "thin",
+                      "spacing": "12",
+                      "custom_spacing": null,
+                      "_metadata": {
+                        "uid": "cs04c53ae287071eae"
+                      },
+                      "color": "colorOrange",
+                      "opacity": "1",
+                      "width": "100"
+                    }
+                  },
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "05c53b54fe144c3da203ca13a22037bb",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "61c5617a993c429d895316fef6bdb81d",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "AI promises major gains in innovation, efficiency, and competitive advantage. But to achieve that, organizations need more than tools—they need accurate, reliable and accessible data. Right now, many are held back by siloed systems, legacy infrastructure, and outdated data practices.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "ee18925fbab74ea19cfa53ce6f33d744",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "\"AI really isn't experimental anymore,\" says Stephen Catanzano, Senior Analyst at the Enterprise Strategy Group (part of TechTarget). \"Everyone is on a journey towards reaping the benefits of what AI can deliver—competitive advantage, innovation, cost savings, and more.\"",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "d8005c241f4245e981807c23aa2dc25c",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Yet most organizations still struggle with fragmented data, inconsistent definitions, and governance gaps. Without a strong foundation, AI can't deliver the results leaders expect.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "5dc01c83ef094e938b97b45a6aa39722",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "This paper explores how a mature data fabric, supported by a strong metadata strategy, helps overcome these challenges and how unified data access, semantic consistency, and real-time governance pave the way for scalable, trustworthy AI.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 98
+                      },
+                      "_metadata": {
+                        "uid": "cs674fb364950ade9a"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "columns_per_row": 1,
+          "column_alignment": "Center, Top",
+          "section_footer": [],
+          "limit_footer_width": null,
+          "more_column_options": {
+            "column_spacing": "Default",
+            "one_column_limit_width": "75%",
+            "two_column_split": null,
+            "reverse_column_order_mobile": false,
+            "accent_box_stretch": false
+          },
+          "more_section_options": {
+            "text_color": "Dark",
+            "padding": "Short bottom only",
+            "add_divider": [],
+            "bg_color": "White",
+            "bg_custom_color": "",
+            "bg_image": null,
+            "mobile_bg_image": null,
+            "parallax_bg": false,
+            "bg_video_id": ""
+          }
+        }
+      },
+      {
+        "section": {
+          "section_id": "the-core-barrier-data-readiness",
+          "_metadata": {
+            "uid": "cse952cee44ce10bc3"
+          },
+          "section_header": [],
+          "limit_header_width": null,
+          "columns": [
+            {
+              "mod_column": {
+                "column_name": "banner",
+                "_metadata": {
+                  "uid": "cs551d7a48d2f21b35"
+                },
+                "accent_box_options": [],
+                "content": [
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "8a590702f5be4798b7f516773a4ffff4",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "h2",
+                            "uid": "7e774eca1c7b47b8924437d2a32062a8",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "The Core Barrier: Data Readiness",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(0, 0, 0)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 98
+                      },
+                      "_metadata": {
+                        "uid": "csc927f2e82165d63f"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  },
+                  {
+                    "divider": {
+                      "style": "thin",
+                      "spacing": "12",
+                      "custom_spacing": null,
+                      "_metadata": {
+                        "uid": "cs070f8bcd73bd3807"
+                      },
+                      "color": "colorOrange",
+                      "opacity": "1",
+                      "width": "100"
+                    }
+                  },
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "77459bd3e7384e538e5c2b406408b5a9",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "380aa19ca4b943298b86621bce26fd4e",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "AI adoption is accelerating, but data readiness remains the biggest obstacle—especially with generative AI in play. Despite high interest, only 21% of organizations have fully embedded AI into their operations, while 79% are still in early or partial stages (Enterprise Strategy Group).",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "92aa2f29b87f48d7ab21ca9bc59b7caa",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Data readiness means more than having data—it's about having the right data: accurate, accessible, well-governed, and structured. Without that, AI outputs become unreliable or even risky.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "484746f8fe814b9c8ebaf31d4ec9e9bb",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "\"If people don't trust the answer, they won't learn to lean on it, and they won't leverage it and get full use out of it,\" says PeggySue Werthessen, Vice President, GTM Strategy at Strategy.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "1fbba7c679f54aa69b2966b833b78bdc",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "79%",
+                                "bold": true,
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "ab4e1330a9f04328813904fcdba19d90",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "of organizations have yet to fully embed AI in their culture and operations — Enterprise Strategy Group (part of TechTarget)",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 98
+                      },
+                      "_metadata": {
+                        "uid": "cs8c2790547a8557a5"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "mod_column": {
+                "column_name": "The Integration Challenge",
+                "_metadata": {
+                  "uid": "cs77502a9451f10630"
+                },
+                "accent_box_options": [],
+                "content": [
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "684bf461a14442c6b22f25600c606e82",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "h3",
+                            "uid": "9ff12dd0d2f94611aba82c3e554bbf89",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "The Integration Challenge",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(250, 102, 15)"
+                                  }
+                                },
+                                "bold": true,
+                                "font-color": "#fa660f"
+                              },
+                              {
+                                "text": " ",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(250, 102, 15)"
+                                  }
+                                },
+                                "font-color": "#fa660f"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "5a76c3f95c674903aaf770dc37e5e655",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Many organizations rely on a patchwork of legacy systems, cloud platforms, and third-party tools. This fragmented environment makes scalable data management difficult. According to ESG, 49% of organizations say complex data across legacy tools is a top challenge for AI readiness.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "33e24d10363646fa8d1846b2f034ec95",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "AI systems need to ingest clean, well-structured data from many sources. Today, 64% of organizations pull data from 100 to 499 sources daily, underscoring the need for integration at scale.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "be7418669fba4031af2ac5a3d005a036",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "\"Organizations are eager to leverage GenAI; but many are finding that their data just isn't ready.\" — Stephen Catanzano, Senior Analyst at the Enterprise Strategy Group (part of TechTarget)",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 98
+                      },
+                      "_metadata": {
+                        "uid": "cs7db42cd729c78fd6"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "columns_per_row": 1,
+          "column_alignment": "Center, Top",
+          "section_footer": [],
+          "limit_footer_width": null,
+          "more_column_options": {
+            "column_spacing": "Default",
+            "one_column_limit_width": "75%",
+            "two_column_split": null,
+            "reverse_column_order_mobile": false,
+            "accent_box_stretch": false
+          },
+          "more_section_options": {
+            "text_color": "Dark",
+            "padding": "Short bottom only",
+            "add_divider": [],
+            "bg_color": "White",
+            "bg_custom_color": "",
+            "bg_image": null,
+            "mobile_bg_image": null,
+            "parallax_bg": false,
+            "bg_video_id": ""
+          }
+        }
+      },
+      {
+        "section": {
+          "section_id": "fragmentation-across-the-enterprise",
+          "_metadata": {
+            "uid": "cs98950fcdcd530eaf"
+          },
+          "section_header": [],
+          "limit_header_width": null,
+          "columns": [
+            {
+              "mod_column": {
+                "column_name": "banner",
+                "_metadata": {
+                  "uid": "csb1cdea26858c62c2"
+                },
+                "accent_box_options": [],
+                "content": [
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "416ed3654fd3410191da99888b5f99ac",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "h2",
+                            "uid": "9dd5f4a66d0542edbf5166fcf4955e65",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Fragmentation Across the Enterprise",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(0, 0, 0)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 98
+                      },
+                      "_metadata": {
+                        "uid": "csae3ef0140f00f777"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  },
+                  {
+                    "divider": {
+                      "style": "thin",
+                      "spacing": "12",
+                      "custom_spacing": null,
+                      "_metadata": {
+                        "uid": "cs07729b2c8d650200"
+                      },
+                      "color": "colorOrange",
+                      "opacity": "1",
+                      "width": "100"
+                    }
+                  },
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "4504327fb3ab45c5af0fe5f5d91cf771",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "fd5d496645a64ce2870e7e4640f65caa",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Even beyond systems, data is often siloed across teams, goals, and workflows. Forrester Research calls this out clearly in a recent report Unify Data, AI, And Analytics To Activate Business Outcomes: \"Data, AI, and analytics are fragmented ecosystems of priorities, goals, operations, talent, information, and technology.\"",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "e9aaa12f5fc94467a41b7e41ae6ff0ed",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "To fix this, organizations must unify data access, break silos, and build a culture of data literacy. That includes not only training, but enabling teams with tools to act on insights.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "d5d1232d02084088b602b7a9bb1f4c68",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Investments in data and AI often fall flat without adequate workforce preparation, emphasizing that \"literacy is insufficient without centers of excellence and self-service platforms,\" according to Forrester Research.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "3c5a8df3d23a448591f167433ec9e0c0",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "A strong technical foundation also ensures that solutions scale consistently—whether built at the enterprise, team, or individual level.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 98
+                      },
+                      "_metadata": {
+                        "uid": "cs524e51fc87bf523c"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "columns_per_row": 1,
+          "column_alignment": "Center, Top",
+          "section_footer": [],
+          "limit_footer_width": null,
+          "more_column_options": {
+            "column_spacing": "Default",
+            "one_column_limit_width": "75%",
+            "two_column_split": null,
+            "reverse_column_order_mobile": false,
+            "accent_box_stretch": false
+          },
+          "more_section_options": {
+            "text_color": "Dark",
+            "padding": "Short bottom only",
+            "add_divider": [],
+            "bg_color": "White",
+            "bg_custom_color": "",
+            "bg_image": null,
+            "mobile_bg_image": null,
+            "parallax_bg": false,
+            "bg_video_id": ""
+          }
+        }
+      },
+      {
+        "section": {
+          "section_id": "why-trust-quality-and-governance-matter",
+          "_metadata": {
+            "uid": "csc0251a02a1874832"
+          },
+          "section_header": [],
+          "limit_header_width": null,
+          "columns": [
+            {
+              "mod_column": {
+                "column_name": "banner",
+                "_metadata": {
+                  "uid": "cse88ced953d2bb4b8"
+                },
+                "accent_box_options": [],
+                "content": [
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "da044e047d304a8fbf1ca20368136d49",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "h2",
+                            "uid": "7c1a0ecbd5a748ec9537e432a5856b80",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Why Trust, Quality, and Governance Matter",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(0, 0, 0)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 98
+                      },
+                      "_metadata": {
+                        "uid": "cs99ad586ebf984f05"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  },
+                  {
+                    "divider": {
+                      "style": "thin",
+                      "spacing": "12",
+                      "custom_spacing": null,
+                      "_metadata": {
+                        "uid": "cs6a5fd333d967623a"
+                      },
+                      "color": "colorOrange",
+                      "opacity": "1",
+                      "width": "100"
+                    }
+                  },
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "35f5d02c147e49be8afacf418a8403b1",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "a9b5dac6eda84746a30928969ffd59aa",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Generative AI has created new risks—from hallucinations to compliance gaps. Organizations must ensure that insights are explainable and traceable back to their data sources.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "fd601b8867f04c5cb66d1c4b0d587684",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Explainability tools help users understand how AI works and where its insights come from. Data lineage—the ability to trace where data originated and how it was transformed—is key to building this trust. This is particularly important when working with disparate data systems.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "02fe47df3bc2405bbcd108a6b15d98f5",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Data lineage and explainability tools help build that trust. So does strong governance, especially when dealing with sensitive or regulated data.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "f01dfb9c0e48434c87228ad8954fa30e",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "\"When you ask AI a question, it's essential that companies can trace where the answer came from—especially if it turns out to be wrong or misleading,\" says PeggySue Werthessen.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "9ed15c6e15a14059aba8cccb1d149557",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "74%",
+                                "bold": true,
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "0683e5a7401e4690bac85892dbe435ee",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "of organizations consider data quality as critical or a high priority — Enterprise Strategy Group (part of TechTarget)",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "3f4247a8c2134bb4ae21b4fc96e106d1",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Poor data quality can lead to flawed models and bad decisions. That's why 74% of organizations now consider data quality a critical or high priority (Enterprise Strategy Group). Clean, timely, complete data is essential for GenAI to deliver accurate, fair, and useful results.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 98
+                      },
+                      "_metadata": {
+                        "uid": "cs59074a9f4e699c4e"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "columns_per_row": 1,
+          "column_alignment": "Center, Top",
+          "section_footer": [],
+          "limit_footer_width": null,
+          "more_column_options": {
+            "column_spacing": "Default",
+            "one_column_limit_width": "75%",
+            "two_column_split": null,
+            "reverse_column_order_mobile": false,
+            "accent_box_stretch": false
+          },
+          "more_section_options": {
+            "text_color": "Dark",
+            "padding": "Short bottom only",
+            "add_divider": [],
+            "bg_color": "White",
+            "bg_custom_color": "",
+            "bg_image": null,
+            "mobile_bg_image": null,
+            "parallax_bg": false,
+            "bg_video_id": ""
+          }
+        }
+      },
+      {
+        "section": {
+          "section_id": "from-pilots-to-scale-what-s-needed-now",
+          "_metadata": {
+            "uid": "cs513800b103f5ba50"
+          },
+          "section_header": [],
+          "limit_header_width": null,
+          "columns": [
+            {
+              "mod_column": {
+                "column_name": "banner",
+                "_metadata": {
+                  "uid": "cs1cbbc57b79a8c510"
+                },
+                "accent_box_options": [],
+                "content": [
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "1a46423c6dac4dca97194270d67e6475",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "h2",
+                            "uid": "c4e3840aba2f4e64be0dfb99a82f6b44",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "From Pilots to Scale: What's Needed Now",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(0, 0, 0)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 98
+                      },
+                      "_metadata": {
+                        "uid": "csbb918084b83b2c5b"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  },
+                  {
+                    "divider": {
+                      "style": "thin",
+                      "spacing": "12",
+                      "custom_spacing": null,
+                      "_metadata": {
+                        "uid": "csa2af5bf5bb69c3f1"
+                      },
+                      "color": "colorOrange",
+                      "opacity": "1",
+                      "width": "100"
+                    }
+                  },
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "d15f5313a0774d2ea25a2076efee0522",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "f750e3359d004d68aea2b4711b6a4dd1",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "To move AI from experiments to enterprise-wide success, organizations need more than hype—they need infrastructure. That means real-time data processing, robust governance, explainable outputs, and cross-platform consistency.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "b188abc8457b49058e2867f2b0aa27e2",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Without these foundations in place, even the most advanced AI tools will fall short. With them, AI becomes a scalable, trustworthy engine for decision-making, insight, and innovation.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "1313d7bc5e2f4af3be15c680f1761cb3",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "\"Data governance is the bedrock of reliable AI systems.\" — Stephen Catanzano, Senior Analyst at the Enterprise Strategy Group (part of TechTarget)",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 98
+                      },
+                      "_metadata": {
+                        "uid": "cs7edcd85fce951f53"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "columns_per_row": 1,
+          "column_alignment": "Center, Top",
+          "section_footer": [],
+          "limit_footer_width": null,
+          "more_column_options": {
+            "column_spacing": "Default",
+            "one_column_limit_width": "75%",
+            "two_column_split": null,
+            "reverse_column_order_mobile": false,
+            "accent_box_stretch": false
+          },
+          "more_section_options": {
+            "text_color": "Dark",
+            "padding": "Short bottom only",
+            "add_divider": [],
+            "bg_color": "White",
+            "bg_custom_color": "",
+            "bg_image": null,
+            "mobile_bg_image": null,
+            "parallax_bg": false,
+            "bg_video_id": ""
+          }
+        }
+      },
+      {
+        "section": {
+          "section_id": "the-role-of-a-mature-data-fabric",
+          "_metadata": {
+            "uid": "cs4a100ecd7764d721"
+          },
+          "section_header": [],
+          "limit_header_width": null,
+          "columns": [
+            {
+              "mod_column": {
+                "column_name": "banner",
+                "_metadata": {
+                  "uid": "csdb0a2862c8d17a6b"
+                },
+                "accent_box_options": [],
+                "content": [
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "c7f27326c9b043709fb05cc7a25fe7c7",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "h2",
+                            "uid": "abd711774834400a82d84757d236b4b9",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "The Role of a Mature Data Fabric",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(0, 0, 0)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 98
+                      },
+                      "_metadata": {
+                        "uid": "cs3f6d312111671b28"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  },
+                  {
+                    "divider": {
+                      "style": "thin",
+                      "spacing": "12",
+                      "custom_spacing": null,
+                      "_metadata": {
+                        "uid": "cs94086c8e1e550193"
+                      },
+                      "color": "colorOrange",
+                      "opacity": "1",
+                      "width": "100"
+                    }
+                  },
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "1516a6777fc047f084cde896d0f568e3",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "b43d2ad2672245c2b0078bb1a960d1ed",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "AI can't deliver real value without a strong data foundation. As it scales, so does the need for trustworthy, high-quality data. In fact, 94% of organizations plan to increase investments in data readiness over the next year (Enterprise Strategy Group).",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "eb197967955e41228f5e991984d7266a",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "A mature data fabric bridges the readiness gap by connecting structured and unstructured data across legacy and modern systems. It ensures data is accessible, traceable, and consistent—critical for reliable AI insights.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "1ada47b229114274951397a7e53c5615",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "To scale AI across the organization without re-platforming legacy systems, companies need a unified data layer that bridges past and present. A mature fabric does this by virtualizing access, enforcing shared definitions, and enabling secure, real-time data flow.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "f802b7a061f04636a6a946b02794e774",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Specifically, a well-built data fabric enables:",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "ul",
+                            "uid": "cfa720755fbd47fd80f746c731987b3d",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "type": "li",
+                                "uid": "a096f9aa14f54e5b981883be4fa7bc7d",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "288d5caec5974f9ab52d1537ab65810f",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "Unified access to data across silos",
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "li",
+                                "uid": "5578666a2d3c42009fa0c37e2495d0c1",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "af588b1d746c4d87bd09bada85b9d060",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "Data lineage and integrity for explainability",
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "li",
+                                "uid": "fbbaa6405f6c43a99e028229de50b4eb",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "6bc117f9684045aead0283e0937d02aa",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "Automated discovery and feature engineering via semantic enrichment",
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "li",
+                                "uid": "3768f31ee7324077922b25c62dd6de89",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "2194694813c8408a814ae14f2ed8c537",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "Real-time data flow for training, scoring, and feedback loops",
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "e9ca5bf3eb024164b4c28b6671e54611",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "This architecture enhances AI's performance, especially when integrating prompt engineering and semantic graphs for generative use cases.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "43b124398b0d4a68abc1851f0054bfef",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "94%",
+                                "bold": true,
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "4c3bf54eaa3d4546a130ab9d1c206f22",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "of organizations expect to increase investments in data readiness in the next year — Enterprise Strategy Group (part of TechTarget)",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "7de0d637e8f84a09a47613ee116c157e",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "These are the key components that define a mature data fabric and enable it to support scalable, trustworthy AI:",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 98
+                      },
+                      "_metadata": {
+                        "uid": "cse46aec008c8ae2a5"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "mod_column": {
+                "column_name": "Metrics and Dimensions",
+                "_metadata": {
+                  "uid": "cs946c68bb4244c4be"
+                },
+                "accent_box_options": [],
+                "content": [
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "357def1bda104af585bd8a1f87139c75",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "h3",
+                            "uid": "a3f6c8d8991e4f66857f5b9526890db4",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Metrics and Dimensions",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(250, 102, 15)"
+                                  }
+                                },
+                                "bold": true,
+                                "font-color": "#fa660f"
+                              },
+                              {
+                                "text": " ",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(250, 102, 15)"
+                                  }
+                                },
+                                "font-color": "#fa660f"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "71cd3022fbcc4d99a678c28099fc3101",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Clear business definitions—metrics (quantitative measures) and dimensions (descriptive attributes)—form the backbone of reliable analytics. A mature data fabric ensures these are consistent, transparent, and reusable across systems.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 98
+                      },
+                      "_metadata": {
+                        "uid": "csc0193a27c286f1a5"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "mod_column": {
+                "column_name": "Hierarchies",
+                "_metadata": {
+                  "uid": "cs1da43c4ab2af995f"
+                },
+                "accent_box_options": [],
+                "content": [
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "19187509b6b94658a4d7a014933d329c",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "h3",
+                            "uid": "8a2b9da6c1344b9eb11eb6b3bc857143",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Hierarchies",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(250, 102, 15)"
+                                  }
+                                },
+                                "bold": true,
+                                "font-color": "#fa660f"
+                              },
+                              {
+                                "text": " ",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(250, 102, 15)"
+                                  }
+                                },
+                                "font-color": "#fa660f"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "7f66d676b8a9456e9737cf55dc1412f6",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Hierarchies organize data into structured levels (like Year > Quarter > Month) for drill-down analysis. They enable users to navigate between summary and detail views easily, making insights more accessible and actionable.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 98
+                      },
+                      "_metadata": {
+                        "uid": "cs594aa8da4ace78d7"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "mod_column": {
+                "column_name": "Metadata",
+                "_metadata": {
+                  "uid": "csf2c90b66e6ca1358"
+                },
+                "accent_box_options": [],
+                "content": [
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "56b636c4103d48a8ae10bec6a390c802",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "h3",
+                            "uid": "7b02d3387367441f8e2e2d249749ecc4",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Metadata",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(250, 102, 15)"
+                                  }
+                                },
+                                "bold": true,
+                                "font-color": "#fa660f"
+                              },
+                              {
+                                "text": " ",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(250, 102, 15)"
+                                  }
+                                },
+                                "font-color": "#fa660f"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "588dbefc22e646a28b3f917591ee0deb",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Metadata gives data meaning. It describes what data is, how it's used, and how it's governed. A metadata-driven architecture supports discovery, compliance, and interoperability across systems.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "fc3295715c334c08a45f12b580f50536",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Metadata types include:",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "ul",
+                            "uid": "841e58506fb04783a4bcf473f27f89a0",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "type": "li",
+                                "uid": "d8d2563cccc14574887d04945bd3cb34",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "99b8910f47a746149bd3b93ffe859f57",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "Business metadata (definitions, rules)",
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "li",
+                                "uid": "96a09f1c9e1645ff89044f4c5393741a",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "0ecba7fc7dfb4654a1c6e667deb805cd",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "Technical metadata (formats, storage)",
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "li",
+                                "uid": "87bdc9f148104963b52c5e3db5930dcd",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "0c9fd7410b8f41efa6bc1f926d42b83f",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "Governance metadata (quality, compliance)",
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "ea1b248e487544a08f4e2822c81438f2",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Forrester Research",
+                                "bold": true,
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "d4265485e3c14bedbfd15a07ac6d775b",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "\"Metadata-driven architecture enables interoperability, composability, and portability to manage and enable a distributed and decoupled data landscape.\" — Next-Generation Data Fabrics Need a Metadata Strategy, Forrester Research, February 2025.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 98
+                      },
+                      "_metadata": {
+                        "uid": "cs67dd5fec984f8018"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "mod_column": {
+                "column_name": "Connectivity",
+                "_metadata": {
+                  "uid": "cs3e9b7c6103af66a1"
+                },
+                "accent_box_options": [],
+                "content": [
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "0a59b10409f14df98b9a4e37fcd12205",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "h3",
+                            "uid": "8e5d157b477c416da3a32d31b6f4138b",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Connectivity",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(250, 102, 15)"
+                                  }
+                                },
+                                "bold": true,
+                                "font-color": "#fa660f"
+                              },
+                              {
+                                "text": " ",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(250, 102, 15)"
+                                  }
+                                },
+                                "font-color": "#fa660f"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "8bbc5ea81f60451993d5f59ac0a81256",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "A mature data fabric integrates with diverse data sources and platforms. It applies consistent business logic—like shared metrics and attributes—across systems, reducing data silos.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 98
+                      },
+                      "_metadata": {
+                        "uid": "csaa9de9caad70ca99"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "mod_column": {
+                "column_name": "Inheritable Information",
+                "_metadata": {
+                  "uid": "cs818a5d458bbe921f"
+                },
+                "accent_box_options": [],
+                "content": [
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "3a17d0c0eb9746098f17d78b5e88cb65",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "h3",
+                            "uid": "f420757266ac4c79a7ea7a90de6535f3",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Inheritable Information",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(250, 102, 15)"
+                                  }
+                                },
+                                "bold": true,
+                                "font-color": "#fa660f"
+                              },
+                              {
+                                "text": " ",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(250, 102, 15)"
+                                  }
+                                },
+                                "font-color": "#fa660f"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "a11566aaa4f24a1a8c03c6160b98d7c8",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Business rules, relationships, and metadata should be reusable and inheritable. This streamlines development, reduces duplication, and ensures consistency across projects.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 98
+                      },
+                      "_metadata": {
+                        "uid": "cs555dd0cb26d5a131"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "mod_column": {
+                "column_name": "Granular Security",
+                "_metadata": {
+                  "uid": "cs0a44a5666b63ad8d"
+                },
+                "accent_box_options": [],
+                "content": [
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "8b757016510640ad8230180bd8a5ac26",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "h3",
+                            "uid": "a6f01f6a351340adabe38476bc225305",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Granular Security",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(250, 102, 15)"
+                                  }
+                                },
+                                "bold": true,
+                                "font-color": "#fa660f"
+                              },
+                              {
+                                "text": " ",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(250, 102, 15)"
+                                  }
+                                },
+                                "font-color": "#fa660f"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "78f58e00fb3440f6907967b95861e2ab",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Security is built in, with policies that control who sees what—down to the row or field level. This ensures compliance and protects sensitive data, especially in complex regulatory environments.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 98
+                      },
+                      "_metadata": {
+                        "uid": "cs7664a463958d99a3"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "columns_per_row": 1,
+          "column_alignment": "Center, Top",
+          "section_footer": [],
+          "limit_footer_width": null,
+          "more_column_options": {
+            "column_spacing": "Default",
+            "one_column_limit_width": "75%",
+            "two_column_split": null,
+            "reverse_column_order_mobile": false,
+            "accent_box_stretch": false
+          },
+          "more_section_options": {
+            "text_color": "Dark",
+            "padding": "Short bottom only",
+            "add_divider": [],
+            "bg_color": "White",
+            "bg_custom_color": "",
+            "bg_image": null,
+            "mobile_bg_image": null,
+            "parallax_bg": false,
+            "bg_video_id": ""
+          }
+        }
+      },
+      {
+        "section": {
+          "section_id": "strategy-semantic-graph-foundation-of-data-readiness",
+          "_metadata": {
+            "uid": "cs3a33b717b32948c4"
+          },
+          "section_header": [],
+          "limit_header_width": null,
+          "columns": [
+            {
+              "mod_column": {
+                "column_name": "banner",
+                "_metadata": {
+                  "uid": "cs5496c2b3116d9175"
+                },
+                "accent_box_options": [],
+                "content": [
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "dc4848129abb422c9c55097512ed2d60",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "h2",
+                            "uid": "cbc8397654324072b2a4a1870c5a9361",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Strategy Semantic Graph: Foundation of Data Readiness",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(0, 0, 0)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 98
+                      },
+                      "_metadata": {
+                        "uid": "cs77f9d2fc7a35666b"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  },
+                  {
+                    "divider": {
+                      "style": "thin",
+                      "spacing": "12",
+                      "custom_spacing": null,
+                      "_metadata": {
+                        "uid": "cscad07595c3435dc5"
+                      },
+                      "color": "colorOrange",
+                      "opacity": "1",
+                      "width": "100"
+                    }
+                  },
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "c43a8bd072ea4babb73012ef08bafb83",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "506166eac2554db694a47cc855b48a48",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Strategy developed a semantic layer that connects to diverse data sources, defines business concepts, and reuses those definitions across analytics tasks. All security protocols are inheritable, so even ad-hoc data access follows the same strict rules.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "6102fccf2788495c89074261e9052d37",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "The Semantic Graph is built on three core principles: reusability, inheritability, and privacy awareness.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 98
+                      },
+                      "_metadata": {
+                        "uid": "cs0100b5163163b2cc"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "mod_column": {
+                "column_name": "Reusable Data Objects",
+                "_metadata": {
+                  "uid": "csb33a7760f64b328f"
+                },
+                "accent_box_options": [],
+                "content": [
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "583a0f871377492e8c1e7c57d81e3d90",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "h3",
+                            "uid": "4f23f62575d04c509cf545808fad1e7e",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Reusable Data Objects",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(250, 102, 15)"
+                                  }
+                                },
+                                "bold": true,
+                                "font-color": "#fa660f"
+                              },
+                              {
+                                "text": " ",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(250, 102, 15)"
+                                  }
+                                },
+                                "font-color": "#fa660f"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "684b34a995a5426395519a28efd1486c",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Reusable objects speed up development and ensure consistent results across tools and teams. This cuts time spent rebuilding definitions and improves reporting accuracy.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "ul",
+                            "uid": "d35ddffa9e4c442e8d41a19e1ccafb26",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "type": "li",
+                                "uid": "e6bf257334cd445080c24e0ef62772ab",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "02c163a66c634b749a69dbe1c0540e19",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "Rich semantics are essential for AI accuracy and minimizing hallucinations.",
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 98
+                      },
+                      "_metadata": {
+                        "uid": "cs8e011ec286ade1d9"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "mod_column": {
+                "column_name": "Inheritable Updates",
+                "_metadata": {
+                  "uid": "cs7fde4c25292b9b53"
+                },
+                "accent_box_options": [],
+                "content": [
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "d51c9fb311b74c9fbe051cdd3e2787e3",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "h3",
+                            "uid": "e7416448a364433f815b4aa3e1817f13",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Inheritable Updates",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(250, 102, 15)"
+                                  }
+                                },
+                                "bold": true,
+                                "font-color": "#fa660f"
+                              },
+                              {
+                                "text": " ",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(250, 102, 15)"
+                                  }
+                                },
+                                "font-color": "#fa660f"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "4f5e20c8db2645f39bac99f7c974c48a",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "When data rules or objects are updated, changes automatically get propagated across all dependent assets. This keeps everything current, reduces maintenance, and improves data reliability.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "f639fd663d274264b703e823103d9f19",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "\"Inheritable security protocols provide peace of mind, allowing organizations to innovate without compromising data security.\" — PeggySue Werthessen, Vice President, GTM Strategy, Strategy",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 98
+                      },
+                      "_metadata": {
+                        "uid": "cs9eb7b51e122e10d4"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "mod_column": {
+                "column_name": "Privacy-Aware Architecture",
+                "_metadata": {
+                  "uid": "cs9e008f7e5e25dca8"
+                },
+                "accent_box_options": [],
+                "content": [
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "adb8169e885d4b7689017eb7a45c73e5",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "h3",
+                            "uid": "e72042e2498e4292820b538368c53a97",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Privacy-Aware Architecture",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(250, 102, 15)"
+                                  }
+                                },
+                                "bold": true,
+                                "font-color": "#fa660f"
+                              },
+                              {
+                                "text": " ",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(250, 102, 15)"
+                                  }
+                                },
+                                "font-color": "#fa660f"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "9c4297b6fd4d4431ad044a1a4784f968",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "The Semantic Graph includes built-in encryption, authentication, and role-based permissions. Access is restricted to authorized users, protecting sensitive data and ensuring compliance at every level.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 98
+                      },
+                      "_metadata": {
+                        "uid": "cs1013d3c4a7d8b23e"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "mod_column": {
+                "column_name": "Platform Agnostic and Scalable",
+                "_metadata": {
+                  "uid": "cs464c9cd622a055a2"
+                },
+                "accent_box_options": [],
+                "content": [
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "95b67ec1a4394f5b98b510b5944101cd",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "h3",
+                            "uid": "3adbf559dcc34e0b8726fbe691b0518a",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Platform Agnostic and Scalable",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(250, 102, 15)"
+                                  }
+                                },
+                                "bold": true,
+                                "font-color": "#fa660f"
+                              },
+                              {
+                                "text": " ",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(250, 102, 15)"
+                                  }
+                                },
+                                "font-color": "#fa660f"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "5477aaf3d988427dbfcd6cee9b1d0c7c",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "It integrates with cloud, on-premise, and hybrid systems—scaling easily with growing data needs. This flexibility supports different user groups and analytic workloads without performance tradeoffs.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 98
+                      },
+                      "_metadata": {
+                        "uid": "csa9016f4abb96ae09"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "mod_column": {
+                "column_name": "Centralized Governance and Security",
+                "_metadata": {
+                  "uid": "cs87c0d4250234cbda"
+                },
+                "accent_box_options": [],
+                "content": [
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "7e0b52b6546a4d479d7a990976cdd303",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "h3",
+                            "uid": "1c6033ae74ad4dc8af4c2526d018f572",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Centralized Governance and Security",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(250, 102, 15)"
+                                  }
+                                },
+                                "bold": true,
+                                "font-color": "#fa660f"
+                              },
+                              {
+                                "text": " ",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(250, 102, 15)"
+                                  }
+                                },
+                                "font-color": "#fa660f"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "2a34e075c841432b8040d3d1efe83954",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Centralized governance creates a single source of truth, applying consistent rules across the organization and eliminating data silos. It ensures that business data stays trusted, reliable, and ready for AI.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 98
+                      },
+                      "_metadata": {
+                        "uid": "cs244d2ac3507a3239"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "mod_column": {
+                "column_name": "Cost Efficiency",
+                "_metadata": {
+                  "uid": "cs08fcbd901c35c66a"
+                },
+                "accent_box_options": [],
+                "content": [
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "815b5eda03a4413b9cb7fd872e944197",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "h3",
+                            "uid": "29574c4c4f204bafa41cfd1c73e5e754",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Cost Efficiency",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(250, 102, 15)"
+                                  }
+                                },
+                                "bold": true,
+                                "font-color": "#fa660f"
+                              },
+                              {
+                                "text": " ",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(250, 102, 15)"
+                                  }
+                                },
+                                "font-color": "#fa660f"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "92865951f7274d67a7bc897c632a9d17",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Reusable components support self-service analytics, allowing the Semantic Graph to reduce IT workload and ongoing maintenance costs. Reusability helps teams to innovate quickly without rebuilding from scratch.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 98
+                      },
+                      "_metadata": {
+                        "uid": "csdc0a619c6fe9e251"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "mod_column": {
+                "column_name": "Automatic Data Model Enrichment",
+                "_metadata": {
+                  "uid": "csd56852f08778832e"
+                },
+                "accent_box_options": [],
+                "content": [
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "667a4dce28004597ac065d250a8a3246",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "h3",
+                            "uid": "8c9e3c083a934f81882698c2c1761f24",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Automatic Data Model Enrichment",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(250, 102, 15)"
+                                  }
+                                },
+                                "bold": true,
+                                "font-color": "#fa660f"
+                              },
+                              {
+                                "text": " ",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(250, 102, 15)"
+                                  }
+                                },
+                                "font-color": "#fa660f"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "2d7c72a3eb6945aeafb1576557a10538",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Strategy's new feature automatically analyzes and enriches data models with relevant metadata, helping teams to build smarter and faster.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "ef47c35da43d4f87b47fd52515dc51ae",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Forrester Research",
+                                "bold": true,
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "390efb8e966d4047a7452432b566d850",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "\"Today's data and data science approaches create an extensive semantic, logical, and physical footprint that platforms exploit to automate and scale intelligence.\" — Next-Generation Data Fabrics Need a Metadata Strategy, Forrester Research, February 2025.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 98
+                      },
+                      "_metadata": {
+                        "uid": "cs1b5f84299283203a"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "columns_per_row": 1,
+          "column_alignment": "Center, Top",
+          "section_footer": [],
+          "limit_footer_width": null,
+          "more_column_options": {
+            "column_spacing": "Default",
+            "one_column_limit_width": "75%",
+            "two_column_split": null,
+            "reverse_column_order_mobile": false,
+            "accent_box_stretch": false
+          },
+          "more_section_options": {
+            "text_color": "Dark",
+            "padding": "Short bottom only",
+            "add_divider": [],
+            "bg_color": "White",
+            "bg_custom_color": "",
+            "bg_image": null,
+            "mobile_bg_image": null,
+            "parallax_bg": false,
+            "bg_video_id": ""
+          }
+        }
+      },
+      {
+        "section": {
+          "section_id": "key-takeaways",
+          "_metadata": {
+            "uid": "cs491c2570f5dcd0dd"
+          },
+          "section_header": [],
+          "limit_header_width": null,
+          "columns": [
+            {
+              "mod_column": {
+                "column_name": "banner",
+                "_metadata": {
+                  "uid": "csf9a12d6f5b25da56"
+                },
+                "accent_box_options": [],
+                "content": [
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "5ec697f9bc3b4800ada5237c60c49490",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "h2",
+                            "uid": "df6243feb29f41c89cbc6792b9476f51",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Key Takeaways",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(0, 0, 0)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 98
+                      },
+                      "_metadata": {
+                        "uid": "cs441af6f174dc4d58"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  },
+                  {
+                    "divider": {
+                      "style": "thin",
+                      "spacing": "12",
+                      "custom_spacing": null,
+                      "_metadata": {
+                        "uid": "cs9fac587ba07a0673"
+                      },
+                      "color": "colorOrange",
+                      "opacity": "1",
+                      "width": "100"
+                    }
+                  },
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "873ac6a5eab94901a7d462220c6ab7f8",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "193ba031695d4c9cbdb280152c73e060",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Generative AI is moving fast—but without data readiness, it won't deliver real value. The key to reducing risks like hallucinations, unreliable outputs, and governance failures is a mature, end-to-end data fabric. It must ensure real-time access, semantic consistency, and integration across all data sources—no exceptions.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "d021b2cf62e3418f946c0320744c3b82",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "What defines a mature data fabric?",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "ul",
+                            "uid": "00e79a956bd94aaeb0394dbc1292a441",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "type": "li",
+                                "uid": "cfe3f07eaef449ec92c9d8dbeefd788e",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "7854bd8a86d14c42af76cf0f9261abe2",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "Unified access to structured and unstructured data, without re-platforming",
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "li",
+                                "uid": "184d279c8026423388bc74dfcce9b343",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "bd0cdad74ce54aa8a9e1b20596797b3b",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "Semantic consistency across legacy and modern systems",
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "li",
+                                "uid": "192b96e711424bd4af6b7d035eb53bd4",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "0599a661b52943468d57ab4023244bf3",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "Reusable, inheritable data objects for speed and accuracy",
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "li",
+                                "uid": "70826fc9a6ca4b2d9e0b70b571f4aad6",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "eba24c97ed1f467aa6632f3d6ae25496",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "Granular security and centralized governance for privacy and compliance",
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "li",
+                                "uid": "bf71c94d42814b32b78fb2918f4f29c2",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "27b746bfb72b4558a0f87be67f6efeba",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "Active metadata and lineage for explainability and trust",
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "li",
+                                "uid": "b2d1733169b24b8e986f2a6ffbfc2fd7",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "f9f79259e4b440e3b016db84951af152",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "Support for multi-form attributes, metrics, and hierarchies",
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "li",
+                                "uid": "30d5f4745656474f8f733f379548c3d6",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "2b5097fa2d3e4d4a8eaaa8074a247bfd",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "Scalable, platform-agnostic deployment across hybrid environments",
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 98
+                      },
+                      "_metadata": {
+                        "uid": "csdc6db0e7fbc62568"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "mod_column": {
+                "column_name": "Why Strategy?",
+                "_metadata": {
+                  "uid": "cs52cc79dfe5678034"
+                },
+                "accent_box_options": [],
+                "content": [
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "84b9da5b863d49c1901e8456240ba11e",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "h3",
+                            "uid": "96b48b959cdc492fb2da373c634676c7",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Why Strategy?",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(250, 102, 15)"
+                                  }
+                                },
+                                "bold": true,
+                                "font-color": "#fa660f"
+                              },
+                              {
+                                "text": " ",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(250, 102, 15)"
+                                  }
+                                },
+                                "font-color": "#fa660f"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "d8a94467707e486292546fcdb5723252",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "While some solutions check a few of these boxes, Strategy delivers all of them—out of the box. Its Semantic Graph follows three principles: reusability, inheritability, and privacy awareness, giving organizations a faster path to AI readiness without sacrificing control or governance.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "2a539e13947f4898ae2e7d01cc10b8ef",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "\"AI investments provide a solid return on investment only if reliable, secure, and relevant data is fed into AI.\" — Stephen Catanzano, Senior Analyst at the Enterprise Strategy Group (part of TechTarget)",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "69414c90b6774f068bad9bb1cd1ed843",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "The momentum is there: 94% of organizations plan to increase spending on data readiness in the next year, according to ESG.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "694ba2ce506a4c56a10b3d151cb79868",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Strategy's semantic-first approach bridges the gap between fragmented data and AI success—at scale, with security, and without rebuilding from scratch.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 98
+                      },
+                      "_metadata": {
+                        "uid": "cs74fc2c49edfa0a57"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "columns_per_row": 1,
+          "column_alignment": "Center, Top",
+          "section_footer": [],
+          "limit_footer_width": null,
+          "more_column_options": {
+            "column_spacing": "Default",
+            "one_column_limit_width": "75%",
+            "two_column_split": null,
+            "reverse_column_order_mobile": false,
+            "accent_box_stretch": false
+          },
+          "more_section_options": {
+            "text_color": "Dark",
+            "padding": "Short bottom only",
+            "add_divider": [],
+            "bg_color": "White",
+            "bg_custom_color": "",
+            "bg_image": null,
+            "mobile_bg_image": null,
+            "parallax_bg": false,
+            "bg_video_id": ""
+          }
+        }
+      },
+      {
+        "section": {
+          "section_id": "cta",
+          "_metadata": {
+            "uid": "cs1c3355ac066927ef"
+          },
+          "section_header": [],
+          "limit_header_width": null,
+          "columns": [
+            {
+              "mod_column": {
+                "column_name": "cta",
+                "_metadata": {
+                  "uid": "cs0016c7c368880438"
+                },
+                "accent_box_options": [],
+                "content": [
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "e361bb6712874de98196a6a439596b6e",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "h2",
+                            "uid": "da66743fa71f4a16945a1b47151c2664",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Bridge Your Data Gap for AI Readiness"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "e9cc450da9984192b9616c9071053d4a",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Strategy's Semantic Graph delivers unified access, reusable data objects, inheritable governance, and privacy-aware architecture—out of the box. Learn how Strategy can accelerate your path to scalable, trustworthy AI."
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 98
+                      },
+                      "_metadata": {
+                        "uid": "cs30482e73e08ad493"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "columns_per_row": 1,
+          "column_alignment": "Center, Top",
+          "section_footer": [],
+          "limit_footer_width": null,
+          "more_column_options": {
+            "column_spacing": "Default",
+            "one_column_limit_width": "75%",
+            "two_column_split": null,
+            "reverse_column_order_mobile": false,
+            "accent_box_stretch": false
+          },
+          "more_section_options": {
+            "text_color": "Dark",
+            "padding": "Default",
+            "add_divider": [],
+            "bg_color": "Brass",
+            "bg_custom_color": "",
+            "bg_image": null,
+            "mobile_bg_image": null,
+            "parallax_bg": false,
+            "bg_video_id": ""
+          }
+        }
+      }
+    ],
+    "page_properties": {
+      "navigation_title": "",
+      "header_color": null,
+      "hide_header_nav": false,
+      "hide_header_cta": false,
+      "hide_footer": false,
+      "disable_global_promo_banner": false,
+      "hide_auto_expert": false,
+      "sfid": "",
+      "marketo_id": "",
+      "cta_section": []
+    },
+    "seo": {
+      "meta_title": "Bridging the Data Gap for AI Readiness",
+      "meta_description": "Only 21% of enterprises have fully embedded AI. Discover why fragmented data blocks AI readiness—and what Strategy recommends to close the gap.",
+      "keywords": "AI readiness, enterprise data strategy, data integration for AI, AI data gap, generative AI adoption",
+      "social_thumbnail_override": null,
+      "enable_search_indexing": true
+    },
+    "resource_data": {
+      "date": "2025-01-01T00:00:00.000Z",
+      "type": "Analyst Report",
+      "title": "Bridging the Data Gap for AI Readiness",
+      "description": "Only 21% of enterprises have fully embedded AI. Discover why fragmented data blocks AI readiness—and what Strategy recommends to close the gap.",
+      "featured": false
+    },
+    "taxonomies": [],
+    "tags": []
+  },
+  "_mapping_warnings": [
+    "Multiple 2x2 tables in source appear to be decorative layout placeholders (containing only 'S' or 'P' markers, no real data) — all have been omitted from body blocks.",
+    "The H1 tag in source is applied to a Forrester pull quote ('Metadata-driven architecture enables interoperability...') rather than a document title — treated as a callout block, not a section heading.",
+    "The H2 tag in source is applied to a second Forrester pull quote ('Today's data and data science approaches...') — treated as a callout block, not a section heading.",
+    "Document heading hierarchy is irregular: H3/H4 used for the main title, and H1/H2 used for pull quotes — extraction logic applied contextually rather than strictly by tag level.",
+    "Page number footers ('Bridging the Data Gap for AI Readiness 2', '3', etc.) have been omitted as decorative artifacts.",
+    "Company footer and copyright line (Strategy Incorporated, 1850 Towers Crescent Plaza...) omitted from body — not content.",
+    "PeggySue Werthessen's affiliation is listed as 'Vice President, GTM Strategy at Strategy' — 'Strategy' appears to refer to the company (Strategy Incorporated / strategysoftware.com); flagged for human review to confirm full company name.",
+    "No explicit CTA section exists in the document — CTA was synthesized from the 'Why Strategy?' closing section."
+  ]
+}

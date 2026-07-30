@@ -1,0 +1,313 @@
+{
+  "title": "Your AI Agent Is Guessing. It Just Sounds Confident About It",
+  "subtitle": "",
+  "slug": "your-ai-agent-is-guessing-it-just-sounds-confident-about-it",
+  "url": "/your-ai-agent-is-guessing-it-just-sounds-confident-about-it",
+  "author": "Kaylee Ritter",
+  "authorBio": "",
+  "publishDate": "2026-07-28T00:00:00.000Z",
+  "seo": {
+    "metaTitle": "Your AI Agent Is Guessing. It Just Sounds Confident",
+    "metaDescription": "AI agents sound confident but guess without context. See how Mosaic and MCP give agents trusted definitions and governed metrics.",
+    "metaDescriptionFromDoc": false,
+    "targetKeywords": [
+      "AI agent business context",
+      "semantic layer for AI agents",
+      "enterprise AI analytics",
+      "governed metrics AI",
+      "Model Context Protocol analytics"
+    ],
+    "metaDescriptionAlternatives": [
+      "Your AI agent is guessing. Learn how Strategy Mosaic enforces one definition everywhere so agents act on facts, not approximations.",
+      "AI agents fail without business context. Discover how Mosaic and MCP deliver governed metrics and deterministic SQL at enterprise scale."
+    ],
+    "primaryKeywords": [
+      "AI agent business context",
+      "semantic layer for AI agents",
+      "enterprise AI analytics",
+      "governed metrics AI",
+      "Model Context Protocol analytics"
+    ],
+    "secondaryKeywords": [
+      "AI agent accuracy enterprise",
+      "deterministic SQL for AI",
+      "KPI definitions AI agents",
+      "trusted data for AI",
+      "BI decision-making AI",
+      "AI agent hallucination prevention",
+      "MCP semantic layer integration",
+      "fraud detection AI agent",
+      "enterprise analytics governance",
+      "AI agent cost reduction",
+      "consistent KPI enforcement",
+      "AI-ready data foundation"
+    ],
+    "longTailKeywords": [
+      "why is my AI agent giving wrong answers",
+      "how to give AI agents trusted business context",
+      "best way to prevent AI agent hallucinations in enterprise analytics",
+      "how does Model Context Protocol work with a semantic layer",
+      "why AI agents fail without governed metrics",
+      "how to enforce consistent KPI definitions across AI agents",
+      "what is a semantic layer and why does it matter for AI",
+      "how to reduce AI token costs with a semantic layer",
+      "best way to connect AI agents to CRM and BI systems securely",
+      "how to make AI agents reliable for enterprise decision-making",
+      "why AI sounds confident but gets data wrong",
+      "how to use MCP to connect AI agents to enterprise systems"
+    ],
+    "brandedKeywords": [
+      "Strategy",
+      "Strategy Mosaic",
+      "Strategy Mosaic semantic layer",
+      "Strategy AI analytics platform",
+      "Strategy Mosaic MCP integration"
+    ]
+  },
+  "quickAnswer": [
+    {
+      "headline": "AI agents don't fail because the model is weak, they fail because they lack business context: your definitions, KPIs, and rules.",
+      "body": ""
+    },
+    {
+      "headline": "MCP (Model Context Protocol) is the connector that lets an agent securely reach your systems (CRM, calendar, ticketing) and take action, not just talk.",
+      "body": ""
+    },
+    {
+      "headline": "Mosaic is the semantic layer that makes what the agent finds trustworthy: one definition enforced everywhere, with deterministic SQL instead of a model's best guess.",
+      "body": ""
+    },
+    {
+      "headline": "Together, they cut token and infrastructure costs (37-70%+ depending on scale) while requiring no migration of your existing data, cloud, or LLM.",
+      "body": ""
+    }
+  ],
+  "quickAnswerFromDoc": true,
+  "heroMedia": null,
+  "body": [
+    {
+      "type": "section",
+      "heading": "",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Every enterprise is now running the same experiment: point an AI agent to solve internal system problems, and see what it can get done. The results usually fall under a similar bucket, the agent is articulate, fast, and confident at first (and your instinct tells you to believe it) but then it often ends up wrong in ways that are hard to catch until someone points it out."
+        },
+        {
+          "type": "blockquote",
+          "text": "\"AI is powerful, but it doesn't understand your business,\" says François Dupont, who leads Sales Engineering for Strategy across Central Europe."
+        },
+        {
+          "type": "paragraph",
+          "text": "\"AI doesn't know your customer definition. It doesn't know your discount rules, your KPI priorities. It doesn't know what's been approved by your finance department.\""
+        },
+        {
+          "type": "paragraph",
+          "text": "That gap doesn't stop an LLM from answering… it just means the LLM fills the gap itself silently, and states the result with the same confidence it would use for something it knew. Ask the same question five times, Dupont points out, and \"you may get five different answers, five different formulations, and it's not an AI problem. It's a shared definition problem.\""
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "What It Looks Like When the Guessing Stops",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Strip away the buzzwords and an AI agent doing real work looks almost unremarkable."
+        },
+        {
+          "type": "paragraph",
+          "text": "Take this example: A risk officer is driving to work with AirPods in, and he asks his assistant a simple question: any specific fraud alert from overnight? It doesn't just say \"yes,\" it tells him exactly what happened: an anomaly in transaction pattern, hundreds of microtransactions in eleven minutes, all under a 500-euro threshold. That pattern has a name, called structuring, and is a classic way people try to move money without tripping a fraud alert."
+        },
+        {
+          "type": "paragraph",
+          "text": "He follows up with: who's responsible for this account? The assistant checks the CRM and comes back with a name and a branch. He asks for a meeting with compliance to sort it out. The assistant checks his calendar and the other two people's calendars, finds a slot that works for everyone, drafts a short summary of the situation, and books it. By the time he parks the car, the issue has been flagged, the right person has been identified, and a meeting is already on the calendar with the context attached. He walks into the office already caught up, instead of spending the first hour of his day getting there."
+        },
+        {
+          "type": "paragraph",
+          "text": "This might sound far-fetched, but nothing about that sequence is hypothetical. \"It's powered by MCP together with Mosaic, and it's available right now,\" Dupont says. \"We are not talking about the future. We are talking about reality.\""
+        },
+        {
+          "type": "paragraph",
+          "text": "The same pattern shows up in quieter, everyday work, too: an agent scanning customer health data, flagging an account with a steep drop in order volume, opening a retention opportunity in the CRM, and spinning up a follow-up task, all from one prompt."
+        },
+        {
+          "type": "blockquote",
+          "text": "\"Everything that you can interact with today; you can connect to your AI. And MCP makes that possible.\" — François Dupont, Sales Engineering, Central Europe, Strategy"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Two Jobs, Not One",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "MPC is like the USB-C of AI",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "MCP",
+              "bold": true
+            },
+            {
+              "text": " is the connective layer. \"You can imagine MCP as a universal connector to connect your applications, your data, to AI,\" says Dupont. \"It's like the USB-C connecting multiple worlds\" one standard that reaches Salesforce, a calendar, a ticketing system, whatever the agent needs to touch, \"bringing the data where it lives to AI, and also respecting governance and permission.\" An agent only sees, and only acts on, what the person behind it is cleared to see."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Mosaic",
+              "bold": true
+            },
+            {
+              "text": " is the layer that makes what comes through that connection trustworthy. Business logic — what a customer means, how a KPI is calculated, which rules apply — is defined once in Mosaic and enforced everywhere it's consumed, agents included. Rather than letting each model guess at how to translate a question into a query, Mosaic's engine generates the query deterministically. Ask the same question through five different agents and you get the same answer, because they're all working off the same definition instead of five separate guesses."
+            }
+          ]
+        },
+        {
+          "type": "blockquote",
+          "text": "\"Mosaic makes your data trustworthy. MCP makes it actionable.\""
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Three Reasons Mosaic Matters:",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "list",
+          "style": "numbered",
+          "items": [
+            "Trust prevents AI from guessing at business definitions, ensuring consistent answers.",
+            "Cost claimed ~56% reduction in data/cloud compute costs and 50%+ reduction in AI token costs due to better context.",
+            "Flexibility decouples business logic from underlying tech (cloud, data platform, LLM), enabling \"easy swaps\" as technology changes."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "The Cost Problem Nobody Budgets For",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Trust is the headline issue, but a quieter one is that every bit of missing context an agent has to compensate for costs money."
+        },
+        {
+          "type": "blockquote",
+          "text": "\"Every unnecessary request, every clarification on a wrong assumption, burns tokens.\""
+        },
+        {
+          "type": "paragraph",
+          "text": "Multiply that by an organization running the same kind of query thousands, or tens of thousands, of times, and the waste stops being trivial. Feeding agents pre-defined business logic instead of a raw schema cuts token consumption by roughly 37% per query on average, climbing to 50–70% at production scale, and higher still for agents built to take direct advantage of it. On the infrastructure side, consumption costs drop by 56%, largely from caching that keeps repeat queries from hitting the warehouse at all."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Nothing to Migrate",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The other objection Dupont hears constantly is really a question about lock-in: does adopting this mean re-platforming?"
+        },
+        {
+          "type": "blockquote",
+          "text": "\"Technology changes faster than business definitions,\" he says. \"Cloud evolves, data platforms evolve, AI models evolve. Your revenue, your customer base, your margin definition — that shouldn't have to change every time.\""
+        },
+        {
+          "type": "paragraph",
+          "text": "Because Mosaic sits as an independent layer above the LLM, the cloud, and the database rather than inside any one of them, switching any single piece (a new model, a different warehouse) doesn't touch the business logic underneath it. Dupont calls it \"the easy swap\": change what you consume with, or change where the data lives, and the definitions travel with you either way."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Recap",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "An AI agent without business context doesn't know it's guessing, so it sounds just as confident whether it's right or wrong. Closing that gap takes two pieces: MCP connects the agent to your systems so it can take action, and Mosaic makes sure what the agent finds is correct, so one definition is used the same way everywhere. Together, they make agents more trustworthy, cheaper to run, and easy to set up without changing your existing tech stack."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "We already use an orchestrator for AI automation. Why do we need a semantic layer too?",
+      "answer": "They're complementary, not competing. An orchestrator decides what to do next; it still needs to know what's true. Without a semantic layer feeding it governed definitions, an orchestrator is working from the same guesses any ungrounded model would make — and often at real expense, since orchestration platforms aren't cheap to run on wasted tokens. Connecting a semantic layer via MCP gives the orchestrator a single version of the truth to work from, and Mosaic's token savings apply just as much to orchestrated workflows as to a single agent.",
+      "accordionEnabled": true
+    },
+    {
+      "question": "How do we stop an agent from seeing data it shouldn't?",
+      "answer": "Through the same governance MCP was built around. A user connects via single sign-on, their identity carries through to Mosaic, and Mosaic only exposes the models and rows that person — or the agent acting on their behalf — is already cleared to see. Access control lists and row-level security apply on top, so an agent inherits the same restrictions a human user would have, nothing more.",
+      "accordionEnabled": true
+    },
+    {
+      "question": "We don't have MCP enabled yet. How do we test it?",
+      "answer": "Start with one concrete use case rather than a broad rollout. A scoped pilot is enough to evaluate whether the approach fits before committing further.",
+      "accordionEnabled": true
+    },
+    {
+      "question": "How hard is it to actually implement?",
+      "answer": "Not very difficult, an MCP connector is typically a couple of configuration lines: an endpoint and a way to pass through your single sign-on token. The real variable isn't the technical lift, it's whether your organization already has an AI strategy and a data processing agreement in place with whichever LLM you're exposing data to.",
+      "accordionEnabled": true
+    },
+    {
+      "question": "Does this only work with one LLM?",
+      "answer": "No. MCP is supported across the major enterprise LLMs, and Mosaic is built to be model-agnostic by design, that's the point of separating the semantic layer from the model. Whatever LLM your organization standardizes on today, or switches to later, the underlying business definitions don't change.",
+      "accordionEnabled": true
+    },
+    {
+      "question": "We already know what a semantic layer is. What's different here?",
+      "answer": "Three things, mainly. First, determinism: Mosaic generates SQL itself rather than letting an LLM guess at it, which is what makes answers consistent across models and runs. Second, cost: the token and infrastructure savings are measured, not theoretical. Third, governance: a built-in oversight layer (Sentinel) gives visibility into agent usage, risk patterns, and cost.",
+      "accordionEnabled": true
+    }
+  ],
+  "postFaqContent": [],
+  "suggestedTaxonomyTerms": [
+    "Enterprise AI",
+    "Semantic Layer",
+    "Data Governance",
+    "AI Agents",
+    "Model Context Protocol"
+  ],
+  "cta_list": [],
+  "internalLinks": [],
+  "externalLinks": [],
+  "validationWarnings": [
+    "No author name or publish date found in the document.",
+    "The heading 'Two Jobs, Not One' and 'Three Reasons Mosaic Matters:' contain mixed bold formatting in the original [BOLD] markers with individual letter bolding — likely a formatting artifact; rendered as plain section headings.",
+    "The italic paragraph 'MPC is like the USB-C of AI' appears to be a subheading or callout label but has no [H3] marker; treated as an italic paragraph block.",
+    "No [LINK:] markers found in the document; internalLinks and externalLinks are empty.",
+    "No CTA boxes or action-oriented boxes found; cta_list is empty.",
+    "The quote attributed to François Dupont ('Everything that you can interact with today...') appeared as a standalone [P] paragraph followed by an attribution line — combined into a single blockquote.",
+    "No hero image or media found in the document.",
+    "The numbered list items in 'Three Reasons Mosaic Matters' contained bold labels followed by plain text; bold formatting on labels noted but items stored as plain strings in the list items array due to schema constraint.",
+    "publishDate was not found in the document — defaulted to tomorrow (2026-07-28T00:00:00.000Z). Confirm before publishing."
+  ]
+}

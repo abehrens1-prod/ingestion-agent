@@ -1,0 +1,1569 @@
+{
+  "entry": {
+    "title": "v1 Independent by Design: Trusted AI Across Your Microsoft Stack",
+    "url": "/blog/independent-by-design-trusted-ai-across-your-microsoft-stack",
+    "lead_paragraph": {
+      "type": "doc",
+      "attrs": {},
+      "uid": "fda256e755794f2dafa1a021289c194d",
+      "children": [
+        {
+          "text": ""
+        }
+      ],
+      "_version": 1
+    },
+    "content": [
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "373f22d7dc414393ab75c2f84851f4eb",
+            "children": [
+              {
+                "type": "h3",
+                "uid": "782f25af3cd94b3bac32a94780eafcb9",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Quick Answer",
+                    "attrs": {
+                      "style": {
+                        "color": "rgb(26, 78, 159)"
+                      }
+                    },
+                    "bold": true,
+                    "font-color": "#fa660f"
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "uid": "7e5ee3542c4240c78ebc063ebe81c14f",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "li",
+                    "uid": "8808e9e8f93e46499e609631548b58cb",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "c492c4a81de74fbdb188bc9fca8ddf33",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "The semantic layer is now critical infrastructure.",
+                            "bold": true
+                          },
+                          {
+                            "text": " Gartner predicts that by 2030, universal semantic layers will be treated on par with data platforms and cybersecurity, driven entirely by AI demands."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "fa7b71af265e4e539f8be11975fce10f",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "a7b5a3ca051c4fd3ae692e915c5ba834",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Vendor lock-in risk.",
+                            "bold": true
+                          },
+                          {
+                            "text": " On April 17, 2026, Microsoft removed a single connector mode and broke every report built on Databricks Metric Views deliberately overnight."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "2156101762ac4ca2b7c4d460a7ec436a",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "ec6413222cd249baa97b1d687ac2b9df",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Both Microsoft and Databricks offer a fix. Both fixes are lock-in.",
+                            "bold": true
+                          },
+                          {
+                            "text": " Putting logic in Power BI only works if Power BI is your only tool. Moving it into Unity Catalog is a one-way migration. Either way, you're inside one vendor's walls."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "e1131e90f319457c831e829a72e53b3f",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "885af32f9edd4909b37844ff20d4166e",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Strategy Mosaic is independent of every platform.",
+                            "bold": true
+                          },
+                          {
+                            "text": " Mosaic sits above Databricks, Microsoft, Snowflake, and your BI tools — and serves all of them without belonging to any one of them. Neutrality isn't a feature; it's the architecture."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs554cfdfad4922f2a"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "The Question Every Enterprise Data Team Should Be Asking",
+          "_metadata": {
+            "uid": "cs17c948f95d71e617"
+          },
+          "section_id": "the-question-every-enterprise-data-team-should-be-asking"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "84e802d74d6e40169f126358d3239efb",
+            "children": [
+              {
+                "type": "p",
+                "uid": "aba1a464eb4a428d9f5a85fda2ec8c72",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Your Microsoft stack isn't the debate anymore."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "cd89550cb4ae43498c393cf8f70cd836",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "For most enterprise teams, the choices around Power BI for reporting, Azure for compute, and Copilot for AI are already made. The real strategic question is: Where does your business logic live, and what happens to it when the landscape shifts?"
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "146fb5c0beb54fb98037e2afac8e12ec",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "That was the central theme of Strategy's July 7th webinar, "
+                  },
+                  {
+                    "type": "a",
+                    "uid": "b51ba7d509164d4383d09c2efd7e8f37",
+                    "attrs": {
+                      "url": "https://software.strategy.com/webinar/independent-by-design-trusted-ai-across-your-microsoft-stack",
+                      "target": "_blank"
+                    },
+                    "children": [
+                      {
+                        "text": "Independent by Design: Trusted AI Across Your Microsoft Stack,"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " hosted by Joe Bullis, VP of Technical Evangelist at Strategy. What followed was one of the most timely conversations in enterprise data — not because it was theoretical, but because the market had just handed everyone a real-world case study."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs208c0bdc19b2461b"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "The Semantic Layer Revolution Is Here",
+          "_metadata": {
+            "uid": "cs958e6c831b50e672"
+          },
+          "section_id": "the-semantic-layer-revolution-is-here"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "dfe4be3a7752468ea39408d81ec2a27a",
+            "children": [
+              {
+                "type": "p",
+                "uid": "2a15f3d3747147c58ea9230e404fb220",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "[IMAGE PLACEHOLDER]",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "16c6054d2dac4de588a6ff1c70e0fb8c",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Upload asset to Contentstack and replace this placeholder — source: image_0.png"
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs6bd064d4aef1fe1f"
+          }
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "b0991f393d04444a9af156dc7ef85fd2",
+            "children": [
+              {
+                "type": "p",
+                "uid": "77c51740ab42459ca3ed66658e11479b",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "For years, semantic layers were treated as a nice-to-have. That's changing fast."
+                  }
+                ]
+              },
+              {
+                "type": "blockquote",
+                "uid": "18f48a57d93b453484fa74089ce95fad",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "p",
+                    "uid": "1f66bfc645194efca58c9576da974ca8",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "text": "\"Semantic layer\" search interest spiking dramatically from near-zero in 2016 to an all-time high in 2026",
+                        "attrs": {
+                          "style": {
+                            "color": "rgb(0, 61, 91)"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "155c4c5935df4c9693be18dc42a7feb8",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The Google Trends data Joe shared during the webinar tells the story clearly: searches for \"semantic layer\" have gone from virtually flat for a decade to near-vertical in the past two years."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "c56cd2496c814e15a20602a528f1772c",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "By now, most organizations have now experienced the non-deterministic nature of AI assistants like ChatGPT, Claude, and Gemini. These tools are powerful, but when left ungoverned, they hallucinate. They invent metrics, misinterpret definitions, and return inconsistent answers to the same question asked twice."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "0475206254aa49e3bb43e030c644adc5",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The solution that enterprises are discovering is the semantic layer. By providing structured, governed business context, a semantic layer turns a non-deterministic AI assistant into a reliable, trustworthy one."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs11a643cea843fe2b"
+          }
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "5156b994176a46a8b3a88b938effd57b",
+            "children": [
+              {
+                "type": "p",
+                "uid": "d2eccfc7d9bf4127bce359a529064de6",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "[IMAGE PLACEHOLDER]",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "7e47e0066b1e4957a6395ed02e56330b",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Upload asset to Contentstack and replace this placeholder — source: image_1.png"
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs21e2927c68fcfaaa"
+          }
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "c237ab4eef07425486ba8d46baaa9e9f",
+            "children": [
+              {
+                "type": "p",
+                "uid": "e1b09d2573f44e94ba162620b03b0330",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "As Joe demonstrated, when a Strategy Mosaic semantic model sits underneath both Claude and Power BI, the same question returns the same answer — every time. Same model, same context, same results. That's what deterministic AI looks like in practice."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "95d81cad3ba642d9a61ab1ad6b3b489e",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Gartner has taken notice, and has said:"
+                  }
+                ]
+              },
+              {
+                "type": "blockquote",
+                "uid": "bb5c702df99d4c4f94675597d5170bec",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "p",
+                    "uid": "c8a2d9b4f5594b0f932ac906dc054f5d",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "text": "\"By 2030, universal semantic layers will be treated as critical infrastructure, alongside data platforms and cybersecurity.\"",
+                        "attrs": {
+                          "style": {
+                            "color": "rgb(0, 61, 91)"
+                          }
+                        }
+                      },
+                      {
+                        "text": " — Gartner Data & Analytics Summit 2026, Signature Series",
+                        "bold": true,
+                        "attrs": {
+                          "style": {
+                            "color": "rgb(26, 78, 159)"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs5bc1a9d0934748b7"
+          }
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "878de1ea205e4737859144eca1782d52",
+            "children": [
+              {
+                "type": "p",
+                "uid": "d429200cddc641b4ab6e202196c9f599",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "[IMAGE PLACEHOLDER]",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "03acbdab7f3342ada1ac37db2e6bcd9d",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Upload asset to Contentstack and replace this placeholder — source: image_2.png"
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "csa510a1b13dba5886"
+          }
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "0fa95512780c414391c5d1f541f991ad",
+            "children": [
+              {
+                "type": "p",
+                "uid": "c9ee4a468326463eb61b8fd28c8e7c8a",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Gartner has taken notice, and has said that by 2030, universal semantic layers will be treated as critical infrastructure because of AI demands. They feel that Semantic Layers will be equivalent to data platforms, not only a feature of them."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs068212fe110042d3"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "2026: The Semantic Layer Becomes a Battlefield",
+          "_metadata": {
+            "uid": "cs02f3dc24bc992d11"
+          },
+          "section_id": "section-2026-the-semantic-layer-becomes-a-battlefield"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "91d52561f6c7430fb7bbb9cf325c88a6",
+            "children": [
+              {
+                "type": "p",
+                "uid": "c1e74381e5b444e3b3c3cb3b4d7a559a",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "One example that brings Gartner's prediction to the forefront happened in April, when Microsoft stated that semantic layers should belong on Power BI layers."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "e302b4ee89aa42f88d32c7de590084e7",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Here's the timeline:"
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "uid": "5e80d82a2ec54d4a85f521732728e2b9",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "li",
+                    "uid": "4d5e5587fc7e4a65b75a0c4715ffd39e",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "383d2a82049d4b17973c041160a82089",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "April 12: A Microsoft engineer publishes the case that business logic belongs inside Power BI models."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "28aad794976a4cdfaf123eb41c713272",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "5564fada040c4073a9bbbb6072a7405c",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "April 17: Microsoft removes BI compatibility mode from the Power BI–Azure Databricks connector. Every report built directly on Databricks Metric Views stopped working. No in-connector fix was offered."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "d8f1d7da6eb4470e9d329f012e682fc8",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "cbd2e552677440d9b3e5b0f2a2537217",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "June 16: Databricks responds at its Data + AI Summit by announcing a one-way import of Power BI and Tableau semantic models into Unity Catalog — trading one form of lock-in for another."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "1c37baaf5d4342cd8174f3e7fdc1a5e9",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "e961105e2b7d4e4bb0d17c457e0c7fa1",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "July 2026: The ADBC migration forces re-certification work on every team connecting Power BI directly to Databricks."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "0c5b7a667ee1466b9a672854bc6950cb",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Joe Bullis was direct about what this sequence means:"
+                  }
+                ]
+              },
+              {
+                "type": "blockquote",
+                "uid": "225ca2b4f44e44a3ae4916894a1b9d53",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "p",
+                    "uid": "e68a31d39f804ac08b0efc68d3120117",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "text": "\"The argument on April 12, the proof on April 17. This is strategic, not accidental.\"",
+                        "attrs": {
+                          "style": {
+                            "color": "rgb(0, 61, 91)"
+                          }
+                        }
+                      },
+                      {
+                        "text": " — Joe Bullis, VP, Technical Evangelist, Strategy",
+                        "bold": true,
+                        "attrs": {
+                          "style": {
+                            "color": "rgb(26, 78, 159)"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "b0ef3295391c4350aa71fde63a2359eb",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The semantic layer is the high ground of enterprise AI. What does this mean?"
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "9a556ee29c5e4a17babb6ccaa72606c9",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "It means that whoever controls how a company's data is defined, controls the context that every AI agent, dashboard, and business decision depends on. Neither Microsoft nor Databricks are willing to hand that control to the other, and neither will hesitate to break the bridge between them again. So if your business logic lives inside one platform's walls, you're exposed to the next move."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "csb26cfa752fbfabbd"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "Both Vendors Have an Answer. Both Answers Are Lock-In.",
+          "_metadata": {
+            "uid": "csa1514e59bc54772c"
+          },
+          "section_id": "both-vendors-have-an-answer-both-answers-are-lock-in"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "95b3ef277e124d2c8a60d17d821e18d2",
+            "children": [
+              {
+                "type": "p",
+                "uid": "be51815cce9e42cfbf991bbbcd135b3c",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "It's worth being precise about what each vendor is offering:"
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "2864aa873ab94b3e97569f6a4734aeb6",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Microsoft:",
+                    "bold": true
+                  },
+                  {
+                    "text": " \"Put your business logic in Power BI.\""
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "9428f042644d45448c9589cc2217ac35",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "This works only if Power BI is your sole consumption surface, which almost no enterprise is. And April 17 showed exactly what that dependence costs when Microsoft changes course."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "eb552b5569134caea25435acfe2b54a3",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Databricks:",
+                    "bold": true
+                  },
+                  {
+                    "text": " \"Move your logic into Unity Catalog.\""
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "894754dbf9fb4443bb1192ee416644e3",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Is it fixed for the broken connector? Databrick's position is to migrate to AI/BI dashboards. As of the June 16 Data + AI Summit, Unity Catalog can import semantic models from Power BI and Tableau."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "30e8a610773743b398b433d4d4d10b99",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Either way, you swap one dependency for another. The underlying exposure is identical, which leaves the business logic inside one vendor's walls unchanged."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "csa0f4198a6f45e8bd"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "Why Mosaic Customers Never Felt It",
+          "_metadata": {
+            "uid": "csc5091047fefa6b66"
+          },
+          "section_id": "why-mosaic-customers-never-felt-it"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "85bb0edef1a54b7b9ff36bdde43b64b5",
+            "children": [
+              {
+                "type": "p",
+                "uid": "1984d36cff1a4287bc8fbc149457918f",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Here's the key technical distinction that made all the difference on April 17:"
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs59e6127e6f70a502"
+          }
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "a9cbf66a0b9b4333a31fb604bc171f98",
+            "children": [
+              {
+                "type": "p",
+                "uid": "59d02c0914fd45fa8f78387e04648b3d",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "[IMAGE PLACEHOLDER]",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "1034b877e0914a4198313f34ef0614d3",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Upload asset to Contentstack and replace this placeholder — source: image_3.png"
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs2e075e284c70cc43"
+          }
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "4d063e2ec5304931b5645ab64e887fcf",
+            "children": [
+              {
+                "type": "ol",
+                "uid": "81cdf08a8c4147fd9281dd3f237596ff",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "li",
+                    "uid": "6d0b4d35e3e1475a927787cda524de4f",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "2bd7d45c32444e228867860c9ba11666",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Databricks Metric Views reached Power BI through a special \"BI compatibility mode\" → a private workaround inside Microsoft's connector that rewrote queries on the fly. It was fragile by design and depended on a private agreement between two direct competitors, and it was revocable at either vendor's convenience. On April 17, Microsoft simply removed it."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "973ee8e6212c4a6cba883df26a5c9045",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "5c839b5a6a7e46c9b873629fa41c55e0",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Strategy Mosaic connects to Power BI differently as an SSAS-compatible server → using a decades-old, open Microsoft standard that doesn't depend on any private agreement between competing vendors. There was nothing for Microsoft to break, Mosaic customers had nothing to migrate or re-certify."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs5439dd14395f2332"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "History Rhymes: When Giants Fight, Obsolescence Follows",
+          "_metadata": {
+            "uid": "cs0b5e51f6399ae2c6"
+          },
+          "section_id": "history-rhymes-when-giants-fight-obsolescence-follows"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "c74bf3ff3f864c50a900421940a4ba06",
+            "children": [
+              {
+                "type": "p",
+                "uid": "c7bc913362344f55bb01585ba2cae273",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "This dynamic isn't new. Joe placed the 2026 semantic layer battle in its proper historical context:"
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "csb08d4c25a0f25c81"
+          }
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "721021c520c34db793d4bf0334091951",
+            "children": [
+              {
+                "type": "p",
+                "uid": "36a664efc87b4dd188412630641fc634",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "[IMAGE PLACEHOLDER]",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "7333670330df42eeb8c269e093727561",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Upload asset to Contentstack and replace this placeholder — source: image_4.png"
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs085452bce501d386"
+          }
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "3db3ea66cc354ddd8b2c60688846dd7b",
+            "children": [
+              {
+                "type": "p",
+                "uid": "b6fa4d87b36349e391286793e34dcc1d",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Whether we look at the rivalry between VHS and Betamax, HD DVD vs. Blu-ray, Apple vs. Adobe Flash or the current clash between Microsoft and Databricks over semantic layers, the survivors in every format war weren't the ones who picked the right side, but were the ones on a neutral, open standard."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "csd16df113de8a91c9"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "What Does Neutral Ground Look Like for Your Semantic Layer?",
+          "_metadata": {
+            "uid": "csfefcee6f0cd3ed29"
+          },
+          "section_id": "what-does-neutral-ground-look-like-for-your-semantic-layer"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "d4a2fd315e4c4810808b1c38614a9f55",
+            "children": [
+              {
+                "type": "p",
+                "uid": "3505f9f68a4d4a869234aec8b92abfd6",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Databricks has adopted the language of openness. At their June summit, they pitched Unity Catalog as an \"open, no-lock-in semantic layer for AI agents.\""
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "a6acba6b10c14722826d4461758d9d42",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Unity Catalog is accessible via SQL, APIs, and MCP, but it is Databricks' semantic layer. It lives inside their platform, governs their estate, and is designed to make Databricks the center of gravity. The difference is independence: \"open\" there means open "
+                  },
+                  {
+                    "text": "into",
+                    "bold": true
+                  },
+                  {
+                    "text": " Databricks."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "585389adf8b14a059700d8faca892d06",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Strategy Mosaic sits "
+                  },
+                  {
+                    "text": "above",
+                    "bold": true
+                  },
+                  {
+                    "text": " Databricks, Microsoft, Snowflake, and your BI tools — and serves all of them without belonging to any one of them."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "6b56270db3f74d0489d353fffe2fb896",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Both companies are members of OSI (Open Semantic Interoperability). The difference is that Strategy ships OSI functionality in preview as of June 2026, while Databricks has no release date."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs87d690f4454533e5"
+          }
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "19d4c6d02bbf435daf414c1f02d39e0a",
+            "children": [
+              {
+                "type": "h4",
+                "uid": "47045a3889f84f68b6ee787deee84aa4",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "",
+                    "font-color": "#fa660f"
+                  }
+                ]
+              },
+              {
+                "type": "h4",
+                "uid": "e345e1f7e5734c40943fe309cc92c833",
+                "attrs": {},
+                "children": [
+                  {
+                    "font-color": "#fa660f",
+                    "text": "Neutral Ground: What it Looks Like"
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "ed578a13b24947e3b2e4386ad82f9f21",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Strategy Mosaic operates as an independent, universal semantic layer that:"
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "uid": "e8e09c2d16f64c578338bb7718a54eb4",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "li",
+                    "uid": "518139d2b4fb4ca8937e0f48d7da16cf",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "625e03a8cfaa49498a101fb7dbb8d1bc",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Creates governed business context: consistent definitions across every tool that consumes it"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "c175303400854b56b6d5fb57960da055",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "60f82a53536a47d2ab89deeb73f75f4d",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Generates SQL (not the LLM): reducing hallucinations, cutting token costs, and lowering database query volume"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "d1dcd3d76e854c9581b29496cc6ff5f5",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "80ebc24023694214b3ebc4dca86055c3",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Connects to everything: Power BI, Copilot, Claude, ChatGPT, Gemini, Tableau, Excel, internal agents, and more"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "a96253ea80884541a032d0e58431f7d3",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "ed004f7a274344dd9751ee2ba54ff9cd",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Runs on open standards: SSAS-compatible, OSI member, MCP-enabled (the \"USB-C for AI,\" backed by the Linux Foundation with 97M+ SDK downloads)"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "219fa6010b72488aaf58bdbc71cd6e8b",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "b53f85f4aee74c7ea48c8f68f0743640",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Requires no migration: runs on Azure, sits on top of Databricks, Snowflake, Fabric, BigQuery, or any data platform you already use"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "e5380051da1845fe878949a331152314",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "A future dispute between platforms can't break your business logic, because Mosaic serves both Power BI and Databricks without belonging to either."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "69544b53d9e14597a2022a3047e1c81c",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Joe closed the session with three clear conclusions:"
+                  }
+                ]
+              },
+              {
+                "type": "ol",
+                "uid": "758610454c2d432b904afe5d3d7d4d01",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "li",
+                    "uid": "835db6bacaf64d40aad8e744701484d8",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "e70abff72e0b4cb9941f534a8ff3c3b4",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "The break was real. April 17 proved that platform-native integrations can vanish deliberately overnight."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "ae41bd8435d3436196df02f4d74150af",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "4cbb29de66654687ae51dccbbd0d1f42",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "The war is just starting. The semantic layer is the prize in the enterprise AI land grab. More moves are coming from more vendors."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "7a82518a6b524b658050982948594651",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "723f2f98f1ca4a2e9172e8168798090d",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Neutrality is the hedge. Mosaic serves every platform and every BI tool while belonging to none of them."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs9690b6139cd2b7dc"
+          }
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "2c5c0462134e488090c610a37e0e5e2f",
+            "children": [
+              {
+                "type": "p",
+                "uid": "aef1c9141ce240c19680c1f82c7d7dc1",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "[ PROMO PLACEHOLDER — Replace with Promo block in Contentstack editor ]"
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "f4ebf781c6d84bc7999069c54aecc8e0",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "CTA: \"Ready to See How Mosaic Fits Your Stack?\""
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "192ff556af6649719255c53268b6f5fa",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Button: Independent by Design: Trusted AI Across Your Microsoft Stack  →  https://software.strategy.com/webinar/independent-by-design-trusted-ai-across-your-microsoft-stack"
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs446ed391f4e7c376"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "Frequently Asked Questions",
+          "_metadata": {
+            "uid": "cs58fd0e9f6638e12a"
+          },
+          "section_id": "frequently-asked-questions"
+        }
+      },
+      {
+        "accordion": {
+          "accordion_item": [
+            {
+              "title": "What happened with the Microsoft–Databricks connector in April 2026?",
+              "_metadata": {
+                "uid": "cs1cc13623992f8a67"
+              },
+              "content": {
+                "type": "doc",
+                "attrs": {},
+                "uid": "dcc06ff512d44cb08ed20a89673e1075",
+                "children": [
+                  {
+                    "type": "p",
+                    "attrs": {},
+                    "uid": "76074a7156474cb1a7c0eb4168aa98f7",
+                    "children": [
+                      {
+                        "text": "On April 17, 2026, Microsoft removed BI compatibility mode from its Power BI–Azure Databricks connector. This mode allowed Power BI to query Databricks Metric Views by having Databricks rewrite queries on the fly. When Microsoft removed it, every report built on Metric Views broke. No in-connector fix was offered, so Databricks recommended migrating to its own AI/BI dashboards."
+                      }
+                    ]
+                  }
+                ],
+                "_version": 1
+              }
+            },
+            {
+              "title": "Why weren't Strategy Mosaic customers affected?",
+              "_metadata": {
+                "uid": "cs4746332845ab96f1"
+              },
+              "content": {
+                "type": "doc",
+                "attrs": {},
+                "uid": "87dc3180bd42497b9cc98fa952574dbb",
+                "children": [
+                  {
+                    "type": "p",
+                    "attrs": {},
+                    "uid": "0edd499bdb0e4d93b38cd9c1de331908",
+                    "children": [
+                      {
+                        "text": "Mosaic connects to Power BI as an SSAS-compatible server, a decades-old, open Microsoft standard, rather than through the proprietary BI compatibility mode that Microsoft removed. Mosaic's connection never depended on a private agreement between two competing vendors, so there was nothing to break."
+                      }
+                    ]
+                  }
+                ],
+                "_version": 1
+              }
+            },
+            {
+              "title": "Isn't Databricks Unity Catalog also \"open\"?",
+              "_metadata": {
+                "uid": "cs1da8df5736b6ae27"
+              },
+              "content": {
+                "type": "doc",
+                "attrs": {},
+                "uid": "27fae0b774394e14b1acc12f69ff778b",
+                "children": [
+                  {
+                    "type": "p",
+                    "attrs": {},
+                    "uid": "c46011cad6774589b790651f18bf267b",
+                    "children": [
+                      {
+                        "text": "Databricks uses the language of openness, but architecture matters. Unity Catalog is accessible via SQL, APIs, and MCP — but it's Databricks' semantic layer, designed to make Databricks the center of gravity. \"Open\" in that context means \"open\" into Databricks. Mosaic, by contrast, is independent of every platform. It serves Databricks, Microsoft, Snowflake, and others without belonging to any of them."
+                      }
+                    ]
+                  }
+                ],
+                "_version": 1
+              }
+            },
+            {
+              "title": "Does using Mosaic require migrating our data?",
+              "_metadata": {
+                "uid": "csc03315e8583ed112"
+              },
+              "content": {
+                "type": "doc",
+                "attrs": {},
+                "uid": "7619ddfcdd6841059cc462e63f47c89f",
+                "children": [
+                  {
+                    "type": "p",
+                    "attrs": {},
+                    "uid": "80fc15795ea54a0e9546b017d38e15cf",
+                    "children": [
+                      {
+                        "text": "No. Your data stays exactly where it is. Mosaic runs on Azure and connects to your existing data platforms: Databricks, Microsoft Fabric, Snowflake, BigQuery, and more, without any migration required."
+                      }
+                    ]
+                  }
+                ],
+                "_version": 1
+              }
+            },
+            {
+              "title": "What does Gartner say about semantic layers?",
+              "_metadata": {
+                "uid": "cs94c964335d9b947b"
+              },
+              "content": {
+                "type": "doc",
+                "attrs": {},
+                "uid": "a208e0eb91b14b52a87d4fc53b03e2af",
+                "children": [
+                  {
+                    "type": "p",
+                    "attrs": {},
+                    "uid": "88ebb21ac0c543748eaf404291d3fe0f",
+                    "children": [
+                      {
+                        "text": "Gartner has stated that by 2030, universal semantic layers will be treated as critical infrastructure alongside data platforms and cybersecurity. They describe developing a universal semantic layer as a \"must-do\" for data and analytics leaders supporting AI initiatives."
+                      }
+                    ]
+                  }
+                ],
+                "_version": 1
+              }
+            },
+            {
+              "title": "What tools does Mosaic connect to?",
+              "_metadata": {
+                "uid": "csde1ffe335f4aa75b"
+              },
+              "content": {
+                "type": "doc",
+                "attrs": {},
+                "uid": "92aa5743fdd94ee6985279e0ef7c6e66",
+                "children": [
+                  {
+                    "type": "p",
+                    "attrs": {},
+                    "uid": "985b9bca56754bbeb8d0fdbd69ac1915",
+                    "children": [
+                      {
+                        "text": "Mosaic connects to a broad range of AI and BI systems including Power BI, Tableau, Excel, Google Sheets, Copilot, Claude, ChatGPT/GPT-4, Gemini, internal LLMs, and AI agents. On the data platform side, it connects to Snowflake, Databricks, Microsoft Fabric, BigQuery, S3/Data Lake, PostgreSQL, and more."
+                      }
+                    ]
+                  }
+                ],
+                "_version": 1
+              }
+            }
+          ],
+          "_metadata": {
+            "uid": "csc4f6bb28af4a5635"
+          },
+          "accordion_options": "closed"
+        }
+      }
+    ],
+    "cta_section": [],
+    "related_posts": [],
+    "seo": {
+      "meta_title": "Independent by Design: Trusted AI Across Your Microsoft Stack",
+      "meta_description": "Discover why semantic layer independence protects your Microsoft stack. Strategy Mosaic governs metrics across Databricks, Snowflake, and Power BI.",
+      "keywords": "semantic layer independence, enterprise semantic layer, vendor-neutral semantic layer, trusted AI analytics, Microsoft stack analytics",
+      "social_thumbnail_override": null,
+      "enable_search_indexing": true
+    },
+    "page_properties": {
+      "navigation_title": "",
+      "header_color": null,
+      "hide_header_nav": false,
+      "hide_header_cta": false,
+      "hide_footer": false,
+      "disable_global_promo_banner": false,
+      "hide_auto_expert": false,
+      "sfid": "",
+      "marketo_id": "",
+      "cta_section": []
+    },
+    "resource_data": {
+      "date": "2026-07-09",
+      "type": "Blog",
+      "title": "Independent by Design: Trusted AI Across Your Microsoft Stack",
+      "description": "Discover why semantic layer independence protects your Microsoft stack. Strategy Mosaic governs metrics across Databricks, Snowflake, and Power BI.",
+      "featured": false
+    },
+    "tags": [],
+    "publish_date": "2026-07-09",
+    "author": [
+      {
+        "uid": "blt2bede74a3b8ca3df",
+        "_content_type_uid": "blog_author"
+      }
+    ],
+    "taxonomies": [
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "product_updates"
+      },
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "mosaic"
+      },
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "semantic_layer"
+      },
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "ai_trends"
+      },
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "analytics"
+      },
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "business_intelligence"
+      }
+    ]
+  },
+  "_mapping_warnings": [
+    "The subtitle 'Webinar Recap | July 7, 2026 | Presented by Joe Bunnis, VP Technical Evangelist, Strategy' was treated as a subtitle, not a byline. Author name extracted from presenter attribution.",
+    "The 'Ready to See How Mosaic Fits Your Stack?' section contains three bullet points with links; only the webinar link was captured as the primary CTA buttonUrl. The Mosaic product link (https://software.strategy.com/strategymosaic) was also noted. The blog post link for Joe Bullis's post 'Why Power BI Semantic Models Fall Short in an AI-Driven Data Stack' has no URL in the document — flagged for human review.",
+    "Caption text for image_0.png was found as a [P][I] paragraph immediately following the image and was mapped as a blockquote for readability. Human review may wish to convert it to an image altText or caption field.",
+    "The numbered list items under 'Joe closed the session with three clear conclusions' each had a nested bullet sub-item. These sub-items were merged into their parent numbered list item text since the schema does not support nested list structures.",
+    "No heroMedia image was found; heroMedia set to null.",
+    "Restored ~15 lines/paragraphs the parser had dropped (not just headings): the April 12/17, June 16, July 2026 timeline items, two section-heading lines (bold, untagged as H2 in source), two vendor quote labels (Microsoft/Databricks), and two body paragraphs about Unity Catalog/Mosaic positioning. Restructured the single flat body section into 7 H2 sections using the doc's own heading-style lines verbatim (no invented headings). Root cause: source doc has no Word Heading-2 styles at all, and several standalone lines were silently dropped by the Claude parse call rather than preserved as bold paragraphs or headings — worth investigating as a parser bug for future docs formatted this way.",
+    "Image block missing assetUid — source: image_0.png",
+    "Image block missing assetUid — source: image_1.png",
+    "Image block missing assetUid — source: image_2.png",
+    "Image block missing assetUid — source: image_3.png",
+    "Image block missing assetUid — source: image_4.png",
+    "CTA 1 ('Ready to See How Mosaic Fits Your Stack?') — placeholder text block inserted before FAQ. Create a Promo entry in CS using the extracted headline and button text, then replace the placeholder with the Promo block and move it to the correct position."
+  ]
+}

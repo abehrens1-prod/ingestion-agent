@@ -1,0 +1,1396 @@
+{
+  "entry": {
+    "title": "v1 -- AI as a Consumption Layer, Not Another BI Feature",
+    "url": "/blog/ai-as-a-consumption-layer-not-another-bi-feature",
+    "lead_paragraph": {
+      "type": "doc",
+      "attrs": {},
+      "uid": "7b5cecac27f645c6b4e1dedbd5b52281",
+      "children": [
+        {
+          "text": ""
+        }
+      ],
+      "_version": 1
+    },
+    "content": [
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "60c0645925c8489195f1ab11ab79f33b",
+            "children": [
+              {
+                "type": "h3",
+                "uid": "df9d1ad389314e0a9e98ab3b5d283ace",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Quick Answer",
+                    "attrs": {
+                      "style": {
+                        "color": "rgb(26, 78, 159)"
+                      }
+                    },
+                    "bold": true,
+                    "font-color": "#fa660f"
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "uid": "6ad84cabeef34244af11cb09bf636138",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "li",
+                    "uid": "dc4af9bbd3ea4386883cabba260b656e",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "a691464b06a44070b97b2db72d6a76ba",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "AI is becoming a central consumption layer for analytics.",
+                            "bold": true
+                          },
+                          {
+                            "text": " Users can now ask questions through BI tools, AI agents, applications, and workflows instead of relying on a single visualization interface."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "4a70b51cf5774068bf48dbeaa578bdf2",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "16f83396ac5a44d9b5a33b71c8c72e91",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "AI shouldn't create the business logic behind its answers.",
+                            "bold": true
+                          },
+                          {
+                            "text": " Definitions, metrics, relationships, access rules, and query paths need to remain governed outside the LLM."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "04041bff3b3045ebbbbadfa2766421ac",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "5a1ed988eb8f49f0a5fdc8d248bfc31e",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "A universal semantic layer provides a shared foundation.",
+                            "bold": true
+                          },
+                          {
+                            "text": " It keeps business context consistent across interfaces and applies the same logic wherever the question originates."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs107a14eaf2984783"
+          }
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "4d4a3ca4d4034aacbd93d13204bdd441",
+            "children": [
+              {
+                "type": "p",
+                "uid": "4167abe693694f3a939a233fade30e14",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "AI inside business intelligence isn't a foreign concept. Not in 2026. For many enterprises, it's one of the most visible ways AI has entered analytics. BI platforms were already combining dashboards, metrics, and user workflows, so adding a conversational interface should theoretically make those systems easier to use."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "720dd2fa29834add9bdef544903fef90",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "But that theory hinges on one crucial question: "
+                  },
+                  {
+                    "text": "Does AI consume data while retaining context?",
+                    "italic": true
+                  },
+                  {
+                    "text": " More specifically, "
+                  },
+                  {
+                    "text": "does that context remain consistent wherever AI is used?",
+                    "italic": true
+                  },
+                  {
+                    "text": " The moment analytical questions move into AI interfaces, accuracy depends on the business context the AI has access to."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "2bde5bae2d7b45a781ab3a9048c31a39",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Because here's the truth: AI can interpret the question. It can't unify the underlying business logic that determines how that context should be applied."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs8563768bd4dadefc"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "AI didn't create BI fragmentation. It exposed it.",
+          "_metadata": {
+            "uid": "cs09cefb0f851fbf01"
+          },
+          "section_id": "ai-didn-t-create-bi-fragmentation-it-exposed-it"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "c8563566d3bc46faa58ae52d5a2b0f21",
+            "children": [
+              {
+                "type": "p",
+                "uid": "1c44eb37effb4f68aee8ba253ce70c44",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "This isn't a modern problem. In many enterprise BI environments, business logic was often written directly inside visualization tools such as BI platforms. Definitions, hierarchies, calculations, and metadata were tied to that single location."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "27f390fb4fbc41b1b13156dff772908e",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "But as data needs grew, so did the number of visualization tools. One organization might use one BI platform for Sales, another for Marketing, and a third for Finance. When enterprises added more tools, the tool-specific business logic kept fragmenting."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "csbf181164e65d036f"
+          }
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "efd9abaf0d994334ba4f1ef2c478fc69",
+            "children": [
+              {
+                "type": "p",
+                "uid": "5ed173849ebf44a88f1b42b2a505fc42",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "[IMAGE PLACEHOLDER]",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "abdbe8c39d8045ddb38b5e59e9207243",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Upload asset to Contentstack and replace this placeholder — source: image_0.png"
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs3b5e9c2772367fee"
+          }
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "a613eae8fde845a598642ba1dd9d2713",
+            "children": [
+              {
+                "type": "p",
+                "uid": "1d776f5867524b659570b2037fb96087",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The result? Sales searched for a metric and got one result. Marketing got another, and trust in the data kept eroding with every conflicting answer."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "150a93a239de4d31820957e02d0f20ff",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Adding AI on top of this fragmented architecture doesn't solve the underlying problem. It exposes an ecosystem that was never designed to deliver governed business context in the first place."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "csb5b2f5a9113f5a66"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "Why AI is becoming the consumption layer",
+          "_metadata": {
+            "uid": "cs6e366500a1a66f98"
+          },
+          "section_id": "why-ai-is-becoming-the-consumption-layer"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "ce11bc161be24493b14b42693880eac8",
+            "children": [
+              {
+                "type": "p",
+                "uid": "2e1d97c4b60148f887f5b53091a6f221",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "BI remains one of the most important places to consume analytics. But it's no longer the only destination for business questions."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "88a8070528a14df0a065788eeda93178",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "That's because modern enterprises don't rely on a single, tool-specific architecture. They possess complex data stacks with multiple warehouses, data sources, and visualization tools, along with new AI interfaces. AI gives users a conversational way to navigate that ecosystem without moving manually between every underlying tool."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "427a0797c3f5498d98afa4a1c4c9973b",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "AI is becoming a central consumption layer where users come to access analytics, ask questions, and interpret results. That accessibility broadens who can ask questions, from executives and managers to analysts and non-technical users."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "bdde70f62c6c4c14ae3c4066cf91d768",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "There are three factors that make AI such an attractive consumption layer:"
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "uid": "79a09daa33a24f1bab9ea6d5dd58ca8c",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "li",
+                    "uid": "bcfca2cf55834ef3bc62650cd12b6409",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "896217b6a6bd42b2ae86d458241a099d",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Shorter path to analysis: AI interfaces let users move from a question to an answer without navigating several reports or writing the query themselves."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "fdf5a259c8d643febbe13ded246fd736",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "27e0f7391e624d60b361f2adc5751012",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Ease of entry: Enterprise teams can ask specific questions like \"Why did revenue drop in Q3?\" and receive an answer without deep technical knowledge."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "73b43ead6fdb4751a103931fbf93594a",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "2cdd68518e9d4443ab0f03da78178383",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Governed visibility: When connected to governed business logic and access controls, AI responses can reflect user roles and data-sensitivity policies."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "280ed8e07c5e468a93472fee90cf7e18",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "But these benefits come with a major caveat.",
+                    "italic": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "bd1152331f504898b2f248bef1b819a3",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "For AI to function as a universal consumption layer, equivalent questions need to follow the same governed business logic across the enterprise. That means consuming data from the underlying sources while applying the right context to each answer. But this is where that crucial question matters: "
+                  },
+                  {
+                    "text": "Does AI consume data while retaining context?",
+                    "italic": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "f5a37df7ac114eef8d83b0d6e50b51c9",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "If AI acts as a consumption layer, the logic behind its output must remain consistent across data sources, BI tools, and the entire enterprise stack. Without that shared business logic, the same question can result in a different answer."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs8a0cd121d4a55d1f"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "AI can consume business logic. It shouldn't create it.",
+          "_metadata": {
+            "uid": "cs121c1b48e91ac2f6"
+          },
+          "section_id": "ai-can-consume-business-logic-it-shouldn-t-create-it"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "dee456a989d248ca980c8f6cb09f31a8",
+            "children": [
+              {
+                "type": "p",
+                "uid": "0192ecdc839a46ce8f16c275fe89fdea",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Natural language makes analytics easier to consume. It doesn't make AI the owner of business context."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "e7239ef7446d4ac4a67bfe9d4defe9dd",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "AI can certainly interpret a user's question, but it shouldn't decide "
+                  },
+                  {
+                    "text": "which",
+                    "italic": true
+                  },
+                  {
+                    "text": " revenue definition applies, "
+                  },
+                  {
+                    "text": "which",
+                    "italic": true
+                  },
+                  {
+                    "text": " tables to query or join paths to follow, or "
+                  },
+                  {
+                    "text": "which",
+                    "italic": true
+                  },
+                  {
+                    "text": " records the user is allowed to access."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "58ac6408a09842a4b81cd93d44866690",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Consider this example:",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "cf225ded64484004a93949285f2fd0cb",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Three AI interfaces. A BI assistant, a finance agent, and a planning application are answering the same question: \"What was our regional revenue for Q2?\" All three may understand the words. But if each interface draws business logic from a different BI tool, the definitions, metrics, access rules, and query paths may vary. As a result, the interfaces may return different answers."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "5925a1d4a3a34116992392217d50b5bc",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The same problem appears with text-to-SQL. A query can execute successfully and still answer the wrong business question. The model may select a technically valid table, join, or filter without understanding the business rule that should govern the request."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "1f249f10d9604f23900da07187de6967",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "For AI to succeed as a universal consumption layer, it can't depend on business logic being recreated every time someone asks a question."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs719a70a453d0e9cd"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "Consumption, context, and execution are different responsibilities",
+          "_metadata": {
+            "uid": "cs1bfb299787d1b215"
+          },
+          "section_id": "consumption-context-and-execution-are-different-responsibilities"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "41aa747a2a9443a292e87af429bc3c35",
+            "children": [
+              {
+                "type": "p",
+                "uid": "1ea820e412354190a86c7c5e20a3abae",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "According to CIO Dive research, 87% of senior data leaders demand complete visibility into how AI consumes enterprise data. "
+                  },
+                  {
+                    "type": "a",
+                    "uid": "e5fcf457009a4518ac2a221ecacf1456",
+                    "attrs": {
+                      "url": "https://software.strategy.com/research-and-reports/data-ai-analytics-trends-across-organizations-in-2026",
+                      "target": "_blank"
+                    },
+                    "children": [
+                      {
+                        "text": "Here's the full study →"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "9f6b21678ae94c5993da3b0729ccd84f",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "A reliable enterprise AI architecture separates three responsibilities that BI-native AI often combines: consumption, context, and execution."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs4812fdaca40d5a20"
+          }
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "3a3971ae12964edaa9c9afac8c2badeb",
+            "children": [
+              {
+                "type": "h4",
+                "uid": "18ad8d7402574f3db3e671fba8954b0e",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "",
+                    "font-color": "#fa660f"
+                  }
+                ]
+              },
+              {
+                "type": "h4",
+                "uid": "269c17244c7f4a1c8efc777770e2287f",
+                "attrs": {},
+                "children": [
+                  {
+                    "font-color": "#fa660f",
+                    "text": "Consumption handles the first interaction"
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "ed69134570dc42f383f1fe3d6e3d63fe",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Consumption is where the question enters the system and where the answer appears. Natural-language requests, conversation history, summaries, explanations, and follow-up questions belong here. The experience can vary by user, model, application, and workflow."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "46415b7c205a4343b56f9f82a076be7e",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "That flexibility is useful because:"
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "uid": "e9e69874b5ba40c7aa18e456fb7eb822",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "li",
+                    "uid": "b4e34d6ddba14ce0a396c208a273b741",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "6d5975fe31684077a449e25bd58c1fa7",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "An executive may ask through a BI assistant."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "f7a67ccd7511463ca1393b2e709a75e1",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "d634f52e85af47df94e9589ffa13c1e4",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "A finance team may work through a productivity app."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "805e56f636d7498d96a739ecccc6f909",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "b0d1562accf74af78cb37de84e4421ce",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "An AI agent may request the same information from inside a workflow."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "20a23f56f4c145ff96e6222365f71c8a",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The interfaces can be different without creating different versions of the business."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs721df56963d0f691"
+          }
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "e338000e24f040cca853d59541b2fb13",
+            "children": [
+              {
+                "type": "h4",
+                "uid": "788d8ac6c8714dd4bbcf363e9d22558d",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "",
+                    "font-color": "#fa660f"
+                  }
+                ]
+              },
+              {
+                "type": "h4",
+                "uid": "ea418f9ea3fd447282ef271d75169a6c",
+                "attrs": {},
+                "children": [
+                  {
+                    "font-color": "#fa660f",
+                    "text": "Context governs what the enterprise means"
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "3599c6084d0d49f9b2f99970061392e6",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Context defines the meaning behind the question."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "80704a2b7b1a4b328833e046f580b760",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "It includes metrics, relationships, hierarchies, calculations, aliases, access policies, and business rules. It tells AI what the enterprise means by Revenue, Customer, Inventory, Account, or any other business concept."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "cbcc7b9548f14a54a2d53953691446a1",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "That context should be defined once and reused across every AI interface. Otherwise, it'll reconstruct meaning from raw schemas, prompts, scattered metadata, or tool-specific semantic logic."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs6abc6baf0b23e0a6"
+          }
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "542faa89cd314c9bb844665e74280dc2",
+            "children": [
+              {
+                "type": "h4",
+                "uid": "a62cc014c5b04694bcfb145abda3e184",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "",
+                    "font-color": "#fa660f"
+                  }
+                ]
+              },
+              {
+                "type": "h4",
+                "uid": "28641f80c45244ffa4133fbcf43fcc2f",
+                "attrs": {},
+                "children": [
+                  {
+                    "font-color": "#fa660f",
+                    "text": "Execution applies the rules"
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "56a4de1e81fb42c2841eb9a71f94aedf",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Execution converts the governed request into a query against enterprise data. This is where repeatability matters. An LLM is useful for interpreting natural language, but business rules that require a consistent answer shouldn't be probabilistically regenerated for every request."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "bf764c5452804ed89d19fb054d2f9bdd",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "If the LLM owns both the interpretation and the SQL, variation can enter before the query reaches the database. The same question can follow a different query path across models or runs."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "5323b610fe0b4c8a88da63e49e25c268",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "In short: "
+                  },
+                  {
+                    "text": "The consumption experience can remain flexible. The context must remain governed. The execution must remain deterministic.",
+                    "bold": true
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs8185b4be71d071a0"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "Why AI needs a universal semantic layer",
+          "_metadata": {
+            "uid": "cs83b51ef4eee90e83"
+          },
+          "section_id": "why-ai-needs-a-universal-semantic-layer"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "76d008ab1af6405d97b874370e28b56a",
+            "children": [
+              {
+                "type": "p",
+                "uid": "bf76b433c12c46f986ec60e438989475",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Without shared semantics, mature ontologies, and connected knowledge, AI agents cannot reliably interpret business terms, resolve ambiguity, or reason across complex enterprise systems. "
+                  },
+                  {
+                    "type": "a",
+                    "uid": "23228625a38e45bd9e16f094ce5f6479",
+                    "attrs": {
+                      "url": "https://software.strategy.com/research-and-reports/combine-semantics-ontology-and-knowledge-graphs-for-ai-ready-data",
+                      "target": "_blank"
+                    },
+                    "children": [
+                      {
+                        "text": "Forrester's 2026 Report"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " puts it plainly: Agentic AI needs more than access to enterprise data. It needs a shared conceptual map of the business."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "74b2875db6e540cd9ee63b5cacaa0572",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "An AI semantic layer resolves that by ensuring business meaning is governed, reusable, and operational across every AI system and operations tool."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "70c3a6e332c843bfa4629e848ac73daa",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "It sits beneath the consumption layer "
+                  },
+                  {
+                    "text": "(in this case, AI)",
+                    "italic": true
+                  },
+                  {
+                    "text": " and above the complexity of individual data platforms. BI tools, AI agents, and workflows can remain different while the business context they use stays consistent. "
+                  },
+                  {
+                    "type": "a",
+                    "uid": "ed03e119fa93467ab6db90ae627eced9",
+                    "attrs": {
+                      "url": "https://software.strategy.com/blog/what-problems-does-a-universal-semantic-layer-solve-for-enterprise-ai",
+                      "target": "_blank"
+                    },
+                    "children": [
+                      {
+                        "text": "Here's how it solves the biggest data challenges →"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "9187f9d3084047a99e2fe0dd176534f9",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The universal semantic layer is also where enterprise AI governance moves from policy into the query path."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "696a72b4369d476f8fdace7b1b13eb33",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Documentation can record a definition. The layer applies it when a question is answered. It connects the user's request to the approved business logic, delivering governed, reusable context that each interface can apply consistently."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs8b17955ff0a8e4ca"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "Where Strategy Mosaic fits",
+          "_metadata": {
+            "uid": "csdb5a45e954dec102"
+          },
+          "section_id": "where-strategy-mosaic-fits"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "799c4f0949164326a0edae9d70b72ea5",
+            "children": [
+              {
+                "type": "p",
+                "uid": "52cf50de826f428e86bb806c3786e053",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Once AI becomes a shared consumption layer, the enterprise needs "
+                  },
+                  {
+                    "type": "a",
+                    "uid": "89a76c7a162d4744ab1eb0209e6a365a",
+                    "attrs": {
+                      "url": "https://software.strategy.com/blog/why-is-a-semantic-layer-essential-for-enterprise-infrastructure",
+                      "target": "_blank"
+                    },
+                    "children": [
+                      {
+                        "text": "an independent control plane"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " to govern what the business means and how that meaning becomes a query."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "d08f0b4d4f324639aa6f67da26979be7",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Strategy Mosaic",
+                    "bold": true
+                  },
+                  {
+                    "text": " provides that foundation by separating the AI experience from the business logic and query execution beneath it."
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "uid": "2f582dff73fa4d64a6344a509a9bf162",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "li",
+                    "uid": "493e79d17b56469e81a8eac5abf2d070",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "2246e539b342461a95d40ed9a12376a1",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Flexible consumption: BI tools, AI agents, applications, and other interfaces can access the same governed logic without creating separate versions of the business."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "f8cd4cabfd9b43d7b4bd34048d9e2519",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "550cf6b9b332424cb577b2086498a2ed",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Governed context: Mosaic centralizes definitions, metrics, relationships, and rules, instead of forcing each interface to reconstruct meaning from schemas and prompts."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "2aa48db5b149459c9c64c030121f4020",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "33d37575d5c74005b5545625f6032af2",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Deterministic execution: AI handles natural-language interaction. Mosaic generates the query through a deterministic SQL engine, keeping business logic outside the probabilistic LLM path."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "fa60c53d834b406285847dab98920320",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "4d267cac20f84c37b870b1d4012e49e6",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Reusable architecture: New models and interfaces can be introduced without rebuilding the same metrics, policies, and semantic logic inside each one."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "70ee99e807344596a611d3fc7e3feef7",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The division becomes clear: AI handles consumption, Mosaic governs context, and its SQL engine controls execution."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "csf8e6f62c157d3d59"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "AI should expand consumption, not fragment meaning",
+          "_metadata": {
+            "uid": "csb71c923b996083ba"
+          },
+          "section_id": "ai-should-expand-consumption-not-fragment-meaning"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "dc99cf41613a4d908453f1e8ea0b3c97",
+            "children": [
+              {
+                "type": "p",
+                "uid": "95faa5701edf47bab67f9d51a20253aa",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "AI isn't a BI feature anymore. It's fast becoming the main consumption point for analytics."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "ae3a792d68b14d84a9d8492f826b9f6c",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "But for AI to stay governed and scalable, it needs reliable context. An enterprise architecture spread across multiple BI tools can struggle to provide one centralized source of business logic to govern that context consistently."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "253952d82fcc47ab89b18d1961b4c88f",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "That requires a universal semantic layer that keeps business logic independent of any single BI tool. Even as AI consumption changes, the underlying data behind its answers remains consistent."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "022e8bff1a554fa6a94dd2a7aa08fa0d",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "For enterprises aiming to scale AI, the goal isn't simply to add it as a feature inside BI. It's to give every visualization tool access to the same governed business meaning."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs34801e744a24cb80"
+          }
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "e4bdf441061d4f3499d3916cbf0dec28",
+            "children": [
+              {
+                "type": "p",
+                "uid": "f678bccce7744cd1b3102cad37dec7e6",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "[ PROMO PLACEHOLDER — Replace with Promo block in Contentstack editor ]"
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "2f3893cddd034ae29ac4d5c0a392f2f1",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "CTA: \"Discover how Strategy Mosaic centralizes governed business context and applies it through deterministic query generation across AI and analytics experiences.\""
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "25ec75ded15347c3bb916bb22ec3e6d4",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Button: Explore Strategy Mosaic"
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "csc5894db404591bdb"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "Frequently Asked Questions",
+          "_metadata": {
+            "uid": "cs713393975bd204b2"
+          },
+          "section_id": "frequently-asked-questions"
+        }
+      },
+      {
+        "accordion": {
+          "accordion_item": [
+            {
+              "title": "Does an AI consumption layer replace BI?",
+              "_metadata": {
+                "uid": "cscdba2c224156b92e"
+              },
+              "content": {
+                "type": "doc",
+                "attrs": {},
+                "uid": "f0650128100d405fb76a8713a416a4dc",
+                "children": [
+                  {
+                    "type": "p",
+                    "attrs": {},
+                    "uid": "4572e9a4820948d3b7317535485c02b3",
+                    "children": [
+                      {
+                        "text": "No. BI remains a core environment for visualizing and analyzing data. An AI consumption layer expands how users access analytics, so governed business context must support BI alongside AI agents, applications, and workflows."
+                      }
+                    ]
+                  }
+                ],
+                "_version": 1
+              }
+            },
+            {
+              "title": "Can one semantic layer support multiple visualization tools and AI interfaces?",
+              "_metadata": {
+                "uid": "cs9f27fbfa1c288bd2"
+              },
+              "content": {
+                "type": "doc",
+                "attrs": {},
+                "uid": "874d60baa3a24bb09275124bd6e9f34e",
+                "children": [
+                  {
+                    "type": "p",
+                    "attrs": {},
+                    "uid": "045ee276495a40edaeed79e02a25f7f7",
+                    "children": [
+                      {
+                        "text": "Yes. A universal semantic layer can expose shared definitions, metrics, relationships, and policies to multiple tools without requiring them to use the same front end or visualization experience."
+                      }
+                    ]
+                  }
+                ],
+                "_version": 1
+              }
+            },
+            {
+              "title": "Where should access policies be enforced when AI queries enterprise data?",
+              "_metadata": {
+                "uid": "cs68377dc785d6fef8"
+              },
+              "content": {
+                "type": "doc",
+                "attrs": {},
+                "uid": "4efa12f76ed84244bf9acb4442033140",
+                "children": [
+                  {
+                    "type": "p",
+                    "attrs": {},
+                    "uid": "13d30579d99b49e28c7db24b07a28899",
+                    "children": [
+                      {
+                        "text": "Access policies should be enforced through governed semantic and data layers, not recreated inside each prompt or interface. AI can then return data according to the user's authorized level of access."
+                      }
+                    ]
+                  }
+                ],
+                "_version": 1
+              }
+            }
+          ],
+          "_metadata": {
+            "uid": "cse36d6eb2741cd56f"
+          },
+          "accordion_options": "closed"
+        }
+      }
+    ],
+    "cta_section": [],
+    "related_posts": [],
+    "seo": {
+      "meta_title": "AI as a Consumption Layer, Not Another BI Feature",
+      "meta_description": "AI is now a consumption layer for analytics. Learn why governed metrics and a semantic layer must sit outside the LLM to keep answers consistent.",
+      "keywords": "AI consumption layer analytics, semantic layer for AI, enterprise BI governance, governed metrics for AI, universal semantic layer",
+      "social_thumbnail_override": null,
+      "enable_search_indexing": true
+    },
+    "page_properties": {
+      "navigation_title": "",
+      "header_color": null,
+      "hide_header_nav": false,
+      "hide_header_cta": false,
+      "hide_footer": false,
+      "disable_global_promo_banner": false,
+      "hide_auto_expert": false,
+      "sfid": "",
+      "marketo_id": "",
+      "cta_section": []
+    },
+    "resource_data": {
+      "date": "2026-07-28T00:00:00.000Z",
+      "type": "Blog",
+      "title": "AI as a Consumption Layer, Not Another BI Feature",
+      "description": "AI is now a consumption layer for analytics. Learn why governed metrics and a semantic layer must sit outside the LLM to keep answers consistent.",
+      "featured": false
+    },
+    "tags": [],
+    "publish_date": "2026-07-28T00:00:00.000Z",
+    "taxonomies": [
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "semantic_layer"
+      },
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "analytics"
+      },
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "business_intelligence"
+      }
+    ]
+  },
+  "_mapping_warnings": [
+    "No author name or publish date found in the document.",
+    "The Quick Answer table contained a single merged prose block rather than discrete bullets; it was split into three logical items corresponding to the three distinct statements in the text.",
+    "The 'Where Strategy Mosaic fits' H2 heading contained bold markers around individual letters suggesting partial bold formatting artifacts in the source — rendered as plain heading text.",
+    "The body paragraph in 'Where Strategy Mosaic fits' contains a duplicated phrase in the source document — the duplicate was removed, retaining only the first occurrence.",
+    "The CTA table at the end of the article has no explicit button URL — buttonUrl left empty.",
+    "The embedded image has no alt text or source URL available; mapped as image_0.png with empty fields.",
+    "Internal links use the software.strategy.com domain — full https URLs also included in externalLinks since the domain resolves externally.",
+    "List items with bold labels were included as plain strings in the list items array; inline bold formatting within list items is not supported by the output schema list block type.",
+    "publishDate was not found in the document — defaulted to tomorrow (2026-07-28T00:00:00.000Z). Confirm before publishing.",
+    "Image block missing assetUid — source: image_0.png",
+    "Author 'Tanmay' has no UID in config.yaml authors lookup. Add their Contentstack UID to config.yaml → contentstack.authors to generate a valid reference.",
+    "Suggested taxonomy terms with no configured match: Enterprise AI, Data Governance. Add them to contentstack.taxonomy_terms in config.yaml (with UID from Contentstack) if relevant, or apply manually in the CS editor.",
+    "CTA 1 ('Discover how Strategy Mosaic centralizes governed business context and applies it through deterministic query generation across AI and analytics experiences.') — placeholder text block inserted before FAQ. Create a Promo entry in CS using the extracted headline and button text, then replace the placeholder with the Promo block and move it to the correct position."
+  ]
+}

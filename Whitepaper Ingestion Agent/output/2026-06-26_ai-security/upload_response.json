@@ -1,0 +1,2877 @@
+{
+  "notice": "Entry created successfully.",
+  "entry": {
+    "title": "v1 | AI Security",
+    "url": "/software/ai-security",
+    "content_blocks": [
+      {
+        "section": {
+          "section_id": "hero",
+          "_metadata": {
+            "uid": "cs1a4bd0ad4f0569ba"
+          },
+          "section_header": [
+            {
+              "text": {
+                "text_content": {
+                  "type": "doc",
+                  "uid": "1cf9e9b262b84f19af27e3b9ac440529",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "h1",
+                      "uid": "8f7024ed7a4e42d5b20cc72be1757f34",
+                      "attrs": {
+                        "style": {
+                          "text-align": "center"
+                        },
+                        "redactor-attributes": {}
+                      },
+                      "children": [
+                        {
+                          "text": "AI Security",
+                          "attrs": {
+                            "style": {
+                              "color": "rgb(0, 0, 0)"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "h3",
+                      "uid": "3fba3c7f435f43709da4ccd0dc54b263",
+                      "attrs": {
+                        "style": {
+                          "text-align": "center"
+                        },
+                        "redactor-attributes": {}
+                      },
+                      "children": [
+                        {
+                          "text": "Explore practical steps to ensure data integrity and ethical AI implementations",
+                          "attrs": {
+                            "style": {
+                              "color": "rgb(250, 102, 15)"
+                            }
+                          },
+                          "font-color": "#fa660f"
+                        },
+                        {
+                          "text": " ",
+                          "attrs": {
+                            "style": {
+                              "color": "rgb(250, 102, 15)"
+                            }
+                          },
+                          "font-color": "#fa660f"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "p",
+                      "uid": "8ced50aac51644d4b3c06d52b72c3fc6",
+                      "attrs": {
+                        "style": {
+                          "text-align": "center"
+                        },
+                        "redactor-attributes": {}
+                      },
+                      "children": [
+                        {
+                          "text": "The effective deployment of artificial intelligence in business intelligence significantly depends on the integrity of the underlying data. Strategy AI is engineered to accurately interpret business questions in natural language, employ logical reasoning, and produce relevant results autonomously. Its reliability is anchored in Strategy's meticulous semantic layer and comprehensive security framework, ensuring consistent, accurate, and secure data processing.",
+                          "attrs": {
+                            "style": {
+                              "color": "rgb(85, 85, 85)"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "_version": 1
+                },
+                "_metadata": {
+                  "uid": "csd208af1a9a1d1abe"
+                }
+              }
+            }
+          ],
+          "limit_header_width": "75%",
+          "columns": [
+            {
+              "mod_column": {
+                "column_name": "The Brief",
+                "_metadata": {
+                  "uid": "cs553560516bfb6493"
+                },
+                "accent_box_options": [
+                  {
+                    "size": "Medium",
+                    "styles": [
+                      "Outlined"
+                    ],
+                    "outline_styles": [
+                      "outlineThin",
+                      "outlineColorOrange"
+                    ],
+                    "flag": "",
+                    "_metadata": {
+                      "uid": "cs0afc05942e13c8c4"
+                    },
+                    "align": null,
+                    "bg_color": "White",
+                    "bg_custom_color": "",
+                    "bg_image": null,
+                    "text_color": null,
+                    "add_link": []
+                  }
+                ],
+                "content": [
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "72865cb214604493ace9d9099d0ca654",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "h3",
+                            "uid": "8b919c63f9fb42149db4b986896d9506",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "The Brief",
+                                "font-color": "#000000"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "ul",
+                            "uid": "93e351bb3edf417cbc190e0915257d8f",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "type": "li",
+                                "uid": "26736807f40846268203dafba51f2f0c",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "e9e8584e4e494608be5ab3aed82674d2",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "Strategy AI uses Microsoft Azure OpenAI exclusively over TLS 1.2+ encrypted channels, ensuring all data is protected in transit.",
+                                        "bold": true
+                                      },
+                                      {
+                                        "text": " Each customer who enables AI operates in a separate tenant environment that connects to Strategy AI Management Services. Data sent to Azure OpenAI is configured so it is never retained or used for model training."
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "li",
+                                "uid": "e40d7c7d1be2446ba2d9fe0806cd8d20",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "983856cd006d45fc9edd8944ac701290",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "Strategy AI holds certifications for GDPR, CCPA, SOC 2 Type 2, ISO 27001, HIPAA, and the EU-U.S. Data Privacy Framework.",
+                                        "bold": true
+                                      },
+                                      {
+                                        "text": " A dedicated internal compliance team ensures alignment with these standards across all jurisdictions where Strategy Cloud operates. The platform is also classified as a limited-risk AI system under the EU AI Act, with full transparency and quality management practices in place."
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "li",
+                                "uid": "9babf70c8adf417583c815c2a99c4c77",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "c08f7df26ae04d109fe50e404b9535a9",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "Historical chat data is stored with AES-256 bit encryption, capped at 50 questions per user, and never shared between users.",
+                                        "bold": true
+                                      },
+                                      {
+                                        "text": " All text content resides in the Strategy Metadata database within the customer's own tenant, while visualization data is stored in the Strategy Storage Service. Users retain full control, including the ability to manually delete past conversations and snapshots."
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 1
+                      },
+                      "_metadata": {
+                        "uid": "cs27f6db049f1fb2a5"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "columns_per_row": 1,
+          "column_alignment": "Center, Top",
+          "section_footer": [],
+          "limit_footer_width": null,
+          "more_column_options": {
+            "column_spacing": "Default",
+            "one_column_limit_width": "75%",
+            "two_column_split": null,
+            "reverse_column_order_mobile": false,
+            "accent_box_stretch": false
+          },
+          "more_section_options": {
+            "text_color": "Dark",
+            "padding": "Default",
+            "add_divider": [],
+            "bg_color": "White",
+            "bg_custom_color": "",
+            "bg_image": null,
+            "mobile_bg_image": null,
+            "parallax_bg": false,
+            "bg_video_id": ""
+          }
+        }
+      },
+      {
+        "section": {
+          "section_id": "introduction",
+          "_metadata": {
+            "uid": "csb0640fafd9074726"
+          },
+          "section_header": [],
+          "limit_header_width": null,
+          "columns": [
+            {
+              "mod_column": {
+                "column_name": "banner",
+                "_metadata": {
+                  "uid": "csa24a7824e9b6fe9e"
+                },
+                "accent_box_options": [],
+                "content": [
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "a5fe025aea7d4d39922ebbba1fd9e2f6",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "h2",
+                            "uid": "cfdb1789f0e44d2e9700c73fb6c260d7",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Introduction",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(0, 0, 0)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 1
+                      },
+                      "_metadata": {
+                        "uid": "cs045d1674fd8f0283"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  },
+                  {
+                    "divider": {
+                      "style": "thin",
+                      "spacing": "12",
+                      "custom_spacing": null,
+                      "_metadata": {
+                        "uid": "cs0063e11c92295e17"
+                      },
+                      "color": "colorOrange",
+                      "opacity": "1",
+                      "width": "100"
+                    }
+                  },
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "d2bbbd2d49ba477289fb275e0128cfa3",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "3ee93a4693c0424997c3a560573155e7",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "The effective deployment of artificial intelligence (AI) in business intelligence (BI) significantly depends on the integrity of the underlying data. For AI systems driving business decisions, accuracy isn't merely beneficial; it's imperative. These systems need to be trustworthy to be of genuine utility.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "7ca7e2718f1e4f86a2c02f87cc04a080",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Strategy stands out as a reliable pillar in this context, providing business users with data that is precise and secure. The introduction of Strategy AI reinforces this commitment, offering a platform where the rigor of BI meets the innovative capabilities of AI.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "69cdb45247d3489bb55eebf0ca3d7356",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Our AI solution is engineered to accurately interpret business questions presented in natural language, employ logical reasoning, and produce relevant results autonomously. This synthesis of BI's structured analysis and AI's adaptability ensures that Strategy AI meets the dual needs of data integrity and flexible user engagement.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "a197951a67404b9d889ec056df5bde9c",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Strategy AI is an evolution of our established platform, seamlessly integrating advanced AI and machine learning capabilities. It streamlines processes such as AI-driven data exploration, dashboard design automation, and the use of specialized tools like SQL generation and machine learning-enhanced visualization for data analysis. With these features, the platform facilitates more profound data insights within the familiar environment of the Strategy ecosystem.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "c681ad0d68f74ccc922d98834f094707",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "The reliability of Strategy AI is anchored in the meticulous design of Strategy's semantic layer and its comprehensive security framework. Auto, our AI assistant, exclusively relies on data from Strategy, with all analytics executed by our established analytical engine. This ensures consistent, accurate, and secure data processing and representation, allowing businesses to make informed decisions with confidence.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 1
+                      },
+                      "_metadata": {
+                        "uid": "csa63dc42e1874ee55"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "columns_per_row": 1,
+          "column_alignment": "Center, Top",
+          "section_footer": [],
+          "limit_footer_width": null,
+          "more_column_options": {
+            "column_spacing": "Default",
+            "one_column_limit_width": "75%",
+            "two_column_split": null,
+            "reverse_column_order_mobile": false,
+            "accent_box_stretch": false
+          },
+          "more_section_options": {
+            "text_color": "Dark",
+            "padding": "Short bottom only",
+            "add_divider": [],
+            "bg_color": "White",
+            "bg_custom_color": "",
+            "bg_image": null,
+            "mobile_bg_image": null,
+            "parallax_bg": false,
+            "bg_video_id": ""
+          }
+        }
+      },
+      {
+        "section": {
+          "section_id": "strategy-ai-environment-isolation",
+          "_metadata": {
+            "uid": "cs4e420cc29cb3c746"
+          },
+          "section_header": [],
+          "limit_header_width": null,
+          "columns": [
+            {
+              "mod_column": {
+                "column_name": "banner",
+                "_metadata": {
+                  "uid": "csd652b56cc2272dda"
+                },
+                "accent_box_options": [],
+                "content": [
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "9d89cca80afd432c847a478798e96bf0",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "h2",
+                            "uid": "a78006196946441dbf370e3c292da350",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Strategy AI Environment Isolation",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(0, 0, 0)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 1
+                      },
+                      "_metadata": {
+                        "uid": "cs7f64ea522fb2fd8d"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  },
+                  {
+                    "divider": {
+                      "style": "thin",
+                      "spacing": "12",
+                      "custom_spacing": null,
+                      "_metadata": {
+                        "uid": "csf1a4bb66039af8e6"
+                      },
+                      "color": "colorOrange",
+                      "opacity": "1",
+                      "width": "100"
+                    }
+                  },
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "dd76783bab1848d5b3cec08460098c3e",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "ecb70f50d4a0449c99d6864dfc0311bf",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "The core strength of an enterprise AI solution lies not only in its ability to process data and deliver insights, but also in its architecture's resilience to external threats. The Managed Cloud Enterprise (MCE) and Managed Cloud Government (MCG) are underpinned by an architectural design that places the utmost emphasis on environment isolation, secure access, and safe execution of requests on external or multi-tenant services.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 1
+                      },
+                      "_metadata": {
+                        "uid": "csdef3abfe8259a66e"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "mod_column": {
+                "column_name": "Designing for Isolation",
+                "_metadata": {
+                  "uid": "csb912308d3c6364b8"
+                },
+                "accent_box_options": [],
+                "content": [
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "4e036e0216bb46538657f18f7fbe4163",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "h3",
+                            "uid": "855c04defacb4ab28ebb42ffd26c6f71",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Designing for Isolation",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(250, 102, 15)"
+                                  }
+                                },
+                                "bold": true,
+                                "font-color": "#fa660f"
+                              },
+                              {
+                                "text": " ",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(250, 102, 15)"
+                                  }
+                                },
+                                "font-color": "#fa660f"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "6075b957aad44d7fbcfd19471a5da029",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "MCE and MCG are strategically architected with environment isolation as a central security tenet. By ensuring that each customer's data operates in a securely segmented environment, we eliminate cross-contamination risks and enhance data protection. When the system needs to connect or submit a request to an external service, these workflows are executed with strict security measures and communication protocols. This includes encrypted data transmission and stateless execution requests within the security context of the customer's instance.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 1
+                      },
+                      "_metadata": {
+                        "uid": "csc19237759782500c"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "mod_column": {
+                "column_name": "Strategy AI within MCE and MCG",
+                "_metadata": {
+                  "uid": "csda7a563b5f70ab36"
+                },
+                "accent_box_options": [],
+                "content": [
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "a195fec435bb44aca9662fc937401f78",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "h3",
+                            "uid": "f3d74c8b771f4d96ac684e416f02a291",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Strategy AI within MCE and MCG",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(250, 102, 15)"
+                                  }
+                                },
+                                "bold": true,
+                                "font-color": "#fa660f"
+                              },
+                              {
+                                "text": " ",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(250, 102, 15)"
+                                  }
+                                },
+                                "font-color": "#fa660f"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "15ba6089508c4815866236bc21944a33",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "The Strategy Cloud offering is complemented and enhanced by including the Strategy AI module. By anchoring it within the MCE and MCG framework, we ensure that Strategy AI consistently benefits from and upholds the robust environment security standards intrinsic to MCE and MCG.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "f7d46e564f854322a6a3ec64d0b4aa83",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Characteristics of MCE and MCG's isolation:",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "ul",
+                            "uid": "ec29fb5d13fc46b2b7292f2031ea29e8",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "type": "li",
+                                "uid": "b6444a56b831472c8ba7dfbec1bbfe12",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "0a959fa500bf499ba968f23372748fb9",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "Custom Configurations: Strategy can initiate resources into the Virtual Private Clouds (VPCs) and modify internet protocol (IP) address ranges, route tables, network gateways, and pertinent security settings. This ensures that every customer's environment is tailored to their specific needs while upholding security standards.",
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "li",
+                                "uid": "822909048c6a4de191dc5f764b86fcce",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "154176f0c0024e9c8b5fb7657819b6e0",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "Robust Firewall Implementation: Each customer's tenant is fortified by hypervisor-level firewalls or security groups. Utilizing advanced cloud and virtualization software, these firewalls further split instances, creating entirely separated client processing spaces. This segregation is instrumental in warding off unauthorized access and ensuring that non-public information remains protected.",
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "e6bcd9812a034655ad4013beab6359de",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "In essence, Strategy AI is not merely an intelligent data processing tool; it is a product deeply integrated into a cloud environment where every architectural decision prioritizes user security. The stringent security properties of MCE and MCG further highlight our unwavering commitment to safeguarding the integrity of our customers' data.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 1
+                      },
+                      "_metadata": {
+                        "uid": "csac54987335eac677"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "columns_per_row": 1,
+          "column_alignment": "Center, Top",
+          "section_footer": [],
+          "limit_footer_width": null,
+          "more_column_options": {
+            "column_spacing": "Default",
+            "one_column_limit_width": "75%",
+            "two_column_split": null,
+            "reverse_column_order_mobile": false,
+            "accent_box_stretch": false
+          },
+          "more_section_options": {
+            "text_color": "Dark",
+            "padding": "Short bottom only",
+            "add_divider": [],
+            "bg_color": "White",
+            "bg_custom_color": "",
+            "bg_image": null,
+            "mobile_bg_image": null,
+            "parallax_bg": false,
+            "bg_video_id": ""
+          }
+        }
+      },
+      {
+        "section": {
+          "section_id": "strategy-integration-with-azure-openai",
+          "_metadata": {
+            "uid": "cs5b1b6ebb04b8fd90"
+          },
+          "section_header": [],
+          "limit_header_width": null,
+          "columns": [
+            {
+              "mod_column": {
+                "column_name": "banner",
+                "_metadata": {
+                  "uid": "cs846d325e99205eb4"
+                },
+                "accent_box_options": [],
+                "content": [
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "dee13f91f6bd4bd9956168a8012e4d1c",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "h2",
+                            "uid": "b6888f90765848919f10f27cd7260b7d",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Strategy Integration with Azure OpenAI",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(0, 0, 0)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 1
+                      },
+                      "_metadata": {
+                        "uid": "cs6a6c4fff828e8310"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  },
+                  {
+                    "divider": {
+                      "style": "thin",
+                      "spacing": "12",
+                      "custom_spacing": null,
+                      "_metadata": {
+                        "uid": "cs03f0ba675379b53e"
+                      },
+                      "color": "colorOrange",
+                      "opacity": "1",
+                      "width": "100"
+                    }
+                  },
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "6a7a3a593c284753ad7d12d2bd98dc77",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "h3",
+                            "uid": "5c87aa2b3c714e9aa3d9a0408970dfb7",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Ensuring Data Privacy and Integrity with Strategy AI",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(250, 102, 15)"
+                                  }
+                                },
+                                "bold": true,
+                                "font-color": "#fa660f"
+                              },
+                              {
+                                "text": " ",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(250, 102, 15)"
+                                  }
+                                },
+                                "font-color": "#fa660f"
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 1
+                      },
+                      "_metadata": {
+                        "uid": "cse4a8801dfa838637"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "mod_column": {
+                "column_name": "Strategy AI",
+                "_metadata": {
+                  "uid": "csd0b68d7d8778ea53"
+                },
+                "accent_box_options": [],
+                "content": [
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "a424557814214ecd8ee2e4bab2674489",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "h3",
+                            "uid": "001a60b5bdec41beb09d8a80ff7b8d77",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Strategy AI",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(250, 102, 15)"
+                                  }
+                                },
+                                "bold": true,
+                                "font-color": "#fa660f"
+                              },
+                              {
+                                "text": " ",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(250, 102, 15)"
+                                  }
+                                },
+                                "font-color": "#fa660f"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "fdd0025f5a7f4f08be861042348822e8",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Strategy AI provides an array of AI features to empower users with varying skill levels and different roles within an organization. Business users and analysts can take advantage of Agents which allow users to interface with their data through the use of natural language. Agents provide a chat experience, on top of specific structured or unstructured data and allows for customization by leveraging custom instructions and AI-generated metadata for additional business context. Features include Auto Answers which includes advanced Q&A and AI visualizations that leverage machine learning capabilities to generate key driver analysis. Other features available in Strategy AI include Auto Dashboard enables design and Q&A within a dashboard; Auto Narratives, which generates descriptive data analysis; Auto in Hyper, which allows users to interact with Agents via Cards; and Auto SQL, which helps administrators and architects to expedite data modeling by generating SQL.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "c4c8dc5a26e84e63897354424282187b",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Each customer who enables AI has a separate tenant environment. This environment connects to Strategy AI Management Services, which forwards AI requests to the LLM for processing.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "7510c9a57dbe4ce7a2af5043cf704750",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Strategy AI uses Microsoft Azure OpenAI, and all communication is strictly over secure channels with TLS 1.2 or higher. This ensures that data is always encrypted during transit, preventing unauthorized access or breaches.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "2ca8c9a9f1f3491f879c47fa8136ecd8",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "The AI Features work strictly within the boundaries set by Privileges, ACLs, and data security measures specified for the user in the Strategy platform.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 1
+                      },
+                      "_metadata": {
+                        "uid": "csa4388c1fb4e12b0a"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "mod_column": {
+                "column_name": "Knowledge Assets for Agents",
+                "_metadata": {
+                  "uid": "csb796f865b00b8167"
+                },
+                "accent_box_options": [],
+                "content": [
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "17b7168ba904483bb25ee624e8137a4b",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "h3",
+                            "uid": "fcc6e93009874420925bfdcecf82ccc1",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Knowledge Assets for Agents",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(250, 102, 15)"
+                                  }
+                                },
+                                "bold": true,
+                                "font-color": "#fa660f"
+                              },
+                              {
+                                "text": " ",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(250, 102, 15)"
+                                  }
+                                },
+                                "font-color": "#fa660f"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "9bb724519a8941c187ece380a75ab23c",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Strategy AI releases prior to March 2025 allow users to fine-tune their Agents by uploading contextual data via the Knowledge Assets feature. Uploaded Excel files are processed by the Knowledge Manager, embedded, and stored securely in the Knowledge Store—a vault of encoded domain knowledge optimized for cognitive search and fast retrieval. Only privileged users can upload assets, with strict access control and encryption ensuring data security and integrity.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "6df12fdd03c34042b3804d181eff314d",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "During Gen AI interactions, the Knowledge Store provides relevant context, enabling accurate and governed query responses. Only schema and minimal sample data are shared with Azure OpenAI's LLM, ensuring privacy. The LLM creates an execution plan, which is processed by Strategy's Semantic Graph and analytical engine. Final results are returned to the user as natural language.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 1
+                      },
+                      "_metadata": {
+                        "uid": "csde5f95c35d288621"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "mod_column": {
+                "column_name": "Agent Context and Vector Embeddings for Agents",
+                "_metadata": {
+                  "uid": "csf295df387a4a1189"
+                },
+                "accent_box_options": [],
+                "content": [
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "416ba12f818d488b9e782fa7503e1a29",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "h3",
+                            "uid": "01b585bf7bf6413cb8c6183f5076e564",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Agent Context and Vector Embeddings for Agents",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(250, 102, 15)"
+                                  }
+                                },
+                                "bold": true,
+                                "font-color": "#fa660f"
+                              },
+                              {
+                                "text": " ",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(250, 102, 15)"
+                                  }
+                                },
+                                "font-color": "#fa660f"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "197f6909f07a450984ba0346ff62e647",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Strategy AI releases (March 2025 and after) provide next-generation capabilities through a new, agentic architecture for Agents which enhances reliability, accuracy, and takes advantage of the latest technological advances in AI for structured and unstructured data. This new architecture is also available for Agents exposed via Teams and HyperIntelligence.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "f8b8a92ea80941bbb01c576bce9f7e7f",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Agents know about the context of their structured data through AI-generated definitions. Items such as object names, data types, and semantic relationships are sourced from the Strategy semantic layer to generate the definitions, thus providing the greatest consistency. Additionally, Agent creators can further fine-tune their Agent by editing such definitions and additional custom instructions. These definitions are always stored within the confines of the customer's tenant.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "40e19e8de14f40199a27cb484cb11ff8",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Agents built on unstructured data documents (curated by system administrator) depend on textual vector embeddings and the retrieval of relevant parts of the documents to answer the user's question. These documents are always stored within the confines of the customer's tenant.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "003367822f3e46788377d67deec360dd",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "When an authorized user interacts with a structured data agent, the underlying AI agents detect the user's intent, leverage the stored object definitions, and custom instructions to determine how to best answer the question. Agents review the data results (up to 1,000 rows) to answer the user's question. If the Agent is for unstructured data, then the Agents use the relevant documents' text information to answer the user's question.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 1
+                      },
+                      "_metadata": {
+                        "uid": "csace2e1a1b58a2c80"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "mod_column": {
+                "column_name": "Data Retention",
+                "_metadata": {
+                  "uid": "cs073916b9331766b7"
+                },
+                "accent_box_options": [],
+                "content": [
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "c8671b301b5c46a092fef79573468d3b",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "h3",
+                            "uid": "eb485e02b70142a5a348b6bb5f126e6a",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Data Retention",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(250, 102, 15)"
+                                  }
+                                },
+                                "bold": true,
+                                "font-color": "#fa660f"
+                              },
+                              {
+                                "text": " ",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(250, 102, 15)"
+                                  }
+                                },
+                                "font-color": "#fa660f"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "519d9d3a41e44595a498d9ba2ae7beb4",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "The Agent functionality does not retain conversation histories after the active user session. Strategy Platform Analytics gathers telemetry data on user interactions with Agent to empower administrators. This includes capturing the question and the respective user. Access to this data is managed by limiting the number of users accessing the Auto Adoption and Auto Question Analysis dashboards and their dependent schema objects in Platform Analytics. Platform Analytics is hosted under each customer's tenant.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "6ca2b43e28e74835b947367ccbb265e4",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Historical Data Retention",
+                                "bold": true,
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "38311b6388ec4c61955a7951f4f14c8a",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Strategy Agents enable users to persist their chat history and save snapshots of their data. Access to this chat history and the snapshot information is on a per-user basis. The information is not shared between users. Each user is entitled to retain a maximum of 50 historical questions and answers. Further, this information is stored in tenant's own storage space and is fully encrypted using AES-256 bit encryption.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "7209bc944957466d8a9d24e1de5f741b",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Manual Deletion of Historical Data",
+                                "bold": true,
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "003447c0223c44649e1807ea54ca4b81",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "To provide users with control over their data, Strategy AI enables the manual deletion of questions and answers from past conversations. Users can remove entries they no longer need, maintaining a clean and relevant history according to their preferences.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "d7d3493a2af54b9bad0af77180fcdc77",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Snapshots",
+                                "bold": true,
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "26a814742cdd478bbe8759c9f1f83c24",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "In addition to historical data, users can create and save snapshots of specific questions and answers. These snapshots are stored independently of the standard history and can be used to preserve critical data points or insights. Each user can maintain up to 50 snapshots, allowing for significant flexibility in data management and retrieval.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "ca820e4cae94444e8e3a3da7da34ed1b",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Data Storage Locations",
+                                "bold": true,
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "2a782c17da7241038e025cbedcb06a30",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Text Content Storage:",
+                                "bold": true,
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              },
+                              {
+                                "text": " The text content of questions and answers are securely stored in the Strategy Metadata database. This database is designed for high availability and is optimized for efficient data retrieval.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "bac0268c711c405ea3ff9104b7893d82",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Visualization Data Storage:",
+                                "bold": true,
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              },
+                              {
+                                "text": " Data points used to visualize each answer are stored in the Strategy Storage Service. Before users can begin storing visualization data, they must configure the Strategy Storage Service to ensure proper data handling and security.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "6e300413c05a4cd5a9e559aeea39e689",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "The Text Content Storage and Visualization Data Storage reside inside each customer's tenant.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "0a0edc39efdf4c7fb3f40c67de1c3d03",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "User Data Privacy",
+                                "bold": true,
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "12af9cabf4734c4e881d2ba62f113cd4",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "User-specific questions, answers, and snapshots are private and accessible only to the individual user. This strict access control is part of our commitment to user privacy and data security, ensuring that sensitive information remains confidential and protected.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "d491885857fe4f4581520b98405cdef3",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "This data retention policy is part of our ongoing effort to provide a transparent, secure, and user-focused experience, enabling effective and efficient use of Strategy AI.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 1
+                      },
+                      "_metadata": {
+                        "uid": "csa04f163505ce4cef"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "columns_per_row": 1,
+          "column_alignment": "Center, Top",
+          "section_footer": [],
+          "limit_footer_width": null,
+          "more_column_options": {
+            "column_spacing": "Default",
+            "one_column_limit_width": "75%",
+            "two_column_split": null,
+            "reverse_column_order_mobile": false,
+            "accent_box_stretch": false
+          },
+          "more_section_options": {
+            "text_color": "Dark",
+            "padding": "Short bottom only",
+            "add_divider": [],
+            "bg_color": "White",
+            "bg_custom_color": "",
+            "bg_image": null,
+            "mobile_bg_image": null,
+            "parallax_bg": false,
+            "bg_video_id": ""
+          }
+        }
+      },
+      {
+        "section": {
+          "section_id": "regulatory-compliance-for-the-ai-components-in-the-managed-cloud-enterprise",
+          "_metadata": {
+            "uid": "cs61852d075cecabab"
+          },
+          "section_header": [],
+          "limit_header_width": null,
+          "columns": [
+            {
+              "mod_column": {
+                "column_name": "banner",
+                "_metadata": {
+                  "uid": "cs3e3180d4248cc563"
+                },
+                "accent_box_options": [],
+                "content": [
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "1abd2bc0004f49baac470d3a2c1c7ed2",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "h2",
+                            "uid": "b533eefc53694929afb670b3d45d0911",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Regulatory Compliance for the AI Components in the Managed Cloud Enterprise",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(0, 0, 0)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 1
+                      },
+                      "_metadata": {
+                        "uid": "cse2897f3ac4732efe"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  },
+                  {
+                    "divider": {
+                      "style": "thin",
+                      "spacing": "12",
+                      "custom_spacing": null,
+                      "_metadata": {
+                        "uid": "cs55817afd17c1050e"
+                      },
+                      "color": "colorOrange",
+                      "opacity": "1",
+                      "width": "100"
+                    }
+                  },
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "3caa6b57f6c84b0fa4cf705f813030b2",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "274dea9d5e3f42808d60abde51016826",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Strategy AI, integrated with Microsoft Azure OpenAI, has certifications for vital international data protection protocols, including CCPA, GDPR, SOC 2, and ISO 27001. The design and operational procedures of the Strategy AI components within the MCE are tailored around these regulatory benchmarks. Our stringent approach to adherence demonstrates our commitment to meeting and surpassing the standards set by these authorities.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "abf6255232984afaa79a7c0175b9ad62",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Strategy's commitment to regulatory diligence is systematic and meticulous. We maintain a dedicated internal compliance team responsible for ensuring alignment with industry standards. This team has architected robust data protection and privacy protocols, directly aiming to meet the rigors of the General Data Protection Regulation (GDPR). Strategy confirms full regulatory adherence across all jurisdictions where the Strategy Cloud operates.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "392911a5e8a54c0d93ae9792d1fe4345",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "The MCE, available for AWS, Azure, and GCP is compliant with the following risk management and information security frameworks. Such compliance is regularly validated, and when necessary, certified through rigorous evaluations conducted by internal and third-party professionals:",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "ul",
+                            "uid": "ecc2520e11b2443d8eebd59c8f1a57b3",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "type": "li",
+                                "uid": "2a6f80714fa04fb48c47e090cd2717b5",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "dd71514a20964627b87ca8590a8ccde7",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "General Data Protection Regulation",
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "li",
+                                "uid": "01fddcfef54b4f06b21ca9c8765d1937",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "3af572f8c560470c9370b9e2802a0cb7",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "AICPA SSAE-18, System and Organization Controls – SOC 2 Type 2 Report",
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "li",
+                                "uid": "31c1e547e35542ea9c990df08e86eb65",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "aebfac4ec2114ed2a6278809e63b9662",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "ISO/IEC 27001:2013 (ISO 27001:2013) – Certificate Number: ISMS-MI-13123",
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "li",
+                                "uid": "b2207889264643a590a64baa7f9d9337",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "267a9435c889456dbc78cadd2d24077e",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "Data Privacy Framework EU-U.S. and Swiss-U.S.",
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "li",
+                                "uid": "efdaa780777544e58e51f08f022e37d9",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "9078db8515fd4f03b03c0c921166c5ca",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "Health Insurance Portability and Accountability Act of 1996 (HIPAA) Self-Assessment",
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "85e91a15b45a48d6aed5299ea7287e13",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Strategy AI Compliance with the EU AI Act",
+                                "bold": true,
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "dc942b85f0fb4fa3b62a9c853fec2c2c",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Strategy AI is committed to complying with the EU AI Act, which aims to ensure the safe and ethical use of AI technologies in Europe. Strategy AI, which incorporates a General Purpose AI (GPAI) large language model, Azure OpenAI, in order to provide AI capabilities to our customers, is a limited-risk AI system based on its base-level capabilities. Strategy AI's capabilities, including Auto Answers, Agents, and Auto Dashboard, are chat-based and always serve a user rather than make automated decisions. In addition, as a deployer of a limited-risk AI system, Strategy AI is purposefully transparent, and Strategy has implemented quality management practices surrounding our Strategy AI product, including:",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "ul",
+                            "uid": "f8ae2742391e4da9a346d961efa6f974",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "type": "li",
+                                "uid": "d66c442c2da943fb8627dab4e1af4600",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "375ecf309d784ab48a94514677a541d3",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "Robust safety measures",
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "li",
+                                "uid": "fff192c372d34a1baa64fd51b29c4c9b",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "cbdf4c86a68e40dcaed70048f74f3fe3",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "Transparency in decision-making",
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "li",
+                                "uid": "b4227e22dd3047838ec447a4bd5aabe1",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "32bf09033faf442db367e17f67f63772",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "Clear user information about AI interaction",
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "li",
+                                "uid": "9a4789f753b04db98149fac7a335ef01",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "56dfdce6013b4949bdcc2eb989815987",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "Regular assessments and improvements of the AI system",
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "e8841fbb608f4a3ab43370745347c472",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Finally, Strategy AI and all of its intelligent features exclusively rely on Strategy's own trusted calculation engine. Strategy AI does not utilize user inputs, chat history, or other communications to train any LLM, GPAI, or other third-party artificial intelligence models.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 1
+                      },
+                      "_metadata": {
+                        "uid": "csb2781bb475076e27"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "columns_per_row": 1,
+          "column_alignment": "Center, Top",
+          "section_footer": [],
+          "limit_footer_width": null,
+          "more_column_options": {
+            "column_spacing": "Default",
+            "one_column_limit_width": "75%",
+            "two_column_split": null,
+            "reverse_column_order_mobile": false,
+            "accent_box_stretch": false
+          },
+          "more_section_options": {
+            "text_color": "Dark",
+            "padding": "Short bottom only",
+            "add_divider": [],
+            "bg_color": "White",
+            "bg_custom_color": "",
+            "bg_image": null,
+            "mobile_bg_image": null,
+            "parallax_bg": false,
+            "bg_video_id": ""
+          }
+        }
+      },
+      {
+        "section": {
+          "section_id": "monitoring-logging-and-auditing-ai-use-within-strategy",
+          "_metadata": {
+            "uid": "cs9e87fdd3793be825"
+          },
+          "section_header": [],
+          "limit_header_width": null,
+          "columns": [
+            {
+              "mod_column": {
+                "column_name": "banner",
+                "_metadata": {
+                  "uid": "cs5ae215e18b108eb5"
+                },
+                "accent_box_options": [],
+                "content": [
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "4df566d779a542c49ecc1b37244ca396",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "h2",
+                            "uid": "1c34ae36c5b347898962077761884274",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Monitoring, Logging, and Auditing AI Use within Strategy",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(0, 0, 0)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 1
+                      },
+                      "_metadata": {
+                        "uid": "cscb18cdfa35fd372f"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  },
+                  {
+                    "divider": {
+                      "style": "thin",
+                      "spacing": "12",
+                      "custom_spacing": null,
+                      "_metadata": {
+                        "uid": "csf7893a038b258752"
+                      },
+                      "color": "colorOrange",
+                      "opacity": "1",
+                      "width": "100"
+                    }
+                  },
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "dabae56d639b4e6aa2e427ff85918491",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "863d88381ed549f8806172bb4651398c",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Strategy places a significant emphasis on monitoring, logging, and auditing the usage of AI within its platform to ensure transparency and accountability. The monitoring systems in place offer customers a comprehensive overview of their AI usage. Through a user-friendly dashboard, administrators can gain insight into the users and the number of questions they have asked. This transparency empowers organizations to optimize their AI utilization effectively.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "5a7b843ccbc045ddaf65b9c6676fa944",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Logging Mechanisms",
+                                "bold": true,
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "9f66ba3c331f473fb348fbdd9010757b",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Strategy has designed meticulous logging mechanisms to uphold user data privacy and security. Within the Strategy platform, certain information is logged while others are intentionally left out, with the purpose of safeguarding user data and meeting data compliance laws.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "458a665e568244719e5409eec8b03584",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Specifically, Strategy's logging system captures essential data for operational purposes. One example is the number of tokens used for the questions posed by users, ensuring that this information is tracked to measure consumption and usage. Furthermore, this logged data is not used to train AI models or for other purposes that might compromise user data privacy.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "d8d1632f6e6d40d3b74d0dbbc5650b2d",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "This privacy-conscious strategy aligns with contemporary data protection standards and regulations, providing users with the confidence to fully engage with Strategy's AI-powered tools without worrying about the security of their sensitive information.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "56ed8014c8d842c7a0b8d1c9268e8ac6",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Audit Trails",
+                                "bold": true,
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "28adea7eb22446b1b5abb39a0aae9eb3",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Audit trails are crucial in ensuring accountability and traceability within the Strategy platform. Strategy has implemented a robust system in Platform Analytics that allows customers to perform audit trails effectively. One key element of this system is preserving a unique question ID, which enables tracking of actual usage associated with individual users. Importantly, Strategy's approach prioritizes user privacy by not recording the outcomes generated. Instead, by focusing on the question ID, Strategy can precisely determine which user initiated a query or utilized specific AI features. This approach balances accountability and data privacy, ensuring user actions can be traced and monitored.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 1
+                      },
+                      "_metadata": {
+                        "uid": "csaf2ff46c1b919201"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "columns_per_row": 1,
+          "column_alignment": "Center, Top",
+          "section_footer": [],
+          "limit_footer_width": null,
+          "more_column_options": {
+            "column_spacing": "Default",
+            "one_column_limit_width": "75%",
+            "two_column_split": null,
+            "reverse_column_order_mobile": false,
+            "accent_box_stretch": false
+          },
+          "more_section_options": {
+            "text_color": "Dark",
+            "padding": "Short bottom only",
+            "add_divider": [],
+            "bg_color": "White",
+            "bg_custom_color": "",
+            "bg_image": null,
+            "mobile_bg_image": null,
+            "parallax_bg": false,
+            "bg_video_id": ""
+          }
+        }
+      },
+      {
+        "section": {
+          "section_id": "adhering-to-access-control-lists-and-data-security-measures",
+          "_metadata": {
+            "uid": "cs45008c1323d52f19"
+          },
+          "section_header": [],
+          "limit_header_width": null,
+          "columns": [
+            {
+              "mod_column": {
+                "column_name": "banner",
+                "_metadata": {
+                  "uid": "csadc7834c3e4f84ef"
+                },
+                "accent_box_options": [],
+                "content": [
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "02dcd5c67dcb44c5826c0b745d08c23b",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "h2",
+                            "uid": "60079392d1d04a3f8e0fc41e31dcd368",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Adhering to Access Control Lists and Data Security Measures",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(0, 0, 0)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 1
+                      },
+                      "_metadata": {
+                        "uid": "csbe1fef8d5ee4dd53"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  },
+                  {
+                    "divider": {
+                      "style": "thin",
+                      "spacing": "12",
+                      "custom_spacing": null,
+                      "_metadata": {
+                        "uid": "cs887689664cf01fa8"
+                      },
+                      "color": "colorOrange",
+                      "opacity": "1",
+                      "width": "100"
+                    }
+                  },
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "c0043e70fc054f609527743ab168d31b",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "2f35b8e7e3ca4b75bbaed3fb7a2d0b8a",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "As we continue to innovate and expand our offerings, the safety and security of user data remain paramount. The introduction of the Strategy AI capabilities, including the notable Auto feature, has been carefully architected to seamlessly integrate with the comprehensive security model of the established Strategy platform. This ensures not only consistency in data access but also steadfast adherence to stringent security protocols.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "ff71b2f6a17647c99484b26bbf4e429e",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Consistent Access Control Lists (ACLs) and Permissions:",
+                                "bold": true,
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              },
+                              {
+                                "text": " Auto is tailored to ensure users only receive answers derived from datasets they're authorized to access. Every query posed to Auto undergoes meticulous verification against the configured ACLs of the semantic layer's underlying objects. This means that even as users engage with the AI functionalities, the integrity of access controls remains uncompromised.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "8b4e814efccb42c69ed1ef007508761f",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Granular Data Access through Security Filters:",
+                                "bold": true,
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              },
+                              {
+                                "text": " Beyond the basic ACL configurations, our platform offers fine-grained data access control using security filters. These filters act as an additional layer of control, narrowing down the data scope that users can query. It provides administrators the power to define precise boundaries on data access, ensuring users can only interact with permitted segments of the data.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "e2b0c69cc748465d8e52efb90deaa047",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Configurable Privileges for AI Features:",
+                                "bold": true,
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              },
+                              {
+                                "text": " Recognizing that every enterprise has its unique needs and security concerns, we've incorporated configurable privileges for AI functionalities. This allows organizational leaders to decide which users can leverage advanced AI features, be it Auto or the more sophisticated ML-driven analytics and visualizations. It provides businesses with the flexibility to balance innovation with security protocols.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 1
+                      },
+                      "_metadata": {
+                        "uid": "csd9029ae786719a38"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "columns_per_row": 1,
+          "column_alignment": "Center, Top",
+          "section_footer": [],
+          "limit_footer_width": null,
+          "more_column_options": {
+            "column_spacing": "Default",
+            "one_column_limit_width": "75%",
+            "two_column_split": null,
+            "reverse_column_order_mobile": false,
+            "accent_box_stretch": false
+          },
+          "more_section_options": {
+            "text_color": "Dark",
+            "padding": "Short bottom only",
+            "add_divider": [],
+            "bg_color": "White",
+            "bg_custom_color": "",
+            "bg_image": null,
+            "mobile_bg_image": null,
+            "parallax_bg": false,
+            "bg_video_id": ""
+          }
+        }
+      },
+      {
+        "section": {
+          "section_id": "data-integrity-and-preventing-misuse",
+          "_metadata": {
+            "uid": "csdfb8520b9342e205"
+          },
+          "section_header": [],
+          "limit_header_width": null,
+          "columns": [
+            {
+              "mod_column": {
+                "column_name": "banner",
+                "_metadata": {
+                  "uid": "cse4aac2b9d83c372b"
+                },
+                "accent_box_options": [],
+                "content": [
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "8434a516c59f4778a29728e4be4bc3a5",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "h2",
+                            "uid": "b469af9970a44c3e8d280173c4fee946",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Data Integrity and Preventing Misuse",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(0, 0, 0)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 1
+                      },
+                      "_metadata": {
+                        "uid": "cs49e7916b737152ea"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  },
+                  {
+                    "divider": {
+                      "style": "thin",
+                      "spacing": "12",
+                      "custom_spacing": null,
+                      "_metadata": {
+                        "uid": "cs35f17e168df3dfc4"
+                      },
+                      "color": "colorOrange",
+                      "opacity": "1",
+                      "width": "100"
+                    }
+                  },
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "838264ffb50749a68cb35d78255d6b5b",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "826c609c6a9f4d5096b55d391bcace81",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Strategy's core promise revolves around ensuring absolute data security and prevention of misuse. The expanding digital landscape intensifies the importance of data protection, and here's how we've anchored our platform:",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "5056cdbc5afc4c75a76fb87ef9900b8c",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Robust Encryption Protocols:",
+                                "bold": true,
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              },
+                              {
+                                "text": " Our platform ensures the security of data both in transit and at rest. Any communication between our platform and external services, including Microsoft Azure OpenAI, employs industry-leading encryption techniques, such as TLS 1.2+, to protect data during transmission, preventing potential interception. To secure stored data, data-at-rest encryption using advanced encryption standards like AES-256 has been implemented. This ensures that sensitive information remains protected against unauthorized access even when not actively being transferred.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "81a562410f6149ac81ebb93d0fa21093",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Configurations with Microsoft Azure OpenAI:",
+                                "bold": true,
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              },
+                              {
+                                "text": " Through the specific configuration settings in our integration with Microsoft Azure OpenAI, we've ensured that data sent to OpenAI is not retained or used for model training. This technical configuration provides another layer of assurance that user data remains untouched in external interactions.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "33a5fd15cedf407fbf9dad0beb4f09d2",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "User Interaction Privacy:",
+                                "bold": true,
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              },
+                              {
+                                "text": " While Strategy does record usage metrics for monitoring the frequency of questions, the intricate details of user conversations are never accessed by Strategy. This meticulous distinction ensures the core content of your interactions remains private, emphasizing our commitment to user-centric data privacy.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "365eb986efc6466997efce2807452a26",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "In line with these protocols, Strategy prioritizes advanced solutions while maintaining a strong emphasis on data protection and user trust. Our practices underscore the importance we place on both functional excellence and stringent data security.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "a8ada97da3f247fc830a6d6acfd606c9",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Our AI product functionality is made available for use for its intended purpose of enhancing customers' interaction and analysis of their business data and generating faster insights into that data for the customers' general business needs. To the extent the customer employs our AI functionality for certain use cases, such as those deemed to be higher risk under applicable laws, the customer must ensure compliance with applicable laws or regulations governing the use of AI.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 1
+                      },
+                      "_metadata": {
+                        "uid": "cs5925af2d45dacef2"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "columns_per_row": 1,
+          "column_alignment": "Center, Top",
+          "section_footer": [],
+          "limit_footer_width": null,
+          "more_column_options": {
+            "column_spacing": "Default",
+            "one_column_limit_width": "75%",
+            "two_column_split": null,
+            "reverse_column_order_mobile": false,
+            "accent_box_stretch": false
+          },
+          "more_section_options": {
+            "text_color": "Dark",
+            "padding": "Short bottom only",
+            "add_divider": [],
+            "bg_color": "White",
+            "bg_custom_color": "",
+            "bg_image": null,
+            "mobile_bg_image": null,
+            "parallax_bg": false,
+            "bg_video_id": ""
+          }
+        }
+      },
+      {
+        "section": {
+          "section_id": "conclusion",
+          "_metadata": {
+            "uid": "cs35b2cba426ddb2fb"
+          },
+          "section_header": [],
+          "limit_header_width": null,
+          "columns": [
+            {
+              "mod_column": {
+                "column_name": "banner",
+                "_metadata": {
+                  "uid": "cs971415510865163c"
+                },
+                "accent_box_options": [],
+                "content": [
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "8f8476a71ba746eb822e522443ba1e6d",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "h2",
+                            "uid": "42894645ee184d96bf9e0a8d86b9085c",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Conclusion",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(0, 0, 0)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 1
+                      },
+                      "_metadata": {
+                        "uid": "cs0841b4528b706660"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  },
+                  {
+                    "divider": {
+                      "style": "thin",
+                      "spacing": "12",
+                      "custom_spacing": null,
+                      "_metadata": {
+                        "uid": "cs66e3bee080504c2c"
+                      },
+                      "color": "colorOrange",
+                      "opacity": "1",
+                      "width": "100"
+                    }
+                  },
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "9a8956abeb454cb79c0ae64c532503e2",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "65502bcb1ed546bb833699ec85e58be1",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Strategy's commitment to data security and integrity is evident in its Strategy AI offering. In a domain where the trustworthiness of data directly impacts the accuracy of AI, Strategy has meticulously constructed its platform to meet and exceed rigorous data standards.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "e64fc2fea742481d9b7e5564a3d6f31f",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "The precision of our BI, combined with AI's adaptability, offers users the advantage of cutting-edge analysis without compromising security. Through the distinct environment isolations within MCE and MCG, data privacy is consistently prioritized, mitigating risks associated with breaches. Compliance with international data protection regulations is integral to our platform's design, further demonstrating our dedication to global standards.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "c8fe0720e1d849179a97123d6d779707",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Our adherence to Access Control Lists and stringent data security measures guarantee that users always operate within defined data access parameters.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "1f9f1f8ad4eb4e35b6daf43ea41087a8",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Furthermore, our collaboration with Microsoft Azure OpenAI is rooted in industry best practices, ensuring data is not retained beyond its immediate use or used improperly.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "28e20682f1004104ac41a1b96743776c",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "In summary, Strategy AI integrates advanced analytical capabilities with rigorous data protection standards. Our focus is clear: delivering dependable AI insights while prioritizing data security and protection. To learn more about Strategy AI, please visit our website.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 1
+                      },
+                      "_metadata": {
+                        "uid": "cs762b2f4d8fb2fdfd"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "columns_per_row": 1,
+          "column_alignment": "Center, Top",
+          "section_footer": [],
+          "limit_footer_width": null,
+          "more_column_options": {
+            "column_spacing": "Default",
+            "one_column_limit_width": "75%",
+            "two_column_split": null,
+            "reverse_column_order_mobile": false,
+            "accent_box_stretch": false
+          },
+          "more_section_options": {
+            "text_color": "Dark",
+            "padding": "Short bottom only",
+            "add_divider": [],
+            "bg_color": "White",
+            "bg_custom_color": "",
+            "bg_image": null,
+            "mobile_bg_image": null,
+            "parallax_bg": false,
+            "bg_video_id": ""
+          }
+        }
+      },
+      {
+        "section": {
+          "section_id": "cta",
+          "_metadata": {
+            "uid": "csd00d09f91168b675"
+          },
+          "section_header": [],
+          "limit_header_width": null,
+          "columns": [
+            {
+              "mod_column": {
+                "column_name": "cta",
+                "_metadata": {
+                  "uid": "csc98b38ac3a0c475c"
+                },
+                "accent_box_options": [],
+                "content": [
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "5dcb67aa7bcd4effb5d973ea3c229637",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "h2",
+                            "uid": "2c978f18c7cb431b851d0c327a924d08",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Learn More About Strategy AI"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "ad5f87fe20e94d72a233c1b3b4371c97",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "To learn more about Strategy AI and how it delivers dependable AI insights while prioritizing data security and protection, visit our website."
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "555e6968c0d34dae89cf3fc86241eda2",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "type": "a",
+                                "uid": "05a3ef06dcfb41f6ab2a1d022caf08a7",
+                                "attrs": {
+                                  "url": "https://www.strategysoftware.com",
+                                  "target": "_blank"
+                                },
+                                "children": [
+                                  {
+                                    "text": "Visit Strategy Software"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 1
+                      },
+                      "_metadata": {
+                        "uid": "csf2392b40363dd812"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "columns_per_row": 1,
+          "column_alignment": "Center, Top",
+          "section_footer": [],
+          "limit_footer_width": null,
+          "more_column_options": {
+            "column_spacing": "Default",
+            "one_column_limit_width": "75%",
+            "two_column_split": null,
+            "reverse_column_order_mobile": false,
+            "accent_box_stretch": false
+          },
+          "more_section_options": {
+            "text_color": "Dark",
+            "padding": "Default",
+            "add_divider": [],
+            "bg_color": "Brass",
+            "bg_custom_color": "",
+            "bg_image": null,
+            "mobile_bg_image": null,
+            "parallax_bg": false,
+            "bg_video_id": ""
+          }
+        }
+      }
+    ],
+    "page_properties": {
+      "navigation_title": "",
+      "header_color": null,
+      "hide_header_nav": false,
+      "hide_header_cta": false,
+      "hide_footer": false,
+      "disable_global_promo_banner": false,
+      "hide_auto_expert": false,
+      "sfid": "",
+      "marketo_id": "",
+      "cta_section": []
+    },
+    "seo": {
+      "meta_title": "AI Security: Data Integrity & Ethical AI | Strategy AI",
+      "meta_description": "Discover how Strategy AI secures enterprise BI data with Azure OpenAI, tenant isolation, zero data retention, and SOC 2, ISO 27001, HIPAA, and GDPR compliance.",
+      "keywords": "AI security for enterprise BI, secure AI analytics platform, enterprise AI data privacy, AI compliance certifications, Azure OpenAI enterprise security",
+      "social_thumbnail_override": null,
+      "enable_search_indexing": true
+    },
+    "resource_data": {
+      "date": "2025-01-01T00:00:00.000Z",
+      "type": "Analyst Report",
+      "title": "AI Security",
+      "description": "Discover how Strategy AI secures enterprise BI data with Azure OpenAI, tenant isolation, zero data retention, and SOC 2, ISO 27001, HIPAA, and GDPR compliance.",
+      "featured": false
+    },
+    "taxonomies": [],
+    "tags": [],
+    "locale": "en",
+    "uid": "bltb23cf472eccf7218",
+    "created_by": "blte12f8d786df2b4b9",
+    "updated_by": "blte12f8d786df2b4b9",
+    "created_at": "2026-06-26T18:13:34.804Z",
+    "updated_at": "2026-06-26T18:13:34.804Z",
+    "ACL": {},
+    "_version": 1,
+    "_in_progress": false
+  }
+}

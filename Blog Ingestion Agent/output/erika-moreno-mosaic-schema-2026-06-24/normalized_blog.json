@@ -1,0 +1,199 @@
+{
+  "title": "Project Schema is now Mosaic Schema. Here's what it means for you.",
+  "subtitle": "",
+  "slug": "project-schema-is-now-mosaic-schema-heres-what-it-means-for-you",
+  "url": "/project-schema-is-now-mosaic-schema-heres-what-it-means-for-you",
+  "author": "Erika Moreno",
+  "authorBio": "",
+  "publishDate": "2026-06-24T00:00:00.000Z",
+  "seo": {
+    "metaTitle": "Project Schema is now Mosaic Schema: What It Means for You",
+    "metaDescription": "Project Schema is now Mosaic Schema. Nothing changes in your environment. Learn how Strategy's semantic layer positions your org for AI.",
+    "metaDescriptionFromDoc": false,
+    "targetKeywords": [
+      "semantic layer",
+      "Mosaic Schema",
+      "enterprise analytics",
+      "governed metrics",
+      "AI-ready data foundation"
+    ],
+    "metaDescriptionAlternatives": [
+      "Project Schema is now Mosaic Schema. No migration needed. See how Strategy's governed semantic layer becomes your AI-ready foundation.",
+      "Mosaic Schema builds on 30 years of semantic layer work. Discover why governed data puts your org first in line for AI initiatives."
+    ],
+    "primaryKeywords": [
+      "semantic layer",
+      "Mosaic Schema",
+      "enterprise analytics",
+      "governed metrics",
+      "AI-ready data foundation"
+    ],
+    "secondaryKeywords": [
+      "universal semantic layer",
+      "BI semantic layer",
+      "data governance",
+      "self-service analytics",
+      "enterprise data modeling",
+      "business logic governance",
+      "schema migration",
+      "governed analytics",
+      "semantic layer for AI",
+      "centralized metrics layer",
+      "data consistency at scale",
+      "BI platform rename"
+    ],
+    "longTailKeywords": [
+      "do I need to rebuild my schema to use Mosaic",
+      "how to migrate from Project Schema to Mosaic Schema",
+      "why governed semantic layers are essential for enterprise AI",
+      "best way to manage business logic for AI and BI together",
+      "how semantic layers improve AI model reliability",
+      "what is the difference between Mosaic Schema and Mosaic Models",
+      "how to scale governed analytics without rebuilding from scratch",
+      "why enterprise analytics teams need a universal semantic layer",
+      "how to make analytics AI-ready without data migration",
+      "what happens to my schema objects when upgrading to Mosaic",
+      "how centralized metrics improve data trust across dashboards",
+      "why data architects should invest in semantic layer governance"
+    ],
+    "brandedKeywords": [
+      "Strategy",
+      "Strategy Mosaic",
+      "Mosaic Schema",
+      "Strategy semantic layer",
+      "Strategy Mosaic Models"
+    ]
+  },
+  "quickAnswer": [
+    {
+      "headline": "Project Schema has been renamed Mosaic Schema — nothing in your environment changes.",
+      "body": "Your schema objects, cubes, reports, and workflows remain exactly as they were. No migration or rebuild is required."
+    },
+    {
+      "headline": "Mosaic Schema and Mosaic Models are now two paths within one universal semantic layer.",
+      "body": "Central governed schema and self-service modeling can now work together, extending your foundation into new use cases."
+    },
+    {
+      "headline": "Thirty years of semantic layer work becomes the foundation for AI and open analytics.",
+      "body": "Organizations with a governed semantic layer already in place are best positioned to move fast on AI initiatives."
+    }
+  ],
+  "quickAnswerFromDoc": false,
+  "heroMedia": null,
+  "body": [
+    {
+      "type": "section",
+      "heading": "",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "At nearly every customer conversation I've had this year, roundtables, regional World events, one-on-ones, the same question comes up: do we need to start over to get onto Mosaic?"
+        },
+        {
+          "type": "paragraph",
+          "text": "The answer is simple: you don't."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Thirty years of semantic layer work, under one name",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Strategy has been building semantic layers for over 30 years. When we talk about Mosaic as our universal semantic layer, we're not describing something new. We're describing what our customers have been doing for decades: defining business logic once, governing it centrally, and making sure every report, every dashboard, every AI model draws from the same trusted definitions."
+        },
+        {
+          "type": "paragraph",
+          "text": "That's exactly what Project Schema has always been. Data architects have used it to build the kind of governed, stable semantic foundation that makes analytics reliable at scale. Hierarchies, attributes, metrics, cubes. The business logic that sits between raw data and the decisions people make from it."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mosaic is our universal semantic layer. It has two modeling paths:"
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Mosaic Schema",
+              "bold": true
+            },
+            {
+              "text": " (formerly Project Schema): the centrally governed enterprise schema, managed by data architects, built for consistency and control at scale."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Mosaic Models",
+              "bold": true
+            },
+            {
+              "text": ": the self-service modeling approach built in Mosaic Studio, where teams define attributes, metrics, and relationships with AI assistance."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Both have always been part of Mosaic's universal semantic layer. The rename aligns the naming to our open strategy."
+        },
+        {
+          "type": "paragraph",
+          "text": "Nothing in your environment changes. Your schema objects, cubes, reports, and workflows are exactly as they were. There's no migration, no rebuild, no starting over."
+        },
+        {
+          "type": "paragraph",
+          "text": "With this release, you can now map Mosaic Models directly to Mosaic Schema. The two paths, the central governed schema and self-service modeling, no longer have to run in parallel. They can work together, extending your governed foundation into new use cases without breaking what you've built. That includes security: all your existing filters carry over into Mosaic Models."
+        },
+        {
+          "type": "paragraph",
+          "text": "The rename also reflects where we're headed as a company. One of our core commitments is avoiding vendor lock-in for our customers. That means connecting any application to Mosaic, supporting any data source, and being part of open industry initiatives like the Open Semantic Interchange (OSI)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mosaic Schema is part of that open fabric. When your semantic layer has a clear, consistent identity and connects openly to the rest of the ecosystem, it becomes an asset that compounds over time, rather than a dependency that constrains you."
+        },
+        {
+          "type": "paragraph",
+          "text": "If your organization has been governing analytics through Project Schema, you already have a semantic foundation."
+        },
+        {
+          "type": "paragraph",
+          "text": "The organizations moving fastest on AI right now are the ones with a governed semantic layer already in place. Thirty years of that work doesn't go away. It becomes the foundation everything else runs on."
+        },
+        {
+          "type": "paragraph",
+          "text": "If you want to see what that foundation can support now, start with the Model-to-Schema mapping docs or reach out to your account team."
+        }
+      ]
+    }
+  ],
+  "faq": [],
+  "postFaqContent": [],
+  "suggestedTaxonomyTerms": [
+    "Semantic Layer",
+    "Data Governance",
+    "Enterprise Analytics",
+    "Product Updates",
+    "AI-Ready Data"
+  ],
+  "cta_list": [],
+  "internalLinks": [],
+  "externalLinks": [],
+  "validationWarnings": [
+    "No publish date found in the document — publishDate left empty.",
+    "Author name extracted from italic editorial note '[Blog post draft, bylined Erika Moreno]' — not a standard byline format; confirm correct author attribution.",
+    "The final paragraph references 'Model-to-Schema mapping docs' and 'your account team' as CTAs but no [BOX] or [LINK:] annotation was present, so no cta_list entry or URL could be captured.",
+    "No hero image or video found in the document.",
+    "No FAQ section detected.",
+    "Document appears to be a draft; editorial metadata note ('Blog post draft') was stripped per extraction rules.",
+    "publishDate was not found in the document — defaulted to pipeline run date (2026-06-23T00:00:00.000Z). Confirm before publishing.",
+    "No Quick Answer box found in document — 3 bullets synthesized from article content. Review before publishing and edit in the Contentstack editor if needed."
+  ]
+}

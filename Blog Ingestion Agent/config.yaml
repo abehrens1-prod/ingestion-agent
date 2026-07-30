@@ -1,0 +1,109 @@
+contentstack:
+  content_type_uid: "blog_post"
+  # URL prefix prepended to every generated slug. Must be /blog (no /software) — CMS strips /software.
+  url_prefix: "/blog"
+  # _content_type_uid value used for author reference fields.
+  author_content_type_uid: "blog_author"
+  # Confirmed field UIDs from exported Blog Post entry.
+  field_map:
+    title: "title"
+    url: "url"
+    author: "author"
+    publish_date: "publish_date"
+    lead_paragraph: "lead_paragraph"
+    content: "content"
+    seo: "seo"
+    taxonomy: "taxonomies"
+
+  # Author reference lookup: map author display name → Contentstack author entry UID.
+  # Get UIDs from Contentstack CMS → Entries → Authors content type.
+  # Add one line per known author: "Display Name": "bltXXXXXXXXXXXX"
+  # Author reference lookup: map author display name → Contentstack author entry UID.
+  # UIDs look like "bltXXXXXXXXXXXXXXXX" — get from Contentstack CMS → Content → Authors,
+  # click each author, and copy the Entry UID from the URL or sidebar.
+  authors:
+    "Juliana Schoettler": "bltf194c847929be649"
+    "Tanmay Ratanpal": "blt125868092579e0b4"
+    "Henry Guo": "bltc4039c14acf38817"
+    "Lauren O'Connor": "blt39093ef8599fa669"
+    "Beata Socha": "bltaed29ca054d0f5b0"
+    "Emily Murphy": "blt700e5af72bbe12e2"
+    "Jae Berlik": "blt568ed37f0dcd6fca"
+    "The Strategy Team": "bltafbef75e67fbbdad"
+    "Joe Bullis": "blt2bede74a3b8ca3df"
+    "Aidan Reilly": "blt8d0cc43e6099531d"
+    "Saurabh Abhyankar": "blt42d46a161aa2850a"
+    "Asim Lilani": "blt3a10c8421e9a79cd"
+    "Devon Plopper": "blt41ebc4e00f51cc38"
+    "Hema Pratapa": "blt9540548324d45cc3"
+    "Antony Elliott": "blt09962f78ac6674c9"
+    "David Peterson": "blt3979bdc12f7d6000"
+    "Erika Moreno": "blt8c3ce76c040f82e5"
+    "Ritika Mehan": "blt90099057eef79259"
+    "Witold Przegalinski": "blt84932b9b8e45237b"
+    "Mitty Chang": "blta27bc3dc00f0c475"
+    "Priya Shetty-Hummel": "bltf056e3d49066695c"
+    "Poliana Branti": "blta843fe244da56267"
+    "Dheeraj Nallagatla": "blt9c96977e0f0a62e0"
+    "Qian Wu": "blt9cdaac469f1f6384"
+    "Kaylee Ritter": "bltdb008ea67606847d"
+    "Kiley Cashion": "blt0c1d2c529db1aaaf"
+    "David Cheng": "blt2e61eb59102fda34"
+    "Igor Freitas": "blt992b703cf7c69ca1"
+    "Sofia Martino": "blt5b16efba1c729a77"
+
+  # Taxonomy configuration. taxonomy_uid and term_uids confirmed from live entry blt3cd0f47c06e1cf66.
+  taxonomy_uid: "blog"
+  taxonomy_terms:
+    "Product Updates": "product_updates"
+    "Mosaic": "mosaic"
+    "Semantic Layer": "semantic_layer"
+    "AI Trends": "ai_trends"
+    "Analytics": "analytics"
+    "Business Intelligence": "business_intelligence"
+
+api:
+  base_url: "https://api-stg.microstrategy.com/cs-software"
+  # Assets endpoint for image upload. The proxy base_url does not expose /assets,
+  # so set this to the direct Contentstack CMA URL if you have a management token,
+  # or ask the proxy team to add an /assets route and set it to {base_url}/assets.
+  # Leave blank to skip automatic asset upload (images will need manual UIDs).
+  assets_url: ""
+
+pipeline:
+  run_claude_enrichment: false
+  claude_model: "claude-sonnet-4-6"
+
+parser_hints:
+  # Number of paragraphs at the top to scan for author/date metadata
+  metadata_in_first_n_paragraphs: 5
+  # Keywords that indicate a CTA section heading
+  cta_keywords:
+    - "Get Started"
+    - "Learn More"
+    - "Contact Us"
+    - "Request a Demo"
+    - "Schedule a Call"
+    - "Try"
+    - "Download"
+    - "Read the"
+    - "Ready to"
+  # Regex pattern matching FAQ heading text (case-insensitive)
+  faq_heading_pattern: "(?i)frequently asked|\\bfaq\\b|questions"
+  # Regex pattern matching CTA section heading (case-insensitive)
+  cta_heading_pattern: "(?i)get started|learn more|contact us|ready to|request a|schedule|try it|sign up"
+  # Minimum number of FAQ question signals before entering FAQ mode
+  min_faq_questions: 1
+  # Percentage of document (from bottom) to treat as potential CTA zone
+  cta_zone_bottom_pct: 0.20
+  # Percentage of document (from top) to treat as potential Quick Answer zone
+  quick_answer_zone_top_pct: 0.30
+  # Regex patterns for editorial metadata to strip from body
+  editorial_banner_patterns:
+    - "(?i)reviewed\\s*\\+\\s*optimized"
+    - "(?i)for\\s+publish"
+    - "(?i)seo:\\s*\\d+"
+    - "(?i)schema markup.*for web team"
+    - "(?i)web team only.*do not publish"
+  # Regex for inline [WEB TEAM: ...] notes to strip from paragraph text
+  inline_editorial_pattern: "\\[WEB TEAM:[^\\]]*\\]"

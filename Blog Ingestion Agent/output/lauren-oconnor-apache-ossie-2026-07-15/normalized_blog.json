@@ -1,0 +1,268 @@
+{
+  "title": "OSI Is Now Apache Ossie",
+  "subtitle": "",
+  "slug": "osi-is-now-apache-ossie",
+  "url": "/osi-is-now-apache-ossie",
+  "author": "Lauren O'Connor",
+  "authorBio": "",
+  "publishDate": "2026-07-16T00:00:00.000Z",
+  "seo": {
+    "metaTitle": "OSI Is Now Apache Ossie",
+    "metaDescription": "OSI is now Apache Ossie. Learn how Strategy Mosaic delivers deterministic AI queries on governed metrics using the open semantic layer standard.",
+    "metaDescriptionFromDoc": false,
+    "targetKeywords": [
+      "Apache Ossie semantic layer",
+      "enterprise semantic layer for AI",
+      "governed metrics for AI agents",
+      "open semantic layer standard",
+      "deterministic AI analytics"
+    ],
+    "metaDescriptionAlternatives": [
+      "Apache Ossie is live. See how Strategy Mosaic makes AI agent queries deterministic with a governed semantic layer validated on TPC-DS benchmark data.",
+      "Discover how Apache Ossie and Strategy Mosaic give enterprise BI teams consistent, trusted metrics for AI agents and dashboards alike."
+    ],
+    "primaryKeywords": [
+      "Apache Ossie semantic layer",
+      "enterprise semantic layer for AI",
+      "governed metrics for AI agents",
+      "open semantic layer standard",
+      "deterministic AI analytics"
+    ],
+    "secondaryKeywords": [
+      "OSI renamed Apache Ossie",
+      "ASF Incubator semantic layer",
+      "MCP-based AI agent queries",
+      "TPC-DS benchmark validation",
+      "vendor-neutral semantic layer",
+      "BI tool metric consistency",
+      "Schwarz Digits analytics",
+      "AI-ready data foundation",
+      "universal semantic layer",
+      "YAML metric definitions",
+      "semantic layer governance",
+      "enterprise BI decision intelligence"
+    ],
+    "longTailKeywords": [
+      "how to make AI agent queries return consistent answers",
+      "why governed metrics matter for enterprise AI analytics",
+      "best way to standardize metric definitions across BI tools and AI agents",
+      "how does Apache Ossie differ from OSI open semantic layer",
+      "what is a deterministic semantic layer for enterprise analytics",
+      "how to validate a semantic layer against benchmark scale data",
+      "why AI agents need a governed semantic layer to trust query results",
+      "how Strategy Mosaic makes the same question return the same answer",
+      "what is MCP-based AI agent access to a semantic layer",
+      "how to align dashboard metrics and AI queries to one definition of revenue",
+      "best open standard for enterprise semantic layer governance",
+      "how Apache Software Foundation governance improves data reliability for AI"
+    ],
+    "brandedKeywords": [
+      "Strategy",
+      "Strategy Mosaic",
+      "Strategy semantic layer",
+      "Strategy Apache Ossie",
+      "Strategy enterprise BI analytics"
+    ]
+  },
+  "quickAnswer": [
+    {
+      "headline": "OSI has been renamed Apache Ossie and accepted into the ASF Incubator.",
+      "body": "The specification itself is unchanged; only the name and governance home moved to the Apache Software Foundation."
+    },
+    {
+      "headline": "A Barcelona hackathon validated Ossie against real benchmark-scale data in 72 hours.",
+      "body": "Schwarz Digits, Strategy Software, and partners tested live MCP-based AI agent queries against TPC-DS data, confirming the approach works."
+    },
+    {
+      "headline": "Strategy Mosaic complements Ossie by making AI queries deterministic, not probabilistic.",
+      "body": "Mosaic's SQL engine generates queries from governed definitions, so the same question returns the same answer every time regardless of which model asks."
+    }
+  ],
+  "quickAnswerFromDoc": false,
+  "heroMedia": null,
+  "body": [
+    {
+      "type": "section",
+      "heading": "",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "The Apache Software Foundation just accepted "
+            },
+            {
+              "text": "Ossie",
+              "url": "https://ossie.apache.org/"
+            },
+            {
+              "text": ", the open specification for the semantic layer and business ontology, into its Incubator program. Until last week the project went by a different name: Open Semantic Interchange, or OSI. The spec itself hasn't changed, only the name and the governance home. Three days before the news broke, it was already being tested in Barcelona."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Seventy-two hours, one room, one goal: build the data architecture that agentic AI needs to work. That's what Schwarz Digits, alongside a team from Strategy Software and other technology partners, did at the SCRM Lidl International Hub in Barcelona. Erika Moreno, Strategy's VP of Product Management, was on-site for the full three days. She'd represented Strategy at an "
+            },
+            {
+              "text": "earlier OSI Initiative meeting",
+              "url": "https://software.strategy.com/blog/a-turning-point-for-enterprise-semantics-insights-from-the-osi-initiative"
+            },
+            {
+              "text": " eight months before, when the standard was still just a shared idea among a room. Most enterprises have decades of business logic locked inside processes, data scattered across silos, and no machine-readable layer for AI to reason against. That's why enterprise AI hallucinates. Not because the models are bad, but because there's no single source of truth."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "What the team tested in Barcelona",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The team's goal was to validate an open, vendor-neutral semantic layer built around the Ossie YAML standard, so that a metric like \"revenue\" means the same thing whether a dashboard, a BI tool, or an AI agent is reading it, alongside a parallel workstream on managing the handoff between whoever produces a dataset and whoever consumes it. Strategy, alongside other Ossie partners, worked alongside Schwarz engineers to put that against a warehouse loaded with TPC-DS benchmark data."
+        },
+        {
+          "type": "paragraph",
+          "text": "Live MCP-based access to a model got tested end to end, letting an AI agent query it directly, and that worked. Three days were enough to confirm the underlying approach holds up against a real, benchmark-scale system."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Why OSI became Apache Ossie",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The project's original abbreviation, OSI, became increasingly problematic as adoption grew because it was easily confused with the Open Source Initiative. During the move into the Apache Incubator, contributors agreed to adopt a new name, Ossie, that gave the project its own identity while leaving the specification itself unchanged."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "What moving to the Apache Software Foundation changes",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Placing a specification under the Apache Software Foundation (ASF) with incubation status means development moves into the open. There are discussions, proposals, and decisions happening through Apache's public community processes, tracked on "
+            },
+            {
+              "text": "GitHub",
+              "url": "https://github.com/apache/ossie"
+            },
+            {
+              "text": "."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Committer status is earned through sustained contribution, not company affiliation, so influence comes from participation rather than ownership by a single vendor."
+        },
+        {
+          "type": "paragraph",
+          "text": "The project has grown quickly under that model. More than 100 commits and 35 merged pull requests have landed since the repository opened, and the working group has grown from 17 organizations at launch to more than 50 today, according to dbt Labs' recap of the project. Strategy Software is one of them, alongside Snowflake, Salesforce, Databricks, RelationalAI, GoodData.AI, and Honeydew, organized into three working groups: metric language, catalog, and ontology. Converters connecting Ossie to the dbt Semantic Layer and to Apache Polaris are already merged."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "A short history of Ossie's new host",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The ASF was incorporated in 1999, growing out of the Apache Group, a community of developers who collaborated on improvements to the NCSA HTTPd web server (the name is often jokingly expanded as \"a patchy server,\" a reference to the project's origins with a collection of patches). What makes that history relevant to a semantic layer standard is the governance model the foundation built along the way, commonly called \"the Apache Way.\" Influence is earned through contribution: code, documentation, community support, and sustained participation."
+        },
+        {
+          "type": "paragraph",
+          "text": "That model has supported hundreds of Apache projects over more than 25 years, including foundational infrastructure like the Apache HTTP Server, Kafka, Spark, and Airflow. Incubation, the stage Ossie is in now, is the path every new Apache project follows, demonstrating that it can build a sustainable, open community before graduating to a Top-Level Project."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "How Strategy Mosaic fits into an open semantic layer",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Strategy Mosaic's",
+              "url": "https://software.strategy.com/strategymosaic"
+            },
+            {
+              "text": " premise lines up directly with what Apache Ossie is trying to standardize: business logic defined once and consumed the same way by every BI tool and every AI agent, without forcing a migration to get there. Mosaic connects to more than 200 data sources and keeps that logic where it lives across any cloud, warehouse, or LLM, so nothing has to move for AI to reason against it correctly."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Where Mosaic adds a specific, technical layer on top of an open spec like Ossie is in how the query gets built. Most AI-on-data approaches ask a large language model to translate a question directly into SQL, which is a probabilistic step: the same question can produce a different query depending on which model answers it, or even the same model on a different day. Mosaic keeps that step deterministic. The LLM handles the natural language; Mosaic's SQL engine generates the query from governed definitions, so the same question returns the same answer every time, regardless of which model is asking."
+        },
+        {
+          "type": "paragraph",
+          "text": "That role complements what an open standard like Apache Ossie provides. The spec defines how semantic metadata moves between systems without loss of meaning; Mosaic is one of the systems that consumes and executes against that metadata."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "What this means for enterprise data teams",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The rename is the easy part. The more important shift is the growing recognition that AI needs a semantic layer that is open and portable, not one tied to a single BI tool or data platform. The Barcelona hackathon put that idea to a real test: validating that an Ossie-based semantic layer can move between vendors without losing its meaning, with a parallel look at how to govern the data changing hands behind it. That is the same principle behind Strategy Mosaic: define business logic once and make it available wherever AI needs to use it."
+        }
+      ]
+    }
+  ],
+  "faq": [],
+  "postFaqContent": [],
+  "suggestedTaxonomyTerms": [
+    "Semantic Layer",
+    "Enterprise AI",
+    "Open Standards",
+    "Data Governance",
+    "Business Intelligence"
+  ],
+  "cta_list": [],
+  "internalLinks": [
+    "/blog/a-turning-point-for-enterprise-semantics-insights-from-the-osi-initiative",
+    "/strategymosaic"
+  ],
+  "externalLinks": [
+    "https://ossie.apache.org/",
+    "https://software.strategy.com/blog/a-turning-point-for-enterprise-semantics-insights-from-the-osi-initiative",
+    "https://github.com/apache/ossie",
+    "https://software.strategy.com/strategymosaic"
+  ],
+  "validationWarnings": [
+    "No author name or publish date found in the document.",
+    "The section heading 'A short history new Ossie host' used multiple [B] spans including 'new' and 'host' as separate bold segments — interpreted as a stylistic rendering of 'A short history of Ossie's new host' and normalized accordingly.",
+    "No FAQ section found; faq array is empty.",
+    "No CTA boxes found; cta_list is empty.",
+    "No hero image or video found in the document.",
+    "The internal link for Strategy Mosaic resolves to https://software.strategy.com/strategymosaic (external domain); listed under both internalLinks as /strategymosaic and externalLinks as full URL — human review recommended to confirm correct domain handling.",
+    "publishDate was not found in the document — defaulted to tomorrow (2026-07-16T00:00:00.000Z). Confirm before publishing.",
+    "No Quick Answer box found in document — 3 bullets synthesized from article content. Review before publishing and edit in the Contentstack editor if needed."
+  ]
+}

@@ -1,0 +1,507 @@
+{
+  "title": "Semantic Layer Evaluation: Why Forrester Says Start With Your Target State Architecture",
+  "subtitle": "",
+  "slug": "semantic-layer-evaluation-forrester-target-state-architecture",
+  "url": "/semantic-layer-evaluation-forrester-target-state-architecture",
+  "author": "Beata",
+  "authorBio": "",
+  "publishDate": "2026-06-18T00:00:00.000Z",
+  "seo": {
+    "metaTitle": "Semantic Layer Evaluation: Forrester's Target State Architecture",
+    "metaDescription": "Forrester says semantic layer buyers should map options to their target state architecture — not vendor labels. Here's how to apply that framework, and where Mosaic fits.",
+    "metaDescriptionFromDoc": true,
+    "targetKeywords": [
+      "semantic layer evaluation",
+      "enterprise semantic layer",
+      "target state architecture",
+      "semantic layer for AI",
+      "governed metrics platform"
+    ],
+    "metaDescriptionAlternatives": [
+      "Architecture fit drives semantic layer value. Learn why Forrester prioritizes target state design and how Strategy Mosaic delivers governed metrics across AI and BI.",
+      "Discover why Forrester says architecture compatibility defines semantic layer success. Strategy Mosaic governs business meaning across BI, data products, and AI agents."
+    ],
+    "primaryKeywords": [
+      "semantic layer evaluation",
+      "enterprise semantic layer",
+      "target state architecture",
+      "semantic layer for AI",
+      "governed metrics platform"
+    ],
+    "secondaryKeywords": [
+      "Forrester semantic layer guidance",
+      "BI architecture decision",
+      "independent semantic layer",
+      "semantic layer vendor selection",
+      "enterprise BI governance",
+      "data product governance",
+      "AI-ready data foundation",
+      "semantic layer for analytics leaders",
+      "business metrics consistency",
+      "semantic layer compatibility",
+      "enterprise data strategy",
+      "semantic layer across BI tools"
+    ],
+    "longTailKeywords": [
+      "how to evaluate a semantic layer for enterprise architecture",
+      "why Forrester recommends mapping semantic layers to target state architecture",
+      "best way to choose a semantic layer platform for AI and BI",
+      "how to govern business metrics across multiple BI tools",
+      "what is an independent semantic layer and why does it matter",
+      "how semantic layer architecture affects long-term AI reliability",
+      "why vendor category matters less than architecture fit in semantic layer selection",
+      "how to align semantic layer platforms with data and AI strategy",
+      "what enterprise analytics leaders should prioritize in semantic layer evaluation",
+      "how to ensure consistent metrics across BI tools and AI agents",
+      "why architecture compatibility determines semantic layer durability",
+      "best semantic layer platform for governed data in enterprise AI"
+    ],
+    "brandedKeywords": [
+      "Strategy",
+      "Strategy Mosaic",
+      "Strategy Software",
+      "Strategy universal semantic layer",
+      "Strategy Mosaic for enterprise AI"
+    ]
+  },
+  "quickAnswer": [
+    {
+      "headline": "The most important semantic layer buying decision is not which vendor category sounds right.",
+      "body": "It is whether the platform can support the data and AI architecture you are trying to build, according to Forrester."
+    },
+    {
+      "headline": "Forrester advises buyers to map semantic layer offerings to current and target state architecture first.",
+      "body": "Vendor labels and heritage should come second — architecture compatibility determines long-term fit and durability."
+    },
+    {
+      "headline": "Strategy Software's Mosaic is designed for organizations requiring an independent semantic layer.",
+      "body": "It governs business meaning across BI tools, data products, applications, and AI agents, independent of any single platform."
+    }
+  ],
+  "quickAnswerFromDoc": true,
+  "heroMedia": null,
+  "body": [
+    {
+      "type": "section",
+      "heading": "",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Enterprise technology decisions often begin with the vendor list."
+        },
+        {
+          "type": "paragraph",
+          "text": "That is understandable. Buyers need to compare options. Analysts need to categorize markets. Internal stakeholders need a simple way to understand what is available. Categories make complicated decisions easier to discuss."
+        },
+        {
+          "type": "paragraph",
+          "text": "But they can also make the wrong question feel like the right one."
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "In its report "
+            },
+            {
+              "text": "Make Data AI Ready Via Semantic Layer Platforms",
+              "italic": true
+            },
+            {
+              "text": ", Forrester gives data and analytics leaders a better starting point:"
+            }
+          ]
+        },
+        {
+          "type": "blockquote",
+          "text": "\"Don't shortlist [semantic layer platforms] based on labels alone. Instead, map offerings to your current and target state architecture. Then data and analytics leaders should use vendor heritage to understand each category's strengths and tradeoffs.\" — Forrester Research, Make Data AI Ready Via Semantic Layer Platforms, June 2026"
+        },
+        {
+          "type": "paragraph",
+          "text": "That guidance matters because the semantic layer market is not really one market moving from the same origin point. The market includes BI-native platforms, full-stack analytics vendors, data virtualization providers, lakehouse-native approaches, semantic layer specialists, and data graph providers. Each category reflects where the vendor started, what it optimizes for, and how it expects enterprises to consume governed business logic."
+        },
+        {
+          "type": "paragraph",
+          "text": "But the real question is not, \"Which semantic layer category sounds closest to us?\""
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "The real question is, "
+            },
+            {
+              "text": "\"What kind of data and AI architecture are we trying to build, and which semantic layer can survive that future?\"",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Vendor Heritage Matters, But Architecture Prevails",
+          "level": 3
+        },
+        {
+          "type": "paragraph",
+          "text": "Forrester's taxonomy is useful because it shows how vendor origins shape product strengths and tradeoffs."
+        },
+        {
+          "type": "paragraph",
+          "text": "The table below maps each origin to its primary strength and its natural architectural boundary:"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Vendor Origin",
+            "Primary Strength",
+            "Architectural Boundary"
+          ],
+          "rows": [
+            [
+              "Full-stack BI platform",
+              "Pre-integrated analytics components within one ecosystem",
+              "Optimized for organizations standardized on that vendor; limited portability outside it"
+            ],
+            [
+              "Lakehouse-native",
+              "Tight performance integration, simplified operations for teams consolidating on one data platform",
+              "Well-suited when the lakehouse is both the current and long-term architectural center"
+            ],
+            [
+              "Data virtualization",
+              "Federation, policy enforcement, and cross-source access",
+              "Strong when federation is the primary requirement; may not extend cleanly to AI agent consumption"
+            ],
+            [
+              "Semantic layer specialist",
+              "Tool-agnostic semantics, reusable metric services, multitool delivery, governance",
+              "Designed for heterogeneous environments; depends on enterprise needing independence from any single platform"
+            ],
+            [
+              "Data graph provider",
+              "Relationship-centric semantics, entity resolution, knowledge graph integration",
+              "Strong when entity relationships and graph traversal are core to the use case"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Source: Forrester Research, "
+            },
+            {
+              "text": "Make Data AI Ready Via Semantic Layer Platforms",
+              "italic": true
+            },
+            {
+              "text": ", June 2026"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "These distinctions are useful. But the decision depends on where the buyer is today and where the buyer is going."
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "If the current state is fragmented — with multiple BI tools, multiple data platforms, legacy assets, cloud services, and embedded analytics — then the semantic layer has to do more than improve one reporting environment. "
+            },
+            {
+              "text": "The platform must create consistency across a heterogeneous estate.",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "If the target state includes AI agents, natural language analytics, governed data products, and ongoing technology churn, then the semantic layer must be more than a modeling layer inside one tool. The platform must become a durable control plane for trusted business meaning."
+        },
+        {
+          "type": "heading",
+          "text": "Start With the Architecture You Want to Protect",
+          "level": 3
+        },
+        {
+          "type": "paragraph",
+          "text": "A semantic layer decision is not just a feature decision. The choice is about dependency."
+        },
+        {
+          "type": "paragraph",
+          "text": "Where will business logic live? Who governs it? How portable is it? What happens when a BI tool changes? What happens when a data platform changes? What happens when the organization adopts new AI experiences? What happens when a business definition changes and dozens of downstream assets depend on it?"
+        },
+        {
+          "type": "paragraph",
+          "text": "These are all architecture questions."
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "The wrong semantic layer can reduce complexity in one part of the stack while creating dependency somewhere else",
+              "bold": true
+            },
+            {
+              "text": ". A platform-native semantic layer may be convenient, but it can also bind meaning tightly to one vendor's ecosystem. A BI-native semantic layer may support reporting well, but it may not extend cleanly into AI agents, data products, or broader data fabric services. A thin metrics layer may help with basic consistency, but fail when the enterprise needs dimensional depth, governance, access control, lineage, and runtime optimization."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The right semantic layer should protect business meaning from technology churn."
+        },
+        {
+          "type": "paragraph",
+          "text": "The urgency is real because the data stack is not standing still. Cloud architectures are shifting. BI tools are evolving. AI interfaces are emerging quickly. Organizations are moving between platforms, consolidating workloads, managing cost pressures, and trying to avoid lock-in."
+        },
+        {
+          "type": "paragraph",
+          "text": "In that environment, the semantic layer should not become another fragile dependency. The right choice becomes the stable layer above the churn."
+        },
+        {
+          "type": "heading",
+          "text": "Why an Independent Semantic Layer?",
+          "level": 3
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "An independent semantic architecture starts with the enterprise: ",
+              "bold": true
+            },
+            {
+              "text": "\"Where should business meaning live so it can survive changes in tools, platforms, and interfaces?\""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A universal semantic layer solves an enterprise architecture problem: multiple tools, platforms, and AI experiences, one governed semantic control plane."
+        },
+        {
+          "type": "paragraph",
+          "text": "For many enterprises, the realistic target state is not a single-vendor analytics stack. It is an environment where business users, analysts, applications, and AI agents can consume trusted data through different experiences while relying on the same governed definitions underneath."
+        },
+        {
+          "type": "paragraph",
+          "text": "That requires a semantic layer that:"
+        },
+        {
+          "type": "list",
+          "style": "bullet",
+          "items": [
+            "Sits above BI tools and data platforms, not inside one of them",
+            "Centralizes business logic, metrics, relationships, and policies",
+            "Publishes those semantics consistently into many consumption experiences",
+            "Absorbs platform changes without forcing you to rewrite the business"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "What to Ask Before Choosing a Semantic Layer",
+          "level": 3
+        },
+        {
+          "type": "paragraph",
+          "text": "Forrester's \"current and target state architecture\" guidance gives buyers a practical way to structure evaluation: architecture first, vendor label second."
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "1. How heterogeneous is your environment today?",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Is the organization standardized on one data platform and one analytics tool, or does it operate across multiple clouds, warehouses, BI tools, and business applications? The more heterogeneous the environment, the more important semantic independence becomes."
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "2. What needs to consume the semantic layer?",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Is the use case mainly dashboard consistency, or does the organization need governed semantics for BI, embedded analytics, data products, natural language analytics, and AI agents? The broader the consumption layer, the less useful a BI-only frame becomes."
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "3. How should business logic be governed?",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Can definitions be versioned, tested, reused, and audited? Can access policies and entitlements be enforced consistently? Can teams understand lineage and impact when definitions change?"
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "4. How portable are your semantic assets?",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Can the organization preserve its definitions if it changes BI tools, adds a new cloud platform, or introduces new AI interfaces? Or is the business logic effectively trapped in one vendor's stack?"
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "5. Does this choice move you toward your target state?",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A semantic layer that solves today's reporting inconsistency but cannot support tomorrow's AI architecture may become another modernization project later. The platform should accelerate your move toward the target state architecture you actually want to live in."
+        },
+        {
+          "type": "paragraph",
+          "text": "These questions force the conversation back where it belongs: architecture first, vendor label second."
+        },
+        {
+          "type": "heading",
+          "text": "Where Mosaic Fits",
+          "level": 3
+        },
+        {
+          "type": "paragraph",
+          "text": "Mosaic, from Strategy Software, is an independent, universal semantic layer that centralizes business logic, metric definitions, access policies, and relationships — and delivers them consistently across BI tools, data products, applications, and AI agents, regardless of which data platform or LLM an organization uses."
+        },
+        {
+          "type": "paragraph",
+          "text": "Built by Strategy Software as an independent semantic layer for the entire data and AI estate, Mosaic defines, governs, and delivers trusted business meaning across:"
+        },
+        {
+          "type": "list",
+          "style": "bullet",
+          "items": [
+            "BI tools and reporting environments",
+            "Data products and shared datasets",
+            "Operational and embedded analytics",
+            "Natural language analytics and AI agents"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Mosaic helps decouple business meaning from both the physical data layer and the consumption layer. The platform is proven at scale across enterprises including Fannie Mae, Pfizer, and Porsche, supporting tens of thousands of users across some of the world's most complex data environments."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mosaic can absolutely support BI modernization. But its architectural value is larger: it acts as a semantic control plane for trusted analytics and AI. Mosaic lets buyers think beyond the next dashboarding decision and toward a target state where business meaning is governed once, delivered broadly, and protected from churn."
+        },
+        {
+          "type": "heading",
+          "text": "The Takeaway",
+          "level": 3
+        },
+        {
+          "type": "paragraph",
+          "text": "Forrester's vendor taxonomy is useful, but its most important buying guidance may be simpler: map semantic layer offerings to your current and target state architecture."
+        },
+        {
+          "type": "paragraph",
+          "text": "That should be the organizing principle."
+        },
+        {
+          "type": "list",
+          "style": "bullet",
+          "items": [
+            "If your target state is a single analytics stack, a platform-native semantic layer may be enough.",
+            "If your target state is a lakehouse-centered operating model, a lakehouse-native option may make sense.",
+            "If your target state requires federation across complex environments, data virtualization may be central."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "But if your target state is an independent semantic layer that governs business meaning across BI tools, data products, applications, and AI agents, then the buyer conversation has to move to building an "
+            },
+            {
+              "text": "independent, governed, reusable, and durable context layer that only a universal and independent semantic layer can provide.",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The right architecture is not just about where analytics happens today. The real question is where trusted business meaning should live tomorrow."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "What does \"target state architecture\" mean?",
+      "answer": "Target state architecture is the future operating model an organization is trying to build. In this context, it means the desired structure for data, analytics, governance, AI, and business consumption across tools and platforms.",
+      "accordionEnabled": true
+    },
+    {
+      "question": "What is headless BI?",
+      "answer": "Headless BI separates the modeling and metrics layer from the visualization layer. Instead of locking logic inside one BI front end, it allows governed metrics and definitions to be consumed by multiple tools or experiences.",
+      "accordionEnabled": true
+    },
+    {
+      "question": "Why does semantic layer independence matter?",
+      "answer": "Independence matters because enterprise technology stacks change. BI tools, data platforms, cloud strategies, and AI interfaces will continue to evolve. An independent semantic layer helps preserve trusted business definitions and governance across that churn, reducing rework and avoiding unnecessary lock-in.",
+      "accordionEnabled": true
+    }
+  ],
+  "postFaqContent": [],
+  "suggestedTaxonomyTerms": [
+    "Semantic Layer",
+    "Data Architecture",
+    "Enterprise AI",
+    "Data Governance",
+    "Analytics Strategy"
+  ],
+  "cta_list": [
+    {
+      "headline": "Read the full Forrester Research report",
+      "body": "Read the full Forrester Research report, courtesy of Strategy Software.",
+      "buttonText": "Read the Report",
+      "buttonUrl": ""
+    },
+    {
+      "headline": "See Mosaic in action",
+      "body": "See Mosaic in action",
+      "buttonText": "Request a Demo",
+      "buttonUrl": ""
+    }
+  ],
+  "internalLinks": [],
+  "externalLinks": [],
+  "validationWarnings": [
+    "No author name or publish date found in the document.",
+    "No [LINK:] markers found in the document; internalLinks and externalLinks are empty.",
+    "CTA items 'Read the full Forrester Research report' and 'See Mosaic in action' appear at the end of the body with a placeholder '[link to Mosaic product page or demo request]' — no actual URLs provided; buttonUrl left empty for both.",
+    "The placeholder '[link to Mosaic product page or demo request]' was omitted from body content as it is an editorial instruction, not publishable text.",
+    "The document uses [BOLD] markers outside [BOX] blocks on numbered question headings (e.g. '1. How heterogeneous...') — these were mapped as bold paragraph runs within the section blocks.",
+    "Forrester blockquote attribution was embedded in a plain [P] paragraph with attribution pattern; mapped as blockquote.",
+    "No H1 marker explicitly present in the document; the first [BOLD][B]...[/B] at the top was treated as the title/H1.",
+    "The FAQ heading 'Frequently asked questions' appeared as an H3 in the document; treated as FAQ section per extraction rules.",
+    "publishDate was not found in the document — defaulted to pipeline run date (2026-06-17T00:00:00.000Z). Confirm before publishing.",
+    "Meta description from doc is 170 chars (over 160 — Google may truncate). Kept verbatim; consider shortening before publishing."
+  ]
+}

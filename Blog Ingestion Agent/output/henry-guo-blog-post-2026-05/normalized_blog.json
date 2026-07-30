@@ -1,0 +1,210 @@
+{
+  "title": "May 2026: Consistent Governed Data, Less Compliance Work, and Actionable Dashboards",
+  "subtitle": "",
+  "slug": "may-2026-consistent-governed-data-less-compliance-work-and-actionable-dashboards",
+  "url": "/may-2026-consistent-governed-data-less-compliance-work-and-actionable-dashboards",
+  "author": "Henry Guo",
+  "authorBio": "",
+  "publishDate": "May 2026",
+  "seo": {
+    "metaTitle": "May 2026: Governed Data, Compliance & Actionable Dashboards",
+    "metaDescription": "Strategy's May 2026 release brings Databricks Unity Catalog metadata to Mosaic, GDPR telemetry anonymization, SQL transaction forms, and global legends for dashboards.",
+    "targetKeywords": [
+      "Databricks Unity Catalog metadata",
+      "GDPR telemetry anonymization",
+      "SQL transaction forms",
+      "Strategy Mosaic",
+      "Library Web dashboards"
+    ]
+  },
+  "quickAnswer": [
+    "Strategy's May 2026 release helps teams keep governed data consistent from source to semantic layer, automate GDPR-aligned telemetry anonymization, and turn dashboards into places where users can act on data.",
+    "Updates include Databricks Unity Catalog metadata in Strategy Mosaic, GDPR-aligned anonymization for Platform Analytics telemetry, SQL transaction forms in Library Web, and customizable global legends.",
+    "For organizations running transactional workflows in Report Services Documents, SQL transaction forms open a direct path to modernize those applications in Library Web."
+  ],
+  "heroMedia": null,
+  "body": [
+    {
+      "type": "section",
+      "heading": "",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "For AI-powered workflows to produce reliable results, they need trusted context behind every answer: consistent source metadata, protected platform activity, and dashboards that connect insight to action. May 2026 focuses on exactly that."
+        },
+        {
+          "type": "paragraph",
+          "text": "This month's highlights include Databricks Unity Catalog metadata imported into Strategy Mosaic, native GDPR-aligned telemetry anonymization, SQL transaction forms in Library Web dashboards, and customizable global legends. Together, they reduce friction across governance, compliance, and dashboard workflows."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Keep governed data consistent from source to semantic layer",
+      "subheading": "Databricks Unity Catalog Metadata in Mosaic",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "When column descriptions are defined in Databricks Unity Catalog, that context often needs to be recreated downstream before teams can use it in Mosaic. Re-entering descriptions manually creates two sources of truth that drift apart over time."
+        },
+        {
+          "type": "heading",
+          "text": "Databricks Unity Catalog Metadata in Mosaic",
+          "level": 3
+        },
+        {
+          "type": "paragraph",
+          "text": "With this release, teams no longer need to re-enter Databricks column descriptions manually in Mosaic. Mosaic Studio now imports column comments from Databricks Unity Catalog as extended metadata, making those descriptions available for AI-assisted object creation and naming inside Mosaic Studio and for downstream semantic workflows and AI-assisted experiences."
+        },
+        {
+          "type": "paragraph",
+          "text": "The result is less duplicate metadata work and more consistent context across the source and semantic layer. For teams already maintaining column descriptions in Databricks Unity Catalog, the workflow becomes simpler: import those descriptions into Strategy Mosaic rather than re-entering them manually."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Automate compliance without manual cleanup",
+      "subheading": "Automated GDPR-Aligned Anonymization for Platform Analytics Telemetry",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "GDPR and related privacy requirements can require organizations to honor right-to-erasure requests across audit and telemetry logs. Organizations may need to remove personal identifiers while preserving activity history for audit and operational reporting. Anonymization helps balance both needs: user identity is removed while activity records are preserved. In many environments, achieving that balance has required custom SQL or manual processes that are slow, error-prone, and difficult to audit consistently."
+        },
+        {
+          "type": "heading",
+          "text": "Automated GDPR-Aligned Anonymization for Platform Analytics Telemetry",
+          "level": 3
+        },
+        {
+          "type": "paragraph",
+          "text": "For Platform Analytics telemetry, this replaces the custom SQL or scripted processes many organizations have used to meet this requirement. After a configurable retention period, for example 90 days, personal identifiers are irreversibly removed from Platform Analytics telemetry records. Activity details used for compliance reporting and operational analysis are preserved; only the personal identifiers are removed. Administrators can run the process on a schedule through the REST API, with execution summaries available for monitoring of number of rows affected."
+        },
+        {
+          "type": "paragraph",
+          "text": "Telemetry anonymization moves from a manual cleanup task to a built-in platform process. The audit history stays intact while personal identifiers are removed."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Turn dashboards into places where work happens",
+      "subheading": "SQL Transaction Forms in Library Web Dashboards",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "A dashboard that shows what is happening is useful. A dashboard that lets users act on what they see delivers a different kind of value. This release makes dashboards more actionable and easier to use."
+        },
+        {
+          "type": "heading",
+          "text": "SQL Transaction Forms in Library Web Dashboards",
+          "level": 3
+        },
+        {
+          "type": "paragraph",
+          "text": "SQL transaction forms bring transactional writeback capabilities to Library Web dashboards for the first time, giving organizations running Report Services Document (RSD)-based workflows a direct path to modernize those applications in Library Web. For all users, the value is direct: business users typically review analytics, then leave to record what they decided elsewhere, a handoff that introduces room for error."
+        },
+        {
+          "type": "paragraph",
+          "text": "SQL-based transaction forms close that gap. Dashboard authors drag and drop fields, map them to database columns, and add Submit and Cancel buttons directly in Library Web. Business users complete responsive, keyboard-accessible forms on web or mobile to add, update, or delete records in relational databases, handling orders, inspections, task logs, and approvals without leaving the Strategy experience."
+        },
+        {
+          "type": "paragraph",
+          "text": "The dashboard becomes part of the workflow, not just the place users review results."
+        },
+        {
+          "type": "video",
+          "url": "https://microstrategy.sharepoint.com/sites/MKT/_layouts/15/stream.aspx?id=%2Fsites%2FMKT%2FShared%20Documents%2FMKT%20%2D%20Product%20Marketing%2FSource%20Files%20for%20PMM%20Assets%2FQuarterly%20What%27s%20New%20Product%20Release%2FWhat%27s%20New%20Images%2FBCDA%2D7391%5FForm%20Transactions%5F26%2D05%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E8dd85ee1%2Df8db%2D40d0%2D8109%2D522d1dd167be",
+          "embedType": "sharepoint"
+        },
+        {
+          "type": "heading",
+          "text": "Customizable Global Legends for Cleaner Dashboards",
+          "level": 3
+        },
+        {
+          "type": "paragraph",
+          "text": "When multiple charts share the same dimensions, each chart carries its own legend. The same color key appears three, four, five times on a single page. Canvas space fills up with repeated context instead of more data. For dashboards with repeated dimensions such as region, product, customer segment, or time period, authors can replace multiple redundant legends with one shared control."
+        },
+        {
+          "type": "paragraph",
+          "text": "Authors can now detach legends from individual charts, position them anywhere on the page, and configure a single global legend to control multiple visualizations at once. Consumers click a legend item to filter or highlight data across several charts simultaneously. Exports, mobile views, and accessibility workflows all respect the configured layout. Less clutter, more signal, and a dashboard that is easier to read and reuse."
+        },
+        {
+          "type": "video",
+          "url": "https://microstrategy.sharepoint.com/:v:/r/sites/MKT/Shared%20Documents/MKT%20-%20Product%20Marketing/Source%20Files%20for%20PMM%20Assets/Quarterly%20What%27s%20New%20Product%20Release/What%27s%20New%20Images/BCED-4080_GlobalLegend-Dashboards.mp4?csf=1&web=1&e=OlJz4N",
+          "embedType": "sharepoint"
+        },
+        {
+          "type": "paragraph",
+          "text": "May 2026 is a focused release. Column descriptions from Databricks Unity Catalog become easier to reuse in Strategy Mosaic. Telemetry anonymization becomes a built-in platform process. Dashboards can capture actions and updates, not just display results, while becoming cleaner and easier to use. Together, these updates strengthen the governed context behind analytics and AI-assisted workflows."
+        },
+        {
+          "type": "paragraph",
+          "text": "Learn more on our What's New page, including documentation for Strategy Mosaic, Platform Analytics, and Library Web."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is included in Strategy's May 2026 release?",
+      "answer": "Strategy's May 2026 release includes Databricks Unity Catalog metadata in Strategy Mosaic, GDPR-aligned telemetry anonymization for Platform Analytics, SQL transaction forms in Library Web dashboards, and customizable global legends.",
+      "accordionEnabled": true
+    },
+    {
+      "question": "Does Strategy Mosaic support Databricks Unity Catalog?",
+      "answer": "Yes. Mosaic Studio connects to Databricks environments and, as of May 2026, can import column-level metadata from Databricks Unity Catalog directly into Strategy Mosaic models. That keeps source-aligned context consistent across both platforms and makes metadata available for AI-assisted modeling and downstream semantic workflows through Strategy Mosaic.",
+      "accordionEnabled": true
+    },
+    {
+      "question": "How does Databricks Unity Catalog metadata integration work with Strategy Mosaic?",
+      "answer": "Mosaic Studio can now import column comments from Databricks Unity Catalog as extended metadata. Those descriptions are used for AI-assisted modeling and object naming inside Mosaic Studio, and can support downstream semantic workflows and AI-assisted experiences through Strategy Mosaic. That gives teams richer, source-aligned context in Strategy Mosaic without maintaining descriptions in two places.",
+      "accordionEnabled": true
+    },
+    {
+      "question": "What does GDPR telemetry anonymization do in the Strategy platform?",
+      "answer": "After a retention period you configure, for example 90 days, personal identifiers are irreversibly removed from Platform Analytics telemetry records. Activity details are preserved for operational and compliance reporting. Built-in system accounts are automatically excluded, so administrative activity is unaffected. The process runs on a schedule via REST API and returns execution summaries for monitoring. It is designed to help organizations in regulated industries support GDPR right-to-erasure workflows in Mosaic Cloud Environment (MCE) deployments through native platform controls, without custom SQL or manual cleanup.",
+      "accordionEnabled": true
+    },
+    {
+      "question": "How do SQL transaction forms in Library Web dashboards work?",
+      "answer": "Dashboard authors design forms in Library Web by dragging and dropping fields, mapping them to database columns, and adding Submit and Cancel buttons. Business users on web or mobile complete the form to add, update, or delete records in relational databases directly from the dashboard, without navigating to a separate application or workflow. For organizations migrating from Report Services Documents, this brings transactional form capabilities to Library Web dashboards for the first time.",
+      "accordionEnabled": true
+    },
+    {
+      "question": "Can SQL transaction forms replace transactional Report Services Documents in Library Web?",
+      "answer": "Yes. SQL transaction forms in Library Web dashboards bring writeback capabilities previously available only in Report Services Documents to the modern Library experience. Organizations running transactional workflows in RSDs can now rebuild those forms in Library Web dashboards, supporting their migration to the modern platform.",
+      "accordionEnabled": true
+    },
+    {
+      "question": "How do customizable global legends work across charts in Strategy dashboards?",
+      "answer": "Authors can now create a legend selector, position it freely on the page, and configure it to control multiple visualizations that share the same attributes. Consumers click legend items to filter or highlight data across several charts simultaneously. The layout persists in exports, mobile views, and accessibility workflows.",
+      "accordionEnabled": true
+    }
+  ],
+  "cta": {
+    "headline": "See What's New in Strategy May 2026",
+    "body": "Explore the full release notes and documentation for Strategy Mosaic, Platform Analytics, and Library Web on our What's New page.",
+    "buttonText": "View What's New",
+    "buttonUrl": ""
+  },
+  "internalLinks": [],
+  "externalLinks": [
+    "https://microstrategy.sharepoint.com/sites/MKT/_layouts/15/stream.aspx?id=%2Fsites%2FMKT%2FShared%20Documents%2FMKT%20%2D%20Product%20Marketing%2FSource%20Files%20for%20PMM%20Assets%2FQuarterly%20What%27s%20New%20Product%20Release%2FWhat%27s%20New%20Images%2FBCDA%2D7391%5FForm%20Transactions%5F26%2D05%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E8dd85ee1%2Df8db%2D40d0%2D8109%2D522d1dd167be",
+    "https://microstrategy.sharepoint.com/:v:/r/sites/MKT/Shared%20Documents/MKT%20-%20Product%20Marketing/Source%20Files%20for%20PMM%20Assets/Quarterly%20What%27s%20New%20Product%20Release/What%27s%20New%20Images/BCED-4080_GlobalLegend-Dashboards.mp4?csf=1&web=1&e=OlJz4N"
+  ],
+  "validationWarnings": [
+    "Two media assets are SharePoint-hosted MP4 video files; access may require authentication. Confirm public embed URLs or replace with accessible CDN links before publishing.",
+    "The closing paragraph references a 'What's New page' with no URL provided; buttonUrl for CTA is left empty and should be filled in by the web team.",
+    "No heroMedia was present in the document; the field is set to null.",
+    "Author bio was not included in the document; authorBio is empty.",
+    "The [BOLD] 'Image:' labels preceding the SharePoint video URLs appear to label videos, not static images — extracted as video blocks. Human review recommended to confirm asset types.",
+    "H3 'Customizable Global Legends for Cleaner Dashboards' appears as a second H3 under the same H2 'Turn dashboards into places where work happens'; only the first H3 is mapped to section subheading; subsequent H3 is a heading block inside blocks."
+  ]
+}

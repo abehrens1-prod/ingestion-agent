@@ -1,0 +1,830 @@
+{
+  "notice": "Entry created successfully.",
+  "entry": {
+    "title": "v2 - What Is a Semantic Layer? Why Forrester Just Reclassified It as Enterprise Infrastructure",
+    "url": "/software/blog/what-is-a-semantic-layer-why-forrester-reclassified-it-as-enterprise-infrastructure",
+    "lead_paragraph": {
+      "type": "doc",
+      "attrs": {},
+      "uid": "1ed10e081c5b4c8699a93ae8999baa94",
+      "children": [
+        {
+          "type": "p",
+          "uid": "c19c48e07103438e815a8a344f612a53",
+          "attrs": {},
+          "children": [
+            {
+              "text": "Quick Answer",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "uid": "e81857597216419480c5a9fb53e7a78b",
+          "attrs": {},
+          "children": [
+            {
+              "text": "A semantic layer is a governed layer that centralizes metric definitions, calculations, dimensional models, access policies, and relationships, so BI tools, data products, and AI agents all operate on consistent, trusted business context."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "uid": "299762b1ebcf4daa8f1b5e8cffa6dd94",
+          "attrs": {},
+          "children": [
+            {
+              "text": "Forrester's 2026 report reclassifies the next-generation semantic layer as a control plane for enterprise data and analytics, not simply a BI accessory."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "uid": "bdea15af58384e9c90f41d1cb3df3ea9",
+          "attrs": {},
+          "children": [
+            {
+              "text": "For years, the semantic layer sat in a familiar place in the analytics conversation. It was important, yes, but often treated as a BI concern: a modeling layer, a metrics repository, a way to keep dashboards from disagreeing with each other."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "uid": "bdc3874a47064fa7aeaf76cb1f91c51a",
+          "attrs": {},
+          "children": [
+            {
+              "text": "That framing was never wrong. It was just too small."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "uid": "dabe83c3c4554699988705e5b8a38df0",
+          "attrs": {},
+          "children": [
+            {
+              "text": "In their new report, Make Data AI Ready Via Semantic Layer Platforms, published in June 2026, Forrester Research makes a sharper call. The next-generation semantic layer is not simply a BI accessory or a modeling convenience."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "uid": "d693b75745804a3d907ba22e9bbdc130",
+          "attrs": {},
+          "children": [
+            {
+              "text": "Forrester defines the next-gen semantic layer as:"
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "uid": "046927c608be45c69db0339544224584",
+          "attrs": {},
+          "children": [
+            {
+              "text": "\"An enterprise semantic layer that is a control plane for data and analytics applications and which centralizes and governs metric definitions, dimensional models, calculations, and access policies, and delivers them consistently to BI tools, data products, and AI agents, seamlessly integrated with the enterprise data fabric.\" — Make Data AI Ready Via Semantic Layer Platform, Forrester Research, June 2026"
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "uid": "ce78ac31b5a14b64b2161e5508975222",
+          "attrs": {},
+          "children": [
+            {
+              "text": "That distinction matters."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "uid": "4af6f677d249498a93ca24d2aeaa36b9",
+          "attrs": {},
+          "children": [
+            {
+              "text": "A modeling layer helps analysts define metrics. A control plane governs how meaning, access, logic, and policies move across an enterprise data ecosystem. One supports reporting. The other supports the operating model for trusted analytics, data products, and AI agents."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "uid": "00023cf3cfdf4f969bff4459d02f47e4",
+          "attrs": {},
+          "children": [
+            {
+              "text": "The reclassification is more than a vocabulary update."
+            }
+          ]
+        }
+      ],
+      "_version": 1
+    },
+    "content": [
+      {
+        "section_anchor": {
+          "header_text": "The Semantic Layer Did Not Begin With AI",
+          "_metadata": {
+            "uid": "cs46cc21165b4fd948"
+          },
+          "section_id": "the-semantic-layer-did-not-begin-with-ai"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "75bcb5997d6f449caaad8f8b52bf1f8e",
+            "children": [
+              {
+                "type": "p",
+                "uid": "d6bfc25d23cb4463b96445f89d7c6900",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The current urgency around semantic layers is easy to understand. Enterprise AI needs consistent meaning. Natural language analytics needs governed definitions. AI agents need to know which metrics, entities, relationships, and policies they can safely use."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "130fe8b6d4614128a1b5fc1edfee2cea",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "But the need for a semantic layer did not start with generative AI or agentic AI."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "3dad06ddaeb14c24922ed1e170f393b8",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Enterprises have been dealing with fragmented analytics environments for years. Most enterprises are running multiple BI tools, multiple data platforms, legacy systems they can't retire quickly, and packaged applications with their own embedded reporting. Meanwhile, business teams build their own logic on the side because they can't wait for IT."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "61b26317feaa4eeeb503a3f796e3eb75",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The result is familiar: two teams ask the same business question and get different answers. Revenue, margin, customer churn, active user, risk exposure, and inventory availability all become negotiable concepts. The debate moves from the business decision to the definition behind the metric."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "56416703a03244c59fa79e10dcb6e759",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The semantic layer emerged to solve this problem by centralizing the logic behind metrics, dimensional models, calculations, and access policies. Instead of rebuilding definitions inside every dashboard, report, application, and data product, organizations can define them once, govern them centrally, and reuse them consistently."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "16c21633cab04e23a74cc216c6d61c87",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "That was already valuable in a BI world. In an AI world, those properties become foundational."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "csc1076ab34c19b498"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "Why the Old Framing Is No Longer Enough",
+          "_metadata": {
+            "uid": "cs10881d1febb37262"
+          },
+          "section_id": "why-the-old-framing-is-no-longer-enough"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "63c9dba04eaa4b2684b2f1117c931d5e",
+            "children": [
+              {
+                "type": "p",
+                "uid": "76d46e7a8d6a4ad49ddf0276ae7732f9",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The legacy view of the semantic layer was built around a narrower analytics stack. In many cases, it was tied to a single BI platform. It helped define joins, metrics, hierarchies, and OLAP structures. It gave business users a cleaner way to interact with data without needing to understand the physical schema underneath."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "ddd77458a7464faa971bee64f7aaf934",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "That worked well enough when the analytics stack was stable but modern data environments are not clean, centralized, or stable. According to Forrester, 87% of public cloud decision-makers use a combination of multiple cloud platforms and/or hyperscalers. At the same time, enterprise data and analytics decision-makers report that, on average, 38% of data still resides on-premises."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "e9e09258a7c74c2590256ca444123001",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "That is where the reframing matters. A modeling layer helps you read data consistently today. A control plane keeps your business definitions intact no matter what changes underneath: new cloud, new warehouse, new BI tool, new AI model. The semantic layer was always valuable. The next-generation version is valuable in a fundamentally different way."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs94b40fc18de43c00"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "From Shared Definitions to Governed Execution",
+          "_metadata": {
+            "uid": "cs2b92d7ca774062d4"
+          },
+          "section_id": "from-shared-definitions-to-governed-execution"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "b364444cbcaf4335a43dca005cca850f",
+            "children": [
+              {
+                "type": "p",
+                "uid": "0d11775077e54121a80383a5bc4fbacc",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "When a user asks a natural language question, the system must understand more than column names. It needs to understand which version of revenue applies, which time period logic is valid, which customer hierarchy should be used, which entitlements apply, and which relationships between entities are approved."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "8beb5f48011d4286aa67d7e233969322",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Without that grounding, AI systems are forced to infer meaning from schema, metadata, or prior examples. That is not good enough for enterprise decision-making."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "c1f565d10b84478e9ed2fb756638497e",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Forrester's definition of the next-generation semantic layer includes several important elements: centralized metric definitions, dimensional models, calculations, access policies, consistent delivery to BI tools, data products, and AI agents, and integration with the enterprise data fabric."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "f9a819c16bcf449d9f8d90c2b7b020f5",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Taken together, these capabilities move the semantic layer beyond documentation."
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "uid": "c2c0b356c44a4e1ea18afd4b0c442e74",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "li",
+                    "uid": "c748708087ac4736b8456485a9fa0ffe",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "e47b28c0530f4bfaa16e29ceb83f4266",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "A business glossary can describe what net revenue means. A semantic layer enforces how it is calculated."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "4050ef5488344a909c6389391aec19c7",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "b8a5e42aff1f4a2e83928b1d7ecbdfef",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "A data catalog can help users find data. A semantic layer determines which governed definition applies in a specific context."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "027dd207654a4f57a1e953df6b6ba08c",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "5cb3975ba8f0478d8bdeba5f50f97ba0",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "A BI model can support a dashboard. A next-generation semantic layer exposes trusted logic through APIs to any tool, application, or AI agent."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "efde50d850cb4b1d80a598e1c69d1f11",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "That distinction is critical. AI doesn't need more descriptions of the business. It needs governed, executable business context."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs10ff54bd43d43e5d"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "Why Analysts Are Changing the Definition Now",
+          "_metadata": {
+            "uid": "cs5d3fadce6b824e6b"
+          },
+          "section_id": "why-analysts-are-changing-the-definition-now"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "89bb7e06ca3843eab82896e3404fbf9f",
+            "children": [
+              {
+                "type": "p",
+                "uid": "cf825f5d7c1547e480bb7589fed1604b",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The reclassification is happening now because the cost of weak semantics has gone up."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "eee77978a1cf4020ab6d6214de16497c",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "In traditional BI, inconsistent definitions created confusion, inefficiency, and mistrust. Those were serious problems, but they were often contained inside dashboards, reports, and analyst workflows."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "d50349bfd57049fa8138ca045719f1bd",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "With AI, the blast radius is larger."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "c88952d7c8aa4a69811a112a55af89c9",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "AI agents can generate queries, trigger workflows, summarize insights, recommend actions, and serve business users directly. If those agents operate on inconsistent or poorly governed data, the problem is no longer just a bad dashboard. The result is a bad decision delivered at scale."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "607da86fd3014b52b60d955cfffaa3b4",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "That is why the semantic layer is becoming part of a larger conversation than the BI-only conversation. It's also why every vendor now claims to have one."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "bc37733b556c4dec9c07b0110748d7cd",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "That last part matters. A BI tool with a built-in metrics layer is not the same as an independent semantic layer that governs business logic across tools, clouds, and AI systems. A warehouse-native semantic layer works until you change warehouses. The category is getting crowded precisely because the stakes went up, and not every entrant is built for what the category now requires."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs36e9e1f425d8eb3f"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "The Business Case Is Not Just AI",
+          "_metadata": {
+            "uid": "cs0e03b83bb99eb389"
+          },
+          "section_id": "the-business-case-is-not-just-ai"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "d335032622734277b70d445354ff756c",
+            "children": [
+              {
+                "type": "p",
+                "uid": "b5dcf6c001094b6ca3c3e9b54e0fb52c",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "AI may be the catalyst, but it is not the only reason this matters."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "185b5232d7324b1b8e2671730435cf01",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "A modern semantic layer helps organizations address three persistent enterprise problems."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "9ebc10562c7646ea9d6fb28b90df854f",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "First, it reduces metric inconsistency across tools and teams. Business users can keep using different consumption tools, but the logic behind the numbers remains governed and reusable."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "5f14d9058b994e45a164b10312bb5270",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Second, it reduces the cost and risk of technology churn. When business logic is embedded directly inside dashboards, reports, SQL queries, and applications, every platform migration becomes dangerous. A semantic layer decouples meaning from the underlying infrastructure, making modernization less disruptive."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "1d5242f0a5314397a2a0c84fefacb13f",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Third, it strengthens governance without forcing a single front end. Enterprises rarely succeed by telling every team to use one tool in one way. A semantic layer creates consistency underneath the experience layer, which is often the more realistic path."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "4a074e5cb93647a3917117e31cb998d7",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The control plane framing reflects how enterprises actually operate."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "cb889b9a9c2949b7a5d806feab14b5b6",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The goal is not to create a perfect data stack. The goal is to create a durable layer of trusted business meaning that can support today's BI tools, tomorrow's AI agents, and whatever platform shift comes next."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "137a97454d904339aa45d20f47a1d699",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Strategy Software's Mosaic is purpose-built for this role: a universal semantic layer that centralizes metric definitions, governs access and entitlements, and delivers consistent business logic across BI tools, data products, and AI agents without requiring a rip-and-replace of the existing data stack."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs432055966d4fbb63"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "The Takeaway",
+          "_metadata": {
+            "uid": "cs77e6617f7ca4b03c"
+          },
+          "section_id": "the-takeaway"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "c39d11b0ccf5440aa0b71304d8bac16d",
+            "children": [
+              {
+                "type": "p",
+                "uid": "a6b8b33ea2bb4c2cba0ff0f98adda254",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "For years, the semantic layer was something data teams added to improve analytics consistency. Useful, but optional."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "e9e5f059684b416fa5545d15efba8ea0",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "That's no longer the right frame. When AI agents are making decisions at scale on your business data, the layer that governs meaning, metrics, and access isn't a nice-to-have. It's the part of the architecture that determines whether those decisions are trustworthy."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "12d312d599ef4cca897fb81c1d63bc0a",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Strategy has been building semantic modeling capabilities for 35 years. The shift Forrester is describing isn't a pivot for us. It's what we've always built for."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "c0a52fa65ea24138a3a7a6057131e9fd",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Mosaic is built for exactly this role: an independent semantic layer that sits above your LLM, warehouse, and BI tools, so your business logic stays intact when any of them change."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "f4c4331ce84a4a40b733482e0980a798",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Forrester's reclassification reflects what enterprises are already discovering: this isn't better BI, it's infrastructure."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "c05751cf4d86496eaf9737c938846f3b",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Read the full Forrester Research report, courtesy of Strategy Software."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs49cf872d335569f2"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "Frequently Asked Questions",
+          "_metadata": {
+            "uid": "csac1abccbc9c96a3f"
+          },
+          "section_id": "frequently-asked-questions"
+        }
+      },
+      {
+        "accordion": {
+          "accordion_item": [
+            {
+              "title": "What is a semantic layer?",
+              "_metadata": {
+                "uid": "csa7bcd9bff30d1f5e"
+              },
+              "content": {
+                "type": "doc",
+                "attrs": {},
+                "uid": "85fcc00628454440b7c6bb9ad498e9dd",
+                "children": [
+                  {
+                    "type": "p",
+                    "attrs": {},
+                    "uid": "c1a68566517c40cc8654ee804207e238",
+                    "children": [
+                      {
+                        "text": "A semantic layer is a governed layer that centralizes metric definitions, calculations, dimensional models, access policies, and relationships between business entities. It translates raw data structures into business-ready definitions so that different tools, teams, and AI systems can use data consistently, without each tool rebuilding its own logic."
+                      }
+                    ]
+                  }
+                ],
+                "_version": 1
+              }
+            },
+            {
+              "title": "What does \"control plane\" mean in the context of the semantic layer?",
+              "_metadata": {
+                "uid": "cs9e836b8068e53c22"
+              },
+              "content": {
+                "type": "doc",
+                "attrs": {},
+                "uid": "b37e34733bb34231a1058dea71aa6735",
+                "children": [
+                  {
+                    "type": "p",
+                    "attrs": {},
+                    "uid": "1349357db1a240a4b0c41a0c247634f4",
+                    "children": [
+                      {
+                        "text": "A control plane is the part of an architecture that manages rules, policies, definitions, and coordination across systems. In this context, calling the semantic layer a control plane means it governs how business meaning is defined, accessed, reused, and delivered across BI tools, data products, and AI agents — not just within a single dashboard or application."
+                      }
+                    ]
+                  }
+                ],
+                "_version": 1
+              }
+            },
+            {
+              "title": "How is a semantic layer different from a business glossary?",
+              "_metadata": {
+                "uid": "cs67f0cffe43dcb240"
+              },
+              "content": {
+                "type": "doc",
+                "attrs": {},
+                "uid": "4438abc646c8412e9445655a98f6b328",
+                "children": [
+                  {
+                    "type": "p",
+                    "attrs": {},
+                    "uid": "6ab9b85de5814a16abb3723489d9a259",
+                    "children": [
+                      {
+                        "text": "A business glossary defines terms. A semantic layer operationalizes them. For example, a glossary can explain what \"net revenue\" means, but a semantic layer can enforce the approved calculation for net revenue across dashboards, applications, and AI-driven queries."
+                      }
+                    ]
+                  }
+                ],
+                "_version": 1
+              }
+            },
+            {
+              "title": "Why does AI make the semantic layer more important?",
+              "_metadata": {
+                "uid": "cs5185a0453e61d400"
+              },
+              "content": {
+                "type": "doc",
+                "attrs": {},
+                "uid": "cd7111b1e0b241dd82144009057addef",
+                "children": [
+                  {
+                    "type": "p",
+                    "attrs": {},
+                    "uid": "8800bd65b3f54b2d97baf57a3ca0db6e",
+                    "children": [
+                      {
+                        "text": "AI systems need context to interpret business questions correctly. Without a semantic layer, an AI system may misread ambiguous terms, select the wrong table, apply the wrong metric logic, or ignore access rules. A semantic layer gives AI governed definitions, approved relationships, and policy-aware views, making AI outputs more trustworthy."
+                      }
+                    ]
+                  }
+                ],
+                "_version": 1
+              }
+            }
+          ],
+          "_metadata": {
+            "uid": "csae869fcf77dfe6c5"
+          },
+          "accordion_options": "closed"
+        }
+      }
+    ],
+    "cta_section": [],
+    "related_posts": [],
+    "seo": {
+      "meta_title": "What Is a Semantic Layer? Forrester's New Definition",
+      "meta_description": "Forrester has reclassified the semantic layer as a control plane for enterprise data and AI. Here's what that category shift means, and why it matters beyond",
+      "keywords": "semantic layer, enterprise analytics infrastructure, governed metrics, AI-ready semantic layer, enterprise BI decision-making",
+      "social_thumbnail_override": null,
+      "enable_search_indexing": true
+    },
+    "page_properties": {
+      "navigation_title": "",
+      "header_color": null,
+      "hide_header_nav": false,
+      "hide_header_cta": false,
+      "hide_footer": false,
+      "disable_global_promo_banner": false,
+      "hide_auto_expert": false,
+      "sfid": "",
+      "marketo_id": "",
+      "cta_section": []
+    },
+    "resource_data": {
+      "date": "2026-06-12T00:00:00.000Z",
+      "type": "Blog",
+      "title": "What Is a Semantic Layer? Why Forrester Just Reclassified It as Enterprise Infrastructure",
+      "description": "Forrester has reclassified the semantic layer as a control plane for enterprise data and AI. Here's what that category shift means, and why it matters beyond",
+      "featured": false
+    },
+    "tags": [],
+    "publish_date": "2026-06-12T00:00:00.000Z",
+    "author": [
+      {
+        "uid": "bltaed29ca054d0f5b0",
+        "_content_type_uid": "blog_author"
+      }
+    ],
+    "locale": "en",
+    "uid": "bltc217abfd44f5fe31",
+    "created_by": "blte12f8d786df2b4b9",
+    "updated_by": "blte12f8d786df2b4b9",
+    "created_at": "2026-06-12T19:39:05.008Z",
+    "updated_at": "2026-06-12T19:39:05.008Z",
+    "ACL": {},
+    "_version": 1,
+    "_in_progress": false
+  }
+}

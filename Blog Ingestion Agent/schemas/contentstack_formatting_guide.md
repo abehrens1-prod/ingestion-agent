@@ -1,0 +1,688 @@
+# Contentstack Blog Entry — Formatting Guide
+
+Derived from two live entries:
+- `blt69b4648bd249063e` — May 2026 product update (features images, videos, FAQ accordion)
+- `blt1d9bb52256d57943` — Thought leadership post (features inline promos, tables, lists; no FAQ)
+
+This is the authoritative reference for how blog entries must be structured when building or reviewing `contentstack_entry.json`.
+
+---
+
+## Top-Level Field Reference
+
+| Field | Type | Notes |
+|---|---|---|
+| `title` | string | Full display title |
+| `url` | string | Must start with `/software/blog/` |
+| `publish_date` | string | ISO date: `"2026-05-15"` |
+| `author` | array | Reference objects: `[{"uid": "blt...", "_content_type_uid": "blog_author"}]` |
+| `lead_paragraph` | RTE doc | **Always empty** — leave as a doc with one empty `p` node (see below) |
+| `content` | array | Ordered list of content blocks — the full body |
+| `related_posts` | array | `[{"uid": "blt...", "_content_type_uid": "blog_post"}]` — 3–4 entries |
+| `cta_section` | array | Top-level CTA: `[{"uid": "blt...", "_content_type_uid": "promo"}]`. Use `[]` for thought leadership posts that use inline `promo` blocks instead |
+| `taxonomies` | array | `[{"taxonomy_uid": "blog", "term_uid": "mosaic"}]` — see term list |
+| `resource_data` | object | Mirrors title/date/description; `"type": "Blog"`, `"featured": false` |
+| `seo` | object | See SEO Fields section |
+| `page_properties` | object | Leave all defaults (all false/null/empty) |
+| `tags` | array | Always empty `[]` — Contentstack silently drops this |
+| `locale` | string | Always `"en"` |
+
+### `lead_paragraph` — always empty
+
+```json
+{
+  "type": "doc",
+  "attrs": {},
+  "uid": "<generated>",
+  "children": [
+    {"type": "p", "uid": "<generated>", "attrs": {}, "children": [{"text": ""}]}
+  ]
+}
+```
+
+---
+
+## Content Block Types
+
+There are two post layout patterns depending on post type — see **Post Type Patterns** at the bottom of this guide. The six block types are:
+
+1. `text` — rich text body blocks
+2. `section_anchor` — H2-level section navigation anchors
+3. `image` — uploaded image assets
+4. `video` — Video content type references
+5. `accordion` — FAQ section (product updates only)
+6. `promo` — inline promo callout (thought leadership only)
+
+---
+
+### Block type: `text`
+
+Wraps a rich text editor (RTE) document.
+
+```json
+{
+  "text": {
+    "text_content": {
+      "uid": "<generated>",
+      "type": "doc",
+      "attrs": {},
+      "_version": 11,
+      "children": [ /* RTE nodes — see RTE Node Types */ ]
+    },
+    "_metadata": {"uid": "<generated>"}
+  }
+}
+```
+
+---
+
+### Block type: `section_anchor`
+
+Creates a named anchor for section navigation. Appears **before** the text content for that section.
+
+```json
+{
+  "section_anchor": {
+    "header_text": "Section heading text with trailing space ",
+    "_metadata": {"uid": "<generated>"},
+    "section_id": "kebab-case-id-matching-header"
+  }
+}
+```
+
+- `header_text` — the visible H2-level section heading (note: often has a trailing space)
+- `section_id` — used as the URL fragment (`#section-id`); must be kebab-case, no special chars
+- The FAQ section always uses `"section_id": "faq"` and `"header_text": "Frequently Asked Questions"`
+
+---
+
+### Block type: `image`
+
+```json
+{
+  "image": {
+    "reference": { /* full Contentstack asset object — populated after manual upload */ },
+    "_metadata": {"uid": "<generated>"},
+    "caption": "",
+    "limit_width": null,
+    "alignment": "Center",
+    "rounded_corners": "Medium",
+    "drop_shadow": "None",
+    "outline": false,
+    "link": []
+  }
+}
+```
+
+**Display properties:**
+| Property | Options | Default |
+|---|---|---|
+| `alignment` | `"Left"`, `"Center"`, `"Right"` | `"Center"` |
+| `rounded_corners` | `"None"`, `"Small"`, `"Medium"`, `"Large"` | `"Medium"` |
+| `drop_shadow` | `"None"`, `"Light"`, `"Medium"`, `"Heavy"` | `"None"` |
+| `outline` | `true` / `false` | `false` |
+| `limit_width` | `null` (full width) or number in px (e.g. `500`) | `null` |
+
+- `reference` is the full asset object from Contentstack — cannot be constructed until images are uploaded to CS Assets
+- Until the UID is available, leave `reference` as `{}` or omit — validation will WARN but not ERROR
+- `link` is an empty array unless the image should be hyperlinked
+
+---
+
+### Block type: `video`
+
+References a Video content type entry (not an inline embed URL).
+
+```json
+{
+  "video": {
+    "reference": [
+      {"uid": "blt...", "_content_type_uid": "video"}
+    ],
+    "_metadata": {"uid": "<generated>"},
+    "playback_type": "Lightbox",
+    "play_icon": "Center",
+    "override_thumbnail": null
+  }
+}
+```
+
+**Options:**
+| Property | Options |
+|---|---|
+| `playback_type` | `"Lightbox"` (opens modal), `"Inline"` (plays in page) |
+| `play_icon` | `"Center"`, `"Left"`, `"Right"` |
+
+- Video UIDs must be looked up in Contentstack — they cannot be auto-generated by the pipeline
+- `override_thumbnail` is `null` unless a custom thumbnail asset is linked
+
+---
+
+### Block type: `accordion`
+
+Used exclusively for the FAQ section.
+
+```json
+{
+  "accordion": {
+    "accordion_item": [
+      {
+        "title": "Question text?",
+        "_metadata": {"uid": "<generated>"},
+        "content": {
+          "uid": "<generated>",
+          "type": "doc",
+          "attrs": {},
+          "_version": 11,
+          "children": [
+            {
+              "uid": "<generated>",
+              "type": "p",
+              "attrs": {},
+              "children": [{"text": "Answer text."}]
+            }
+          ]
+        }
+      }
+    ],
+    "_metadata": {"uid": "<generated>"},
+    "accordion_options": "closed"
+  }
+}
+```
+
+- `accordion_options`: `"closed"` (all collapsed by default) or `"open"`
+- Each item has a `title` (the question) and a `content` RTE doc (the answer)
+- Answer content is plain `p` nodes — no headings inside accordion answers
+
+---
+
+### Block type: `promo` (inline)
+
+Used in thought leadership posts to embed calls-to-action inline within the body. These are **not** the top-level `cta_section` — they are content blocks placed mid-article.
+
+```json
+{
+  "promo": {
+    "reference": [
+      {"uid": "blt...", "_content_type_uid": "promo"}
+    ],
+    "_metadata": {"uid": "<generated>"},
+    "layout_style": "inline_left"
+  }
+}
+```
+
+- `layout_style`: `"inline_left"` is the observed default. Other likely values: `"inline_right"`, `"inline_center"` (confirm in CS editor if needed)
+- `reference` is an array with one Promo content type entry — must be created/identified manually in Contentstack
+- Multiple `promo` blocks can appear throughout the article (one per section is the pattern seen in thought leadership posts)
+- When a post uses inline `promo` blocks, the top-level `cta_section` field is typically `[]`
+- The pipeline cannot auto-generate Promo entry UIDs — flag in post-upload checklist
+
+---
+
+## RTE Node Types
+
+Used inside `text_content` and accordion `content` docs.
+
+### Paragraphs (`p`)
+
+```json
+{
+  "uid": "<generated>",
+  "type": "p",
+  "attrs": {},
+  "children": [{"text": "Paragraph text here."}]
+}
+```
+
+Text nodes can carry optional style attrs:
+```json
+{"text": "Styled text.", "attrs": {"style": {"color": "rgb(34, 34, 34)"}}}
+```
+
+### Headings — H3 (Quick Answer / Short Answer label only)
+
+H3 is **only** used for the opening summary label. It renders in blue (`rgb(26, 78, 159)`). The label text is either `"Quick Answer"` (product updates) or `"Short Answer"` (thought leadership) — use whichever the source doc uses, or default to `"Quick Answer"` if unspecified.
+
+```json
+{
+  "uid": "<generated>",
+  "type": "h3",
+  "attrs": {},
+  "children": [
+    {
+      "text": "Quick Answer",
+      "attrs": {"style": {"color": "rgb(26, 78, 159)"}},
+      "bold": true,
+      "font-color": "#fa660f"
+    },
+    {
+      "text": " ",
+      "attrs": {"style": {"color": "rgb(26, 78, 159)"}},
+      "font-color": "#fa660f"
+    }
+  ]
+}
+```
+
+The trailing space child is part of the live pattern — include it.
+
+### Headings — H4 (sub-section headers)
+
+H4 is used for **named feature/sub-section headers**. Each H3 heading in the source doc maps to a new `text` content block (not inline bold) starting with **two H4 nodes**: an empty spacer h4 followed by the content h4. Both carry `font-color: "#fa660f"`.
+
+```json
+{"type": "h4", "uid": "<generated>", "attrs": {}, "children": [{"text": "", "font-color": "#fa660f"}]},
+{"type": "h4", "uid": "<generated>", "attrs": {}, "children": [{"font-color": "#fa660f", "text": "Sub-section Header Text"}]}
+```
+
+**Block-splitting rule (confirmed from live entry blt3cd0f47c06e1cf66):**
+- Each H3 heading in the normalized JSON starts a **new `text` content block** — it is NOT accumulated into the surrounding text block
+- Images immediately following a feature section are **standalone `image` content blocks**, not inline RTE nodes
+- Videos are **standalone `video` content blocks**, not inline text
+
+So a section with 4 features and 3 videos produces: `section_anchor` + `text` (intro) + `text` (feature 1) + `image` + `text` (feature 2) + `video` + `text` (feature 3) + `video` + `text` (feature 4) + `video`
+
+- `font-color: "#fa660f"` (orange) is required on H4 text children
+- Do NOT use H3 for feature headers — H3 is reserved for the Quick Answer label
+- Do NOT put H4 nodes inline in a larger text block — each H3 heading from the source doc must start its own text block
+
+### Horizontal Rule (`hr`)
+
+Used as a visual divider — appears after the Quick Answer block and before the closing conclusion paragraph.
+
+```json
+{
+  "uid": "<generated>",
+  "type": "hr",
+  "children": [{"text": ""}],
+  "attrs": {}
+}
+```
+
+### Inline bold text
+
+Bold is a text-node property, not a wrapper node:
+
+```json
+{"text": "Bold text here.", "bold": true}
+```
+
+### Inline italic text
+
+```json
+{"text": "Italic text here.", "italic": true}
+```
+
+### Inline hyperlinks
+
+External links include `"target": "_blank"`. Internal links (to strategy.com) omit it.
+
+```json
+{"type": "a", "attrs": {"url": "https://external-site.com", "target": "_blank"}, "children": [{"text": "link text"}], "uid": "<generated>"}
+{"type": "a", "attrs": {"url": "https://www.strategy.com/software/..."}, "children": [{"text": "link text"}], "uid": "<generated>"}
+```
+
+Link text can carry `"underline": true` to match the visual treatment in the live entries:
+
+```json
+{"type": "a", "attrs": {"url": "...", "target": "_blank"}, "children": [{"text": "anchor text", "underline": true}], "uid": "<generated>"}
+```
+
+### Orange bold callout paragraph
+
+Used in thought leadership posts for pull-quote emphasis — a paragraph where the entire text is bold orange. Not a heading; rendered as a styled `p` node.
+
+```json
+{
+  "uid": "<generated>",
+  "type": "p",
+  "attrs": {},
+  "children": [
+    {
+      "text": "Callout statement that deserves visual emphasis.",
+      "attrs": {"style": {"color": "rgb(233, 112, 50)"}},
+      "bold": true,
+      "font-color": "#fa660f"
+    }
+  ]
+}
+```
+
+- Color is `rgb(233, 112, 50)` (the orange brand color)
+- Use only for genuine pull-quote emphasis — not for ordinary strong text
+
+### Unordered list (`ul`)
+
+```json
+{
+  "uid": "<generated>",
+  "type": "ul",
+  "attrs": {},
+  "children": [
+    {"type": "li", "attrs": {}, "children": [{"text": "First item"}], "uid": "<generated>"},
+    {"type": "li", "attrs": {}, "children": [{"text": "Second item"}], "uid": "<generated>"},
+    {"type": "li", "attrs": {}, "children": [{"text": "Third item"}], "uid": "<generated>"}
+  ]
+}
+```
+
+- `li` children hold plain text nodes directly (no wrapping `p` node inside `li`)
+- For ordered lists, use `"type": "ol"` with the same `li` structure
+
+### Table
+
+```json
+{
+  "uid": "<generated>",
+  "type": "table",
+  "attrs": {"rows": 4, "cols": 3, "colWidths": [250, 250, 250]},
+  "children": [
+    {
+      "type": "tbody",
+      "attrs": {},
+      "uid": "<generated>",
+      "children": [
+        {
+          "type": "tr",
+          "attrs": {},
+          "uid": "<generated>",
+          "children": [
+            {
+              "type": "td",
+              "attrs": {},
+              "uid": "<generated>",
+              "children": [
+                {
+                  "uid": "<generated>",
+                  "type": "p",
+                  "attrs": {},
+                  "children": [
+                    {"text": "Header text", "bold": true, "font-color": "#fa660f", "attrs": {"style": {"color": "rgb(0, 0, 0)"}}}
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+```
+
+- `attrs.rows` and `attrs.cols` must match the actual table dimensions
+- `colWidths` is an array of pixel widths — total should be consistent (e.g. 3 × 250 = 750px)
+- Header row cells: bold + `font-color: "#fa660f"` on the text node (no separate `th` type — use `td` for all rows)
+- Body cells: standard text nodes inside `p` nodes inside `td`
+- No `thead`/`th` — all rows use `tr > td` under a single `tbody`
+
+### Soft line break
+
+Used inside a `p` node to produce a visual line break (shift+enter) without ending the paragraph:
+
+```json
+{"text": "\n", "break": false, "separaterId": "<generated>"}
+```
+
+- `break: false` is required
+- `separaterId` is a unique uid string — generate one per break
+- Use sparingly; most paragraph breaks should use separate `p` nodes instead
+
+---
+
+## Quick Answer Block Pattern
+
+The Quick Answer is always the **first block in `content`**. It is a `text` block with this fixed structure:
+
+```json
+{
+  "text": {
+    "text_content": {
+      "uid": "<generated>",
+      "type": "doc",
+      "attrs": {},
+      "children": [
+        {
+          "uid": "<generated>",
+          "type": "h3",
+          "attrs": {},
+          "children": [
+            {
+              "text": "Quick Answer",
+              "attrs": {"style": {"color": "rgb(26, 78, 159)"}},
+              "bold": true,
+              "font-color": "#fa660f"
+            }
+          ]
+        },
+        {
+          "uid": "<generated>",
+          "type": "p",
+          "attrs": {},
+          "children": [
+            {
+              "text": "2–3 sentence summary of the article.",
+              "attrs": {"style": {"color": "rgb(0, 61, 91)"}}
+            }
+          ]
+        },
+        {
+          "uid": "<generated>",
+          "type": "p",
+          "attrs": {},
+          "children": [{"attrs": {"style": {"color": "rgb(51, 51, 51)"}}, "text": ""}]
+        },
+        {
+          "uid": "<generated>",
+          "type": "p",
+          "attrs": {},
+          "children": [{"attrs": {"style": {"color": "rgb(51, 51, 51)"}}, "text": ""}]
+        },
+        {
+          "uid": "<generated>",
+          "type": "hr",
+          "children": [{"text": ""}],
+          "attrs": {}
+        },
+        {
+          "uid": "<generated>",
+          "type": "p",
+          "children": [{"text": ""}],
+          "attrs": {}
+        }
+      ]
+    },
+    "_metadata": {"uid": "<generated>"}
+  }
+}
+```
+
+- **Summary text color:** `rgb(0, 61, 91)` (dark blue) for product update posts; `rgb(0, 0, 0)` (black) for thought leadership posts. Match the post type.
+- **Label:** `"Quick Answer"` for product updates; `"Short Answer"` for thought leadership. Default to `"Quick Answer"` if the source doc doesn't specify.
+- Two empty paragraphs + `hr` + one empty paragraph follow the summary. Some posts add a second trailing empty `p` — this is acceptable but not required.
+- `lead_paragraph` is always empty; the Quick Answer / Short Answer lives in `content[0]`.
+
+---
+
+## Section Anchor + Text Block Pattern
+
+Each H2-level section follows this pattern:
+
+```
+section_anchor  →  text block(s)  →  optional image(s)/video(s)/promo(s)
+```
+
+The `header_text` in the `section_anchor` is the H2 heading that appears in the rendered page. The `text` blocks following it contain H4 sub-headers (product updates) or plain body paragraphs (thought leadership) — **not H2/H3**.
+
+**Intro text block is optional.** Product update posts typically include a separate intro text block between the Quick Answer block and the first `section_anchor`. Thought leadership posts often go directly from Quick Answer to the first `section_anchor` with no separate intro block.
+
+---
+
+## Closing Pattern
+
+**Product update posts:** The last text block before the FAQ `section_anchor` follows:
+```
+empty p  →  hr  →  conclusion paragraph(s)  →  empty p
+```
+
+**Thought leadership posts:** The body ends with a `promo` block after the last text block — no `hr` closing divider, no FAQ.
+
+---
+
+## Block Selection Guide
+
+There is no fixed post template. Every post is a different combination of blocks chosen based on what the source doc contains and what makes sense stylistically. The rules below describe when each block belongs — apply them per-post using editorial judgment.
+
+### Opening block — always first
+
+Always `text` block containing the Quick Answer or Short Answer. Use `"Quick Answer"` when the post announces features or answers a direct product question; use `"Short Answer"` when the post is more analytical or opinion-driven. If the doc specifies a label, use it verbatim.
+
+Summary text color: match to the tone of the post. Dark blue `rgb(0, 61, 91)` reads more formal/product; black `rgb(0, 0, 0)` reads more neutral/editorial. Either is valid — pick based on how the doc reads.
+
+### Intro text block — optional
+
+Include a separate intro `text` block (plain `p` paragraphs) between the opening block and the first `section_anchor` when the post has a standalone introduction that isn't part of any named section. Skip it and go directly to the first `section_anchor` when the doc opens a named section immediately after the summary.
+
+### `section_anchor` — every H2
+
+Use one for every H2-level section in the doc. Always before the text content it labels. `section_id` must be kebab-case, no special characters.
+
+### H4 sub-headers inside `text` blocks
+
+Use H4 nodes when a section introduces a named sub-feature, sub-topic, or sub-step. Skip H4 and use plain body paragraphs when a section flows as continuous prose without distinct named sub-items.
+
+### `image` blocks
+
+Use when the doc has screenshots, diagrams, or any visual asset. Place after the `text` block for the section the image illustrates. Multiple images per section are fine. All image properties (`alignment`, `rounded_corners`, `drop_shadow`, `limit_width`) are per-image decisions — use the display properties section above to choose.
+
+### `video` blocks
+
+Use when there is a demo video or recorded walkthrough associated with a section. Place after the section's text block (and after any images for that section). Video UIDs must be sourced manually from Contentstack.
+
+### `promo` blocks (inline)
+
+Use inline `promo` blocks when the post benefits from mid-article CTAs — for example, a CTA after a section that introduces a pain point, or a CTA after the conclusion. Any post can have inline promos; it is not limited to any post type. The number of inline promos is a judgment call — one per natural break is the observed pattern, but fewer is fine if the doc doesn't warrant them.
+
+When inline promos are used, leave `cta_section: []` at the top level. When the post has only a single end-of-post CTA and no mid-article CTAs, use `cta_section` at the top level instead and omit inline promo blocks.
+
+### `accordion` block (FAQ)
+
+Use when the doc contains a FAQ section, regardless of post type. Always preceded by a `section_anchor` with `section_id: "faq"`. Not every post has a FAQ — omit if the doc doesn't have one.
+
+### Lists (`ul`/`ol`) and tables
+
+Use inside `text` blocks when the source doc has bullet lists, numbered lists, or comparison tables. These can appear in any post. Prefer lists when the doc has enumerated items; prefer tables when the doc is comparing options across multiple dimensions.
+
+### Orange bold callout paragraph
+
+Use sparingly for pull-quote emphasis — a single sentence or short statement the author clearly intends as a visual highlight. Not a substitute for H4; not for ordinary strong text. Any post can use this, but it should feel earned — no more than one or two per article.
+
+### Closing pattern
+
+If the post has a FAQ: close the body with a `text` block containing `hr` + conclusion paragraphs, then `section_anchor` (faq) + `accordion`.
+
+If the post has no FAQ: close with either a final `text` block, a `promo` block, or both — depending on whether a closing CTA makes sense for the content.
+
+---
+
+## SEO Fields
+
+```json
+"seo": {
+  "meta_title": "Same as entry title (or slightly optimized)",
+  "meta_description": "150 chars max, complete sentence, no ellipsis",
+  "keywords": "comma, separated, keyword, string",
+  "thumbnail": { /* full CS asset object — linked after upload */ },
+  "social_thumbnail_override": null,
+  "enable_search_indexing": true
+}
+```
+
+- `keywords` is a **comma-separated string**, not an array
+- `thumbnail` is the blog hero/OG image asset (uploaded separately to CS Assets)
+- `enable_search_indexing` should always be `true` unless the user says otherwise
+
+---
+
+## Taxonomies
+
+```json
+"taxonomies": [
+  {"taxonomy_uid": "blog", "term_uid": "mosaic"},
+  {"taxonomy_uid": "blog", "term_uid": "semantic_layer"}
+]
+```
+
+Always use `"taxonomy_uid": "blog"`. Available term UIDs:
+
+| Display Name | `term_uid` |
+|---|---|
+| Mosaic | `mosaic` |
+| Semantic Layer | `semantic_layer` |
+| Data Fabric | `data_fabric` |
+| AI Trends | `ai_trends` |
+| Analytics | `analytics` |
+| Business Intelligence | `business_intelligence` |
+| Product Updates | `product_updates` |
+| Thought Leadership | `thought_leadership` |
+| World | `world` |
+| Customer Stories | `customer_stories` |
+| Partner Network | `partner_network` |
+| Retail | `retail` |
+| Healthcare | `healthcare` |
+| Financial Services | `financial_services` |
+
+Recommend 2–4 terms per post. Match to content theme; never guess if unsure — flag for manual selection.
+
+---
+
+## `resource_data` Object
+
+Mirrors the entry for search/listing surfaces. Always populate all fields.
+
+```json
+"resource_data": {
+  "date": "2026-05-15",
+  "type": "Blog",
+  "title": "Same as entry title",
+  "description": "2–3 sentence summary for listing cards (can match meta_description)",
+  "featured": false
+}
+```
+
+---
+
+## Typical Full `content` Array Order
+
+```
+[0]  text          — Quick Answer block (h3 + summary p + hr)
+[1]  text          — Intro paragraphs (p nodes)
+[2]  section_anchor — H2 section 1
+[3]  text          — Section 1 body (h4 + p nodes)
+[4]  image         — Section 1 screenshot(s)
+...
+[n]  section_anchor — H2 section N
+[n+1] text         — Section N body
+[n+2] video        — Optional demo video
+[n+3] text         — Closing text (hr + conclusion p)
+[n+4] section_anchor — {"header_text": "Frequently Asked Questions", "section_id": "faq"}
+[n+5] accordion    — FAQ items
+```
+
+---
+
+## What the Pipeline Cannot Auto-Populate
+
+These require manual steps after upload:
+
+| Field | Why manual |
+|---|---|
+| `author[].uid` | Must be looked up from Contentstack Authors content type |
+| `image.reference` | Images must be uploaded to CS Assets first |
+| `video.reference[].uid` | Video entries must exist in Contentstack |
+| `cta_section[].uid` | Product updates: Promo entry UID must be identified in Contentstack. Thought leadership: leave `cta_section: []` and add inline `promo` block UIDs throughout `content` instead |
+| `content[].promo.reference[].uid` | Inline Promo block UIDs must be identified in Contentstack (thought leadership posts) |
+| `seo.thumbnail` | Hero image asset must be uploaded separately |
+| Taxonomy `term_uid`s | Confirmed list in table above; populate `config.yaml` to auto-apply |

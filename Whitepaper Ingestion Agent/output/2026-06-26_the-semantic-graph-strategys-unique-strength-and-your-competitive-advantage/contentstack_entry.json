@@ -1,0 +1,3147 @@
+{
+  "entry": {
+    "title": "v1 | The Semantic Graph Strategy's Unique Strength and Your Competitive Advantage",
+    "url": "/software/the-semantic-graph-strategys-unique-strength-and-your-competitive-advantage",
+    "content_blocks": [
+      {
+        "section": {
+          "section_id": "hero",
+          "_metadata": {
+            "uid": "cs42bc59fe72766ddc"
+          },
+          "section_header": [
+            {
+              "text": {
+                "text_content": {
+                  "type": "doc",
+                  "uid": "35425329f5be4dbf8606c86e885297d0",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "h1",
+                      "uid": "667d0f0847f8417f98dbe2f2331bd19d",
+                      "attrs": {
+                        "style": {
+                          "text-align": "center"
+                        },
+                        "redactor-attributes": {}
+                      },
+                      "children": [
+                        {
+                          "text": "The Semantic Graph Strategy's Unique Strength and Your Competitive Advantage",
+                          "attrs": {
+                            "style": {
+                              "color": "rgb(0, 0, 0)"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "p",
+                      "uid": "b0229335cb2045b5acef0665a96b65b1",
+                      "attrs": {
+                        "style": {
+                          "text-align": "center"
+                        },
+                        "redactor-attributes": {}
+                      },
+                      "children": [
+                        {
+                          "text": "Strategy was founded on a very simple idea – that analytics programs should exist to drive better decision making at every level of the organization and that the availability of these insights should be pervasive. This is why the vision for our platform is – and always has been – 'Intelligence Everywhere'. The Strategy Semantic Graph weaves together data, business rules, relationships, and metadata so that components are reusable, inheritable, and privacy aware.",
+                          "attrs": {
+                            "style": {
+                              "color": "rgb(85, 85, 85)"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "_version": 98
+                },
+                "_metadata": {
+                  "uid": "cs35b365732971b0b6"
+                }
+              }
+            }
+          ],
+          "limit_header_width": "75%",
+          "columns": [
+            {
+              "mod_column": {
+                "column_name": "The Brief",
+                "_metadata": {
+                  "uid": "cs361e0b913c4e1a36"
+                },
+                "accent_box_options": [
+                  {
+                    "size": "Medium",
+                    "styles": [
+                      "Outlined"
+                    ],
+                    "outline_styles": [
+                      "outlineThin",
+                      "outlineColorOrange"
+                    ],
+                    "flag": "",
+                    "_metadata": {
+                      "uid": "cse449e05d0d8904dd"
+                    },
+                    "align": null,
+                    "bg_color": "White",
+                    "bg_custom_color": "",
+                    "bg_image": null,
+                    "text_color": null,
+                    "add_link": []
+                  }
+                ],
+                "content": [
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "664c8ca58d1b4fefad9b8361d04a0157",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "h3",
+                            "uid": "82ad26483c4c481f93f937f4fb9309dd",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "The Brief",
+                                "font-color": "#000000"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "ul",
+                            "uid": "e17f8c29e76b4a22a2425c3409815aa2",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "type": "li",
+                                "uid": "dd1bcde63e2043608c5eb67ad6bfe1ca",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "0b39c20966344606ad319e0d98462245",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "Strategy's Semantic Graph eliminates rework by immediately propagating foundational data changes throughout the entire platform.",
+                                        "bold": true
+                                      },
+                                      {
+                                        "text": " Unlike other solutions that require manual updates across tools, Strategy's object-oriented design ensures changes to the foundational layer cascade system-wide, driving alignment and increasing user trust in data used for critical everyday decisions."
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "li",
+                                "uid": "b6a6cc71505e4e4eaf37f628492493bc",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "a7ddeb042a4a4e14982e6f773b34f8a1",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "Universal semantic layers lack a robust calculation engine, forcing organizations to manage multiple tools for complex analytics.",
+                                        "bold": true
+                                      },
+                                      {
+                                        "text": " Tools like dbt, Cube, AtScale, and Denodo cannot handle smart totals, nested aggregations, or case-specific computations natively, relegating them to a limited presentation layer and requiring significant additional operational effort and cost."
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "li",
+                                "uid": "66a130258cdb4474ac0b5895769e697b",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "e7d6728befeb4c808e9fdbedd37f7077",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "Strategy's vendor-agnostic design allows organizations to migrate between cloud data warehouses without rebuilding their semantic models.",
+                                        "bold": true
+                                      },
+                                      {
+                                        "text": " In a documented case, a large retailer migrating from Redshift to Snowflake required substantially less migration effort with Strategy compared to Power BI, demonstrating the practical cost advantage of source-independent semantic modeling."
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "li",
+                                "uid": "9e92e830ed5c4001b395ff098f4189eb",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "3d0d1b2420d44907b8a3200e98281c51",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "Deeper semantic graph integration enables AI to handle data governance and security natively within AI-driven analytics requests.",
+                                        "bold": true
+                                      },
+                                      {
+                                        "text": " Strategy's security model can actively evaluate access permissions against a dataset when a user makes an AI request, solving data privacy challenges that shallow semantic layers cannot address. Usage telemetry further refines AI interactions and recommendations."
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 98
+                      },
+                      "_metadata": {
+                        "uid": "cs7c148eee5269fb41"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "columns_per_row": 1,
+          "column_alignment": "Center, Top",
+          "section_footer": [],
+          "limit_footer_width": null,
+          "more_column_options": {
+            "column_spacing": "Default",
+            "one_column_limit_width": "75%",
+            "two_column_split": null,
+            "reverse_column_order_mobile": false,
+            "accent_box_stretch": false
+          },
+          "more_section_options": {
+            "text_color": "Dark",
+            "padding": "Default",
+            "add_divider": [],
+            "bg_color": "White",
+            "bg_custom_color": "",
+            "bg_image": null,
+            "mobile_bg_image": null,
+            "parallax_bg": false,
+            "bg_video_id": ""
+          }
+        }
+      },
+      {
+        "section": {
+          "section_id": "executive-summary",
+          "_metadata": {
+            "uid": "csc9d7b3ca07eb13be"
+          },
+          "section_header": [],
+          "limit_header_width": null,
+          "columns": [
+            {
+              "mod_column": {
+                "column_name": "banner",
+                "_metadata": {
+                  "uid": "cs97d524d6c47cd6e1"
+                },
+                "accent_box_options": [],
+                "content": [
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "393e3d888d004bd4a58ae9f5ea038526",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "h2",
+                            "uid": "1f1089b57c2146118738520a71fa185a",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Executive Summary",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(0, 0, 0)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 98
+                      },
+                      "_metadata": {
+                        "uid": "cs2bd68b6ca284b77c"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  },
+                  {
+                    "divider": {
+                      "style": "thin",
+                      "spacing": "12",
+                      "custom_spacing": null,
+                      "_metadata": {
+                        "uid": "cs1c9d8fb761f24cee"
+                      },
+                      "color": "colorOrange",
+                      "opacity": "1",
+                      "width": "100"
+                    }
+                  },
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "636833966f8d41e7a28b2eb96a48c83b",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "4f5dce19d58748f7ba9cf2b6dca0b1ea",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Strategy was founded on a very simple idea – that analytics programs should exist to drive better decision making at every level of the organization and that the availability of these insights should be pervasive. This is why the vision for our platform is – and always has been – 'Intelligence Everywhere'.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "bf2e1998fd984209b351cafdb1aab9e1",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "To deliver on this mission, Strategy offers the broadest array of delivery modes for analytics. This is why Strategy is trusted by thousands of the largest most well-known brands in the world. Another key reason is the Strategy Semantic Graph which weaves together data, business rules, relationships, and metadata so that components are reusable, inheritable, and privacy aware.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "d8f7e92583c8448ba5dced91cbea82da",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "This unique object-oriented design within the Strategy One platform makes it easy to maintain the full suite of data experiences without the burdensome effort required by other platforms. Unlike other solutions, Strategy enables data teams to focus on creating foundational reusable assets that serve as the basis for all upstream analysis. Changes to this foundational layer are immediately propagated throughout the system – eliminating rework, driving alignment, and increasing user trust in the data they use for critical everyday decisions.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 98
+                      },
+                      "_metadata": {
+                        "uid": "cse1ee594546a1eb6c"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "mod_column": {
+                "column_name": "Semantic Layer Approaches",
+                "_metadata": {
+                  "uid": "cs0182d6189586da32"
+                },
+                "accent_box_options": [],
+                "content": [
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "cb81f6b73b9242dbb76cf67d231b4928",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "h3",
+                            "uid": "7041ccaef19c494496981f1c652f60b8",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Semantic Layer Approaches",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(250, 102, 15)"
+                                  }
+                                },
+                                "bold": true,
+                                "font-color": "#fa660f"
+                              },
+                              {
+                                "text": " ",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(250, 102, 15)"
+                                  }
+                                },
+                                "font-color": "#fa660f"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "5b278364a9be492da0a146cd3646e263",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Strategy has been the leader in providing a fully integrated semantic layer that allows organizations to connect to nearly any data source, model business definitions such as attributes (aka dimensions) and metrics (aka measures), govern data and reuse these definitions for downstream analytics purposes. Over the years, many competitive semantic layers have come and gone, while the Strategy approach has stood the test of time. The market today broadly has three semantic layer approaches:",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "ul",
+                            "uid": "351b1e78056c43f5baf43509e3576b9b",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "type": "li",
+                                "uid": "3d644524cbe141e08a9152cb877be40c",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "90720d4ceaca41e4a5f7853467ec63dc",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "Hyperscaler-tied Semantic Layer:",
+                                        "bold": true,
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "text": " Tied to hyperscaler data infrastructure like LookML and Microsoft Fabric. These solutions often offer deep integration with specific hyperscaler platforms, catering to organizations heavily invested in those ecosystems.",
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "li",
+                                "uid": "c4b00e440c254432bec9331ff08b9b24",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "6898509a2e66474fbb7d0613bce50e91",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "Universal Semantic Layer:",
+                                        "bold": true,
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "text": " Primarily acts as a presentation layer for data models, reliant on underlying sources for processing (e.g., dbt, Cube, Kyvos, Kyligence, AtScale, Denodo, etc.). While providing modeling flexibility, these tools often lack a calculation engine, requiring additional tools for advanced and ad-hoc calculation at the analytics layer.",
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "li",
+                                "uid": "1e059f1155844f7cae9d61ee04962852",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "232d6f9cec2a415ca26e8c7b549f3151",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "BI Semantic Layer:",
+                                        "bold": true,
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "text": " Integrates schema modeling with analytics and data visualization layers. It is often portable across hyperscaler infrastructures and includes an integrated calculation engine for advanced multi-dimensional analysis. Strategy, Business Objects, and Cognos fall into this category, though the latter two have lagged in modernization and innovations.",
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 98
+                      },
+                      "_metadata": {
+                        "uid": "csbcfaf31a10120435"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "mod_column": {
+                "column_name": "The Strategy Advantage",
+                "_metadata": {
+                  "uid": "cs504490ca91793c8d"
+                },
+                "accent_box_options": [],
+                "content": [
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "0dbced963b90462e94964538f63f53a4",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "h3",
+                            "uid": "1e4ccbdf76d24af5992ba519a8de9222",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "The Strategy Advantage",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(250, 102, 15)"
+                                  }
+                                },
+                                "bold": true,
+                                "font-color": "#fa660f"
+                              },
+                              {
+                                "text": " ",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(250, 102, 15)"
+                                  }
+                                },
+                                "font-color": "#fa660f"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "781a074351474070b8052056bc4bd87e",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Strategy stands out in the semantic layer landscape through three key differentiators that enhances its effectiveness:",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "3c4c4c7d3da3466c807c753821528eae",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "An Integrated Engines Framework:",
+                                "bold": true,
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              },
+                              {
+                                "text": " The Strategy Semantic Layer is not just a data mapping tool; it actively transforms data into multi-dimensional representations suitable for sophisticated analysis. By integrating various components such as a Dynamic SQL Engine, Dynamic Sourcing Engine, Cube and Caching Engines, and a Federated Multi-Source Engine, Strategy provides a cohesive and scalable solution. This integrated framework ensures that data modeling is both powerful and efficient, enhancing interaction with underlying data systems.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "0616a8ddd15a4bf890cfb6ea84b86468",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Superior AI + BI Integration:",
+                                "bold": true,
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              },
+                              {
+                                "text": " Strategy AI empowers users with features like Auto Answers, advanced Q&A, and AI visualizations, delivering in-depth data analysis and insights. By combining AI with Strategy's robust Semantic Graph, it ensures reliable data interpretation and computation while maintaining data governance, security, and integrity.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "4500301d7a2448139fe38b390e4ae36d",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Portability and Data Source Agnostic:",
+                                "bold": true,
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              },
+                              {
+                                "text": " Unlike many semantic layers that are tightly bound to specific data sources, the Strategy Semantic Layer offers unparalleled flexibility. Its design allows organizations to seamlessly switch between different data sources or hyperscalers such as Google Cloud to Azure without needing to reconstruct data models. This portability and agnostic approach free businesses from vendor lock-in, enabling them to choose the most suitable technologies without compatibility concerns.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "9e793661c65d499f96b1534100e3595c",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Open Architecture:",
+                                "bold": true,
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              },
+                              {
+                                "text": " The Strategy Semantic Layer supports a broad spectrum of analytics tools through its open architecture. Whether it's enhancing BI functionalities with low-code/no-code options, integrating with popular visualization tools like Tableau and Power BI, or empowering data scientists with optimized datasets for Python models, Strategy ensures that data is not only accessible but also usable in diverse ways. This openness extends the utility of Strategy's platform, accommodating a wide range of business needs and user preferences.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "df98aa661d924b5697830022996c4a48",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Explore these differentiations in more detail in the subsequent sections to understand how Strategy's unique approach can benefit your organization.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 98
+                      },
+                      "_metadata": {
+                        "uid": "cs72c7047b6ee03356"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "columns_per_row": 1,
+          "column_alignment": "Center, Top",
+          "section_footer": [],
+          "limit_footer_width": null,
+          "more_column_options": {
+            "column_spacing": "Default",
+            "one_column_limit_width": "75%",
+            "two_column_split": null,
+            "reverse_column_order_mobile": false,
+            "accent_box_stretch": false
+          },
+          "more_section_options": {
+            "text_color": "Dark",
+            "padding": "Short bottom only",
+            "add_divider": [],
+            "bg_color": "White",
+            "bg_custom_color": "",
+            "bg_image": null,
+            "mobile_bg_image": null,
+            "parallax_bg": false,
+            "bg_video_id": ""
+          }
+        }
+      },
+      {
+        "section": {
+          "section_id": "introduction",
+          "_metadata": {
+            "uid": "cs4d2b755cfe677077"
+          },
+          "section_header": [],
+          "limit_header_width": null,
+          "columns": [
+            {
+              "mod_column": {
+                "column_name": "banner",
+                "_metadata": {
+                  "uid": "csf8bf93323fa9e1a2"
+                },
+                "accent_box_options": [],
+                "content": [
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "e265818e47884e219f20f06e670caa25",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "h2",
+                            "uid": "fb9f97e57c1942c5a50ec1f96edf4a96",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Introduction",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(0, 0, 0)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 98
+                      },
+                      "_metadata": {
+                        "uid": "cs8a3940ce774a8a21"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  },
+                  {
+                    "divider": {
+                      "style": "thin",
+                      "spacing": "12",
+                      "custom_spacing": null,
+                      "_metadata": {
+                        "uid": "csc3d07703fb81fe97"
+                      },
+                      "color": "colorOrange",
+                      "opacity": "1",
+                      "width": "100"
+                    }
+                  },
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "e3a2e661fa7148498bf21437399239b1",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "8a7aaccffe7b424eb634f06e5c20038a",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "In the evolving analytics landscape, the semantic layer is essential for translating complex data into accessible business insights. While past discussions have focused on comparing semantic layer capabilities across various BI vendors, recent dialogue has expanded to include new vendors and technologies advocating for a universal semantic layer, independent from traditional analytics and BI functions. This section will examine the strengths and weaknesses of these semantic layer solutions, with a particular focus on Strategy's approach within this changing landscape.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 98
+                      },
+                      "_metadata": {
+                        "uid": "csad2dfbfe89eae12e"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "columns_per_row": 1,
+          "column_alignment": "Center, Top",
+          "section_footer": [],
+          "limit_footer_width": null,
+          "more_column_options": {
+            "column_spacing": "Default",
+            "one_column_limit_width": "75%",
+            "two_column_split": null,
+            "reverse_column_order_mobile": false,
+            "accent_box_stretch": false
+          },
+          "more_section_options": {
+            "text_color": "Dark",
+            "padding": "Short bottom only",
+            "add_divider": [],
+            "bg_color": "White",
+            "bg_custom_color": "",
+            "bg_image": null,
+            "mobile_bg_image": null,
+            "parallax_bg": false,
+            "bg_video_id": ""
+          }
+        }
+      },
+      {
+        "section": {
+          "section_id": "the-promise-and-limitations-of-a-universal-semantic-layer",
+          "_metadata": {
+            "uid": "cs5b8660742e808060"
+          },
+          "section_header": [],
+          "limit_header_width": null,
+          "columns": [
+            {
+              "mod_column": {
+                "column_name": "banner",
+                "_metadata": {
+                  "uid": "csb1f66bb9aa1b2638"
+                },
+                "accent_box_options": [],
+                "content": [
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "08681569b897450ea2fed3951b006ec8",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "h2",
+                            "uid": "65c46d57acc84f0db0eb5cb7edb83167",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "The Promise and Limitations of a Universal Semantic Layer",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(0, 0, 0)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 98
+                      },
+                      "_metadata": {
+                        "uid": "cs52b3fa146a609bd9"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  },
+                  {
+                    "divider": {
+                      "style": "thin",
+                      "spacing": "12",
+                      "custom_spacing": null,
+                      "_metadata": {
+                        "uid": "cs077b48fc32cef95d"
+                      },
+                      "color": "colorOrange",
+                      "opacity": "1",
+                      "width": "100"
+                    }
+                  },
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "f1b078fc82b84fb58e4e3e932595ebc3",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "87c75aafaadc41eb88b5e2e9ac70d5d4",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "In recent years, a range of technologies and vendors have sought to establish a universal semantic layer, intended as a translation mechanism between data and business insights, accessible via robust APIs. This approach has become popular with the emergence of tools like dbt, Kyvos, AtScale, Denodo and Cube, reflecting a shift towards uniform data definitions. These platforms support data modeling across varied data sources and encourage a standardized approach to data management. However, they typically lack a robust calculation engine necessary for advanced data operations. This shortcoming, along with the complexities of managing multiple semantic systems within organizations, presents significant challenges. This discussion will delve into these issues and contrast them with Strategy's integrated approach, which illustrates how a well-designed semantic layer can significantly enhance data utility and analytical capabilities.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 98
+                      },
+                      "_metadata": {
+                        "uid": "cs35826216e3a1fe22"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "mod_column": {
+                "column_name": "Lack of a Calculation Engine and Its Implications",
+                "_metadata": {
+                  "uid": "cs2657f31f7f3c10f7"
+                },
+                "accent_box_options": [],
+                "content": [
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "7f8c6b1669cc427ea55c1efb1bf99e2c",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "h3",
+                            "uid": "ff9d6617634242e7828b8d40a7e23178",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Lack of a Calculation Engine and Its Implications",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(250, 102, 15)"
+                                  }
+                                },
+                                "bold": true,
+                                "font-color": "#fa660f"
+                              },
+                              {
+                                "text": " ",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(250, 102, 15)"
+                                  }
+                                },
+                                "font-color": "#fa660f"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "9171ce4bc40040d78c9d6f6f1bccf21d",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Despite their growing popularity, universal semantic layer solutions often lack a crucial component: a robust calculation engine necessary for complex data aggregations and multi-dimensional analysis. For instance, accurately calculating average prices at various aggregation levels requires the semantic layer to effectively manage pre-aggregations of revenue and units sold. The inability to handle intermediate metric calculations such as smart totals, nested aggregations, and case-specific computations means that these complex calculations must often be performed elsewhere. Consequently, without a comprehensive calculation engine, the semantic layer essentially serves as a limited presentation layer, heavily reliant on underlying data sources for data processing.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "819857ffc3204a248cfef8ab574fcf49",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Moreover, this limitation indicates that universal semantic layers mainly address the data presentation layer needs of other BI and downstream tools. This arrangement does not eliminate the necessity for BI tools to develop their own semantic layers, equipped to manage and leverage their internal aggregation engine logic. As a result, organizations must manage multiple tools and semantic layer configurations, an endeavor that requires significant operational efforts and incurs considerable costs.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 98
+                      },
+                      "_metadata": {
+                        "uid": "cs5708cc479e8cd043"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "mod_column": {
+                "column_name": "Proximity of Semantic Layer Impacts How It's Utili",
+                "_metadata": {
+                  "uid": "csdc5bac396309e0d3"
+                },
+                "accent_box_options": [],
+                "content": [
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "69b8e0f230f44b05a65721a3dbf68be9",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "h3",
+                            "uid": "5f9f5cca81c443519613c3fc3d390eb2",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Proximity of Semantic Layer Impacts How It's Utilized",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(250, 102, 15)"
+                                  }
+                                },
+                                "bold": true,
+                                "font-color": "#fa660f"
+                              },
+                              {
+                                "text": " ",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(250, 102, 15)"
+                                  }
+                                },
+                                "font-color": "#fa660f"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "8d12dc200a114a378e1a6d007157be3f",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "The positioning of a semantic layer within the data stack significantly influences its application and best practices. Universal semantic layers, typically situated close to the data layer, are designed to provide a consistent and stable interface for data access and integration. This proximity to the data source makes them ideal for operational reporting and scenarios where data structures and queries are relatively static. They offer a stable environment for predefined queries and standard reports, ensuring reliability and consistency. However, this static nature can limit their flexibility and responsiveness to dynamic analytical needs.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "bde1b1eaa74a4fac94d52af1f729a793",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "In contrast, Strategy's semantic graph resides within the analytics and visualization layer, making it more dynamic and adaptable. This integration allows for real-time interaction with data, supporting complex, ad-hoc analyses and evolving business questions. The semantic layer's proximity to the analytics tools means that it can quickly adjust to new queries and data models, providing users with the flexibility to explore data in a more iterative and interactive manner.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "0bd15614457444a0b2c821631942b421",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "However, it is not always an either-or scenario. There are instances where both approaches can complement each other effectively. For example, dbt provides tremendous value in ELT data modeling by transforming and materializing data to a database. In a number of cases, customers use dbt to prepare and structure their data, and then leverage Strategy to build a semantic layer on top of this data. This combination allows organizations to benefit from the robust data processing capabilities of dbt while also taking advantage of Strategy's dynamic and flexible semantic layer for advanced analytics and visualization.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 98
+                      },
+                      "_metadata": {
+                        "uid": "cs39065ad995d0fb1a"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "columns_per_row": 1,
+          "column_alignment": "Center, Top",
+          "section_footer": [],
+          "limit_footer_width": null,
+          "more_column_options": {
+            "column_spacing": "Default",
+            "one_column_limit_width": "75%",
+            "two_column_split": null,
+            "reverse_column_order_mobile": false,
+            "accent_box_stretch": false
+          },
+          "more_section_options": {
+            "text_color": "Dark",
+            "padding": "Short bottom only",
+            "add_divider": [],
+            "bg_color": "White",
+            "bg_custom_color": "",
+            "bg_image": null,
+            "mobile_bg_image": null,
+            "parallax_bg": false,
+            "bg_video_id": ""
+          }
+        }
+      },
+      {
+        "section": {
+          "section_id": "strategy-s-semantic-graph-approach",
+          "_metadata": {
+            "uid": "csdffa2d4050e998a5"
+          },
+          "section_header": [],
+          "limit_header_width": null,
+          "columns": [
+            {
+              "mod_column": {
+                "column_name": "banner",
+                "_metadata": {
+                  "uid": "cscc3b666aad257b51"
+                },
+                "accent_box_options": [],
+                "content": [
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "efc64abac72a439cb4d70530dfb84d5c",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "h2",
+                            "uid": "c8ff7bf0cad44e81b74dc92b27ad97fa",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Strategy's Semantic Graph Approach",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(0, 0, 0)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 98
+                      },
+                      "_metadata": {
+                        "uid": "csefddff9f493d117a"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  },
+                  {
+                    "divider": {
+                      "style": "thin",
+                      "spacing": "12",
+                      "custom_spacing": null,
+                      "_metadata": {
+                        "uid": "cs8da14a02d42c836c"
+                      },
+                      "color": "colorOrange",
+                      "opacity": "1",
+                      "width": "100"
+                    }
+                  },
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "621c8832878b41bf8dbab52510d8b701",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "18272cca0d714f24ab1a664911fdd9f1",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "In this section, we will explore three key aspects of Strategy's semantic graph approach that set it apart from others. An integrated framework that ensures seamless functionality across diverse systems, portability that facilitates vendor-agnostic flexibility, and an open architecture that supports a wide range of downstream analytics tools. Each component is designed to reinforce the others, providing a robust platform that adapts to evolving business needs.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 98
+                      },
+                      "_metadata": {
+                        "uid": "csb1fa7f647359c177"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "mod_column": {
+                "column_name": "An Integrated Engines Framework",
+                "_metadata": {
+                  "uid": "csbde722340a44c96c"
+                },
+                "accent_box_options": [],
+                "content": [
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "1afcb3050109483d8eba774074112c70",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "h3",
+                            "uid": "9a5acdeaab204af1a6bb86c8e99b4c41",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "An Integrated Engines Framework",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(250, 102, 15)"
+                                  }
+                                },
+                                "bold": true,
+                                "font-color": "#fa660f"
+                              },
+                              {
+                                "text": " ",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(250, 102, 15)"
+                                  }
+                                },
+                                "font-color": "#fa660f"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "379a6bbabdfc43a88ac595aec912472c",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Strategy's semantic graph does more than just map data structures; it actively transforms data into multi-dimensional representations suitable for advanced analysis. Strategy stands out by providing robust data modeling capabilities across diverse data sources and deploying a suite of components that form an integrated framework to support the semantic graph:",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "ul",
+                            "uid": "15ce3c66851d406c97f2c4bd74dc1ef4",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "type": "li",
+                                "uid": "7ed64384587548ebb624f54f57fcb65e",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "c1c6e970cc074c99bf80669fcdd22b9f",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "Dynamic SQL Engine:",
+                                        "bold": true,
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "text": " Generates on-demand, source-native, and optimized multi-pass query. This includes the ability to push down advanced calculations and data processing to the source for scalable performance.",
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "li",
+                                "uid": "e2f33ea6dcef4b49b9f9c75a75c24f4c",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "96e0752625bf4ad08e4995d64bc1b4a9",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "Cache and Cube Engine:",
+                                        "bold": true,
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "text": " Enhances data retrieval speed and reduces the load on underlying data sources by storing pre-calculated, summarized data for quick access.",
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "li",
+                                "uid": "706bd7381fb34308ad2182bc3d853bf7",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "8ea3831b8108461dbeaab3bf396b417c",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "Dynamic Sourcing Engine:",
+                                        "bold": true,
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "text": " Automatically selects the optimal data retrieval path for best performance—either querying an existing in-memory data cube or generating a source-native, optimized query directly from the backend source.",
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "li",
+                                "uid": "646282a05e854920a6c10d71a9f9b82e",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "2aa417e5d3184ec4b905854462cd7f61",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "Federated Multi-Source Engine:",
+                                        "bold": true,
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "text": " Allows seamless connection to multiple data sources within a single project.",
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 98
+                      },
+                      "_metadata": {
+                        "uid": "csfdc218678b4f0b42"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "mod_column": {
+                "column_name": "Dynamic SQL Engine",
+                "_metadata": {
+                  "uid": "cs88400452918610d5"
+                },
+                "accent_box_options": [],
+                "content": [
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "7f3070f78b084ebebd6d95a296550a83",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "h3",
+                            "uid": "a6d90531f77a4f74802a4a27c9bca9af",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Dynamic SQL Engine",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(250, 102, 15)"
+                                  }
+                                },
+                                "bold": true,
+                                "font-color": "#fa660f"
+                              },
+                              {
+                                "text": " ",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(250, 102, 15)"
+                                  }
+                                },
+                                "font-color": "#fa660f"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "7ece07b3a16f47d3893c66a4de7bdb7b",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "The Dynamic SQL Engine generates on-demand, source-native, and optimized multi-pass queries. This includes the ability to push down advanced calculations and data processing to the source for scalable performance. However, a robust SQL engine must also address fundamental data modeling challenges such as multi-fact and multi-granularity issues, non-aggregatable facts, slowly changing dimensions (SCD), level metrics, nested aggregations, set qualifications, distinct counts and many other complex data modeling scenarios.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "5550f1325bcf4b3fa73bba9ded6e11f9",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Current solutions often fail to adequately tackle these real-world challenges due to either a lack of a dynamic SQL engine or one that is not robust enough to handle them, requiring users to solve these issues manually through SQL, data pipelines, or other methods. In contrast, Strategy's Dynamic SQL Engine is designed to handle these complexities, providing a comprehensive solution that not only generates efficient queries but also simplifies data integration and management. This ensures better performance and scalability without compromising on the integrity and usability of the data.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "9dfd6273dd3342a792e1d3dc570ddbea",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Incorporating these capabilities into the Dynamic SQL Engine will not only streamline the process but also reinforce our commitment to addressing the foundational aspects of data management that are often overlooked in modern solutions.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 98
+                      },
+                      "_metadata": {
+                        "uid": "cs5345c5e07a5b769a"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "mod_column": {
+                "column_name": "Cache and Cube Engine",
+                "_metadata": {
+                  "uid": "cs93be13de5a7b4165"
+                },
+                "accent_box_options": [],
+                "content": [
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "5701f97b12d04b76a58c71cdb6a7218b",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "h3",
+                            "uid": "b68387dc19af49acb59a87a77559dc33",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Cache and Cube Engine",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(250, 102, 15)"
+                                  }
+                                },
+                                "bold": true,
+                                "font-color": "#fa660f"
+                              },
+                              {
+                                "text": " ",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(250, 102, 15)"
+                                  }
+                                },
+                                "font-color": "#fa660f"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "d1559bf717a84a8ba3bb1f699ce1ba47",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "In-memory cubes and caching strategies are becoming increasingly important with the rise of cost-per-query databases like Snowflake and Databricks. Strategy's approach includes the use of in-memory caching and shared in-memory dataset cubes.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "d9f6b731c7cd4c63b74ce660506b1bd2",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "A cache is a stored result set that improves response times for future requests by retrieving results from Strategy's server instead of re-executing queries against a database. Our platform supports various caches, including result caches, data element caches, and semantic layer object caches.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "b19bf59cab414f4ea3c3285cd172c86f",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Additionally, Strategy's Intelligent Cubes allow multiple reports to access data from a single shared in-memory dataset, significantly reducing query execution times. This scalable solution minimizes data consumption and redundancy by creating only the necessary data sets. Intelligent Cubes can also use partitioning to load more data into memory and perform parallel queries, leveraging multi-core hardware architectures for optimal performance.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "37f6227e3fc5424aa98f1922fe3b33a6",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "By combining these caching strategies, Strategy not only boosts performance but also reduces overall database query costs, ensuring data is synchronized across platforms and tools.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 98
+                      },
+                      "_metadata": {
+                        "uid": "csd2284704d18508a1"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "mod_column": {
+                "column_name": "Dynamic Sourcing Engine",
+                "_metadata": {
+                  "uid": "csf05da1bdd6407d72"
+                },
+                "accent_box_options": [],
+                "content": [
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "1d737cc19cfc42498c4dbe3385cf495a",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "h3",
+                            "uid": "b811e75990ab41acaca93b0e2e6ea51e",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Dynamic Sourcing Engine",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(250, 102, 15)"
+                                  }
+                                },
+                                "bold": true,
+                                "font-color": "#fa660f"
+                              },
+                              {
+                                "text": " ",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(250, 102, 15)"
+                                  }
+                                },
+                                "font-color": "#fa660f"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "119ec7e0601245e7a0ca9ad7cfe7b05a",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Unlike most existing semantic layers where the source of a report request is statically mapped and pre-determined, Strategy's approach is more dynamic. Dynamic Sourcing is a powerful feature of Strategy that optimizes report requests by determining at run-time whether the required data can be obtained from an in-memory data cube, an aggregate table, or a base table from the warehouse.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "9aad42a67d1b468ab4bd3701e7030ca4",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "If the data needed for a report is available in a published cube, the cube satisfies the request, eliminating the need to execute a separate query against the data warehouse. The most suitable cube is automatically selected from the available options.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "1d420f9a169a4982b34b9745c742cba3",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "If the data cannot be found in an existing cube, Strategy generates a query directly against the backend data warehouse. It first checks the semantic graph for available aggregate tables, querying the smallest aggregate table that meets the request's requirements. If no aggregate table is available, Strategy will generate a source-native, optimized query against the base table(s) to retrieve the necessary data.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "d0b6f927710840e4bd9c373b74a859f5",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "This dynamic sourcing approach is a significant advantage and enables Strategy to achieve optimal performance at scale.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 98
+                      },
+                      "_metadata": {
+                        "uid": "cs2254b5b0c42dab27"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "mod_column": {
+                "column_name": "Federated Multi-Source Engine",
+                "_metadata": {
+                  "uid": "cs60beebf81f28b72b"
+                },
+                "accent_box_options": [],
+                "content": [
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "95e69402111148458c6c95e61fec0b9a",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "h3",
+                            "uid": "2c11a5644e904a849a3da680e9af4a04",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Federated Multi-Source Engine",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(250, 102, 15)"
+                                  }
+                                },
+                                "bold": true,
+                                "font-color": "#fa660f"
+                              },
+                              {
+                                "text": " ",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(250, 102, 15)"
+                                  }
+                                },
+                                "font-color": "#fa660f"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "aa6022d3cce94ae7b04892fb7e3b5563",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Organizations generally maintain silos of data across different data sources. This disparate model makes it very difficult for users to gain a unified view of the business. Unfortunately, universal semantic layer solutions like dbt, Cube, AtScale and others lack native support for connecting to multiple databases within the same project, often leading to vendor lock-in as they require migrating all data to a dedicated source.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "aa4d172a14a449ffabc5f7eca098c0c7",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "In contrast, Strategy's Federated Multi-Source feature allows seamless connection to multiple data sources within a single project. This integration enables you to consolidate information from various databases into a unified Strategy project, leveraging a single semantic layer schema. The ability to access multiple data sources in one project offers significant advantages. For example, a sales manager wants to include forecast data available in Salesforce alongside actual sales data from Snowflake. This capability to connect, query, and join data across sources allows for flexible, comprehensive, and integrated reporting solutions without the need to centralize all your data into one dedicated source.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "1333806f69ce4a69a9e5c1b2c275a7af",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "The integration of these components not only facilitates sophisticated data modeling but also significantly improves how these models interact with underlying data systems. This cohesive functionality provides flexibility in design and scalability in performance. Strategy's approach ensures that organizations can fully leverage their data assets, achieving deeper insights and maintaining efficiency at scale, without the complexities of managing multiple semantic layers or compromising on analytical capabilities.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 98
+                      },
+                      "_metadata": {
+                        "uid": "cs38c34ac88ce55d60"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "columns_per_row": 1,
+          "column_alignment": "Center, Top",
+          "section_footer": [],
+          "limit_footer_width": null,
+          "more_column_options": {
+            "column_spacing": "Default",
+            "one_column_limit_width": "75%",
+            "two_column_split": null,
+            "reverse_column_order_mobile": false,
+            "accent_box_stretch": false
+          },
+          "more_section_options": {
+            "text_color": "Dark",
+            "padding": "Short bottom only",
+            "add_divider": [],
+            "bg_color": "White",
+            "bg_custom_color": "",
+            "bg_image": null,
+            "mobile_bg_image": null,
+            "parallax_bg": false,
+            "bg_video_id": ""
+          }
+        }
+      },
+      {
+        "section": {
+          "section_id": "superior-ai-bi-integration",
+          "_metadata": {
+            "uid": "cs50a251b6c1b93f79"
+          },
+          "section_header": [],
+          "limit_header_width": null,
+          "columns": [
+            {
+              "mod_column": {
+                "column_name": "banner",
+                "_metadata": {
+                  "uid": "cs9b03faf30eb8456c"
+                },
+                "accent_box_options": [],
+                "content": [
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "6ade80bbce64420aa5042a3f1c930eb8",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "h2",
+                            "uid": "47816a3dff12439ab28eb2f585e5e22c",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Superior AI + BI Integration",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(0, 0, 0)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 98
+                      },
+                      "_metadata": {
+                        "uid": "cse0695c291f421cdb"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  },
+                  {
+                    "divider": {
+                      "style": "thin",
+                      "spacing": "12",
+                      "custom_spacing": null,
+                      "_metadata": {
+                        "uid": "cs457349b90486390d"
+                      },
+                      "color": "colorOrange",
+                      "opacity": "1",
+                      "width": "100"
+                    }
+                  },
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "0122c3d135124a28a57f14e964f99c81",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "26fc140adf1147839198ea8d78a18cde",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Strategy AI provides an array of AI features to empower users with varying skill levels and different roles within an organization. Business users and analysts can take advantage of Auto Answers, a chatbot experience that allows them to dig deeper into their dashboard by providing insights and in-depth data analysis. This includes advanced Q&A and AI visualizations that leverage machine learning capabilities to generate key driver analysis, forecasts, and trends. They can also use bots that are focused on a specific use case or persona and allow for additional customizations leveraging Knowledge Asset and Custom Instructions fields to provide more business context. Other features available in Strategy AI include Auto Dashboard, which enables users to design dashboards more efficiently, and Auto SQL, which helps administrators and architects to expedite data modeling by generating SQL.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 98
+                      },
+                      "_metadata": {
+                        "uid": "cseb090af3db337005"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "mod_column": {
+                "column_name": "The Role of Semantic Graph in AI",
+                "_metadata": {
+                  "uid": "cs449c29279da27900"
+                },
+                "accent_box_options": [],
+                "content": [
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "925c96e9267f4f45bbd361d241eb692f",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "h3",
+                            "uid": "ab119cab93b145c6afacd0b51f76b97d",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "The Role of Semantic Graph in AI",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(250, 102, 15)"
+                                  }
+                                },
+                                "bold": true,
+                                "font-color": "#fa660f"
+                              },
+                              {
+                                "text": " ",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(250, 102, 15)"
+                                  }
+                                },
+                                "font-color": "#fa660f"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "36f85958e02641e0b5492c218b883823",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Using AI to directly interpret and aggregate data can be unreliable. However, employing AI prompt engineering with a Semantic Graph resolves this issue. Prompt engineering fine-tunes the AI's language abilities to translate specific queries into actionable commands for the Semantic Graph. In this setup, the AI excels at translation rather than computation. It interprets the user's request through prompt engineering and maps it to components the Semantic Graph comprehends. The Strategy Semantic Graph, with its robust grasp of data relationships and standardized business logic, handles the computational task for accurate and reliable results.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 98
+                      },
+                      "_metadata": {
+                        "uid": "cs0eff9c1a6417d7db"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "mod_column": {
+                "column_name": "Depth and Breadth of Semantic Graph Matters",
+                "_metadata": {
+                  "uid": "csbf49f875c88c5b96"
+                },
+                "accent_box_options": [],
+                "content": [
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "91c1695ce2dc425585d3c3b45530999c",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "h3",
+                            "uid": "702d0adb8d004db697e1e45a41cde207",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Depth and Breadth of Semantic Graph Matters",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(250, 102, 15)"
+                                  }
+                                },
+                                "bold": true,
+                                "font-color": "#fa660f"
+                              },
+                              {
+                                "text": " ",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(250, 102, 15)"
+                                  }
+                                },
+                                "font-color": "#fa660f"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "80d2f31887404f088e096752a6fde3db",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "The Semantic Graph in BI is often expressed in the context of various downstream data tools and applications. The design and sophistication of the Semantic Graph can vary widely, reflecting the specific needs and capabilities of the tools and platforms in use.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "b01049e6affa41f889eb279cdd9b13ad",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "From a data abstraction perspective, basic productivity tools like Microsoft Excel often lack a semantic layer/model altogether, whereas point-solution BI tools usually confine semantic definitions within individual datasets. In contrast, Strategy utilizes a foundational Semantic Graph that resides below the dataset level, serving as a base to create various upstream objects, including datasets.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "ceeaced65d534b70b297028ed38ec0be",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "A Semantic Graph that's embedded deeper into a platform can offer more possibilities for more comprehensive AI integration. These capabilities can include, but are not limited to, those listed in the illustration below.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "f600b428d17c4444a14e73c70637e701",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Together, a Semantic Graph and an AI model enable prompt engineering to tap into additional elements of the graph. For example, the security model in the Strategy Semantic Graph can actively evaluate access permissions or data restrictions against a dataset when a user makes an AI request. In this way, it can solve data privacy and governance challenges. Usage and system telemetry can further refine AI interactions, optimizing requests or tailoring recommendations for queries. The more robust a Semantic Graph, the more flexibility it offers for deeper AI integration in analytics.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "76fd631a97f94853addde7fe41992cf2",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Furthermore, Strategy enables users to fine-tune their AI deployment by providing additional semantic layer context through a file using the Knowledge Assets functionality. The Knowledge Manager processes all the information uploaded through an Excel file to augment the knowledge of Strategy AI. The embedding model then processes this information, transforming it into definitions saved on the Knowledge Store. The Knowledge Store acts as a secure vault for storing domain knowledge that has been encoded using cognitive processing techniques. This encoding not only preserves the integrity of the data but also enhances its accessibility for cognitive search operations.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "d872fc0c33874f5f923d71e6945ec298",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "When interacting with the Gen AI module, the Knowledge Store plays a critical role by supplying contextually relevant information. This ensures that the Gen AI can formulate precise and accurate Strategy queries.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 98
+                      },
+                      "_metadata": {
+                        "uid": "cs3abf79e284984bc2"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "columns_per_row": 1,
+          "column_alignment": "Center, Top",
+          "section_footer": [],
+          "limit_footer_width": null,
+          "more_column_options": {
+            "column_spacing": "Default",
+            "one_column_limit_width": "75%",
+            "two_column_split": null,
+            "reverse_column_order_mobile": false,
+            "accent_box_stretch": false
+          },
+          "more_section_options": {
+            "text_color": "Dark",
+            "padding": "Short bottom only",
+            "add_divider": [],
+            "bg_color": "White",
+            "bg_custom_color": "",
+            "bg_image": null,
+            "mobile_bg_image": null,
+            "parallax_bg": false,
+            "bg_video_id": ""
+          }
+        }
+      },
+      {
+        "section": {
+          "section_id": "portability-and-data-source-agnostic",
+          "_metadata": {
+            "uid": "csc6156ad50ef7627b"
+          },
+          "section_header": [],
+          "limit_header_width": null,
+          "columns": [
+            {
+              "mod_column": {
+                "column_name": "banner",
+                "_metadata": {
+                  "uid": "cs133d17ce8b812c2c"
+                },
+                "accent_box_options": [],
+                "content": [
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "4156e7b309ee4e6fb0ca35881fd682ff",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "h2",
+                            "uid": "6e08d7b189174e0187ded999263f807c",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Portability and Data Source Agnostic",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(0, 0, 0)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 98
+                      },
+                      "_metadata": {
+                        "uid": "cs1a2321aa5840fbc7"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  },
+                  {
+                    "divider": {
+                      "style": "thin",
+                      "spacing": "12",
+                      "custom_spacing": null,
+                      "_metadata": {
+                        "uid": "cs6469b35cfa8e45d4"
+                      },
+                      "color": "colorOrange",
+                      "opacity": "1",
+                      "width": "100"
+                    }
+                  },
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "dcdfef6abf364554ac4c91ed441807d3",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "7fd6d725a809443eb21d6ab57c0942d0",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Unlike many semantic layer models that are intricately linked to a specific data source's syntax, Strategy's approach stands out for its flexibility and vendor-agnostic design. Typically, semantic models are constructed using syntax unique to their initial data source, posing substantial challenges when transitioning between technologies. For instance, migrating data from an Oracle system to Snowflake often requires a complete redesign or reconstruction of the existing model due to its deep integration with the original data source. Over time, these challenges can result in an organization becoming locked into a specific data source vendor, even if they wish to switch.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "ba3967816e434c1fbfb96ac1536ddd2f",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "This issue is exacerbated when semantics are embedded in a platform-specific tool like Looker on Google Cloud. Transitioning those semantic models to Azure can be particularly challenging due to the tool's deep integration with the platform's native features and services. This scenario highlights the broader issue of hyperscaler lock-in, where switching cloud providers becomes a complex and resource-intensive endeavor.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "e3ef6e97a9e348139cb148c6ac907870",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "In contrast, Strategy's semantic graph is designed to be independent of the underlying data source. This independence allows organizations to seamlessly migrate their data assets from one vendor to another without the need to rebuild or significantly alter their existing models. This aspect of Strategy's design is particularly beneficial as it conserves resources that would otherwise be spent redesigning models that are too closely tied to specific data environments. Below is a use case involving a large retailer migrating their cloud data warehouse from Redshift to Snowflake. As you can see, the migration effort was substantially less with Strategy compared to other semantic layer platforms, in this case, Power BI.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "fbb3f47fd9ed4facb2c7fd8c7b2dab54",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "In an era where data strategies must be adaptable to changing technological landscapes, the ability to maintain a consistent semantic model without frequent redesigns is invaluable. Strategy's approach ensures that organizations can focus on leveraging their data effectively, rather than being constrained by vendor-specific dependencies.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 98
+                      },
+                      "_metadata": {
+                        "uid": "cs00df82497f5a7cae"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "columns_per_row": 1,
+          "column_alignment": "Center, Top",
+          "section_footer": [],
+          "limit_footer_width": null,
+          "more_column_options": {
+            "column_spacing": "Default",
+            "one_column_limit_width": "75%",
+            "two_column_split": null,
+            "reverse_column_order_mobile": false,
+            "accent_box_stretch": false
+          },
+          "more_section_options": {
+            "text_color": "Dark",
+            "padding": "Short bottom only",
+            "add_divider": [],
+            "bg_color": "White",
+            "bg_custom_color": "",
+            "bg_image": null,
+            "mobile_bg_image": null,
+            "parallax_bg": false,
+            "bg_video_id": ""
+          }
+        }
+      },
+      {
+        "section": {
+          "section_id": "open-architecture",
+          "_metadata": {
+            "uid": "csd9c769e2370c938d"
+          },
+          "section_header": [],
+          "limit_header_width": null,
+          "columns": [
+            {
+              "mod_column": {
+                "column_name": "banner",
+                "_metadata": {
+                  "uid": "cs5a206d19abee016c"
+                },
+                "accent_box_options": [],
+                "content": [
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "a7983d18bab442ea81e1c67e766a91c5",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "h2",
+                            "uid": "0382ae262def40119b9ee431b17b12d6",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Open Architecture",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(0, 0, 0)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 98
+                      },
+                      "_metadata": {
+                        "uid": "cs189d4b03e5ef2f71"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  },
+                  {
+                    "divider": {
+                      "style": "thin",
+                      "spacing": "12",
+                      "custom_spacing": null,
+                      "_metadata": {
+                        "uid": "cs1c7abe07c6066651"
+                      },
+                      "color": "colorOrange",
+                      "opacity": "1",
+                      "width": "100"
+                    }
+                  },
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "75da1fd0783f40d98456649d191ffcad",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "041b462fca1342bfaa0724c4f5e9079c",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Strategy's semantic graph offers a sophisticated and open architecture, establishing it as a central source of trusted data that can be utilized across various platforms. This approach ensures that data from Strategy's semantic graph can be maximized through its REST API, enhancing the impact and accessibility of its capabilities.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "6362901577134ff6aaa2e8b30da95012",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Key extensions enabled by Strategy's semantic graph include:",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "ul",
+                            "uid": "53e2664504e241cfbdf1c4d959f41348",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "type": "li",
+                                "uid": "5fc0fc12e1f44ae4b88eee4493ec51b5",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "3a278fdcc9a349e485bdb9594dfa3d56",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "Office Productivity Tools:",
+                                        "bold": true,
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "text": " Supports real-time updates and direct importation of visualizations into Excel and PowerPoint, ensuring presentations and reports reflect the most current data.",
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "li",
+                                "uid": "c0c465a6006743c18c815bacf0209fd9",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "03a1c02bcc5845bebfb86baf95628ac2",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "Data Science Support:",
+                                        "bold": true,
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "text": " Offers data scientists curated datasets optimized for running complex models in Python, promoting efficiency and innovation in data-driven projects.",
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "li",
+                                "uid": "6ddb853ae8f94321ad03cae65c2cd6cd",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "d55d88323df646e3843e4b90230a3218",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "Dashboard Integration:",
+                                        "bold": true,
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "text": " Facilitates seamless connectivity with popular dashboard tools like Power BI and Tableau, harnessing the power of a centralized data model for improved data visualization and decision-making.",
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "li",
+                                "uid": "e68d304c3d7f411991aea03704030c31",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "afd43e2b67f04626811d3a6d20ccfd22",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "Low-Code/No-Code Customization:",
+                                        "bold": true,
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "text": " Empowers users to easily customize, integrate, and extend BI and AI functionalities into applications and websites.",
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "f8a47c7182cd4a5f901aa42930a5538e",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Through these integrated capabilities, Strategy not only promotes data consistency and trust across business units but also enhances organizational agility in deploying advanced data solutions.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 98
+                      },
+                      "_metadata": {
+                        "uid": "csaf3d5802674ff5e9"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "columns_per_row": 1,
+          "column_alignment": "Center, Top",
+          "section_footer": [],
+          "limit_footer_width": null,
+          "more_column_options": {
+            "column_spacing": "Default",
+            "one_column_limit_width": "75%",
+            "two_column_split": null,
+            "reverse_column_order_mobile": false,
+            "accent_box_stretch": false
+          },
+          "more_section_options": {
+            "text_color": "Dark",
+            "padding": "Short bottom only",
+            "add_divider": [],
+            "bg_color": "White",
+            "bg_custom_color": "",
+            "bg_image": null,
+            "mobile_bg_image": null,
+            "parallax_bg": false,
+            "bg_video_id": ""
+          }
+        }
+      },
+      {
+        "section": {
+          "section_id": "conclusion",
+          "_metadata": {
+            "uid": "cs7e20573d31956db2"
+          },
+          "section_header": [],
+          "limit_header_width": null,
+          "columns": [
+            {
+              "mod_column": {
+                "column_name": "banner",
+                "_metadata": {
+                  "uid": "cs4d80a3bea16e8fa6"
+                },
+                "accent_box_options": [],
+                "content": [
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "78ab92388bc14873afd6088772080c33",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "h2",
+                            "uid": "b55451c4eae745269a22ff9d97e42462",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Conclusion",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(0, 0, 0)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 98
+                      },
+                      "_metadata": {
+                        "uid": "cs4a443d86458e8b86"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  },
+                  {
+                    "divider": {
+                      "style": "thin",
+                      "spacing": "12",
+                      "custom_spacing": null,
+                      "_metadata": {
+                        "uid": "csf50a71fdf551bef7"
+                      },
+                      "color": "colorOrange",
+                      "opacity": "1",
+                      "width": "100"
+                    }
+                  },
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "246e59b3975140efac6cae3e216b2a43",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "f1d2fcf33ca5497fbf2811e384bee5d0",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "The goal of this paper was to provide a framework for understanding the various semantic layer approaches and to illustrate where Strategy fits into that framework. In recent years, there's been a proliferation of semantic layer options, each offering differing approaches. This speaks to the growing maturity of the marketplace and the increasing need for robust semantic layers. Although each solution has its own unique approaches, many come with challenges. Hyperscaler-tied semantic layers offer deep integration with specific platforms but can limit flexibility and lead to vendor lock-in. Universal semantic layers may provide modeling flexibility but often lack a robust calculation engine, resulting in reliance on additional tools for complex analytics. In contrast, the Strategy Semantic Graph approach addresses these challenges head-on with several key differentiations:",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "ul",
+                            "uid": "6a024c72f5ab405aa6a1738bc2ab9928",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "type": "li",
+                                "uid": "050c5bc7829543c3ac2f25d1b97eeb2e",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "6709b744ab2241f68845354cda251a4c",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "Proximity to Analytics Layer:",
+                                        "bold": true,
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "text": " Positioned within the analytics and visualization layer, it allows real-time interaction with data, supporting complex, ad-hoc analyses and ever evolving business questions.",
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "li",
+                                "uid": "e386e7e0670949d7b0ba43c885c9a4fb",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "108371f3d16b412fa725dd7e4fece4b7",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "Integrated Engines Framework:",
+                                        "bold": true,
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "text": " Combines dynamic SQL engine, advanced caching, and federated multi-source capabilities for a cohesive and scalable solution.",
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "li",
+                                "uid": "3729f3b6af534e2f9e15f7b1e5c4f455",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "18016fed5d5642b79e2c1e3954832625",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "Superior AI + BI Integration:",
+                                        "bold": true,
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "text": " Enhances AI capabilities while ensuring governance, data security, and integrity.",
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "li",
+                                "uid": "6402eb5aeb4c44018033f0f8ccde9ca0",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "202c3d4b94984474a3ac634690b518ca",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "Portability and Data Source Agnostic:",
+                                        "bold": true,
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "text": " Allows seamless transitions between different data sources without needing to reconstruct data models, avoiding vendor lock-in.",
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "li",
+                                "uid": "556b2a22af2042ca86fcb019746a99f0",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "d0623649a7c3413fa6f6e5ee2af8c85d",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "Open Architecture:",
+                                        "bold": true,
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "text": " Supports a wide range of analytics tools, ensuring data is accessible and usable across various platforms.",
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "2a9fb7db3814434c9e3ed3d639faf10b",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "In short, our goal is to set the industry standard for semantic layer modeling and analytics solutions. At Strategy, our vision is to deliver 'Intelligence Everywhere', empowering organizations to achieve deeper analytical insights. And it all starts with a robust and powerful semantic graph foundation.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 98
+                      },
+                      "_metadata": {
+                        "uid": "cs3fc6d625e52a029c"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "columns_per_row": 1,
+          "column_alignment": "Center, Top",
+          "section_footer": [],
+          "limit_footer_width": null,
+          "more_column_options": {
+            "column_spacing": "Default",
+            "one_column_limit_width": "75%",
+            "two_column_split": null,
+            "reverse_column_order_mobile": false,
+            "accent_box_stretch": false
+          },
+          "more_section_options": {
+            "text_color": "Dark",
+            "padding": "Short bottom only",
+            "add_divider": [],
+            "bg_color": "White",
+            "bg_custom_color": "",
+            "bg_image": null,
+            "mobile_bg_image": null,
+            "parallax_bg": false,
+            "bg_video_id": ""
+          }
+        }
+      },
+      {
+        "section": {
+          "section_id": "cta",
+          "_metadata": {
+            "uid": "csfb095c83c1643b66"
+          },
+          "section_header": [],
+          "limit_header_width": null,
+          "columns": [
+            {
+              "mod_column": {
+                "column_name": "cta",
+                "_metadata": {
+                  "uid": "cs1e4667dcdcc5f2df"
+                },
+                "accent_box_options": [],
+                "content": [
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "ab224decf8a74981b27adbc8b73fd710",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "h2",
+                            "uid": "d65dbac28218489bbfb0ec4f2aacbef5",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Experience Intelligence Everywhere with Strategy"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "6686be7609b14b18ac23dd3b9088e02c",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Discover how Strategy's Semantic Graph can transform your analytics program. Learn more at strategysoftware.com."
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "74103ebd9af743b480a9359a43e850cd",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "type": "a",
+                                "uid": "985663a2a66540e7a1e635f295c30fb1",
+                                "attrs": {
+                                  "url": "https://strategysoftware.com",
+                                  "target": "_blank"
+                                },
+                                "children": [
+                                  {
+                                    "text": "Visit Strategy Software"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 98
+                      },
+                      "_metadata": {
+                        "uid": "cs4ae1a54c27d8f5c8"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "columns_per_row": 1,
+          "column_alignment": "Center, Top",
+          "section_footer": [],
+          "limit_footer_width": null,
+          "more_column_options": {
+            "column_spacing": "Default",
+            "one_column_limit_width": "75%",
+            "two_column_split": null,
+            "reverse_column_order_mobile": false,
+            "accent_box_stretch": false
+          },
+          "more_section_options": {
+            "text_color": "Dark",
+            "padding": "Default",
+            "add_divider": [],
+            "bg_color": "Brass",
+            "bg_custom_color": "",
+            "bg_image": null,
+            "mobile_bg_image": null,
+            "parallax_bg": false,
+            "bg_video_id": ""
+          }
+        }
+      }
+    ],
+    "page_properties": {
+      "navigation_title": "",
+      "header_color": null,
+      "hide_header_nav": false,
+      "hide_header_cta": false,
+      "hide_footer": false,
+      "disable_global_promo_banner": false,
+      "hide_auto_expert": false,
+      "sfid": "",
+      "marketo_id": "",
+      "cta_section": []
+    },
+    "seo": {
+      "meta_title": "Strategy Semantic Graph: Competitive Advantage in BI",
+      "meta_description": "Discover why Strategy's Semantic Graph outperforms dbt, Cube, and AtScale—eliminating rework with cascading data changes and a built-in calculation engine.",
+      "keywords": "semantic graph strategy, universal semantic layer, enterprise semantic layer, BI semantic layer comparison, semantic layer calculation engine",
+      "social_thumbnail_override": null,
+      "enable_search_indexing": true
+    },
+    "resource_data": {
+      "date": "2025-01-01T00:00:00.000Z",
+      "type": "Analyst Report",
+      "title": "The Semantic Graph Strategy's Unique Strength and Your Competitive Advantage",
+      "description": "Discover why Strategy's Semantic Graph outperforms dbt, Cube, and AtScale—eliminating rework with cascading data changes and a built-in calculation engine.",
+      "featured": false
+    },
+    "taxonomies": [],
+    "tags": []
+  },
+  "_mapping_warnings": [
+    "The document references multiple diagrams and illustrations (e.g., AI-BI integration process diagram, semantic graph depth comparison, Redshift-to-Snowflake migration effort comparison) that cannot be extracted as structured content — these should be added manually as images.",
+    "The Table of Contents contained some fragmented list entries (e.g., page numbers inline with section titles) — these were interpreted and mapped to their corresponding sections.",
+    "A stray list item '[LIST] Data [LIST] Sources' appeared in the Dynamic Sourcing Engine section and appears to be a label for a diagram rather than meaningful text content — it was omitted.",
+    "The document heading structure uses [H4] throughout for all major section headings; since no [H2] or [H3] tags were present in the source, all [H4] headings were interpreted hierarchically based on document structure and Table of Contents nesting.",
+    "Copyright year 2025 is inferred from the footer: 'Copyright ©2025'.",
+    "No explicit CTA section was present in the document — CTA was synthesized from the conclusion and footer reference to strategysoftware.com."
+  ]
+}

@@ -1,0 +1,644 @@
+{
+  "title": "The Semantic Graph Strategy's Unique Strength and Your Competitive Advantage",
+  "subtitle": "",
+  "slug": "the-semantic-graph-strategys-unique-strength-and-your-competitive-advantage",
+  "url": "/the-semantic-graph-strategys-unique-strength-and-your-competitive-advantage",
+  "description": "Strategy was founded on a very simple idea – that analytics programs should exist to drive better decision making at every level of the organization and that the availability of these insights should be pervasive. This is why the vision for our platform is – and always has been – 'Intelligence Everywhere'. The Strategy Semantic Graph weaves together data, business rules, relationships, and metadata so that components are reusable, inheritable, and privacy aware.",
+  "publishedYear": "2025",
+  "seo": {
+    "metaTitle": "Strategy Semantic Graph: Competitive Advantage in BI",
+    "metaDescription": "Discover why Strategy's Semantic Graph outperforms dbt, Cube, and AtScale—eliminating rework with cascading data changes and a built-in calculation engine.",
+    "metaDescriptionFromDoc": false,
+    "targetKeywords": [
+      "semantic graph strategy",
+      "universal semantic layer",
+      "enterprise semantic layer",
+      "BI semantic layer comparison",
+      "semantic layer calculation engine"
+    ],
+    "metaDescriptionAlternatives": [
+      "See how Strategy's object-oriented Semantic Graph propagates data changes system-wide, replacing fragmented tools with a unified analytics platform.",
+      "Learn why universal semantic layers fall short on complex analytics—and how Strategy Mosaic delivers Intelligence Everywhere with zero manual rework."
+    ],
+    "primaryKeywords": [
+      "semantic graph strategy",
+      "universal semantic layer",
+      "enterprise semantic layer",
+      "BI semantic layer comparison",
+      "semantic layer calculation engine"
+    ],
+    "secondaryKeywords": [
+      "object-oriented analytics platform",
+      "cascading data changes BI",
+      "semantic layer vs dbt",
+      "semantic layer vs Cube",
+      "semantic layer vs AtScale",
+      "semantic layer vs Denodo",
+      "smart totals analytics",
+      "nested aggregations BI tool",
+      "data governance enterprise analytics",
+      "BI platform data consistency",
+      "foundational data layer automation",
+      "analytics rework elimination"
+    ],
+    "longTailKeywords": [
+      "why do universal semantic layers fail complex analytics",
+      "how to eliminate data rework in enterprise BI",
+      "best semantic layer for enterprise analytics teams",
+      "how does Strategy Semantic Graph cascade data changes",
+      "why dbt and Cube cannot handle smart totals natively",
+      "how to improve data trust in business intelligence platforms",
+      "what is the difference between a semantic layer and a semantic graph",
+      "how to avoid managing multiple BI tools for complex calculations",
+      "why analytics changes should propagate automatically across platforms",
+      "how to build a single source of truth for enterprise analytics",
+      "what makes a semantic layer truly universal for BI teams",
+      "how to reduce operational cost in enterprise data analytics"
+    ],
+    "brandedKeywords": [
+      "Strategy",
+      "Strategy Mosaic",
+      "Strategy Semantic Graph",
+      "Intelligence Everywhere Strategy",
+      "Strategy analytics platform"
+    ]
+  },
+  "brief": [
+    {
+      "boldSentence": "Strategy's Semantic Graph eliminates rework by immediately propagating foundational data changes throughout the entire platform.",
+      "supportingText": "Unlike other solutions that require manual updates across tools, Strategy's object-oriented design ensures changes to the foundational layer cascade system-wide, driving alignment and increasing user trust in data used for critical everyday decisions."
+    },
+    {
+      "boldSentence": "Universal semantic layers lack a robust calculation engine, forcing organizations to manage multiple tools for complex analytics.",
+      "supportingText": "Tools like dbt, Cube, AtScale, and Denodo cannot handle smart totals, nested aggregations, or case-specific computations natively, relegating them to a limited presentation layer and requiring significant additional operational effort and cost."
+    },
+    {
+      "boldSentence": "Strategy's vendor-agnostic design allows organizations to migrate between cloud data warehouses without rebuilding their semantic models.",
+      "supportingText": "In a documented case, a large retailer migrating from Redshift to Snowflake required substantially less migration effort with Strategy compared to Power BI, demonstrating the practical cost advantage of source-independent semantic modeling."
+    },
+    {
+      "boldSentence": "Deeper semantic graph integration enables AI to handle data governance and security natively within AI-driven analytics requests.",
+      "supportingText": "Strategy's security model can actively evaluate access permissions against a dataset when a user makes an AI request, solving data privacy challenges that shallow semantic layers cannot address. Usage telemetry further refines AI interactions and recommendations."
+    }
+  ],
+  "body": [
+    {
+      "type": "section",
+      "heading": "",
+      "subheading": "",
+      "level": 2,
+      "isCallout": false,
+      "calloutRationale": "",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "Executive Summary",
+          "level": 3
+        },
+        {
+          "type": "paragraph",
+          "text": "Strategy was founded on a very simple idea – that analytics programs should exist to drive better decision making at every level of the organization and that the availability of these insights should be pervasive. This is why the vision for our platform is – and always has been – 'Intelligence Everywhere'."
+        },
+        {
+          "type": "paragraph",
+          "text": "To deliver on this mission, Strategy offers the broadest array of delivery modes for analytics. This is why Strategy is trusted by thousands of the largest most well-known brands in the world. Another key reason is the Strategy Semantic Graph which weaves together data, business rules, relationships, and metadata so that components are reusable, inheritable, and privacy aware."
+        },
+        {
+          "type": "paragraph",
+          "text": "This unique object-oriented design within the Strategy One platform makes it easy to maintain the full suite of data experiences without the burdensome effort required by other platforms. Unlike other solutions, Strategy enables data teams to focus on creating foundational reusable assets that serve as the basis for all upstream analysis. Changes to this foundational layer are immediately propagated throughout the system – eliminating rework, driving alignment, and increasing user trust in the data they use for critical everyday decisions."
+        },
+        {
+          "type": "heading",
+          "text": "Semantic Layer Approaches",
+          "level": 3
+        },
+        {
+          "type": "paragraph",
+          "text": "Strategy has been the leader in providing a fully integrated semantic layer that allows organizations to connect to nearly any data source, model business definitions such as attributes (aka dimensions) and metrics (aka measures), govern data and reuse these definitions for downstream analytics purposes. Over the years, many competitive semantic layers have come and gone, while the Strategy approach has stood the test of time. The market today broadly has three semantic layer approaches:"
+        },
+        {
+          "type": "list",
+          "style": "bullet",
+          "items": [
+            [
+              {
+                "text": "Hyperscaler-tied Semantic Layer:",
+                "bold": true
+              },
+              {
+                "text": " Tied to hyperscaler data infrastructure like LookML and Microsoft Fabric. These solutions often offer deep integration with specific hyperscaler platforms, catering to organizations heavily invested in those ecosystems."
+              }
+            ],
+            [
+              {
+                "text": "Universal Semantic Layer:",
+                "bold": true
+              },
+              {
+                "text": " Primarily acts as a presentation layer for data models, reliant on underlying sources for processing (e.g., dbt, Cube, Kyvos, Kyligence, AtScale, Denodo, etc.). While providing modeling flexibility, these tools often lack a calculation engine, requiring additional tools for advanced and ad-hoc calculation at the analytics layer."
+              }
+            ],
+            [
+              {
+                "text": "BI Semantic Layer:",
+                "bold": true
+              },
+              {
+                "text": " Integrates schema modeling with analytics and data visualization layers. It is often portable across hyperscaler infrastructures and includes an integrated calculation engine for advanced multi-dimensional analysis. Strategy, Business Objects, and Cognos fall into this category, though the latter two have lagged in modernization and innovations."
+              }
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "The Strategy Advantage",
+          "level": 3
+        },
+        {
+          "type": "paragraph",
+          "text": "Strategy stands out in the semantic layer landscape through three key differentiators that enhances its effectiveness:"
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "An Integrated Engines Framework:",
+              "bold": true
+            },
+            {
+              "text": " The Strategy Semantic Layer is not just a data mapping tool; it actively transforms data into multi-dimensional representations suitable for sophisticated analysis. By integrating various components such as a Dynamic SQL Engine, Dynamic Sourcing Engine, Cube and Caching Engines, and a Federated Multi-Source Engine, Strategy provides a cohesive and scalable solution. This integrated framework ensures that data modeling is both powerful and efficient, enhancing interaction with underlying data systems."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Superior AI + BI Integration:",
+              "bold": true
+            },
+            {
+              "text": " Strategy AI empowers users with features like Auto Answers, advanced Q&A, and AI visualizations, delivering in-depth data analysis and insights. By combining AI with Strategy's robust Semantic Graph, it ensures reliable data interpretation and computation while maintaining data governance, security, and integrity."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Portability and Data Source Agnostic:",
+              "bold": true
+            },
+            {
+              "text": " Unlike many semantic layers that are tightly bound to specific data sources, the Strategy Semantic Layer offers unparalleled flexibility. Its design allows organizations to seamlessly switch between different data sources or hyperscalers such as Google Cloud to Azure without needing to reconstruct data models. This portability and agnostic approach free businesses from vendor lock-in, enabling them to choose the most suitable technologies without compatibility concerns."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Open Architecture:",
+              "bold": true
+            },
+            {
+              "text": " The Strategy Semantic Layer supports a broad spectrum of analytics tools through its open architecture. Whether it's enhancing BI functionalities with low-code/no-code options, integrating with popular visualization tools like Tableau and Power BI, or empowering data scientists with optimized datasets for Python models, Strategy ensures that data is not only accessible but also usable in diverse ways. This openness extends the utility of Strategy's platform, accommodating a wide range of business needs and user preferences."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Explore these differentiations in more detail in the subsequent sections to understand how Strategy's unique approach can benefit your organization."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Introduction",
+      "subheading": "",
+      "level": 2,
+      "isCallout": false,
+      "calloutRationale": "",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "In the evolving analytics landscape, the semantic layer is essential for translating complex data into accessible business insights. While past discussions have focused on comparing semantic layer capabilities across various BI vendors, recent dialogue has expanded to include new vendors and technologies advocating for a universal semantic layer, independent from traditional analytics and BI functions. This section will examine the strengths and weaknesses of these semantic layer solutions, with a particular focus on Strategy's approach within this changing landscape."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "The Promise and Limitations of a Universal Semantic Layer",
+      "subheading": "",
+      "level": 2,
+      "isCallout": false,
+      "calloutRationale": "",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "In recent years, a range of technologies and vendors have sought to establish a universal semantic layer, intended as a translation mechanism between data and business insights, accessible via robust APIs. This approach has become popular with the emergence of tools like dbt, Kyvos, AtScale, Denodo and Cube, reflecting a shift towards uniform data definitions. These platforms support data modeling across varied data sources and encourage a standardized approach to data management. However, they typically lack a robust calculation engine necessary for advanced data operations. This shortcoming, along with the complexities of managing multiple semantic systems within organizations, presents significant challenges. This discussion will delve into these issues and contrast them with Strategy's integrated approach, which illustrates how a well-designed semantic layer can significantly enhance data utility and analytical capabilities."
+        },
+        {
+          "type": "heading",
+          "text": "Lack of a Calculation Engine and Its Implications",
+          "level": 3
+        },
+        {
+          "type": "paragraph",
+          "text": "Despite their growing popularity, universal semantic layer solutions often lack a crucial component: a robust calculation engine necessary for complex data aggregations and multi-dimensional analysis. For instance, accurately calculating average prices at various aggregation levels requires the semantic layer to effectively manage pre-aggregations of revenue and units sold. The inability to handle intermediate metric calculations such as smart totals, nested aggregations, and case-specific computations means that these complex calculations must often be performed elsewhere. Consequently, without a comprehensive calculation engine, the semantic layer essentially serves as a limited presentation layer, heavily reliant on underlying data sources for data processing."
+        },
+        {
+          "type": "paragraph",
+          "text": "Moreover, this limitation indicates that universal semantic layers mainly address the data presentation layer needs of other BI and downstream tools. This arrangement does not eliminate the necessity for BI tools to develop their own semantic layers, equipped to manage and leverage their internal aggregation engine logic. As a result, organizations must manage multiple tools and semantic layer configurations, an endeavor that requires significant operational efforts and incurs considerable costs."
+        },
+        {
+          "type": "heading",
+          "text": "Proximity of Semantic Layer Impacts How It's Utilized",
+          "level": 3
+        },
+        {
+          "type": "paragraph",
+          "text": "The positioning of a semantic layer within the data stack significantly influences its application and best practices. Universal semantic layers, typically situated close to the data layer, are designed to provide a consistent and stable interface for data access and integration. This proximity to the data source makes them ideal for operational reporting and scenarios where data structures and queries are relatively static. They offer a stable environment for predefined queries and standard reports, ensuring reliability and consistency. However, this static nature can limit their flexibility and responsiveness to dynamic analytical needs."
+        },
+        {
+          "type": "paragraph",
+          "text": "In contrast, Strategy's semantic graph resides within the analytics and visualization layer, making it more dynamic and adaptable. This integration allows for real-time interaction with data, supporting complex, ad-hoc analyses and evolving business questions. The semantic layer's proximity to the analytics tools means that it can quickly adjust to new queries and data models, providing users with the flexibility to explore data in a more iterative and interactive manner."
+        },
+        {
+          "type": "paragraph",
+          "text": "However, it is not always an either-or scenario. There are instances where both approaches can complement each other effectively. For example, dbt provides tremendous value in ELT data modeling by transforming and materializing data to a database. In a number of cases, customers use dbt to prepare and structure their data, and then leverage Strategy to build a semantic layer on top of this data. This combination allows organizations to benefit from the robust data processing capabilities of dbt while also taking advantage of Strategy's dynamic and flexible semantic layer for advanced analytics and visualization."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Strategy's Semantic Graph Approach",
+      "subheading": "An Integrated Engines Framework",
+      "level": 2,
+      "isCallout": false,
+      "calloutRationale": "",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "In this section, we will explore three key aspects of Strategy's semantic graph approach that set it apart from others. An integrated framework that ensures seamless functionality across diverse systems, portability that facilitates vendor-agnostic flexibility, and an open architecture that supports a wide range of downstream analytics tools. Each component is designed to reinforce the others, providing a robust platform that adapts to evolving business needs."
+        },
+        {
+          "type": "heading",
+          "text": "An Integrated Engines Framework",
+          "level": 3
+        },
+        {
+          "type": "paragraph",
+          "text": "Strategy's semantic graph does more than just map data structures; it actively transforms data into multi-dimensional representations suitable for advanced analysis. Strategy stands out by providing robust data modeling capabilities across diverse data sources and deploying a suite of components that form an integrated framework to support the semantic graph:"
+        },
+        {
+          "type": "list",
+          "style": "bullet",
+          "items": [
+            [
+              {
+                "text": "Dynamic SQL Engine:",
+                "bold": true
+              },
+              {
+                "text": " Generates on-demand, source-native, and optimized multi-pass query. This includes the ability to push down advanced calculations and data processing to the source for scalable performance."
+              }
+            ],
+            [
+              {
+                "text": "Cache and Cube Engine:",
+                "bold": true
+              },
+              {
+                "text": " Enhances data retrieval speed and reduces the load on underlying data sources by storing pre-calculated, summarized data for quick access."
+              }
+            ],
+            [
+              {
+                "text": "Dynamic Sourcing Engine:",
+                "bold": true
+              },
+              {
+                "text": " Automatically selects the optimal data retrieval path for best performance—either querying an existing in-memory data cube or generating a source-native, optimized query directly from the backend source."
+              }
+            ],
+            [
+              {
+                "text": "Federated Multi-Source Engine:",
+                "bold": true
+              },
+              {
+                "text": " Allows seamless connection to multiple data sources within a single project."
+              }
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Dynamic SQL Engine",
+          "level": 3
+        },
+        {
+          "type": "paragraph",
+          "text": "The Dynamic SQL Engine generates on-demand, source-native, and optimized multi-pass queries. This includes the ability to push down advanced calculations and data processing to the source for scalable performance. However, a robust SQL engine must also address fundamental data modeling challenges such as multi-fact and multi-granularity issues, non-aggregatable facts, slowly changing dimensions (SCD), level metrics, nested aggregations, set qualifications, distinct counts and many other complex data modeling scenarios."
+        },
+        {
+          "type": "paragraph",
+          "text": "Current solutions often fail to adequately tackle these real-world challenges due to either a lack of a dynamic SQL engine or one that is not robust enough to handle them, requiring users to solve these issues manually through SQL, data pipelines, or other methods. In contrast, Strategy's Dynamic SQL Engine is designed to handle these complexities, providing a comprehensive solution that not only generates efficient queries but also simplifies data integration and management. This ensures better performance and scalability without compromising on the integrity and usability of the data."
+        },
+        {
+          "type": "paragraph",
+          "text": "Incorporating these capabilities into the Dynamic SQL Engine will not only streamline the process but also reinforce our commitment to addressing the foundational aspects of data management that are often overlooked in modern solutions."
+        },
+        {
+          "type": "heading",
+          "text": "Cache and Cube Engine",
+          "level": 3
+        },
+        {
+          "type": "paragraph",
+          "text": "In-memory cubes and caching strategies are becoming increasingly important with the rise of cost-per-query databases like Snowflake and Databricks. Strategy's approach includes the use of in-memory caching and shared in-memory dataset cubes."
+        },
+        {
+          "type": "paragraph",
+          "text": "A cache is a stored result set that improves response times for future requests by retrieving results from Strategy's server instead of re-executing queries against a database. Our platform supports various caches, including result caches, data element caches, and semantic layer object caches."
+        },
+        {
+          "type": "paragraph",
+          "text": "Additionally, Strategy's Intelligent Cubes allow multiple reports to access data from a single shared in-memory dataset, significantly reducing query execution times. This scalable solution minimizes data consumption and redundancy by creating only the necessary data sets. Intelligent Cubes can also use partitioning to load more data into memory and perform parallel queries, leveraging multi-core hardware architectures for optimal performance."
+        },
+        {
+          "type": "paragraph",
+          "text": "By combining these caching strategies, Strategy not only boosts performance but also reduces overall database query costs, ensuring data is synchronized across platforms and tools."
+        },
+        {
+          "type": "heading",
+          "text": "Dynamic Sourcing Engine",
+          "level": 3
+        },
+        {
+          "type": "paragraph",
+          "text": "Unlike most existing semantic layers where the source of a report request is statically mapped and pre-determined, Strategy's approach is more dynamic. Dynamic Sourcing is a powerful feature of Strategy that optimizes report requests by determining at run-time whether the required data can be obtained from an in-memory data cube, an aggregate table, or a base table from the warehouse."
+        },
+        {
+          "type": "paragraph",
+          "text": "If the data needed for a report is available in a published cube, the cube satisfies the request, eliminating the need to execute a separate query against the data warehouse. The most suitable cube is automatically selected from the available options."
+        },
+        {
+          "type": "paragraph",
+          "text": "If the data cannot be found in an existing cube, Strategy generates a query directly against the backend data warehouse. It first checks the semantic graph for available aggregate tables, querying the smallest aggregate table that meets the request's requirements. If no aggregate table is available, Strategy will generate a source-native, optimized query against the base table(s) to retrieve the necessary data."
+        },
+        {
+          "type": "paragraph",
+          "text": "This dynamic sourcing approach is a significant advantage and enables Strategy to achieve optimal performance at scale."
+        },
+        {
+          "type": "heading",
+          "text": "Federated Multi-Source Engine",
+          "level": 3
+        },
+        {
+          "type": "paragraph",
+          "text": "Organizations generally maintain silos of data across different data sources. This disparate model makes it very difficult for users to gain a unified view of the business. Unfortunately, universal semantic layer solutions like dbt, Cube, AtScale and others lack native support for connecting to multiple databases within the same project, often leading to vendor lock-in as they require migrating all data to a dedicated source."
+        },
+        {
+          "type": "paragraph",
+          "text": "In contrast, Strategy's Federated Multi-Source feature allows seamless connection to multiple data sources within a single project. This integration enables you to consolidate information from various databases into a unified Strategy project, leveraging a single semantic layer schema. The ability to access multiple data sources in one project offers significant advantages. For example, a sales manager wants to include forecast data available in Salesforce alongside actual sales data from Snowflake. This capability to connect, query, and join data across sources allows for flexible, comprehensive, and integrated reporting solutions without the need to centralize all your data into one dedicated source."
+        },
+        {
+          "type": "paragraph",
+          "text": "The integration of these components not only facilitates sophisticated data modeling but also significantly improves how these models interact with underlying data systems. This cohesive functionality provides flexibility in design and scalability in performance. Strategy's approach ensures that organizations can fully leverage their data assets, achieving deeper insights and maintaining efficiency at scale, without the complexities of managing multiple semantic layers or compromising on analytical capabilities."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Superior AI + BI Integration",
+      "subheading": "",
+      "level": 2,
+      "isCallout": true,
+      "calloutRationale": "Contains key differentiating AI capabilities and the unique role of the Semantic Graph in enabling reliable AI-driven analytics",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Strategy AI provides an array of AI features to empower users with varying skill levels and different roles within an organization. Business users and analysts can take advantage of Auto Answers, a chatbot experience that allows them to dig deeper into their dashboard by providing insights and in-depth data analysis. This includes advanced Q&A and AI visualizations that leverage machine learning capabilities to generate key driver analysis, forecasts, and trends. They can also use bots that are focused on a specific use case or persona and allow for additional customizations leveraging Knowledge Asset and Custom Instructions fields to provide more business context. Other features available in Strategy AI include Auto Dashboard, which enables users to design dashboards more efficiently, and Auto SQL, which helps administrators and architects to expedite data modeling by generating SQL."
+        },
+        {
+          "type": "heading",
+          "text": "The Role of Semantic Graph in AI",
+          "level": 3
+        },
+        {
+          "type": "paragraph",
+          "text": "Using AI to directly interpret and aggregate data can be unreliable. However, employing AI prompt engineering with a Semantic Graph resolves this issue. Prompt engineering fine-tunes the AI's language abilities to translate specific queries into actionable commands for the Semantic Graph. In this setup, the AI excels at translation rather than computation. It interprets the user's request through prompt engineering and maps it to components the Semantic Graph comprehends. The Strategy Semantic Graph, with its robust grasp of data relationships and standardized business logic, handles the computational task for accurate and reliable results."
+        },
+        {
+          "type": "heading",
+          "text": "Depth and Breadth of Semantic Graph Matters",
+          "level": 3
+        },
+        {
+          "type": "paragraph",
+          "text": "The Semantic Graph in BI is often expressed in the context of various downstream data tools and applications. The design and sophistication of the Semantic Graph can vary widely, reflecting the specific needs and capabilities of the tools and platforms in use."
+        },
+        {
+          "type": "paragraph",
+          "text": "From a data abstraction perspective, basic productivity tools like Microsoft Excel often lack a semantic layer/model altogether, whereas point-solution BI tools usually confine semantic definitions within individual datasets. In contrast, Strategy utilizes a foundational Semantic Graph that resides below the dataset level, serving as a base to create various upstream objects, including datasets."
+        },
+        {
+          "type": "paragraph",
+          "text": "A Semantic Graph that's embedded deeper into a platform can offer more possibilities for more comprehensive AI integration. These capabilities can include, but are not limited to, those listed in the illustration below."
+        },
+        {
+          "type": "paragraph",
+          "text": "Together, a Semantic Graph and an AI model enable prompt engineering to tap into additional elements of the graph. For example, the security model in the Strategy Semantic Graph can actively evaluate access permissions or data restrictions against a dataset when a user makes an AI request. In this way, it can solve data privacy and governance challenges. Usage and system telemetry can further refine AI interactions, optimizing requests or tailoring recommendations for queries. The more robust a Semantic Graph, the more flexibility it offers for deeper AI integration in analytics."
+        },
+        {
+          "type": "paragraph",
+          "text": "Furthermore, Strategy enables users to fine-tune their AI deployment by providing additional semantic layer context through a file using the Knowledge Assets functionality. The Knowledge Manager processes all the information uploaded through an Excel file to augment the knowledge of Strategy AI. The embedding model then processes this information, transforming it into definitions saved on the Knowledge Store. The Knowledge Store acts as a secure vault for storing domain knowledge that has been encoded using cognitive processing techniques. This encoding not only preserves the integrity of the data but also enhances its accessibility for cognitive search operations."
+        },
+        {
+          "type": "paragraph",
+          "text": "When interacting with the Gen AI module, the Knowledge Store plays a critical role by supplying contextually relevant information. This ensures that the Gen AI can formulate precise and accurate Strategy queries."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Portability and Data Source Agnostic",
+      "subheading": "",
+      "level": 2,
+      "isCallout": false,
+      "calloutRationale": "",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Unlike many semantic layer models that are intricately linked to a specific data source's syntax, Strategy's approach stands out for its flexibility and vendor-agnostic design. Typically, semantic models are constructed using syntax unique to their initial data source, posing substantial challenges when transitioning between technologies. For instance, migrating data from an Oracle system to Snowflake often requires a complete redesign or reconstruction of the existing model due to its deep integration with the original data source. Over time, these challenges can result in an organization becoming locked into a specific data source vendor, even if they wish to switch."
+        },
+        {
+          "type": "paragraph",
+          "text": "This issue is exacerbated when semantics are embedded in a platform-specific tool like Looker on Google Cloud. Transitioning those semantic models to Azure can be particularly challenging due to the tool's deep integration with the platform's native features and services. This scenario highlights the broader issue of hyperscaler lock-in, where switching cloud providers becomes a complex and resource-intensive endeavor."
+        },
+        {
+          "type": "paragraph",
+          "text": "In contrast, Strategy's semantic graph is designed to be independent of the underlying data source. This independence allows organizations to seamlessly migrate their data assets from one vendor to another without the need to rebuild or significantly alter their existing models. This aspect of Strategy's design is particularly beneficial as it conserves resources that would otherwise be spent redesigning models that are too closely tied to specific data environments. Below is a use case involving a large retailer migrating their cloud data warehouse from Redshift to Snowflake. As you can see, the migration effort was substantially less with Strategy compared to other semantic layer platforms, in this case, Power BI."
+        },
+        {
+          "type": "paragraph",
+          "text": "In an era where data strategies must be adaptable to changing technological landscapes, the ability to maintain a consistent semantic model without frequent redesigns is invaluable. Strategy's approach ensures that organizations can focus on leveraging their data effectively, rather than being constrained by vendor-specific dependencies."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Open Architecture",
+      "subheading": "",
+      "level": 2,
+      "isCallout": false,
+      "calloutRationale": "",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Strategy's semantic graph offers a sophisticated and open architecture, establishing it as a central source of trusted data that can be utilized across various platforms. This approach ensures that data from Strategy's semantic graph can be maximized through its REST API, enhancing the impact and accessibility of its capabilities."
+        },
+        {
+          "type": "paragraph",
+          "text": "Key extensions enabled by Strategy's semantic graph include:"
+        },
+        {
+          "type": "list",
+          "style": "bullet",
+          "items": [
+            [
+              {
+                "text": "Office Productivity Tools:",
+                "bold": true
+              },
+              {
+                "text": " Supports real-time updates and direct importation of visualizations into Excel and PowerPoint, ensuring presentations and reports reflect the most current data."
+              }
+            ],
+            [
+              {
+                "text": "Data Science Support:",
+                "bold": true
+              },
+              {
+                "text": " Offers data scientists curated datasets optimized for running complex models in Python, promoting efficiency and innovation in data-driven projects."
+              }
+            ],
+            [
+              {
+                "text": "Dashboard Integration:",
+                "bold": true
+              },
+              {
+                "text": " Facilitates seamless connectivity with popular dashboard tools like Power BI and Tableau, harnessing the power of a centralized data model for improved data visualization and decision-making."
+              }
+            ],
+            [
+              {
+                "text": "Low-Code/No-Code Customization:",
+                "bold": true
+              },
+              {
+                "text": " Empowers users to easily customize, integrate, and extend BI and AI functionalities into applications and websites."
+              }
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Through these integrated capabilities, Strategy not only promotes data consistency and trust across business units but also enhances organizational agility in deploying advanced data solutions."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Conclusion",
+      "subheading": "",
+      "level": 2,
+      "isCallout": false,
+      "calloutRationale": "",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The goal of this paper was to provide a framework for understanding the various semantic layer approaches and to illustrate where Strategy fits into that framework. In recent years, there's been a proliferation of semantic layer options, each offering differing approaches. This speaks to the growing maturity of the marketplace and the increasing need for robust semantic layers. Although each solution has its own unique approaches, many come with challenges. Hyperscaler-tied semantic layers offer deep integration with specific platforms but can limit flexibility and lead to vendor lock-in. Universal semantic layers may provide modeling flexibility but often lack a robust calculation engine, resulting in reliance on additional tools for complex analytics. In contrast, the Strategy Semantic Graph approach addresses these challenges head-on with several key differentiations:"
+        },
+        {
+          "type": "list",
+          "style": "bullet",
+          "items": [
+            [
+              {
+                "text": "Proximity to Analytics Layer:",
+                "bold": true
+              },
+              {
+                "text": " Positioned within the analytics and visualization layer, it allows real-time interaction with data, supporting complex, ad-hoc analyses and ever evolving business questions."
+              }
+            ],
+            [
+              {
+                "text": "Integrated Engines Framework:",
+                "bold": true
+              },
+              {
+                "text": " Combines dynamic SQL engine, advanced caching, and federated multi-source capabilities for a cohesive and scalable solution."
+              }
+            ],
+            [
+              {
+                "text": "Superior AI + BI Integration:",
+                "bold": true
+              },
+              {
+                "text": " Enhances AI capabilities while ensuring governance, data security, and integrity."
+              }
+            ],
+            [
+              {
+                "text": "Portability and Data Source Agnostic:",
+                "bold": true
+              },
+              {
+                "text": " Allows seamless transitions between different data sources without needing to reconstruct data models, avoiding vendor lock-in."
+              }
+            ],
+            [
+              {
+                "text": "Open Architecture:",
+                "bold": true
+              },
+              {
+                "text": " Supports a wide range of analytics tools, ensuring data is accessible and usable across various platforms."
+              }
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "In short, our goal is to set the industry standard for semantic layer modeling and analytics solutions. At Strategy, our vision is to deliver 'Intelligence Everywhere', empowering organizations to achieve deeper analytical insights. And it all starts with a robust and powerful semantic graph foundation."
+        }
+      ]
+    }
+  ],
+  "cta": {
+    "headline": "Experience Intelligence Everywhere with Strategy",
+    "body": "Discover how Strategy's Semantic Graph can transform your analytics program. Learn more at strategysoftware.com.",
+    "buttonText": "Visit Strategy Software",
+    "buttonUrl": "https://strategysoftware.com"
+  },
+  "internalLinks": [],
+  "externalLinks": [
+    "https://strategysoftware.com"
+  ],
+  "validationWarnings": [
+    "The document references multiple diagrams and illustrations (e.g., AI-BI integration process diagram, semantic graph depth comparison, Redshift-to-Snowflake migration effort comparison) that cannot be extracted as structured content — these should be added manually as images.",
+    "The Table of Contents contained some fragmented list entries (e.g., page numbers inline with section titles) — these were interpreted and mapped to their corresponding sections.",
+    "A stray list item '[LIST] Data [LIST] Sources' appeared in the Dynamic Sourcing Engine section and appears to be a label for a diagram rather than meaningful text content — it was omitted.",
+    "The document heading structure uses [H4] throughout for all major section headings; since no [H2] or [H3] tags were present in the source, all [H4] headings were interpreted hierarchically based on document structure and Table of Contents nesting.",
+    "Copyright year 2025 is inferred from the footer: 'Copyright ©2025'.",
+    "No explicit CTA section was present in the document — CTA was synthesized from the conclusion and footer reference to strategysoftware.com."
+  ]
+}

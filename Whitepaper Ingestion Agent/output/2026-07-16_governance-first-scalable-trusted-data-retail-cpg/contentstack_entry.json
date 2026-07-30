@@ -1,0 +1,4165 @@
+{
+  "entry": {
+    "title": "v1 | Governance First: The Key to Scalable, Trusted Data in Retail and CPG",
+    "url": "/software/governance-first-scalable-trusted-data-retail-cpg",
+    "content_blocks": [
+      {
+        "section": {
+          "section_id": "hero",
+          "_metadata": {
+            "uid": "csce839776ff983292"
+          },
+          "section_header": [
+            {
+              "text": {
+                "text_content": {
+                  "type": "doc",
+                  "uid": "635c36e2cb0247b9811526aa2cf53bed",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "h1",
+                      "uid": "9e0836084ad9429cb61574606f4e5261",
+                      "attrs": {
+                        "style": {
+                          "text-align": "center"
+                        },
+                        "redactor-attributes": {}
+                      },
+                      "children": [
+                        {
+                          "text": "Governance First: The Key to Scalable, Trusted Data in Retail and CPG",
+                          "attrs": {
+                            "style": {
+                              "color": "rgb(0, 0, 0)"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "h3",
+                      "uid": "a4a7a0477a9b4f5bb9ae0c4178d93a13",
+                      "attrs": {
+                        "style": {
+                          "text-align": "center"
+                        },
+                        "redactor-attributes": {}
+                      },
+                      "children": [
+                        {
+                          "text": "How Strategy Mosaic establishes governance, flexibility and trust at scale",
+                          "attrs": {
+                            "style": {
+                              "color": "rgb(250, 102, 15)"
+                            }
+                          },
+                          "font-color": "#fa660f"
+                        },
+                        {
+                          "text": " ",
+                          "attrs": {
+                            "style": {
+                              "color": "rgb(250, 102, 15)"
+                            }
+                          },
+                          "font-color": "#fa660f"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "p",
+                      "uid": "caf62e5d25264c03839229f597366bb1",
+                      "attrs": {
+                        "style": {
+                          "text-align": "center"
+                        },
+                        "redactor-attributes": {}
+                      },
+                      "children": [
+                        {
+                          "text": "As AI-powered analytics moves from pilot projects to enterprise-wide adoption, Retail and Consumer Packaged Goods (CPG) organizations face five persistent challenges: inconsistent answers, security and compliance risk, vendor lock-in, rising costs, and growing complexity. These challenges are not isolated technical hurdles—they're symptoms of a broader governance problem. This whitepaper introduces a governance-first approach to AI+BI—powered by Strategy Mosaic, a universal semantic layer for enterprise analytics.",
+                          "attrs": {
+                            "style": {
+                              "color": "rgb(85, 85, 85)"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "_version": 98
+                },
+                "_metadata": {
+                  "uid": "cs3ffefcfd2da642e2"
+                }
+              }
+            }
+          ],
+          "limit_header_width": "75%",
+          "columns": [
+            {
+              "mod_column": {
+                "column_name": "The Brief",
+                "_metadata": {
+                  "uid": "csc6a0e17a97eaab66"
+                },
+                "accent_box_options": [
+                  {
+                    "size": "Medium",
+                    "styles": [
+                      "Outlined"
+                    ],
+                    "outline_styles": [
+                      "outlineThin",
+                      "outlineColorOrange"
+                    ],
+                    "flag": "",
+                    "_metadata": {
+                      "uid": "csfb0a3d784e0483f6"
+                    },
+                    "align": null,
+                    "bg_color": "White",
+                    "bg_custom_color": "",
+                    "bg_image": null,
+                    "text_color": null,
+                    "add_link": []
+                  }
+                ],
+                "content": [
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "bf02d76f30a04fd48160454cb7be410a",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "h3",
+                            "uid": "c9ae3e09de9f41f089be9343bacd6243",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "The Brief",
+                                "font-color": "#000000"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "ul",
+                            "uid": "dd18db8a903c4ad1ba24dcf71a2645e7",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "type": "li",
+                                "uid": "77212e108c0a463dbf428693e0efc0b0",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "24ca9aded35a478a8fb5710734adc6f7",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "54% of retail and CPG organizations cite faster decision-making as the top expected outcome from AI-powered analytics.",
+                                        "bold": true
+                                      },
+                                      {
+                                        "text": " Yet speed is hampered when BI tools access disjointed and inconsistent data—a problem highlighted by 42% of retailers. Without a consistent semantic layer, trust erodes and AI initiatives struggle to scale."
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "li",
+                                "uid": "e4500c5929f04e20ba1034dd4353a8ab",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "d51c257820074641a30b22ea91b1f563",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "35% of retail and CPG companies report inaccurate and inconsistent answers—so-called hallucinations—as a top blocker to AI adoption.",
+                                        "bold": true
+                                      },
+                                      {
+                                        "text": " These inconsistencies stem from an insufficient semantic layer across hundreds of daily data sources, leading to slower decision-making, erosion of trust, and time-consuming quality assurance before results can be acted on."
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "li",
+                                "uid": "49f0d76963764f4fbb58075c688b3a7e",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "40bb214711eb4e249098153637f81ce5",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "53% of retail and CPG respondents cite cost as their primary challenge to scaling AI-powered analytics.",
+                                        "bold": true
+                                      },
+                                      {
+                                        "text": " Unexpected compute bills, duplicate modeling, and rigid pricing models undermine the business case for AI+BI. Strategy Mosaic addresses this through intelligent caching, cloud flexibility, and predictable per-user pricing rather than compute-based charges."
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 98
+                      },
+                      "_metadata": {
+                        "uid": "csdf419fc9015a5cf5"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "columns_per_row": 1,
+          "column_alignment": "Center, Top",
+          "section_footer": [],
+          "limit_footer_width": null,
+          "more_column_options": {
+            "column_spacing": "Default",
+            "one_column_limit_width": "75%",
+            "two_column_split": null,
+            "reverse_column_order_mobile": false,
+            "accent_box_stretch": false
+          },
+          "more_section_options": {
+            "text_color": "Dark",
+            "padding": "Default",
+            "add_divider": [],
+            "bg_color": "White",
+            "bg_custom_color": "",
+            "bg_image": null,
+            "mobile_bg_image": null,
+            "parallax_bg": false,
+            "bg_video_id": ""
+          }
+        }
+      },
+      {
+        "section": {
+          "section_id": "executive-summary",
+          "_metadata": {
+            "uid": "csbee6645484864c84"
+          },
+          "section_header": [],
+          "limit_header_width": null,
+          "columns": [
+            {
+              "mod_column": {
+                "column_name": "banner",
+                "_metadata": {
+                  "uid": "cs8ba7809f7cbd5417"
+                },
+                "accent_box_options": [],
+                "content": [
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "09f951c93d854f49beea882471b71d47",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "h2",
+                            "uid": "1756b4baef424f38867d9863e6bc8813",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Executive Summary",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(0, 0, 0)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 98
+                      },
+                      "_metadata": {
+                        "uid": "cs3b63385e72c73177"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  },
+                  {
+                    "divider": {
+                      "style": "thin",
+                      "spacing": "12",
+                      "custom_spacing": null,
+                      "_metadata": {
+                        "uid": "cscd2443d8f7350e08"
+                      },
+                      "color": "colorOrange",
+                      "opacity": "1",
+                      "width": "100"
+                    }
+                  },
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "0a60c5550db5457fa93fbaeaccb35d03",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "db49a912b609461fa249d62937ad3893",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "As AI-powered analytics moves from pilot projects to enterprise-wide adoption, Retail and Consumer Packaged Goods (CPG) organizations face five persistent challenges: inconsistent answers, security and compliance risk, vendor lock-in, rising costs, and growing complexity. These challenges are not isolated technical hurdles—they're symptoms of a broader governance problem.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "4a8a58a42cbe4381a2a210d1a934ac7c",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "The 2025 Global AI+BI Survey reveals that retail and CPG organizations value speed of decision-making more than any other industry, with 54% of respondents in these industries expecting faster decision-making and innovation as the top outcomes. Yet, speed is hampered when BI tools access disjointed and inconsistent data, a problem highlighted by 42% of retailers.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "blockquote",
+                            "uid": "7de49cf1dca8450f8bd611a2982a820a",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "type": "p",
+                                "uid": "117c80cae93e49f5a03756d860b71a0f",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "text": "Key insight:",
+                                    "bold": true,
+                                    "attrs": {
+                                      "style": {
+                                        "color": "rgb(26, 78, 159)"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "text": " Without a consistent semantic layer, trust erodes, definitions vary, and AI initiatives struggle to scale.",
+                                    "attrs": {
+                                      "style": {
+                                        "color": "rgb(0, 61, 91)"
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "11a7d67a790e43e9bbf2149daca1d87f",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Solving this requires a universal semantic layer: a governance-first foundation independent of any single tool, cloud, or database. It decouples governance from tools, platforms, and data sources, ensuring consistent logic and secure access across every layer of the modern analytics stack.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "b70c57c930224ccba22185b03f34e43b",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "This whitepaper introduces a governance-first approach to AI+BI—powered by Strategy Mosaic, a universal semantic layer for enterprise analytics.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "653da83069f14eb4a3a3844e9ab7172b",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Strategy Mosaic is a universal semantic layer that lives independently of your BI tools, databases, and clouds. It provides the consistency and trust required for enterprise AI, from reducing hallucinations to enabling cost arbitrage.",
+                                "bold": true,
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "596b6dd576454eb0a00c0de2acf0c3e4",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Strategy Mosaic turns complex, federated environments into cohesive, trusted systems—supporting not just BI dashboards, but AI agents, customer-facing apps, and future use cases still to come.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "e10a70bd303f45bb868194cd311fb9e5",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "This whitepaper explores the five core challenges holding AI+BI back and how Strategy Mosaic solves them with a single, governance-first foundation.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 98
+                      },
+                      "_metadata": {
+                        "uid": "cs05382ceeb111adfd"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "columns_per_row": 1,
+          "column_alignment": "Center, Top",
+          "section_footer": [],
+          "limit_footer_width": null,
+          "more_column_options": {
+            "column_spacing": "Default",
+            "one_column_limit_width": "75%",
+            "two_column_split": null,
+            "reverse_column_order_mobile": false,
+            "accent_box_stretch": false
+          },
+          "more_section_options": {
+            "text_color": "Dark",
+            "padding": "Short bottom only",
+            "add_divider": [],
+            "bg_color": "White",
+            "bg_custom_color": "",
+            "bg_image": null,
+            "mobile_bg_image": null,
+            "parallax_bg": false,
+            "bg_video_id": ""
+          }
+        }
+      },
+      {
+        "section": {
+          "section_id": "introduction",
+          "_metadata": {
+            "uid": "cs320e7b768584d5d6"
+          },
+          "section_header": [],
+          "limit_header_width": null,
+          "columns": [
+            {
+              "mod_column": {
+                "column_name": "banner",
+                "_metadata": {
+                  "uid": "csfa6804d6f4b41f6f"
+                },
+                "accent_box_options": [],
+                "content": [
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "6006568a2497445582b91ed51531fb4c",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "h2",
+                            "uid": "8f598b20336a4e38a812666607fd19d4",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Introduction",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(0, 0, 0)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 98
+                      },
+                      "_metadata": {
+                        "uid": "cs89a2920cf57b3d31"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  },
+                  {
+                    "divider": {
+                      "style": "thin",
+                      "spacing": "12",
+                      "custom_spacing": null,
+                      "_metadata": {
+                        "uid": "csbe6102d30b2adf54"
+                      },
+                      "color": "colorOrange",
+                      "opacity": "1",
+                      "width": "100"
+                    }
+                  },
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "dcd560fabbfd46738d9dc43f28d19069",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "955418d920814caf8883d6eccd930140",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "AI-powered analytics is finally moving from hype to habit, especially in industries that have to deliver trusted insights to the frontlines at speed, like retail and CPG. Organizations no longer want siloed tools; they want AI that scales across departments and teams. But scaling AI+BI is not just a technical challenge. It is, fundamentally, a governance challenge.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "faa77c3bece04d96aa9f85df64643cb5",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "According to the 2025 global survey, speed is the top priority for retail and CPG companies. As they implement AI-powered analytics:",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "ul",
+                            "uid": "39bfc2bd4c554a49815d346fab70293b",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "type": "li",
+                                "uid": "d31b941f5d144e9fbb44880fc28326f9",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "3d3a0231d9a8417198ae806330f5c76b",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "54% of retail organizations expect faster decision-making as the top outcome.",
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "li",
+                                "uid": "c63146cea9b8474ab0e6085772ca432c",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "ea4754c51f9e45fca5f702b0a48807ef",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "50% consider increased employee productivity, achieved through access to timely AI-powered insights, as a top outcome.",
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "li",
+                                "uid": "29d1484fd5fd4a4ebeb253cd2b60159a",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "b3fdbd4d2cb24c1abac9a2ec0f68a967",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "28% of retailers plan to expand access to AI-powered analytics tools to over 20% of their workforce, and 38% are considering the adoption of AI bots and agents in the next 12 months, as of June 2025.",
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "li",
+                                "uid": "8f871aa762db45b1a9650eb90672cad2",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "b86621b19fc3440da047380f77648af3",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "42% cited gaps in data governance as a major challenge to implementing AI-powered analytics, stressing the importance of trusted, governed data as the single source of truth.",
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "5ae09af1f6f44afb94c134ee8c34f697",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Speed and widespread access are only possible with trusted, governed data underpinning it as the single source of truth. Without a shared and fully trusted layer of business definitions, access controls, and reusable logic, AI remains limited to departmental silos and expert users.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "2e6c188d17234c71a3c2f909cf696d31",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Saurabh Abhyankar, Chief Product Officer at Strategy, draws a distinction between three types of enterprise intelligence:",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "ul",
+                            "uid": "50cd3ad3f343429a821c37c0840258d0",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "type": "li",
+                                "uid": "09c7df4a6c934ce0aaa0a45fefb1e900",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "36ec3950906247e9881f4bc5bfafe32a",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "Type 1:",
+                                        "bold": true,
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "text": " Departmental insights powered by individual tools like Excel or Tableau. These are valuable but siloed and fragmented.",
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "li",
+                                "uid": "37347bd30c7a4556be28be8d1c15bcce",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "3d950525aa154f83962dc7e0e664f3a2",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "Type 2:",
+                                        "bold": true,
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "text": " Enterprise-wide intelligence built on governed, semantic, and connected layers that unify logic and access across tools, clouds, and teams.",
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "li",
+                                "uid": "f7b8bbb587f742458ec4a0be3edf94b7",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "50d8a40419a043d2942e2540e99c3b06",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "Type 3:",
+                                        "bold": true,
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "text": " Autonomous intelligence, where AI not only augments decisions but proactively analyzes data, surfaces insights, and acts within business context.",
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "55e03c74318b41ec9da3973222107f49",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "The shift from Type 1 to Type 2 is well underway, especially in retail and CPG, which demand consistency across numerous data sources. But the leap to Type 3, autonomous, contextual, and embedded AI, requires above all: governance that scales.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "20a2128b1699437093bf223b720eaa9d",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "This level of control must be independent of any single tool, database, or cloud to ensure the flexibility and consistency needed for true enterprise AI. This is where a universal semantic layer comes in, providing a trusted, flexible foundation for scaling AI+BI.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "fbdfe047c0254a778662fdbcb9a093e4",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "That's what Strategy Mosaic delivers. By decoupling governance from the underlying infrastructure, Mosaic provides the consistency and trust required for enterprise AI.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 98
+                      },
+                      "_metadata": {
+                        "uid": "cs279d6aebdc388674"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "columns_per_row": 1,
+          "column_alignment": "Center, Top",
+          "section_footer": [],
+          "limit_footer_width": null,
+          "more_column_options": {
+            "column_spacing": "Default",
+            "one_column_limit_width": "75%",
+            "two_column_split": null,
+            "reverse_column_order_mobile": false,
+            "accent_box_stretch": false
+          },
+          "more_section_options": {
+            "text_color": "Dark",
+            "padding": "Short bottom only",
+            "add_divider": [],
+            "bg_color": "White",
+            "bg_custom_color": "",
+            "bg_image": null,
+            "mobile_bg_image": null,
+            "parallax_bg": false,
+            "bg_video_id": ""
+          }
+        }
+      },
+      {
+        "section": {
+          "section_id": "problem-1-inaccurate-and-inconsistent-answers",
+          "_metadata": {
+            "uid": "csa09dbc4653f970c4"
+          },
+          "section_header": [],
+          "limit_header_width": null,
+          "columns": [
+            {
+              "mod_column": {
+                "column_name": "banner",
+                "_metadata": {
+                  "uid": "cs93a9c3b4aaf328c0"
+                },
+                "accent_box_options": [],
+                "content": [
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "5d2adba957ee4c8bac873be5c0f3ec5b",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "h2",
+                            "uid": "240d3b41b8d24cf69608e0dc2f6bd5b9",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Problem #1: Inaccurate and Inconsistent Answers",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(0, 0, 0)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 98
+                      },
+                      "_metadata": {
+                        "uid": "cs7b738b24dd602358"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  },
+                  {
+                    "divider": {
+                      "style": "thin",
+                      "spacing": "12",
+                      "custom_spacing": null,
+                      "_metadata": {
+                        "uid": "csc8943b7c55da7ee6"
+                      },
+                      "color": "colorOrange",
+                      "opacity": "1",
+                      "width": "100"
+                    }
+                  },
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "1e061b8d01da457cb6aa311c0d68dc29",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "a9519dfb74de4fb193603f7d94c01dcd",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "In our 2025 global survey, one of the biggest technical and operational blockers to AI adoption was inaccurate and inconsistent answers, so-called hallucinations, reported by 35% of retail and CPG companies.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "b052d6e119e748c3b9bf1efe4f9bc668",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "These inconsistencies stem from an insufficient or underperforming semantic layer—a critical flaw in sectors where data is collected from hundreds of sources daily. This leads to slower decision-making, erosion of trust, and time-consuming quality assurance before results can be acted on. As one survey respondent puts it:",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "blockquote",
+                            "uid": "f09bb55010f24be4abdeb7ca618c2f80",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "type": "p",
+                                "uid": "9ce332f5cd984091a6d16e2f5debc9a2",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "text": "Survey respondent:",
+                                    "bold": true,
+                                    "attrs": {
+                                      "style": {
+                                        "color": "rgb(26, 78, 159)"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "text": " \"Most things need to be quality assured. This is still time-consuming, as QA feeding back into the AI model in an automated way is still a challenge.\"",
+                                    "attrs": {
+                                      "style": {
+                                        "color": "rgb(0, 61, 91)"
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 98
+                      },
+                      "_metadata": {
+                        "uid": "cs518410c94b832d4d"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "mod_column": {
+                "column_name": "How Mosaic Solves Inaccuracy",
+                "_metadata": {
+                  "uid": "cse259a57f6739a7b2"
+                },
+                "accent_box_options": [],
+                "content": [
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "9f9b12d8937a4471828ca947897a443f",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "h3",
+                            "uid": "8f56248c3cc3431ca2a5e259c55537d6",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "How Mosaic Solves Inaccuracy",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(250, 102, 15)"
+                                  }
+                                },
+                                "bold": true,
+                                "font-color": "#fa660f"
+                              },
+                              {
+                                "text": " ",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(250, 102, 15)"
+                                  }
+                                },
+                                "font-color": "#fa660f"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "blockquote",
+                            "uid": "5278651de8e2459e841f800fdfda1e4c",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "type": "p",
+                                "uid": "e3347d9f2e9c4bc6829c4ad6564aa620",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "text": "Strategy Mosaic:",
+                                    "bold": true,
+                                    "attrs": {
+                                      "style": {
+                                        "color": "rgb(26, 78, 159)"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "text": " A universal semantic layer that defines business logic once and applies it consistently across tools, clouds, and teams.",
+                                    "attrs": {
+                                      "style": {
+                                        "color": "rgb(0, 61, 91)"
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "adcae1749e954b0193f97a345218a125",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Strategy Mosaic solves this problem with a universal semantic layer that acts as the single source of truth for all business logic. When a team uses a BI tool, an AI agent, or a custom application, they are all querying the same definitions for metrics like revenue, inventory, and product. The logic doesn't live inside those tools; it lives in Mosaic's central semantic layer. This ensures that a single metric is always calculated the same way, regardless of the user, tool, or query.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "blockquote",
+                            "uid": "440ec8775b2947709e6a10ea5cd87c6d",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "type": "p",
+                                "uid": "65437389ac1944ee9a020142f476f71c",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "text": "Saurabh Abhyankar, Chief Product Officer, Strategy:",
+                                    "bold": true,
+                                    "attrs": {
+                                      "style": {
+                                        "color": "rgb(26, 78, 159)"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "text": " \"Mosaic provides a single set of models with clearly defined business definitions—like revenue and product, for example. Whether you're accessing them from Tableau, Excel, or through an AI tool using SQL, Mosaic calculates it the same way and gives you the same answer across all platforms.\"",
+                                    "attrs": {
+                                      "style": {
+                                        "color": "rgb(0, 61, 91)"
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "d014ae6221584b8884a50cde8d8c1c0f",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "By establishing one central source for all business definitions, Mosaic:",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "ul",
+                            "uid": "b359543e278b42c6a3fae3b41a282aeb",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "type": "li",
+                                "uid": "077b708b8d01474a8d2efe81492923dc",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "189554fb876340f6b7dbca5e665153ae",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "Lowers the risk of hallucinations by feeding models a governed, trusted semantic model, not raw, unmanaged data.",
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "li",
+                                "uid": "149ea63fcd7c49ad8b7cf5d77bc9325b",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "396873119ef8476d984a774f57a1c96e",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "Eliminates contradictory answers that cause confusion and a lack of trust.",
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "li",
+                                "uid": "48032a9ac45141caa2a76184ba6137a6",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "ef03033b345a41e2a2f1d9180bae510d",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "Reduces the need for manual QA because the logic is already certified and consistent.",
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "bc0b074202084843b26cd35e15dbfaef",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "This approach is made faster and more reliable by Strategy Mosaic's AI-powered modeling studio. Mosaic handles the initial, time-consuming work of building the semantic model.",
+                                "bold": true,
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "f9b183b947574f94b4a4d98251e1123b",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "What used to take days of manual labor can now be done in minutes, allowing a human expert to focus on fine-tuning and validation. This automation:",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "ul",
+                            "uid": "78a72cefffab47b79ecbea26cbd4aaed",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "type": "li",
+                                "uid": "03c9d5efc14a425399c87f7dbb59bca5",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "f44229b385024839bf56fc8c7449ef3d",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "Reduces human error: With less manual work, there's a lower risk of mistakes that lead to data inconsistencies.",
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "li",
+                                "uid": "4aa24669ac034bba80bea25d837cf739",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "de87a229e0dd4708a95cedb601175cc7",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "Accelerates time to trust: What used to take days can now be done in minutes, allowing teams to get a consistent, reliable model in place faster than ever before.",
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "blockquote",
+                            "uid": "5a1ea9c6a2f043a1939f103c6cd1fe68",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "type": "p",
+                                "uid": "878726646a78409197fb618b28c6aef7",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "text": "Saurabh Abhyankar, Chief Product Officer, Strategy:",
+                                    "bold": true,
+                                    "attrs": {
+                                      "style": {
+                                        "color": "rgb(26, 78, 159)"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "text": " \"What used to take 10 hours can now be done in 30 to 60 minutes. At the end of the process, you have a complete semantic model. Then a human can come in to review, fine-tune, and polish it.\"",
+                                    "attrs": {
+                                      "style": {
+                                        "color": "rgb(0, 61, 91)"
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "69616778efb84ad28593bc44fbd78a30",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "The result: less human error, less rework, and more trust across your analytics stack.",
+                                "bold": true,
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 98
+                      },
+                      "_metadata": {
+                        "uid": "csb837ce5ad235f091"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "columns_per_row": 1,
+          "column_alignment": "Center, Top",
+          "section_footer": [],
+          "limit_footer_width": null,
+          "more_column_options": {
+            "column_spacing": "Default",
+            "one_column_limit_width": "75%",
+            "two_column_split": null,
+            "reverse_column_order_mobile": false,
+            "accent_box_stretch": false
+          },
+          "more_section_options": {
+            "text_color": "Dark",
+            "padding": "Short bottom only",
+            "add_divider": [],
+            "bg_color": "White",
+            "bg_custom_color": "",
+            "bg_image": null,
+            "mobile_bg_image": null,
+            "parallax_bg": false,
+            "bg_video_id": ""
+          }
+        }
+      },
+      {
+        "section": {
+          "section_id": "problem-2-security-and-compliance",
+          "_metadata": {
+            "uid": "csb729492a81474418"
+          },
+          "section_header": [],
+          "limit_header_width": null,
+          "columns": [
+            {
+              "mod_column": {
+                "column_name": "banner",
+                "_metadata": {
+                  "uid": "csce72a92f076b4f5f"
+                },
+                "accent_box_options": [],
+                "content": [
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "722e77545a0948689fa25b11bf2525f5",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "h2",
+                            "uid": "5d756709680049e5a6bc2509bbb0cb2c",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Problem #2: Security and Compliance",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(0, 0, 0)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 98
+                      },
+                      "_metadata": {
+                        "uid": "csbb1cd17d1e4df647"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  },
+                  {
+                    "divider": {
+                      "style": "thin",
+                      "spacing": "12",
+                      "custom_spacing": null,
+                      "_metadata": {
+                        "uid": "csd1c249ebe9c5af62"
+                      },
+                      "color": "colorOrange",
+                      "opacity": "1",
+                      "width": "100"
+                    }
+                  },
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "fee23fdd706b4a3fbc869c92af6efb78",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "c759d60059854e148bc64f108efe372a",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "A lack of a strong data strategy and governance surfaced a major hurdle in the adoption of AI+BI among retailers. 42% of respondents highlighted inconsistent data quality, absence of a semantic layer, and fragmented reporting practices as critical challenges.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "52f5e4671c40444c9dd23572b90fe8ef",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Most organizations have not yet built the internal scaffolding to ensure that AI systems only access what they're authorized to see. With increasing pressure to scale AI access to non-technical users, companies face a key dilemma: How do we empower teams and AI tools, without putting sensitive data at risk? Retail and CPG companies need systems that can:",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "ul",
+                            "uid": "9b3d9d34f46348b7845596856ec6dd06",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "type": "li",
+                                "uid": "5868d555bdcd47d09b9f2bf1b7fe63c6",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "9bb9c86f2a6d4249b0fa9ac6dfc7c345",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "Ensure data provenance and integrity",
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "li",
+                                "uid": "f2d09f33cb9a413f99de0c4db91af5b4",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "60161f52721c441095ab58149513efe5",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "Separate business logic from backend infrastructure",
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "li",
+                                "uid": "71840ffc58ce4ce88351fe8d75cb184d",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "c249149922d54d5ca23999323ff80bfc",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "Align with region-specific AI legislation",
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "li",
+                                "uid": "cabaaea2915745ba8fdc876487463dce",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "bd31931665734b36996daa01e231a99c",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "Offer \"human in the loop\" oversight, especially for citizen-facing applications",
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "4d7aa796a35641e79dd1980719f40a45",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "The risk of noncompliance in retail goes beyond reputational damage. It can delay new store openings or expansions, trigger costly legal disputes, or even limit access to critical customer and sales data systems.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 98
+                      },
+                      "_metadata": {
+                        "uid": "cs00078531cf389054"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "mod_column": {
+                "column_name": "How Mosaic Solves Compliance Issues",
+                "_metadata": {
+                  "uid": "cs539affa979820bf0"
+                },
+                "accent_box_options": [],
+                "content": [
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "35602d37791848309b914bee5ecad781",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "h3",
+                            "uid": "2d3ee789b279428a943094c1ef32a460",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "How Mosaic Solves Compliance Issues",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(250, 102, 15)"
+                                  }
+                                },
+                                "bold": true,
+                                "font-color": "#fa660f"
+                              },
+                              {
+                                "text": " ",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(250, 102, 15)"
+                                  }
+                                },
+                                "font-color": "#fa660f"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "blockquote",
+                            "uid": "686ab684eb4f4518b8edabf58242a328",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "type": "p",
+                                "uid": "7a0be03a4e184217b1855c4de07bfe3f",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "text": "Strategy Mosaic:",
+                                    "bold": true,
+                                    "attrs": {
+                                      "style": {
+                                        "color": "rgb(26, 78, 159)"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "text": " A universal semantic layer designed to govern data access and logic independently of tools, databases, or clouds.",
+                                    "attrs": {
+                                      "style": {
+                                        "color": "rgb(0, 61, 91)"
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "1608cfe2e4964103952cb62aa6b13ec1",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Mosaic allows organizations to enforce consistent security and compliance policies, without needing to duplicate rules across platforms. Mosaic decouples governance and security from underlying tooling, providing:",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "ul",
+                            "uid": "963f06c630234072a4cf7df48b9df046",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "type": "li",
+                                "uid": "728c8ba3f9b640638594a46849739f58",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "ab66ab1d3b9749dc837f59be9c5f8f31",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "Row-level security that defines access by region, department, or product line.",
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "li",
+                                "uid": "23695569d48c4c93b3f7496644955a40",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "ace2f4ffd64f43d19223dfda0ab6e75a",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "Column-level security that restricts sensitive fields like salary or personal identifiers.",
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "li",
+                                "uid": "0c823f14dc7e4a46bdc8b8ddf4439d7f",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "6256742dbd6d4a809816122213c596f4",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "Feature-level security that governs what users can do with data—whether exploring, exporting, embedding, or querying with AI.",
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "blockquote",
+                            "uid": "b00051696d3746b3beff5e5b804e4e08",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "type": "p",
+                                "uid": "e52a884b8d6e4866a49622a02efe0646",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "text": "Saurabh Abhyankar, Chief Product Officer, Strategy:",
+                                    "bold": true,
+                                    "attrs": {
+                                      "style": {
+                                        "color": "rgb(26, 78, 159)"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "text": " \"One user might only be allowed to view data from a particular region, while another sees different segments. Mosaic allows you to define very sophisticated security filters at every level.\"",
+                                    "attrs": {
+                                      "style": {
+                                        "color": "rgb(0, 61, 91)"
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "d18586369817460e8d01a0d22b8d97b2",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "When applied to AI tools, this governance model becomes especially impactful.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "blockquote",
+                            "uid": "d1a50de1daea4b5186fc36b302dfc772",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "type": "p",
+                                "uid": "6271b79f219e48f7b4e8a4f505ff511f",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "text": "Saurabh Abhyankar, Chief Product Officer, Strategy:",
+                                    "bold": true,
+                                    "attrs": {
+                                      "style": {
+                                        "color": "rgb(26, 78, 159)"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "text": " \"You can expose data to AI tools in a tightly controlled way—ensuring that the AI only sees the data it's authorized to work with. That way, your AI initiatives remain compliant, secure, and aligned with business rules from day one.\"",
+                                    "attrs": {
+                                      "style": {
+                                        "color": "rgb(0, 61, 91)"
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "04a61dc6c98c46c19f5795074d1f7680",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "This governance is not layered on, it is built into the semantic foundation. Mosaic eliminates the need to duplicate policies across systems. Security travels with the logic, by design. Mosaic turns governance from a constraint into an enabler, allowing organizations to scale AI confidently, even in highly regulated environments.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 98
+                      },
+                      "_metadata": {
+                        "uid": "csbf91eea51ca0def6"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "columns_per_row": 1,
+          "column_alignment": "Center, Top",
+          "section_footer": [],
+          "limit_footer_width": null,
+          "more_column_options": {
+            "column_spacing": "Default",
+            "one_column_limit_width": "75%",
+            "two_column_split": null,
+            "reverse_column_order_mobile": false,
+            "accent_box_stretch": false
+          },
+          "more_section_options": {
+            "text_color": "Dark",
+            "padding": "Short bottom only",
+            "add_divider": [],
+            "bg_color": "White",
+            "bg_custom_color": "",
+            "bg_image": null,
+            "mobile_bg_image": null,
+            "parallax_bg": false,
+            "bg_video_id": ""
+          }
+        }
+      },
+      {
+        "section": {
+          "section_id": "problem-3-portability-and-vendor-lock-in",
+          "_metadata": {
+            "uid": "cs761257d3d5c7cb7c"
+          },
+          "section_header": [],
+          "limit_header_width": null,
+          "columns": [
+            {
+              "mod_column": {
+                "column_name": "banner",
+                "_metadata": {
+                  "uid": "cs557efd514120005b"
+                },
+                "accent_box_options": [],
+                "content": [
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "acee6e1690444f85ab04555beb67c2a9",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "h2",
+                            "uid": "2732adaeccfb439eb4aa2fd9180482d7",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Problem #3: Portability and Vendor Lock-In",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(0, 0, 0)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 98
+                      },
+                      "_metadata": {
+                        "uid": "csb05b679ae5cd6c6f"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  },
+                  {
+                    "divider": {
+                      "style": "thin",
+                      "spacing": "12",
+                      "custom_spacing": null,
+                      "_metadata": {
+                        "uid": "csf564d5762ed6f73b"
+                      },
+                      "color": "colorOrange",
+                      "opacity": "1",
+                      "width": "100"
+                    }
+                  },
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "21b7dd66085b4a33bc9147d07a527ea2",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "64c504fdb58e4b3bb8dc42d7b7535ecd",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Enterprise analytics environments today are highly diverse. According to the 2025 global survey, organizations typically use:",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "ul",
+                            "uid": "6500e5766dfd432eb68fc873f747b8c8",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "type": "li",
+                                "uid": "fb99db5a1c7a48f8b0b0347adedd770a",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "69743e0b19af4642ac6864b9d09273b0",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "3 analytics platforms (Power BI, Tableau, Strategy One, Excel, Looker)",
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "li",
+                                "uid": "5a109813168a41019716fc16945c19d0",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "eafd7e8dd41b4f3193eb157fec25c8c6",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "2 cloud providers (Azure, AWS, Google Cloud)",
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "li",
+                                "uid": "0c08e40997cd4104b222e5fb58d81ce0",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "206e9633e68f4f53a5ca26a730479bbe",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "A variety of structured and unstructured data platforms",
+                                        "bold": true,
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "472e557458c7420b95df2547bd33e9eb",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Many AI+BI vendors still assume a closed-stack model, trapping business logic in a specific tool or a single database. This becomes a liability when priorities shift, which is common in fast-moving industries like retail and CPG, where businesses must respond quickly to rapidly changing market conditions.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "blockquote",
+                            "uid": "d4cb2e9c964d4fdba571fa835e8559ee",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "type": "p",
+                                "uid": "a38894e2dcee4415958c6ddbdc54a739",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "text": "PeggySue Werthessen, VP of Product, Strategy:",
+                                    "bold": true,
+                                    "attrs": {
+                                      "style": {
+                                        "color": "rgb(26, 78, 159)"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "text": " \"You need to be able to react, leverage new technologies, and respond quickly to events such as mergers and acquisitions. This is where our independence comes to bear. We are not beholden to any particular stack. Our mission is to help you use any technology to manage costs and risks for your entire data estate.\"",
+                                    "attrs": {
+                                      "style": {
+                                        "color": "rgb(0, 61, 91)"
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 98
+                      },
+                      "_metadata": {
+                        "uid": "cseb961ebc264036aa"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "mod_column": {
+                "column_name": "How Mosaic Solves Vendor Lock-In",
+                "_metadata": {
+                  "uid": "cs14046ca655d485bd"
+                },
+                "accent_box_options": [],
+                "content": [
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "354c4a1b03cd463187ba6e6d05de95cc",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "h3",
+                            "uid": "712d39b25db94c82a1f674ea9902828c",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "How Mosaic Solves Vendor Lock-In",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(250, 102, 15)"
+                                  }
+                                },
+                                "bold": true,
+                                "font-color": "#fa660f"
+                              },
+                              {
+                                "text": " ",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(250, 102, 15)"
+                                  }
+                                },
+                                "font-color": "#fa660f"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "blockquote",
+                            "uid": "6cf20be89b084399b822e8bbdd293033",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "type": "p",
+                                "uid": "b9a7f26719d843f1b1fa190a110a2916",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "text": "Strategy Mosaic:",
+                                    "bold": true,
+                                    "attrs": {
+                                      "style": {
+                                        "color": "rgb(26, 78, 159)"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "text": " A universal semantic layer that sits independently of your BI tools, data warehouses, and cloud platforms.",
+                                    "attrs": {
+                                      "style": {
+                                        "color": "rgb(0, 61, 91)"
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "7c6d4107adf14c60b01029872cd8f863",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "By decoupling governance and business logic from any single vendor's stack, Mosaic enables organizations to maintain flexibility without compromising consistency. This separation is critical to avoiding vendor lock-in. When semantic definitions are embedded inside one database or tool, migrating platforms becomes complex and costly.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "blockquote",
+                            "uid": "e58aa8dd15094734801a4c2c5a3dab8d",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "type": "p",
+                                "uid": "de27de5f57d64b56845e7e601712b38a",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "text": "Saurabh Abhyankar, Chief Product Officer, Strategy:",
+                                    "bold": true,
+                                    "attrs": {
+                                      "style": {
+                                        "color": "rgb(26, 78, 159)"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "text": " \"If your semantic layer is embedded in your database, you're stuck. You'd have to move your data, rebuild the layer, and then update everything on top of it. It's a massive undertaking.\"",
+                                    "attrs": {
+                                      "style": {
+                                        "color": "rgb(0, 61, 91)"
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "eddc185a77af4edfa68c8a79208ed2fc",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Mosaic prevents that scenario by being truly open. It allows you to:",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "ul",
+                            "uid": "77daaef210c5459eb817e822f6d56339",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "type": "li",
+                                "uid": "23c7e3a834cf4585b9972a26012e32f6",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "953d6c818f0e49dda6be35e26b60f110",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "Keep your data in any warehouse: Whether in Snowflake, Databricks, BigQuery, or Hadoop.",
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "li",
+                                "uid": "69e4782a9ad749a4b94f29bd2d98cbf5",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "e67c40b59c81471e95c8cdc575f77039",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "Query from any tool: Use Power BI, Tableau, Excel, or custom APIs.",
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "li",
+                                "uid": "12b33ae00f27404f8779c755300704a5",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "8cfb7d3df9254c719b8fdd043426dfe6",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "Operate across any major cloud: Switch providers as your infrastructure strategy changes.",
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "blockquote",
+                            "uid": "b5310ac9629547ccbaccf7f982378d37",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "type": "p",
+                                "uid": "98da01ae91b64738906b01f92a33141e",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "text": "Saurabh Abhyankar, Chief Product Officer, Strategy:",
+                                    "bold": true,
+                                    "attrs": {
+                                      "style": {
+                                        "color": "rgb(26, 78, 159)"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "text": " \"Mosaic isn't just dual open—it's open in three critical ways: cloud, data sources, and consumption. That's what makes it so flexible and interoperable.\"",
+                                    "attrs": {
+                                      "style": {
+                                        "color": "rgb(0, 61, 91)"
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "b063e7373692401899d9cb3bd88e8714",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "This architecture transforms vendor diversity from a limitation into an advantage. With Mosaic, you can:",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "ul",
+                            "uid": "9b8c264cf98748b092c859ae1a3927a0",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "type": "li",
+                                "uid": "181fc5f5c9a9403394225cc4ee599f0f",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "2883922819a34792a84c8152025a9ae7",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "Select the best tool for each team or use case.",
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "li",
+                                "uid": "7c33379d65bb42a6bbec9624da0b8d3b",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "e104dd6d388747659acbbb498398a356",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "Migrate between platforms without duplicating logic.",
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "li",
+                                "uid": "69564b36ecd64edfb0fe43afe7bdb549",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "eb452f12e1074504a05abf7423b72732",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "Future-proof your infrastructure as technology landscapes evolve.",
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "3bb680cce3574d1296798c953865b6fb",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "In a world that demands speed and adaptability, Mosaic gives your organization the freedom to adapt—without rework, risk, or disruption.",
+                                "bold": true,
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 98
+                      },
+                      "_metadata": {
+                        "uid": "csb52ada2f0d2ae3ef"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "columns_per_row": 1,
+          "column_alignment": "Center, Top",
+          "section_footer": [],
+          "limit_footer_width": null,
+          "more_column_options": {
+            "column_spacing": "Default",
+            "one_column_limit_width": "75%",
+            "two_column_split": null,
+            "reverse_column_order_mobile": false,
+            "accent_box_stretch": false
+          },
+          "more_section_options": {
+            "text_color": "Dark",
+            "padding": "Short bottom only",
+            "add_divider": [],
+            "bg_color": "White",
+            "bg_custom_color": "",
+            "bg_image": null,
+            "mobile_bg_image": null,
+            "parallax_bg": false,
+            "bg_video_id": ""
+          }
+        }
+      },
+      {
+        "section": {
+          "section_id": "problem-4-cost-arbitrage",
+          "_metadata": {
+            "uid": "csbe535baa66e2e6e7"
+          },
+          "section_header": [],
+          "limit_header_width": null,
+          "columns": [
+            {
+              "mod_column": {
+                "column_name": "banner",
+                "_metadata": {
+                  "uid": "cs62d694271d567797"
+                },
+                "accent_box_options": [],
+                "content": [
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "f849600bf2a84ee7acce784b683c6b62",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "h2",
+                            "uid": "3aeee3052e974942a210687e3fa6d992",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Problem #4: Cost Arbitrage",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(0, 0, 0)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 98
+                      },
+                      "_metadata": {
+                        "uid": "cs8728217bf7e9c55d"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  },
+                  {
+                    "divider": {
+                      "style": "thin",
+                      "spacing": "12",
+                      "custom_spacing": null,
+                      "_metadata": {
+                        "uid": "csdabcdeebc3776db6"
+                      },
+                      "color": "colorOrange",
+                      "opacity": "1",
+                      "width": "100"
+                    }
+                  },
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "625fbb22e0434e40b0b2c98c6232bc35",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "46fa7ea1a35345ec90f64c2f6ff8f7bb",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Cost pressures are the top barrier to scaling AI-powered analytics for retail and CPG organizations. In our 2025 global survey, 53% of retail and CPG respondents cited costs as their primary challenge. Unexpected compute bills, duplicate modeling, and rigid pricing models continue to undermine the business case for AI+BI.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "blockquote",
+                            "uid": "73c95b91f743416ab9717a963eec1e97",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "type": "p",
+                                "uid": "588e6b60d4c04366832050cd32782d55",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "text": "Survey respondent:",
+                                    "bold": true,
+                                    "attrs": {
+                                      "style": {
+                                        "color": "rgb(26, 78, 159)"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "text": " \"Our finance team dreads reviewing monthly cloud bills. Surprises are frequent—and expensive.\"",
+                                    "attrs": {
+                                      "style": {
+                                        "color": "rgb(0, 61, 91)"
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "eadc781bf13f414aaf79da73e29948d8",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Unsurprisingly, cost savings and increased productivity were among the top three expected outcomes among retail and CPG firms.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "table",
+                            "uid": "3fe3d82e358b408c998705264961da51",
+                            "attrs": {
+                              "rows": 4,
+                              "cols": 2,
+                              "colWidths": [
+                                250,
+                                250
+                              ]
+                            },
+                            "children": [
+                              {
+                                "type": "thead",
+                                "uid": "2cdb226c6f4e448a8aba3bb278d46ca9",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "tr",
+                                    "uid": "fbd7e94aab5d4981a88bd407849877db",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "type": "th",
+                                        "uid": "f98ea816f24e4cdd855bbec51b9edeaf",
+                                        "attrs": {},
+                                        "children": [
+                                          {
+                                            "type": "p",
+                                            "uid": "97b9332013f74f80bcdb72456649212d",
+                                            "attrs": {},
+                                            "children": [
+                                              {
+                                                "text": "Top Expected Outcomes from AI-Powered Analytics in Retail and CPG",
+                                                "attrs": {
+                                                  "style": {
+                                                    "color": "rgb(255, 255, 255)"
+                                                  }
+                                                },
+                                                "bold": true,
+                                                "font-color": "#000000"
+                                              },
+                                              {
+                                                "text": " ",
+                                                "attrs": {
+                                                  "style": {
+                                                    "color": "rgb(255, 255, 255)"
+                                                  }
+                                                },
+                                                "font-color": "#000000"
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "th",
+                                        "uid": "e2d40f0a62df4196bc6e18b6d1a5f027",
+                                        "attrs": {},
+                                        "children": [
+                                          {
+                                            "type": "p",
+                                            "uid": "b3837ed1b12c4af591e49554c701f5db",
+                                            "attrs": {},
+                                            "children": [
+                                              {
+                                                "text": "",
+                                                "attrs": {
+                                                  "style": {
+                                                    "color": "rgb(255, 255, 255)"
+                                                  }
+                                                },
+                                                "bold": true,
+                                                "font-color": "#000000"
+                                              },
+                                              {
+                                                "text": " ",
+                                                "attrs": {
+                                                  "style": {
+                                                    "color": "rgb(255, 255, 255)"
+                                                  }
+                                                },
+                                                "font-color": "#000000"
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "tbody",
+                                "uid": "2d2463aa76de47f7af6e00a01ae23ee7",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "tr",
+                                    "uid": "905ad55043764ea3ba991e0eff31df20",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "type": "td",
+                                        "uid": "bbc5329469104e14a6c4aee4f80464ae",
+                                        "attrs": {},
+                                        "children": [
+                                          {
+                                            "type": "p",
+                                            "uid": "85784f41fa794cc58689c9251f781234",
+                                            "attrs": {},
+                                            "children": [
+                                              {
+                                                "text": "Faster decision-making and innovation",
+                                                "attrs": {
+                                                  "style": {
+                                                    "color": "rgb(0, 0, 0)"
+                                                  }
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "td",
+                                        "uid": "ba8eaca26cd44a838a3d78530040a0cc",
+                                        "attrs": {},
+                                        "children": [
+                                          {
+                                            "type": "p",
+                                            "uid": "44c97172cc8d4d3cb59e0ab11d0e60a8",
+                                            "attrs": {},
+                                            "children": [
+                                              {
+                                                "text": "54%",
+                                                "attrs": {
+                                                  "style": {
+                                                    "color": "rgb(0, 0, 0)"
+                                                  }
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "tr",
+                                    "uid": "fd504c5956bf4001aaffedf9bce82d8b",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "type": "td",
+                                        "uid": "bca6a518aad54bc5b875f78f8aa678c1",
+                                        "attrs": {},
+                                        "children": [
+                                          {
+                                            "type": "p",
+                                            "uid": "21f81c4e2dc0498c9807570d8132ef65",
+                                            "attrs": {},
+                                            "children": [
+                                              {
+                                                "text": "Increased employee productivity",
+                                                "attrs": {
+                                                  "style": {
+                                                    "color": "rgb(0, 0, 0)"
+                                                  }
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "td",
+                                        "uid": "1dbd298501384ae3ab8d43159623ac4e",
+                                        "attrs": {},
+                                        "children": [
+                                          {
+                                            "type": "p",
+                                            "uid": "9f26674284c547b8864711b1826f1a3e",
+                                            "attrs": {},
+                                            "children": [
+                                              {
+                                                "text": "50%",
+                                                "attrs": {
+                                                  "style": {
+                                                    "color": "rgb(0, 0, 0)"
+                                                  }
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "tr",
+                                    "uid": "9a20214d39db4c0582d81a59a884b1ef",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "type": "td",
+                                        "uid": "948e033625834f1b82acb351065d1904",
+                                        "attrs": {},
+                                        "children": [
+                                          {
+                                            "type": "p",
+                                            "uid": "3a24b96bf4c147189844d84d825f5a96",
+                                            "attrs": {},
+                                            "children": [
+                                              {
+                                                "text": "Cost savings",
+                                                "attrs": {
+                                                  "style": {
+                                                    "color": "rgb(0, 0, 0)"
+                                                  }
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "td",
+                                        "uid": "2fd37e04bd494b7ea103d3cd7eb80c1d",
+                                        "attrs": {},
+                                        "children": [
+                                          {
+                                            "type": "p",
+                                            "uid": "147dec12fa5443a1ba7d69318da59540",
+                                            "attrs": {},
+                                            "children": [
+                                              {
+                                                "text": "50%",
+                                                "attrs": {
+                                                  "style": {
+                                                    "color": "rgb(0, 0, 0)"
+                                                  }
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 98
+                      },
+                      "_metadata": {
+                        "uid": "csaf3afad40827cd2d"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "mod_column": {
+                "column_name": "How Mosaic Enables Cost Arbitrage",
+                "_metadata": {
+                  "uid": "cscc7ea51dc8c427b2"
+                },
+                "accent_box_options": [],
+                "content": [
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "7b1de19d22ab4c8898aa3620f89787cb",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "h3",
+                            "uid": "f031d9a7af4a45e2810a0552187808a9",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "How Mosaic Enables Cost Arbitrage",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(250, 102, 15)"
+                                  }
+                                },
+                                "bold": true,
+                                "font-color": "#fa660f"
+                              },
+                              {
+                                "text": " ",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(250, 102, 15)"
+                                  }
+                                },
+                                "font-color": "#fa660f"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "blockquote",
+                            "uid": "91e705328a7e4ede891ab230fc664fac",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "type": "p",
+                                "uid": "229f995e82134aafb66ebb94c1f7ad01",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "text": "Strategy Mosaic:",
+                                    "bold": true,
+                                    "attrs": {
+                                      "style": {
+                                        "color": "rgb(26, 78, 159)"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "text": " A universal semantic layer that helps organizations optimize their analytics environments by intelligently separating logic from infrastructure.",
+                                    "attrs": {
+                                      "style": {
+                                        "color": "rgb(0, 61, 91)"
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "0536c113655a4f2ea4d57ace8cc0f70c",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "This allows teams to shift workloads, reduce redundancy, and contain compute costs without sacrificing performance or control. The true cost of scaling AI+BI isn't just about software licenses: it's about the time wasted on rebuilding logic, moving data, and over-consuming compute power.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "594c873339124aa4b1aa6f4bffd4734a",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Mosaic addresses these drivers head-on by enabling cost arbitrage.",
+                                "bold": true,
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "blockquote",
+                            "uid": "2810b36945114f35bb47fd07ee1052b3",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "type": "p",
+                                "uid": "48c28678ac684e67846a2b17078f9fd9",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "text": "Saurabh Abhyankar, Chief Product Officer, Strategy:",
+                                    "bold": true,
+                                    "attrs": {
+                                      "style": {
+                                        "color": "rgb(26, 78, 159)"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "text": " \"One of the things we specifically designed Mosaic to do is help you achieve cost arbitrage.\"",
+                                    "attrs": {
+                                      "style": {
+                                        "color": "rgb(0, 61, 91)"
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "3ba3ba235558403d98c9f8162d9349e7",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Mosaic reduces the total cost of ownership by:",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "ul",
+                            "uid": "42322671de994fa8bc693bd5d0253a6b",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "type": "li",
+                                "uid": "104211c3b52f436e9625b8251f67fa21",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "22fcfd36d35c4302aeea1a01cdda2ebc",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "Enabling cloud and database flexibility: Teams can shift workloads to the most cost-effective platforms based on their needs.",
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "li",
+                                "uid": "75c1d5ca262e4f66943c0897fe0a0bee",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "6ebb5d894fe440178ce61f74df1a31da",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "Preventing duplication: Mosaic connects to your data wherever it lives, eliminating the need for expensive ETL (extract, transform and load) or data consolidation.",
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "li",
+                                "uid": "4f0c68396a2d44a4a6ffd35ad7d0618b",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "593c6502421b41f0a059fc5d84a3c98c",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "Using intelligent caching: Mosaic's in-memory engine caches frequently run queries, reducing repeated hits to costly data warehouses and lowering compute strain.",
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "li",
+                                "uid": "001612caa9684c41aed38958becc1cf7",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "bc863fe3012a4d95b8b0f5677e3fd1fd",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "Offering predictable pricing: With a user-based license, you get predictable spend, avoiding the surprises of a compute-driven pricing model.",
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "blockquote",
+                            "uid": "052023089211444c84dfe5dd2ce87727",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "type": "p",
+                                "uid": "203055b45da04342a10afe67addb0799",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "text": "Saurabh Abhyankar, Chief Product Officer, Strategy:",
+                                    "bold": true,
+                                    "attrs": {
+                                      "style": {
+                                        "color": "rgb(26, 78, 159)"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "text": " \"We charge per user—not based on query volume or compute. So if you have many expensive queries hitting your data warehouse, you can cache them in Mosaic. Once cached, they hit our engine instead of the database.\"",
+                                    "attrs": {
+                                      "style": {
+                                        "color": "rgb(0, 61, 91)"
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "f9128a52ee97493b8dba4a1094c24b30",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "In an era where cost predictability is as important as capability, Mosaic gives organizations control over how, where, and at what cost AI+BI runs—without sacrificing governance or scale.",
+                                "bold": true,
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 98
+                      },
+                      "_metadata": {
+                        "uid": "cs5398bc2b344158c6"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "columns_per_row": 1,
+          "column_alignment": "Center, Top",
+          "section_footer": [],
+          "limit_footer_width": null,
+          "more_column_options": {
+            "column_spacing": "Default",
+            "one_column_limit_width": "75%",
+            "two_column_split": null,
+            "reverse_column_order_mobile": false,
+            "accent_box_stretch": false
+          },
+          "more_section_options": {
+            "text_color": "Dark",
+            "padding": "Short bottom only",
+            "add_divider": [],
+            "bg_color": "White",
+            "bg_custom_color": "",
+            "bg_image": null,
+            "mobile_bg_image": null,
+            "parallax_bg": false,
+            "bg_video_id": ""
+          }
+        }
+      },
+      {
+        "section": {
+          "section_id": "problem-5-environmental-complexity",
+          "_metadata": {
+            "uid": "cs0f1d08f11f0ceba5"
+          },
+          "section_header": [],
+          "limit_header_width": null,
+          "columns": [
+            {
+              "mod_column": {
+                "column_name": "banner",
+                "_metadata": {
+                  "uid": "cscde3b3893960f39f"
+                },
+                "accent_box_options": [],
+                "content": [
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "c9f404f5697c4d88939add38ba7cada0",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "h2",
+                            "uid": "f834096e72ee4964bc1646d05f4f7357",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Problem #5: Environmental Complexity",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(0, 0, 0)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 98
+                      },
+                      "_metadata": {
+                        "uid": "cs050d70ee1fecceeb"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  },
+                  {
+                    "divider": {
+                      "style": "thin",
+                      "spacing": "12",
+                      "custom_spacing": null,
+                      "_metadata": {
+                        "uid": "cs95c35fe96e93f9c5"
+                      },
+                      "color": "colorOrange",
+                      "opacity": "1",
+                      "width": "100"
+                    }
+                  },
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "d696c6f5b7b740d3a5b5facfeaae715c",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "da92a7c6711945d4bcb449b8b263e73b",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Enterprises today span multiple clouds, tools, and teams. And that complexity is growing. Systems integration and complexity are major challenges, and 42% of retail and CPG respondents highlighted inconsistent data quality, absence of a semantic layer, and fragmented reporting practices as critical challenges.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "0a929cbc7fd443489d636d659910414c",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Organizations report difficulties aligning AI-powered tools with existing systems and siloed data environments across business lines. As organizations scale, complexity introduces fragility: duplicated models, conflicting metrics, redundant dashboards, and mismatched access rules.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "blockquote",
+                            "uid": "9d9f0ba052af426991ca1bdca1138976",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "type": "p",
+                                "uid": "fcf136b0ac6c4ec49c25acb84665b6a4",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "text": "PeggySue Werthessen, VP of Product, Strategy:",
+                                    "bold": true,
+                                    "attrs": {
+                                      "style": {
+                                        "color": "rgb(26, 78, 159)"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "text": " \"The real problem isn't that you have multiple BI tools. It's that you have duplication of effort and inconsistency of information across those tools.\"",
+                                    "attrs": {
+                                      "style": {
+                                        "color": "rgb(0, 61, 91)"
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 98
+                      },
+                      "_metadata": {
+                        "uid": "csc030725eb228ab15"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "mod_column": {
+                "column_name": "How Mosaic Solves Environmental Complexity",
+                "_metadata": {
+                  "uid": "cs05dc96df3c5211a1"
+                },
+                "accent_box_options": [],
+                "content": [
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "cd697226ddbb474da5a3cd9c28de7eea",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "h3",
+                            "uid": "8955c80705f04d9ba4e659de31954583",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "How Mosaic Solves Environmental Complexity",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(250, 102, 15)"
+                                  }
+                                },
+                                "bold": true,
+                                "font-color": "#fa660f"
+                              },
+                              {
+                                "text": " ",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(250, 102, 15)"
+                                  }
+                                },
+                                "font-color": "#fa660f"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "blockquote",
+                            "uid": "b2d5fd783d19482b84e8142518ad3a26",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "type": "p",
+                                "uid": "67f7127f8cd041dc841bc314277bdecd",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "text": "Strategy Mosaic:",
+                                    "bold": true,
+                                    "attrs": {
+                                      "style": {
+                                        "color": "rgb(26, 78, 159)"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "text": " A universal semantic layer that brings order to complex enterprise analytics environments.",
+                                    "attrs": {
+                                      "style": {
+                                        "color": "rgb(0, 61, 91)"
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "0463d20c02304e979457cecad923ffad",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Rather than enforcing rigid control, Mosaic creates a shared governance framework that connects tools, clouds, and teams—without sacrificing flexibility. Today, most organizations operate in federated models with a diverse mix of tools and data platforms. Complexity is inevitable. The real risk lies not in having diverse systems, but in having inconsistent logic, duplicated models, and disconnected governance across them.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "blockquote",
+                            "uid": "aa0d2cf0c3ed43899bda957593e23538",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "type": "p",
+                                "uid": "156fa3d315ec423bb84977e75df2ca2a",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "text": "PeggySue Werthessen, VP of Product, Strategy:",
+                                    "bold": true,
+                                    "attrs": {
+                                      "style": {
+                                        "color": "rgb(26, 78, 159)"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "text": " \"Instead of rebuilding every time your tech stack shifts, Mosaic lets you reconfigure your models—like tiles—around new structures or tools.\"",
+                                    "attrs": {
+                                      "style": {
+                                        "color": "rgb(0, 61, 91)"
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "5f7d390d24574bc7880c93105e9e8ede",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Mosaic addresses this risk by acting as a data fabric—a single layer where business definitions, access rules, and modeling logic are created once and applied everywhere. Mosaic ensures:",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "ul",
+                            "uid": "f77e23c988d84ed2add3e68fe02825c4",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "type": "li",
+                                "uid": "723a68b50e5843a8870fa5c0372870c3",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "01999d53d6474052991bababd54abeb3",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "All tools and users call the same definitions.",
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "li",
+                                "uid": "2dc525e3383846e094b79b9478099988",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "727c08f93416432e87afaa54a90cbd3c",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "Data access and logic are applied consistently.",
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "li",
+                                "uid": "0ed6e74508734fe4a53a99876377f1e3",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "326900e5d7784953b552184893839804",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "Changes ripple safely and predictably across the stack.",
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "106f3ddd53fa458ab205336ed59aeb3d",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "This ensures consistent data whether the endpoint is a dashboard, an AI agent, or a custom application.",
+                                "bold": true,
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "blockquote",
+                            "uid": "94ea76efa4854a3bb67935cfdceca623",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "type": "p",
+                                "uid": "2bf831d80a7f40878b853d54cc019ce7",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "text": "PeggySue Werthessen, VP of Product, Strategy:",
+                                    "bold": true,
+                                    "attrs": {
+                                      "style": {
+                                        "color": "rgb(26, 78, 159)"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "text": " \"That endpoint today may just be three or four BI tools. But in the future, it can be BI tools, AI agents, and applications you give your customers. We need to make sure they are coordinated.\"",
+                                    "attrs": {
+                                      "style": {
+                                        "color": "rgb(0, 61, 91)"
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "828e04a04f1b4bf1a7cb76ae68e48732",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Mosaic doesn't eliminate complexity, it orchestrates it. It allows each team, tool, or department to innovate within guardrails, ensuring alignment across a distributed analytics environment.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "27d3675f42c243748daa0eb6ee034c80",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "As your data ecosystem evolves, Mosaic adapts with it, serving as the connective tissue that keeps intelligence trustworthy, explainable, and reusable at scale.",
+                                "bold": true,
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 98
+                      },
+                      "_metadata": {
+                        "uid": "cs9113ee6f35a91e2e"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "columns_per_row": 1,
+          "column_alignment": "Center, Top",
+          "section_footer": [],
+          "limit_footer_width": null,
+          "more_column_options": {
+            "column_spacing": "Default",
+            "one_column_limit_width": "75%",
+            "two_column_split": null,
+            "reverse_column_order_mobile": false,
+            "accent_box_stretch": false
+          },
+          "more_section_options": {
+            "text_color": "Dark",
+            "padding": "Short bottom only",
+            "add_divider": [],
+            "bg_color": "White",
+            "bg_custom_color": "",
+            "bg_image": null,
+            "mobile_bg_image": null,
+            "parallax_bg": false,
+            "bg_video_id": ""
+          }
+        }
+      },
+      {
+        "section": {
+          "section_id": "conclusion",
+          "_metadata": {
+            "uid": "cs4ef3064b31aa45d8"
+          },
+          "section_header": [],
+          "limit_header_width": null,
+          "columns": [
+            {
+              "mod_column": {
+                "column_name": "banner",
+                "_metadata": {
+                  "uid": "cs2a0892b03511747b"
+                },
+                "accent_box_options": [],
+                "content": [
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "4fa7e5c28ad7479a8c9a80183902f6ac",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "h2",
+                            "uid": "d14a357f4086473dabc6bf7bfe8dc85a",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Conclusion",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(0, 0, 0)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 98
+                      },
+                      "_metadata": {
+                        "uid": "cs8cc20a21582a87f5"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  },
+                  {
+                    "divider": {
+                      "style": "thin",
+                      "spacing": "12",
+                      "custom_spacing": null,
+                      "_metadata": {
+                        "uid": "cs1f8ff3d0144334a2"
+                      },
+                      "color": "colorOrange",
+                      "opacity": "1",
+                      "width": "100"
+                    }
+                  },
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "2407efefb9d44509a5061898beb936d0",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "9994f5995e364d338bb0cb8f5e2dc5cc",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "AI-powered analytics is reaching a turning point. Organizations are now investing heavily in AI+BI, but they face persistent problems that limit its value: inconsistent answers, security and compliance risks, vendor lock-in, rising costs, and environmental complexity.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "6b848ccb67d14b9ab8f330d0abce03ed",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "These persistent problems are not separate issues. They share a common root cause: the absence of governance at scale.",
+                                "bold": true,
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "6b68806c758145c28864ff455e15e1f4",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "The answer is a universal semantic layer, a single, unified layer where business definitions, access rules, and modeling logic are created once and applied everywhere. This architecture is independent of any single tool, database, or cloud, making it the only way to achieve true enterprise-wide consistency, security, and flexibility.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "913a6d1dc7e840d993a1fb76c806fabd",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "This is what Strategy Mosaic delivers:",
+                                "bold": true,
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "ul",
+                            "uid": "20d1ec6e9e714225a49d954af7290883",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "type": "li",
+                                "uid": "48fa3f82d33046fe8efc67efc88b1016",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "0096ca64e8c84b22b331b4c50c04e0a2",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "Trust and accuracy:",
+                                        "bold": true,
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "text": " It lowers the risk of hallucinations by providing AI with a single, governed source of truth.",
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "li",
+                                "uid": "289b867d1ba041338aeb52198f5a9047",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "b8ecc60a32a446b79213eb5f936bd27f",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "Cost control:",
+                                        "bold": true,
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "text": " It enables cost arbitrage and workload distribution across different platforms.",
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "li",
+                                "uid": "9af67b7ccdd848df8125243fcee08324",
+                                "attrs": {},
+                                "children": [
+                                  {
+                                    "type": "p",
+                                    "uid": "b2dd30aa6d864238ac0bec13d4761949",
+                                    "attrs": {},
+                                    "children": [
+                                      {
+                                        "text": "Flexibility:",
+                                        "bold": true,
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "text": " It frees you from vendor lock-in, allowing you to choose the best tool for the job.",
+                                        "attrs": {
+                                          "style": {
+                                            "color": "rgb(26, 26, 26)"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "5fe7d5210e304ce3ae448010b6b93362",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "The leap to scalable, trusted AI requires a governance-first approach. Mosaic provides that foundation, giving you the power to innovate with confidence, control costs, and eliminate complexity, helping retail and CPG leaders modernize analytics without compromising speed or trust.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "cf33f9a9f88b45d08e66391df86e7d3a",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "With a single, unified solution, you can finally turn your data into a competitive advantage. It's time to turn your data into a powerful, governed asset. See how Strategy Mosaic can help you unlock the full potential of AI+BI.",
+                                "attrs": {
+                                  "style": {
+                                    "color": "rgb(26, 26, 26)"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 98
+                      },
+                      "_metadata": {
+                        "uid": "csb9cac62280e3dcf2"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "columns_per_row": 1,
+          "column_alignment": "Center, Top",
+          "section_footer": [],
+          "limit_footer_width": null,
+          "more_column_options": {
+            "column_spacing": "Default",
+            "one_column_limit_width": "75%",
+            "two_column_split": null,
+            "reverse_column_order_mobile": false,
+            "accent_box_stretch": false
+          },
+          "more_section_options": {
+            "text_color": "Dark",
+            "padding": "Short bottom only",
+            "add_divider": [],
+            "bg_color": "White",
+            "bg_custom_color": "",
+            "bg_image": null,
+            "mobile_bg_image": null,
+            "parallax_bg": false,
+            "bg_video_id": ""
+          }
+        }
+      },
+      {
+        "section": {
+          "section_id": "cta",
+          "_metadata": {
+            "uid": "cs9ea71ebf17b031fe"
+          },
+          "section_header": [],
+          "limit_header_width": null,
+          "columns": [
+            {
+              "mod_column": {
+                "column_name": "cta",
+                "_metadata": {
+                  "uid": "csfb504a15482bb943"
+                },
+                "accent_box_options": [],
+                "content": [
+                  {
+                    "text": {
+                      "text_block": {
+                        "type": "doc",
+                        "uid": "9a4ed357618f4628936a2b19094197cd",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "type": "h2",
+                            "uid": "ed4fb27dab67493083bd8fd84b5b52c4",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "See how Strategy Mosaic can help you unlock the full potential of AI+BI"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "07e19502dd3646edbb8937fbb35cb1a9",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Turn your data into a powerful, governed asset. Strategy Mosaic provides the governance-first foundation retail and CPG organizations need to scale AI with confidence, control costs, and eliminate complexity."
+                              }
+                            ]
+                          },
+                          {
+                            "type": "p",
+                            "uid": "e2fefbc1a9ac44e183c86c36165672ec",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "type": "a",
+                                "uid": "43b327c649f64b119e1d3a870bb440f7",
+                                "attrs": {
+                                  "url": "https://www.strategysoftware.com/mosaic",
+                                  "target": "_blank"
+                                },
+                                "children": [
+                                  {
+                                    "text": "Learn More About Strategy Mosaic"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ],
+                        "_version": 98
+                      },
+                      "_metadata": {
+                        "uid": "cs343601b0680aa7c4"
+                      },
+                      "text_override": null,
+                      "table_styles": []
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "columns_per_row": 1,
+          "column_alignment": "Center, Top",
+          "section_footer": [],
+          "limit_footer_width": null,
+          "more_column_options": {
+            "column_spacing": "Default",
+            "one_column_limit_width": "75%",
+            "two_column_split": null,
+            "reverse_column_order_mobile": false,
+            "accent_box_stretch": false
+          },
+          "more_section_options": {
+            "text_color": "Dark",
+            "padding": "Default",
+            "add_divider": [],
+            "bg_color": "Brass",
+            "bg_custom_color": "",
+            "bg_image": null,
+            "mobile_bg_image": null,
+            "parallax_bg": false,
+            "bg_video_id": ""
+          }
+        }
+      }
+    ],
+    "page_properties": {
+      "navigation_title": "",
+      "header_color": null,
+      "hide_header_nav": false,
+      "hide_header_cta": false,
+      "hide_footer": false,
+      "disable_global_promo_banner": false,
+      "hide_auto_expert": false,
+      "sfid": "",
+      "marketo_id": "",
+      "cta_section": []
+    },
+    "seo": {
+      "meta_title": "Governance-First AI+BI for Retail & CPG | Strategy Mosaic",
+      "meta_description": "Discover why 42% of retailers cite inconsistent data as a top AI barrier. Explore governance strategies to scale trusted BI in retail and CPG.",
+      "keywords": "data governance retail CPG, AI-powered analytics retail, semantic layer BI, scalable data governance enterprise, trusted data retail analytics",
+      "social_thumbnail_override": null,
+      "enable_search_indexing": true
+    },
+    "resource_data": {
+      "date": "2025-01-01T00:00:00.000Z",
+      "type": "Analyst Report",
+      "title": "Governance First: The Key to Scalable, Trusted Data in Retail and CPG",
+      "description": "Discover why 42% of retailers cite inconsistent data as a top AI barrier. Explore governance strategies to scale trusted BI in retail and CPG.",
+      "featured": false
+    },
+    "taxonomies": [],
+    "tags": []
+  },
+  "_mapping_warnings": [
+    "Several tables in the source document contained empty or near-empty cells with only visual/layout content (e.g., 2x2 tables that appear to be image placeholder containers) — these were omitted as they carried no textual data.",
+    "The table in the Executive Summary contained a malformed/split cell reading 'Without a consistent semantic layer, trust erodes, and AI initiatives struggl[d]efinitions vary, to scale.' — this was reconstructed as a callout block with the intended meaning.",
+    "The 'How Mosaic solves...' callout tables in each section contained partially split text (likely OCR artifact from a styled banner); these were reconstructed as callout blocks using the most complete reading of the text.",
+    "Multiple H1 tags in source appear to be used for quotation styling rather than actual page headings — these were interpreted as pull quotes / callouts.",
+    "The subtitle 'How Strategy Mosaic establishes governance, flexibility and trust at scale' appears in the cover table and is treated as the subtitle/tagline rather than a section heading.",
+    "The 'Anticipated wins' section with percentage figures (54%, 50%, 50%) was formatted as a table for clarity; original source used a mixed list/heading layout.",
+    "Page footer content ('Governance first: The key to scalable, trusted data in retail and CPG [page number]') was omitted throughout as it is a running footer, not content.",
+    "Copyright and address block at document end was omitted from body sections as boilerplate.",
+    "The H4 tag in source for '54% 50% 50%' appeared to be a styled percentage display row — incorporated into the table for the Cost Arbitrage section.",
+    "No explicit orange H3 subtitle was confirmed — the cover table's second line was used as subtitle based on visual context described in source."
+  ]
+}

@@ -1,0 +1,516 @@
+{
+  "title": "The Semantic Layer Is Becoming Context Infrastructure for AI",
+  "subtitle": "What it means for enterprise AI architecture and how to build it right",
+  "slug": "the-semantic-layer-is-becoming-context-infrastructure-for-ai",
+  "url": "/the-semantic-layer-is-becoming-context-infrastructure-for-ai",
+  "author": "Henry Guo",
+  "authorBio": "",
+  "publishDate": "2026-06-15T00:00:00.000Z",
+  "seo": {
+    "metaTitle": "Semantic Layer as Context Infrastructure for Enterprise AI",
+    "metaDescription": "AI agents need governed context, not guesswork. Explore how the semantic layer becomes context infrastructure for consistent enterprise AI outcomes.",
+    "metaDescriptionFromDoc": false,
+    "targetKeywords": [
+      "semantic layer",
+      "AI context infrastructure",
+      "governed metrics",
+      "enterprise AI analytics",
+      "universal semantic layer"
+    ],
+    "metaDescriptionAlternatives": [
+      "Discover why enterprise AI fails without governed context. See how the semantic layer gives AI agents trusted metric definitions and safe, auditable reasoning.",
+      "AI agents need governed context, not guesswork. Explore how the semantic layer becomes context infrastructure for reliable, consistent enterprise AI outcomes."
+    ],
+    "primaryKeywords": [
+      "semantic layer",
+      "AI context infrastructure",
+      "governed metrics",
+      "enterprise AI analytics",
+      "universal semantic layer"
+    ],
+    "secondaryKeywords": [
+      "BI semantic layer",
+      "AI-ready data foundation",
+      "governed metric definitions",
+      "machine-readable business context",
+      "AI agent governance",
+      "enterprise data governance",
+      "consistent query results",
+      "auditable AI outcomes",
+      "business metric definitions",
+      "semantic layer for AI agents",
+      "BI decision-making infrastructure",
+      "institutional knowledge in data"
+    ],
+    "longTailKeywords": [
+      "why enterprise AI fails without governed metric definitions",
+      "how to give AI agents trusted business context",
+      "what is AI context infrastructure for enterprise analytics",
+      "how the semantic layer supports AI agent governance",
+      "best way to make metrics machine-readable for AI",
+      "how to ensure AI agents produce auditable outcomes",
+      "why AI agents need a semantic layer to reason correctly",
+      "how governed data definitions improve enterprise AI reliability",
+      "what does a semantic layer do for AI-powered analytics",
+      "how to scale AI analytics with consistent governed metrics",
+      "why semantic layer is the foundation for enterprise AI",
+      "how to prevent AI from misinterpreting business data"
+    ],
+    "brandedKeywords": [
+      "Strategy",
+      "Strategy Mosaic",
+      "Strategy semantic layer",
+      "Strategy enterprise AI analytics",
+      "Strategy governed metrics"
+    ]
+  },
+  "quickAnswer": [
+    {"headline": "A context layer is governed infrastructure that defines business terms as enforced calculations.", "body": "It models entity relationships and scopes answers to the user and decision at hand."},
+    {"headline": "The semantic layer is the natural foundation for AI context infrastructure.", "body": "It already captures institutional knowledge about data and makes it machine-readable for consistent, governed query results."},
+    {"headline": "Organizations with governed metric definitions are one architectural step away from AI-ready data.", "body": "With the right context layer, AI agents can reason correctly, act safely, and produce auditable outcomes."}
+  ],
+  "heroMedia": null,
+  "body": [
+    {
+      "type": "section",
+      "heading": "",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "callout",
+          "label": "Quick Answer: What is a context layer for enterprise AI?",
+          "text": "A context layer is the governed infrastructure that tells AI systems what enterprise data actually means. It defines business terms as governed calculations, models the relationships between business entities, scopes answers to the user and decision at hand, and enforces access policy before any query reaches the database. The semantic layer is the natural foundation for this infrastructure. Organizations that have invested in governed metric definitions are one architectural evolution away from giving their AI agents the context they need to reason correctly and act safely."
+        },
+        {
+          "type": "paragraph",
+          "text": "Enterprise AI does not fail because models cannot generate answers. It fails when models are forced to infer what the business means."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ask an AI system about revenue, margin, churn, or claims exposure, and it can generate SQL in seconds. But unless the business logic is governed, the model still has to choose which definition applies, which table is authoritative, which join path is safe, and which records should be excluded."
+        },
+        {
+          "type": "paragraph",
+          "text": "This is the failure point."
+        },
+        {
+          "type": "paragraph",
+          "text": "The query executes, a number comes back, and the result looks entirely plausible. Nothing signals that the business logic was wrong before the first row was read."
+        },
+        {
+          "type": "paragraph",
+          "text": "Human analysts bridge that gap through instinct and hard-won domain knowledge. AI agents need that context made explicit before they query, reason, or act."
+        },
+        {
+          "type": "paragraph",
+          "text": "That is why the semantic layer is evolving from BI infrastructure into context infrastructure for enterprise AI."
+        },
+        {
+          "type": "image",
+          "sourcePath": "image_0.png",
+          "assetUid": "",
+          "altText": "",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Why AI Agents Raise the Stakes for the Semantic Layer",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "For most of its history, the semantic layer was built around a practical assumption: the primary consumer was human."
+        },
+        {
+          "type": "paragraph",
+          "text": "The human analyst brought judgment, domain awareness, and accountability to every number they consumed. AI agents bring speed, scale, and autonomy. The governance infrastructure has to change to match."
+        },
+        {
+          "type": "paragraph",
+          "text": "In traditional BI, the system was not the decision-maker. It reported. People interpreted, questioned, and acted. A wrong number might trigger a follow-up conversation. The cost of error was a corrected report. In an agentic deployment, the AI does not report. It acts. It sends the communication, updates the CRM record, triggers the procurement order, adjusts the pricing rule. The wrong interpretation does not produce a wrong number on a dashboard. It can produce a wrong action in a production system, sometimes before anyone reviews the decision."
+        },
+        {
+          "type": "paragraph",
+          "text": "Benchmarks increasingly point to the same architectural lesson: AI accuracy improves when models receive explicit business context instead of raw schema alone. Larger models can help, but the biggest gains often come from reducing how much business meaning the model has to infer on its own. That reframes the enterprise AI investment question from which model to deploy to what context infrastructure that model will operate on."
+        },
+        {
+          "type": "paragraph",
+          "text": "The shift is already documented. According to IDC's October 2025 Future Enterprise Resiliency and Spending Survey, 93% of respondents said GenAI and AI agents have increased focus on semantic layers in BI and analytics. The question is no longer whether semantic infrastructure matters for AI. It is whether organizations will build it deliberately or retrofit it under pressure."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Context Is the Missing Infrastructure",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Enterprise AI failures follow a repeating pattern: wrong fact table selection, wrong data pulls from complex multi-row joins, incorrect aggregation of snapshot data, and metric definitions that differ across teams. The model may execute correctly in every case. The business context was wrong before the query started."
+        },
+        {
+          "type": "paragraph",
+          "text": "The fix is architectural: make the correct interpretation explicit before the model generates a query."
+        },
+        {
+          "type": "paragraph",
+          "text": "Consider a simple example. A model joins claims to coverage rows on a multi-year policy. The SQL executes successfully, but each claim is multiplied across five coverage-year rows before aggregation. The output looks valid. The number is wrong by 5x. No error appears because the SQL is syntactically correct; the failure is semantic. The model did not misunderstand SQL. It misunderstood business context."
+        },
+        {
+          "type": "paragraph",
+          "text": "That infrastructure needs to tell AI not just what a metric is called, but how it is calculated, which entities it applies to, which users are entitled to see it, and how it should be scoped to the specific decision being made. A data catalog describes parts of it, but usually does not enforce it at query time. A semantic layer enforces much of it. A context layer brings the enforceable pieces together for AI."
+        },
+        {
+          "type": "image",
+          "sourcePath": "image_1.png",
+          "assetUid": "",
+          "altText": "",
+          "url": ""
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Data tells you what happened. Metrics tell you how to measure it. Semantics tell you what it means. Context tells you what it means for this user, this workflow, this decision. Decisions are what the data was always meant to serve.",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "The Semantic Layer Is the Natural Foundation",
+      "subheading": "Standardize meaning",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "A semantic layer already does the hardest part of building context infrastructure: it captures institutional knowledge about data and makes it machine-readable. It defines what revenue means, which join path is authoritative, how a metric should aggregate across a hierarchy. That work is not easy, and organizations that have done it have a significant head start."
+        },
+        {
+          "type": "paragraph",
+          "text": "The question is what it takes to evolve that foundation into a full context layer. The evolution is not a replacement. It is an extension, adding capability in four directions."
+        },
+        {
+          "type": "heading",
+          "text": "Standardize meaning",
+          "level": 3
+        },
+        {
+          "type": "paragraph",
+          "text": "Define and store metrics once with enforced calculation logic, dimensional scope, and aggregation rules. Every query, from every tool, produces the same result for the same question. An organization with ten different revenue definitions gets one. Every team, tool, and AI agent that touches revenue gets the same number, calculated the same way. This is where most organizations start, and it remains the most visible inconsistency fix a semantic layer delivers."
+        },
+        {
+          "type": "heading",
+          "text": "Model business relationships",
+          "level": 3
+        },
+        {
+          "type": "paragraph",
+          "text": "Metrics alone are not enough for AI. An agent reasoning about customer profitability needs to know not just how profitability is calculated, but which entities are involved, how they relate, and what business rules govern those relationships. Relationship context is a different category of problem entirely."
+        },
+        {
+          "type": "paragraph",
+          "text": "Encode entities, relationships, cardinality, and approved join paths: customers, accounts, contracts, products, territories. This is the conceptual map that tells AI what exists in the business domain and how things connect. A model that knows what a metric means but not what it connects to cannot reason reliably across more than one entity at a time. Ontologies and knowledge graphs matter, and many sophisticated enterprise AI architectures will incorporate them. The governed semantic layer is the practical starting point for building that map: the relationships, policies, and lineage that turn metric definitions into something an AI agent can actually reason across."
+        },
+        {
+          "type": "heading",
+          "text": "Enforce governance and deliver decision context",
+          "level": 3
+        },
+        {
+          "type": "paragraph",
+          "text": "Consider what happens when an AI agent queries revenue without governed context. It selects a table, infers a join path, and applies whatever aggregation logic the schema implies. The result executes cleanly and looks plausible. But if the wrong recognition rule applied, or the consolidation scope was too broad, or the user was not entitled to see results across all business units, nothing surfaces the error. The query succeeded. The answer was wrong."
+        },
+        {
+          "type": "paragraph",
+          "text": "The context layer closes that gap before execution. Policies are enforced at the semantic object level. Lineage runs from metric to source. Scope is tied to the user and decision at hand. The same question asked by a finance analyst and a regional sales manager returns different answers because the rules are encoded, not because the AI made a judgment call."
+        },
+        {
+          "type": "heading",
+          "text": "Become agent infrastructure",
+          "level": 3
+        },
+        {
+          "type": "paragraph",
+          "text": "The last step makes the semantic layer a first-class service for AI agents. Any agent can discover it, query it, and receive governed results from it, regardless of which framework, tool, or interface is asking."
+        },
+        {
+          "type": "paragraph",
+          "text": "That requires the semantic layer to expose itself through open, standard interfaces rather than proprietary connectors. Model Context Protocol is one emerging standard that accelerates this. Organizations that deploy governed semantics through MCP make their context layer available to any compatible agent framework without rebuilding integration work for each new tool. But the principle is broader than any single protocol: governed context should travel with the query, enforce policy at compile time, and produce an auditable record of every access event, regardless of how the agent connects."
+        },
+        {
+          "type": "paragraph",
+          "text": "The semantic layer is no longer a convenience for dashboard users. It is the governed foundation that AI agents depend on to reason correctly and act within policy."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "How Different AI Data Architectures Compare",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "table",
+          "headers": [
+            "Capability",
+            "Raw schema + text-to-SQL",
+            "RAG-assisted AI",
+            "Semantic-layer AI",
+            "Context-layer AI"
+          ],
+          "rows": [
+            [
+              "Metric accuracy",
+              "Low",
+              "Medium",
+              "High",
+              "Governed + enforced"
+            ],
+            [
+              "Join correctness",
+              "Error-prone",
+              "Partial",
+              "Consistent",
+              "Enforced at compile time"
+            ],
+            [
+              "Decision context",
+              "None",
+              "Partial retrieval",
+              "Metric scope only",
+              "User, role, workflow, decision"
+            ],
+            [
+              "Access control",
+              "DB layer only",
+              "Not enforced",
+              "Semantic layer",
+              "Compile-time + audit trail"
+            ],
+            [
+              "Agent readiness",
+              "None",
+              "Partial",
+              "Good",
+              "Native via MCP"
+            ],
+            [
+              "Business-logic error risk",
+              "High",
+              "Moderate",
+              "Low",
+              "Significantly lower"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "The rightmost column represents a semantic layer that has evolved through all four stages. Each column to its left shows what is missing at each prior stage.",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Why This Matters for Enterprises Deploying AI Today",
+      "subheading": "AI agents can now span across entire data estates",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Most organizations piloting AI start with simple questions against clean data, and early results look encouraging. Then they move to production: complex schemas, multi-source queries, autonomous agents acting across systems. The gaps that did not exist in the controlled environment appear quickly. What worked in the pilot does not hold at scale."
+        },
+        {
+          "type": "paragraph",
+          "text": "The context layer is the difference between AI that earns a place in workflows that matter and AI that stays in the sandbox."
+        },
+        {
+          "type": "heading",
+          "text": "AI agents can now span across entire data estates",
+          "level": 3
+        },
+        {
+          "type": "paragraph",
+          "text": "Modern AI deployments do not query a single table. Agents traverse CRM systems, cloud data warehouses, ERP platforms, SaaS applications, and financial systems simultaneously and autonomously. Each source has different schemas, different naming conventions, and different implicit business rules. Without a governed translation layer, the agent carries its inferences and its errors across every boundary it crosses. A context layer gives every agent, across every system, the same governed definitions. Definitions, relationships, policies, and lineage travel with the query."
+        },
+        {
+          "type": "heading",
+          "text": "Governance is not optional when AI acts",
+          "level": 3
+        },
+        {
+          "type": "paragraph",
+          "text": "As AI systems take action in business processes, organizations must demonstrate what data was accessed, which controls applied, and how conclusions were reached. A context layer with compile-time governance and audit logging provides this infrastructure. Every query is validated against governed definitions before it reaches the database. Every access event is recorded with the full governance decision captured. When an auditor or regulator asks how the AI reached a conclusion, the answer is in the audit trail."
+        },
+        {
+          "type": "heading",
+          "text": "The architecture also changes the economics",
+          "level": 3
+        },
+        {
+          "type": "paragraph",
+          "text": "Many text-to-SQL approaches send large portions of schema context to the AI model on each call. For production schemas with hundreds of tables, this overhead becomes a material cost that scales with schema size and query volume. A context layer compresses what the AI receives to only what is relevant for the question at hand. Strategy AI Agents take this further by minimizing schema context in the AI loop, so schema-context overhead does not scale in the same way as raw text-to-SQL approaches."
+        },
+        {
+          "type": "paragraph",
+          "text": "In our benchmark environment, the difference looked like this:"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Approach",
+            "Schema tokens / query",
+            "Indicative cost vs. baseline"
+          ],
+          "rows": [
+            [
+              "Direct SQL (text-to-SQL)",
+              "~4,800 tokens",
+              "Baseline"
+            ],
+            [
+              "Mosaic MCP",
+              "~2,400 tokens",
+              "Significantly lower"
+            ],
+            [
+              "Strategy AI Agents",
+              "~50-100 tokens",
+              "Near elimination of schema overhead"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Strategy Mosaic as the Universal Semantic Layer",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Historically, semantic layers were built around a specific stack or ecosystem. Definitions stay inside that environment. When the consumer changes, from a dashboard user to an AI agent, the layer either does not reach at all, or it reaches without governance."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mosaic is designed to break that constraint by making governed semantics available beyond a single BI tool, data platform, or AI framework. Business definitions, governance rules, and access policies are defined once and applied consistently across dashboards, SQL, APIs, and AI agents. Queries are validated before they reach any data source. Those that fail policy return structured errors rather than executing. Mosaic Sentinel observes every access event and provides tamper-evident auditability across governance decisions."
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "goeasy",
+              "url": "https://www.goeasy.com/"
+            },
+            {
+              "text": " one of Canada's leading non-prime consumer lenders, has used Strategy Mosaic to scale trusted data across retail banking, loan underwriting, and branch operations. As goeasy modernized its data environment and began early work with agentic AI, Mosaic helped provide a universal semantic foundation that could carry trusted business definitions into the next generation of data and AI workflows. "
+            },
+            {
+              "text": "Read more about goeasy's data and AI journey with Strategy Mosaic.",
+              "url": "https://www.strategy.com/software/blog/scaling-data-ai-at-goeasy-with-a-universal-semantic-layer"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "sourcePath": "image_2.png",
+          "assetUid": "",
+          "altText": "",
+          "url": ""
+        },
+        {
+          "type": "paragraph",
+          "text": "Mosaic validates every query before it reaches underlying data. Requested metrics must be valid, dimensional segmentation permitted, and the requesting agent entitled to the data. Queries that fail return structured errors rather than executing. Through its native MCP server, any MCP-compatible AI agent can discover governed metrics as structured tools, query them in natural language, and receive governed results without custom integration work."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "From Semantic Layer to Context Infrastructure",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Better AI models are necessary but not sufficient. A more capable model operating on ungoverned data does not produce better intelligence. It produces faster, more confident wrong answers. The semantic layer is the right foundation for what comes next. It is where business meaning becomes machine-readable, governance is enforced before queries run, and trust is built into the architecture rather than bolted on afterward."
+        },
+        {
+          "type": "paragraph",
+          "text": "Getting that foundation right means governed definitions, encoded relationships, enforced access policy, and consistent business logic. That is what separates AI that reasons correctly from AI that scales errors at speed. Organizations that recognize this are not waiting for better models to solve a context problem. They are governing the context first. Strategy Mosaic is built on that principle: governed semantics as the foundation, extended into the relationships, policies, and agent-facing interfaces that make AI reliable at scale. For enterprise AI, context infrastructure is no longer optional. It is the foundation for trusted action."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is a semantic layer in the context of enterprise AI?",
+      "answer": "A semantic layer is a governed translation layer between raw enterprise data and the AI systems, analytics tools, and applications that consume it. It defines business terms as enforced, machine-executable calculations and delivers them consistently across every consuming system. For AI specifically, the semantic layer provides authoritative business context. It helps prevent models from inferring incorrect answers from raw schema names, table structures, and column types alone.",
+      "accordionEnabled": true
+    },
+    {
+      "question": "Why does AI fail on enterprise data without a semantic layer?",
+      "answer": "Without a semantic layer, AI agents must infer business meaning from raw schemas. These inferences can produce wrong answers that look correct: syntactically valid SQL that executes, returns rows, and appears plausible, but applies the wrong business logic. Common failure patterns include wrong fact table selection, fan-out inflation from multi-table joins, incorrect aggregation of snapshot data, and ambiguous metric definitions that produce different answers for different teams.",
+      "accordionEnabled": true
+    },
+    {
+      "question": "What is the difference between a semantic layer and a context layer for AI?",
+      "answer": "A semantic layer standardizes business definitions, metric logic, relationships, and governance so data can be interpreted consistently across tools and users. A context layer is what the semantic layer becomes when it is extended for AI. It adds the broader context AI agents need to reason and act safely: entity relationships, access policies tied to semantic objects, user and role context, lineage from metric to source, and agent-facing APIs with compile-time governance and audit. The distinction matters because metrics alone are not enough for AI agents that reason across entities, act autonomously, and must operate within governed boundaries.",
+      "accordionEnabled": true
+    },
+    {
+      "question": "What is the difference between RAG and a semantic layer for AI accuracy?",
+      "answer": "RAG helps AI find relevant information before generating a response. A semantic layer helps AI correctly apply authoritative business definitions when executing queries. They solve different problems. RAG retrieves context candidates, but it cannot determine which revenue definition Finance has approved, enforce access policies, or validate business logic at compile time. The most robust enterprise AI architectures combine both: RAG for knowledge retrieval and the semantic layer for metric governance, policy enforcement, and trusted query execution.",
+      "accordionEnabled": true
+    },
+    {
+      "question": "What does it mean for a semantic layer to be universal?",
+      "answer": "A universal semantic layer is tool-independent, platform-independent, and consumer-independent. Business definitions and governance rules are authored once and applied consistently to every consuming system through open interfaces. This contrasts with semantic layers embedded inside a single BI platform, where definitions may be proprietary to that tool and difficult to reuse across AI agents, data products, applications, and other analytics environments. Strategy Mosaic connects to more than 200 data sources and serves multiple consumers through open APIs and its native MCP server.",
+      "accordionEnabled": true
+    },
+    {
+      "question": "What is Model Context Protocol, and why does it matter for semantic layers?",
+      "answer": "Model Context Protocol, or MCP, is an emerging standard for how AI agents discover and interact with external data capabilities. A semantic layer with native MCP support can expose governed metrics as structured tools that MCP-compatible AI agents can discover and query without custom integration work for each AI framework. Organizations can deploy semantic governance once, then make that governed context available to AI systems that support MCP, regardless of the underlying model or agent framework.",
+      "accordionEnabled": true
+    }
+  ],
+  "postFaqContent": [],
+  "suggestedTaxonomyTerms": [
+    "Semantic Layer",
+    "Enterprise AI",
+    "Data Governance",
+    "AI Agents",
+    "Analytics Architecture"
+  ],
+  "cta_list": [],
+  "internalLinks": [
+    "/scaling-data-ai-at-goeasy-with-a-universal-semantic-layer"
+  ],
+  "externalLinks": [
+    "https://www.goeasy.com/",
+    "https://www.strategy.com/software/blog/scaling-data-ai-at-goeasy-with-a-universal-semantic-layer"
+  ],
+  "validationWarnings": [
+    "No author name or publish date found in the document.",
+    "Three [IMAGE_EMBEDDED] markers present but no image filenames or alt text provided; assigned sequential sourcePaths image_0.png, image_1.png, image_2.png.",
+    "The Quick Answer box did not contain exactly 3 discrete bullet points; 3 summary bullets were synthesized from its content per extraction rules.",
+    "No explicit CTA boxes with action-oriented copy or [LINK:] annotations found; cta_list set to [].",
+    "The internal link for goeasy's story was extracted from a full absolute URL (https://www.strategy.com/software/blog/scaling-data-ai-at-goeasy-with-a-universal-semantic-layer); the /path portion is listed in internalLinks.",
+    "The H3 'Standardize meaning' appears immediately after the H2, so it was used as the section subheading; subsequent H3s within that section were rendered as heading blocks inside blocks array.",
+    "The subtitle ('What it means for enterprise AI architecture and how to build it right') appeared as a [P] immediately below the [H1] with no explicit subtitle tag; treated as subtitle.",
+    "publishDate was not found in the document — defaulted to pipeline run date (2026-06-15T00:00:00.000Z). Confirm before publishing.",
+    "Meta description was 163 chars (over 160 limit) — trimmed to 153. Original: \"The semantic layer is becoming AI context infrastructure. Learn how governed metrics give AI agents the context to reason correctly and produce auditable outcomes.\""
+  ]
+}

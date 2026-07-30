@@ -1,0 +1,552 @@
+{
+  "notice": "Entry created successfully.",
+  "entry": {
+    "title": "v1 -- OSI Is Now Apache Ossie",
+    "url": "/blog/osi-is-now-apache-ossie",
+    "lead_paragraph": {
+      "type": "doc",
+      "attrs": {},
+      "uid": "7f0e35113494406da5b1d3fbf5609242",
+      "children": [
+        {
+          "text": ""
+        }
+      ],
+      "_version": 1
+    },
+    "content": [
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "3937a1fea6f641fc9819fa6fa79ac56c",
+            "children": [
+              {
+                "type": "h3",
+                "uid": "d8a99b13db0447cba9cb6e9898b73493",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Quick Answer",
+                    "attrs": {
+                      "style": {
+                        "color": "rgb(26, 78, 159)"
+                      }
+                    },
+                    "bold": true,
+                    "font-color": "#fa660f"
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "uid": "0b1021c0d6664b81aba5366ba8b7c028",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "li",
+                    "uid": "ae09fb2889d24ed38a1cc6774a5f2a65",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "2b1bdac5440f41e281d368893de07b8c",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "OSI has been renamed Apache Ossie and accepted into the ASF Incubator.",
+                            "bold": true
+                          },
+                          {
+                            "text": " The specification itself is unchanged; only the name and governance home moved to the Apache Software Foundation."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "c5b73ddc8c134093bb71ff7aa0f08cfd",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "b6b141672cbb471e8eff368e451b14c0",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "A Barcelona hackathon validated Ossie against real benchmark-scale data in 72 hours.",
+                            "bold": true
+                          },
+                          {
+                            "text": " Schwarz Digits, Strategy Software, and partners tested live MCP-based AI agent queries against TPC-DS data, confirming the approach works."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "04baf596d05044afb313d09089b677ea",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "1fcdf963d0a34d2daa0ea007d26d98bf",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Strategy Mosaic complements Ossie by making AI queries deterministic, not probabilistic.",
+                            "bold": true
+                          },
+                          {
+                            "text": " Mosaic's SQL engine generates queries from governed definitions, so the same question returns the same answer every time regardless of which model asks."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs78c9343ef169f6b8"
+          }
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "8f3c7fe4637a40e8a4197bdf0802d8c7",
+            "children": [
+              {
+                "type": "p",
+                "uid": "135074bf8c44478bab15609cbbb25a6e",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The Apache Software Foundation just accepted "
+                  },
+                  {
+                    "type": "a",
+                    "uid": "7902dab54b8c4b5db196e0ace8cc86db",
+                    "attrs": {
+                      "url": "https://ossie.apache.org/",
+                      "target": "_blank"
+                    },
+                    "children": [
+                      {
+                        "text": "Ossie"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ", the open specification for the semantic layer and business ontology, into its Incubator program. Until last week the project went by a different name: Open Semantic Interchange, or OSI. The spec itself hasn't changed, only the name and the governance home. Three days before the news broke, it was already being tested in Barcelona."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "d1652b4c6902460681d7ced7855c8b8a",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Seventy-two hours, one room, one goal: build the data architecture that agentic AI needs to work. That's what Schwarz Digits, alongside a team from Strategy Software and other technology partners, did at the SCRM Lidl International Hub in Barcelona. Erika Moreno, Strategy's VP of Product Management, was on-site for the full three days. She'd represented Strategy at an "
+                  },
+                  {
+                    "type": "a",
+                    "uid": "c5b2d14a29f246b99d7b65863c4bb9fb",
+                    "attrs": {
+                      "url": "https://software.strategy.com/blog/a-turning-point-for-enterprise-semantics-insights-from-the-osi-initiative",
+                      "target": "_blank"
+                    },
+                    "children": [
+                      {
+                        "text": "earlier OSI Initiative meeting"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " eight months before, when the standard was still just a shared idea among a room. Most enterprises have decades of business logic locked inside processes, data scattered across silos, and no machine-readable layer for AI to reason against. That's why enterprise AI hallucinates. Not because the models are bad, but because there's no single source of truth."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cse00bdf7d26a3337c"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "What the team tested in Barcelona",
+          "_metadata": {
+            "uid": "csbc49f03e2451c44f"
+          },
+          "section_id": "what-the-team-tested-in-barcelona"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "a5e4f07ad37045a6a88238072ab437a2",
+            "children": [
+              {
+                "type": "p",
+                "uid": "ef63c956bf1b44679c21065a55a5cd00",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The team's goal was to validate an open, vendor-neutral semantic layer built around the Ossie YAML standard, so that a metric like \"revenue\" means the same thing whether a dashboard, a BI tool, or an AI agent is reading it, alongside a parallel workstream on managing the handoff between whoever produces a dataset and whoever consumes it. Strategy, alongside other Ossie partners, worked alongside Schwarz engineers to put that against a warehouse loaded with TPC-DS benchmark data."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "3071c488cc92468eb747696a516c6bc3",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Live MCP-based access to a model got tested end to end, letting an AI agent query it directly, and that worked. Three days were enough to confirm the underlying approach holds up against a real, benchmark-scale system."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "csb4c5a8276e3fe7e3"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "Why OSI became Apache Ossie",
+          "_metadata": {
+            "uid": "csae44ad5057da4bd8"
+          },
+          "section_id": "why-osi-became-apache-ossie"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "810fde83006c44d290ec3210a66572c8",
+            "children": [
+              {
+                "type": "p",
+                "uid": "f42d4bd44cfe4e169af29916c9b10413",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The project's original abbreviation, OSI, became increasingly problematic as adoption grew because it was easily confused with the Open Source Initiative. During the move into the Apache Incubator, contributors agreed to adopt a new name, Ossie, that gave the project its own identity while leaving the specification itself unchanged."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs10e338b7163c6835"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "What moving to the Apache Software Foundation changes",
+          "_metadata": {
+            "uid": "csbf21b598235bf87d"
+          },
+          "section_id": "what-moving-to-the-apache-software-foundation-changes"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "17cfddca0592481a8fd292ca775820f5",
+            "children": [
+              {
+                "type": "p",
+                "uid": "62eba65b46674b56b2efe1415cdf8f52",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Placing a specification under the Apache Software Foundation (ASF) with incubation status means development moves into the open. There are discussions, proposals, and decisions happening through Apache's public community processes, tracked on "
+                  },
+                  {
+                    "type": "a",
+                    "uid": "47013b981f48498eb914b9962c337b94",
+                    "attrs": {
+                      "url": "https://github.com/apache/ossie",
+                      "target": "_blank"
+                    },
+                    "children": [
+                      {
+                        "text": "GitHub"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "7446f39827784bd6948e14882fce1825",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Committer status is earned through sustained contribution, not company affiliation, so influence comes from participation rather than ownership by a single vendor."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "95c32557b9a34217801e55b359cb6bc9",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The project has grown quickly under that model. More than 100 commits and 35 merged pull requests have landed since the repository opened, and the working group has grown from 17 organizations at launch to more than 50 today, according to dbt Labs' recap of the project. Strategy Software is one of them, alongside Snowflake, Salesforce, Databricks, RelationalAI, GoodData.AI, and Honeydew, organized into three working groups: metric language, catalog, and ontology. Converters connecting Ossie to the dbt Semantic Layer and to Apache Polaris are already merged."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "csb3107b6599172471"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "A short history of Ossie's new host",
+          "_metadata": {
+            "uid": "cs8a0e7f0edf4224aa"
+          },
+          "section_id": "a-short-history-of-ossie-s-new-host"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "a058d0b594524b4c9e89943eeb91a25a",
+            "children": [
+              {
+                "type": "p",
+                "uid": "7cb17df90d6549d1809e6c4cd2668297",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The ASF was incorporated in 1999, growing out of the Apache Group, a community of developers who collaborated on improvements to the NCSA HTTPd web server (the name is often jokingly expanded as \"a patchy server,\" a reference to the project's origins with a collection of patches). What makes that history relevant to a semantic layer standard is the governance model the foundation built along the way, commonly called \"the Apache Way.\" Influence is earned through contribution: code, documentation, community support, and sustained participation."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "5e973e24820d4ba5a49e6eab7173eb6c",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "That model has supported hundreds of Apache projects over more than 25 years, including foundational infrastructure like the Apache HTTP Server, Kafka, Spark, and Airflow. Incubation, the stage Ossie is in now, is the path every new Apache project follows, demonstrating that it can build a sustainable, open community before graduating to a Top-Level Project."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "csebc2c4916f9a29e6"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "How Strategy Mosaic fits into an open semantic layer",
+          "_metadata": {
+            "uid": "cs9ce335762488614c"
+          },
+          "section_id": "how-strategy-mosaic-fits-into-an-open-semantic-layer"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "0064fdc6082647768288d4474222a38d",
+            "children": [
+              {
+                "type": "p",
+                "uid": "5598e3ebc66543338027fa92defcc18c",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "a",
+                    "uid": "b7ccf6abba564958b3f033b056e7e902",
+                    "attrs": {
+                      "url": "https://software.strategy.com/strategymosaic",
+                      "target": "_blank"
+                    },
+                    "children": [
+                      {
+                        "text": "Strategy Mosaic's"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " premise lines up directly with what Apache Ossie is trying to standardize: business logic defined once and consumed the same way by every BI tool and every AI agent, without forcing a migration to get there. Mosaic connects to more than 200 data sources and keeps that logic where it lives across any cloud, warehouse, or LLM, so nothing has to move for AI to reason against it correctly."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "2bcf81fb87c741ecb6a891e226c5ca72",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Where Mosaic adds a specific, technical layer on top of an open spec like Ossie is in how the query gets built. Most AI-on-data approaches ask a large language model to translate a question directly into SQL, which is a probabilistic step: the same question can produce a different query depending on which model answers it, or even the same model on a different day. Mosaic keeps that step deterministic. The LLM handles the natural language; Mosaic's SQL engine generates the query from governed definitions, so the same question returns the same answer every time, regardless of which model is asking."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "9d52254fecaf4795939e73d421e6c3c5",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "That role complements what an open standard like Apache Ossie provides. The spec defines how semantic metadata moves between systems without loss of meaning; Mosaic is one of the systems that consumes and executes against that metadata."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "csf04d28279da0d674"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "What this means for enterprise data teams",
+          "_metadata": {
+            "uid": "cs18ea80f6b9660b5d"
+          },
+          "section_id": "what-this-means-for-enterprise-data-teams"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "4b301920b17e44c3ae20c2a77edac97f",
+            "children": [
+              {
+                "type": "p",
+                "uid": "09681191cf0e4e80b24b30da09330400",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The rename is the easy part. The more important shift is the growing recognition that AI needs a semantic layer that is open and portable, not one tied to a single BI tool or data platform. The Barcelona hackathon put that idea to a real test: validating that an Ossie-based semantic layer can move between vendors without losing its meaning, with a parallel look at how to govern the data changing hands behind it. That is the same principle behind Strategy Mosaic: define business logic once and make it available wherever AI needs to use it."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs212dad749049ecfe"
+          }
+        }
+      }
+    ],
+    "cta_section": [],
+    "related_posts": [],
+    "seo": {
+      "meta_title": "OSI Is Now Apache Ossie",
+      "meta_description": "OSI is now Apache Ossie. Learn how Strategy Mosaic delivers deterministic AI queries on governed metrics using the open semantic layer standard.",
+      "keywords": "Apache Ossie semantic layer, enterprise semantic layer for AI, governed metrics for AI agents, open semantic layer standard, deterministic AI analytics",
+      "social_thumbnail_override": null,
+      "enable_search_indexing": true
+    },
+    "page_properties": {
+      "navigation_title": "",
+      "hide_header_nav": false,
+      "hide_header_cta": false,
+      "hide_footer": false,
+      "disable_global_promo_banner": false,
+      "hide_auto_expert": false,
+      "sfid": "",
+      "marketo_id": "",
+      "cta_section": []
+    },
+    "resource_data": {
+      "date": "2026-07-16T00:00:00.000Z",
+      "type": "Blog",
+      "title": "OSI Is Now Apache Ossie",
+      "description": "OSI is now Apache Ossie. Learn how Strategy Mosaic delivers deterministic AI queries on governed metrics using the open semantic layer standard.",
+      "featured": false
+    },
+    "tags": [],
+    "publish_date": "2026-07-16T00:00:00.000Z",
+    "author": [
+      {
+        "uid": "blt39093ef8599fa669",
+        "_content_type_uid": "blog_author"
+      }
+    ],
+    "taxonomies": [
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "product_updates"
+      },
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "mosaic"
+      },
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "semantic_layer"
+      },
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "ai_trends"
+      },
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "analytics"
+      },
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "business_intelligence"
+      }
+    ],
+    "locale": "en",
+    "uid": "blt20acf6a3e96919ec",
+    "created_by": "blte12f8d786df2b4b9",
+    "updated_by": "blte12f8d786df2b4b9",
+    "created_at": "2026-07-15T13:41:34.295Z",
+    "updated_at": "2026-07-15T13:41:34.295Z",
+    "ACL": {},
+    "_version": 1,
+    "_in_progress": false
+  }
+}

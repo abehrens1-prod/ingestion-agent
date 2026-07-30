@@ -1,0 +1,510 @@
+{
+  "notice": "Entry created successfully.",
+  "entry": {
+    "title": "v1 -- AI and Gambling: Probabilities Aren't in Your Favor",
+    "url": "/blog/ai-and-gambling-probabilities-arent-in-your-favor",
+    "lead_paragraph": {
+      "type": "doc",
+      "attrs": {},
+      "uid": "0ab71a9013044b299afa04f3c50fc646",
+      "children": [
+        {
+          "text": ""
+        }
+      ],
+      "_version": 1
+    },
+    "content": [
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "6249d83893914018a1fb643e2d7a9389",
+            "children": [
+              {
+                "type": "h3",
+                "uid": "e90da9c98be84fc49139cb07fa977ca2",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Quick Answer",
+                    "attrs": {
+                      "style": {
+                        "color": "rgb(26, 78, 159)"
+                      }
+                    },
+                    "bold": true,
+                    "font-color": "#fa660f"
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "uid": "861853d3c32c44f8aa1019c4de2470d5",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "li",
+                    "uid": "c16d4b55177c4e9587cb6ab2593b9e68",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "cfc9e7321e0545d9983912962a1a003f",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "LLMs generate plausible SQL, but not always the correct business answer.",
+                            "bold": true
+                          },
+                          {
+                            "text": " Probabilistic systems predict likely queries, which can join wrong tables or misinterpret business terms like 'revenue.'"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "4139d5fb3cae4951b5d3609c685b2368",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "2ce88ef9c284401b9d3336159dbad3e8",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "A semantic layer captures how the business defines itself, not just data.",
+                            "bold": true
+                          },
+                          {
+                            "text": " It ensures every AI assistant, dashboard, and analyst interprets business metrics consistently and correctly every time."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "ac94f079f71742429860a43a068008b4",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "a5a33a7e8f3d474e94106db042319a09",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Deterministic SQL engines and AI models solve fundamentally different problems.",
+                            "bold": true
+                          },
+                          {
+                            "text": " AI excels at understanding language and intent; deterministic systems ensure governed, reproducible, trusted data retrieval."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "csa0d6739ed7771453"
+          }
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "1c0ef2e0e04746f6bcdfb1f1747cf7bc",
+            "children": [
+              {
+                "type": "p",
+                "uid": "1b1ea5e224cd47a891ab500d53858567",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "AI and Gambling: Probabilities Aren't in Your Favor",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "086748cce41f452b9e8e73b4560a0fed",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "By Saurabh Abhyankar",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "8bfedd70d7f2494e9fc58d72ba5cfe96",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Walk into any casino and you'll find games built on probabilities. Some odds are better than others, but in the long run the house always wins."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "a807fdb75fbb42a399c609d38dac8cae",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "I've been thinking about that a lot as I watch the explosion of AI in the enterprise."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "78afe15c00814633b3c03496465538fe",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "LLMs are, at their core, probabilistic systems. Every word they generate is based on the statistical likelihood that it should come next. It's why they can write compelling prose, summarize documents, explain complex ideas, and carry on conversations that feel remarkably natural."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "83812d11a0af4dbbb6b9b2360ebd7e95",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "But when the conversation turns from generating language to retrieving business data, that same probabilistic system can lead you astray."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "e6b004029f684f61a934fc545728e6fa",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Suppose I ask, "
+                  },
+                  {
+                    "text": "\"What were our gross margins in Europe last quarter?\"",
+                    "italic": true
+                  },
+                  {
+                    "text": " Suddenly I'm not looking for a plausible answer—I'm looking for "
+                  },
+                  {
+                    "text": "the",
+                    "italic": true
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "right",
+                    "italic": true
+                  },
+                  {
+                    "text": " answer."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "674173b68dbc4a1985442786843fd47a",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "LLMs are remarkable at understanding intent. In fact, translating natural language into something that resembles SQL has become surprisingly easy. Most modern models do it well enough that it's easy to conclude the problem has been solved."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "d470cc13874a4e2fbc1c6a8f98b62bca",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "But it hasn't. The hard part was never generating SQL syntax. The hard part has always been generating the "
+                  },
+                  {
+                    "text": "right",
+                    "italic": true
+                  },
+                  {
+                    "text": " SQL."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "139dc8927f914118aa155b6457a33dd1",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "When someone asks for \"revenue,\" what exactly do they mean? Gross revenue? Net revenue? Recognized revenue? Bookings? Revenue after returns? Different organizations use the same words to mean different things."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "fd86e28e4c3e44c4a0a2163a77466b5f",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "An LLM doesn't inherently know any of that. It sees tables, columns, relationships, and documentation if you're lucky enough to have it. From there it predicts the SQL that is "
+                  },
+                  {
+                    "text": "most likely",
+                    "italic": true
+                  },
+                  {
+                    "text": " to answer the question."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "57de5ac00feb4eb28a5730b72e7c4d6d",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Most of the time, the LLM generated SQL will fetch the wrong answer It may join the wrong table, aggregate at the wrong level, interpret a business term incorrectly, or omit a security filter that should always be applied."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "207b93329e604616a1da3b44d9ee54df",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "In a casino, you're expecting uncertainty. In an enterprise, you shouldn't have to gamble every time you ask for your quarterly revenue."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "db37ef461912458aa8123295caf3acd4",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Over the course of my career, I've worked on semantic technologies at SAP, Business Objects, and now Strategy. Across all those companies, spanning multiple generations of analytics, the underlying problem has remained consistent. Enterprises don't struggle because they can't write SQL. They struggle because they need every application, dashboard, analyst, and now every AI assistant to interpret the business the same way."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "9b5bcc29203e4fb5860890df040185ee",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "A semantic layer isn't just metadata describing tables and columns. It's a representation of how the business defines itself. Importantly, a good semantic layer must also generate the SQL deterministically, not probabilistically."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "9d02cc789da049f2b2dc581b86e4ffcf",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The request should be handed to a deterministic engine that understands the business semantics, applies the correct security policies, generates the appropriate SQL, and executes it the same way every single time."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "d0c6e95aaa9046cbb432f91bdffcb4c2",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "At Strategy, that's exactly what we've been building for more than three decades. Our SQL engine wasn't designed because SQL is difficult to write. It was designed because businesses need deterministic answers. The semantic layer captures the organization's business definitions, while the SQL engine deterministically translates those definitions into optimized queries. The result is an architecture that's been trusted by some of the most regulated and risk-averse organizations in the world."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "f55cbe2120614cd99aef36cae6fe03e6",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Let AI do what it's exceptional at: understanding language, interpreting intent, explaining results, surfacing insights, and making analytics accessible to everyone."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "1bf1910e23af45c9a81c6b8995c2633b",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Then let deterministic systems do what they've always done best: retrieve trusted, governed, reproducible business data."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "977eaff5a7c845b9a76fc702eee88416",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "For decades we've talked about systems of record for transactions and systems of record for data. I think the AI era introduces a new requirement: a system of record for meaning."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "768ba44652fb41e7bc1ea45d58a73014",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "That's what a semantic layer provides."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "eafcc69ac50045b0b0478cd79dc7356d",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The future of enterprise AI isn't choosing between probabilistic models and deterministic systems. It's recognizing that they solve fundamentally different problems. One is best for reasoning. The other is best for calculating."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "79065a64510f4a9e90d27d32146fb821",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "And when the question is about your company's numbers, probabilities simply aren't in your favor."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs5b19fef743e9e3c4"
+          }
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "b15896fcce2140fd95db996047d797d2",
+            "children": [
+              {
+                "type": "p",
+                "uid": "1aa091f0d71643b8b42633444dd18eeb",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "[IMAGE PLACEHOLDER]",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "1658854258594bc0bbfc71346b2d369d",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Upload asset to Contentstack and replace this placeholder — source: image_0.png"
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "csc2d2b4ae9a5ef233"
+          }
+        }
+      }
+    ],
+    "cta_section": [],
+    "related_posts": [],
+    "seo": {
+      "meta_title": "AI and Gambling: Probabilities Aren't in Your Favor",
+      "meta_description": "LLMs guess. Semantic layers govern. Learn why deterministic SQL and trusted metrics beat probabilistic AI for enterprise data decisions.",
+      "keywords": "semantic layer for enterprise AI, AI analytics governance, deterministic SQL vs LLM, trusted business metrics, governed data for AI",
+      "social_thumbnail_override": null,
+      "enable_search_indexing": true
+    },
+    "page_properties": {
+      "navigation_title": "",
+      "hide_header_nav": false,
+      "hide_header_cta": false,
+      "hide_footer": false,
+      "disable_global_promo_banner": false,
+      "hide_auto_expert": false,
+      "sfid": "",
+      "marketo_id": "",
+      "cta_section": []
+    },
+    "resource_data": {
+      "date": "2026-07-21T00:00:00.000Z",
+      "type": "Blog",
+      "title": "AI and Gambling: Probabilities Aren't in Your Favor",
+      "description": "LLMs guess. Semantic layers govern. Learn why deterministic SQL and trusted metrics beat probabilistic AI for enterprise data decisions.",
+      "featured": false
+    },
+    "tags": [],
+    "publish_date": "2026-07-21T00:00:00.000Z",
+    "author": [
+      {
+        "uid": "blt42d46a161aa2850a",
+        "_content_type_uid": "blog_author"
+      }
+    ],
+    "taxonomies": [
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "product_updates"
+      },
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "mosaic"
+      },
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "semantic_layer"
+      },
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "ai_trends"
+      },
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "analytics"
+      },
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "business_intelligence"
+      }
+    ],
+    "locale": "en",
+    "uid": "blt7b9cf1a1ceedd0cf",
+    "created_by": "blte12f8d786df2b4b9",
+    "updated_by": "blte12f8d786df2b4b9",
+    "created_at": "2026-07-20T18:23:28.091Z",
+    "updated_at": "2026-07-20T18:23:28.091Z",
+    "ACL": {},
+    "_version": 1,
+    "_in_progress": false
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "normalized_blog.schema.json",
+  "title": "Normalized Blog",
+  "type": "object",
+  "required": ["title", "body"],
+  "properties": {
+    "title": { "type": "string", "minLength": 1 },
+    "subtitle": { "type": "string" },
+    "slug": { "type": "string" },
+    "url": { "type": "string" },
+    "author": { "type": "string" },
+    "authorBio": { "type": "string" },
+    "publishDate": { "type": "string" },
+    "seo": {
+      "type": "object",
+      "properties": {
+        "metaTitle": { "type": "string" },
+        "metaDescription": { "type": "string" },
+        "targetKeywords": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
+    "quickAnswer": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "heroMedia": {
+      "type": ["object", "null"],
+      "properties": {
+        "type": { "type": "string", "enum": ["image", "video", "null"] },
+        "assetUid": { "type": "string" },
+        "sourcePath": { "type": "string" },
+        "url": { "type": "string" },
+        "altText": { "type": "string" }
+      }
+    },
+    "body": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["type"],
+        "properties": {
+          "type": {
+            "type": "string",
+            "enum": ["section"]
+          },
+          "heading": { "type": "string" },
+          "subheading": { "type": "string" },
+          "level": { "type": "integer", "minimum": 1, "maximum": 6 },
+          "blocks": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["type"],
+              "properties": {
+                "type": {
+                  "type": "string",
+                  "enum": ["paragraph", "list", "table", "image", "video", "callout", "heading"]
+                },
+                "text": { "type": "string" },
+                "runs": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "text": { "type": "string" },
+                      "bold": { "type": "boolean" },
+                      "italic": { "type": "boolean" },
+                      "url": { "type": ["string", "null"] }
+                    }
+                  }
+                },
+                "style": { "type": "string", "enum": ["bullet", "numbered"] },
+                "items": {
+                  "type": "array",
+                  "items": { "type": "string" }
+                },
+                "rows": {
+                  "type": "array",
+                  "items": {
+                    "type": "array",
+                    "items": { "type": "string" }
+                  }
+                },
+                "headers": {
+                  "type": "array",
+                  "items": { "type": "string" }
+                },
+                "sourcePath": { "type": "string" },
+                "assetUid": { "type": "string" },
+                "altText": { "type": "string" },
+                "url": { "type": "string" },
+                "embedType": { "type": "string" },
+                "label": { "type": "string" },
+                "level": { "type": "integer" }
+              }
+            }
+          }
+        }
+      }
+    },
+    "faq": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["question", "answer"],
+        "properties": {
+          "question": { "type": "string", "minLength": 1 },
+          "answer": { "type": "string", "minLength": 1 },
+          "accordionEnabled": { "type": "boolean" }
+        }
+      }
+    },
+    "cta": {
+      "type": ["object", "null"],
+      "properties": {
+        "headline": { "type": "string" },
+        "body": { "type": "string" },
+        "buttonText": { "type": "string" },
+        "buttonUrl": { "type": "string" }
+      }
+    },
+    "internalLinks": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "externalLinks": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "validationWarnings": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  }
+}

@@ -1,0 +1,827 @@
+{
+  "entry": {
+    "title": "v1 - How TD Bank Is Building Trusted Enterprise AI with Strategy Mosaic's Universal Semantic Layer",
+    "url": "/blog/how-td-bank-is-building-trusted-enterprise-ai-with-strategy-mosaics-universal-semantic-layer",
+    "lead_paragraph": {
+      "type": "doc",
+      "attrs": {},
+      "uid": "4cdffd0b738243fab1d8e85c698c2da9",
+      "children": [
+        {
+          "text": ""
+        }
+      ],
+      "_version": 1
+    },
+    "content": [
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "d8eab7f6f36e48809ed05702263826db",
+            "children": [
+              {
+                "type": "h3",
+                "uid": "fe6184a277d945079cbad02c1181435b",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Quick Answer",
+                    "attrs": {
+                      "style": {
+                        "color": "rgb(26, 78, 159)"
+                      }
+                    },
+                    "bold": true,
+                    "font-color": "#fa660f"
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "uid": "c89c99c13c0e4dc88f0701e4ff18c83b",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "li",
+                    "uid": "05c51c4f6928493e8b007d3bf76ac5c2",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "4544ab221c484ee488d15b16c0dc6e79",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "TD Bank, one of North America's six largest banks, chose Strategy Mosaic.",
+                            "bold": true
+                          },
+                          {
+                            "text": " TD Bank's capital markets division deployed Strategy Mosaic's Universal Semantic Layer on Google Cloud to create a trusted, regulatory-grade AI foundation."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "csb36bab670d3a6cc5"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "Why TD Bank Is Building an AI-Ready Foundation",
+          "_metadata": {
+            "uid": "cs7dcf01e361731282"
+          },
+          "section_id": "why-td-bank-is-building-an-ai-ready-foundation"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "5a2d8632b400406e9d6af90494dbc935",
+            "children": [
+              {
+                "type": "p",
+                "uid": "11ca78a4d1a6407fbb5dd76e545e1195",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "TD Securities, the capital markets arm of TD Bank Group, is the sixth-largest bank in North America by assets."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "b75e0f8ac0a94cecbdb9a5fca5bbceb5",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "It operates across quantitative groups, trading desks, and electronic trading businesses, where "
+                  },
+                  {
+                    "text": "specialists own their own data, models, and understanding of how the business operates.",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "edfa15504e3c4bd890b1e11e1218f98c",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "That distributed expertise is a competitive advantage, enabling teams to develop deep domain knowledge and specialized perspectives. But without a shared semantic foundation, it can also cause enterprise AI to produce inconsistent answers at scale."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "95e078a998f645349bb2fc0f6d6c94c2",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "That's the challenge TD Bank is addressing by building a shared semantic foundation with "
+                  },
+                  {
+                    "type": "a",
+                    "uid": "4f945f2ede1e4412a657962c846caff9",
+                    "attrs": {
+                      "url": "https://software.strategy.com/strategymosaic",
+                      "target": "_blank"
+                    },
+                    "children": [
+                      {
+                        "text": "Strategy Mosaic"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ", ensuring every AI application starts from the same trusted business context."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "333e016af33242d8bd91a8301abdaa00",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Approaching Data Differently with a Universal Semantic Layer"
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "275e1313fcf745128470ea034753a1c7",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "As TD Bank accelerates its enterprise AI roadmap, its leadership is focused on scaling a governed data foundation across every team, tool, and AI workflow."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "9dd07b3aa06c482dae46a4c50d1a3e1d",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "That's precisely why TD Securities is building an AI architecture designed to address data fragmentation before it compounds into larger governance and consistency challenges."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "366457a4aa2249d6a76caca50721d38f",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The approach is to deploy Strategy Mosaic's "
+                  },
+                  {
+                    "type": "a",
+                    "uid": "9eb5e3eaeb2840d6a607c61e12490558",
+                    "attrs": {
+                      "url": "https://software.strategy.com/blog/what-is-a-universal-semantic-layer",
+                      "target": "_blank"
+                    },
+                    "children": [
+                      {
+                        "text": "Universal Semantic Layer"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " natively on Google Cloud as the governed foundation every tool, dashboard, and AI agent draws from, establishing shared business context before agentic workflows arrive, not after."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "1f57e340fc3242df92aed6139bd689ef",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "How does Strategy Mosaic's approach to data differ from traditional architectures?",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "64bb874f8693442b818f9d1d1dc7e084",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Instead of forcing organizations to copy data into a central repository or hardcode business logic inside specific BI tools, Strategy Mosaic centralizes its business meaning into an independent, Universal Semantic Layer. This decoupled approach allows any AI agent or analytics tool to query a single, standardized business context without vendor lock-in, costly data movement, or duplicated business logic."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "6d4db707ea2f437d8fd0531fef48fbff",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "As "
+                  },
+                  {
+                    "text": "Dan Bosman, SVP & Chief Information Officer at TD Securities",
+                    "italic": true
+                  },
+                  {
+                    "text": " says"
+                  }
+                ]
+              },
+              {
+                "type": "blockquote",
+                "uid": "7213685dfc6e4cb6bb580a20ba9a4d84",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "p",
+                    "uid": "d0d521ab6f7148d2ba7095406a74dfa0",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "text": "\"What's been really exciting is the bold vision around the Universal Semantic Layer. These two partners, Strategy Software and Google Cloud, are key to our success. The platforms complement each other really well.\"",
+                        "attrs": {
+                          "style": {
+                            "color": "rgb(0, 61, 91)"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs195f30e3d774e86a"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "The Architecture Bet: Enterprise-Wide Over Platform-Native",
+          "_metadata": {
+            "uid": "csa5dcd07a6539c903"
+          },
+          "section_id": "the-architecture-bet-enterprise-wide-over-platform-native"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "00ee42601d194437b92865d0dfd7469c",
+            "children": [
+              {
+                "type": "p",
+                "uid": "cf8738d61c6a4602b63b5b6b10ba22d7",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "To bring that governed foundation to life, TD Securities is deploying Strategy Mosaic as an "
+                  },
+                  {
+                    "text": "independent semantic layer",
+                    "bold": true
+                  },
+                  {
+                    "text": " that sits above the underlying data sources and below every consuming tool."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "90dffdc3d3dc443899c85284fe620467",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Instead of being tied to a single vendor's compute engine, the semantic layer is owned and governed entirely by the enterprise. That distinction is especially important in capital markets, where regulated institutions can't afford to:"
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "uid": "995b97f9fcbc43a3b042140ce367bec2",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "li",
+                    "uid": "9ce95fcd65824e6d89b19c44c1e8c16a",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "aabe71e51edb48ea8d7a2d612a1b7534",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Have critical business definitions locked inside a single platform"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "d9118c6eb1fc4fdb95aba92f8b43edb6",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "e0f573692fdd4ab7adcb506a185c9858",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Expose conflicting metric definitions to regulatory scrutiny"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "192463c64ed94625b1a686ef95d0da5b",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "722407dfe6544f83aab540b7202f6e24",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Depend on a single vendor's availability, pricing, or product roadmap"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "f3bbbb7bded14b518534673e92c03a1e",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "An independent semantic layer addresses these risks by"
+                  },
+                  {
+                    "text": " decoupling core business logic from vendor-specific limitations",
+                    "bold": true
+                  },
+                  {
+                    "text": " and"
+                  },
+                  {
+                    "text": " establishing a single, governed source of truth",
+                    "bold": true
+                  },
+                  {
+                    "text": " across the enterprise."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "3477a6dc876d4ac0bb1fc03c9156e888",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "As a result, whether someone queries data through a spreadsheet, a BI dashboard, or a custom AI application, they receive the same governed business answer."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "5a0d1193f68d4164a371d4d9c6cb4d08",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "For TD Bank, that means critical business definitions such as VWAP "
+                  },
+                  {
+                    "text": "(volume-weighted average price)",
+                    "italic": true
+                  },
+                  {
+                    "text": " are governed once within Strategy Mosaic and made consistently available to every tool and AI agent across the enterprise."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "7de52ee714e644638f4882ce29ae91b2",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "How does Strategy Mosaic enable consistent AI answers?",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "7d5b1833a3564f98967fa2afdf9f2e88",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Strategy Mosaic enables consistent AI answers by decoupling business logic from underlying data sources and front-end tools. Instead of requiring costly infrastructure overhauls, it provides an independent Universal Semantic Layer that centralizes business context and governance. This governed foundation supplies AI models with structured, trusted data, reducing hallucinations and delivering consistent answers across teams and connected analytics tools."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "2d6bf7d6d20342009c0b025615a5ef87",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Dan Bosman described the moment the architectural vision clicked. During his first Strategy World event, he saw an early demonstration of Mosaic:"
+                  }
+                ]
+              },
+              {
+                "type": "blockquote",
+                "uid": "ab212fab2bad44029c2d322267f9b78a",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "p",
+                    "uid": "efa48524412c48f1b286451ad06a3041",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "text": "\"The light bulb went off in my head. I saw the value of this semantic layer, and I saw a need for a pivot; to do something different than the next data platform, the next data warehouse being the winner.\"",
+                        "attrs": {
+                          "style": {
+                            "color": "rgb(0, 61, 91)"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "csf32252bc94bebc57"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "What This Foundation Enables for TD Bank",
+          "_metadata": {
+            "uid": "cs6202e145a2014272"
+          },
+          "section_id": "what-this-foundation-enables-for-td-bank"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "17e165da3007415d9b897d07cc0b0611",
+            "children": [
+              {
+                "type": "p",
+                "uid": "37622f879bee45db80f815c7e320f45e",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "By establishing a governed semantic foundation, Strategy Mosaic is designed to help TD Bank scale agentic AI within a consistent, trusted environment without sacrificing the autonomy individual teams need to innovate."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "5a09394d724f45f4a84b8596190812ba",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Because AI models consume data shaped by consistent business logic through Strategy Mosaic, they can surface insights faster while producing more reliable outputs across complex capital markets workflows. At the same time, individual business units can continue developing specialized analytics and strategies while operating from the same "
+                  },
+                  {
+                    "type": "a",
+                    "uid": "7acdb9a446e14ea38821a93c7744523d",
+                    "attrs": {
+                      "url": "https://software.strategy.com/strategyai/governance-and-trust",
+                      "target": "_blank"
+                    },
+                    "children": [
+                      {
+                        "text": "governed semantic context"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "f7eebe7b164040e097d758a739066395",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "As a result, TD Bank is positioned to scale AI initiatives across strategic growth areas such as:"
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "uid": "7fdb613b23e845d2a28235f28db13931",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "li",
+                    "uid": "2841ea908262420ab013f19306c8168f",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "3e18d7e503c14c34a77e63c3e4ae012b",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Transaction banking"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "c5268c7131624ae1a2a16821312fe5a6",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "0fa7022c35994398b082980de12ff9cc",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Electronic trading"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "91bf672d0055479b9c9b6f66e02a6b02",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "c95ed632c4e042a4b53d5268740a61b8",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Client-facing analytics"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "6f034c39f4614e3b97d6aa5f9b1b6cbe",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "For TD leadership, the objective extends beyond technology. As Dan Bosman explains, AI should strengthen human expertise rather than replace it:"
+                  }
+                ]
+              },
+              {
+                "type": "blockquote",
+                "uid": "8c9968ea83da476e91300bfe79537ba5",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "p",
+                    "uid": "32a8f259d1c24c80975950f11265488b",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "text": "\"We are a digital-first organization, but we are proudly remarkably human. If we can use AI to take the toil away and refocus our efforts on what is important — our clients, and these human connections",
+                        "attrs": {
+                          "style": {
+                            "color": "rgb(0, 61, 91)"
+                          }
+                        }
+                      },
+                      {
+                        "text": " — that is what freedom means.\"",
+                        "bold": true,
+                        "attrs": {
+                          "style": {
+                            "color": "rgb(26, 78, 159)"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs7781557f53006118"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "The Future: Scaling a Trusted Foundation for Enterprise AI",
+          "_metadata": {
+            "uid": "cs38e7e5b422951296"
+          },
+          "section_id": "the-future-scaling-a-trusted-foundation-for-enterprise-ai"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "908745285f34461383222ea2193d0ed7",
+            "children": [
+              {
+                "type": "p",
+                "uid": "a1c3f487f48b43bd8e8d29683aadcdf9",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "By combining trusted business definitions with governed data access, TD Bank is building the architecture needed to scale enterprise AI while maintaining the consistency, transparency, and trust that a highly regulated environment demands."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "54f2c05b3bd14e4db0aa657e6608fde1",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "With Strategy Mosaic serving as its Universal Semantic Layer, the bank is laying the foundation for AI that can scale without compromising governance or business context."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "a95be9bf9aa249c89aedff80a447811f",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "For enterprises pursuing the same goal, the challenge isn't simply scaling AI. It's ensuring every model, application, and team operates from the same trusted understanding of business context. That's the architectural approach TD Bank is taking today."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs85234c393d1cbd81"
+          }
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "aa76e55291444a4eaab6b5540264da14",
+            "children": [
+              {
+                "type": "p",
+                "uid": "8cdd5553a7044ea58844f48eb0a90529",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "[ PROMO PLACEHOLDER — Replace with Promo block in Contentstack editor ]"
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "f9ce2196081645b7b27e82a02c01ddb3",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "CTA: \"See How Strategy Mosaic Can Help You Scale AI\""
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "5d48148fb2a44fff96f56350f56babfa",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Button: Book a Demo →"
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs8a4e5884c8c807b6"
+          }
+        }
+      }
+    ],
+    "cta_section": [],
+    "related_posts": [],
+    "seo": {
+      "meta_title": "TD Bank Builds Enterprise AI with Strategy Mosaic Semantic Layer",
+      "meta_description": "See how TD Bank built a regulatory-grade AI foundation using Strategy Mosaic's Universal Semantic Layer on Google Cloud for trusted enterprise analytics.",
+      "keywords": "universal semantic layer, enterprise AI analytics, trusted data foundation, governed metrics, capital markets analytics",
+      "social_thumbnail_override": null,
+      "enable_search_indexing": true
+    },
+    "page_properties": {
+      "navigation_title": "",
+      "header_color": null,
+      "hide_header_nav": false,
+      "hide_header_cta": false,
+      "hide_footer": false,
+      "disable_global_promo_banner": false,
+      "hide_auto_expert": false,
+      "sfid": "",
+      "marketo_id": "",
+      "cta_section": []
+    },
+    "resource_data": {
+      "date": "2026-07-03T00:00:00.000Z",
+      "type": "Blog",
+      "title": "How TD Bank Is Building Trusted Enterprise AI with Strategy Mosaic's Universal Semantic Layer",
+      "description": "See how TD Bank built a regulatory-grade AI foundation using Strategy Mosaic's Universal Semantic Layer on Google Cloud for trusted enterprise analytics.",
+      "featured": false
+    },
+    "tags": [],
+    "publish_date": "2026-07-03T00:00:00.000Z",
+    "taxonomies": [
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "product_updates"
+      },
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "mosaic"
+      },
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "semantic_layer"
+      },
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "ai_trends"
+      },
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "analytics"
+      },
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "business_intelligence"
+      }
+    ]
+  },
+  "_mapping_warnings": [
+    "The Short Answer table at the top was treated as the quickAnswer source (quickAnswerFromDoc: true), mapped as a single headline/body pair since it was a prose paragraph rather than a bulleted list.",
+    "The bullet list items for 'Transaction banking', 'Electronic trading', 'Client-facing analytics' had fragmented bold markers ([B]T[/B][B]ransaction banking[/B]) likely due to formatting artifacts — merged into plain bold text for each item.",
+    "The paragraph 'Approaching Data Differently with a Universal Semantic Layer' appears to be an informal subheading rendered as a plain paragraph (no H3 marker) — left as a paragraph block. Human review recommended.",
+    "The CTA table at the end had no explicit button URL — left as empty string. Human review needed to supply the demo booking URL.",
+    "The externalLinks list includes the Strategy Mosaic blog URL which may be an internal path depending on the site domain. Human review recommended.",
+    "The blockquote from Dan Bosman (first quote) was not wrapped in [BLOCKQUOTE] markup but appeared as a [BLOCKQUOTE] in the document — mapped as blockquote correctly.",
+    "The second and third Dan Bosman quotes were wrapped in [BLOCKQUOTE] with [I] italic markers — italic formatting noted but not separately flagged in the blockquote text field as the schema does not support inline formatting within blockquotes.",
+    "Author 'Tanmay' has no UID in config.yaml authors lookup. Add their Contentstack UID to config.yaml → contentstack.authors to generate a valid reference.",
+    "CTA 1 ('See How Strategy Mosaic Can Help You Scale AI') — placeholder text block inserted before FAQ. Create a Promo entry in CS using the extracted headline and button text, then replace the placeholder with the Promo block and move it to the correct position."
+  ]
+}

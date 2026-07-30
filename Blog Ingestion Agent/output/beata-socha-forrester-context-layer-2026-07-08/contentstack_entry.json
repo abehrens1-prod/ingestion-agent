@@ -1,0 +1,2087 @@
+{
+  "entry": {
+    "title": "Ontology, Semantics, and Knowledge Graphs: The Context Layer Enterprise AI Is Missing",
+    "url": "/blog/ontology-semantics-knowledge-graphs-context-layer-enterprise-ai",
+    "lead_paragraph": {
+      "type": "doc",
+      "attrs": {},
+      "uid": "13dddfefe88643fa81230ef8adb6a406",
+      "children": [
+        {
+          "text": ""
+        }
+      ],
+      "_version": 1
+    },
+    "content": [
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "604d1cb171be4451bd9d29ccb62b4c8d",
+            "children": [
+              {
+                "type": "h3",
+                "uid": "b932928358014d2fbc8bb2c63d01f921",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Quick Answer",
+                    "attrs": {
+                      "style": {
+                        "color": "rgb(26, 78, 159)"
+                      }
+                    },
+                    "bold": true,
+                    "font-color": "#fa660f"
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "uid": "8611881aaeea409a939b969ae20d65fe",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "li",
+                    "uid": "51b4d71481674a5cb6beed1f38a01a34",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "1d2a8b280c944ca1b9792f76a3039751",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Ontology defines what exists in a business domain: the entities, their attributes, and the rules governing relationships between them."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "3292641daea14116ab0026a07750a4b5",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "bf16f095908c4a4ab8ceecd4ea498104",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Semantics adds business meaning, specifying what a term means in a particular context, how a metric is calculated, and how a user's role affects interpretation."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "bf057a3f729b48768ec64068ef915320",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "e412674bad964e0da546f565cad5f797",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "A knowledge graph connects those defined, enriched concepts into a navigable network that systems can traverse to answer complex, multi-entity business questions."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "3cb2fcf6029f426e9526b6e9d926d8b5",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "dfe2c3ad23644627aa4f503e76856fa0",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Forrester Research says that together, these three layers transform raw enterprise data into context-rich, machine-readable knowledge: the foundation AI needs to reason accurately over business questions."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs9b09fccd58c0835f"
+          }
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "a800da0606934b4784825afb1530f6ba",
+            "children": [
+              {
+                "type": "p",
+                "uid": "20d3133b243d4366adcf934abbf69b57",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Ontology, semantics, and knowledge graphs must work together as a semantic foundation if AI is to understand — not just process — enterprise data. The June 2026 Forrester report, Combine Semantics, Ontology, And Knowledge Graphs For AI-Ready Data, warns that even the most advanced AI will confidently give the wrong answer unless organizations first transform their data into context-rich, machine-readable knowledge that encodes definitions, relationships, and business rules."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "6dc35e44cb734aa6bb1c86d1c3091612",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Ask an AI assistant a seemingly simple question:"
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "a75a7864ad644d8eae8bfe2e95943261",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Who are our top five customers?",
+                    "italic": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "d3dfa4872e78432bad2b2e3d84d702b7",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The answer may arrive in seconds, complete with names, figures, and a polished explanation. But without a structured, machine-readable representation of what enterprise data means — built from ontology, semantics, and knowledge graphs — the answer may be confidently wrong."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "cd5830c74a6d4bb29624a5c29e7bb11f",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Did the AI rank customers by revenue, profit, contract value, transaction volume, loyalty, or growth potential? Did it include subsidiaries? Did it use the current fiscal year or the trailing 12 months? Would the answer change for a chief financial officer, a sales director, or a marketing leader?"
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "f4f0fcab9b5640568a74730d66e7e271",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The same problem appears with individual terms. A question about the \"Jaguar account\" may refer to an automotive company, a brand, a product line, or even the animal. Humans often resolve these ambiguities without noticing, drawing on knowledge of the organization, the conversation, the user, and the business situation."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "d81e2b474e544a18adbff6a6561d557b",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "AI does not automatically possess that context."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs912593a88271492a"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "Refined Prompting Doesn't Solve the Problem",
+          "_metadata": {
+            "uid": "cse6354357305df5e2"
+          },
+          "section_id": "refined-prompting-doesn-t-solve-the-problem"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "f5a7b94c43f843ab99c1904ef2da942b",
+            "children": [
+              {
+                "type": "p",
+                "uid": "374de765acfc4a50be2b9b924c6aae57",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Better prompts may reduce some uncertainty, but the deeper challenge sits within the enterprise data architecture. For AI to interpret business questions consistently, it needs access to definitions, meanings, relationships, and rules in a form that machines can understand."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "3dc6af0a0cfd44529d3d9bfa9c6097e7",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "That is where ontology, semantics, and knowledge graphs come in."
+                  }
+                ]
+              },
+              {
+                "type": "blockquote",
+                "uid": "730830e790c345f9a4f432c63b71819f",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "p",
+                    "uid": "46d56c09287941c588c9d57d2ecb9f67",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "text": "\"AI fails without context-rich data.\"",
+                        "attrs": {
+                          "style": {
+                            "color": "rgb(0, 61, 91)"
+                          }
+                        }
+                      },
+                      {
+                        "text": " — Forrester Research, Combine Semantics, Ontology, And Knowledge Graphs For AI-Ready Data, June 2026",
+                        "bold": true,
+                        "attrs": {
+                          "style": {
+                            "color": "rgb(26, 78, 159)"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "csbec0837a9a673876"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "Ontology: What Exists in the Business?",
+          "_metadata": {
+            "uid": "cs7b33acb644cdf785"
+          },
+          "section_id": "ontology-what-exists-in-the-business"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "7c82ba4c662147f4a7dbc6c57666843b",
+            "children": [
+              {
+                "type": "p",
+                "uid": "30ddb15b907741f5b11c173894c118b0",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "An ontology is a structured description of a business domain. It identifies the concepts that matter, defines their attributes, and establishes the rules governing how those concepts relate to one another."
+                  }
+                ]
+              },
+              {
+                "type": "blockquote",
+                "uid": "1a3ec0861deb4657b01fd185988b78f2",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "p",
+                    "uid": "5c049bff63244365b8d30d7d8cd0fb7a",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "text": "\"Ontology defines the fabric of your business domain — the entities (people, events, processes) that matter, their attributes, and the rules governing relationships.\"",
+                        "attrs": {
+                          "style": {
+                            "color": "rgb(0, 61, 91)"
+                          }
+                        }
+                      },
+                      {
+                        "text": " — Forrester Research, Combine Semantics, Ontology, And Knowledge Graphs For AI-Ready Data, June 2026",
+                        "bold": true,
+                        "attrs": {
+                          "style": {
+                            "color": "rgb(26, 78, 159)"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "0bcc19bba77f4d8ea7d252bfe95f5397",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "In plain language, "
+                  },
+                  {
+                    "text": "an ontology provides the conceptual map of an organization",
+                    "bold": true
+                  },
+                  {
+                    "text": ". It tells systems what exists in the business, how different entities are classified, and which relationships are possible."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "3e1f4ac17bed45528fdd5c0bf848b519",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The specific concepts vary greatly by industry because a bank, hospital, and manufacturer operate in very different domains."
+                  }
+                ]
+              },
+              {
+                "type": "table",
+                "uid": "cbc95155a0f94d0db0012e71ab740209",
+                "attrs": {
+                  "rows": 4,
+                  "cols": 3,
+                  "colWidths": [
+                    40,
+                    106,
+                    54
+                  ]
+                },
+                "children": [
+                  {
+                    "type": "tr",
+                    "uid": "82dd4c4fca944a979d908ec6b8c8365d",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "th",
+                        "uid": "6f452790161a4e6bb373081cacb492ca",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "9b298289e6b44380b3bc1dea969a1d25",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Industry",
+                                "bold": true
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "th",
+                        "uid": "2140d32666d847fd89988dfab93f1197",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "28127aba600f4d57a2a1d9dbb8edd500",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Classes and structure",
+                                "bold": true
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "th",
+                        "uid": "e2dca6d3e23f424b826afebbe338f161",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "9162f21195344f11941f60319755b0ab",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Relationships and rules",
+                                "bold": true
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "tr",
+                    "uid": "76bbb986439847b1ade058d62aa5b1f8",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "td",
+                        "uid": "df7aaa2ed8a04243b45a10a1ce746907",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "25290adaf9a14b9da1bdbaea668ed5af",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Financial services"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "2a5e304f9be4428e8fb1b4aef76c6fee",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "74f18effeac44fdeaf2fef95890bf531",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Customer: name, ID, credit score. Product subtypes: accounts, loans, credit cards."
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "aadabab2632046e1b88e62c96e3a8440",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "04a895d685114511ba3b616ee46579dc",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Customers own products. Customers carry loans."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "tr",
+                    "uid": "c454934052664ee69270c244342cecc5",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "td",
+                        "uid": "9e3412bf610d429fa6f18599e118ac8c",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "c574dea1ff07441c860cc2fe06ae9ef9",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Healthcare"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "61a08a2204dc4b1e9a052f93d098bf88",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "f8e645e884a94e5b8c6f6eb5a4a22f6a",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Patient: name, ID, birthdate. Medical service subtypes: diagnoses, treatments, prescriptions."
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "75b69d1d01764bc083f96a960a9c891a",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "b5a547c8bc114558b409c6b1e80a5112",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Patients receive diagnoses and undergo treatments."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "tr",
+                    "uid": "f674d8b05adf4b859ac98930812e303d",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "td",
+                        "uid": "bc0113e115414fa8bc6106b0b2b66940",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "3828eca8371d4a7eb87140c70a07713f",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Manufacturing"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "7fb42812302b44ad8e61ebf7625d5a74",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "9e97ec23715b4983a9174474446a6818",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Product: ID, name. Machine: ID, type. Process: production steps."
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "205fd36cf2af4b21bb8befa692350dd3",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "a1718f8a8d7346a893999faa734024bf",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Machines produce products. Products require defined processes."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "bcee4dde778149baa3ec9880fc1ee859",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "These definitions create shared understanding across systems and teams."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "6681edeb66814493ad50f8fe3dc65990",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "In financial services, one department may describe an organization as a customer, another as a borrower, and another as a counterparty. Each term may be valid within its own process. The ontology establishes how those concepts differ and when they refer to the same real-world entity."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "a3399f4af0654d9cbca427a14146c362",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "In healthcare, it can distinguish patients from research participants and connect medical services to diagnoses and treatments. In manufacturing, it defines how products, components, machines, and production processes fit together."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "e831c48d7e1f4d70b2e1f1ed78c6de15",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Think of ontology as the rulebook. It defines the pieces on the board and the basic rules governing how they can interact."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs6dd4eb003ad44000"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "Semantics: What Does it Mean Here?",
+          "_metadata": {
+            "uid": "cs3a0f2f67bbc5b3aa"
+          },
+          "section_id": "semantics-what-does-it-mean-here"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "568990e06c924a00827159781af5aee9",
+            "children": [
+              {
+                "type": "p",
+                "uid": "3d8bb49208dc4c14a38e1adaa60caa3e",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "An ontology may define a customer, but that alone does not resolve every question involving customers."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "b91e629d1dec48c483914ae86769086c",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Semantics adds the business meaning needed to interpret concepts in a particular situation. It clarifies terminology, resolves ambiguity, and connects familiar business language to governed data definitions."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "02937ca59780427580b43800e24faee0",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The word \"customer,\" for example, might refer to an account holder, borrower, cardholder, buyer, subscriber, or corporate parent. The intended meaning depends on the organization, business process, user, and question."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "2f072173313c414cbee87a825f3c7d39",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "\"Top five customers\" introduces another layer of ambiguity: top according to which measure?"
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "254f60b59c2242fbbf9f4647e2ec6ff7",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The answer can change not only between industries, but also between roles within the same organization."
+                  }
+                ]
+              },
+              {
+                "type": "table",
+                "uid": "f70abb9be65b47afa53698861df3695e",
+                "attrs": {
+                  "rows": 4,
+                  "cols": 4,
+                  "colWidths": [
+                    40,
+                    55,
+                    55,
+                    50
+                  ]
+                },
+                "children": [
+                  {
+                    "type": "tr",
+                    "uid": "7b082f79c5bf467296d2f9ca915e1455",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "th",
+                        "uid": "05148c6675f640e39785bc6878b0310e",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "38be8394817647fda4a2d21396aa1f5d",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Industry",
+                                "bold": true
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "th",
+                        "uid": "a02cf3d00549451aa2d2414134126d30",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "4bdefefc53c141dbb1800437851aaef7",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Disambiguation",
+                                "bold": true
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "th",
+                        "uid": "4dab2c76e14a476da862cbee848118a6",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "3030ce3816294ede87ca766c1deb451b",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Meaning",
+                                "bold": true
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "th",
+                        "uid": "395b1d9328cd4dd192842c94c3048495",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "a1cde165ab8e4f1b9832b62eda25ce68",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "User context",
+                                "bold": true
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "tr",
+                    "uid": "72e71308cd4b4bbea85e680d4845232b",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "td",
+                        "uid": "0041d564412d4acd81217cdd0c8f22d8",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "83b5f6e64d024ec5ae00bfcdb9763773",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Financial services"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "45a21cadaa83496fa635fa8aff48e199",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "8d19e603e8eb46c882d707859ff06b11",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "\"Customer\" may mean borrower, account holder, or cardholder."
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "b36ccff87538462188eb657595e4c88b",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "0ef0ef66104945eca74ec4d8757a58a4",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "\"Top five customers\" could mean by revenue, transaction volume, or loyalty."
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "de1447eeaa854211afec8caa07cb8372",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "73d9fae083644c7abd2fd83556d4d028",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "A chief customer officer may prioritize lifetime value; a chief marketing officer may focus on campaign response."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "tr",
+                    "uid": "d43f96ce19474c92a06e23ad243cf3fc",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "td",
+                        "uid": "7e543d5042114b838822bf081b6a3c70",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "84e3968022264a47b230fdd513388af1",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Healthcare"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "e1e47d2b4d2c4cbf828cd00ed504b4fd",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "14b258c2107e4c88b7d45e1cc026c2d7",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "\"Patient\" differs from \"subject\" or \"participant\" in clinical settings."
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "9dad1fb9d04c49ff95723e3edfa09627",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "268a86435121441e99b313468869dae4",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "\"Top five patients\" could mean by visits, cost, or risk level."
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "18afb14e04044bfabc91d76935e34aed",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "58a391665b694ecfb09473b7527dae8e",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "A physician may prioritize urgent cases; an administrator may focus on cost or revenue."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "tr",
+                    "uid": "622c08ef4c5743d097cc93d7d9e42b2d",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "td",
+                        "uid": "79de82ab284d4f08b7abeadf76b4b95f",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "1d9c2b6bd97746c29482cae9720e55c1",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Manufacturing"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "378ab06d62d04d19be86ed3b987ba29f",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "652ca69562cc4251899a9e1f6fb808c9",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "\"Product\" could mean finished goods, components, or raw materials."
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "4c56229aa3354e2fbfe9625e8140c6d5",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "99f6cab2e2c4474b8db012f0429c6af4",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "\"Top five products\" could mean by output, defect rate, or margin."
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "cb7c17d2d61f41bb8f7cb98ea4684bf5",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "fa3c6a919cba4a25a16cd415902031bb",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "A plant manager may track throughput; a sales director may focus on leading SKUs."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "80de1a7a2c93492bbc2a2bc77d49cc86",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Semantics captures these distinctions. It defines what a term means, how a metric is calculated, which time period applies, which hierarchies should be followed, and how the user's role affects interpretation."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "a06c7e95666f488db8884e1ba77149d4",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "It also separates business users from the technical structure of the data. Someone can ask for \"revenue by region\" without knowing which table contains revenue, how customer records are joined, or where geographic hierarchies are stored."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "e742e1b03145481493432456d2c6f9ae",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "A semantic layer maps the business term to the appropriate governed data logic, giving applications, analysts, and AI systems a consistent definition to follow."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "9cd438154fb4494998b91d9d06bfce98",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Ontology defines the concept of revenue. Semantics specifies what the organization means by revenue in a given analytical context."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs885bf108d3d09d20"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "Knowledge Graphs: How is Everything Connected?",
+          "_metadata": {
+            "uid": "cs0cf2ad0bfee23fb7"
+          },
+          "section_id": "knowledge-graphs-how-is-everything-connected"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "ea56d18bc3fd40668ef7c1462277bc9c",
+            "children": [
+              {
+                "type": "p",
+                "uid": "d84b8b4ca374456ab5dbaba8d7db6c6a",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Once concepts have been defined and enriched with meaning, a knowledge graph connects them into a navigable network."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "b9e0297b1c6047d1b662d09326b601aa",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Traditional tables organize data into rows and columns. Real business questions, however, often depend on relationships that span many tables, systems, and domains."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "d5524b07aded49099c97812c5a9a01d6",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "A knowledge graph makes those relationships explicit."
+                  }
+                ]
+              },
+              {
+                "type": "table",
+                "uid": "6efe798916e746ac8c4f5ffe5b274c9b",
+                "attrs": {
+                  "rows": 4,
+                  "cols": 2,
+                  "colWidths": [
+                    40,
+                    160
+                  ]
+                },
+                "children": [
+                  {
+                    "type": "tr",
+                    "uid": "3276544f77664bbb94ff238860005d14",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "th",
+                        "uid": "3f4ff0cac4b64cf78d6fbb869bf6d18d",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "caae0756a0b045888d9c16ba5297e773",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Industry",
+                                "bold": true
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "th",
+                        "uid": "27c8a10e597a48719daa7bb0380eebbc",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "597134107c424f04a4515dabf7b3d5cb",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Example relationships",
+                                "bold": true
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "tr",
+                    "uid": "1998b8bd15a9450fbe1eebf99805e358",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "td",
+                        "uid": "0b92ac47a6174c6fb6f712e1fd24df66",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "01b4d2caf56949aeb5dee7b866f8046d",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Financial services"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "1cb0d28a38284d22bd99d5f552e57dcb",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "6246bd7574034fd58e16b9fd918855d6",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Customer123 → owns → Account456; Account456 → type → Checking"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "tr",
+                    "uid": "142a7ebb50334ee4bf9056241ca55ee4",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "td",
+                        "uid": "08af97f428e04193a8360d493fa1c5bd",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "f6474733d4ab4bd18cde478d63af8228",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Healthcare"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "6daa9af968db4b5c98736f832726b8ba",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "cc50a92b1f864b04bf32f0f836caea2a",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Patient001 → diagnosed with → COVID-19; Diagnosis → recorded on → 2023-11-15"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "tr",
+                    "uid": "4b48ffd01458432da5d261be5382aecd",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "td",
+                        "uid": "755ebc3ddeaf411183652d78e0a5f7aa",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "ac983fc4b37a41298a99dd7f89245b57",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Manufacturing"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "4cf278d739d847f79e8bc6a741a37a15",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "89dd0da2b1c84c1cb68e02c3b1437e54",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "ProductA123 → requires → Assembly Process; Machine MX200 → type → CNC"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "cd6e905c97c347bfbe14409fc8e12144",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "These examples are simple, but enterprise graphs can contain millions of entities and relationships."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "8fea4d40df6f4da78dacfc5b31d9f60a",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "A manufacturer investigating a product defect could trace the affected product to a component, the component to a supplier, the supplier to a shipment, and the shipment to other production batches."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "34c2bd9356414716a24a34919b1d1da5",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "A bank investigating suspicious activity could follow connections among transactions, accounts, devices, owners, and counterparties."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "5efc028e5d2548b3aae8bd777fae56e6",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "A healthcare provider could connect a patient's diagnoses, medications, laboratory results, clinicians, and care plans to identify relevant risks or treatment dependencies."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "1f7ccef7f7944d898ccbde74998b1a10",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The graph provides the network through which systems can traverse relationships, uncover dependencies, and infer connections that may not be visible within a single dataset."
+                  }
+                ]
+              },
+              {
+                "type": "blockquote",
+                "uid": "ae5c6e6c397e402c8ec3bdf7ee9bec44",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "p",
+                    "uid": "191b17529e3444d6b434933f470de2fa",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "text": "\"These pillars transform raw data into the fuel for reasoning machines.\"",
+                        "attrs": {
+                          "style": {
+                            "color": "rgb(0, 61, 91)"
+                          }
+                        }
+                      },
+                      {
+                        "text": " — Forrester Research, Combine Semantics, Ontology, And Knowledge Graphs For AI-Ready Data, June 2026",
+                        "bold": true,
+                        "attrs": {
+                          "style": {
+                            "color": "rgb(26, 78, 159)"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs993df58c13e2db29"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "How the Three Pillars Work Together",
+          "_metadata": {
+            "uid": "cs8d60387796f57d0f"
+          },
+          "section_id": "how-the-three-pillars-work-together"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "f14610c750a6467a9bbcbdde4d670940",
+            "children": [
+              {
+                "type": "p",
+                "uid": "91a5ba7dd40a45cfa8b44a16a40749a7",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Ontology, semantics, and knowledge graphs are not three unrelated technologies. Each supplies a different part of the context an enterprise system needs."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs57a3f0ed1d3e6653"
+          }
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "d5197ac9ae1840d29e62a429b335e72d",
+            "children": [
+              {
+                "type": "p",
+                "uid": "be1343d48784441ab18cb9c6a79fa4f1",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "[IMAGE PLACEHOLDER]",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "b41de8c3f45c444cb35cf5db5dbd5a20",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Upload asset to Contentstack and replace this placeholder — source: image_0.png"
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs65194923181c92d0"
+          }
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "2b4d81b24e934399a484d5e1f1c0b9f9",
+            "children": [
+              {
+                "type": "p",
+                "uid": "12292c26f81949428fff12c788c77352",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Let's return to the original question:"
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "b6c73674bf5647b6a49df06948fc0a48",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Who are our top five customers?",
+                    "italic": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "a95eccb9b9124a86af1a0819c8f66123",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "With all three elements in place, we finally get the same answer, no matter who asks the question. The ontology defines what qualifies as a customer. It establishes relevant concepts such as account, organization, subsidiary, contract, and revenue."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "9e7198873aa840f7aa8ea2fac1c72839",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Semantics interprets \"top\" according to a governed business definition. For this user, it might mean customers ranked by annual recurring revenue over the trailing 12 months. It also determines whether subsidiaries should be consolidated under a parent organization."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "c94d23fe9f214287a0a117e53a32cdc7",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The knowledge graph connects each customer to its accounts, contracts, purchases, regions, products, and other relevant activity. It allows the system to assemble the relationships needed to answer the question across different sources."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "0991fa39181e4af78ca7a99e5bc36a37",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Together, the three pillars turn a vague phrase into a defined, contextualized, and traceable business query."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "7a431e00e0894f26bee5f1592aafccbc",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The relationship works in both directions. The ontology structures the concepts captured in the graph. Semantics enriches those concepts with business meaning. The graph can reveal new relationships that help the organization refine its definitions over time."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "e20a5310bcbe4996b784a4c7c2fb6b5e",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The result is a living representation of enterprise knowledge rather than a static dictionary."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "csf5a5efed7ee56dbd"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "Context Becomes Part of the Architecture",
+          "_metadata": {
+            "uid": "cs776ce73c4498b358"
+          },
+          "section_id": "context-becomes-part-of-the-architecture"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "71fc6cf00376443da5a26a1b08b890a3",
+            "children": [
+              {
+                "type": "p",
+                "uid": "f14f58970582448aa082579a6b6aae79",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Most enterprises already have large volumes of data. Many are also investing in AI models, assistants, and agents. The missing layer often sits between them: a shared, machine-readable representation of what the data means and how it relates to the business."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "6ace87c3818a452f9e68ca49124788a1",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Ontology establishes the conceptual map. Semantics makes that map understandable in a particular business context. Knowledge graphs connect the mapped concepts into a network that systems can navigate."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "40dd541b080c48879660369fb67c05d9",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The foundation becomes increasingly important as AI moves beyond summarizing information and begins making recommendations or taking actions. In an "
+                  },
+                  {
+                    "type": "a",
+                    "uid": "237dfc19ef8d452bb7a1a58423072bcc",
+                    "attrs": {
+                      "url": "https://www.strategy.com/software/strategyai/agents",
+                      "target": "_blank"
+                    },
+                    "children": [
+                      {
+                        "text": "agentic AI environment"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ", an ambiguous definition can influence a decision, trigger a workflow, or execute an action at scale."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "38189f089162431890e12a2407f11c11",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Context needs to become part of the architecture. Without shared meaning, even a powerful model is left to infer how an individual enterprise defines its customers, products, performance, risk, and value."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs014879ee0bc0e35f"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "Building the Semantic Foundation with Strategy Mosaic",
+          "_metadata": {
+            "uid": "cs6325f4c4be54652d"
+          },
+          "section_id": "building-the-semantic-foundation-with-strategy-mosaic"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "8e807f3adc23495e9c0357dce762bf69",
+            "children": [
+              {
+                "type": "p",
+                "uid": "ad3c7b545fd74065a6a91775fdb9d95e",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "a",
+                    "uid": "2e4d39a2846343598f53f13c7da4482e",
+                    "attrs": {
+                      "url": "https://www.strategy.com/software/strategymosaic",
+                      "target": "_blank"
+                    },
+                    "children": [
+                      {
+                        "text": "Strategy Mosaic"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " is the semantic foundation for enterprise AI — translating governed business definitions, ontologies, and knowledge relationships into a unified layer that AI systems, analysts, and automated agents can rely on."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "0a939fc4256b427980129be9fa5d3212",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Most organizations already have the data. The harder question is whether their systems understand what that data means."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs2e0ed23e4e600c0b"
+          }
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "6a53b0da31ac4cc783a3b05de85bc286",
+            "children": [
+              {
+                "type": "p",
+                "uid": "477458a239bb448da834e57081c1f746",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "[ PROMO PLACEHOLDER — Replace with Promo block in Contentstack editor ]"
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "7757e9415d8b4b189896d6cb4ee0dac3",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "CTA: \"Read the Forrester Report\""
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "0fa99d73dd874654865570c0861e1499",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Button: Access the Combine Semantics, Ontology, And Knowledge Graphs For AI-Ready Data Report"
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs85f8d92ad11b55a1"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "Frequently Asked Questions",
+          "_metadata": {
+            "uid": "csc74bfec12c1c6a55"
+          },
+          "section_id": "frequently-asked-questions"
+        }
+      },
+      {
+        "accordion": {
+          "accordion_item": [
+            {
+              "title": "What is the difference between ontology and a knowledge graph?",
+              "_metadata": {
+                "uid": "cscc92f51db12d2276"
+              },
+              "content": {
+                "type": "doc",
+                "attrs": {},
+                "uid": "fadaf76196cd4d37a846c1d92875f678",
+                "children": [
+                  {
+                    "type": "p",
+                    "attrs": {},
+                    "uid": "a9b6d55d257e4acca2afb011e63405ca",
+                    "children": [
+                      {
+                        "text": "An ontology defines the concepts, categories, and rules that govern a business domain — what entities exist and how they can relate to one another. A knowledge graph applies those definitions to actual data, connecting specific instances of entities (a particular customer, account, or product) into a navigable network of relationships. Ontology is the schema; the knowledge graph is the populated structure built on that schema."
+                      }
+                    ]
+                  }
+                ],
+                "_version": 1
+              }
+            },
+            {
+              "title": "What does a semantic layer do in an enterprise AI context?",
+              "_metadata": {
+                "uid": "csa5323c303a31f76b"
+              },
+              "content": {
+                "type": "doc",
+                "attrs": {},
+                "uid": "abebefb6e49e468fa13efda43fbf0b32",
+                "children": [
+                  {
+                    "type": "p",
+                    "attrs": {},
+                    "uid": "6bc1f3072e4548e8ac829441f3543d61",
+                    "children": [
+                      {
+                        "text": "A semantic layer translates business terminology into governed data logic. When a user or AI system asks for \"revenue by region,\" the semantic layer maps that phrase to the correct tables, joins, hierarchies, and time definitions — without requiring the user to know the underlying data structure. In an AI context, the semantic layer ensures that every query resolves against a consistent, validated business definition rather than an inference."
+                      }
+                    ]
+                  }
+                ],
+                "_version": 1
+              }
+            },
+            {
+              "title": "Why do knowledge graphs matter for agentic AI?",
+              "_metadata": {
+                "uid": "cs5f857151df94e130"
+              },
+              "content": {
+                "type": "doc",
+                "attrs": {},
+                "uid": "0ec123cad02e46cd8df9899a6bbd9639",
+                "children": [
+                  {
+                    "type": "p",
+                    "attrs": {},
+                    "uid": "69f0c0f4b6b7429d81ebd3f8da2e86b7",
+                    "children": [
+                      {
+                        "text": "Agentic AI systems take actions — triggering workflows, making recommendations, and executing decisions — rather than simply retrieving answers. When an agent acts on an ambiguous definition, the error scales with every downstream step. Knowledge graphs give agentic systems a structured, traversable representation of enterprise relationships, reducing the risk that a misinterpreted entity or relationship produces a cascading error."
+                      }
+                    ]
+                  }
+                ],
+                "_version": 1
+              }
+            },
+            {
+              "title": "How are ontology, semantics, and knowledge graphs related to data fabric and data mesh architectures?",
+              "_metadata": {
+                "uid": "csdc6b5318d96149b9"
+              },
+              "content": {
+                "type": "doc",
+                "attrs": {},
+                "uid": "578f092b388544848437a73c738c0fc0",
+                "children": [
+                  {
+                    "type": "p",
+                    "attrs": {},
+                    "uid": "0d731216d48c4e97b0e096dc897f1d1c",
+                    "children": [
+                      {
+                        "text": "Data fabric and data mesh architectures address where data lives and how it is managed across distributed domains. Ontology, semantics, and knowledge graphs address what the data means and how concepts relate across those domains. The two approaches are complementary: a data fabric or mesh provides the distribution layer; semantic infrastructure provides the meaning layer that makes distributed data interpretable by both humans and machines."
+                      }
+                    ]
+                  }
+                ],
+                "_version": 1
+              }
+            },
+            {
+              "title": "Can an organization build this context layer without replacing its existing data infrastructure?",
+              "_metadata": {
+                "uid": "cs2e96718e1df2a50d"
+              },
+              "content": {
+                "type": "doc",
+                "attrs": {},
+                "uid": "688132721f35492386d1b932b60c408e",
+                "children": [
+                  {
+                    "type": "p",
+                    "attrs": {},
+                    "uid": "c99c161403314b149c9ec531c4b806ac",
+                    "children": [
+                      {
+                        "text": "In most cases, yes. Ontologies, semantic layers, and knowledge graphs are typically implemented as a logical layer above existing data sources — relational databases, data warehouses, data lakes, or cloud storage. The goal is to establish consistent meaning and relationships without requiring organizations to migrate or restructure the underlying data."
+                      }
+                    ]
+                  }
+                ],
+                "_version": 1
+              }
+            }
+          ],
+          "_metadata": {
+            "uid": "cscdb1153f07d0e0ce"
+          },
+          "accordion_options": "closed"
+        }
+      }
+    ],
+    "cta_section": [],
+    "related_posts": [],
+    "seo": {
+      "meta_title": "Ontology, Semantics & Knowledge Graphs for Enterprise AI",
+      "meta_description": "Enterprise AI fails when it lacks business context. Forrester Research shows how ontology, semantics, and knowledge graphs work together to give AI systems the definitions, relationships, and governed meaning they need to answer business questions accurately.",
+      "keywords": "enterprise AI semantic layer, knowledge graph for enterprise data, ontology and semantics for AI, AI-ready data foundation, semantic layer for BI",
+      "social_thumbnail_override": null,
+      "enable_search_indexing": true
+    },
+    "page_properties": {
+      "navigation_title": "",
+      "header_color": null,
+      "hide_header_nav": false,
+      "hide_header_cta": false,
+      "hide_footer": false,
+      "disable_global_promo_banner": false,
+      "hide_auto_expert": false,
+      "sfid": "",
+      "marketo_id": "",
+      "cta_section": []
+    },
+    "resource_data": {
+      "date": "2026-07-09T00:00:00.000Z",
+      "type": "Blog",
+      "title": "Ontology, Semantics, and Knowledge Graphs: The Context Layer Enterprise AI Is Missing",
+      "description": "Enterprise AI fails when it lacks business context. Forrester Research shows how ontology, semantics, and knowledge graphs work together to give AI systems the definitions, relationships, and governed meaning they need to answer business questions accurately.",
+      "featured": false
+    },
+    "tags": [],
+    "publish_date": "2026-07-09T00:00:00.000Z",
+    "author": [
+      {
+        "uid": "bltaed29ca054d0f5b0",
+        "_content_type_uid": "blog_author"
+      }
+    ],
+    "taxonomies": [
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "product_updates"
+      },
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "mosaic"
+      },
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "semantic_layer"
+      },
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "ai_trends"
+      },
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "analytics"
+      },
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "business_intelligence"
+      }
+    ]
+  },
+  "_mapping_warnings": [
+    "The [H3] labeled [META DESCRIPTION] near the top appears to be an editorial/CMS marker, not a true subheading — it was skipped and the following paragraph was used as the meta description verbatim.",
+    "The 'Building the Semantic Foundation with Strategy Mosaic' section contains a 1x2 table that appears to be a CTA block; it has been included both as a table block in the body section and extracted as a CTA entry. Human review recommended to confirm correct rendering intent.",
+    "The [IMAGE_EMBEDDED] in the 'How the Three Pillars Work Together' section has no alt text, asset UID, or URL provided in the source document — these fields are left empty.",
+    "Strategy Mosaic link (https://www.strategy.com/software/strategymosaic) is listed under externalLinks as it is an absolute URL; if this is an internal domain, it should be reclassified as an internal link.",
+    "No publish date was found in the document.",
+    "The Forrester report title referenced throughout is treated as an inline italic citation, not a hyperlink, as no URL was provided for it.",
+    "publishDate was not found in the document — defaulted to tomorrow (2026-07-09T00:00:00.000Z). Confirm before publishing.",
+    "Meta description from doc is 259 chars (over 160 — Google may truncate). Kept verbatim; consider shortening before publishing.",
+    "Image block missing assetUid — source: image_0.png",
+    "CTA 1 ('Read the Forrester Report') — placeholder text block inserted before FAQ. Create a Promo entry in CS using the extracted headline and button text, then replace the placeholder with the Promo block and move it to the correct position."
+  ]
+}

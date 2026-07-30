@@ -1,0 +1,321 @@
+{
+  "title": "Banks Fixed Data Access. Why is AI Still Stuck in Pilot Mode?",
+  "subtitle": "",
+  "slug": "banks-fixed-data-access-why-is-ai-still-stuck-in-pilot-mode",
+  "url": "/banks-fixed-data-access-why-is-ai-still-stuck-in-pilot-mode",
+  "author": "Beata Socha",
+  "authorBio": "",
+  "publishDate": "2026-07-24T00:00:00.000Z",
+  "seo": {
+    "metaTitle": "Banks Fixed Data Access. Why is AI Still Stuck in Pilot Mode?",
+    "metaDescription": "Banks have the data. AI still fails at scale. Learn why the AI context gap exists and how Strategy's semantic layer closes it.",
+    "metaDescriptionFromDoc": false,
+    "targetKeywords": [
+      "AI context gap in banking",
+      "governed AI semantic layer",
+      "enterprise AI analytics banking",
+      "semantic layer for financial institutions",
+      "AI readiness for banks"
+    ],
+    "metaDescriptionAlternatives": [
+      "AI pilots stall in banking without governed metrics. See how Strategy's semantic layer gives AI the context it needs to scale.",
+      "Discover why unified data alone won't activate enterprise AI in banking and how a governed semantic layer changes that."
+    ],
+    "primaryKeywords": [
+      "AI context gap in banking",
+      "governed AI semantic layer",
+      "enterprise AI analytics banking",
+      "semantic layer for financial institutions",
+      "AI readiness for banks"
+    ],
+    "secondaryKeywords": [
+      "banking data governance",
+      "enterprise BI decision-making",
+      "AI pilot to production banking",
+      "governed business metrics",
+      "data modernization financial services",
+      "trusted AI outputs banking",
+      "unified data infrastructure finance",
+      "consistent data definitions AI",
+      "analytics maturity financial institutions",
+      "BI semantic layer enterprise",
+      "AI scalability banking",
+      "data context for AI models"
+    ],
+    "longTailKeywords": [
+      "why is AI still in pilot mode at banks",
+      "how to close the AI context gap in banking",
+      "why banks struggle to scale AI beyond pilots",
+      "what is a governed AI semantic layer for financial institutions",
+      "how to give AI systems consistent business definitions",
+      "best way to govern metrics for enterprise AI in banking",
+      "why unified data is not enough for AI in finance",
+      "how to build an AI-ready data foundation for banks",
+      "what does a semantic layer do for AI analytics",
+      "why AI models produce unreliable outputs in banking",
+      "how enterprise banks can move AI from pilot to scale",
+      "what causes AI context gaps in financial data platforms"
+    ],
+    "brandedKeywords": [
+      "Strategy",
+      "Strategy Mosaic",
+      "Strategy semantic layer",
+      "Strategy for financial institutions",
+      "Strategy AI analytics banking"
+    ]
+  },
+  "quickAnswer": [
+    {
+      "headline": "What is the AI context gap in banking?",
+      "body": "The AI context gap is the disconnect between having unified data infrastructure and having the governed business definitions that allow AI systems to interpret that data reliably. Banks may have connected core systems and made data accessible, but without consistent definitions for terms like \"customer,\" \"revenue,\" or \"risk exposure,\" AI models lack the shared context needed to generate trustworthy outputs at enterprise scale."
+    },
+    {
+      "headline": "What is a governed AI semantic layer?",
+      "body": "A governed AI semantic layer sits between an organization's source data systems and the tools — dashboards, AI agents, and analytics applications — that consume them. It standardizes business definitions and metrics so that human users and AI systems work from the same approved context. Strategy Software's semantic layer capabilities are designed to address exactly this gap for financial institutions and enterprise organizations."
+    }
+  ],
+  "quickAnswerFromDoc": true,
+  "heroMedia": null,
+  "body": [
+    {
+      "type": "section",
+      "heading": "",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Banks have spent years modernizing data platforms, integrating core systems and expanding access to analytics. Yet enterprise AI adoption still lags far behind, revealing a harder problem beneath the infrastructure: AI can access the data, but it does not consistently understand what that data means."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Data Integration is Improving. AI Maturity is Not.",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "According to the "
+            },
+            {
+              "text": "2026 American Banker survey",
+              "url": "https://software.strategy.com/research-and-reports/the-ai-context-gap-in-banking"
+            },
+            {
+              "text": ", 71% of banks and financial institutions report unified core data systems. But only 12% have deployed AI across multiple business units or embedded it enterprise-wide. More than half remain at the experimental or isolated pilot stage."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "AI Maturity Snapshot graphic",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "sourcePath": "image_0.png",
+          "assetUid": "",
+          "altText": "",
+          "url": ""
+        },
+        {
+          "type": "paragraph",
+          "text": "That gap shows why data access alone does not create AI-ready data. A modern cloud platform may connect more systems and make more information available, but enterprise AI still needs consistent business definitions, governed access and a shared source of truth. Without them, scaling AI infrastructure simply gives models faster access to ambiguity."
+        },
+        {
+          "type": "paragraph",
+          "text": "This is the emerging AI context problem in banking. Institutions have improved the movement and availability of data without fully establishing the business context that allows AI systems to interpret it reliably."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Connected Data is Not the Same as Trusted Data",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "image",
+          "sourcePath": "image_1.png",
+          "assetUid": "",
+          "altText": "",
+          "url": ""
+        },
+        {
+          "type": "paragraph",
+          "text": "Only 10% of surveyed institutions describe their data as well-governed, accurate and available in real time. The remaining organizations may have unified systems, an enterprise data strategy or active standardization efforts, but most have not yet created a fully trusted AI-ready data foundation."
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Data Maturity chart",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "This distinction matters because AI does not simply retrieve values. It must interpret business concepts such as customer, revenue, risk exposure, delinquency and profitability. Those concepts often have different definitions across departments, applications and reporting environments."
+        },
+        {
+          "type": "paragraph",
+          "text": "A human analyst may recognize that two teams calculate the same KPI differently and ask which definition applies. An AI system may not. It can generate a plausible answer using whichever table, definition or relationship it encounters. In text-to-SQL use cases, this can look like AI hallucinating SQL: the query may be syntactically valid while applying the wrong join, metric definition, time period or business rule."
+        },
+        {
+          "type": "paragraph",
+          "text": "The result is not always an obvious error. More dangerously, it may be a convincing number that cannot be trusted."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "AI Cannot Scale Without Shared Meaning",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Three out of four respondents agree that inconsistent metric definitions limit their ability to scale AI. Governance and compliance, talent shortages, data quality, competing IT priorities and legacy architecture also rank among the most significant barriers."
+        },
+        {
+          "type": "image",
+          "sourcePath": "image_2.png",
+          "assetUid": "",
+          "altText": "",
+          "url": ""
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Metrics are Essential for AI chart",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "These issues are connected. When different teams define the same metric differently, no model can determine the institution's intended meaning from raw tables alone. A customer may be an account holder in one system, a household in another and a legal entity in a third. Revenue may include or exclude specific fees depending on the reporting team. Risk exposure may reflect different calculation windows or regulatory assumptions."
+        },
+        {
+          "type": "paragraph",
+          "text": "This is why AI data governance must extend beyond controlling access. It must also govern meaning. Effective enterprise AI governance requires approved definitions, reusable business logic, security rules and traceability across every channel where data is consumed, including dashboards, applications, AI agents and enterprise BI platforms with AI."
+        },
+        {
+          "type": "paragraph",
+          "text": "A governed AI semantic layer can provide that shared meaning. It sits between source systems and the tools consuming their data, standardizing definitions and metrics so human users and AI systems work from the same business context."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Trusted AI requires context beneath the model",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The survey suggests banks are beginning to recognize that the next stage of AI infrastructure scaling will happen below the model. Fifty-five percent have implemented or are implementing a semantic layer, while another 27% plan to begin within two years. Yet only 6% have achieved enterprise-wide implementation."
+        },
+        {
+          "type": "paragraph",
+          "text": "An AI semantic layer gives models a governed vocabulary for interpreting enterprise data. Instead of asking a large language model to infer what \"revenue,\" \"customer\" or \"exposure\" means from database structures, the institution defines those concepts once and reuses them across analytics and AI applications."
+        },
+        {
+          "type": "paragraph",
+          "text": "This supports trusted AI in several ways:"
+        },
+        {
+          "type": "list",
+          "style": "bullet",
+          "items": [
+            "It provides consistent, approved business definitions.",
+            "It applies governance and access controls across tools and AI agents.",
+            "It reduces the likelihood of text-to-SQL hallucinating or selecting the wrong data relationships.",
+            "It creates greater transparency into how answers were generated.",
+            "It allows the same business logic to support dashboards, applications and AI analytics."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "This does not eliminate every form of model error. But it is a practical form of AI hallucination prevention, because it constrains AI interactions with enterprise data using trusted definitions and governed logic rather than asking the model to invent context on demand."
+        },
+        {
+          "type": "paragraph",
+          "text": "Banks do not need another isolated AI pilot connected directly to more raw data. They need a semantic layer for AI analytics and an AI-ready data foundation that makes their information consistent, explainable and usable across the enterprise."
+        },
+        {
+          "type": "blockquote",
+          "text": "\"I saw the value of the semantic layer, and I saw a need to do something different than the next data platform and the next data warehouse.\" — Dan Bosman, SVP and Chief Information Officer, TD Bank"
+        },
+        {
+          "type": "paragraph",
+          "text": "The banking industry has made significant progress in connecting data. The next challenge is ensuring that every user, application and AI agent understands it in the same way. Until banks solve that business-context problem, AI may continue to move quickly through pilots while remaining difficult to trust at enterprise scale."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Why haven't banks been able to scale AI despite improving data infrastructure?",
+      "answer": "Unified data systems improve data availability but not data interpretability. AI models require consistent business definitions — for terms like \"customer,\" \"revenue,\" and \"risk exposure\" — to generate reliable outputs. When those definitions vary across systems and departments, models encounter ambiguity at scale. Infrastructure investments that do not address this business-context layer leave AI adoption stuck at the pilot stage.",
+      "accordionEnabled": true
+    },
+    {
+      "question": "What is an AI semantic layer and why does it matter for banking?",
+      "answer": "An AI semantic layer is a governed abstraction layer that sits between source data systems and the applications — including AI agents, dashboards, and analytics tools — that consume them. It standardizes business definitions and metric logic so every consuming system works from the same approved context. For banks, this means AI models can answer questions about revenue, delinquency, or customer risk using the institution's actual definitions rather than inferred or inconsistent ones.",
+      "accordionEnabled": true
+    },
+    {
+      "question": "What is AI hallucination in a banking data context?",
+      "answer": "In banking data environments, AI hallucination most commonly appears in text-to-SQL use cases: a model generates a syntactically valid query that applies the wrong join, metric definition, time period, or business rule. The result may look like a correct answer while being based on the wrong data relationship. A governed semantic layer reduces this risk by constraining AI queries to approved definitions and data structures.",
+      "accordionEnabled": true
+    },
+    {
+      "question": "How many banks are currently implementing a semantic layer?",
+      "answer": "According to the 2026 American Banker survey, 55% of surveyed institutions have implemented or are implementing a semantic layer. An additional 27% plan to begin within two years. However, only 6% have achieved enterprise-wide implementation — indicating that adoption is growing but maturity remains early.",
+      "accordionEnabled": true
+    }
+  ],
+  "postFaqContent": [],
+  "suggestedTaxonomyTerms": [
+    "Semantic Layer",
+    "Enterprise AI",
+    "Data Governance",
+    "Banking Technology",
+    "AI Analytics"
+  ],
+  "cta_list": [
+    {
+      "headline": "Read the full report",
+      "body": "The AI Context Gap in Banking",
+      "buttonText": "Read the full report",
+      "buttonUrl": "https://software.strategy.com/research-and-reports/the-ai-context-gap-in-banking"
+    }
+  ],
+  "internalLinks": [],
+  "externalLinks": [
+    "https://software.strategy.com/research-and-reports/the-ai-context-gap-in-banking"
+  ],
+  "validationWarnings": [
+    "No author name or publish date found in the document.",
+    "The H2 heading 'Connected Data is Not the Same as Trusted DataConnected Data is Not the Same as Trusted Data' appears to be a duplicate concatenation in the source — normalized to 'Connected Data is Not the Same as Trusted Data'.",
+    "The H2 heading 'Trusted AI requires context beneath the modelTrusted AI requires context beneath the model' appears to be a duplicate concatenation in the source — normalized to 'Trusted AI requires context beneath the model'.",
+    "The Quick Answer section is structured as two Q&A pairs (not a simple bulleted list). Each Q&A pair has been mapped as a quickAnswer item with the question as headline and the answer paragraph as body.",
+    "The table at the end of the blog body appears to be a CTA/report promotion block. It has been extracted as a cta_list entry and omitted from body sections.",
+    "Three [IMAGE_EMBEDDED] markers are present with no filenames or alt text provided. Assigned sequential sourcePaths: image_0.png, image_1.png, image_2.png. Alt text and assetUid are empty — human review required.",
+    "The [BOLD] annotation preceding the 'AI Maturity Snapshot graphic' and 'Data Maturity chart' and 'Metrics are Essential for AI chart' labels suggests these are captions or labels for the embedded images. They have been mapped as bold paragraph runs immediately preceding or following their respective image blocks.",
+    "The report thumbnail reference in the CTA table was not extractable as an image asset; only the URL was captured.",
+    "The 'BLOG BODY:' H2 label appears to be an editorial marker — it has been omitted as a section heading. Content after it flows into the first body section.",
+    "publishDate was not found in the document — defaulted to tomorrow (2026-07-24T00:00:00.000Z). Confirm before publishing."
+  ]
+}

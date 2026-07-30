@@ -1,0 +1,251 @@
+{
+  "title": "Time Intelligence Metrics in Mosaic: Year-over-Year and Period-to-Date Without the SQL",
+  "subtitle": "",
+  "slug": "time-intelligence-metrics-in-mosaic-year-over-year-and-period-to-date-without-the-sql",
+  "url": "/time-intelligence-metrics-in-mosaic-year-over-year-and-period-to-date-without-the-sql",
+  "author": "Igor Freitas",
+  "authorBio": "",
+  "publishDate": "2026-06-01T00:00:00.000Z",
+  "seo": {
+    "metaTitle": "Time Intelligence Metrics in Mosaic: YoY & Period-to-Date",
+    "metaDescription": "Learn how Mosaic's Time Intelligence Metrics let you build year-over-year and period-to-date calculations at the semantic layer — no SQL or schema changes required.",
+    "targetKeywords": [
+      "time intelligence metrics",
+      "Mosaic semantic layer",
+      "year-over-year metrics",
+      "period-to-date",
+      "Mosaic Studio"
+    ]
+  },
+  "quickAnswer": [
+    "Time Intelligence Metrics in Mosaic are time transformation functions that calculate period-over-period comparisons and period-to-date aggregations directly in the semantic layer, with no SQL required.",
+    "Previous Period functions (PreviousYear, PreviousQuarter, PreviousMonth, PreviousWeek, PreviousDay) return a metric's value for a past period, while Period to Date functions (YearToDate, QuarterToDate, MonthToDate) accumulate a metric from the start of a period through the current point in time.",
+    "By defining these calculations once in Mosaic Studio, every dashboard and AI query receives a consistent, governed answer without requiring data engineering tickets or schema migrations."
+  ],
+  "heroMedia": null,
+  "body": [
+    {
+      "type": "section",
+      "heading": "",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Every analytics team eventually needs the same set of metrics: revenue this year versus last year, units sold month-to-date, cost quarter-to-date. The question is where those calculations live. In traditional BI architectures, the answer is usually the transformation layer: date dimension tables, SQL joins, schema changes that require a data engineering ticket before an analyst can see the number they need."
+        },
+        {
+          "type": "paragraph",
+          "text": "The stakes are higher now that AI agents are querying the same data. An analyst can recognize when \"last quarter\" is ambiguous and ask a follow-up question. An AI agent can't. When a user asks an AI assistant \"how did revenue trend last year?\" the agent needs a governed definition of what \"last year\" means and how revenue aggregates within it. Without Time Intelligence Metrics defined in the semantic layer, the agent interprets raw date data on its own, inconsistently, with no guarantee it matches what the dashboard shows. With PreviousYear(Revenue) defined once in Mosaic, every AI query gets the same answer every dashboard does."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mosaic puts these calculations in the semantic layer, where practitioners define them directly in Mosaic Studio. No SQL required."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "What Are Time Intelligence Metrics?",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Time Intelligence Metrics are time transformation functions built into Strategy Software's Mosaic that calculate how a metric behaves across time periods. They come in two families:"
+        },
+        {
+          "type": "list",
+          "style": "bullet",
+          "items": [
+            "Previous Period functions: PreviousYear, PreviousQuarter, PreviousMonth, PreviousWeek, PreviousDay. These return the value of a metric for a past period relative to the current context. A grid showing monthly sales alongside PreviousYear(Sales) gives you year-over-year in a single metric definition, with no additional SQL.",
+            "Period to Date functions: YearToDate, QuarterToDate, MonthToDate. These accumulate a metric from the start of the specified period through the current point in time. Add QuarterToDate(Revenue) to a daily sales grid and you get cumulative quarter performance as it builds, day by day."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Both work with base metrics and aggregation metrics using Sum, Count, Min, Max, and Average. One constraint: Average is not supported for Period to Date functions in live mode."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Why Time Attributes Are Mandatory",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Before creating any time transformation metric, you need a time attribute. The prerequisite is structural and understanding why makes the rest of the architecture clearer."
+        },
+        {
+          "type": "paragraph",
+          "text": "A time transformation metric needs a reference axis. PreviousYear(Sales) doesn't know what \"year\" means unless you tell it which date dimension to traverse. The time attribute provides that reference, defining the hierarchy (year, quarter, month, week, day, and sub-day intervals) that the function walks when calculating the comparison."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mosaic Studio creates time attributes from any base attribute with a timestamp or datetime data type. The fastest path is the Suggestions panel, which surfaces all timestamp/date attributes in the model and lets you select which intervals to include. You can also create them manually by editing the attribute and selecting intervals from the Time Attributes tab. One detail to know: the 15-minute interval is required if you're creating any time attributes for a given base attribute."
+        },
+        {
+          "type": "paragraph",
+          "text": "The timetables themselves are generated in the warehouse at first query execution. You don't create them manually."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Mosaic Time Intelligence vs. Transformations in the Schema",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "In a traditional Mosaic schema setup, time intelligence lives in the transformation layer. You build a date dimension table in the warehouse, join it to your fact tables, and write the period-over-period logic in SQL or dbt. The semantic layer exposes what the transformation produces."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mosaic Time Intelligence inverts that: the calculation is defined in the semantic layer, and the infrastructure (the time tables) is generated from it. Three practical consequences:"
+        },
+        {
+          "type": "list",
+          "style": "bullet",
+          "items": [
+            "Adding a new period function requires no schema change. Adding PreviousQuarter to a model that already has PreviousYear is a metric definition in Mosaic Studio, not a schema migration. A practitioner can do it in minutes without touching the warehouse.",
+            "The metric definition and the time hierarchy live in the same place. Changes propagate automatically to every dashboard that uses the metric, without requiring a dbt run or a warehouse job.",
+            "Mosaic time transformation metrics work within the supported aggregation functions. Complex custom SQL time logic that doesn't map to Sum, Count, Min, Max, or Average still belongs in the transformation layer."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "The Three Ways to Create Them",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Mosaic Studio offers three creation paths, each suited to a different level of familiarity with the function syntax."
+        },
+        {
+          "type": "list",
+          "style": "bullet",
+          "items": [
+            "Function Editor is the guided path. Select a function from the Internal functions list (PreviousYear, MonthToDate, etc.), choose the time attribute and the base metric from dropdowns, and the formula assembles itself. For Previous Period functions, you also specify the number of periods back — 1 for the immediately prior period, 2 for two periods back.",
+            "Metric Editor is for practitioners who prefer to write the formula directly. The syntax is consistent across functions: PreviousYear([Order Date (Day interval)], 1, Sales) | PreviousQuarter([Order Date (Day interval)], 1, Sales) | QuarterToDate([order_date], Max(unit_price)). Type the formula, validate it, name the metric, and save.",
+            "Auto Metric is the AI-assisted path. Describe what you want in natural language, like \"Create a time transformation metric for previous month units sold,\" and Mosaic generates the formula. Review it, click Create, and save. Useful when you know what you want but haven't memorized the function signatures."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "What a Time Intelligence Dashboard Looks Like",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "In practice, Time Intelligence Metrics work best when placed alongside the base metric on a time-series grid. A dashboard with Sales (current), PreviousYear(Sales), and YearToDate(Sales) on a monthly axis gives an analyst three views of performance, current period, same period last year, and cumulative, in a single visualization, each driven by a single metric definition in the model."
+        },
+        {
+          "type": "image",
+          "sourcePath": "image_0.png",
+          "assetUid": "",
+          "altText": "",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Limitations Worth Knowing Before You Build",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Time transformation metrics handle most standard reporting patterns cleanly. The constraints worth flagging before scoping dashboard work:"
+        },
+        {
+          "type": "list",
+          "style": "bullet",
+          "items": [
+            "Subtotals and grand totals on Period to Date metrics return null. Plan dashboard layouts accordingly. Don't rely on row or column totals for YTD or QTD metrics.",
+            "Count distinct and smart metrics are not supported by either function family.",
+            "Period to Date metrics don't support dataset-level filters or simultaneous filters across two or more-time hierarchies.",
+            "Time transformation metrics cannot be created across models in a linked model. The time attribute and the metric must live in the same model.",
+            "Pair time transformation metrics with time interval attributes on visualizations (e.g., \"order_date (Day interval)\"), not with the base date attribute. Using the base attribute produces unexpected results."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Build Your First Time Intelligence Metric",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The documentation covers prerequisites, time attribute creation, all three metric creation methods, and the full list of supported functions and limitations."
+        },
+        {
+          "type": "list",
+          "style": "bullet",
+          "items": [
+            "Create Time Enrichment Attributes and Time Transformation Metrics"
+          ]
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "What are Time Intelligence Metrics in Mosaic?",
+      "answer": "Time Intelligence Metrics are time transformation functions in Strategy Software's Mosaic that calculate period-over-period comparisons and period-to-date aggregations at the semantic layer. Previous Period functions (PreviousYear, PreviousQuarter, PreviousMonth, PreviousWeek, PreviousDay) return a metric's value for a past period. Period to Date functions (YearToDate, QuarterToDate, MonthToDate) accumulate a metric from the start of a period through the current point in time.",
+      "accordionEnabled": true
+    },
+    {
+      "question": "Why do I need a time attribute before creating a time transformation metric?",
+      "answer": "Strategy Mosaic requires a time attribute because time transformation functions need a date dimension to reference. Without it, functions like PreviousYear have no axis to traverse when calculating the prior-period value. The time attribute defines the hierarchy (year, quarter, month, week, day) the function uses, and Mosaic generates the underlying timetables in the warehouse automatically at first query execution.",
+      "accordionEnabled": true
+    },
+    {
+      "question": "What's the difference between Previous Period and Period to Date functions?",
+      "answer": "Previous Period functions return the value of a metric for a specified past period relative to the current row context — useful for year-over-year, month-over-month comparisons. Period to Date functions accumulate a metric from the start of a period through the current point in time — useful for tracking cumulative performance within a quarter or year as it progresses. Both function families are available in Strategy Software's Mosaic: Previous Period since December 2025, Period to Date since March 2026.",
+      "accordionEnabled": true
+    },
+    {
+      "question": "Can I use time transformation metrics in linked Mosaic models?",
+      "answer": "Partially. Strategy Software's Mosaic supports time transformation metrics in linked models, but you cannot create the metric across model boundaries — the time attribute and the metric definition must exist within the same model. Existing Previous Period metrics brought in from individual models continue to work for standard aggregations (Sum, Count, Average, Max) after linking.",
+      "accordionEnabled": true
+    },
+    {
+      "question": "How does Mosaic time intelligence differ from building date dimensions in the warehouse?",
+      "answer": "In a traditional setup, time intelligence requires building date dimension tables in the warehouse and writing period logic in SQL, work that involves data engineering and schema changes. Strategy Software's Mosaic Time Intelligence defines the calculation at the semantic layer instead. Adding a new period function is a metric definition in Mosaic Studio, not a schema migration, and the time tables are generated automatically. The tradeoff: Mosaic time transformation metrics are limited to supported aggregation functions (Sum, Count, Min, Max, Avg), so complex custom SQL time logic still belongs in the transformation layer.",
+      "accordionEnabled": true
+    }
+  ],
+  "cta": {
+    "headline": "Ready to Build Time Intelligence Metrics in Mosaic?",
+    "body": "Follow the official documentation to set up time attributes, choose your creation method, and add year-over-year and period-to-date metrics to your semantic layer in minutes.",
+    "buttonText": "View Documentation",
+    "buttonUrl": "https://www2.strategy.com/producthelp/Current/Mosaic/en-us/Content/Create_time_dimension.htm"
+  },
+  "internalLinks": [],
+  "externalLinks": [
+    "https://www2.strategy.com/producthelp/Current/Mosaic/en-us/Content/Create_time_dimension.htm"
+  ],
+  "validationWarnings": [
+    "No author name or publish date found in the document.",
+    "No hero image or video found; heroMedia set to null.",
+    "The embedded image ([IMAGE_EMBEDDED]) has no alt text or caption in the source document; altText left empty and requires human review.",
+    "The Metric Editor bullet contained nested sub-bullets (formula examples); these were collapsed into a single list item string for readability. Human review recommended to decide if formula examples should be a separate code block type.",
+    "No explicit Quick Answer box was present; quickAnswer was written from article content per extraction rules.",
+    "The CTA section at the end of the document ('Build Your First Time Intelligence Metric') was treated as both a body section and the basis for the cta object, using the external documentation URL as the buttonUrl.",
+    "Function release dates (Previous Period since December 2025, Period to Date since March 2026) appear in the FAQ and may be future-dated relative to publication; human review recommended.",
+    "No internal /path URLs were found; internalLinks is empty."
+  ],
+  "_source_file": "TimeIntelligence_BlogDraft.docx"
+}

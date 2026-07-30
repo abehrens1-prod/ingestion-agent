@@ -1,0 +1,1314 @@
+{
+  "notice": "Entry created successfully.",
+  "entry": {
+    "title": "v1 -- The building blocks of context: metadata, semantic layer, ontology, and knowledge graph",
+    "url": "/blog/the-building-blocks-of-context-metadata-semantic-layer-ontology-and-knowledge-graph",
+    "lead_paragraph": {
+      "type": "doc",
+      "attrs": {},
+      "uid": "8f76dd251d3849f189032915629d1522",
+      "children": [
+        {
+          "text": ""
+        }
+      ],
+      "_version": 1
+    },
+    "content": [
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "8333c1bb1fdd4329b7fd63a91a74e340",
+            "children": [
+              {
+                "type": "h3",
+                "uid": "252f097e5b1241be954c5cf28ee3e7e8",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Quick Answer",
+                    "attrs": {
+                      "style": {
+                        "color": "rgb(26, 78, 159)"
+                      }
+                    },
+                    "bold": true,
+                    "font-color": "#fa660f"
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "uid": "b6047ff3b4dc4456be3525c8ac5b0599",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "li",
+                    "uid": "e3ae760d76054aeda430f717304d1ccd",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "32ff6e4b99f84e948dcf8bc5f71c14b9",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "A context layer assembles business meaning at the moment a question is asked"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "79b15453bf814dc9b60fb533aa500124",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "023e248387134f6faefb02313e58793f",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "It combines metadata, business definitions, and relationships so AI understands what your data means at your organization, not just that it exists"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "5e445e632ecb428e9f62fa0da28ddf2d",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "2c270a05f060413cbd859ba64cb0f955",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Without one, AI guesses at your business logic. The guess is often wrong."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "ad3ded78b197433a95f723500e2e92a5",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "6ed7ffee9dfc44848b063594276bcb64",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Strategy Mosaic is the governed semantic layer that makes AI answers consistent, accurate, and trustworthy"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs68af64e8cf0dbb97"
+          }
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "f544baef9dbb4a9b98e7da38ba11874e",
+            "children": [
+              {
+                "type": "p",
+                "uid": "0e6dc635c8c046aaaa5bb5707bf994c7",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Metadata, semantic layer, ontology, knowledge graph, and context layer. These terms are moving from data engineering conversations into executive meetings, and they almost never get defined with any precision, or in a way that everyone can understand."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "faf7714e00ef42e88212a9a4c2701cb2",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "To explain what goes into building context, let's imagine we work at a large video streaming platform. Our goal is to decide whether to renew our latest hit series, Night Market. We'll build each layer and follow it through to the moment an executive gets a governed answer in seconds."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs8df717cd81bdb6c5"
+          }
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "54404e4362404503979a7bf7a85f5cc1",
+            "children": [
+              {
+                "type": "p",
+                "uid": "fba2f8f354154e8daf478d031a8dcba7",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "[IMAGE PLACEHOLDER]",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "f394fd9e33774b2d9470df32a25ff1fd",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Upload asset to Contentstack and replace this placeholder — source: image_0.png"
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "csa10b5cfcae8fbeb8"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "Metadata: data about data",
+          "_metadata": {
+            "uid": "csc876a26ce158254b"
+          },
+          "section_id": "metadata-data-about-data"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "676c1573f36d4fe2b98d13f76a4c1954",
+            "children": [
+              {
+                "type": "p",
+                "uid": "5c54f0ee11d847038804b2bd5f926485",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "When the Night Market show dropped on the platform, it came with a show ID, episode count, genre, release date, and production cost. None of that tells you whether to renew it. All of it describes the show. That's metadata."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "163d6ec444aa4b53a95693ee3de47e13",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "In enterprise data, metadata works the same way. A column called completion_pct has metadata that describes it: what it measures (the percentage of viewers who watched to the end of an episode), who owns it (the data engineering team), how often it refreshes, and what quality checks it has passed."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "5b65dfea2e3540cea12582784df71762",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Metadata makes data findable, governable, and trustworthy. But knowing a metric exists and knowing what it means to your business are different things."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs7a0db7211ea02d40"
+          }
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "586dcf217adc488ea30c7edd99ca5003",
+            "children": [
+              {
+                "type": "p",
+                "uid": "a8bcc3c26f874b8ea23ce7f3eaf9da12",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "[IMAGE PLACEHOLDER]",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "8ac78a9d0e6140aaa5d577f047a94042",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Upload asset to Contentstack and replace this placeholder — source: image_1.png"
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs482c26f35eb408d9"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "The semantic layer: what data means",
+          "_metadata": {
+            "uid": "cs952073b9df44444d"
+          },
+          "section_id": "the-semantic-layer-what-data-means"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "328c003d0ff044e2ad1d0532ce704b62",
+            "children": [
+              {
+                "type": "p",
+                "uid": "2d325763ebeb4c899e16cd453bd4c353",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Metadata tells you what data exists and how it is managed. For example, Night Market has an 87% viewer completion rate. That value is data. Its field name, definition, owner, refresh schedule, lineage, and quality status are metadata."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "c32fefb5f169486f8caf0132eaa07436",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "A semantic layer goes further by defining what that data means to the business and how it should be used to answer questions."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "7364f9290fd54ef0987336e3e93c5493",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "At our streaming platform, \"renewal candidate\" isn't just a phrase, it's a governed definition built on explicit rules:"
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "uid": "3aac43f0aca94098bb0e064306f69b7f",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "li",
+                    "uid": "1597328aa3874551b4a5021c0d2fcfa0",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "3ecd86c7d4a443e68a35ffcc281a0d1f",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Completion rate: Above 80%"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "577e271c279e4696bec58bfe30d3c6c3",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "1bcd6deb1485411caea287b3b1932eb7",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "New subscriber acquisition: Above 10,000 per season"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "261647963b3e43f6ae7ca04e6c10b7b9",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "df4df50091d64816bd36a37c2416f5a5",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Production ROI: Net positive"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "598f392e08ad4373a3865169476b9582",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Those rules live in the semantic layer so everyone, analysts, dashboards, AI agents, use the same definition when the question gets asked."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "cf03838e740441c6bedad2058b623c78",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "a",
+                    "uid": "00f40bdc0cd346129788c2eb0a1f3e7c",
+                    "attrs": {
+                      "url": "https://www.strategy.com/software/blog/semantic-layer-for-ai-metadata-is-not-meaning",
+                      "target": "_blank"
+                    },
+                    "children": [
+                      {
+                        "text": "A data catalog"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " documents the completion rate field. A semantic layer makes sure everyone calculates what \"renewal candidate\" means the same way."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "csefd92b9d8e76d7fa"
+          }
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "4560cc3436534e4c9eac0221209ccb15",
+            "children": [
+              {
+                "type": "p",
+                "uid": "996eab75f0c34c4a87639dfa84d3e343",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "[IMAGE PLACEHOLDER]",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "c8a43f08114448c0901a2b8dbb4aa952",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Upload asset to Contentstack and replace this placeholder — source: image_2.png"
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs37c241d865f7dbe6"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "The ontology: how everything connects",
+          "_metadata": {
+            "uid": "csa0bc73181cf6ca46"
+          },
+          "section_id": "the-ontology-how-everything-connects"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "70125c401ca1494aaf47f54f952c1a4d",
+            "children": [
+              {
+                "type": "p",
+                "uid": "b218c84df59f459dbc9f1fab5ca8d51e",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "An ontology is a model of relationships. Not what data means, but how things relate to each other."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "da14070cf0674d728717c012c39fa0c3",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Night Market isn't just a row in a table. It's connected to a studio contract, a production budget, subscribers, viewing events, release windows, and the broader content slate. That web of connections is an ontology:"
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "ce3f6514d1b34532810fc2365a39f942",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "For example:"
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "uid": "943ac16a772d461097cf12d9c8f545e2",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "li",
+                    "uid": "5918f25b679641b5abb53e36c0a9d5c7",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "9b875ef509e34c4db6e44193a419c944",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Show"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "eb988648727d4b8cac9ffc3efab33cfa",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "e590207731c94951ae595ca6dc2bcad8",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "...has Episodes"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "dc8a0ed37e124734a78d2d30a621af9a",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "5d62db350e8b415585cddcfb574ae9f3",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "...that have Viewership Events"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "4925f133dbfd4012aa81fc922aa35d19",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "8538fa6ec0664e1caefd72abc4cddc7e",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "...that have Subscribers (with a Retention Status)"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "6a1f0b72c2534caba9c824b6c1ecdbf1",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Without an ontology, AI may discover (or invent) relationships, but it has no governed model of how your business is organized. With one, it can navigate your data the way your best analyst does."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs50d9721deb7f1d77"
+          }
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "2299299e04ed4d9eb1d5cb81c9937782",
+            "children": [
+              {
+                "type": "p",
+                "uid": "24ac87e6af674a9e80db57f2587f2054",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "[IMAGE PLACEHOLDER]",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "e226f4a985054c91a63747c81d9072bd",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Upload asset to Contentstack and replace this placeholder — source: image_3.png"
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs709c4e2973d76963"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "The knowledge graph: the blueprint, populated",
+          "_metadata": {
+            "uid": "cs87bdd7d604c74a72"
+          },
+          "section_id": "the-knowledge-graph-the-blueprint-populated"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "e0ba48dc1bbe421dbac400e862102909",
+            "children": [
+              {
+                "type": "p",
+                "uid": "55f82a3c5b3e4792a7255fd90124ac7b",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "An ontology is a blueprint. A knowledge graph is that blueprint filled with real, connected data. So, for Night Market:"
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "d32da70da367476f8eaa708294e427d5",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Night Market (Show #S-2291)",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "uid": "164959f582634318a788ff0b0b3b8612",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "li",
+                    "uid": "b7aba33825dc4b69a1f75363cacabaf3",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "120bc9fa3f58400eaf6849e7d9cc90fe",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "The Node: Thriller, Released March 2026, 8 Episodes, 4.2/5 rating, 2 Emmy nominations."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "9dd42cb4fde64d5fb43a6a0954b09011",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "2a7a82df813b40e69f70964eb39ee8b1",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Connected Viewership: 2.4M views, 87% completion rate."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "904007d402e24b50a7a0d50137ef679e",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "1c13e2265a6143d6a57dc2f606c00c52",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Connected Financials: $4M production cost, 12K new subscribers acquired."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "ef706a829e4e40ac8fcb00991e4cfd3f",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "ee7d4033f15f4b1a9c98f912983b784c",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Contextual Note: Highest-performing debut in the drama category since 2023"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "d5ae6cd2e4ec429dae034d8aa048e963",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Three components make it work: entities (the specific nodes: the show, each episode, each subscriber event), connections (which show drove which subscriber acquisitions, which production budget maps to which slate window), and details (the completion rate, the cost, the rating)."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs789ee76f10a71f73"
+          }
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "4c9f93db344e4e6c9ccab8c31389b9af",
+            "children": [
+              {
+                "type": "p",
+                "uid": "008e7d88e56f4ef19503ed416fe9a0e0",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "[IMAGE PLACEHOLDER]",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "1ec6629768cb426e8496da60e383a5d7",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Upload asset to Contentstack and replace this placeholder — source: image_4.png"
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "csdc308b6853049af3"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "Now we can define context",
+          "_metadata": {
+            "uid": "cs82213dc534844983"
+          },
+          "section_id": "now-we-can-define-context"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "01f2727432924c838d287dc36ea76587",
+            "children": [
+              {
+                "type": "p",
+                "uid": "977740ad51e941cfbad950fc75ae35a1",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Context is the situational awareness that sits on top of everything else."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "131d22ef0313476a8293b622f29954a7",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Here's what it looks like in practice. A VP of Content asks Monday morning, the week after Night Market's season finale: \"Do we greenlight Season 2?\""
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "a83820aa0fc14ab0bd83cb90c5e0eaee",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "To answer that correctly, the system assembles:"
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "uid": "3be0cbcb6bd6410897a6cffc1d14d57a",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "li",
+                    "uid": "95c2989defb943d28ebc3a34d7958f66",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "6f1e7ee39eb345eca391c8d15469221f",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "The content calendar: greenlight window closes in 30 days, Q4 2027 slate has an open slot"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "738402f54c094eb0a2f1c6e115c0ed5e",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "5759855219c04e90a2d4d9061ed8e74f",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "The semantic definition: renewal threshold = retention impact above 8K new subs, completion rate above 75%, production ROI positive"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "006008f0828d44ff86691dd712ba0ce8",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "cd8d4dfaf67f407d92d9abf2bd76402b",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Her role and permissions: VP Content, greenlight authority up to $6M budget"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "c507be1cac224694aca9caae0096346a",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "5fbc6a4246ba418e928547f658268a3c",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Live signals: 12K new subs, 87% completion, $4M cost, estimated $6.2M revenue impact"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "e3be6f27f90246e385fc0fd8cea2a1a3",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The answer: \"Night Market meets all renewal thresholds. Estimated Season 2 ROI positive at $6M budget. Q4 2027 slate has a gap. Greenlight recommended.\""
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "295eea53a9e64e4c98469e18d0edb839",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The context layer doesn't store this. It assembles the right answer for the right person at the right moment."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "3438b808a48d467e9ab5bcfcd53e74a5",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Metadata tells you the completion rate exists. The semantic layer tells you what \"retention impact\" means at your company. The ontology maps Night Market to its subscribers, its budget, its slate window. The knowledge graph holds the live numbers. The context layer pulls it together on demand."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "70b475f5bb5d4ba9a84480e09f760c65",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "As my colleague Henry described, a "
+                  },
+                  {
+                    "type": "a",
+                    "uid": "e9876bd76e0541cdafa865a5e217a6a3",
+                    "attrs": {
+                      "url": "https://software.strategy.com/blog/the-semantic-layer-is-becoming-context-infrastructure-for-ai",
+                      "target": "_blank"
+                    },
+                    "children": [
+                      {
+                        "text": "context layer"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " is the governed system that combines business definitions, relationships, and real-time signals so that AI and analytics tools can reason about your data the way your organization does, not the way a model guesses."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs4dfd9f443fafeb45"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "Do enterprises need all five?",
+          "_metadata": {
+            "uid": "cs2d8bf016c4b1e152"
+          },
+          "section_id": "do-enterprises-need-all-five"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "82d0159fc031430dbf94bae36b5ac145",
+            "children": [
+              {
+                "type": "p",
+                "uid": "30c9623656d94c248e2c8af6d787dd59",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Not as five separate products. Several layers describe and connect your world. The semantic layer settles what the business means."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "2f848b204d064e64a8357db1ef2e5de9",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Metadata can tell you the completion-rate field exists. An ontology can map Night Market to its subscribers, budget, and content slate. A knowledge graph can connect the live facts, while the context layer brings the right information together for the right person at the right moment."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "39cb940665d943ccbdc385c08effa434",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "But none of those capabilities can reliably produce a trusted answer if \"renewal candidate\" means 80% completion in one meeting and 75% in the next. The semantic layer establishes the approved definition and applies it consistently. The final answer is only as trustworthy as the business logic behind it."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cse8094fe7d165f810"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "Where Strategy Mosaic fits",
+          "_metadata": {
+            "uid": "csa2fe7d83d4d794aa"
+          },
+          "section_id": "where-strategy-mosaic-fits"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "910d629b8dc640b5b3333d9ef8dc357d",
+            "children": [
+              {
+                "type": "p",
+                "uid": "1624f86a7d484a6db48b5f72feda672e",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Metadata tells AI where the data lives. An ontology tells it how the business is connected. A knowledge graph provides the facts. But someone still has to apply your company's definitions before an answer is generated."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "a1a4615e13ca4b75a55ae56f294e93eb",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "That's the job of the semantic layer and where "
+                  },
+                  {
+                    "type": "a",
+                    "uid": "563a56bd66b24349afeb5404f0c812dd",
+                    "attrs": {
+                      "url": "https://www.strategy.com/software/strategymosaic",
+                      "target": "_blank"
+                    },
+                    "children": [
+                      {
+                        "text": "Strategy Mosaic"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " fits."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "1f091b319c1840b58d54a05ac9b82c92",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Mosaic is the layer where your business definitions live, where metrics are calculated consistently, and where AI queries get answered deterministically rather than inferred. Most AI tools try to guide the LLM to a better answer. Mosaic takes a different approach: the LLM handles natural language, Mosaic handles the actual data request, applying your business definitions before a single row is read. In head-to-head testing, direct LLM-to-database connections produced an 11.8% wrong answer rate. Mosaic: 0%."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "a2f4a3cdb92a424ba50c94a244b4222c",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "When your VP of Content asks whether to spend $6 million renewing Night Market, an 11.8% chance of the AI hallucinating the retention math isn't an option. The model shouldn't be guessing what your business means. With Strategy Mosaic, it doesn't have to."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs5f25fbc3777bdeb2"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "Frequently Asked Questions",
+          "_metadata": {
+            "uid": "cs2c9eafda80fad7bc"
+          },
+          "section_id": "frequently-asked-questions"
+        }
+      },
+      {
+        "accordion": {
+          "accordion_item": [
+            {
+              "title": "What is a context layer?",
+              "_metadata": {
+                "uid": "cs0694e791058ae85b"
+              },
+              "content": {
+                "type": "doc",
+                "attrs": {},
+                "uid": "29dd571eb17442499549e9cfce8b89bc",
+                "children": [
+                  {
+                    "type": "p",
+                    "attrs": {},
+                    "uid": "5b4fac92da3b45869d3ee1e56ec3ca07",
+                    "children": [
+                      {
+                        "text": "A context layer is the system that assembles business meaning at the moment a question is asked. It combines metadata, semantic definitions, relational structure, and live data so that AI can answer using your organization's actual business logic instead of guessing. Strategy Mosaic works as this layer, applying governed definitions before a query ever touches raw data."
+                      }
+                    ]
+                  }
+                ],
+                "_version": 1
+              }
+            },
+            {
+              "title": "What's the difference between a semantic layer and a data catalog?",
+              "_metadata": {
+                "uid": "cs18e31d4c29b7f44f"
+              },
+              "content": {
+                "type": "doc",
+                "attrs": {},
+                "uid": "3fba283fcddc408c9bbae7d3fc51fd82",
+                "children": [
+                  {
+                    "type": "p",
+                    "attrs": {},
+                    "uid": "a6b62ab439234385a5521dd5ee019833",
+                    "children": [
+                      {
+                        "text": "A data catalog documents that a field exists and describes its metadata — owner, refresh schedule, quality status. A semantic layer goes further by defining what that field means to the business and enforcing that definition consistently across every tool that uses it. Strategy Mosaic applies this distinction directly: cataloging tells you a metric exists, Mosaic makes sure everyone calculates it the same way."
+                      }
+                    ]
+                  }
+                ],
+                "_version": 1
+              }
+            },
+            {
+              "title": "Do you need a semantic layer, an ontology, and a knowledge graph separately?",
+              "_metadata": {
+                "uid": "cs70e210045e4e802c"
+              },
+              "content": {
+                "type": "doc",
+                "attrs": {},
+                "uid": "bb043f9e3f0a4d5a93f6a8491b1fa211",
+                "children": [
+                  {
+                    "type": "p",
+                    "attrs": {},
+                    "uid": "a43040982240400e9097ba4c97a4547d",
+                    "children": [
+                      {
+                        "text": "Not as five standalone products. Metadata, ontology, and knowledge graphs each describe or connect your data, but only a semantic layer settles what the business terms actually mean and applies that meaning consistently. Strategy Mosaic is built as the layer where those definitions live, so an answer means the same thing in every meeting regardless of which other systems supplied the underlying facts."
+                      }
+                    ]
+                  }
+                ],
+                "_version": 1
+              }
+            },
+            {
+              "title": "Why does AI give inconsistent answers without a semantic layer?",
+              "_metadata": {
+                "uid": "csbfc7d5961efadebd"
+              },
+              "content": {
+                "type": "doc",
+                "attrs": {},
+                "uid": "a41e4d24fd0349d58832893a9022a498",
+                "children": [
+                  {
+                    "type": "p",
+                    "attrs": {},
+                    "uid": "2c61b73d12d44469b9bc880ef6130273",
+                    "children": [
+                      {
+                        "text": "Without a governed semantic layer, an AI tool has to infer business logic on its own, and that inference changes depending on the prompt, the model, or the day. In head-to-head testing, direct LLM-to-database connections produced an 11.8% wrong answer rate, while Strategy Mosaic, which applies business definitions before a query runs rather than letting the model guess, produced 0%."
+                      }
+                    ]
+                  }
+                ],
+                "_version": 1
+              }
+            }
+          ],
+          "_metadata": {
+            "uid": "csb08d799678da95e5"
+          },
+          "accordion_options": "closed"
+        }
+      }
+    ],
+    "cta_section": [],
+    "related_posts": [],
+    "seo": {
+      "meta_title": "Building Blocks of Context: Semantic Layer, Ontology & More",
+      "meta_description": "Learn how metadata, semantic layer, ontology, and knowledge graph combine to give AI accurate business context. See how Strategy Mosaic governs it.",
+      "keywords": "semantic layer, knowledge graph, metadata management, context layer for AI, enterprise AI analytics",
+      "social_thumbnail_override": null,
+      "enable_search_indexing": true
+    },
+    "page_properties": {
+      "navigation_title": "",
+      "hide_header_nav": false,
+      "hide_header_cta": false,
+      "hide_footer": false,
+      "disable_global_promo_banner": false,
+      "hide_auto_expert": false,
+      "sfid": "",
+      "marketo_id": "",
+      "cta_section": []
+    },
+    "resource_data": {
+      "date": "2026-07-21T00:00:00.000Z",
+      "type": "Blog",
+      "title": "The building blocks of context: metadata, semantic layer, ontology, and knowledge graph",
+      "description": "Learn how metadata, semantic layer, ontology, and knowledge graph combine to give AI accurate business context. See how Strategy Mosaic governs it.",
+      "featured": false
+    },
+    "tags": [],
+    "publish_date": "2026-07-21T00:00:00.000Z",
+    "author": [
+      {
+        "uid": "blt39093ef8599fa669",
+        "_content_type_uid": "blog_author"
+      }
+    ],
+    "taxonomies": [
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "product_updates"
+      },
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "mosaic"
+      },
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "semantic_layer"
+      },
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "ai_trends"
+      },
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "analytics"
+      },
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "business_intelligence"
+      }
+    ],
+    "locale": "en",
+    "uid": "blte9d62e73da0bfc04",
+    "created_by": "blte12f8d786df2b4b9",
+    "updated_by": "blte12f8d786df2b4b9",
+    "created_at": "2026-07-20T18:10:36.502Z",
+    "updated_at": "2026-07-20T18:10:36.502Z",
+    "ACL": {},
+    "_version": 1,
+    "_in_progress": false
+  }
+}

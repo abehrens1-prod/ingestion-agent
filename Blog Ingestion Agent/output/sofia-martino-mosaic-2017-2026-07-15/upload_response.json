@@ -1,0 +1,836 @@
+{
+  "notice": "Entry created successfully.",
+  "entry": {
+    "title": "v1 -- The Hard Way to Build BI: What I'd Do Differently With Strategy Mosaic",
+    "url": "/blog/the-hard-way-to-build-bi-what-id-do-differently-with-strategy-mosaic",
+    "lead_paragraph": {
+      "type": "doc",
+      "attrs": {},
+      "uid": "8a43fe781da949b2869aa60056d02009",
+      "children": [
+        {
+          "text": ""
+        }
+      ],
+      "_version": 1
+    },
+    "content": [
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "695699031d484f89ac240591c5f7d4e5",
+            "children": [
+              {
+                "type": "h3",
+                "uid": "95fd55635e9c4b6a9d14abfe77c9d7a7",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Quick Answer",
+                    "attrs": {
+                      "style": {
+                        "color": "rgb(26, 78, 159)"
+                      }
+                    },
+                    "bold": true,
+                    "font-color": "#fa660f"
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "uid": "d2811324bac74bdcaa325f45db2d2bd4",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "li",
+                    "uid": "aed4c5ad9033431eb738b46cbf703283",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "60a6d9697960442dbdf5e1852c0a59a3",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Building BI without governed business logic means rebuilding from scratch every time.",
+                            "bold": true
+                          },
+                          {
+                            "text": " Without a semantic layer, teams spend months hand-classifying data and recreating metrics inside every individual report."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "100a48cb54c04bf79d84ea4373b5e63b",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "268d8f1bddb5497bbea64b647161da2b",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "A semantic layer separates business logic from the data pipeline, enabling faster delivery.",
+                            "bold": true
+                          },
+                          {
+                            "text": " Strategy Mosaic lets teams define metrics once and reuse them everywhere, reducing time-to-insight and accelerating adoption."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "4e9ea40d8d334ee88e318d31abe7d1bc",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "6e41e62a21b64d759137bc650a68d8fb",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Parallel development of semantic layer and ETL shortens the road to trusted analytics.",
+                            "bold": true
+                          },
+                          {
+                            "text": " Business logic can shape the pipeline, and the pipeline refines the logic — both evolve together rather than sequentially."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "csf69660a761dfd499"
+          }
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "23a8ee08eb7445b19319de606b5f1369",
+            "children": [
+              {
+                "type": "p",
+                "uid": "6cc66b3532894de287eeffae771aee4c",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "I started working at a Fortune 500 beverage company in 2016, in Finance. Less than a year in, I found myself in an elevator with the VP of Digital Transformation. I'd just heard him give a talk on the digital revolution. He told us that his own area would eventually get diluted. That digital work wouldn't stay centralized and would spread into every team, everywhere."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "eb51397a12034e048b0813b481deaa0f",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "He was right. But getting there took a long road of adoption, one team, one habit, one dashboard at a time. Six months later, he asked me to join his team as a Data Science Manager."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "fdc967a99fc24d8e810445444bd94639",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The project was a D2C platform for convenience stores in more than 14 countries. And it was, in every sense, uncharted territory."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "48680955456742548a08ead66a0a3d56",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "This was the first time the company had access to consumer-level data. No distributor in between. No wholesaler smoothing out the signal. Just raw, messy, individual purchase behavior, where my job was to build analytics and BI that people could trust and act on."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs24a2509265a187ca"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "The data was there. The business logic wasn't.",
+          "_metadata": {
+            "uid": "cs226d46a67e49ed28"
+          },
+          "section_id": "the-data-was-there-the-business-logic-wasn-t"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "3178f20747394c41b47869a84a0676f6",
+            "children": [
+              {
+                "type": "p",
+                "uid": "1af1c3a2d56341a794386a75ee9ba11b",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Calling it \"data science\" felt generous. The first job was really archaeology. We were digging through a database that had been designed for market speed, not business understanding."
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "uid": "2b42107b64be4e068206ffef90af9581",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "li",
+                    "uid": "2e06e819642b4c1895b4e447def21d3e",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "66d9d20c195b472db6fb68ff2927fec6",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "No brand clustering: Our own soda, a partner energy drink, another partner's snack brand, and two different partner personal-care brands, all living in the same undifferentiated chaos."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "a65bbc9094e74efd92666195ef0c5b35",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "91ce301c26be44a09d342a65d8a24e2d",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "No naming conventions: Literally 15 different ways to write our own flagship soda brand's name"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "624866d54bb54c6f9ad3506e9f3d1a61",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "c8eca085d2e54d6c806fa8c88655d423",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "No analytics categories: No snacks, home care, beverages, alcoholic/non-alcoholic, or ready-to-drink labels to simplify data management."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "6273417382fe49ec9e036a7e51bfb1ba",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Moreover, the \"fact tables\" I found weren't built for analysis. Geolocation had no city mapping, timestamps were in the wrong format for delivery, and data fields were either empty or unfiltered."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "9a0732f0131e45d28874993817afa184",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "This meant I had no metrics at all:",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "uid": "ba50cffecc60483f9fb35eec3f140f35",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "li",
+                    "uid": "be818eb6313548cb8ba7a51ef595384f",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "174cbb13b26d4c1aa33c0d6452fc5805",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "No way to identify which products were even ours."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "08b70d26c0884e62830a39eeb11f1b0f",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "16234cf3475e464ab1ce63e50286dbdf",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "No way to understand brand incidence."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "5a7e66c6c07d4a67b62fbc73a42d751f",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "1d740eb56e72484cb16baa44563eeada",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "No way to read GMV, orders, or ticket size by city."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "11de0e4da47b42b9882ce1f0b9623544",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "What I really wanted, even if I didn't have the word for it yet, was a "
+                  },
+                  {
+                    "type": "a",
+                    "uid": "9254820ecaeb4570a85aa8933bd60d17",
+                    "attrs": {
+                      "url": "https://software.strategy.com/what-is-a-semantic-layer",
+                      "target": "_blank"
+                    },
+                    "children": [
+                      {
+                        "text": "Semantic Layer"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs8226fa9067dc2344"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "My light-bulb moment: From single dashboards to unified intelligence",
+          "_metadata": {
+            "uid": "cs229f7a5523f9d752"
+          },
+          "section_id": "my-light-bulb-moment-from-single-dashboards-to-unified-intelligence"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "3f21febe6d2f467b9542a27ed7abd2a5",
+            "children": [
+              {
+                "type": "p",
+                "uid": "74b3c5d074564e9fb0d03f7aa04c7b20",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "One day, while I was painstakingly sifting through this chaos, my VP asked me for a favor: Could I put together an Excel file to understand how our flagship flavor line was performing on the platform?"
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "20701f0f94354d2e9c803954831eec3d",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "I said, \"Sure, give me 10 minutes.\" "
+                  },
+                  {
+                    "text": "(By midnight, I had managed to build a Power BI report, after classifying 2,000 SKUs by hand, just to see how it stacked up against total GMV.)",
+                    "italic": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "7d6282865b724348ad4ca52dd2b6382c",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "I walked back to my desk the next morning and asked myself a question that's stuck with me ever since: "
+                  },
+                  {
+                    "text": "What if, instead of building individual dashboards, I could show how everything was purchased?",
+                    "bold": true
+                  },
+                  {
+                    "text": " Alongside our snacks, a partner's product, and everything else in one basket."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "c89519b48a00407685c631a84c0c10eb",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "And then I drilled deeper. That \"basket analysis\" would have let us:"
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "uid": "053d7629b898461c9103e9bb27afcf6c",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "li",
+                    "uid": "3eb0f8fa36714b7db0ff52d3a814f36f",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "2ad39ca131a24a6f8b683de37a06da37",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Build consistent product names, tags, clusters, and categories for clarity."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "f5bdd61fbd0044a784d7630957d59686",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "12affecc367142518c10789cd86a9837",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Define product combinations that were both accurate and genuinely profitable."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "d565d8156f6f4bbaa57ab7b84d9dbd09",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "d99874745b23421f9989a797a5cb1719",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Compare flagship product performance against joint purchase behavior."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cse9ab81b7e6cc8a89"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "Building BI the hard way.",
+          "_metadata": {
+            "uid": "cs003f29f59d547e58"
+          },
+          "section_id": "building-bi-the-hard-way"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "f9a3a9b54dae4019b8ffce5a2ed70484",
+            "children": [
+              {
+                "type": "p",
+                "uid": "0212a3b3be024a41bcf7f6ec10432a2b",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Here's what actually happened."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "c33dee73393b4b679426514c5c40cc40",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "I built 18 reports for 14 country managers. All I had was access to CSVs and a handful of platforms like Apps Flyer to track in-app behavior. Eventually, I managed to get a team assigned to build something resembling a semantic layer on Azure Analysis Services, but not quite."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "70d04ae9948d46849be2f9b3eda647b8",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "That took an entire year of work.",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "9d69f5985ee6405c882317de67dc1755",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "I had to bend every existing tool I had into replicating what I truly needed: "
+                  },
+                  {
+                    "text": "consistent, governed business logic, built directly on top of the data stack.",
+                    "italic": true
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs26db9db27a54d8b8"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "What If I had Mosaic to streamline BI analytics?",
+          "_metadata": {
+            "uid": "cs5abb49d40078abcc"
+          },
+          "section_id": "what-if-i-had-mosaic-to-streamline-bi-analytics"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "fb11ea9a3bcc4a31892ad053cc1597fa",
+            "children": [
+              {
+                "type": "p",
+                "uid": "3df64c632a744b119fe7577377dbcd03",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Looking back, having "
+                  },
+                  {
+                    "type": "a",
+                    "uid": "c1a05ed68bdb43e694f8d61c5b1985a3",
+                    "attrs": {
+                      "url": "https://strategysoftware.com/strategymosaic",
+                      "target": "_blank"
+                    },
+                    "children": [
+                      {
+                        "text": "Strategy Mosaic"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " would have helped us separate two critical elements:"
+                  }
+                ]
+              },
+              {
+                "type": "ol",
+                "uid": "a20bb72164074bf488bf30556c22cec5",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "li",
+                    "uid": "c71ee5adca994edda829b72c70f84e6a",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "fea1ad4f29864a4583aefa6f286c2ca6",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "The semantic layer: Metrics, attributes, relationships, and governed business logic."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "940bb088773b47acadb114e2ca27000c",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "9db46feb49a64df8a4d5473cce9c1538",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "The data pipeline: The ETL work needed to connect backend databases with the tools the business used to surface insights."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "550bd945d83847fb9ad8544a695c273e",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "That separation would have changed how the project was built. Instead of waiting for ETL work to finish before defining the business logic, we could have built the semantic layer in parallel."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "9b4abcf0c9b54e7699a1539b372768aa",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "That would have reduced development time and shortened time-to-insight. Adoption would likely have moved faster too, because business users would have seen trusted, usable metrics earlier. From day one, the CEO and Board would have had a clearer view of the project's value and momentum."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "4b2602af5ebd48c8a31b5a9eb20221da",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Mosaic would have helped turn that chaotic data into reusable business logic by standardizing product definitions, aligning categories, and creating governed metrics that everyone could trust. Instead of rebuilding that logic manually inside a Power BI report, we could have defined it once and reused it wherever insights were needed."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "87d12395563242c2bafb02682601df3b",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "With Mosaic, designing the semantic layer helps define what ETL work is actually needed. Business logic shapes the pipeline, and the pipeline helps refine the business logic. Instead of moving in a straight line, both evolve together."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "d329606bb2da4243bb400627fcf1d4c0",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The result is two outcomes built together: "
+                  },
+                  {
+                    "text": "a properly scoped data pipeline and a governed semantic layer that the business can trust.",
+                    "bold": true
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs5aafbfb634743ee6"
+          }
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "97452814ad5e4dfaa70867e9d154df06",
+            "children": [
+              {
+                "type": "p",
+                "uid": "28039da2908847bda1aa27700e0aefc4",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "[ PROMO PLACEHOLDER — Replace with Promo block in Contentstack editor ]"
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "a73b59e21ef24ff28c8bc01026fcf3d0",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "CTA: \"Stop rebuilding business logic one report at a time.\""
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "1d375a793d6f4a2ca935774e912f675d",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Button: Explore Strategy Mosaic"
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs3ee8215e6d2db8c2"
+          }
+        }
+      }
+    ],
+    "cta_section": [],
+    "related_posts": [],
+    "seo": {
+      "meta_title": "The Hard Way to Build BI: What I'd Do Differently",
+      "meta_description": "Discover how a semantic layer changes BI delivery. Learn what Strategy Mosaic does differently to govern metrics, cut rebuild cycles, and accelerate trusted",
+      "keywords": "semantic layer for enterprise BI, governed business logic, BI strategy for analytics leaders, metrics governance platform, enterprise analytics acceleration",
+      "social_thumbnail_override": null,
+      "enable_search_indexing": true
+    },
+    "page_properties": {
+      "navigation_title": "",
+      "hide_header_nav": false,
+      "hide_header_cta": false,
+      "hide_footer": false,
+      "disable_global_promo_banner": false,
+      "hide_auto_expert": false,
+      "sfid": "",
+      "marketo_id": "",
+      "cta_section": []
+    },
+    "resource_data": {
+      "date": "2026-07-16T00:00:00.000Z",
+      "type": "Blog",
+      "title": "The Hard Way to Build BI: What I'd Do Differently With Strategy Mosaic",
+      "description": "Discover how a semantic layer changes BI delivery. Learn what Strategy Mosaic does differently to govern metrics, cut rebuild cycles, and accelerate trusted",
+      "featured": false
+    },
+    "tags": [],
+    "publish_date": "2026-07-16T00:00:00.000Z",
+    "author": [
+      {
+        "uid": "blt5b16efba1c729a77",
+        "_content_type_uid": "blog_author"
+      }
+    ],
+    "taxonomies": [
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "product_updates"
+      },
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "mosaic"
+      },
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "semantic_layer"
+      },
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "ai_trends"
+      },
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "analytics"
+      },
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "business_intelligence"
+      }
+    ],
+    "locale": "en",
+    "uid": "blt7e9379155e59d817",
+    "created_by": "blte12f8d786df2b4b9",
+    "updated_by": "blte12f8d786df2b4b9",
+    "created_at": "2026-07-15T13:02:23.587Z",
+    "updated_at": "2026-07-15T13:02:23.587Z",
+    "ACL": {},
+    "_version": 1,
+    "_in_progress": false
+  }
+}

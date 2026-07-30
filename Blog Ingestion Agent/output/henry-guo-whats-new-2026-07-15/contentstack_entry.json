@@ -1,0 +1,1026 @@
+{
+  "entry": {
+    "title": "v1 -- July 2026: Portable Semantics, AWS Bedrock AI, and Safer Analytics Deployments",
+    "url": "/blog/july-2026-portable-semantics-aws-bedrock-ai-safer-analytics-deployments",
+    "lead_paragraph": {
+      "type": "doc",
+      "attrs": {},
+      "uid": "245d2d966cbe47d58883641cf2fec212",
+      "children": [
+        {
+          "text": ""
+        }
+      ],
+      "_version": 1
+    },
+    "content": [
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "457fadc0c2e148df9119ffe30d89d629",
+            "children": [
+              {
+                "type": "h3",
+                "uid": "6eb44ce224da494186b14882d33347e1",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Quick Answer",
+                    "attrs": {
+                      "style": {
+                        "color": "rgb(26, 78, 159)"
+                      }
+                    },
+                    "bold": true,
+                    "font-color": "#fa660f"
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "uid": "647ee5de38554d65999cd0f95db225cb",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "li",
+                    "uid": "1be1917b0ae34c2a8216a01247567212",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "d0c46d4c88f941a5a30d0bd3c24155f3",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Strategy Software's July 2026 release reduces handoffs across Mosaic, AI, and BI."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "9e38e09d1d174609ad59af3c5a7ad961",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "e2d6440d11c644fc9b886377fcc5a396",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "In Mosaic, teams can map Mosaic Models to Mosaic Schema for inherited governance and import or export semantic assets as OSI YAML."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "3d751f60d74145b3a230c5d0dccc73ca",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "0a07c4befed3486da355383f38fb09b6",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "In AI, Strategy AI can connect to AWS Bedrock inside the customer's approved cloud architecture."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "158ac3eafaec444eaf19bd87ae51878a",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "11ab85044aba41148fb5d7c69bc141a3",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "In BI, administrators can promote content across trusted environments from Workstation Web, and business teams can build native Gantt views directly in Strategy."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "dc636bb153004f79a2d07f12eb31a027",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "7cd3e553e9574dd990d5f5b775d964ce",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Together, these updates reduce the places where semantics, AI choices, deployments, and business workflows can drift apart."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "csa2f85b4cf3d9d0b2"
+          }
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "2ad7213a86e14299990d5cda94921d4c",
+            "children": [
+              {
+                "type": "p",
+                "uid": "63b5520780944dedb85e56f341f2a3da",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Most enterprise analytics problems do not start with a bad dashboard. They start with a handoff."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "1aaacd5ebdaf4083ba7c1a65d585598d",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "A self-service model gets rebuilt outside governance. Semantic definitions move into a file that no one quite owns. A promotion to production depends on a fragile desktop workflow. An AI pilot uses an approved model provider, but runs outside the controls of the analytics platform. A project schedule lives in one tool while the metrics that explain the work live somewhere else."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "5be28da094b144e28b886f5589a6e214",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Each one looks small on its own, but together they are where trust in the analytics breaks down."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "3cc9eea1f19b4e52bdbe9449eb8903b7",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "July 2026 is about making those connections stronger. Mosaic semantics, AI model choice, and BI operations should not have to live in separate lanes."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs31cb45979f36ae3e"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "Mosaic: portable semantics without shadow governance",
+          "_metadata": {
+            "uid": "cs7878c6aff1a5063e"
+          },
+          "section_id": "mosaic-portable-semantics-without-shadow-governance"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "083db2b76cb64348ae03aee38400710d",
+            "children": [
+              {
+                "type": "h4",
+                "uid": "5b11dd868e2d4af3aeec5bdd8e6c2284",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "",
+                    "font-color": "#fa660f"
+                  }
+                ]
+              },
+              {
+                "type": "h4",
+                "uid": "ac9747db4bfb4bbd942762409353fbad",
+                "attrs": {},
+                "children": [
+                  {
+                    "font-color": "#fa660f",
+                    "text": "Map Mosaic Models to Mosaic Schema"
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "b5acea99571844dba0c0d8d189bc346d",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Self-service semantic modeling only scales when speed does not create a second governance system. If every team recreates access rules inside its own model, the organization gains momentum and risk at the same time."
+                  }
+                ]
+              },
+              {
+                "type": "blockquote",
+                "uid": "c0c2e242a41b4204bbd370f318026815",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "p",
+                    "uid": "4e34fd9031f241da80f581c9039b8cf1",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "text": "Ungoverned speed is still risk. It just arrives faster.",
+                        "attrs": {
+                          "style": {
+                            "color": "rgb(0, 61, 91)"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "fd8c30227eb54a52ada0bae2d1dc2f04",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Mosaic Models can now be mapped to existing Mosaic Schema attributes so they inherit centrally defined dimensions, object ACLs, and row-level security filters. The mapping is configured in Mosaic Studio. Once mapped, the model follows rules already defined in Mosaic Schema without separate security logic to rebuild, review, or audit. Attributes can be unmapped at any time to return to default model behavior."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "21ecbe31899640a6aa7aa34ba8da1642",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The controls carry through to dashboards, Hypercards, Agents, subscriptions, and caches. Data teams move faster because they are not rebuilding the same guardrails over and over. Administrators have fewer parallel rules to chase. Business users get models that are easier to use and safer to trust."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "c45be37be2ae4388b48cb98edf8fc430",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "For enterprises trying to scale Mosaic Models, self-service becomes an extension of governed semantics, not an exception to it."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "140333b8543f483cb33fe5153118b614",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Image: ",
+                    "bold": true
+                  },
+                  {
+                    "type": "a",
+                    "uid": "a32a4800602147ab9c21ce601424ac2e",
+                    "attrs": {
+                      "url": "https://microstrategy.sharepoint.com/:i:/r/sites/MKT/Shared%20Documents/MKT%20-%20Product%20Marketing/Source%20Files%20for%20PMM%20Assets/Quarterly%20What%27s%20New%20Product%20Release/What%27s%20New%20Images/26.07_map_model_to_schema_pt1.png?csf=1&web=1&e=RSGi0B",
+                      "target": "_blank"
+                    },
+                    "children": [
+                      {
+                        "text": "26.07_map_model_to_schema_pt1.png"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs12b2be23d6db327f"
+          }
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "1f7d3f58029542cbb6cc3ca43bbf3787",
+            "children": [
+              {
+                "type": "h4",
+                "uid": "21d777b953d44056b18c69201b265648",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "",
+                    "font-color": "#fa660f"
+                  }
+                ]
+              },
+              {
+                "type": "h4",
+                "uid": "edd0dd5e4e4e404c8a1228d92f582e44",
+                "attrs": {},
+                "children": [
+                  {
+                    "font-color": "#fa660f",
+                    "text": "Import and export Mosaic Models as Apache Ossie (Incubating) YAML"
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "04a5facbd1f944a68623f15853b74ba3",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "A team importing an existing model, or exporting one to another tool, needs a shared format, not a workaround. Open standards matter most when they reduce friction without creating a new place for truth to drift."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "6482686a45b8445f817c879349fd7de3",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Mosaic can now import and export semantic information using "
+                  },
+                  {
+                    "type": "a",
+                    "uid": "4ccb8bd25ffa45dc862b73991a80b45d",
+                    "attrs": {
+                      "url": "https://ossie.apache.org/",
+                      "target": "_blank"
+                    },
+                    "children": [
+                      {
+                        "text": "Apache Ossie"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " (Incubating), formerly Open Semantic Interchange. This gives teams a standardized way to exchange semantic models across platforms while keeping Mosaic as the governed system of record for refining, securing, and maintaining enterprise business logic."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "1a7e91569a4049d8ac5407a32de4ab38",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "A file is fine for moving definitions between systems. It is a poor place to govern enterprise business logic. With this open standard support, teams can onboard existing semantic work, collaborate across a broader ecosystem, and reduce lock-in without scattering definitions across disconnected files, all while Mosaic stays the accountable home for how those models are maintained."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs22f0abcea6af28a3"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "AI: approved model choice inside governed analytics",
+          "_metadata": {
+            "uid": "cs6fcf2cc642aec8a6"
+          },
+          "section_id": "ai-approved-model-choice-inside-governed-analytics"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "fa28eb00b4cb4e75831dee7ad4b05a31",
+            "children": [
+              {
+                "type": "h4",
+                "uid": "87d9f3dc88da43ddae080ec991ad1415",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "",
+                    "font-color": "#fa660f"
+                  }
+                ]
+              },
+              {
+                "type": "h4",
+                "uid": "5586e8317b044561a6e91d723d0c2538",
+                "attrs": {},
+                "children": [
+                  {
+                    "font-color": "#fa660f",
+                    "text": "Certified AWS Bedrock Integration for AI Workloads"
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "503d0aeda7164b17bc0e378b8b6568c1",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "AI platform decisions are no longer theoretical. Many enterprises have already made their AI infrastructure decisions. They know which cloud environments are approved, which model providers are allowed, and which controls need to stay in place. Analytics should fit into that architecture, not route around it."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "656de585f8694b13931a5800d9b4fbd4",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Strategy AI can now connect to a customer's own AWS Bedrock environment and use selected models, including Llama, GPT-OSS, and Cohere. Strategy invokes those models directly on the customer's Bedrock tenant through native AWS APIs."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "5b6367f1ac6e45628935112a99fea50b",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Strategy AI keeps those workloads inside the cloud model environment the enterprise has already approved. Teams that standardize on Bedrock do not need to route analytics AI through a separate, less governed path."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "d2f5d32730014522bc78ec3b4e13bf36",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Enterprise AI adoption depends on fit as much as model capability, and the harder work is usually not picking another model but making approved models usable inside governed workflows."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "a660f52562264bb5943e777c57433f72",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Image: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "N/A",
+                    "bold": true
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cse3e95fb6b6bcdbaa"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "BI: safer deployments and timelines in the flow of work",
+          "_metadata": {
+            "uid": "csa3dd9b14edfaaab8"
+          },
+          "section_id": "bi-safer-deployments-and-timelines-in-the-flow-of-work"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "b901f0918bac4fa1b4c2fe45d0a17329",
+            "children": [
+              {
+                "type": "h4",
+                "uid": "2034f28f97f2497b9e9af13143d78d43",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "",
+                    "font-color": "#fa660f"
+                  }
+                ]
+              },
+              {
+                "type": "h4",
+                "uid": "53966ce99f314558bd016f5621a7f68d",
+                "attrs": {},
+                "children": [
+                  {
+                    "font-color": "#fa660f",
+                    "text": "Trusted Multi-Environment Workflows in Workstation Web"
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "dd6c04b81ce04a8d9762ca2dd1c4a615",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Moving analytics work from development to test to production is where BI administration stops being content management and starts becoming release management. It is also where risk shows up."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "f7e0aee01a264dc5b8ad9dc51acd2d38",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "A package can move forward too early. A change can break a dependent report. A production environment can become the place where problems are discovered instead of the place where trusted analytics run."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "d852424eec374c9d9ed7c11df4f13cb4",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Workstation Web now supports trusted connections between Strategy environments. Administrators can establish explicit trust between development, test, and production environments, then promote content through migrations, reverse migrated packages when needed, and duplicate projects across connected environments from the browser."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "d240bd6ea6874d158a787710a6fcd197",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Platform and distributed administrators both benefit: less time in desktop tooling, more control from the browser. Promotion, rollback, and project duplication move closer to the release discipline enterprises already expect from modern software delivery."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "csa0d8974d647b5b3a"
+          }
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "22fba0bc254b41c5bd8a6d6476fded01",
+            "children": [
+              {
+                "type": "h4",
+                "uid": "f033c734bf994534bf0b26c6c5d0c6b9",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "",
+                    "font-color": "#fa660f"
+                  }
+                ]
+              },
+              {
+                "type": "h4",
+                "uid": "fce736724456454190367c270c04785f",
+                "attrs": {},
+                "children": [
+                  {
+                    "font-color": "#fa660f",
+                    "text": "Plan Timelines with New Gantt Chart"
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "df0009901f0040cf913d01e6a64e3adb",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Not every important business question is a metric. Some questions are about sequence, timing, overlap, dependency, and progress."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "f0bf8909e41a411781ae17f32e0d1f6e",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Strategy now includes an out-of-the-box Gantt chart. Teams can build timeline views using existing attributes and metrics such as tasks, owners, start dates, end dates, status, and progress. Project portfolios, campaigns, implementation schedules, resource plans, and operational workstreams can be visualized directly in Strategy."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "9b0eaf48485f4c37bd1facbbde4de9b4",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Project timing, ownership, and dependencies should not have to leave the governed analytics environment just because they are easier to see on a timeline."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "6e9a49695a2b42c79c852e5c3916ef44",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Instead of exporting project data into a separate planning view, teams can analyze timing, status, and ownership alongside the governed metrics they already use. A campaign team can see milestones next to performance. An operations team can track workstreams against status. A delivery team can understand not only what is happening, but when work is supposed to move."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "fdcf3c0fe1b64a288162b3934b7bf203",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Operational sequence stays closer to the same governed data plane used to run the business."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "csea5c06c8cbc4ec3d"
+          }
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "c9c71fd3e5214ecc94df4cef6bddde16",
+            "children": [
+              {
+                "type": "p",
+                "uid": "515db18455ba4f50a46cb1869aa34a54",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "[IMAGE PLACEHOLDER]",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "ff5922df852042e6a85f0f2f0be06f26",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Upload asset to Contentstack and replace this placeholder — source: Gantt chart visualization in Strategy"
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "csaee73b3feb0bde32"
+          }
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "33fa8ef4f283439a80e97f51facb6448",
+            "children": [
+              {
+                "type": "h4",
+                "uid": "aa9e977bc6c04d26b4de6832c3af8ac5",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "",
+                    "font-color": "#fa660f"
+                  }
+                ]
+              },
+              {
+                "type": "h4",
+                "uid": "a26a90493080476795b0af9d8b5ea672",
+                "attrs": {},
+                "children": [
+                  {
+                    "font-color": "#fa660f",
+                    "text": "The Core Pillars"
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "6d24a1a403604d7287af607d502dd07f",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The July release makes Mosaic stronger in the places enterprise customers care about most: governance, openness, AI choice, and day-to-day usability."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "bbeccd2e898c4e8ea782f3234ae2caef",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Mosaic Models now connect more naturally to the governance customers have already built in Mosaic Schema, so teams can move faster without creating another layer of rules to manage. OSI YAML makes semantic assets easier to move across tools, while Mosaic remains the place where business meaning is maintained and trusted. Strategy AI can work with AWS Bedrock in the customer's approved cloud architecture, instead of forcing AI into a separate path. Workstation Web gives administrators a cleaner way to manage trusted deployments from the browser. And with native Gantt charts, teams can bring timelines, ownership, and progress into the same analytics experience they already use to understand the business."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "c0c3f5af3ccb49c6ba38a86c501d9d6a",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Learn more about these July updates on our What's New page and product documentation."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs8fbef09b6b845ef1"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "Frequently Asked Questions",
+          "_metadata": {
+            "uid": "csef7346e464ee1e0b"
+          },
+          "section_id": "frequently-asked-questions"
+        }
+      },
+      {
+        "accordion": {
+          "accordion_item": [
+            {
+              "title": "What is included in the Strategy Software July 2026 release?",
+              "_metadata": {
+                "uid": "cs51c85098a204c5e0"
+              },
+              "content": {
+                "type": "doc",
+                "attrs": {},
+                "uid": "d0b104411b8e4ca08f3db214f1b53380",
+                "children": [
+                  {
+                    "type": "p",
+                    "attrs": {},
+                    "uid": "3ae6fa23fc56429b9f607f124d2f3bb0",
+                    "children": [
+                      {
+                        "text": "The July 2026 release includes five updates across Mosaic, AI, and BI: Mosaic Model mapping to Mosaic Schema, OSI YAML import and export for Mosaic Models, certified AWS Bedrock integration for Strategy AI workloads, trusted multi-environment workflows in Workstation Web, and a native Gantt chart."
+                      }
+                    ]
+                  }
+                ],
+                "_version": 1
+              }
+            },
+            {
+              "title": "Does mapping Mosaic Models to Mosaic Schema slow down self-service teams?",
+              "_metadata": {
+                "uid": "cs6faa35650c32ca6e"
+              },
+              "content": {
+                "type": "doc",
+                "attrs": {},
+                "uid": "6b4b42ca8aef4db4831435e37581c510",
+                "children": [
+                  {
+                    "type": "p",
+                    "attrs": {},
+                    "uid": "d34aaefc68814499b8920fbe5b41bc47",
+                    "children": [
+                      {
+                        "text": "No. The goal is the opposite. Teams can build Mosaic Models faster while inheriting the governance already defined in Mosaic Schema. That means less duplicated security work, fewer parallel rules to manage, and a cleaner path for self-service modeling to scale without becoming shadow governance."
+                      }
+                    ]
+                  }
+                ],
+                "_version": 1
+              }
+            },
+            {
+              "title": "Why does OSI YAML matter if Mosaic is still the governed model?",
+              "_metadata": {
+                "uid": "cs91c7682e7680da13"
+              },
+              "content": {
+                "type": "doc",
+                "attrs": {},
+                "uid": "a21fb16d68bb45d9995e87c3c9793d9f",
+                "children": [
+                  {
+                    "type": "p",
+                    "attrs": {},
+                    "uid": "1ea484e18a5c482fac1aa6c9c8f89a00",
+                    "children": [
+                      {
+                        "text": "Because openness and governance need to work together. OSI YAML gives teams a standard way to move semantic assets across tools, but Mosaic remains the place where business meaning is refined, secured, and maintained. The point is portability without letting definitions drift into disconnected files."
+                      }
+                    ]
+                  }
+                ],
+                "_version": 1
+              }
+            },
+            {
+              "title": "How does AWS Bedrock support help enterprise AI teams?",
+              "_metadata": {
+                "uid": "cs8142c444987aac82"
+              },
+              "content": {
+                "type": "doc",
+                "attrs": {},
+                "uid": "5b78d65dbe1746bd98dc9a9ff234846a",
+                "children": [
+                  {
+                    "type": "p",
+                    "attrs": {},
+                    "uid": "9e3452965ff448f094455dca14bf08c8",
+                    "children": [
+                      {
+                        "text": "Enterprise AI infrastructure choices are usually made before analytics teams get involved. With AWS Bedrock support, Strategy AI can work inside the customer's approved AWS architecture instead of forcing teams down a separate path. That makes AI adoption easier to align with existing infrastructure, security, and governance decisions."
+                      }
+                    ]
+                  }
+                ],
+                "_version": 1
+              }
+            },
+            {
+              "title": "Why do trusted multi-environment workflows in Workstation Web matter?",
+              "_metadata": {
+                "uid": "cs7c4c5b847f26f7f8"
+              },
+              "content": {
+                "type": "doc",
+                "attrs": {},
+                "uid": "d2fb5036a9584b0ea0051a9378e1cb2e",
+                "children": [
+                  {
+                    "type": "p",
+                    "attrs": {},
+                    "uid": "39b4d559ec5d4c3da741aa60fa079fe9",
+                    "children": [
+                      {
+                        "text": "Enterprise BI changes need the same discipline customers expect from software delivery. Workstation Web now gives administrators a browser-based way to establish trust between environments, promote content, reverse migrated packages when needed, and duplicate projects across connected environments. That gives deployment of the same audit trail and rollback discipline as a software release."
+                      }
+                    ]
+                  }
+                ],
+                "_version": 1
+              }
+            },
+            {
+              "title": "Why add Gantt charts to Strategy?",
+              "_metadata": {
+                "uid": "cs4571d68ce0200da9"
+              },
+              "content": {
+                "type": "doc",
+                "attrs": {},
+                "uid": "bf548d5ca1894d1eaf2dcaa03c13ed03",
+                "children": [
+                  {
+                    "type": "p",
+                    "attrs": {},
+                    "uid": "2977e5177de942ed8175eb305f223bba",
+                    "children": [
+                      {
+                        "text": "Because timelines often explain what the metrics alone cannot. A campaign milestone, implementation delay, resource conflict, or project dependency can change how teams interpret performance. The native Gantt chart brings tasks, owners, dates, status, dependencies, and progress into Strategy, so teams can analyze execution alongside the governed data they already use to run the business."
+                      }
+                    ]
+                  }
+                ],
+                "_version": 1
+              }
+            }
+          ],
+          "_metadata": {
+            "uid": "cs9385eafcf8488580"
+          },
+          "accordion_options": "closed"
+        }
+      }
+    ],
+    "cta_section": [],
+    "related_posts": [],
+    "seo": {
+      "meta_title": "July 2026: Portable Semantics, AWS Bedrock AI & Safer Analytics",
+      "meta_description": "Strategy's July 2026 release cuts analytics handoffs with portable semantics, AWS Bedrock AI, and governed BI deployments.",
+      "keywords": "portable semantic layer, enterprise analytics governance, AWS Bedrock analytics integration, governed BI deployment, semantic drift prevention",
+      "social_thumbnail_override": null,
+      "enable_search_indexing": true
+    },
+    "page_properties": {
+      "navigation_title": "",
+      "header_color": null,
+      "hide_header_nav": false,
+      "hide_header_cta": false,
+      "hide_footer": false,
+      "disable_global_promo_banner": false,
+      "hide_auto_expert": false,
+      "sfid": "",
+      "marketo_id": "",
+      "cta_section": []
+    },
+    "resource_data": {
+      "date": "2026-07-17",
+      "type": "Blog",
+      "title": "July 2026: Portable Semantics, AWS Bedrock AI, and Safer Analytics Deployments",
+      "description": "Strategy's July 2026 release cuts analytics handoffs with portable semantics, AWS Bedrock AI, and governed BI deployments.",
+      "featured": false
+    },
+    "tags": [],
+    "publish_date": "2026-07-17",
+    "author": [
+      {
+        "uid": "bltc4039c14acf38817",
+        "_content_type_uid": "blog_author"
+      }
+    ],
+    "taxonomies": [
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "product_updates"
+      },
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "mosaic"
+      },
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "semantic_layer"
+      },
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "ai_trends"
+      },
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "analytics"
+      },
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "business_intelligence"
+      }
+    ]
+  },
+  "_mapping_warnings": [
+    "The document uses [P] paragraphs with bold text for section sub-headings (e.g. 'Mosaic: portable semantics without shadow governance', 'AI: approved model choice inside governed analytics', 'BI: safer deployments and timelines in the flow of work') without [H2] or [H3] markers. These were mapped as H3 headings within blocks based on context.",
+    "The 'Ungoverned speed is still risk. It just arrives faster.' line appears as a standalone [P] paragraph with no quotation marks or attribution marker. It was mapped as a blockquote based on its stylistic use as a pull-quote in context — human review recommended.",
+    "The image for 'Map Mosaic Models to Mosaic Schema' is a SharePoint link to a .png file, not an [IMAGE_EMBEDDED] block. It was mapped as a paragraph with a linked run rather than an image block, since no [IMAGE_EMBEDDED] tag was present.",
+    "The Gantt chart image is a SharePoint file-picker URL, not a direct image URL. It was mapped as an image block with the SharePoint URL as the url field — CMS team should upload the asset directly.",
+    "AWS Bedrock image is marked N/A — no image asset available for that section.",
+    "No explicit CTA boxes were found in the document. The closing paragraph references 'What's New page and product documentation' but no URL was provided, so no CTA was created.",
+    "The 'The Core Pillars' heading and closing paragraph appear after all feature sections but before the FAQ. They were included in the body as an H3 block within the intro section. Human review recommended to confirm placement.",
+    "All SharePoint video URLs were classified as embedType 'sharepoint'. Confirm these are playable in the CMS environment.",
+    "Image block missing assetUid — source: https://microstrategy.sharepoint.com/sites/MKT/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FMKT%2FShared%20Documents%2FMKT%20%2D%20Product%20Marketing%2FSource%20Files%20for%20PMM%20Assets%2FQuarterly%20What%27s%20New%20Product%20Release%2FWhat%27s%20New%20Images%2F26%2E07%20Gantt%20viz%2Epng&parent=%2Fsites%2FMKT%2FShared%20Documents%2FMKT%20%2D%20Product%20Marketing%2FSource%20Files%20for%20PMM%20Assets%2FQuarterly%20What%27s%20New%20Product%20Release%2FWhat%27s%20New%20Images"
+  ]
+}

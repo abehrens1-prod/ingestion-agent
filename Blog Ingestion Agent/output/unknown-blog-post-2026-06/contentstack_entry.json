@@ -1,0 +1,2050 @@
+{
+  "entry": {
+    "title": "Semantic Layer Architecture for Enterprise AI: The Five Core Components",
+    "url": "/software/blog/semantic-layer-architecture-for-enterprise-ai-the-five-core-components",
+    "lead_paragraph": {
+      "type": "doc",
+      "attrs": {},
+      "uid": "82aa461f7587471fb265856a74d5fbb6",
+      "children": [
+        {
+          "text": ""
+        }
+      ],
+      "_version": 1
+    },
+    "content": [
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "a3efd80dc4c74b7c9994fb9c925a5971",
+            "children": [
+              {
+                "type": "h3",
+                "uid": "12400730a029470281b8a6a066c36ffe",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Quick Answer",
+                    "attrs": {
+                      "style": {
+                        "color": "rgb(26, 78, 159)"
+                      }
+                    },
+                    "bold": true,
+                    "font-color": "#fa660f"
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "uid": "4ff8f5c404bc45cd83762612cf186dec",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "li",
+                    "uid": "dbd562b936994e568a0e7a2c39ba468c",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "a57e8d19868c4342906b3fe3b706d7fb",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "As enterprise AI adoption accelerates across industries, organizations need reliable and governed business logic to scale AI initiatives effectively."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "66a60c2f3aaa4644801b649e311f1b7b",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "c088cda7679241119ad881b473fc4d9d",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "An AI-ready semantic layer architecture is a governed data infrastructure layer that standardizes business logic, metrics, and definitions across enterprise AI systems, BI platforms, and analytics environments."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "csbc182fb285a3eccc"
+          }
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "26c0505670c04f179539fb43c54843f3",
+            "children": [
+              {
+                "type": "p",
+                "uid": "a174e430dd044d29a3dd43e9cf9dc14c",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Enterprise AI systems don't fail because of weak models."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "be88ce96c1804caea6bc13bc9e6a0cbd",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "They fail because the business logic behind those models is fragmented across warehouses, dashboards, and department-specific datasets, with no single authority governing what \"revenue\" or \"active customer\" means. We've discussed why that happens, and how to tackle it here."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "d83b3d89a6f441559fd2ca3a6a44bb2e",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "This guide dives into the architecture itself: the five components that make a semantic layer AI-ready, and what each one needs to do for enterprise-scale deployment."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "csc83bfe033904d729"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "Why Enterprise AI Fails Without Semantic Consistency",
+          "_metadata": {
+            "uid": "cs6b0135791d54e76e"
+          },
+          "section_id": "why-enterprise-ai-fails-without-semantic-consistency"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "0e106f027f634d1e9b1ae8586eb26ebc",
+            "children": [
+              {
+                "type": "p",
+                "uid": "5ad04c0e02f04dd9bda0ef7701e59a75",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The biggest reason enterprise AI initiatives fail is that AI systems are connected to fragmented, inconsistent, and ungoverned enterprise data."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "7921311dbd694ebc907ed1b49a589499",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Enterprises have complex data environments filled with warehouses, dashboards, BI tools, and department-specific metrics. Teams build workflows to support their business functions, and each team's dataset includes slightly different metrics or definitions relevant to their operations."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "462dd30c28614956837f412add6af6f2",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "This is where the fragmentation begins. Sales calculate Gross Margin one way. Finance calculates it another. Marketing dashboards pull from entirely different attribution models."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "d67c7359525b4d099345729330764f39",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "An enterprise AI model doesn't understand which version of the metric is correct. It simply retrieves the context it has access to and generates the most statistically probable response."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "47d8c7ccd09d4ba8b83a97fa36611c1e",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "As the AI model continues pulling from inconsistent business logic, the conflicting answers compound across teams, tools, and reports. Over time, trust in both the AI outputs and the underlying data begins to erode."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "616c3b63460040a09cfa9a5fe648a154",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "TL;DR",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "fc1907988ea241f396d3cfe78a14d5fe",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "When your AI model gives three different numbers for Gross Margin, your entire initiative becomes a Trojan horse. It looks fine on the surface but hides dangers that can compromise strategic decision-making at scale."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs7ae9bbe548fdb37f"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "What Is an AI-Ready Semantic Layer?",
+          "_metadata": {
+            "uid": "csa6e61bfe69bed6bc"
+          },
+          "section_id": "what-is-an-ai-ready-semantic-layer"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "b9472ba76e4d45cb9566ce0358d9a41c",
+            "children": [
+              {
+                "type": "p",
+                "uid": "ae487cd1c54d462eab693fe535d7bdf0",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "In BARC's 2026 global survey of 1,579 organizations, Data Quality Management and Data Security & Privacy ranked as the top enterprise AI and data priorities."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "55d7d4a8e803449790b110fe4f978ef6",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The reason is simple: For AI to remain reliable and scalable over time, the underlying data must be trustworthy across the organization. An AI-ready semantic layer is the architectural answer to that requirement."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "69eca9ff0fa44849b95aee38b87aec38",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "An AI-ready semantic layer is a governed semantic architecture that standardizes business logic, metrics, and definitions across enterprise AI systems, BI platforms, and analytics environments."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "64a018adac6645d0bd4e7109af4c58b5",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Rather than correcting the AI output, it addresses the root cause of the problem. It unifies metrics and definitions once, then applies them across every team, tool, and workflow."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "261db0c1d4fb43bda00fafd46a21d530",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "This ensures AI models retrieve context from a single, governed source of truth for every request."
+                  }
+                ]
+              },
+              {
+                "type": "table",
+                "uid": "79ad67dfdbb6405f9b204ac5749c3347",
+                "attrs": {
+                  "rows": 5,
+                  "cols": 3,
+                  "colWidths": [
+                    100,
+                    100,
+                    100
+                  ]
+                },
+                "children": [
+                  {
+                    "type": "tr",
+                    "uid": "74032d1b5a444656aaee217e19cc284c",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "td",
+                        "uid": "081b8f4d111542fea2cbf1c6807018c2",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "f31824d0fedb41f0b1b031b14a749e99",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Enterprise AI Problem"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "27f397b6d2d341458335c22ec98909ac",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "fb02b0a6d9454beca7835abf3da001ea",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Root Cause"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "8657f122ad0e4131abd9cec822f7aa86",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "07ad2be152884cf0abe4700498247bc4",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Semantic Layer Impact"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "tr",
+                    "uid": "25eb8186ad7a4644a023272903e53dcd",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "td",
+                        "uid": "ee6b5c401eb34044ae7e15a6d926aadc",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "f480dcab9b824060bfad1d5804e63e32",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "AI gives conflicting revenue answers"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "9a2afaa92e7f400cb36ab105ec099365",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "661c734e41824db0a475e20247c1cc33",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Different metric definitions across tools"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "2abd2ced802642afa8f816f40aa42bc7",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "86c47245c1a84c2ba996fda28a0df743",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Unified metric definitions"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "tr",
+                    "uid": "24e25f37b07b4dc3af441978f673c380",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "td",
+                        "uid": "9a3b8513e0fe443ea773ef391d82d5e2",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "325ddf0f6ae0452f9cb2fd2ecd66c665",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "AI surfaces outdated KPIs"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "03bbaa02497c4eaf9dd79c32b1aaf4a1",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "aedc696d108e433fbda629b8f9114f0e",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Direct warehouse querying without governance"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "4bfc1cb3d359491e9c3a9fb313e5aeac",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "ee6cdfb96f584d5fafaa133e51e19555",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Governed semantic access"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "tr",
+                    "uid": "9aa5913246aa4b59a8b5ba908b5e3d6a",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "td",
+                        "uid": "f203c06ecd424f16a372628a5d26b1bd",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "174cbe233be24e06982de184d3d100ed",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "AI outputs vary between departments"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "0d5c03f9ab994d8c83f7512751472a49",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "46c650d745ad4060b96fcf092d177729",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Siloed business logic"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "1b46fa41275c4c5fa8e2e370c3266ee8",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "517ca60eabbb4afc9110b9c42c5b96f4",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Centralized semantic consistency"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "tr",
+                    "uid": "aca250103b784b16bcc308ba3657c541",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "td",
+                        "uid": "750e1f91036e44bca2a26853204da656",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "d3d74b5c535242698d80fcb7bb06c633",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "AI models lack business context"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "3c61f1b439e04b9bbfb8055c123c28b1",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "ba412866d542434696e5d93a01dab241",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Raw data exposure"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "bdb44808d83242939854acd4a6c81551",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "95ed01fcb44e40528d41ce67923cb5b1",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Business-context abstraction"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "csd957d30e4307c525"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "The Core Components of Semantic Layer Architecture",
+          "_metadata": {
+            "uid": "cs75d2da0272e52baf"
+          },
+          "section_id": "the-core-components-of-semantic-layer-architecture"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "42c49505dedf44708ac33f85d73e1feb",
+            "children": [
+              {
+                "type": "p",
+                "uid": "4387554d09264998b5b12558bac71aeb",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "For enterprise AI to deliver reliable outputs, it must retrieve context from a governed foundation built on centralized business logic and standardized definitions."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "273765716ff14fec86f0c72f484f706c",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "An AI-ready semantic layer delivers this foundation through five architectural components:"
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs956188544f5e4dc5"
+          }
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "4c771977be16447fa79eaec2d5ea9251",
+            "children": [
+              {
+                "type": "h4",
+                "uid": "aca34a64de374892a81be420bb8b30c6",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "",
+                    "font-color": "#fa660f"
+                  }
+                ]
+              },
+              {
+                "type": "h4",
+                "uid": "2e3322c1363b401ea28bb3c9f0e64fed",
+                "attrs": {},
+                "children": [
+                  {
+                    "font-color": "#fa660f",
+                    "text": "Unified Business Logic Layer"
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "e42b09ee9d484b35b31f635197688aad",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "At the center of every semantic layer is a unified business logic layer."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "0cdf4ca8cde844ff8f632757c00bb9a2",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "It's where enterprises define KPIs, metrics, calculations, and business definitions once instead of recreating them inside departmental workflows. This ensures enterprise AI systems retrieve context from a centralized source of truth for analytics and decision-making."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs081b3c54f62b53dc"
+          }
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "b01c9212f16749ab8213fd34f96cd50f",
+            "children": [
+              {
+                "type": "h4",
+                "uid": "d6b36d0470534c37ac38ac02b60e6e1b",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "",
+                    "font-color": "#fa660f"
+                  }
+                ]
+              },
+              {
+                "type": "h4",
+                "uid": "1eb78f41504544c1a68ff6fd9d42cef3",
+                "attrs": {},
+                "children": [
+                  {
+                    "font-color": "#fa660f",
+                    "text": "Metadata & Semantic Modeling"
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "eff344a9fc7a442a86009a6632115217",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Raw enterprise data rarely contains enough context for AI systems. It's often a complex mix of tables, spreadsheets, rows, and disconnected metrics that need to be interpreted accurately."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "b28c08cab54c49448394275683208c36",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Semantic modeling helps AI efficiently extract context through metadata, which acts as a bridge between raw enterprise data and business logic."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "e106eb60bb74426688ca23c3c19ba457",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "This metadata includes:"
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "uid": "0832399c6c7e4e72b637c9cdadaa722d",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "li",
+                    "uid": "a0278bbad8624adfad884b5846f78b33",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "3fd472a8659b46bc99fbaee78ed50d81",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "business definitions"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "44e8231b1887420dabfdcb0a3ce0f626",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "a8b5b43aa73845b2a64356762e8a9bc2",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "metric relationships"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "54b05c858885449cb1222d5a4b876be9",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "299303b7afe14947afa3842e542832db",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "naming conventions"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "72b501c407914e50883aa7a698a44aa4",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "9dab8b257654441fbb7eeaeb7c577301",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "organizational hierarchies"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "4bdba193eac3440c97f903e93215e36b",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Instead of forcing AI models to interpret disconnected datasets independently, semantic models create a structured framework for context across enterprise AI workflows."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs0e4c351e5f252382"
+          }
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "17094526817e45a2b58e89fea26802cd",
+            "children": [
+              {
+                "type": "h4",
+                "uid": "4a1ad131acc94ea584c813c7b68ef6c9",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "",
+                    "font-color": "#fa660f"
+                  }
+                ]
+              },
+              {
+                "type": "h4",
+                "uid": "64d412ac10ce4277b5d817e58eafaebf",
+                "attrs": {},
+                "children": [
+                  {
+                    "font-color": "#fa660f",
+                    "text": "Data Abstraction Across Systems"
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "0128ddb24426434faed34a690b276855",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Enterprises operate across a growing mix of cloud warehouses, BI platforms, operational systems, and AI environments. This means AI systems that touch multiple environments draw from inconsistent definitions."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "0fe2871996a4474ba908dac3488882cf",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "To ensure understanding between these environments, a modern semantic layer sits above them, allowing users to translate complex, technical database architectures (like tables, SQL queries, and joins) into business-friendly terms and metrics."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "4e731ee7ccfe44ce9f73c7850e863f7f",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "This enables third-party systems like Snowflake, Databricks, Tableau, Power BI, ERP systems, and operational databases to surface the same metrics and definitions. The enterprise already has centralized business logic, and the semantic model ensures teams don't need to rebuild it inside each environment."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "19c5a7db510840d3859d84bb5e2d0fd4",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "As a result, AI models can surface insights across BI tools and platforms because the underlying data is always consistent."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "csa7b09ba9fc969788"
+          }
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "e83b3b72a0634ef8baaf2f21585c1a03",
+            "children": [
+              {
+                "type": "h4",
+                "uid": "4f62ef99e7454951b99054097c0eeb3d",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "",
+                    "font-color": "#fa660f"
+                  }
+                ]
+              },
+              {
+                "type": "h4",
+                "uid": "a22ed2d3e938411e8f262d35dba98725",
+                "attrs": {},
+                "children": [
+                  {
+                    "font-color": "#fa660f",
+                    "text": "Governance & Access Controls"
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "026c10ce3dc24eb68281da769046f98b",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "As enterprise AI scales across teams, governance becomes significantly harder to manage."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "518ab1c939b24c6baa292fde7af424ed",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Each team operates under different permissions, compliance requirements, and data access policies. Without centralized governance, AI models can surface inconsistent, outdated, or unauthorized data."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "52325d35ee9b4ace97b6c4c9f26cb363",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "A semantic layer helps organizations enforce governance directly at the foundational through:"
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "uid": "ab946e6467e5475fb4c7fbdb00eea0f6",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "li",
+                    "uid": "87e69a2405634f7c9ea4d5143e3e710e",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "1a47df0664b843469fcef1e37451706a",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "role-based permissions"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "04de4df4969f4c059f6139200d3cab44",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "df5143003ff54956b6547903260ea96e",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "centralized metric governance"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "305fe7dd9fcc4b1fb6033ecef4da2084",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "77a45adcbd81444697b09b99952845a0",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "auditability"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "445a40890d2b4dfb9e4ef0473d7ea6f1",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "357d9f265e784c208b7adcb5d28fad05",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "lineage tracking"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "fbb9041f63cb4805a045208ce46607d3",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "40a8768559cc44f9950ebd3503796a14",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "policy enforcement across systems"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "c92c1e43dc2a4944800f11c0fab9dc20",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Instead of governing every dashboard, report, or AI model independently, executives can govern the semantic foundation securely."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "csd156d65b4babc7db"
+          }
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "c9c455efbad54735a9b25217ed0e8a46",
+            "children": [
+              {
+                "type": "h4",
+                "uid": "bca6bf9cf8c74552913e5ac3e37d9fb6",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "",
+                    "font-color": "#fa660f"
+                  }
+                ]
+              },
+              {
+                "type": "h4",
+                "uid": "ee2dcf86251845259ded406f5bcb21ab",
+                "attrs": {},
+                "children": [
+                  {
+                    "font-color": "#fa660f",
+                    "text": "AI Consumption Layer"
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "a604689e7d7440b2ab46bac062c68e9c",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Finally, the data foundation needs to connect with the enterprise AI model. This includes:"
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "uid": "987267a7ab884f1eb1c4706cbc1e3d4e",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "li",
+                    "uid": "911b9c30601f416ab0642413cb407f2e",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "2895b5858e7547c4a4c3fb9ce4bca038",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Large language models (LLMs)"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "1c40fb07639e4557b61292da453dd5d9",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "938addb5c9074bf48916c812cb5946bc",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "enterprise copilots"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "7a6a93a5184d442e99506871c42e1b44",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "c9f20ca440cb4104911e5d194ceac1b3",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "AI assistants"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "c5790066d12b4934baec5cb9c7bd8710",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "338b4e5d01754ee0ae2a77b73bd36385",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "semantic search systems"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "b72628f02f8b436ea635c0efbadbf346",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "21c8f2c9788d437ab1fefc4f5e74eb68",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "retrieval-augmented generation (RAG) architectures"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "a455d3a10e3d4a129bd07667dc44d13c",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Rather than querying fragmented raw datasets directly, AI systems retrieve context from the semantic layer first. This ensures that the AI always retrieves centralized, unified, and governed business logic before answering any queries."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "d4f622e9b7ac4724b47bc1ee9139316b",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Strategy Mosaic implements this through Mosaic MCP (Model Context Protocol), which allows AI agents running on Claude, Copilot, ChatGPT, Gemini, and AWS to query the same governed semantic definitions that power every BI dashboard in the enterprise."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "6fc60d714edc485198ea147f4d944bc8",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Modern enterprise AI needs a governed data foundation to reach its full potential.",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "c1ad6474757c42138f44273bfcb653e2",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Strategy Mosaic helps enterprises create a vendor-agnostic, semantic layer that delivers the AI-ready architecture they need to scale with confidence. Explore Strategy Mosaic."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs9d828bbd3c132d75"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "Semantic Layers vs Warehouse-Native Approaches",
+          "_metadata": {
+            "uid": "cs1097740f1babe5ea"
+          },
+          "section_id": "semantic-layers-vs-warehouse-native-approaches"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "e13620b5304f4bf083c2d7c5a595cb96",
+            "children": [
+              {
+                "type": "p",
+                "uid": "b2327877a56e430c838adbd5cbe3bc31",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "This independent architecture is what makes an AI-ready semantic layer fundamentally different from traditional warehouse-native approaches."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "7aed110fb8b94cddb12d9dc54a93c98d",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Traditional warehouse-native approaches centralize logic within a closed ecosystem. While this may improve consistency inside one platform, business context often becomes fragmented across enterprise environments."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "19a32ba72e91496580258f8c68c87c5b",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Sales may work in Tableau, Marketing in Power BI, and Product teams inside AI copilots. Without a vendor-agnostic semantic layer connecting those environments, teams operate from different KPIs, metrics, and business definitions."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "2f28f594408140f79e24f92406403547",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "An AI-ready semantic layer creates a shared semantic foundation across every team, tool, and AI workflow, allowing enterprises to maintain governed business logic regardless of where data is accessed."
+                  }
+                ]
+              },
+              {
+                "type": "table",
+                "uid": "a5756f2169d342fea9a1fd14384e088c",
+                "attrs": {
+                  "rows": 5,
+                  "cols": 2,
+                  "colWidths": [
+                    100,
+                    100
+                  ]
+                },
+                "children": [
+                  {
+                    "type": "tr",
+                    "uid": "3cf9a9a58b3b49baaafe82d451e62117",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "td",
+                        "uid": "7279790865374cd881def62ed260647f",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "92e7c322921b4799aabd4eaf11a34c6a",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Warehouse-Native Approach"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "f02ec4f60d8c41eca36d2885734aabca",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "0b983894497441e6813428c6b7257e90",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Vendor-Agnostic Semantic Layer"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "tr",
+                    "uid": "8002b4ce0b08492c9fdc354df0e834f3",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "td",
+                        "uid": "f13ab6599606446e9d9831e4718ceadc",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "e0b4f48cdb5e43ca9ef2d4cdc82e1f5b",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Tied to one ecosystem"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "6e7d0f28ae4846bbbc81c461e011ff68",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "bed12ca82b264a07aced158bbcc76087",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Works across platforms"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "tr",
+                    "uid": "4e110ff15e734e37af7cc70d3881e3bf",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "td",
+                        "uid": "a51e2c0d317d473186933ca415910878",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "ecdc2118594848ae93bc4a1b042f05f3",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Limited interoperability"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "1bf648c5026b4ed892d34d1d50875016",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "3a3eca00af5f456784e12de8fc586f91",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Unified cross-tool consistency"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "tr",
+                    "uid": "ac7390c2dc554d5982f574f5922e112a",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "td",
+                        "uid": "85ac41b6b2754bcd972609d06bc459fc",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "2cbbe27114974f59addb3e2d7f88ee14",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "AI context remains fragmented"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "104f68d175ce4af78548fa5aa60b45e2",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "3bdb5b19b83b452e9f5a09711c4e04c3",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Shared enterprise context"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "tr",
+                    "uid": "ec2b5c5a25b5473abbb4fd62f83d5c00",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "td",
+                        "uid": "370623998eb94989a28166cc6020aaec",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "85ee55e35e6342bdbbf7ee73aff46bb1",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Higher migration friction"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "e7d693f23e4a47ae8c8d4690b1db7283",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "314bb577d8a04b8bb34eae1bccf34f37",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Flexible architecture"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "csc02790f3ff42e792"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "What to Look for in an AI-Ready Semantic Layer",
+          "_metadata": {
+            "uid": "cs7b308dfeda477c7c"
+          },
+          "section_id": "what-to-look-for-in-an-ai-ready-semantic-layer"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "06d052c4e83a42cfb63c2e295590b740",
+            "children": [
+              {
+                "type": "p",
+                "uid": "47291a647de34bc8bfd986fb8bf24f53",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "As AI initiatives expand across industries, consistency and scalability become critical for decision-making. But not every semantic layer is built for enterprise AI at scale."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "801797c878804b3dab2d0a377079005e",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Here are the five capabilities that will help you separate production-ready architecture from category positioning:"
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "uid": "f80817c37a3e40dabafb0214fdb1d4e8",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "li",
+                    "uid": "4bde168fd5894750a3f707aef3c0a250",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "29424b9cad824e62a8720b55fa5a7454",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Multi-tool governance enforcement: does governance apply automatically across every connected BI tool and AI agent, or does it require per-tool configuration?"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "00cd553c0711460db787f76c6179a5de",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "48ee47ee5b9e49918a3b557f5f2f538f",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Vendor-agnostic data abstraction: can the semantic layer connect across your full data environment, or is it tied to a single warehouse or cloud?"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "30754e2d47de453bb05f4ae694dde971",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "ce6979fdb32a4660b4026757008be4db",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "AI agent integration: does the product expose governed semantics to AI systems through a standard protocol (MCP), or only through proprietary connectors?"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "786a8cff20774fe0a004a7bce01446b3",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "65ea3c56ac5c4c89a5011560d3721165",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Real-time governance observability: can your team see who queried what, detect anomalies, and maintain audit trails across every connected system?"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "f878cffb85af47a39cc4d43165e6214d",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "aaaf73e47bdb48eabd5034a8524c2ab9",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Semantic modeling depth: does the product support level-aware metrics and conditional business logic"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "f17cc95eacc749bf92aba0e9d16a7db3",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Ensuring these capabilities doesn't just improve your AI output. It helps establish a stronger foundation for enterprise AI reliability, scalability, and long-term impact."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "133473a97baa4e42870e7f8070d54695",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Not every semantic layer is designed for enterprise-scale AI initiatives.",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "78ff6aa9952a4c54ae651c7efce59fce",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "As organizations evaluate modern semantic architecture, factors like governance, interoperability, AI readiness, and vendor flexibility become increasingly important. How to Choose a Semantic Layer: A Buyer's Guide for Enterprise Teams."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "csc435ef2bbc9f9314"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "Frequently Asked Questions",
+          "_metadata": {
+            "uid": "cs2dbbab02f3332566"
+          },
+          "section_id": "frequently-asked-questions"
+        }
+      },
+      {
+        "accordion": {
+          "accordion_item": [
+            {
+              "title": "What is an AI-ready semantic layer?",
+              "_metadata": {
+                "uid": "cs03a4e17fbd3495a2"
+              },
+              "content": {
+                "type": "doc",
+                "attrs": {},
+                "uid": "de7f3191b5834c40813c9907402a6d20",
+                "children": [
+                  {
+                    "type": "p",
+                    "attrs": {},
+                    "uid": "f75abdce0a5e4771863ffe8893dff7ca",
+                    "children": [
+                      {
+                        "text": "An AI-ready semantic layer is a governed semantic architecture that standardizes business logic, metrics, and definitions across enterprise AI systems, BI tools, and analytics environments. It helps organizations deliver consistent business context across dashboards, AI models, and operational workflows."
+                      }
+                    ]
+                  }
+                ],
+                "_version": 1
+              }
+            },
+            {
+              "title": "Why is semantic consistency important for enterprise AI?",
+              "_metadata": {
+                "uid": "csb02b3167ec0fdccd"
+              },
+              "content": {
+                "type": "doc",
+                "attrs": {},
+                "uid": "e4d043d4e3564f74bd9e809911ef405f",
+                "children": [
+                  {
+                    "type": "p",
+                    "attrs": {},
+                    "uid": "e75e16e1f1eb41d6ae548eb12afc0ede",
+                    "children": [
+                      {
+                        "text": "Enterprise AI systems rely on consistent business logic to generate reliable insights. Without semantic consistency, AI models retrieve fragmented logic across systems, which can lead to hallucinations, conflicting outputs, and reduced trust in enterprise analytics."
+                      }
+                    ]
+                  }
+                ],
+                "_version": 1
+              }
+            },
+            {
+              "title": "How does a semantic layer improve AI reliability?",
+              "_metadata": {
+                "uid": "csc46f2b6797bd7b2f"
+              },
+              "content": {
+                "type": "doc",
+                "attrs": {},
+                "uid": "f707052bfd3241f9a36c3088d8148cf6",
+                "children": [
+                  {
+                    "type": "p",
+                    "attrs": {},
+                    "uid": "e65579d6527c41e29cc9155a4dbb2ddd",
+                    "children": [
+                      {
+                        "text": "A semantic layer improves AI reliability by ensuring AI systems retrieve context from centralized business logic and governed definitions instead of fragmented raw datasets. This helps organizations maintain consistent KPIs, metrics, and business definitions across enterprise environments."
+                      }
+                    ]
+                  }
+                ],
+                "_version": 1
+              }
+            },
+            {
+              "title": "What is the difference between a warehouse-native semantic layer and a vendor-agnostic semantic layer?",
+              "_metadata": {
+                "uid": "csd9a3bde66cdef472"
+              },
+              "content": {
+                "type": "doc",
+                "attrs": {},
+                "uid": "ffbdb814b42e49758d10c88d979b3f9c",
+                "children": [
+                  {
+                    "type": "p",
+                    "attrs": {},
+                    "uid": "c18cda79a892451fb16578a1e8c3e299",
+                    "children": [
+                      {
+                        "text": "Warehouse-native semantic layers typically centralize logic within one ecosystem, while vendor-agnostic semantic layers operate across multiple platforms and BI environments. Vendor-agnostic semantic architecture helps enterprises maintain consistent business logic across tools like Snowflake, Databricks, Tableau, and Power BI."
+                      }
+                    ]
+                  }
+                ],
+                "_version": 1
+              }
+            },
+            {
+              "title": "How does semantic layer architecture support LLM grounding?",
+              "_metadata": {
+                "uid": "csd8608cf931b3dfb5"
+              },
+              "content": {
+                "type": "doc",
+                "attrs": {},
+                "uid": "5d69fb485883414799e0b255d4dc2a5c",
+                "children": [
+                  {
+                    "type": "p",
+                    "attrs": {},
+                    "uid": "a1eff5f20b464e7098503d16e9e829ec",
+                    "children": [
+                      {
+                        "text": "Semantic layer architecture provides LLMs with governed business context shaped by centralized KPIs, definitions, and business logic. This helps AI systems retrieve more accurate and consistent enterprise insights instead of relying on fragmented datasets."
+                      }
+                    ]
+                  }
+                ],
+                "_version": 1
+              }
+            },
+            {
+              "title": "How does Strategy Mosaic support enterprise AI initiatives?",
+              "_metadata": {
+                "uid": "cs6ae533950f001b27"
+              },
+              "content": {
+                "type": "doc",
+                "attrs": {},
+                "uid": "5d85d85a4d5d4bd599f04d57b55c5d5f",
+                "children": [
+                  {
+                    "type": "p",
+                    "attrs": {},
+                    "uid": "d48d2f74db2a42e6bcc1101aa6ab2aba",
+                    "children": [
+                      {
+                        "text": "Strategy Mosaic helps enterprises create a vendor-agnostic semantic layer that standardizes business logic across enterprise analytics and AI environments. This allows organizations to scale AI initiatives with governed semantic consistency across BI tools, applications, and data environments."
+                      }
+                    ]
+                  }
+                ],
+                "_version": 1
+              }
+            }
+          ],
+          "_metadata": {
+            "uid": "cs47a552dad0a6043b"
+          },
+          "accordion_options": "closed"
+        }
+      }
+    ],
+    "cta_section": [],
+    "related_posts": [],
+    "seo": {
+      "meta_title": "Semantic Layer Architecture for Enterprise AI: 5 Components",
+      "meta_description": "Discover the five core components of an AI-ready semantic layer architecture that governs business logic, standardizes metrics, and scales enterprise AI reli...",
+      "keywords": "semantic layer architecture, enterprise AI analytics, governed business logic, AI-ready semantic layer, enterprise BI semantic layer",
+      "social_thumbnail_override": null,
+      "enable_search_indexing": true
+    },
+    "page_properties": {
+      "navigation_title": "",
+      "header_color": null,
+      "hide_header_nav": false,
+      "hide_header_cta": false,
+      "hide_footer": false,
+      "disable_global_promo_banner": false,
+      "hide_auto_expert": false,
+      "sfid": "",
+      "marketo_id": "",
+      "cta_section": []
+    },
+    "resource_data": {
+      "date": "2026-06-24T00:00:00.000Z",
+      "type": "Blog",
+      "title": "Semantic Layer Architecture for Enterprise AI: The Five Core Components",
+      "description": "Discover the five core components of an AI-ready semantic layer architecture that governs business logic, standardizes metrics, and scales enterprise AI reli...",
+      "featured": false
+    },
+    "tags": [],
+    "publish_date": "2026-06-24T00:00:00.000Z",
+    "author": [
+      {
+        "uid": "blt8c3ce76c040f82e5",
+        "_content_type_uid": "blog_author"
+      }
+    ],
+    "taxonomies": [
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "product_updates"
+      },
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "mosaic"
+      },
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "semantic_layer"
+      },
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "ai_trends"
+      },
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "analytics"
+      },
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "business_intelligence"
+      }
+    ]
+  },
+  "_mapping_warnings": [
+    "No author name or publish date found in the document.",
+    "The [IMAGE_EMBEDDED] element in the Metadata & Semantic Modeling subsection has no alt text, source path details, or caption provided — altText left empty and sourcePath set to image_0.png for human review.",
+    "The second callout references a linked article 'How to Choose a Semantic Layer: A Buyer's Guide for Enterprise Teams' but no URL was provided for that link — no buttonUrl captured for that reference.",
+    "All three domain URLs (strategy.com) are treated as external links since no path-only internal URLs were found in the document.",
+    "The Short Answer table at the top contained only two sentences so quickAnswer array contains only two items.",
+    "publishDate was not found in the document — defaulted to pipeline run date (2026-06-08T00:00:00.000Z). Confirm before publishing.",
+    "Meta description was 162 chars (over 160 limit) — truncated to 160. Original: \"Discover the five core components of an AI-ready semantic layer architecture that governs business logic, standardizes metrics, and scales enterprise AI reliably.\"",
+    "Image block missing assetUid — source: image_0.png"
+  ]
+}

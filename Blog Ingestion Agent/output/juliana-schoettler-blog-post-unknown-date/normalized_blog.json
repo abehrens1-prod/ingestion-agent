@@ -1,0 +1,169 @@
+{
+  "title": "Stop Overengineering Problems You Don't Have",
+  "subtitle": "",
+  "slug": "stop-overengineering-problems-you-dont-have",
+  "url": "/stop-overengineering-problems-you-dont-have",
+  "author": "Juliana Schoettler",
+  "authorBio": "Juliana Schoettler is Senior Product Marketing Manager at Strategy. She's spent the last several years inside enterprise AI building it, breaking it, and figuring out why most of it doesn't stick. She writes weekly on the questions most organizations aren't asking yet. Follow her on LinkedIn.",
+  "publishDate": "2026-06-04T00:00:00.000Z",
+  "seo": {
+    "metaTitle": "Stop Overengineering Problems You Don't Have",
+    "metaDescription": "Enterprise AI fails when organizations skip the prior work and go straight to model selection. Three questions teams should answer before any tool gets selected.",
+    "targetKeywords": [
+      "enterprise AI strategy",
+      "AI implementation",
+      "chatbot use case",
+      "AI value",
+      "strategy software"
+    ]
+  },
+  "quickAnswer": [
+    "Most organizations jump to AI tooling before answering what they're actually trying to accomplish, leading to fast outputs that don't resolve the underlying uncertainty.",
+    "Three questions cut through the noise: what does your business do, how does your team support that, and what do you need to know to do it well?",
+    "AI usage is not AI value — answering those three questions before selecting any tool is what separates meaningful outcomes from wasted budget."
+  ],
+  "heroMedia": null,
+  "body": [
+    {
+      "type": "section",
+      "heading": "",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The most clarifying thing I've read about AI wasn't in a research paper or an analyst report. It was a comment in a Reddit thread. The gist: every problem organizations are trying to use AI to solve today could have been solved ten years ago by cleaning up their data and writing a Python script."
+        },
+        {
+          "type": "paragraph",
+          "text": "I've thought about that sentence in a lot of customer conversations since."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "The Chatbot Request Is Never Really About the Chatbot",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Almost every one of those conversations starts the same way. Someone has a budget and a mandate. They've been told to go find a problem to solve with it. By the time they get to me, they've already decided what the answer looks like: which model, which platform, what integrations, which features."
+        },
+        {
+          "type": "paragraph",
+          "text": "Then they ask for a chatbot."
+        },
+        {
+          "type": "paragraph",
+          "text": "I've learned to treat that request as a signal rather than a specification. When I ask what the chatbot is supposed to do, what it would need to know, what decisions it would actually support, the conversation usually changes direction. What surfaces when it does is almost never a chatbot problem."
+        },
+        {
+          "type": "paragraph",
+          "text": "A chatbot responds to what you ask it. If you haven't worked out what you're trying to decide, the chatbot hasn't either. You get a fast, confident response to a question you hadn't fully formed, and you still don't know what to do with it. The uncertainty doesn't go anywhere; it just has a response attached to it now."
+        },
+        {
+          "type": "paragraph",
+          "text": "The chatbot would fail for the same reason the Python script was never written. Nobody stopped to ask what they were actually trying to do."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Three Questions Worth Asking Before You Pick Up Any Tool",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The three questions I've found most useful in these conversations have nothing to do with AI. They're the questions you answer before you pick up anything."
+        },
+        {
+          "type": "list",
+          "style": "numbered",
+          "items": [
+            "What does your business do? Specifically, operationally, in the sense of what happens every day that produces the outcomes you exist to produce?",
+            "How does your team support that? Not in job-description terms, but in terms of what you actually produce and how it connects to those outcomes?",
+            "What do you need to know in order to do that well? Not what data exists, but what information would actually make your decisions better?"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Most teams can answer the first one without much trouble. The second takes longer. The third is where things genuinely stall, and it's worth understanding why: knowing what information you need requires having already decided what you're trying to accomplish. If that hasn't been worked out, the third question stays open indefinitely, and anything built on top of it, be it a chatbot, dashboard, or AI model, is built on an open question."
+        },
+        {
+          "type": "paragraph",
+          "text": "These aren't hard questions to say out loud. They're hard to answer honestly, and harder still to get consistent answers to across an organization. When you can, the tool conversation changes. The chatbot request either becomes a real specification or turns into a better question."
+        },
+        {
+          "type": "paragraph",
+          "text": "When you can't, the AI budget gets spent on tooling that moves fast in a direction nobody fully committed to. Somewhere in the next budget cycle, somebody opens a Reddit thread and describes exactly what happened."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "AI Usage Is Not AI Value",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "AI usage is not AI value. You need to know where you're going before you can get there. Without a destination, you're just moving in a direction and hoping no one asks if it's where you wanted to end up."
+        },
+        {
+          "type": "paragraph",
+          "text": "Answer the three questions in this post before the next demo, the next budget conversation, the next chatbot request. Not for your organization. For yourself."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "How do you tell whether a chatbot request is the right solution or a symptom of something else?",
+      "answer": "Ask what the chatbot is supposed to help someone decide. If the answer is specific, such as this function needs to answer these questions, against this data, to make these calls faster, that's a real specification and worth building toward. If the answer is vague, or if it takes a meeting to produce, the chatbot request is a symptom. Something upstream hasn't been worked out yet, and the chatbot will inherit whatever that is.",
+      "accordionEnabled": true
+    },
+    {
+      "question": "How do I know if my AI request is worth scoping?",
+      "answer": "Start with the three questions in this post. If you can answer all three consistently, and the people around you can answer them the same way, you have enough to scope something real. If you can't get through the third one without a working group and a month of alignment meetings, the scoping conversation is premature. The prior work hasn't been done yet and doing it will either sharpen the AI request into something worth building or surface a better answer that doesn't require AI at all.",
+      "accordionEnabled": true
+    },
+    {
+      "question": "Why do most chatbot projects stall before they reach end users?",
+      "answer": "Because the tool gets built before the use case gets owned. The most experienced users can work around an imprecise question. They know enough to rephrase, probe, and interpret. End users don't have that context and shouldn't need it. When a chatbot requires users to know how to ask in order to get a useful answer, the problem isn't the prompts; it's that nobody defined what the tool was supposed to help people decide before it was built.",
+      "accordionEnabled": true
+    },
+    {
+      "question": "How do you answer the three questions if your organization doesn't have a clear strategy?",
+      "answer": "Start with what you know rather than what's been officially stated. The three questions aren't asking for a strategy document. They're asking what actually happens every day, how your work connects to it, and what you'd need to know to do it better. Those answers exist even in organizations with unclear strategy. The gap between what you know to be true and what's been formally agreed is often exactly where the AI conversation needs to start.",
+      "accordionEnabled": true
+    },
+    {
+      "question": "What does it mean to answer these questions for yourself rather than for your organization?",
+      "answer": "Most AI conversations happen at the organizational level: what does the business need, what does the team need, what does the platform need. That framing makes it easy to defer the harder question, which is personal: what are you actually trying to accomplish, and do you know that clearly enough to recognize whether a tool is helping you get there? Answering for yourself means being honest about what you're trying to do before the organizational framing gets applied. It's harder and it's faster. Organizations that get value from AI tend to have people in them who've done that work.",
+      "accordionEnabled": true
+    }
+  ],
+  "cta": {
+    "headline": "See What It Looks Like When Those Answers Are Built Into Your Data",
+    "body": "If you want to see what it looks like when those answers are built into your data, explore Strategy Mosaic.",
+    "buttonText": "Explore Strategy Mosaic",
+    "buttonUrl": "https://www.strategy.com/software/strategymosaic"
+  },
+  "internalLinks": [],
+  "externalLinks": [
+    "https://www.strategy.com/software/strategymosaic"
+  ],
+  "validationWarnings": [
+    "publishDate is not present in the document; schema markup notes '[publish date]' as a placeholder — requires human input before publishing.",
+    "authorBio is not present in the document; the note says 'use previous bio from the other posts' — requires human input to populate the authorBio field.",
+    "The CTA contained a placeholder note '[LINK: Strategy Mosaic product page]' alongside the full URL; the URL has been used but web team should confirm the final button destination before publishing.",
+    "Schema markup and E-E-A-T checklist sections were stripped as editorial/internal metadata not intended for publication.",
+    "No heroMedia image or video was found in the document; heroMedia set to null.",
+    "The document references 2+ internal links as an E-E-A-T requirement but no internal /path URLs were provided; internalLinks array is empty and requires human review.",
+    "Author title 'Senior Outbound Product Manager, Strategy Software' was captured in the author field name only; full title context noted here for editorial reference.",
+    "The meta description found at the bottom of the document was used as the basis for seo.metaDescription but was lightly edited to fit the 120-155 character requirement."
+  ],
+  "_source_file": "Stop Overengineering FINAL Final.docx"
+}

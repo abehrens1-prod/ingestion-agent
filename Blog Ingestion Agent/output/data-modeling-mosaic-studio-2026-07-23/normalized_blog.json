@@ -1,0 +1,379 @@
+{
+  "title": "Unify Your Data, Trust Your AI: Inside Mosaic Studio",
+  "subtitle": "",
+  "slug": "unify-your-data-trust-your-ai-inside-mosaic-studio",
+  "url": "/unify-your-data-trust-your-ai-inside-mosaic-studio",
+  "author": "Kaylee Ritter",
+  "authorBio": "",
+  "publishDate": "2026-07-24T00:00:00.000Z",
+  "seo": {
+    "metaTitle": "Unify Your Data, Trust Your AI: Inside Mosaic Studio",
+    "metaDescription": "Learn how Mosaic Studio's Universal Semantic Layer governs metrics and unifies data so AI returns trusted, consistent answers every time.",
+    "metaDescriptionFromDoc": false,
+    "targetKeywords": [
+      "universal semantic layer",
+      "AI-ready data architecture",
+      "enterprise semantic layer",
+      "governed metrics",
+      "Mosaic Studio"
+    ],
+    "metaDescriptionAlternatives": [
+      "Discover how Strategy Mosaic Studio fixes AI hallucinations at the architecture layer with governed metrics and a Universal Semantic Layer.",
+      "See how Mosaic Studio unifies data from any source into one governed layer so AI agents and dashboards always return the same answer."
+    ],
+    "primaryKeywords": [
+      "universal semantic layer",
+      "AI-ready data architecture",
+      "enterprise semantic layer",
+      "governed metrics",
+      "Mosaic Studio"
+    ],
+    "secondaryKeywords": [
+      "data modeling tool",
+      "SQL generation layer",
+      "business metric definitions",
+      "row-level security for AI",
+      "BI data governance",
+      "consistent AI analytics",
+      "cloud data warehouse unification",
+      "enterprise data trust",
+      "AI hallucination prevention",
+      "metric consistency across tools",
+      "object-level permissions",
+      "data context for LLMs"
+    ],
+    "longTailKeywords": [
+      "why does AI return wrong answers from business data",
+      "how to define business metrics for AI models",
+      "how to prevent LLMs from writing bad SQL",
+      "best way to unify data from multiple sources without migration",
+      "how to apply row-level security to AI queries",
+      "why business definitions get trapped in BI tools",
+      "how to build a semantic layer for enterprise AI",
+      "what is a universal semantic layer and why does it matter",
+      "how to make AI analytics consistent across teams",
+      "why AI needs governed data definitions to be trusted",
+      "how to stop AI from reloading schema on every query",
+      "best architecture for trusted AI-generated analytics"
+    ],
+    "brandedKeywords": [
+      "Strategy",
+      "Strategy Mosaic",
+      "Mosaic Studio",
+      "Strategy Universal Semantic Layer",
+      "Strategy AI analytics"
+    ]
+  },
+  "quickAnswer": [
+    {
+      "headline": "AI doesn't come pre-loaded with your business definitions. It doesn't know what counts as revenue or how you define a customer. Without that context, it fills in the gaps, and the answer can look right when it isn't.",
+      "body": ""
+    },
+    {
+      "headline": "The fix belongs in the architecture. SQL generation needs to happen in a separate, deterministic layer, so the same question returns the same answer every time, no matter which AI model is asking.",
+      "body": ""
+    },
+    {
+      "headline": "A Universal Semantic Layer pulls your data together from wherever it already lives (files, cloud warehouses, existing models) into one governed source, without migrating anything.",
+      "body": ""
+    },
+    {
+      "headline": "Mosaic Studio is the workspace where that layer gets built. It uses AI to speed up data prep, metric creation, and modeling.",
+      "body": ""
+    },
+    {
+      "headline": "Security travels with the model itself, so Row and Object-level permissions apply the same way whether a person, a dashboard, or an AI agent is asking the question.",
+      "body": ""
+    }
+  ],
+  "quickAnswerFromDoc": true,
+  "heroMedia": null,
+  "body": [
+    {
+      "type": "section",
+      "heading": "",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Real business data is messy in ways that are hard to appreciate until you've worked with it directly. It's full of context that lives in people's heads rather than in a schema. So, when an AI model tries to write SQL straight against that data, it handles the easy parts but has no way of knowing the rules that make the data mean something. When LLMs fill in gaps on their own, without those structured business definitions, problems start to compound."
+        },
+        {
+          "type": "paragraph",
+          "text": "Without pre-built logic, it reloads your entire schema and reruns full queries on every request, burning tokens and compute. This causes business definitions to end up trapped inside whatever BI tool, warehouse, or LLM you happened to build them in, so the moment you want to switch tools, they don't come with you."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "What does Mosaic's Universal Semantic Layer Do?",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Mosaic Studio is an AI-powered data modeling tool that takes data sitting in different sources and unifies it."
+        },
+        {
+          "type": "blockquote",
+          "text": "\"Mosaic takes data that's in separate environments and it unifies it into one foundation, so that you can have your data all in one place, and you can also use AI to build that data layer.\" — Marianne Messeh, a Senior Education Consultant at Strategy."
+        },
+        {
+          "type": "paragraph",
+          "text": "That's also what fixes the drift in how metrics get defined in the first place. You might define a revenue metric one way, and a coworker might define it differently. Saving that metric in one central, governed place is what lets both of you look at it and know it's the same consistent number, whether you're viewing it in a dashboard, a query, or an AI agent."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mosaic is also vendor-neutral, connecting to more than 200 data sources (files, cloud databases, apps such as Salesforce) without asking you to move or consolidate anything first. No data source is left behind: raw sources sit at the bottom, the semantic layer unifies everything in the middle, and whatever client you're using, a BI tool, an AI agent, or a productivity app, sits on top. It works with whatever LLM, cloud, or database you already run, so you can swap models, test new ones, or run a few side by side, and the governed layer underneath stays exactly where it was."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Problems Mosaic Solves, at a Glance",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Mosaic makes it easier for a business user to go and build a schema, without any deep technical knowledge. Any business user can self-service and build a Mosaic model quickly, and Mosaic is valued around six specific pain points that show up in most data organizations sooner or later:"
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Data inconsistency",
+              "bold": true
+            },
+            {
+              "text": ": the same metric getting defined differently by different teams, with no way to know which version is correct."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Skill gaps",
+              "bold": true
+            },
+            {
+              "text": ": schema-building has traditionally required a deep technical team; Mosaic lets a business user build a model through self-service instead."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Data proliferation",
+              "bold": true
+            },
+            {
+              "text": ": data scattered across dozens of systems, with no single source of truth to point to."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Complex data integration",
+              "bold": true
+            },
+            {
+              "text": ": the old assumption that unifying data means physically moving it. Mosaic connects to data where it lives instead."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Security and governance gaps",
+              "bold": true
+            },
+            {
+              "text": ": permissions and access control that live in one tool but not another, creating blind spots."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Vendor lock-in",
+              "bold": true
+            },
+            {
+              "text": ": being tied to a specific warehouse or cloud platform because that's where your models and logic live."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Modeling the Data, Not Querying It Raw",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The distinction that gets missed most often is that AI shouldn't be the thing querying your raw enterprise data directly. It should be the thing that helps you build the governed layer that sits in front of it, establishing business logic, definitions, and relationships over raw data."
+        },
+        {
+          "type": "paragraph",
+          "text": "Data prep used to eat most of a project's timeline. Messeh, who also teaches Strategy's technical bootcamp, has watched that shift firsthand:"
+        },
+        {
+          "type": "blockquote",
+          "text": "\"Before Mosaic, the data prep, that would be, I want to say, maybe seventy percent of the work that they did, because they had these extremely comprehensive data sets and they had to do a lot of prep... With Mosaic, all of that is just handled for you with the click of a button.\""
+        },
+        {
+          "type": "paragraph",
+          "text": "Inside Mosaic Studio instead of writing a formula by hand, you can describe what you want in plain language, such as average satisfaction score by country, and it builds the formula along with a plain-language explanation of how it's calculated. You can also build out attribute relationships and hierarchy visually, then adjust anything by hand. And if you'd rather just write SQL yourself, there's a Freeform SQL editor available for that, without locking you out of doing things the old way if you want to."
+        },
+        {
+          "type": "paragraph",
+          "text": "What this adds up to is that building a trustworthy data layer no longer requires a dedicated technical team writing SQL from scratch. A business user can do most of it through plain language, and the SQL still gets generated by a separate deterministic engine, not by the LLM itself. The LLM figures out what you're asking for, and Mosaic writes the query."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Building a Model: What It Looks Like",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Here's a general overview of what the build process looks like, from a blank workspace to a published model:"
+        },
+        {
+          "type": "list",
+          "style": "numbered",
+          "items": [
+            "Start a new model and add your sources. Create a new Mosaic model, select the project it belongs to, then pull in your data, a local spreadsheet and a database table, for instance. Both become part of the same model.",
+            "Preview and clean up before importing. Inspect the structure and sample data first. Skip introductory rows that shouldn't be treated as data, and decide which columns to bring in versus leave out, so you're not importing unnecessary complexity from the start.",
+            "Choose a query mode and set your build preferences. Import stores data in the intelligence server's memory, good for repetitive queries and cost control. Live connect queries the source in real time but rules out data prep. From there, turn on AI-generated data prep suggestions, set naming conventions, and decide whether matching columns should auto-merge and relationships should build automatically.",
+            "Review the AI's suggestions. This is where the model gets refined: fixing inconsistent capitalization, flagging sensitive fields like income as sensitive, merging attributes that clearly represent the same entity across tables, and creating time-based attributes from a date field. Each suggestion is reviewed and either applied or skipped.",
+            "Create metrics and check the hierarchy. Describe a metric in plain language (average satisfaction score by country, for example) and get back a generated formula with an explanation of the logic. Then review how attributes relate to each other, adjusting by hand if the AI got something wrong.",
+            "Validate, then save and publish. Validation catches issues before they go live. Publishing finalizes the model and makes it available to dashboards, AI agents, or whatever client needs it, with the option to refresh on a schedule so it never goes stale."
+          ]
+        },
+        {
+          "type": "table",
+          "headers": [],
+          "rows": [
+            [
+              "Watch Marianne Messeh, a Senior Education Consultant, walk through the process of building a model from a blank workspace to a published model.",
+              "[embed the session]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Security that Travels with the Data, not the Tool",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "With Mosaic, security lives inside the model itself, rather than inside each separate tool that connects to it."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mosaic centralizes your security framework, when you apply a security filter within Mosaic, that policy is enforced at the semantic level. Row-level filters and object-level permissions get set once, at the model, and they apply consistently no matter what's asking. If you have a tool like Power BI and it connects to Mosaic, it's connecting through that governed layer so that you don't have to reconfigure anything in your BI tool."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Where AI Agents Fit In: MCP",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The Model Context Protocol, or MCP, is an open standard that lets AI agents (Claude, Gemini, Copilot, whichever one you're using) connect to your governed data securely."
+        },
+        {
+          "type": "paragraph",
+          "text": "An agent querying through MCP inherits the same governed definitions and the same permissions a human user would have. It's not guessing at your schema or writing its own SQL against raw tables somewhere, but rather asking questions of a layer that already has the business context, the security rules, and the deterministic query engine built in, to pull numbers your analysts rely on."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "The Bigger Picture: No Replacement Required",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "None of this requires tearing anything out. A semantic layer sits on top of the warehouse, cloud, and BI tools you already have. It isn't asking you to replace any of it, and you're not migrating to a new platform. You're building a governed, AI-ready foundation so every tool you already use, and every AI agent you add going forward, ends up working off the same trusted numbers."
+        },
+        {
+          "type": "paragraph",
+          "text": "As AI agents move from something teams are experimenting with to something they depend on, that foundation stops being optional, and becomes the thing that decides whether you can trust what the AI is telling you in the first place."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is a Universal Semantic Layer?",
+      "answer": "It's a governed layer that sits between your raw data (warehouses, files, cloud databases, apps) and whatever's querying it, whether that's a BI dashboard, a report, or an AI agent. It centralizes your business definitions, what revenue means, how you define a customer, so every tool and every person gets the same answer without moving your data anywhere.",
+      "accordionEnabled": true
+    },
+    {
+      "question": "What does Mosaic Studio do?",
+      "answer": "It's an AI-driven, no-code workspace for building governed datasets, called Mosaic models. It uses AI to help with data prep, metric creation, and hierarchy modeling, turning raw data from multiple sources into one governed dataset that teams and AI agents can query consistently.",
+      "accordionEnabled": true
+    },
+    {
+      "question": "How does this stop AI from hallucinating?",
+      "answer": "By keeping SQL generation out of the LLM entirely. The AI figures out what you're asking for, but a separate, deterministic engine writes the query itself. Same question, same query, same answer, no matter which AI model is asking.",
+      "accordionEnabled": true
+    },
+    {
+      "question": "If I'm on a cloud warehouse like Snowflake, how do I decide between importing data into Mosaic versus connecting to it live, especially with cloud consumption costs in mind?",
+      "answer": "Import mode acts as a cost-control layer, not just a convenience feature: a way to avoid hitting the cloud warehouse for every single query. The savings aren't marginal either. Offloading query volume this way can cut what hits your primary platform by up to half. The rule of thumb: use import for high-concurrency needs or repetitive reporting, where the same queries run over and over, and reserve live connections for the narrower case where you genuinely need second-by-second freshness from a single source and don't need complex modeling on top. Worth noting, live connections also rule out data prep on that table, since you're querying the source directly.",
+      "accordionEnabled": true
+    },
+    {
+      "question": "If I update a row-level security filter in Mosaic, does that propagate automatically to a third-party tool like Power BI or Tableau, or do I need to reconfigure those connections separately?",
+      "answer": "Mosaic centralizes the security framework. A filter applied inside Mosaic is enforced at the semantic level, so when a tool like Power BI connects, it's connecting through that governed layer. There's nothing to reconfigure on the BI tool's end.",
+      "accordionEnabled": true
+    },
+    {
+      "question": "For analysts used to writing complex SQL, does AI-powered data modeling mean giving up control?",
+      "answer": "No, every suggestion the AI makes, down to a join or a metric, is fully reviewable and can be accepted or declined. Anyone who wants to see the generated SQL directly can do so through the Freeform SQL editor and edit it or write custom queries from scratch if they'd rather. The AI speeds up the modeling process; it doesn't take the decisions out of anyone's hands.",
+      "accordionEnabled": true
+    }
+  ],
+  "postFaqContent": [],
+  "suggestedTaxonomyTerms": [
+    "Semantic Layer",
+    "AI Data Modeling",
+    "Data Governance",
+    "Enterprise AI",
+    "Business Intelligence"
+  ],
+  "cta_list": [],
+  "internalLinks": [],
+  "externalLinks": [],
+  "validationWarnings": [
+    "No publish date found in the document.",
+    "Author is inferred from the quoted speaker (Marianne Messeh, Senior Education Consultant at Strategy) as no explicit byline is present.",
+    "The table row containing [embed the session] references an embedded video that was not provided as a URL or embed code; mapped as a table cell string. Human review needed to insert actual video embed.",
+    "No [LINK:] markers found in the document; internalLinks and externalLinks arrays are empty.",
+    "No explicit CTA boxes found; cta_list is empty.",
+    "The [BOLD] heading markers were treated as H2 section headings based on document structure, as no explicit [H2] markers were present. Human review recommended to confirm heading hierarchy.",
+    "publishDate was not found in the document — defaulted to tomorrow (2026-07-24T00:00:00.000Z). Confirm before publishing."
+  ]
+}

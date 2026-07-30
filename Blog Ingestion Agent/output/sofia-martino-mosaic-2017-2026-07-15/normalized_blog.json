@@ -1,0 +1,350 @@
+{
+  "title": "The Hard Way to Build BI: What I'd Do Differently With Strategy Mosaic",
+  "subtitle": "",
+  "slug": "the-hard-way-to-build-bi-what-id-do-differently-with-strategy-mosaic",
+  "url": "/the-hard-way-to-build-bi-what-id-do-differently-with-strategy-mosaic",
+  "author": "Sofia Martino",
+  "authorBio": "",
+  "publishDate": "2026-07-16T00:00:00.000Z",
+  "seo": {
+    "metaTitle": "The Hard Way to Build BI: What I'd Do Differently",
+    "metaDescription": "Discover how a semantic layer changes BI delivery. Learn what Strategy Mosaic does differently to govern metrics, cut rebuild cycles, and accelerate trusted",
+    "metaDescriptionFromDoc": false,
+    "targetKeywords": [
+      "semantic layer for enterprise BI",
+      "governed business logic",
+      "BI strategy for analytics leaders",
+      "metrics governance platform",
+      "enterprise analytics acceleration"
+    ],
+    "metaDescriptionAlternatives": [
+      "Building BI without governed logic means rebuilding everything twice. See how Strategy Mosaic helps teams define metrics once and reuse them everywhere.",
+      "Learn why enterprise BI fails without a semantic layer—and how Strategy Mosaic shortens time-to-insight with governed, reusable business logic."
+    ],
+    "primaryKeywords": [
+      "semantic layer for enterprise BI",
+      "governed business logic",
+      "BI strategy for analytics leaders",
+      "metrics governance platform",
+      "enterprise analytics acceleration"
+    ],
+    "secondaryKeywords": [
+      "business intelligence architecture",
+      "reusable metrics layer",
+      "ETL and semantic layer integration",
+      "data pipeline governance",
+      "BI adoption strategy",
+      "time-to-insight reduction",
+      "finance analytics governance",
+      "trusted analytics foundation",
+      "data classification at scale",
+      "BI decision-making framework",
+      "parallel ETL development",
+      "enterprise data consistency"
+    ],
+    "longTailKeywords": [
+      "why enterprise BI projects fail without a semantic layer",
+      "how to define metrics once and reuse them across reports",
+      "best way to govern business logic in a BI environment",
+      "how to reduce BI rebuild cycles with a semantic layer",
+      "why data teams spend months recreating the same metrics",
+      "how to accelerate BI adoption across enterprise teams",
+      "what is a semantic layer and why does it matter for analytics",
+      "how to align ETL development with business logic governance",
+      "best practices for building trusted analytics at a Fortune 500 company",
+      "how to shorten time-to-insight in enterprise data science teams",
+      "why BI tools without governed metrics create inconsistent reporting",
+      "how to build an AI-ready analytics foundation with a semantic layer"
+    ],
+    "brandedKeywords": [
+      "Strategy Mosaic",
+      "Strategy",
+      "Strategy Mosaic semantic layer",
+      "Strategy Mosaic for enterprise BI",
+      "Strategy Mosaic metrics governance"
+    ]
+  },
+  "quickAnswer": [
+    {
+      "headline": "Building BI without governed business logic means rebuilding from scratch every time.",
+      "body": "Without a semantic layer, teams spend months hand-classifying data and recreating metrics inside every individual report."
+    },
+    {
+      "headline": "A semantic layer separates business logic from the data pipeline, enabling faster delivery.",
+      "body": "Strategy Mosaic lets teams define metrics once and reuse them everywhere, reducing time-to-insight and accelerating adoption."
+    },
+    {
+      "headline": "Parallel development of semantic layer and ETL shortens the road to trusted analytics.",
+      "body": "Business logic can shape the pipeline, and the pipeline refines the logic — both evolve together rather than sequentially."
+    }
+  ],
+  "quickAnswerFromDoc": false,
+  "heroMedia": null,
+  "body": [
+    {
+      "type": "section",
+      "heading": "",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "I started working at a Fortune 500 beverage company in 2016, in Finance. Less than a year in, I found myself in an elevator with the VP of Digital Transformation. I'd just heard him give a talk on the digital revolution. He told us that his own area would eventually get diluted. That digital work wouldn't stay centralized and would spread into every team, everywhere."
+        },
+        {
+          "type": "paragraph",
+          "text": "He was right. But getting there took a long road of adoption, one team, one habit, one dashboard at a time. Six months later, he asked me to join his team as a Data Science Manager."
+        },
+        {
+          "type": "paragraph",
+          "text": "The project was a D2C platform for convenience stores in more than 14 countries. And it was, in every sense, uncharted territory."
+        },
+        {
+          "type": "paragraph",
+          "text": "This was the first time the company had access to consumer-level data. No distributor in between. No wholesaler smoothing out the signal. Just raw, messy, individual purchase behavior, where my job was to build analytics and BI that people could trust and act on."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "The data was there. The business logic wasn't.",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Calling it \"data science\" felt generous. The first job was really archaeology. We were digging through a database that had been designed for market speed, not business understanding."
+        },
+        {
+          "type": "list",
+          "style": "bullet",
+          "items": [
+            "No brand clustering: Our own soda, a partner energy drink, another partner's snack brand, and two different partner personal-care brands, all living in the same undifferentiated chaos.",
+            "No naming conventions: Literally 15 different ways to write our own flagship soda brand's name",
+            "No analytics categories: No snacks, home care, beverages, alcoholic/non-alcoholic, or ready-to-drink labels to simplify data management."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Moreover, the \"fact tables\" I found weren't built for analysis. Geolocation had no city mapping, timestamps were in the wrong format for delivery, and data fields were either empty or unfiltered."
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "This meant I had no metrics at all:",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "style": "bullet",
+          "items": [
+            "No way to identify which products were even ours.",
+            "No way to understand brand incidence.",
+            "No way to read GMV, orders, or ticket size by city."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "What I really wanted, even if I didn't have the word for it yet, was a "
+            },
+            {
+              "text": "Semantic Layer",
+              "url": "https://software.strategy.com/what-is-a-semantic-layer"
+            },
+            {
+              "text": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "My light-bulb moment: From single dashboards to unified intelligence",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "One day, while I was painstakingly sifting through this chaos, my VP asked me for a favor: Could I put together an Excel file to understand how our flagship flavor line was performing on the platform?"
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "I said, \"Sure, give me 10 minutes.\" "
+            },
+            {
+              "text": "(By midnight, I had managed to build a Power BI report, after classifying 2,000 SKUs by hand, just to see how it stacked up against total GMV.)",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "I walked back to my desk the next morning and asked myself a question that's stuck with me ever since: "
+            },
+            {
+              "text": "What if, instead of building individual dashboards, I could show how everything was purchased?",
+              "bold": true
+            },
+            {
+              "text": " Alongside our snacks, a partner's product, and everything else in one basket."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "And then I drilled deeper. That \"basket analysis\" would have let us:"
+        },
+        {
+          "type": "list",
+          "style": "bullet",
+          "items": [
+            "Build consistent product names, tags, clusters, and categories for clarity.",
+            "Define product combinations that were both accurate and genuinely profitable.",
+            "Compare flagship product performance against joint purchase behavior."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Building BI the hard way.",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Here's what actually happened."
+        },
+        {
+          "type": "paragraph",
+          "text": "I built 18 reports for 14 country managers. All I had was access to CSVs and a handful of platforms like Apps Flyer to track in-app behavior. Eventually, I managed to get a team assigned to build something resembling a semantic layer on Azure Analysis Services, but not quite."
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "That took an entire year of work.",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "I had to bend every existing tool I had into replicating what I truly needed: "
+            },
+            {
+              "text": "consistent, governed business logic, built directly on top of the data stack.",
+              "italic": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "What If I had Mosaic to streamline BI analytics?",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Looking back, having "
+            },
+            {
+              "text": "Strategy Mosaic",
+              "url": "https://strategysoftware.com/strategymosaic"
+            },
+            {
+              "text": " would have helped us separate two critical elements:"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "style": "numbered",
+          "items": [
+            "The semantic layer: Metrics, attributes, relationships, and governed business logic.",
+            "The data pipeline: The ETL work needed to connect backend databases with the tools the business used to surface insights."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "That separation would have changed how the project was built. Instead of waiting for ETL work to finish before defining the business logic, we could have built the semantic layer in parallel."
+        },
+        {
+          "type": "paragraph",
+          "text": "That would have reduced development time and shortened time-to-insight. Adoption would likely have moved faster too, because business users would have seen trusted, usable metrics earlier. From day one, the CEO and Board would have had a clearer view of the project's value and momentum."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mosaic would have helped turn that chaotic data into reusable business logic by standardizing product definitions, aligning categories, and creating governed metrics that everyone could trust. Instead of rebuilding that logic manually inside a Power BI report, we could have defined it once and reused it wherever insights were needed."
+        },
+        {
+          "type": "paragraph",
+          "text": "With Mosaic, designing the semantic layer helps define what ETL work is actually needed. Business logic shapes the pipeline, and the pipeline helps refine the business logic. Instead of moving in a straight line, both evolve together."
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "The result is two outcomes built together: "
+            },
+            {
+              "text": "a properly scoped data pipeline and a governed semantic layer that the business can trust.",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "faq": [],
+  "postFaqContent": [],
+  "suggestedTaxonomyTerms": [
+    "Semantic Layer",
+    "Business Intelligence",
+    "Data Governance",
+    "Analytics Engineering",
+    "Data Strategy"
+  ],
+  "cta_list": [
+    {
+      "headline": "Stop rebuilding business logic one report at a time.",
+      "body": "Strategy Mosaic gives teams a governed semantic layer for defining trusted metrics, relationships, and business context across the analytics stack, so BI teams can move faster without losing consistency.",
+      "buttonText": "Explore Strategy Mosaic",
+      "buttonUrl": ""
+    }
+  ],
+  "internalLinks": [],
+  "externalLinks": [
+    "https://software.strategy.com/what-is-a-semantic-layer",
+    "https://strategysoftware.com/strategymosaic"
+  ],
+  "validationWarnings": [
+    "No author name or publish date found in the document.",
+    "The table at the end of the document appears to function as a CTA block (one data row with body text and a button label) rather than a true data table. It has been mapped to cta_list instead of a table block in body.",
+    "The [BOLD] paragraph 'That took an entire year of work.' uses the [BOLD] tag outside a box, mapped as a bold paragraph run per extraction rules.",
+    "The [BOLD] paragraph 'This meant I had no metrics at all:' uses the [BOLD] tag outside a box, mapped as a bold paragraph run per extraction rules.",
+    "No heroMedia image or video found in the document.",
+    "No FAQ section detected.",
+    "The numbered list items contained inline bold formatting ([B]...[/B]); bold formatting on list item labels has been preserved in plain text within the items array since the schema does not support runs inside list items — human review recommended.",
+    "The [LINK:Semantic Layer|...] URL 'https://software.strategy.com/what-is-a-semantic-layer' appears to be an internal Strategy Software domain but uses https:// — classified as externalLinks pending confirmation of domain ownership.",
+    "publishDate was not found in the document — defaulted to tomorrow (2026-07-16T00:00:00.000Z). Confirm before publishing.",
+    "No Quick Answer box found in document — 3 bullets synthesized from article content. Review before publishing and edit in the Contentstack editor if needed.",
+    "Meta description was 167 chars (over 160 limit) — trimmed to 156. Original: \"Discover how a semantic layer changes BI delivery. Learn what Strategy Mosaic does differently to govern metrics, cut rebuild cycles, and accelerate trusted analytics.\""
+  ]
+}

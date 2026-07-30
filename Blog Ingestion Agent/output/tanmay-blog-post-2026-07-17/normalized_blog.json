@@ -1,0 +1,481 @@
+{
+  "title": "The Next Generation of Analytics Won't Be Built Around Dashboards",
+  "subtitle": "",
+  "slug": "the-next-generation-of-analytics-wont-be-built-around-dashboards",
+  "url": "/the-next-generation-of-analytics-wont-be-built-around-dashboards",
+  "author": "Tanmay",
+  "authorBio": "",
+  "publishDate": "2026-07-17T00:00:00.000Z",
+  "seo": {
+    "metaTitle": "The Next Generation of Analytics Won't Be Built Around Dashboards",
+    "metaDescription": "Dashboard-centric analytics is failing enterprises. Learn why governed metrics and a semantic layer are the foundation for trusted AI-ready analytics at scale.",
+    "metaDescriptionFromDoc": false,
+    "targetKeywords": [
+      "enterprise analytics",
+      "semantic layer",
+      "governed metrics",
+      "dashboard-centric analytics",
+      "AI-ready analytics"
+    ],
+    "metaDescriptionAlternatives": [
+      "Dashboards alone can't scale analytics. Discover how governed business context and a semantic layer deliver consistent metrics across AI, apps, and workflows.",
+      "Fragmented definitions break enterprise analytics. See why reusable governed metrics across every surface build the trust AI-ready analytics demands."
+    ],
+    "primaryKeywords": [
+      "enterprise analytics",
+      "semantic layer",
+      "governed metrics",
+      "dashboard-centric analytics",
+      "AI-ready analytics"
+    ],
+    "secondaryKeywords": [
+      "business intelligence strategy",
+      "BI decision-making",
+      "metrics consistency",
+      "analytics governance",
+      "embedded analytics",
+      "business logic standardization",
+      "analytics architecture",
+      "data trust",
+      "reusable metrics layer",
+      "analytics at scale",
+      "fragmented analytics",
+      "BI modernization"
+    ],
+    "longTailKeywords": [
+      "why dashboards are failing enterprise analytics teams",
+      "how to govern metrics across AI and analytics tools",
+      "best way to scale analytics beyond dashboards",
+      "how to ensure consistent business definitions across BI tools",
+      "why fragmented analytics architecture breaks AI reliability",
+      "how a semantic layer enables trusted enterprise analytics",
+      "what replaces dashboard-centric analytics at scale",
+      "how to build AI-ready analytics with governed business context",
+      "why BI dashboards alone cannot support enterprise AI workflows",
+      "how to reuse metrics across dashboards apps and AI agents",
+      "best practices for governed metrics in enterprise BI",
+      "how to eliminate inconsistent definitions across analytics surfaces"
+    ],
+    "brandedKeywords": [
+      "Strategy",
+      "Strategy Mosaic",
+      "Strategy semantic layer",
+      "Strategy enterprise analytics",
+      "Strategy AI-ready BI"
+    ]
+  },
+  "quickAnswer": [
+    {
+      "headline": "Dashboards aren't obsolete, but dashboard-centric analytics is failing enterprises.",
+      "body": "Publishing more dashboards doesn't solve fragmented definitions or inconsistent business logic across tools and teams."
+    },
+    {
+      "headline": "The real constraint is fragmented architecture beneath the dashboard layer.",
+      "body": "Metrics and definitions locked inside individual dashboards break consistency when analytics scales across AI, apps, and workflows."
+    },
+    {
+      "headline": "Governed business context must travel across every analytics surface to build trust.",
+      "body": "When definitions, hierarchies, and rules are reusable across dashboards, AI agents, and embedded apps, every insight becomes trustworthy."
+    }
+  ],
+  "quickAnswerFromDoc": false,
+  "heroMedia": null,
+  "body": [
+    {
+      "type": "section",
+      "heading": "",
+      "subheading": "",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "type": "section",
+      "heading": "Dashboards aren't obsolete. Dashboard-centric analytics is.",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The BI dashboard isn't disappearing."
+        },
+        {
+          "type": "paragraph",
+          "text": "But the idea that every analytics experience should orbit one interface is becoming harder to defend. For years, dashboards were the default destination for enterprise analytics:"
+        },
+        {
+          "type": "paragraph",
+          "text": "If a manager needed performance visibility, the answer was a dashboard. If a business user needed a recurring metric, the answer was another dashboard. If a company wanted to scale BI, the answer was more dashboards, in more places, for more teams."
+        },
+        {
+          "type": "paragraph",
+          "text": "That model had a clear goal. It gave the enterprise a shared surface for tracking performance. It pulled people away from static reports and one-off data requests by making analytics easier to access."
+        },
+        {
+          "type": "paragraph",
+          "text": "But access is no longer enough."
+        },
+        {
+          "type": "paragraph",
+          "text": "Publishing more dashboards doesn't solve the deeper problem: whether every analytics experience can use the same trusted business meaning without another migration, consolidation project, or dashboard rebuild."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Dashboards show the signal, but not the context.",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "A BI dashboard gave teams a consistent interface for engaging with governed metrics and understanding performance without going back to technical teams for every question."
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Power BI dashboards, Tableau dashboards, and similar BI experiences often became the enterprise visualization layer. But each dashboard was still built around a specific analytics pattern: "
+            },
+            {
+              "text": "define the question, build the view, publish the answer, refresh the report.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "That pattern works when the business needs visibility into known questions. It breaks down when the next decision depends on context the dashboard was not designed to carry."
+        },
+        {
+          "type": "list",
+          "style": "bullet",
+          "items": [
+            "A revenue dashboard can flag a decline. The harder question is whether the cause is pricing, churn, product mix, or a change in how revenue is defined.",
+            "A supply chain dashboard can surface a delay. The next decision depends on which dependency caused it, which orders are exposed, and what operational action should follow.",
+            "A customer health dashboard can identify risk. The business still needs to understand whether that risk comes from product usage, support history, renewal timing, or account ownership."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The dashboard surfaces the issue. Leadership still needs the governed context behind it."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Modern analytics must answer, explain, and act on business context",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Analytics expectations are shifting because enterprise decisions have become more dynamic and contextual."
+        },
+        {
+          "type": "paragraph",
+          "text": "Today, users don't just consume a pre-built view. They want to ask follow-ups, drill into drivers, and use AI-powered analytics to understand what action to take next."
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "That means the static, dashboard-driven path of consumption is too narrow for how decisions now happen.",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A dashboard is usually designed around anticipated questions. The modern enterprise operates through decision paths that evolve as conditions change. Those paths depend on business context, definitions, and the relationships between data points."
+        },
+        {
+          "type": "list",
+          "style": "bullet",
+          "items": [
+            "Why did bookings fall for this department last month?",
+            "Which customer segment is driving margin pressure in Q4?",
+            "Why did forecast accuracy improve in one region but decline in another?"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Those aren't just reporting questions. They are operating questions. Answering them requires a consistent understanding of how the business defines, connects, and governs its data."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "The real constraint is the architecture underneath the dashboard",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "When dashboards stall, teams often blame visible blockers:"
+        },
+        {
+          "type": "list",
+          "style": "bullet",
+          "items": [
+            "The chart is too static",
+            "The drill path is too rigid",
+            "The dashboard is too crowded",
+            "The report takes too long to change",
+            "The business user doesn't know where to click"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Those problems are visible, but they aren't the root cause."
+        },
+        {
+          "type": "paragraph",
+          "text": "The underlying problem is fragmentation. Definitions sit inside dashboards. Metrics are recreated inside BI tools. Context survives in documentation, disconnected systems, or the institutional memory of the people who built the reports."
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "In that environment, visualization tools can struggle to deliver consistent answers because the inconsistency starts below the visual layer. One dashboard can define "
+            },
+            {
+              "text": "Customer ",
+              "italic": true
+            },
+            {
+              "text": "differently from another. An AI system can return an answer that sounds confident but reflects the wrong definition."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "For analytics to scale reliably, business meaning must travel across the tools the enterprise already uses. Dashboards, applications, workflows, and AI shouldn't need separate definitions of the same metric."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "When analytics scales, business logic must stay consistent",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Analytics used to flow through a single interface, the dashboard."
+        },
+        {
+          "type": "paragraph",
+          "text": "Now insights appear across embedded applications, productivity tools, workflow systems, data products, and AI agents. They show up when someone opens a report, asks a question, receives an answer, or reviews an automated summary."
+        },
+        {
+          "type": "paragraph",
+          "text": "If each surface carries its own version of business logic, the enterprise scales interfaces, not trust."
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "That's why definitions, relationships, hierarchies, rules, and governance need to be available before insights are generated, regardless of where the user encounters them.",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "That consistency changes what each interface can do:"
+        },
+        {
+          "type": "list",
+          "style": "bullet",
+          "items": [
+            "A dashboard shows the metric",
+            "An analytics experience explains the metric",
+            "An embedded workflow acts on the metric",
+            "An executive view monitors the metric",
+            "A data product reuses the metric"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Adding AI into dashboards doesn't fix fragmented logic",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Artificial intelligence can enhance the dashboard experience. It can help users ask questions, summarize trends, and explore anomalies faster. Used well, it makes analytics more interactive and less dependent on predefined navigation paths."
+        },
+        {
+          "type": "paragraph",
+          "text": "But adding AI to the dashboard layer doesn't repair the architecture underneath it. If the experience is built on fragmented definitions or disconnected governance, the result can look modern while still being ungrounded."
+        },
+        {
+          "type": "paragraph",
+          "text": "A user may ask why revenue changed in Q4 and receive a plausible explanation. But without governed context, the system may not know:"
+        },
+        {
+          "type": "list",
+          "style": "bullet",
+          "items": [
+            "Which revenue definition applies",
+            "Which customer records should be excluded for Q4",
+            "Which access policy governs the user's request"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "AI-powered dashboards can transform how people interact with analytics. Governed business context determines whether those interactions can be trusted."
+        },
+        {
+          "type": "paragraph",
+          "text": "That distinction matters because AI raises the cost of inconsistency. A dashboard may expose a disagreement, but an AI-powered workflow may act on it."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "The next analytics architecture starts with governed context",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "That foundation matters because the next generation of analytics won't rely on a single interface."
+        },
+        {
+          "type": "paragraph",
+          "text": "A business user may start in a dashboard, ask a natural-language follow-up, receive an AI-generated explanation, and act inside a workflow. A data product may need the same metric in a different application."
+        },
+        {
+          "type": "paragraph",
+          "text": "Those experiences can't invent their own meaning. Dashboards, AI agents, APIs, embedded applications, and other analytics experiences need to work from the same governed definitions, relationships, rules, and policies."
+        },
+        {
+          "type": "paragraph",
+          "text": "This is why semantic context matters."
+        },
+        {
+          "type": "paragraph",
+          "text": "Enterprises shouldn't have to take on another migration just to make analytics more consistent. The definitions should hold across regions, tools, and teams."
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "That changes the leadership question from "
+            },
+            {
+              "text": "“Which dashboard should users open?” to “Can every analytics experience work from the same context?”",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "That’s where Strategy Mosaic fits."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "How Strategy Mosaic strengthens the stack you already have",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Strategy Mosaic",
+              "url": "https://software.strategy.com/strategymosaic"
+            },
+            {
+              "text": " is designed for enterprises that need more trusted analytics without moving all their data into one place first. Instead of relocating data, Mosaic makes business logic reusable across the systems already in place."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Definitions are created once, governed consistently, and applied wherever analytics is consumed. Existing analytics experiences can remain part of the stack, and teams can keep working with their preferred LLMs, clouds, databases, data lakes, warehouses, connectors, and BI tools."
+        },
+        {
+          "type": "paragraph",
+          "text": "That flexibility matters as analytics moves from static reporting into AI-powered experiences. Mosaic keeps query generation in a deterministic layer outside the LLM: the LLM handles natural language, and Mosaic handles the query logic. As a result, the query remains grounded in approved business definitions."
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Mosaic offers a faster path to trusted analytics by ",
+              "bold": true
+            },
+            {
+              "text": "working with your existing systems",
+              "bold": true
+            },
+            {
+              "text": ", making definitions consistent across them, and avoiding another migration cycle.",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The dashboard may still show the number, but Mosaic keeps the logic behind it consistent on every interface."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Dashboards will still exist. They just will not own the future.",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Dashboards aren't going away. They will continue to matter for shared visibility, recurring performance management, and operational monitoring."
+        },
+        {
+          "type": "paragraph",
+          "text": "But they will no longer sit at the center of enterprise analytics strategy. That role is moving to the system of governed definitions, relationships, and reusable logic that every analytics experience depends on."
+        },
+        {
+          "type": "paragraph",
+          "text": "The next generation of analytics will be defined by whether every experience can produce trusted, contextual, actionable insight from the same governed foundation."
+        }
+      ]
+    }
+  ],
+  "faq": [],
+  "postFaqContent": [],
+  "suggestedTaxonomyTerms": [
+    "Enterprise Analytics",
+    "Semantic Layer",
+    "Data Governance",
+    "AI-Powered Analytics",
+    "Business Intelligence"
+  ],
+  "cta_list": [
+    {
+      "headline": "Keep the dashboards. Keep the stack. Make the logic consistent.",
+      "body": "Discover how Strategy Mosaic helps dashboards, AI agents, applications, and workflows operate from the same governed business context without forcing teams to migrate or consolidate their data first.",
+      "buttonText": "Explore Strategy Mosaic",
+      "buttonUrl": "https://software.strategy.com/strategymosaic"
+    }
+  ],
+  "internalLinks": [],
+  "externalLinks": [
+    "https://software.strategy.com/strategymosaic"
+  ],
+  "validationWarnings": [
+    "No author name or publish date found in the document.",
+    "The closing table (1x2) was interpreted as a CTA block; no structured header row was present so it was mapped entirely to cta_list rather than as a table block in body.",
+    "The [LINK:Strategy Mosaic|https://software.strategy.com/strategymosaic] URL appears in both the body section and the CTA table — both instances are captured; externalLinks deduplicated to one entry.",
+    "Italic list items in 'Modern analytics must answer...' section had mixed inline italic markers; italic formatting was stripped to plain text for list items as the list block type does not support per-item inline runs.",
+    "No FAQ section detected; faq array is empty.",
+    "publishDate was not found in the document — defaulted to tomorrow (2026-07-17T00:00:00.000Z). Confirm before publishing.",
+    "No Quick Answer box found in document — 3 bullets synthesized from article content. Review before publishing and edit in the Contentstack editor if needed."
+  ]
+}

@@ -1,0 +1,766 @@
+{
+  "title": "Governance First: The Key to Scalable, Trusted Data in Retail and CPG",
+  "subtitle": "How Strategy Mosaic establishes governance, flexibility and trust at scale",
+  "slug": "governance-first-scalable-trusted-data-retail-cpg",
+  "url": "/governance-first-scalable-trusted-data-retail-cpg",
+  "description": "As AI-powered analytics moves from pilot projects to enterprise-wide adoption, Retail and Consumer Packaged Goods (CPG) organizations face five persistent challenges: inconsistent answers, security and compliance risk, vendor lock-in, rising costs, and growing complexity. These challenges are not isolated technical hurdles\u2014they're symptoms of a broader governance problem. This whitepaper introduces a governance-first approach to AI+BI\u2014powered by Strategy Mosaic, a universal semantic layer for enterprise analytics.",
+  "publishedYear": "2025",
+  "seo": {
+    "metaTitle": "Governance-First AI+BI for Retail & CPG | Strategy Mosaic",
+    "metaDescription": "Discover why 42% of retailers cite inconsistent data as a top AI barrier. Explore governance strategies to scale trusted BI in retail and CPG.",
+    "metaDescriptionFromDoc": false,
+    "targetKeywords": [
+      "data governance retail CPG",
+      "AI-powered analytics retail",
+      "semantic layer BI",
+      "scalable data governance enterprise",
+      "trusted data retail analytics"
+    ],
+    "metaDescriptionAlternatives": [
+      "Learn how a semantic layer solves AI hallucinations and data inconsistency for 35% of retail and CPG firms. Strategy Mosaic governance research.",
+      "See why data governance is the key to faster decisions in retail and CPG. Explore findings from the 2025 Global AI+BI Survey by Strategy Mosaic."
+    ],
+    "primaryKeywords": [
+      "data governance retail CPG",
+      "AI-powered analytics retail",
+      "semantic layer BI",
+      "scalable data governance enterprise",
+      "trusted data retail analytics"
+    ],
+    "secondaryKeywords": [
+      "BI tool data consistency",
+      "AI hallucinations in analytics",
+      "retail data architecture",
+      "CPG analytics strategy",
+      "enterprise data governance framework",
+      "AI adoption barriers retail",
+      "data quality BI tools",
+      "retail analytics decision-making",
+      "consistent semantic layer",
+      "data governance whitepaper 2025",
+      "AI readiness retail CPG",
+      "BI governance best practices"
+    ],
+    "longTailKeywords": [
+      "why do AI analytics tools produce inconsistent answers in retail",
+      "how to build a semantic layer for retail and CPG analytics",
+      "how to scale AI-powered BI across enterprise retail organizations",
+      "what is the role of data governance in AI adoption for CPG companies",
+      "how to fix inconsistent data across BI tools in retail",
+      "why retail companies struggle with AI hallucinations in analytics",
+      "best way to govern data sources for AI-powered decision-making in CPG",
+      "how to reduce data inconsistency and improve trust in retail BI",
+      "what governance framework supports scalable AI analytics in retail",
+      "how to prevent vendor lock-in in retail and CPG data infrastructure",
+      "why faster decision-making requires a consistent semantic layer",
+      "how enterprise retail teams can improve AI analytics accuracy"
+    ],
+    "brandedKeywords": [
+      "Strategy",
+      "Strategy Mosaic",
+      "Strategy Mosaic whitepaper",
+      "Strategy Mosaic AI BI Survey",
+      "Strategy Mosaic retail analytics"
+    ]
+  },
+  "brief": [
+    {
+      "boldSentence": "54% of retail and CPG organizations cite faster decision-making as the top expected outcome from AI-powered analytics.",
+      "supportingText": "Yet speed is hampered when BI tools access disjointed and inconsistent data\u2014a problem highlighted by 42% of retailers. Without a consistent semantic layer, trust erodes and AI initiatives struggle to scale."
+    },
+    {
+      "boldSentence": "35% of retail and CPG companies report inaccurate and inconsistent answers\u2014so-called hallucinations\u2014as a top blocker to AI adoption.",
+      "supportingText": "These inconsistencies stem from an insufficient semantic layer across hundreds of daily data sources, leading to slower decision-making, erosion of trust, and time-consuming quality assurance before results can be acted on."
+    },
+    {
+      "boldSentence": "53% of retail and CPG respondents cite cost as their primary challenge to scaling AI-powered analytics.",
+      "supportingText": "Unexpected compute bills, duplicate modeling, and rigid pricing models undermine the business case for AI+BI. Strategy Mosaic addresses this through intelligent caching, cloud flexibility, and predictable per-user pricing rather than compute-based charges."
+    }
+  ],
+  "body": [
+    {
+      "type": "section",
+      "heading": "",
+      "subheading": "",
+      "level": 2,
+      "isCallout": false,
+      "calloutRationale": "",
+      "blocks": []
+    },
+    {
+      "type": "section",
+      "heading": "Executive Summary",
+      "subheading": "Why enterprise AI+BI needs governance at the core",
+      "level": 2,
+      "isCallout": true,
+      "calloutRationale": "Contains benchmark statistics from 2025 Global AI+BI Survey and core thesis",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "As AI-powered analytics moves from pilot projects to enterprise-wide adoption, Retail and Consumer Packaged Goods (CPG) organizations face five persistent challenges: inconsistent answers, security and compliance risk, vendor lock-in, rising costs, and growing complexity. These challenges are not isolated technical hurdles\u2014they're symptoms of a broader governance problem."
+        },
+        {
+          "type": "paragraph",
+          "text": "The 2025 Global AI+BI Survey reveals that retail and CPG organizations value speed of decision-making more than any other industry, with 54% of respondents in these industries expecting faster decision-making and innovation as the top outcomes. Yet, speed is hampered when BI tools access disjointed and inconsistent data, a problem highlighted by 42% of retailers."
+        },
+        {
+          "type": "callout",
+          "label": "Key insight:",
+          "text": "Without a consistent semantic layer, trust erodes, definitions vary, and AI initiatives struggle to scale."
+        },
+        {
+          "type": "paragraph",
+          "text": "Solving this requires a universal semantic layer: a governance-first foundation independent of any single tool, cloud, or database. It decouples governance from tools, platforms, and data sources, ensuring consistent logic and secure access across every layer of the modern analytics stack."
+        },
+        {
+          "type": "paragraph",
+          "text": "This whitepaper introduces a governance-first approach to AI+BI\u2014powered by Strategy Mosaic, a universal semantic layer for enterprise analytics."
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Strategy Mosaic is a universal semantic layer that lives independently of your BI tools, databases, and clouds. It provides the consistency and trust required for enterprise AI, from reducing hallucinations to enabling cost arbitrage.",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Strategy Mosaic turns complex, federated environments into cohesive, trusted systems\u2014supporting not just BI dashboards, but AI agents, customer-facing apps, and future use cases still to come."
+        },
+        {
+          "type": "paragraph",
+          "text": "This whitepaper explores the five core challenges holding AI+BI back and how Strategy Mosaic solves them with a single, governance-first foundation."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Introduction",
+      "subheading": "From fragmentation to enterprise intelligence: Why governance comes first",
+      "level": 2,
+      "isCallout": false,
+      "calloutRationale": "",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "AI-powered analytics is finally moving from hype to habit, especially in industries that have to deliver trusted insights to the frontlines at speed, like retail and CPG. Organizations no longer want siloed tools; they want AI that scales across departments and teams. But scaling AI+BI is not just a technical challenge. It is, fundamentally, a governance challenge."
+        },
+        {
+          "type": "paragraph",
+          "text": "According to the 2025 global survey, speed is the top priority for retail and CPG companies. As they implement AI-powered analytics:"
+        },
+        {
+          "type": "list",
+          "style": "bullet",
+          "items": [
+            "54% of retail organizations expect faster decision-making as the top outcome.",
+            "50% consider increased employee productivity, achieved through access to timely AI-powered insights, as a top outcome.",
+            "28% of retailers plan to expand access to AI-powered analytics tools to over 20% of their workforce, and 38% are considering the adoption of AI bots and agents in the next 12 months, as of June 2025.",
+            "42% cited gaps in data governance as a major challenge to implementing AI-powered analytics, stressing the importance of trusted, governed data as the single source of truth."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Speed and widespread access are only possible with trusted, governed data underpinning it as the single source of truth. Without a shared and fully trusted layer of business definitions, access controls, and reusable logic, AI remains limited to departmental silos and expert users."
+        },
+        {
+          "type": "paragraph",
+          "text": "Saurabh Abhyankar, Chief Product Officer at Strategy, draws a distinction between three types of enterprise intelligence:"
+        },
+        {
+          "type": "list",
+          "style": "bullet",
+          "items": [
+            [
+              {
+                "text": "Type 1:",
+                "bold": true
+              },
+              {
+                "text": " Departmental insights powered by individual tools like Excel or Tableau. These are valuable but siloed and fragmented."
+              }
+            ],
+            [
+              {
+                "text": "Type 2:",
+                "bold": true
+              },
+              {
+                "text": " Enterprise-wide intelligence built on governed, semantic, and connected layers that unify logic and access across tools, clouds, and teams."
+              }
+            ],
+            [
+              {
+                "text": "Type 3:",
+                "bold": true
+              },
+              {
+                "text": " Autonomous intelligence, where AI not only augments decisions but proactively analyzes data, surfaces insights, and acts within business context."
+              }
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The shift from Type 1 to Type 2 is well underway, especially in retail and CPG, which demand consistency across numerous data sources. But the leap to Type 3, autonomous, contextual, and embedded AI, requires above all: governance that scales."
+        },
+        {
+          "type": "paragraph",
+          "text": "This level of control must be independent of any single tool, database, or cloud to ensure the flexibility and consistency needed for true enterprise AI. This is where a universal semantic layer comes in, providing a trusted, flexible foundation for scaling AI+BI."
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "That's what Strategy Mosaic delivers. By decoupling governance from the underlying infrastructure, Mosaic provides the consistency and trust required for enterprise AI.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Problem #1: Inaccurate and Inconsistent Answers",
+      "subheading": "Trust begins with consistency\u2014and most organizations aren't there yet",
+      "level": 2,
+      "isCallout": false,
+      "calloutRationale": "",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "In our 2025 global survey, one of the biggest technical and operational blockers to AI adoption was inaccurate and inconsistent answers, so-called hallucinations, reported by 35% of retail and CPG companies."
+        },
+        {
+          "type": "paragraph",
+          "text": "These inconsistencies stem from an insufficient or underperforming semantic layer\u2014a critical flaw in sectors where data is collected from hundreds of sources daily. This leads to slower decision-making, erosion of trust, and time-consuming quality assurance before results can be acted on. As one survey respondent puts it:"
+        },
+        {
+          "type": "callout",
+          "label": "Survey respondent:",
+          "text": "\"Most things need to be quality assured. This is still time-consuming, as QA feeding back into the AI model in an automated way is still a challenge.\""
+        },
+        {
+          "type": "heading",
+          "text": "How Mosaic Solves Inaccuracy",
+          "level": 3
+        },
+        {
+          "type": "callout",
+          "label": "Strategy Mosaic:",
+          "text": "A universal semantic layer that defines business logic once and applies it consistently across tools, clouds, and teams."
+        },
+        {
+          "type": "paragraph",
+          "text": "Strategy Mosaic solves this problem with a universal semantic layer that acts as the single source of truth for all business logic. When a team uses a BI tool, an AI agent, or a custom application, they are all querying the same definitions for metrics like revenue, inventory, and product. The logic doesn't live inside those tools; it lives in Mosaic's central semantic layer. This ensures that a single metric is always calculated the same way, regardless of the user, tool, or query."
+        },
+        {
+          "type": "callout",
+          "label": "Saurabh Abhyankar, Chief Product Officer, Strategy:",
+          "text": "\"Mosaic provides a single set of models with clearly defined business definitions\u2014like revenue and product, for example. Whether you're accessing them from Tableau, Excel, or through an AI tool using SQL, Mosaic calculates it the same way and gives you the same answer across all platforms.\""
+        },
+        {
+          "type": "paragraph",
+          "text": "By establishing one central source for all business definitions, Mosaic:"
+        },
+        {
+          "type": "list",
+          "style": "bullet",
+          "items": [
+            "Lowers the risk of hallucinations by feeding models a governed, trusted semantic model, not raw, unmanaged data.",
+            "Eliminates contradictory answers that cause confusion and a lack of trust.",
+            "Reduces the need for manual QA because the logic is already certified and consistent."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "This approach is made faster and more reliable by Strategy Mosaic's AI-powered modeling studio. Mosaic handles the initial, time-consuming work of building the semantic model.",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "What used to take days of manual labor can now be done in minutes, allowing a human expert to focus on fine-tuning and validation. This automation:"
+        },
+        {
+          "type": "list",
+          "style": "bullet",
+          "items": [
+            "Reduces human error: With less manual work, there's a lower risk of mistakes that lead to data inconsistencies.",
+            "Accelerates time to trust: What used to take days can now be done in minutes, allowing teams to get a consistent, reliable model in place faster than ever before."
+          ]
+        },
+        {
+          "type": "callout",
+          "label": "Saurabh Abhyankar, Chief Product Officer, Strategy:",
+          "text": "\"What used to take 10 hours can now be done in 30 to 60 minutes. At the end of the process, you have a complete semantic model. Then a human can come in to review, fine-tune, and polish it.\""
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "The result: less human error, less rework, and more trust across your analytics stack.",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Problem #2: Security and Compliance",
+      "subheading": "Scaling AI without sacrificing control",
+      "level": 2,
+      "isCallout": true,
+      "calloutRationale": "Contains key compliance requirements and risk factors for retail sector",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "A lack of a strong data strategy and governance surfaced a major hurdle in the adoption of AI+BI among retailers. 42% of respondents highlighted inconsistent data quality, absence of a semantic layer, and fragmented reporting practices as critical challenges."
+        },
+        {
+          "type": "paragraph",
+          "text": "Most organizations have not yet built the internal scaffolding to ensure that AI systems only access what they're authorized to see. With increasing pressure to scale AI access to non-technical users, companies face a key dilemma: How do we empower teams and AI tools, without putting sensitive data at risk? Retail and CPG companies need systems that can:"
+        },
+        {
+          "type": "list",
+          "style": "bullet",
+          "items": [
+            "Ensure data provenance and integrity",
+            "Separate business logic from backend infrastructure",
+            "Align with region-specific AI legislation",
+            "Offer \"human in the loop\" oversight, especially for citizen-facing applications"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The risk of noncompliance in retail goes beyond reputational damage. It can delay new store openings or expansions, trigger costly legal disputes, or even limit access to critical customer and sales data systems."
+        },
+        {
+          "type": "heading",
+          "text": "How Mosaic Solves Compliance Issues",
+          "level": 3
+        },
+        {
+          "type": "callout",
+          "label": "Strategy Mosaic:",
+          "text": "A universal semantic layer designed to govern data access and logic independently of tools, databases, or clouds."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mosaic allows organizations to enforce consistent security and compliance policies, without needing to duplicate rules across platforms. Mosaic decouples governance and security from underlying tooling, providing:"
+        },
+        {
+          "type": "list",
+          "style": "bullet",
+          "items": [
+            "Row-level security that defines access by region, department, or product line.",
+            "Column-level security that restricts sensitive fields like salary or personal identifiers.",
+            "Feature-level security that governs what users can do with data\u2014whether exploring, exporting, embedding, or querying with AI."
+          ]
+        },
+        {
+          "type": "callout",
+          "label": "Saurabh Abhyankar, Chief Product Officer, Strategy:",
+          "text": "\"One user might only be allowed to view data from a particular region, while another sees different segments. Mosaic allows you to define very sophisticated security filters at every level.\""
+        },
+        {
+          "type": "paragraph",
+          "text": "When applied to AI tools, this governance model becomes especially impactful."
+        },
+        {
+          "type": "callout",
+          "label": "Saurabh Abhyankar, Chief Product Officer, Strategy:",
+          "text": "\"You can expose data to AI tools in a tightly controlled way\u2014ensuring that the AI only sees the data it's authorized to work with. That way, your AI initiatives remain compliant, secure, and aligned with business rules from day one.\""
+        },
+        {
+          "type": "paragraph",
+          "text": "This governance is not layered on, it is built into the semantic foundation. Mosaic eliminates the need to duplicate policies across systems. Security travels with the logic, by design. Mosaic turns governance from a constraint into an enabler, allowing organizations to scale AI confidently, even in highly regulated environments."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Problem #3: Portability and Vendor Lock-In",
+      "subheading": "In a multi-cloud, multi-tool world, flexibility is a strategic advantage",
+      "level": 2,
+      "isCallout": false,
+      "calloutRationale": "",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Enterprise analytics environments today are highly diverse. According to the 2025 global survey, organizations typically use:"
+        },
+        {
+          "type": "list",
+          "style": "bullet",
+          "items": [
+            "3 analytics platforms (Power BI, Tableau, Strategy One, Excel, Looker)",
+            "2 cloud providers (Azure, AWS, Google Cloud)",
+            [
+              {
+                "text": "A variety of structured and unstructured data platforms",
+                "bold": true
+              }
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Many AI+BI vendors still assume a closed-stack model, trapping business logic in a specific tool or a single database. This becomes a liability when priorities shift, which is common in fast-moving industries like retail and CPG, where businesses must respond quickly to rapidly changing market conditions."
+        },
+        {
+          "type": "callout",
+          "label": "PeggySue Werthessen, VP of Product, Strategy:",
+          "text": "\"You need to be able to react, leverage new technologies, and respond quickly to events such as mergers and acquisitions. This is where our independence comes to bear. We are not beholden to any particular stack. Our mission is to help you use any technology to manage costs and risks for your entire data estate.\""
+        },
+        {
+          "type": "heading",
+          "text": "How Mosaic Solves Vendor Lock-In",
+          "level": 3
+        },
+        {
+          "type": "callout",
+          "label": "Strategy Mosaic:",
+          "text": "A universal semantic layer that sits independently of your BI tools, data warehouses, and cloud platforms."
+        },
+        {
+          "type": "paragraph",
+          "text": "By decoupling governance and business logic from any single vendor's stack, Mosaic enables organizations to maintain flexibility without compromising consistency. This separation is critical to avoiding vendor lock-in. When semantic definitions are embedded inside one database or tool, migrating platforms becomes complex and costly."
+        },
+        {
+          "type": "callout",
+          "label": "Saurabh Abhyankar, Chief Product Officer, Strategy:",
+          "text": "\"If your semantic layer is embedded in your database, you're stuck. You'd have to move your data, rebuild the layer, and then update everything on top of it. It's a massive undertaking.\""
+        },
+        {
+          "type": "paragraph",
+          "text": "Mosaic prevents that scenario by being truly open. It allows you to:"
+        },
+        {
+          "type": "list",
+          "style": "bullet",
+          "items": [
+            "Keep your data in any warehouse: Whether in Snowflake, Databricks, BigQuery, or Hadoop.",
+            "Query from any tool: Use Power BI, Tableau, Excel, or custom APIs.",
+            "Operate across any major cloud: Switch providers as your infrastructure strategy changes."
+          ]
+        },
+        {
+          "type": "callout",
+          "label": "Saurabh Abhyankar, Chief Product Officer, Strategy:",
+          "text": "\"Mosaic isn't just dual open\u2014it's open in three critical ways: cloud, data sources, and consumption. That's what makes it so flexible and interoperable.\""
+        },
+        {
+          "type": "paragraph",
+          "text": "This architecture transforms vendor diversity from a limitation into an advantage. With Mosaic, you can:"
+        },
+        {
+          "type": "list",
+          "style": "bullet",
+          "items": [
+            "Select the best tool for each team or use case.",
+            "Migrate between platforms without duplicating logic.",
+            "Future-proof your infrastructure as technology landscapes evolve."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "In a world that demands speed and adaptability, Mosaic gives your organization the freedom to adapt\u2014without rework, risk, or disruption.",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Problem #4: Cost Arbitrage",
+      "subheading": "Cost is the barrier\u2014value is the goal",
+      "level": 2,
+      "isCallout": false,
+      "calloutRationale": "",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Cost pressures are the top barrier to scaling AI-powered analytics for retail and CPG organizations. In our 2025 global survey, 53% of retail and CPG respondents cited costs as their primary challenge. Unexpected compute bills, duplicate modeling, and rigid pricing models continue to undermine the business case for AI+BI."
+        },
+        {
+          "type": "callout",
+          "label": "Survey respondent:",
+          "text": "\"Our finance team dreads reviewing monthly cloud bills. Surprises are frequent\u2014and expensive.\""
+        },
+        {
+          "type": "paragraph",
+          "text": "Unsurprisingly, cost savings and increased productivity were among the top three expected outcomes among retail and CPG firms."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Top Expected Outcomes from AI-Powered Analytics in Retail and CPG",
+            ""
+          ],
+          "rows": [
+            [
+              "Faster decision-making and innovation",
+              "54%"
+            ],
+            [
+              "Increased employee productivity",
+              "50%"
+            ],
+            [
+              "Cost savings",
+              "50%"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "How Mosaic Enables Cost Arbitrage",
+          "level": 3
+        },
+        {
+          "type": "callout",
+          "label": "Strategy Mosaic:",
+          "text": "A universal semantic layer that helps organizations optimize their analytics environments by intelligently separating logic from infrastructure."
+        },
+        {
+          "type": "paragraph",
+          "text": "This allows teams to shift workloads, reduce redundancy, and contain compute costs without sacrificing performance or control. The true cost of scaling AI+BI isn't just about software licenses: it's about the time wasted on rebuilding logic, moving data, and over-consuming compute power."
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Mosaic addresses these drivers head-on by enabling cost arbitrage.",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "label": "Saurabh Abhyankar, Chief Product Officer, Strategy:",
+          "text": "\"One of the things we specifically designed Mosaic to do is help you achieve cost arbitrage.\""
+        },
+        {
+          "type": "paragraph",
+          "text": "Mosaic reduces the total cost of ownership by:"
+        },
+        {
+          "type": "list",
+          "style": "bullet",
+          "items": [
+            "Enabling cloud and database flexibility: Teams can shift workloads to the most cost-effective platforms based on their needs.",
+            "Preventing duplication: Mosaic connects to your data wherever it lives, eliminating the need for expensive ETL (extract, transform and load) or data consolidation.",
+            "Using intelligent caching: Mosaic's in-memory engine caches frequently run queries, reducing repeated hits to costly data warehouses and lowering compute strain.",
+            "Offering predictable pricing: With a user-based license, you get predictable spend, avoiding the surprises of a compute-driven pricing model."
+          ]
+        },
+        {
+          "type": "callout",
+          "label": "Saurabh Abhyankar, Chief Product Officer, Strategy:",
+          "text": "\"We charge per user\u2014not based on query volume or compute. So if you have many expensive queries hitting your data warehouse, you can cache them in Mosaic. Once cached, they hit our engine instead of the database.\""
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "In an era where cost predictability is as important as capability, Mosaic gives organizations control over how, where, and at what cost AI+BI runs\u2014without sacrificing governance or scale.",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Problem #5: Environmental Complexity",
+      "subheading": "Federated tools with disconnected logic mean greater risk",
+      "level": 2,
+      "isCallout": false,
+      "calloutRationale": "",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Enterprises today span multiple clouds, tools, and teams. And that complexity is growing. Systems integration and complexity are major challenges, and 42% of retail and CPG respondents highlighted inconsistent data quality, absence of a semantic layer, and fragmented reporting practices as critical challenges."
+        },
+        {
+          "type": "paragraph",
+          "text": "Organizations report difficulties aligning AI-powered tools with existing systems and siloed data environments across business lines. As organizations scale, complexity introduces fragility: duplicated models, conflicting metrics, redundant dashboards, and mismatched access rules."
+        },
+        {
+          "type": "callout",
+          "label": "PeggySue Werthessen, VP of Product, Strategy:",
+          "text": "\"The real problem isn't that you have multiple BI tools. It's that you have duplication of effort and inconsistency of information across those tools.\""
+        },
+        {
+          "type": "heading",
+          "text": "How Mosaic Solves Environmental Complexity",
+          "level": 3
+        },
+        {
+          "type": "callout",
+          "label": "Strategy Mosaic:",
+          "text": "A universal semantic layer that brings order to complex enterprise analytics environments."
+        },
+        {
+          "type": "paragraph",
+          "text": "Rather than enforcing rigid control, Mosaic creates a shared governance framework that connects tools, clouds, and teams\u2014without sacrificing flexibility. Today, most organizations operate in federated models with a diverse mix of tools and data platforms. Complexity is inevitable. The real risk lies not in having diverse systems, but in having inconsistent logic, duplicated models, and disconnected governance across them."
+        },
+        {
+          "type": "callout",
+          "label": "PeggySue Werthessen, VP of Product, Strategy:",
+          "text": "\"Instead of rebuilding every time your tech stack shifts, Mosaic lets you reconfigure your models\u2014like tiles\u2014around new structures or tools.\""
+        },
+        {
+          "type": "paragraph",
+          "text": "Mosaic addresses this risk by acting as a data fabric\u2014a single layer where business definitions, access rules, and modeling logic are created once and applied everywhere. Mosaic ensures:"
+        },
+        {
+          "type": "list",
+          "style": "bullet",
+          "items": [
+            "All tools and users call the same definitions.",
+            "Data access and logic are applied consistently.",
+            "Changes ripple safely and predictably across the stack."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "This ensures consistent data whether the endpoint is a dashboard, an AI agent, or a custom application.",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "label": "PeggySue Werthessen, VP of Product, Strategy:",
+          "text": "\"That endpoint today may just be three or four BI tools. But in the future, it can be BI tools, AI agents, and applications you give your customers. We need to make sure they are coordinated.\""
+        },
+        {
+          "type": "paragraph",
+          "text": "Mosaic doesn't eliminate complexity, it orchestrates it. It allows each team, tool, or department to innovate within guardrails, ensuring alignment across a distributed analytics environment."
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "As your data ecosystem evolves, Mosaic adapts with it, serving as the connective tissue that keeps intelligence trustworthy, explainable, and reusable at scale.",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Conclusion",
+      "subheading": "A unified solution for the AI+BI enterprise",
+      "level": 2,
+      "isCallout": false,
+      "calloutRationale": "",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "AI-powered analytics is reaching a turning point. Organizations are now investing heavily in AI+BI, but they face persistent problems that limit its value: inconsistent answers, security and compliance risks, vendor lock-in, rising costs, and environmental complexity."
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "These persistent problems are not separate issues. They share a common root cause: the absence of governance at scale.",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The answer is a universal semantic layer, a single, unified layer where business definitions, access rules, and modeling logic are created once and applied everywhere. This architecture is independent of any single tool, database, or cloud, making it the only way to achieve true enterprise-wide consistency, security, and flexibility."
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "This is what Strategy Mosaic delivers:",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "style": "bullet",
+          "items": [
+            [
+              {
+                "text": "Trust and accuracy:",
+                "bold": true
+              },
+              {
+                "text": " It lowers the risk of hallucinations by providing AI with a single, governed source of truth."
+              }
+            ],
+            [
+              {
+                "text": "Cost control:",
+                "bold": true
+              },
+              {
+                "text": " It enables cost arbitrage and workload distribution across different platforms."
+              }
+            ],
+            [
+              {
+                "text": "Flexibility:",
+                "bold": true
+              },
+              {
+                "text": " It frees you from vendor lock-in, allowing you to choose the best tool for the job."
+              }
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The leap to scalable, trusted AI requires a governance-first approach. Mosaic provides that foundation, giving you the power to innovate with confidence, control costs, and eliminate complexity, helping retail and CPG leaders modernize analytics without compromising speed or trust."
+        },
+        {
+          "type": "paragraph",
+          "text": "With a single, unified solution, you can finally turn your data into a competitive advantage. It's time to turn your data into a powerful, governed asset. See how Strategy Mosaic can help you unlock the full potential of AI+BI."
+        }
+      ]
+    }
+  ],
+  "cta": {
+    "headline": "See how Strategy Mosaic can help you unlock the full potential of AI+BI",
+    "body": "Turn your data into a powerful, governed asset. Strategy Mosaic provides the governance-first foundation retail and CPG organizations need to scale AI with confidence, control costs, and eliminate complexity.",
+    "buttonText": "Learn More About Strategy Mosaic",
+    "buttonUrl": "https://www.strategysoftware.com/mosaic"
+  },
+  "internalLinks": [],
+  "externalLinks": [
+    "https://www.strategysoftware.com/mosaic",
+    "https://www.strategysoftware.com"
+  ],
+  "validationWarnings": [
+    "Several tables in the source document contained empty or near-empty cells with only visual/layout content (e.g., 2x2 tables that appear to be image placeholder containers) \u2014 these were omitted as they carried no textual data.",
+    "The table in the Executive Summary contained a malformed/split cell reading 'Without a consistent semantic layer, trust erodes, and AI initiatives struggl[d]efinitions vary, to scale.' \u2014 this was reconstructed as a callout block with the intended meaning.",
+    "The 'How Mosaic solves...' callout tables in each section contained partially split text (likely OCR artifact from a styled banner); these were reconstructed as callout blocks using the most complete reading of the text.",
+    "Multiple H1 tags in source appear to be used for quotation styling rather than actual page headings \u2014 these were interpreted as pull quotes / callouts.",
+    "The subtitle 'How Strategy Mosaic establishes governance, flexibility and trust at scale' appears in the cover table and is treated as the subtitle/tagline rather than a section heading.",
+    "The 'Anticipated wins' section with percentage figures (54%, 50%, 50%) was formatted as a table for clarity; original source used a mixed list/heading layout.",
+    "Page footer content ('Governance first: The key to scalable, trusted data in retail and CPG [page number]') was omitted throughout as it is a running footer, not content.",
+    "Copyright and address block at document end was omitted from body sections as boilerplate.",
+    "The H4 tag in source for '54% 50% 50%' appeared to be a styled percentage display row \u2014 incorporated into the table for the Cost Arbitrage section.",
+    "No explicit orange H3 subtitle was confirmed \u2014 the cover table's second line was used as subtitle based on visual context described in source."
+  ]
+}

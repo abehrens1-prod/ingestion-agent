@@ -1,0 +1,283 @@
+{
+  "title": "Semantic Layer Governance vs. Portability: Why Moving Your Metrics Isn't the Same as Governing Them",
+  "subtitle": "",
+  "slug": "semantic-layer-governance-vs-portability",
+  "url": "/semantic-layer-governance-vs-portability",
+  "author": "Lauren O'Connor",
+  "authorBio": "",
+  "publishDate": "2026-06-12T00:00:00.000Z",
+  "seo": {
+    "metaTitle": "Semantic Layer Governance vs. Portability Explained",
+    "metaDescription": "Semantic layer portability moves metric definitions. Governance enforces them. Learn why enterprises need both—and how Strategy delivers governed metrics at...",
+    "metaDescriptionFromDoc": false,
+    "targetKeywords": [
+      "semantic layer governance",
+      "semantic layer portability",
+      "governed metrics",
+      "universal semantic layer",
+      "enterprise semantic layer"
+    ],
+    "metaDescriptionAlternatives": [
+      "Discover why Open Semantic Interchange portability isn't the same as governance. See how Strategy enforces consistent, secure metrics at query time across every tool and AI agent.",
+      "Moving metrics between tools doesn't mean governing them. Learn how Strategy's universal semantic layer enforces fiscal logic, access controls, and consistency where it counts."
+    ],
+    "primaryKeywords": [
+      "semantic layer governance",
+      "semantic layer portability",
+      "governed metrics",
+      "universal semantic layer",
+      "enterprise semantic layer"
+    ],
+    "secondaryKeywords": [
+      "Open Semantic Interchange",
+      "OSI YAML semantic model",
+      "metric definitions governance",
+      "BI tool metric consistency",
+      "semantic layer for AI agents",
+      "data governance enterprise analytics",
+      "query-time metric enforcement",
+      "dbt semantic layer portability",
+      "Snowflake semantic layer",
+      "metric security access controls",
+      "BI decision-maker data trust",
+      "semantic model interoperability"
+    ],
+    "longTailKeywords": [
+      "why semantic layer portability is not the same as governance",
+      "how to govern metrics across multiple BI tools",
+      "what is the Open Semantic Interchange and does it enforce governance",
+      "how to ensure consistent metric definitions in enterprise analytics",
+      "best way to enforce fiscal logic and access controls in a semantic layer",
+      "why AI agents need governed metrics not just portable ones",
+      "how to move metric definitions between dbt Tableau and Snowflake safely",
+      "what is query-time metric enforcement in a semantic layer",
+      "how to build a trusted semantic layer for AI-ready analytics",
+      "difference between semantic model portability and semantic layer governance",
+      "why enterprise BI teams need more than a common YAML format for metrics",
+      "how to maintain metric consistency when switching BI tools"
+    ],
+    "brandedKeywords": [
+      "Strategy",
+      "Strategy Mosaic",
+      "Strategy semantic layer",
+      "Strategy governed metrics",
+      "Strategy universal semantic layer"
+    ]
+  },
+  "quickAnswer": [
+    "Semantic layer governance and portability solve different problems.",
+    "Portability means your metric definitions can be expressed in a common format and exchanged between tools, while governance means those definitions are enforced consistently at query time, with correct security, fiscal logic, and access controls applied regardless of which tool, user, or AI agent is asking.",
+    "The Open Semantic Interchange makes semantic models portable, but it does not make them governed."
+  ],
+  "heroMedia": null,
+  "body": [
+    {
+      "type": "section",
+      "heading": "",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "When the Open Semantic Interchange launched at Snowflake Summit in June 2026, the announcement carried 54 vendors and a compelling promise, a common YAML format for semantic model definitions that any participating tool can read, write, and exchange. No more custom connectors between every platform pair. No more duplicated metric definitions in each BI tool. One format standard to move business logic across the ecosystem."
+        },
+        {
+          "type": "paragraph",
+          "text": "Format portability is genuinely useful. But the framing of \"open format equals consistency\" has a gap that every enterprise analytics team building for AI should understand. Moving a metric definition from one tool to another is not the same as enforcing it once it gets there."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "What \"Semantic Layer Portability\" Actually Means",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "A portable semantic layer can express its metric definitions, dimensions, joins, and relationships in a vendor-neutral schema that participating tools can import and export. OSI's YAML-based specification does exactly this, it provides a structure for describing a semantic model that any supporting tool can read."
+        },
+        {
+          "type": "paragraph",
+          "text": "Before format standards, moving metric definitions between tools meant rebuilding them by hand. OSI automates the exchange. A metric defined in dbt can now be expressed in an OSI-compatible format and imported by Tableau, Snowflake, Strategy, or any other supporting platform without manual reconstruction."
+        },
+        {
+          "type": "paragraph",
+          "text": "What portability does not address is what happens after the import. The format specifies how to describe a metric. It does not specify how to govern or execute it."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "What \"Semantic Layer Governance\" Actually Means",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Semantic layer governance is a runtime enforcement concern. A governed semantic layer ensures that when a user queries a metric through any connected tool, the query executes the correct access controls, correct business logic, and correct data filters applied for that user at that exact moment and context."
+        },
+        {
+          "type": "paragraph",
+          "text": "Governance covers row-level and column-level security enforced at query time. It covers fiscal calendar logic calculated consistently whether the consumer is a Power BI dashboard, a Tableau sheet, or an AI agent. It covers the audit trail that records who accessed what data, when, and through which tool."
+        },
+        {
+          "type": "paragraph",
+          "text": "The key distinction: governance is active and enforced, portability is passive and descriptive. A format standard describes a metric, governance ensures that metric behaves correctly everywhere it is used."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Why Portable Does Not Mean Governed",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "If you export your revenue metric definition via OSI and import it into a BI tool that supports the format, does that BI tool automatically apply your row-level security rules?"
+        },
+        {
+          "type": "paragraph",
+          "text": "OSI defines how to describe the metric. It does not define how each consuming tool must enforce access controls on it. A tool that imports an OSI-formatted semantic model can apply its own security model, or none at all. The metric definition travels, the governance policy does not travel with it."
+        },
+        {
+          "type": "paragraph",
+          "text": "The same applies to fiscal calendars, multi-currency logic, and conditional calculations. A YAML file can describe that a metric uses a fiscal calendar offset. Whether each consuming tool calculates that offset correctly is a function of that tool's implementation, not the format standard."
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Attribute",
+              "Portability (OSI format)",
+              "Governance (runtime enforcement)"
+            ],
+            [
+              "Metric definition exchange",
+              "Yes — standardized YAML/JSON format",
+              "Not a format concern"
+            ],
+            [
+              "Row-level security enforcement",
+              "Out of scope for the format spec",
+              "Enforced at query time"
+            ],
+            [
+              "Fiscal calendar logic",
+              "Described in the model, not enforced",
+              "Calculated and applied uniformly"
+            ],
+            [
+              "Multi-currency logic",
+              "Described in the model, not enforced",
+              "Applied per user context at runtime"
+            ],
+            [
+              "Access audit trail",
+              "Not specified by the format",
+              "Full audit log per tool, user, and agent"
+            ],
+            [
+              "AI agent governance",
+              "Not addressed by the format",
+              "Enforced identically for agent queries"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Format standards advance interoperability at the definition layer. They do not resolve the execution gap."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Why This Matters When AI Agents Enter the Picture",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "AI agents raise the governance stakes significantly. When a BI analyst in Power BI queries revenue by region, a misconfigured access control produces a wrong report, which is a potentially costly error. When an AI agent queries the same metric autonomously, processes the result, and surfaces it in a customer-facing recommendation, a governance gap becomes a compliance and liability issue."
+        },
+        {
+          "type": "paragraph",
+          "text": "AI agents do not pause to verify whether their data access is authorized. They execute against whatever semantic layer they are pointed at. If that semantic layer applies governance at the tool level, inconsistently, or not at all, the agent's output reflects that. Consistent, centrally-enforced governance is not optional for agentic analytics, it is the safety model the entire stack depends on."
+        },
+        {
+          "type": "paragraph",
+          "text": "Portability standards help AI agents find and read semantic definitions. Governance determines whether those definitions are trustworthy when the agent executes them."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "How Strategy Mosaic Enforces Governance at Runtime",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Strategy built Mosaic to address governance as a runtime problem, not a format problem. Mosaic connects to 200+ data sources and enforces a single governance policy across every connected BI tool and AI agent simultaneously. Fiscal calendars, multi-currency logic, row-level and column-level security: these are defined once in the semantic layer and applied automatically at query time, regardless of which tool submits the query."
+        },
+        {
+          "type": "paragraph",
+          "text": "When an AI agent queries fiscal-quarter revenue by sales territory, Mosaic applies the fiscal calendar offset, the currency conversion for the relevant territory, and the row-level filter for that agent's authorization scope. That logic does not live in the BI tool. It lives in the semantic layer, and it travels with every query."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mosaic Sentinel, the governance intelligence layer, monitors every data access event in real time. Risk management, audit and compliance, and usage insights modules give data governance teams a complete view of who accessed what, through which tool, and when. That audit trail covers dashboards, reports, human and agentic access alike."
+        },
+        {
+          "type": "paragraph",
+          "text": "Format portability and runtime governance can coexist. OSI advancing the interchange standard is a positive development for the ecosystem. But governance is not delivered by the format. It is delivered by the semantic layer that enforces it."
+        },
+        {
+          "type": "paragraph",
+          "text": "The semantic layer ecosystem is maturing, and format standards like OSI reduce real friction in moving metric definitions between tools. But the question enterprises should ask is not \"can my semantic models be exported?\" It is \"are my semantic models enforced consistently everywhere they are consumed?\""
+        },
+        {
+          "type": "paragraph",
+          "text": "Answering that second question requires governance at runtime, not portability at format level."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is the difference between semantic layer governance and portability?",
+      "answer": "Portability refers to the ability to express and exchange semantic model definitions in a format that multiple tools can read and write. Governance refers to the enforcement of access controls, business logic, and audit requirements at query time. OSI provides portability of format. Strategy Mosaic provides runtime governance, enforcing the same security, fiscal logic, and access rules across every connected tool and AI agent automatically.",
+      "accordionEnabled": true
+    },
+    {
+      "question": "Does the Open Semantic Interchange (OSI) handle data governance?",
+      "answer": "OSI is a format standard that defines how semantic model definitions are described and exchanged between tools. It does not define how each consuming tool must enforce row-level security, apply fiscal calendar logic, or audit data access. Governance remains a function of the semantic layer executing the queries, not the format standard moving the definitions.",
+      "accordionEnabled": true
+    },
+    {
+      "question": "Why does governance matter more than portability for enterprise AI analytics?",
+      "answer": "AI agents execute autonomously against your data. If the semantic layer they query does not enforce governance consistently, the agent's output can violate access controls, apply incorrect business logic, or expose unauthorized data. Portability helps agents locate and read semantic definitions. Governance determines whether those definitions are trustworthy at execution time. For agentic analytics, governance is the safety model; portability is infrastructure.",
+      "accordionEnabled": true
+    },
+    {
+      "question": "How does Strategy Mosaic enforce governance across different BI tools?",
+      "answer": "Strategy Mosaic centralizes governance enforcement at the semantic layer. Row-level and column-level security, fiscal calendar calculations, and multi-currency logic are defined once and applied automatically to every query, whether it comes from Power BI, Tableau, Excel, or an AI agent. Mosaic Sentinel provides real-time monitoring, risk detection, and full audit trails across all connected tools and agents.",
+      "accordionEnabled": true
+    }
+  ],
+  "cta_list": [],
+  "internalLinks": [],
+  "externalLinks": [],
+  "validationWarnings": [
+    "No author name or publish date found in the document.",
+    "No hero image or video found in the document.",
+    "No explicit meta description found; one was written based on content.",
+    "No CTA boxes with URLs or action-oriented language found; cta_list set to [].",
+    "The Quick Answer block was not wrapped in [BOX_START]/[BOX_END] tags but was identified by the [BOLD] 'Quick Answer' label followed by a paragraph near the top.",
+    "OSI launch date referenced as June 2026 — this may be a future date or placeholder; human review recommended.",
+    "The closing two paragraphs after the last H2 body section were placed within the 'How Strategy Mosaic Enforces Governance at Runtime' section as they follow that heading with no new H2 separator.",
+    "publishDate was not found in the document — defaulted to pipeline run date (2026-06-11T00:00:00.000Z). Confirm before publishing.",
+    "Meta description was 168 chars (over 160 limit) — truncated to 160. Original: \"Semantic layer portability moves metric definitions. Governance enforces them. Learn why enterprises need both—and how Strategy delivers governed metrics at query time.\""
+  ]
+}

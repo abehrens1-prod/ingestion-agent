@@ -1,0 +1,1228 @@
+{
+  "entry": {
+    "title": "v1 Retrieval Is Not Reasoning: Why Your AI Architecture Has a Context Gap",
+    "url": "/blog/retrieval-is-not-reasoning-why-your-ai-architecture-has-a-context-gap",
+    "lead_paragraph": {
+      "type": "doc",
+      "attrs": {},
+      "uid": "708d8271dbae4b19a4fbb60320c63686",
+      "children": [
+        {
+          "text": ""
+        }
+      ],
+      "_version": 1
+    },
+    "content": [
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "9cd2136a529045229f9171fdd29078f8",
+            "children": [
+              {
+                "type": "h3",
+                "uid": "a2ce0574dc4a413ebe3d941e9e39d5e6",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Quick Answer",
+                    "attrs": {
+                      "style": {
+                        "color": "rgb(26, 78, 159)"
+                      }
+                    },
+                    "bold": true,
+                    "font-color": "#fa660f"
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "uid": "1c33a84f6a0d4ccd8cde417838f02cca",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "li",
+                    "uid": "a7ad7a56c6414d7389b13afb677be96a",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "e88204d5b9d646738df628dcf31b49d2",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Enterprise AI inconsistency is an architecture problem, not a prompt problem."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "f724c716248b44c4b19fe8038cf52b13",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "fea47ca7297a4ace9408853bfcf6654d",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Ontology, semantics, and knowledge graphs must operate as one semantic foundation."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "af1552a90fa343868abd5efbec65b0e2",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "3e28c1ac779e4048977e11d01027b8b4",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Without a shared semantic foundation, AI interprets terms like customer, revenue, and top performer differently on every query."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "74788da57101453c80b9e95400ee4fc3",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "0d879c3fd31c4d8db69054eac3aa5ea2",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "A semantic layer encodes business definitions once so every query returns the same reliable answer regardless of phrasing or model."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "4e891967a7fb47ddb460e801ef122ed8",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "b4e14e8810bc48ceb1fa3b290ed1955c",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Strategy Mosaic closes the context gap by sitting between your data and your AI systems, encoding business definitions as a persistent semantic layer so your AI doesn't retrieve — it reasons."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs5afa549e88fda462"
+          }
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "1d7822251efa4970a5539f2ce2d4e101",
+            "children": [
+              {
+                "type": "p",
+                "uid": "4627ba368048453c84b7542ec8fd5f98",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "In enterprise AI, the challenge is no longer whether systems can respond, but whether they can respond ",
+                    "bold": true
+                  },
+                  {
+                    "text": "consistently",
+                    "bold": true
+                  },
+                  {
+                    "text": ". The ",
+                    "bold": true
+                  },
+                  {
+                    "text": "June 2026 Forrester Research report",
+                    "bold": true
+                  },
+                  {
+                    "text": " ",
+                    "bold": true
+                  },
+                  {
+                    "text": "\"Combine Semantics, Ontology, And Knowledge Graphs For AI-Ready Data\"",
+                    "bold": true
+                  },
+                  {
+                    "text": " identifies the root cause of the problem: enterprises struggle to make data usable for agentic AI because data and data schemas still lack machine-readable meaning and context.",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "e381d106e8874e7891fb56db5a424dd3",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Today's AI systems are remarkably effective at gathering context. They index vast stores of information, retrieve relevant fragments in milliseconds, and assemble them into responses that appear coherent and complete. Measured by access alone, the problem seems solved."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "21e787657f614f82abbd83b04b380b06",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "And yet, a gap remains. Between retrieved context and generated output lies an absence of shared interpretation: "
+                  },
+                  {
+                    "text": "a missing layer that defines not just ",
+                    "bold": true
+                  },
+                  {
+                    "text": "what",
+                    "bold": true
+                  },
+                  {
+                    "text": " the data says, but what it ",
+                    "bold": true
+                  },
+                  {
+                    "text": "means",
+                    "bold": true
+                  },
+                  {
+                    "text": " across every use case. This is the context gap.",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "blockquote",
+                "uid": "a032795ffcdb4dc2a276749564b623fb",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "p",
+                    "uid": "cfb12bde9f1540bdacaca3f412fe7820",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "text": "\"No matter how well modeled, data without the context provided by shared semantics and mature ontologies will fall short for agentic AI use cases.\"",
+                        "attrs": {
+                          "style": {
+                            "color": "rgb(0, 61, 91)"
+                          }
+                        }
+                      },
+                      {
+                        "text": " — Forrester Research, Combine Semantics, Ontology, And Knowledge Graphs For AI-Ready Data, June 2026",
+                        "bold": true,
+                        "attrs": {
+                          "style": {
+                            "color": "rgb(26, 78, 159)"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "csec78846a1587fd4b"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "Across AI Implementations, the Same Pattern Shows Up",
+          "_metadata": {
+            "uid": "csfa32d963fe240225"
+          },
+          "section_id": "across-ai-implementations-the-same-pattern-shows-up"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "5f90b12852194b83b93b9f5a4dd29f03",
+            "children": [
+              {
+                "type": "p",
+                "uid": "ccb778d968de41bf8415f59ed48e9b77",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The symptoms usually look familiar:"
+                  }
+                ]
+              },
+              {
+                "type": "ol",
+                "uid": "93d316368bdd4a7598a80062d7a335be",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "li",
+                    "uid": "88500f488cc8438a8e8c8d12a53c58c7",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "4265c15828bc4fa0bb43358263ebe150",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Plausible but wrong answers: responses that appear coherent but fail under closer review."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "044f44bf57b74faa976bc6fa958225d4",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "6367397feedd4143808a903069badaa8",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Inconsistent results: the same question returns different answers across runs."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "b27a9e1d5c71477f89dba891eafb15dc",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "098844f9fb834dbaad28cc9a31f741ce",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Prompt-level workarounds: teams spend cycles engineering prompts instead of fixing the underlying outputs."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "13d201fb547046509e72389ddc1330ee",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "This pattern is playing out inside enterprise data teams, where the instinct is often to fix reliability at the prompt level: adding more instructions, narrowing the scope, writing better system prompts, or hiring a prompt engineer."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "46a4233f65364eea85a3eb3d547b5548",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "These responses can help at the margins, but they do not solve the root problem."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs29a43d9afa155fbc"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "What is a Context Layer?",
+          "_metadata": {
+            "uid": "cscf27abe295a00f0c"
+          },
+          "section_id": "what-is-a-context-layer"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "54e9431fe2f441b8aaef4d1d4d45ef2e",
+            "children": [
+              {
+                "type": "p",
+                "uid": "daba50562bf94eaeb08c331c214c3a4b",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Your AI might understand general terms like revenue, customer, risk, or performance. But it doesn't automatically know what those terms mean "
+                  },
+                  {
+                    "text": "inside your organization",
+                    "bold": true
+                  },
+                  {
+                    "text": "."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "af1726ee32ca4c4581fbbe4d14a8c43b",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Consistency of response is only part of the problem",
+                    "bold": true
+                  },
+                  {
+                    "text": ". The deeper issue is whether the answer reflects approved definitions, established relationships, access rules, and the business context that governs it.",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "668781eecb4c49bfa3c215a89199991b",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "When AI teams talk about \"adding context,\" they usually mean stuffing more information into the prompt. This can look like longer system instructions, schema documentation, or example queries that help at the margins but miss what enterprise data requires."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "71eab35d59c047d89b6ad492956f810f",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "According to Forrester Research, AI fails without context-rich data. No matter how well modeled, data without the context provided by shared semantics and mature ontologies will fall short for agentic AI use cases."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "6258b7d46b6940e8b70a50ecab67be50",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "What AI is missing when it fails on enterprise data is the conceptual map that your organization has built over years: what a \"customer\" means in your context (acquired? active? including subsidiaries?), which dimensions apply to which business units, what rules govern which data is trustworthy and which is stale."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "6ecd34f15e0f4b708d5255ddb3998c7e",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Enterprise AI needs a shared, machine-readable representation of the business, one that defines what exists, explains what it means, and connects it across systems."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "c75a2c2d696d4eb2ba8476289333994b",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Forrester describes that foundation through three connected pillars: ontology, semantics, and knowledge graphs."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "csb738ba9f798c8811"
+          }
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "159466fa230743529037a0b01bf1f108",
+            "children": [
+              {
+                "type": "p",
+                "uid": "f68eb0ce2f27433cbecc832fe588eae1",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "[IMAGE PLACEHOLDER]",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "b8777745852b402bba85048457735d99",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Upload asset to Contentstack and replace this placeholder — source: image_0.png"
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "csf616f574074f5414"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "Why Prompting Can't Bridge the Context Gap",
+          "_metadata": {
+            "uid": "cs6cab589ea5f7f061"
+          },
+          "section_id": "why-prompting-can-t-bridge-the-context-gap"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "1ba2c337dc704798a7e4156c37badc3d",
+            "children": [
+              {
+                "type": "p",
+                "uid": "8da96f1879c54700bd64987cded96966",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Consider what happens when a business user asks, \"Who are our top five customers?\" Without a semantic layer, the AI has to interpret this from scratch. Top by revenue? By contract value? By growth rate? By number of active seats? In the last 12 months, or all time?"
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "a348d4eea4364030920020308c84aef1",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "A sufficiently detailed prompt might narrow some of these choices. But \"sufficiently detailed\" quickly becomes unwieldy — and even then, the model is interpreting your instructions probabilistically. Without semantic modeling, AI risks guessing and producing irrelevant answers."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "cbd0928e5da34bceb23058cd56bea421",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Encoding your business definitions — your semantic layer — moves query logic into the deterministic world, where the same question always produces the same answer because the rules that govern the answer are fixed, not inferred."
+                  }
+                ]
+              },
+              {
+                "type": "blockquote",
+                "uid": "72dad98d353542839204a5aa761c325b",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "p",
+                    "uid": "054dd741a5a0479794cbbc3e22bada7a",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "text": "\"By embedding meaning into every layer, semantics make data broadly accessible, allowing business users to converse with data in business terms without knowing data schemas or SQL.\"",
+                        "attrs": {
+                          "style": {
+                            "color": "rgb(0, 61, 91)"
+                          }
+                        }
+                      },
+                      {
+                        "text": " — Forrester Research, Combine Semantics, Ontology, And Knowledge Graphs For AI-Ready Data, June 2026",
+                        "bold": true,
+                        "attrs": {
+                          "style": {
+                            "color": "rgb(26, 78, 159)"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "df5fb47570f24ebb9301e069d4302bc1",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "This allows organizations to consistently unlock faster time to insight and reduced waste, precisely because they stop paying to rediscover the same semantic rules on every interaction. Once business logic is encoded in a semantic layer, each subsequent query can operate on a compressed, context-rich representation of your world instead of a raw, ambiguous schema."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs56f9ee8fdee996be"
+          }
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "3addfb6f54164102b88c055d256d2dc2",
+            "children": [
+              {
+                "type": "p",
+                "uid": "33408161dc0b4c86adae85bb769a3055",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "[IMAGE PLACEHOLDER]",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "070a4acbc2c04443a42cc4cd2b1763ec",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Upload asset to Contentstack and replace this placeholder — source: image_1.png"
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "csfb4d7a4490705661"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "What Changes When the Semantic Foundation Is Right",
+          "_metadata": {
+            "uid": "csd1c27940601501cb"
+          },
+          "section_id": "what-changes-when-the-semantic-foundation-is-right"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "bb4dfdf5de4f4f32a632ec6cecec6ed8",
+            "children": [
+              {
+                "type": "p",
+                "uid": "a49fe3be639246f2a64db63b7b83d03b",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "When the semantic layer is properly built and enforced, several things change at once."
+                  }
+                ]
+              },
+              {
+                "type": "ol",
+                "uid": "48b613a5dba944a69c9dcf8a57150387",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "li",
+                    "uid": "23612c4c5dda4a208414031824b42b46",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "0b08efa6041c448db4f291a714460e8d",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Answers become consistent."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "dedc985c60cf4b56a4e0331f3bcde464",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Not because you wrote a better prompt, but because the query is generated deterministically from a shared definition."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "4538770dd7504edbb1a503aaf89fe84a",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Forrester calls this \"enterprise semantic intelligence\": ontology, semantics, and knowledge graphs working together to transform raw data into fuel for reasoning machines and to ensure that agentic systems digest real-world context instead of stumbling blindly. It's what turns ad-hoc AI experiments into repeatable, governed decision support."
+                  }
+                ]
+              },
+              {
+                "type": "ol",
+                "uid": "1879affa7ecf483697076847464f72f7",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "li",
+                    "uid": "2e539cb447564dedb271f7b6c221db3f",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "b5e27d7fe5c24604be5a82b910c1218c",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Costs come down materially."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "371d777545ba431f84ae3a13c3aa0e22",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Pre-defined business logic means the AI receives compressed semantic context rather than your raw schema on every query."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "111b2c2ff60c469dbf2243fa6e2cb428",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "This lines up with Forrester's broader finding that enterprises embedding semantics and knowledge graphs across the stack see \"exponential returns:\" faster time to insight, reduced waste and rework, and higher ROI on data and AI investments because each interaction builds on a shared semantic foundation instead of starting from zero."
+                  }
+                ]
+              },
+              {
+                "type": "ol",
+                "uid": "731bdf70bd244b14b593682bb046bcda",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "li",
+                    "uid": "0bb09bfcc4454ab294404aa2f42abb4c",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "5b39613809664bae905541c3d44eda7c",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Trust recovers."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "98481ad83e2b4333b30ae34d4fc33f7b",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The organizational cost of bad AI outputs isn't just the wrong answer. The real downside is the skepticism, the manual verification layers that get added, the stakeholders who stop using the system entirely. When AI produces consistent, traceable, auditable answers, that trust rebuilds. Governance and lineage become possible because the definitions are formal and stored, not implicit and prompt-dependent."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "9ecd7bf5519445b88df8903a5c660b38",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The Forrester report underscores that semantically rich ontologies and knowledge graphs are also the foundation for adaptive LLM guardrails."
+                  }
+                ]
+              },
+              {
+                "type": "blockquote",
+                "uid": "66be0c9c52084071aaa7a0b954d02547",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "p",
+                    "uid": "aefadb42e64240c7a54df3cc5d8ba523",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "text": "\"Input guardrails validate prompts against enterprise concepts, ensuring requests align with policies, roles, and domain logic before execution. Output guardrails go further: They check generated responses against the KG to confirm accuracy, compliance, and contextual relevance.\"",
+                        "attrs": {
+                          "style": {
+                            "color": "rgb(0, 61, 91)"
+                          }
+                        }
+                      },
+                      {
+                        "text": " — Forrester Research, Combine Semantics, Ontology, And Knowledge Graphs For AI-Ready Data, June 2026",
+                        "bold": true,
+                        "attrs": {
+                          "style": {
+                            "color": "rgb(26, 78, 159)"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "9830c80814b44a88a9e9045530e5d001",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Ontologies define what's valid; graphs provide the reasoning layer to detect inconsistencies and infer corrections. The result is AI that not only retrieves but reasons, delivering safe, context-aware outcomes."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "1661438c69554d2aab77c9f1d61f4ed9",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The net effect is captured clearly: when you rest your enterprise agentic AI architecture on semantically rich ontologies and knowledge graphs, AI becomes a reasoning partner rather than a mere calculator."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cscf355d5725d301f7"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "Closing the Context Gap with Strategy Mosaic",
+          "_metadata": {
+            "uid": "csc57456a7d5ebf68c"
+          },
+          "section_id": "closing-the-context-gap-with-strategy-mosaic"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "175f31e319da414da7991b421f5717c0",
+            "children": [
+              {
+                "type": "p",
+                "uid": "ccba79970ac843c6b259b954512cd8a6",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Large Language Models are extraordinary at natural language: understanding intent, disambiguating phrasing, generating readable explanations. They are not the right tool for generating guaranteed-accurate SQL against enterprise business logic. That job requires a deterministic engine that operates from your predefined definitions and produces consistent output regardless of which model triggered the query. Fixing the context gap requires separating what the LLM should handle from what it shouldn't."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "701f4850a80c4214a60574ac482bc92a",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "This is the architecture that Strategy Mosaic is built around."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "0f78d30f0d5845b7ad15818906035d3c",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Mosaic sits between enterprise data and the systems that consume it. Within that independent layer, organizations can define reusable metrics, attributes, hierarchies, relationships, and governance rules. Those definitions can then be applied consistently rather than recreated inside every dashboard, prompt, or agent."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "1b2754be87074bad9e3422cbea57b7c8",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "When business logic is encoded as a semantic layer, and AI knows not just what the data contains but what it means — the system can answer complex, multi-hop questions that purely retrieval-based approaches miss."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "7024c73c47814466b6cf72e345d8060b",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Many enterprises are now past the first wave of AI experimentation and are discovering that reliability depends less on better prompts and can be much better improved with a semantic layer. The teams that are furthest along share a common characteristic: they stopped trying to prompt their way to reliability and started treating semantic architecture as the foundational investment."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "bc77cb75ae37445ea469a7002de2a689",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "This doesn't require ripping out what you have. Mosaic connects to your existing data infrastructure without requiring migration or consolidation. The point isn't to replace your stack; it's to add the semantic layer that makes your stack AI-ready."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "30e829ac050b4abcbdb4c4b97161ca5e",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "When you embed knowledge graphs based on semantically rich ontologies into your agentic AI architecture, context flows through every interaction, agents understand rules and constraints, and analysts spend less time chasing context. Hybrid RAG guardrails born from ontologies enforce type safety and policies, so your language models respect boundaries and don't hallucinate."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "9bb3312a299c4a388f13c83efb4c8da7",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "That trust isn't a product feature. It's an architectural property. And it starts with getting the foundation right."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "csab5f460336e0f0ce"
+          }
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "47223ac392ba437abfaf73c6afb9deb2",
+            "children": [
+              {
+                "type": "p",
+                "uid": "5af0ad1e0a3c45d19f72e6cd11002e31",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "[ PROMO PLACEHOLDER — Replace with Promo block in Contentstack editor ]"
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "bdaa1b8b1c214ab4b67932bfb96bf409",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "CTA: \"Read the Forrester Report\""
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "b2eaf707b6c04de185a59af6d1806f73",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Button: Access the Combine Semantics, Ontology, And Knowledge Graphs For AI-Ready Data Report"
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs2002997034acc482"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "Frequently Asked Questions",
+          "_metadata": {
+            "uid": "cse2f77258fb43adb0"
+          },
+          "section_id": "frequently-asked-questions"
+        }
+      },
+      {
+        "accordion": {
+          "accordion_item": [
+            {
+              "title": "What is the difference between retrieval and reasoning in enterprise AI?",
+              "_metadata": {
+                "uid": "cs07922f040483b156"
+              },
+              "content": {
+                "type": "doc",
+                "attrs": {},
+                "uid": "c24d3f2aa19d4139b63060b77e14dde5",
+                "children": [
+                  {
+                    "type": "p",
+                    "attrs": {},
+                    "uid": "5061fa3857c1425f9b9be4c0afc01e4a",
+                    "children": [
+                      {
+                        "text": "Retrieval means fetching relevant data or text based on a query. Reasoning means interpreting that data against a set of defined rules, relationships, and business logic to produce a consistent, accurate conclusion. Most enterprise AI systems today retrieve well but reason poorly, because they lack a persistent semantic layer that encodes what data means in a given organizational context."
+                      }
+                    ]
+                  }
+                ],
+                "_version": 1
+              }
+            },
+            {
+              "title": "What is a semantic layer in the context of AI?",
+              "_metadata": {
+                "uid": "cs980c16526aea2668"
+              },
+              "content": {
+                "type": "doc",
+                "attrs": {},
+                "uid": "8063482a7fba486c8fb19981575ba923",
+                "children": [
+                  {
+                    "type": "p",
+                    "attrs": {},
+                    "uid": "c84f82d2c7a54713a92d9424af57047e",
+                    "children": [
+                      {
+                        "text": "A semantic layer is a governed, machine-readable representation of a business's data definitions — its metrics, hierarchies, relationships, and rules. It sits between raw data infrastructure and the AI systems that consume it, encoding business logic once so every query and agent operates from the same definitions rather than re-interpreting the schema from scratch."
+                      }
+                    ]
+                  }
+                ],
+                "_version": 1
+              }
+            },
+            {
+              "title": "Why can't prompt engineering solve the enterprise AI context problem?",
+              "_metadata": {
+                "uid": "cscbf04b57f00d458f"
+              },
+              "content": {
+                "type": "doc",
+                "attrs": {},
+                "uid": "6fb74eeb06e745e29d2170dd8b3dd919",
+                "children": [
+                  {
+                    "type": "p",
+                    "attrs": {},
+                    "uid": "f34f84342d9a4e408b5cb0b3b53f1386",
+                    "children": [
+                      {
+                        "text": "Prompt engineering adjusts how a language model interprets a query, but does not change the underlying data or enforce consistent business rules. Without a semantic layer, the model interprets business terms probabilistically on each query, producing answers that vary depending on phrasing, session, or model version. A semantic layer moves interpretation into the deterministic layer, where rules are fixed and outputs are consistent."
+                      }
+                    ]
+                  }
+                ],
+                "_version": 1
+              }
+            },
+            {
+              "title": "What does Strategy Mosaic do that a standard RAG system does not?",
+              "_metadata": {
+                "uid": "csdc0d3d19c6540679"
+              },
+              "content": {
+                "type": "doc",
+                "attrs": {},
+                "uid": "32edfe2e13e54ca8b5c894755e96e56e",
+                "children": [
+                  {
+                    "type": "p",
+                    "attrs": {},
+                    "uid": "9f46b9701a274a95aeeb612feeba74bf",
+                    "children": [
+                      {
+                        "text": "Standard RAG (retrieval-augmented generation) retrieves relevant text chunks and passes them to a language model. Strategy Mosaic adds a semantic layer between the query and the data: business definitions, metric logic, hierarchy rules, and governance policies are encoded and enforced before and after the LLM generates output. The LLM handles language; Mosaic handles the query logic. The result is consistent, auditable, governed answers rather than probabilistic retrievals."
+                      }
+                    ]
+                  }
+                ],
+                "_version": 1
+              }
+            },
+            {
+              "title": "How does a semantic layer support AI governance and compliance?",
+              "_metadata": {
+                "uid": "csfc0f671eb3c54336"
+              },
+              "content": {
+                "type": "doc",
+                "attrs": {},
+                "uid": "efece02548cd48d08e03b0edc71b8696",
+                "children": [
+                  {
+                    "type": "p",
+                    "attrs": {},
+                    "uid": "41ff599df29a4ef58c3d903fdc68117c",
+                    "children": [
+                      {
+                        "text": "When business definitions and rules are encoded in a semantic layer, they can be applied as guardrails on both inputs and outputs. Input guardrails validate queries against enterprise concepts and policies before execution. Output guardrails check generated responses against the knowledge graph for accuracy and compliance. Because definitions are formal and stored — not implicit and prompt-dependent — governance and lineage become traceable."
+                      }
+                    ]
+                  }
+                ],
+                "_version": 1
+              }
+            }
+          ],
+          "_metadata": {
+            "uid": "cs944b7353c7da9da9"
+          },
+          "accordion_options": "closed"
+        }
+      }
+    ],
+    "cta_section": [],
+    "related_posts": [],
+    "seo": {
+      "meta_title": "Retrieval Is Not Reasoning: Your AI Has a Context Gap",
+      "meta_description": "AI inconsistency is an architecture problem. Learn how Strategy Mosaic closes the context gap with a semantic layer that lets AI reason, not just retrieve.",
+      "keywords": "enterprise AI architecture, semantic layer for AI, AI context gap, knowledge graph enterprise analytics, AI reasoning vs retrieval",
+      "social_thumbnail_override": null,
+      "enable_search_indexing": true
+    },
+    "page_properties": {
+      "navigation_title": "",
+      "header_color": null,
+      "hide_header_nav": false,
+      "hide_header_cta": false,
+      "hide_footer": false,
+      "disable_global_promo_banner": false,
+      "hide_auto_expert": false,
+      "sfid": "",
+      "marketo_id": "",
+      "cta_section": []
+    },
+    "resource_data": {
+      "date": "2026-07-09T00:00:00.000Z",
+      "type": "Blog",
+      "title": "Retrieval Is Not Reasoning: Why Your AI Architecture Has a Context Gap",
+      "description": "AI inconsistency is an architecture problem. Learn how Strategy Mosaic closes the context gap with a semantic layer that lets AI reason, not just retrieve.",
+      "featured": false
+    },
+    "tags": [],
+    "publish_date": "2026-07-09T00:00:00.000Z",
+    "author": [
+      {
+        "uid": "bltaed29ca054d0f5b0",
+        "_content_type_uid": "blog_author"
+      }
+    ],
+    "taxonomies": [
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "product_updates"
+      },
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "mosaic"
+      },
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "semantic_layer"
+      },
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "ai_trends"
+      },
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "analytics"
+      },
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "business_intelligence"
+      }
+    ]
+  },
+  "_mapping_warnings": [
+    "No author name or publish date found in the document.",
+    "No [LINK:] markers were present in the document, so internalLinks and externalLinks are empty.",
+    "The numbered list items for Answers become consistent, Costs come down materially, and Trust recovers are single-item numbered lists interrupted by explanatory paragraphs. They have been modeled as separate single-item numbered lists with surrounding paragraphs to preserve both the numbering and the narrative flow — human review recommended.",
+    "The [BANNER with Report Thumbnail] element was treated as a CTA block. No image asset path or URL was available for the banner thumbnail.",
+    "Two [IMAGE_EMBEDDED] elements were found with no alt text, captions, or URLs available; they have been mapped as image_0.png and image_1.png.",
+    "The Quick Answer section in the document was formatted as a bulleted list under a bold heading — treated as a Quick Answer box (quickAnswerFromDoc: true). The body field for each item is empty because the bullets were single-line statements with no separate supporting text.",
+    "publishDate was not found in the document — defaulted to tomorrow (2026-07-09T00:00:00.000Z). Confirm before publishing.",
+    "Image block missing assetUid — source: image_0.png",
+    "Image block missing assetUid — source: image_1.png",
+    "CTA 1 ('Read the Forrester Report') — placeholder text block inserted before FAQ. Create a Promo entry in CS using the extracted headline and button text, then replace the placeholder with the Promo block and move it to the correct position."
+  ]
+}

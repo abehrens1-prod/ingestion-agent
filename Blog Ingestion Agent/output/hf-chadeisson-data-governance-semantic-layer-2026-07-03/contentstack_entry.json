@@ -1,0 +1,629 @@
+{
+  "entry": {
+    "title": "v2 Data Governance and the Semantic Layer: Why They Must Work Together",
+    "url": "/blog/data-governance-and-the-semantic-layer-why-they-must-work-together",
+    "lead_paragraph": {
+      "type": "doc",
+      "attrs": {},
+      "uid": "0818d735988749b18e2b851776c5f5dc",
+      "children": [
+        {
+          "text": ""
+        }
+      ],
+      "_version": 1
+    },
+    "content": [
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "041eb9856d3e45f39fe6f58a2190482b",
+            "children": [
+              {
+                "type": "h3",
+                "uid": "5b46e297ba034d15ab40793e27c2032e",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Quick Answer",
+                    "attrs": {
+                      "style": {
+                        "color": "rgb(26, 78, 159)"
+                      }
+                    },
+                    "bold": true,
+                    "font-color": "#fa660f"
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "uid": "1a2e9adf594e49e79b976d9634c0b3ce",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "li",
+                    "uid": "9e4e892b8ef24023971e222c6892f87b",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "29b068c326874f849b80a2a84adfaca4",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Governance documentation alone cannot enforce definitions where queries actually run.",
+                            "bold": true
+                          },
+                          {
+                            "text": " AI agents querying raw data without governed semantics produce errors documentation cannot prevent — only computation-layer enforcement can."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "45ae9bbe5a7b451fbd2013a0ec440a26",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "a0b42bcc83b84bf09ae4275def6ce6cc",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "A semantic layer enforces business rules at query time, not just in documentation.",
+                            "bold": true
+                          },
+                          {
+                            "text": " Unlike a data catalog, a semantic layer runs definitions like refund exclusions and currency conversions automatically every time a query executes."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "fc06fb7b634e4d0b9838d9571ced867d",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "02db3505b0d5430bac4b1d62ccbe2a27",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Governed semantics are a prerequisite for production-ready AI, not a phase-two addition.",
+                            "bold": true
+                          },
+                          {
+                            "text": " Inconsistent definitions, unauthorized agent queries, and unauditable outputs cause most enterprise AI initiatives to stall before reaching production."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs3e01ea2bd7ef2eb3"
+          }
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "b49dc181e1884fe099227f3595b12b46",
+            "children": [
+              {
+                "type": "p",
+                "uid": "20988390cddf4b4098ce67ed7fc11129",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Most governance programs are failing AI initiatives. Not because they're badly run, but because they're governing the wrong thing."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "ba1b4c037a5d4effbfd8c240629f3b8c",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The frameworks are sound: defined data owners, business glossaries, quality processes, catalog entries. Data teams have spent years building these foundations. But they share a flaw that didn't matter much when humans were in the loop and now matters enormously: the governance logic lives in documentation, not in computation. It describes what data should mean. It doesn't enforce it where queries run."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "01249822696c47528f660b8430308505",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "According to a recent Gartner data summit, only 6% of data and analytics leaders consider their organization fully AI-ready. That number makes more sense when you consider that most governance programs were built for a world where an analyst could ask a colleague to clarify a definition. AI agents can't make that call."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs72b0ce3bdd98906d"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "The Failure Mode That Documentation Can't Prevent",
+          "_metadata": {
+            "uid": "cs909f503b5e1779e6"
+          },
+          "section_id": "the-failure-mode-that-documentation-can-t-prevent"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "4ea52cf950344d97a3b5a405b460d286",
+            "children": [
+              {
+                "type": "p",
+                "uid": "0db5b681b651480f96fe20c76be83cb7",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "When an AI agent queries your data without governed semantics, it does its best with what it has. That's the problem."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "b5c651e94eb1484085ef0ea691f1d604",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "An LLM asked to calculate company revenue with no governed context returned a figure off by 77% in a documented example. Three failures at once: revenues aggregated across currencies without conversion, refunds not excluded, rows double-counted because VAT rates had changed mid-year. None of these were data quality issues. All three were governance rules that existed in documentation but had no presence in the computation layer."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "73dce37e3a3646f5a107f1b082fff2a1",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The human in the loop used to catch these. A data analyst could ask a colleague. An AI agent can't. As more enterprise workflows move toward autonomous query and answer, the gap between what governance says and what the system does becomes the gap between trusted AI and wrong AI."
+                  }
+                ]
+              },
+              {
+                "type": "blockquote",
+                "uid": "dec40062a24145c88010fab81214318a",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "p",
+                    "uid": "d96e3809ef4e4e62909f1a1cf66477fe",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "text": "\"Governance should happen where the computation happens, not in documentation away from it. That's exactly what creates the gap.\"",
+                        "attrs": {
+                          "style": {
+                            "color": "rgb(0, 61, 91)"
+                          }
+                        }
+                      },
+                      {
+                        "text": " — Charlotte Ledoux, Data Governance Consultant and Author, The Data Governance Playbook",
+                        "bold": true,
+                        "attrs": {
+                          "style": {
+                            "color": "rgb(26, 78, 159)"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "fbae1e2308c4471d908ba36bebda54b0",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "That observation is the core argument. Everything else follows from it."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs30e6ef36a2b15c8a"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "What a Semantic Layer Does",
+          "_metadata": {
+            "uid": "cse4bde26b7c80731f"
+          },
+          "section_id": "what-a-semantic-layer-does"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "0e93035d262d4a6990e6021bc0c95a5f",
+            "children": [
+              {
+                "type": "p",
+                "uid": "5e9eb4f0134b420cb1d1ca45eec60256",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "A semantic layer like Strategy Mosaic is an abstraction layer that converts technical data structures into business-understandable terms, ensuring that every metric, KPI, and dimension is defined once and applied consistently across every analytics tool, AI agent, and application connected to your data platform."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "aab9e4acad2344708f9488995ab8ed1e",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "In practice: one definition of \"revenue\" generates the same SQL query whether Power BI, Tableau, an AI agent, or a custom application is asking for it. The calculation doesn't drift based on who wrote the query. When a data steward updates a definition, that change propagates automatically and every downstream consumer gets the updated calculation without anyone manually correcting dashboards."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "ec6f0bd8f0bf4f1a865e9820e784648b",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "This is the real difference between a semantic layer and a data catalog. The catalog documents what data means. The semantic layer enforces it. A catalog entry that says \"revenue excludes refunds\" has no effect on a query. A semantic layer that encodes that rule runs it every time."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "csd6b4c9ed3269fe49"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "What This Looks Like When It Works",
+          "_metadata": {
+            "uid": "cseb41d634827ee4eb"
+          },
+          "section_id": "what-this-looks-like-when-it-works"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "f5c1282745a94d4e81bb9c9ffd020a12",
+            "children": [
+              {
+                "type": "p",
+                "uid": "7999237712cf47b3afe60151c136d77e",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "We see this pattern constantly. In a recent "
+                  },
+                  {
+                    "type": "a",
+                    "uid": "99f1beb21b3b4624b0d402e2db386f8a",
+                    "attrs": {
+                      "url": "https://software.strategy.com/customer-stories/diageo-customer-story",
+                      "target": "_blank"
+                    },
+                    "children": [
+                      {
+                        "text": "Diageo"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " finance proof-of-concept, the hardest part wasn't connecting the data. It was getting every tool to agree on the same KPI definitions. Once Strategy Mosaic enforced a single metric definition per KPI across all connected tools, the downstream effects were measurable: data access that previously required two weeks was available within hours, and 41% of compute costs were eliminated by deflecting predictable query patterns away from the database."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "3292e0fdd4a0459d97af09e014de97a8",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Strategy built Mosaic around this principle: governance and semantics should live in the same system. That means definitions, access controls, audit trails, and query generation all operate from the same layer rather than being distributed across separate tools."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "b9700092c96c45e795b1fe50cf7b0229",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Mosaic Sentinel runs the governance layer on top of this: real-time alerts on unauthorized or anomalous data access, a complete audit trail of every change and query, and usage insights across all connected analytics surfaces. These operate at the semantic layer, not downstream in individual tools, so data stewards get one governance view rather than checking each system separately."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "76c5af9408ec4447a0e6f6bc09363631",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "For AI agents specifically, the semantic layer becomes the control surface. An agent operating through Strategy Mosaic can only query what it's authorized to access, using the same definitions as every other consumer. The currency conversion, refund exclusion, and VAT handling the Diageo example required are all encoded in the semantic layer and run automatically, there's no version of the 77% revenue error where those rules are in place."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs834f3ec598d916be"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "The Costs You're Already Paying",
+          "_metadata": {
+            "uid": "cs3db8b4a7406346ed"
+          },
+          "section_id": "the-costs-you-re-already-paying"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "6cc65dcf84844585a6011226c49c2680",
+            "children": [
+              {
+                "type": "p",
+                "uid": "05654308fb5b4b049c2257c0cd7ba89a",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The costs of not connecting governance to computation are real. They just don't show up as line items."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "a4e4cb013fa2470191474e00e64f164b",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Teams spend days confirming a number is right before presenting it to leadership. Not because the data is missing, but because no one is sure which calculation to trust. Those interruptions compound. When sales and finance produce different revenue figures from the same underlying data, meetings turn into arbitration sessions. The root cause is almost never that two teams chose different definitions on purpose. It's that no one ever enforced a single one at the point of computation. A workshop to align doesn't fix this permanently. Encoding the agreed definition into the semantic layer does."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "4130151023d84a0398b572382ba1d2d4",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The AI cost is less visible but growing. A significant share of enterprise AI initiatives stall before reaching production because the data foundation isn't ready: inconsistent definitions in training data, agents querying what they shouldn't, outputs that can't be audited or explained. Governed semantics aren't a phase-two addition to an AI roadmap. They're the prerequisite."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "csedfa670ad58afd8f"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "Frequently Asked Questions",
+          "_metadata": {
+            "uid": "cs43d700f8655519fa"
+          },
+          "section_id": "frequently-asked-questions"
+        }
+      },
+      {
+        "accordion": {
+          "accordion_item": [
+            {
+              "title": "What is the difference between a data catalog and a semantic layer for data governance?",
+              "_metadata": {
+                "uid": "cs16c8e3a6424a63a9"
+              },
+              "content": {
+                "type": "doc",
+                "attrs": {},
+                "uid": "09de6fc5c234434789ceb2fde90af9a6",
+                "children": [
+                  {
+                    "type": "p",
+                    "attrs": {},
+                    "uid": "36ab2d1585ee47e9855f877d7bc5fa9d",
+                    "children": [
+                      {
+                        "text": "A data catalog documents what data assets exist and provides business context for them. A semantic layer executes that context, turning documented definitions into business rules that run at query time. Strategy Software's position is that the two are complementary: the semantic layer enforces what the catalog defines. Organizations with an existing catalog can use those documented definitions to accelerate semantic layer modeling rather than starting over."
+                      }
+                    ]
+                  }
+                ],
+                "_version": 1
+              }
+            },
+            {
+              "title": "How does the semantic layer prevent AI agents from producing incorrect answers?",
+              "_metadata": {
+                "uid": "cs60305f92f235d092"
+              },
+              "content": {
+                "type": "doc",
+                "attrs": {},
+                "uid": "ae4e5d338e6a4b7cb295487e4aac8509",
+                "children": [
+                  {
+                    "type": "p",
+                    "attrs": {},
+                    "uid": "13266a4009404e7bbd0170d8999d14c8",
+                    "children": [
+                      {
+                        "text": "AI agents querying raw database tables without governed semantics are prone to errors including currency aggregation mistakes, missing business filters, and duplicate counting from complex data structures. Strategy Software's Strategy Mosaic ensures that AI agents query through the same governed definitions as dashboards and reports, with one set of business rules enforced at the semantic layer rather than assembled on the fly by each agent."
+                      }
+                    ]
+                  }
+                ],
+                "_version": 1
+              }
+            },
+            {
+              "title": "Can a semantic layer replace a data catalog?",
+              "_metadata": {
+                "uid": "cs8b90c1e6cc25fb30"
+              },
+              "content": {
+                "type": "doc",
+                "attrs": {},
+                "uid": "515e13731c3e4227bc0189b353711822",
+                "children": [
+                  {
+                    "type": "p",
+                    "attrs": {},
+                    "uid": "a50791cd9bd74b289ef2975848f2c37f",
+                    "children": [
+                      {
+                        "text": "No. The semantic layer governs how data is queried and computed; the catalog governs what data exists and who owns it. Strategy Software's approach connects the two: Strategy Mosaic integrates with data catalogs including Databricks Unity Catalog, allowing metadata and definitions to flow between the catalog and the semantic layer rather than living in separate silos. Existing catalog investments accelerate semantic layer setup rather than compete with it."
+                      }
+                    ]
+                  }
+                ],
+                "_version": 1
+              }
+            },
+            {
+              "title": "What's the fastest way to demonstrate ROI from a governed semantic layer?",
+              "_metadata": {
+                "uid": "cs63c99e9e4fef4f8d"
+              },
+              "content": {
+                "type": "doc",
+                "attrs": {},
+                "uid": "a3da94c568224752a2f884f428a17108",
+                "children": [
+                  {
+                    "type": "p",
+                    "attrs": {},
+                    "uid": "8712861e9b454103b67f598fa9af08a7",
+                    "children": [
+                      {
+                        "text": "Compute cost reduction tends to be the quickest win, because the pattern is measurable within the first weeks of deployment. Strategy Software observes that roughly half of BI and AI data access queries are repeated patterns that a semantic layer with aggregate awareness can deflect from the database entirely, producing visible reductions in cloud compute bills. The governance, productivity, and AI-readiness benefits build from there as more metrics are defined and enforced centrally."
+                      }
+                    ]
+                  }
+                ],
+                "_version": 1
+              }
+            }
+          ],
+          "_metadata": {
+            "uid": "cs64caa4827a33e3f2"
+          },
+          "accordion_options": "closed"
+        }
+      }
+    ],
+    "cta_section": [],
+    "related_posts": [],
+    "seo": {
+      "meta_title": "Data Governance and the Semantic Layer: Why They Work Together",
+      "meta_description": "Governance docs describe data rules. A semantic layer enforces them at query time. Learn why AI-ready enterprises need both working together.",
+      "keywords": "semantic layer, data governance, enterprise AI analytics, governed metrics, AI-ready data foundation",
+      "social_thumbnail_override": null,
+      "enable_search_indexing": true
+    },
+    "page_properties": {
+      "navigation_title": "",
+      "header_color": null,
+      "hide_header_nav": false,
+      "hide_header_cta": false,
+      "hide_footer": false,
+      "disable_global_promo_banner": false,
+      "hide_auto_expert": false,
+      "sfid": "",
+      "marketo_id": "",
+      "cta_section": []
+    },
+    "resource_data": {
+      "date": "2026-07-03T00:00:00.000Z",
+      "type": "Blog",
+      "title": "Data Governance and the Semantic Layer: Why They Must Work Together",
+      "description": "Governance docs describe data rules. A semantic layer enforces them at query time. Learn why AI-ready enterprises need both working together.",
+      "featured": false
+    },
+    "tags": [],
+    "publish_date": "2026-07-03T00:00:00.000Z",
+    "taxonomies": [
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "product_updates"
+      },
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "mosaic"
+      },
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "semantic_layer"
+      },
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "ai_trends"
+      },
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "analytics"
+      },
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "business_intelligence"
+      }
+    ]
+  },
+  "_mapping_warnings": [
+    "The document uses [H1] for the author byline ('By HF Chadeisson') and [BOLD] for what appears to be the actual article title ('Data Governance and the Semantic Layer: Why They Must Work Together'). The bold line was treated as the H1 title and the [H1] line was treated as the author field.",
+    "Section headings are marked as [BOLD][B]...[/B] rather than [H2] tags. These were interpreted as H2 section headings based on document structure and content flow.",
+    "The Charlotte Ledoux quote attribution includes a [LINK:The Data Governance Playbook|https://thedatagovernanceplaybook.substack.com/] which was incorporated into the blockquote text. The URL is also captured in externalLinks.",
+    "No CTA boxes, Quick Answer box, or hero media found in the document.",
+    "FAQ section headings ('Q: ...') were formatted as [BOLD][B]...[/B] paragraphs rather than standard heading markers — interpreted as FAQ questions based on the 'Q:' prefix and document section heading 'Frequently Asked Questions'.",
+    "No Quick Answer box found in document — 3 bullets synthesized from article content. Review before publishing and edit in the Contentstack editor if needed.",
+    "Author 'HF Chadeisson' has no UID in config.yaml authors lookup. Add their Contentstack UID to config.yaml → contentstack.authors to generate a valid reference."
+  ]
+}

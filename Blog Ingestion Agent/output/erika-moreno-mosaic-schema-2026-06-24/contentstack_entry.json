@@ -1,0 +1,390 @@
+{
+  "entry": {
+    "title": "Project Schema is now Mosaic Schema. Here's what it means for you.",
+    "url": "/software/blog/project-schema-is-now-mosaic-schema-heres-what-it-means-for-you",
+    "lead_paragraph": {
+      "type": "doc",
+      "attrs": {},
+      "uid": "1cffc1cf1e484da6a0b6ec9b48a44a49",
+      "children": [
+        {
+          "text": ""
+        }
+      ],
+      "_version": 1
+    },
+    "content": [
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "b89a081b64bb4784a31516abfa407aa1",
+            "children": [
+              {
+                "type": "h3",
+                "uid": "df9d1f24877e4a2680591d20311fe6ca",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Quick Answer",
+                    "attrs": {
+                      "style": {
+                        "color": "rgb(26, 78, 159)"
+                      }
+                    },
+                    "bold": true,
+                    "font-color": "#fa660f"
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "uid": "377bdd967e5345abb4d8fba445c03e82",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "li",
+                    "uid": "3245165226214e408df6cd94baafe9d2",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "6b9bd0a57b2e462d8d17d52ee777e95b",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Project Schema has been renamed Mosaic Schema — nothing in your environment changes.",
+                            "bold": true
+                          },
+                          {
+                            "text": " Your schema objects, cubes, reports, and workflows remain exactly as they were. No migration or rebuild is required."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "28f6060c83d54e628ea75fca988d6daf",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "ffa501973c484c32b3289ce0b9c75444",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Mosaic Schema and Mosaic Models are now two paths within one universal semantic layer.",
+                            "bold": true
+                          },
+                          {
+                            "text": " Central governed schema and self-service modeling can now work together, extending your foundation into new use cases."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "fe1a1c4edde44a268e303cb748bf3afd",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "0fbf78a45e8c4e15bc6c9fd9ff248b13",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Thirty years of semantic layer work becomes the foundation for AI and open analytics.",
+                            "bold": true
+                          },
+                          {
+                            "text": " Organizations with a governed semantic layer already in place are best positioned to move fast on AI initiatives."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs0e200ddccff6bfc0"
+          }
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "ffe69f89be3a4559a958cdd9430d3478",
+            "children": [
+              {
+                "type": "p",
+                "uid": "9d38820e449d4072934d0f058343e965",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "At nearly every customer conversation I've had this year, roundtables, regional World events, one-on-ones, the same question comes up: do we need to start over to get onto Mosaic?"
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "7ec2ce826d7547c497b8a96f1c863438",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The answer is simple: you don't."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs7cf1a74a79076f6d"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "Thirty years of semantic layer work, under one name",
+          "_metadata": {
+            "uid": "csf7afe310fe3e1722"
+          },
+          "section_id": "thirty-years-of-semantic-layer-work-under-one-name"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "b526513d8418411e86a6be4572934ea9",
+            "children": [
+              {
+                "type": "p",
+                "uid": "a2117403fabd4bd4876a5445a87bd380",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Strategy has been building semantic layers for over 30 years. When we talk about Mosaic as our universal semantic layer, we're not describing something new. We're describing what our customers have been doing for decades: defining business logic once, governing it centrally, and making sure every report, every dashboard, every AI model draws from the same trusted definitions."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "5748df4ba768473c86dffe96624e78c7",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "That's exactly what Project Schema has always been. Data architects have used it to build the kind of governed, stable semantic foundation that makes analytics reliable at scale. Hierarchies, attributes, metrics, cubes. The business logic that sits between raw data and the decisions people make from it."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "0720099b103d4a72af179636772dd44d",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Mosaic is our universal semantic layer. It has two modeling paths:"
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "54221abfb2494716973a229869e92f75",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Mosaic Schema",
+                    "bold": true
+                  },
+                  {
+                    "text": " (formerly Project Schema): the centrally governed enterprise schema, managed by data architects, built for consistency and control at scale."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "2e2031c17cff4e099ba6b108f57d31e9",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Mosaic Models",
+                    "bold": true
+                  },
+                  {
+                    "text": ": the self-service modeling approach built in Mosaic Studio, where teams define attributes, metrics, and relationships with AI assistance."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "f7b56bfb081048909f75daecf81c963d",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Both have always been part of Mosaic's universal semantic layer. The rename aligns the naming to our open strategy."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "cdee438cfdcb4958ba109d71933bfe20",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Nothing in your environment changes. Your schema objects, cubes, reports, and workflows are exactly as they were. There's no migration, no rebuild, no starting over."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "2e61430c9cc34b2f8a77a37a23de785f",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "With this release, you can now map Mosaic Models directly to Mosaic Schema. The two paths, the central governed schema and self-service modeling, no longer have to run in parallel. They can work together, extending your governed foundation into new use cases without breaking what you've built. That includes security: all your existing filters carry over into Mosaic Models."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "9aaf798f27404f7a898a890dde399d07",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The rename also reflects where we're headed as a company. One of our core commitments is avoiding vendor lock-in for our customers. That means connecting any application to Mosaic, supporting any data source, and being part of open industry initiatives like the Open Semantic Interchange (OSI)."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "1d4714a951ee4500ba2599923c16f2f3",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Mosaic Schema is part of that open fabric. When your semantic layer has a clear, consistent identity and connects openly to the rest of the ecosystem, it becomes an asset that compounds over time, rather than a dependency that constrains you."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "5ece9c2e675340698136b56db4452ed0",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "If your organization has been governing analytics through Project Schema, you already have a semantic foundation."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "205961fd176d44f9ad52650dba9d1a1c",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The organizations moving fastest on AI right now are the ones with a governed semantic layer already in place. Thirty years of that work doesn't go away. It becomes the foundation everything else runs on."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "2779aac2185c4adcadbd0165cb36c30a",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "If you want to see what that foundation can support now, start with the Model-to-Schema mapping docs or reach out to your account team."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "csf9011fff1852d0e5"
+          }
+        }
+      }
+    ],
+    "cta_section": [],
+    "related_posts": [],
+    "seo": {
+      "meta_title": "Project Schema is now Mosaic Schema: What It Means for You",
+      "meta_description": "Project Schema is now Mosaic Schema. Nothing changes in your environment. Learn how Strategy's semantic layer positions your org for AI.",
+      "keywords": "semantic layer, Mosaic Schema, enterprise analytics, governed metrics, AI-ready data foundation",
+      "social_thumbnail_override": null,
+      "enable_search_indexing": true
+    },
+    "page_properties": {
+      "navigation_title": "",
+      "header_color": null,
+      "hide_header_nav": false,
+      "hide_header_cta": false,
+      "hide_footer": false,
+      "disable_global_promo_banner": false,
+      "hide_auto_expert": false,
+      "sfid": "",
+      "marketo_id": "",
+      "cta_section": []
+    },
+    "resource_data": {
+      "date": "2026-06-24T00:00:00.000Z",
+      "type": "Blog",
+      "title": "Project Schema is now Mosaic Schema. Here's what it means for you.",
+      "description": "Project Schema is now Mosaic Schema. Nothing changes in your environment. Learn how Strategy's semantic layer positions your org for AI.",
+      "featured": false
+    },
+    "tags": [],
+    "publish_date": "2026-06-24T00:00:00.000Z",
+    "author": [
+      {
+        "uid": "blt8c3ce76c040f82e5",
+        "_content_type_uid": "blog_author"
+      }
+    ],
+    "taxonomies": [
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "product_updates"
+      },
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "mosaic"
+      },
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "semantic_layer"
+      },
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "ai_trends"
+      },
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "analytics"
+      },
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "business_intelligence"
+      }
+    ]
+  },
+  "_mapping_warnings": [
+    "No publish date found in the document — publishDate left empty.",
+    "Author name extracted from italic editorial note '[Blog post draft, bylined Erika Moreno]' — not a standard byline format; confirm correct author attribution.",
+    "The final paragraph references 'Model-to-Schema mapping docs' and 'your account team' as CTAs but no [BOX] or [LINK:] annotation was present, so no cta_list entry or URL could be captured.",
+    "No hero image or video found in the document.",
+    "No FAQ section detected.",
+    "Document appears to be a draft; editorial metadata note ('Blog post draft') was stripped per extraction rules.",
+    "publishDate was not found in the document — defaulted to pipeline run date (2026-06-23T00:00:00.000Z). Confirm before publishing.",
+    "No Quick Answer box found in document — 3 bullets synthesized from article content. Review before publishing and edit in the Contentstack editor if needed."
+  ]
+}

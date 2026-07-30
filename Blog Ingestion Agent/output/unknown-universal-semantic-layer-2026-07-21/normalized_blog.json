@@ -1,0 +1,770 @@
+{
+  "title": "What Problems Does a Universal Semantic Layer Solve for Enterprise AI?",
+  "subtitle": "",
+  "slug": "what-problems-does-a-universal-semantic-layer-solve-for-enterprise-ai",
+  "url": "/what-problems-does-a-universal-semantic-layer-solve-for-enterprise-ai",
+  "author": "Tanmay Ratanpal",
+  "authorBio": "",
+  "publishDate": "2026-07-22T00:00:00.000Z",
+  "seo": {
+    "metaTitle": "What Problems Does a Universal Semantic Layer Solve?",
+    "metaDescription": "Discover why enterprise AI fails without business context. Strategy Mosaic's Universal Semantic Layer delivers governed, consistent data AI can trust.",
+    "metaDescriptionFromDoc": false,
+    "targetKeywords": [
+      "universal semantic layer",
+      "enterprise AI analytics",
+      "semantic layer for AI",
+      "governed metrics layer",
+      "AI-ready data foundation"
+    ],
+    "metaDescriptionAlternatives": [
+      "Learn how a Universal Semantic Layer fixes AI accuracy, governance, and consistency gaps. Strategy Mosaic gives AI the business context it needs.",
+      "See how Strategy Mosaic solves data conflicts, security gaps, and AI inconsistency with one governed Universal Semantic Layer for enterprise analytics."
+    ],
+    "primaryKeywords": [
+      "universal semantic layer",
+      "enterprise AI analytics",
+      "semantic layer for AI",
+      "governed metrics layer",
+      "AI-ready data foundation"
+    ],
+    "secondaryKeywords": [
+      "BI data consistency",
+      "enterprise data governance",
+      "AI data accuracy",
+      "semantic layer for BI",
+      "data context for AI agents",
+      "conflicting dashboard metrics",
+      "AI query consistency",
+      "enterprise data security for AI",
+      "business context for AI",
+      "data stack governance",
+      "metrics standardization",
+      "AI analytics reliability"
+    ],
+    "longTailKeywords": [
+      "why does enterprise AI return inconsistent answers",
+      "how to fix conflicting dashboards in enterprise BI",
+      "what is a universal semantic layer and why does it matter",
+      "how to govern AI access to enterprise data",
+      "why AI agents bypass BI security rules",
+      "best way to give AI business context for accurate analytics",
+      "how to ensure AI uses consistent metrics across tools",
+      "why enterprise AI produces wrong answers from correct data",
+      "how a semantic layer improves AI accuracy in enterprise analytics",
+      "what problems does a semantic layer solve for enterprise AI",
+      "how to scale AI analytics without losing data governance",
+      "best way to connect AI agents to governed enterprise metrics"
+    ],
+    "brandedKeywords": [
+      "Strategy",
+      "Strategy Mosaic",
+      "Strategy Mosaic Universal Semantic Layer",
+      "Strategy Mosaic enterprise AI",
+      "Strategy Mosaic governed analytics"
+    ]
+  },
+  "quickAnswer": [
+    {
+      "headline": "Enterprise AI often produces answers that look right and aren't.",
+      "body": "Dashboards disagree with each other, the same question can return two different SQL queries, and security rules that apply on a BI dashboard may not apply when an AI agent reaches the warehouse through a different access path."
+    },
+    {
+      "headline": "The root cause is missing business context.",
+      "body": "AI systems don't have the business context to interpret enterprise data correctly on their own, which undermines accuracy, consistency, governance, portability, and cost control."
+    },
+    {
+      "headline": "A Universal Semantic Layer solves this by giving AI that missing business context directly.",
+      "body": "Strategy Mosaic does this by sitting above the existing data stack as one governed layer that connected tools and AI systems can draw from."
+    }
+  ],
+  "quickAnswerFromDoc": true,
+  "heroMedia": null,
+  "body": [
+    {
+      "type": "section",
+      "heading": "",
+      "subheading": "",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "type": "section",
+      "heading": "Enterprises are pointing AI at the wrong place",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Having enterprise AI isn't the same as maximizing its true potential."
+        },
+        {
+          "type": "paragraph",
+          "text": "Most organizations with heavy investments in AI tend to focus on the speed and accuracy of the insights they can gain. But those two benefits require more than just data sources."
+        },
+        {
+          "type": "paragraph",
+          "text": "The truth is that AI can be connected across thousands of warehouses, applications, and BI tools, and still fail to deliver results. Not because the data is lacking, but because the AI is trying to extract business context from sources that weren't built to explain themselves."
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Forrester's 2026 Report",
+              "url": "https://software.strategy.com/research-and-reports/make-data-ai-ready-via-semantic-layer-platforms"
+            },
+            {
+              "text": " puts this plainly: "
+            },
+            {
+              "text": "agentic AI stalls when enterprise data lacks a consistent, shared semantic foundation.",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Without shared business context, AI works in the dark",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "In enterprise analytics, business context refers to metric definitions, metadata, business rules, relationships, join paths, hierarchies, and access policies that give raw data meaning. It helps users understand what a metric is, where it comes from, and how it drives decision-making value."
+        },
+        {
+          "type": "paragraph",
+          "text": "But that business context doesn't trace across the enterprise. It naturally fragments because different teams and AI tools create isolated definitions based on their own narrow goals. This fragmentation causes AI to generate inaccurate answers because it extracts conflicting interpretations from these isolated contexts."
+        },
+        {
+          "type": "paragraph",
+          "text": "That's when enterprises see problems with:"
+        },
+        {
+          "type": "list",
+          "style": "bullet",
+          "items": [
+            "Accuracy: AI can get answers wrong on complex, multi-table questions.",
+            "Consistency: The same question can return different answers depending on the model.",
+            "Governance: Access rules may not travel with the data when an AI agent uses a different access path.",
+            "Portability: Business logic gets trapped inside a single AI/BI tool, and may need to be recreated or revalidated when a team changes platforms.",
+            "Cost: AI and data platforms repeat context processing and query work the enterprise has already defined."
+          ]
+        },
+        {
+          "type": "callout",
+          "label": "What happens when data lacks semantic consistency?",
+          "text": "When data lacks business context, it can lead to data misinterpretation, flawed strategic decisions, and difficulty explaining the \"why\" behind performance shifts. Without the rules and relationships behind a metric, the number may look conclusive while its meaning remains unclear. This gap often forces organizations to rely on guesswork, misallocate resources, and struggle with low user adoption of BI tools."
+        },
+        {
+          "type": "image",
+          "sourcePath": "image_0.png",
+          "assetUid": "",
+          "altText": "",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "The accuracy problem: AI must guess business logic",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "When you ask AI a business question, three things happen before you see an answer:"
+        },
+        {
+          "type": "list",
+          "style": "bullet",
+          "items": [
+            "The model interprets what you're asking,",
+            "It translates that into a query the underlying database can run,",
+            "It executes it and returns the result."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The middle step is where things go wrong."
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "For the AI to accurately write that query, it needs clear business logic ",
+              "bold": true
+            },
+            {
+              "text": "regarding",
+              "bold": true
+            },
+            {
+              "text": " which tables hold data, how they join, and what that data is called. ",
+              "bold": true
+            },
+            {
+              "text": "Business logic refers to the programmed rules, formulas, and data relationships that explain how raw data is calculated and converted into metrics. A raw schema doesn't fully capture that logic."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "As a result, the schema tells you a "
+            },
+            {
+              "text": "table",
+              "italic": true
+            },
+            {
+              "text": " exists and what its columns are named. But it doesn't tell you the business context behind it. It doesn't share that an "
+            },
+            {
+              "text": "\"Active Customer\"",
+              "italic": true
+            },
+            {
+              "text": " tag excludes anyone who hasn't logged in for 90 days. It doesn't tell you that Claims and Coverage tables shouldn't be joined directly on the "
+            },
+            {
+              "text": "\"policy ID\"",
+              "italic": true
+            },
+            {
+              "text": " tag without aggregating each fact table separately first."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "label": "How accuracy erodes in real-time:",
+          "text": "Take an insurance company. It's tracking multi-year Policies in one table and Claims in another. If a query joins those tables directly on \"policy ID\" before aggregating each fact table independently, each claim will match every year of the policy. The total will inflate before it ever gets summarized. A coverage limit that should read a few million dollars can come back five to ten times too high, while this query keeps running in the background. No error, no warning, just a number that's flawed but looks normal."
+        },
+        {
+          "type": "paragraph",
+          "text": "An AI model fills gaps in business logic by guessing, based on patterns from other schemas it's seen. On simple questions, the problem can be harder to see. On the multi-table queries that make up much of enterprise reporting, it becomes more apparent."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "The consistency problem: same question, different answers",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "There's another issue: large language models are naturally probabilistic. That means if you ask the same question twice, you can get two different queries, especially across different models or app versions."
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "In a dashboard, a person may still have an opportunity to catch an obviously wrong number. ",
+              "bold": true
+            },
+            {
+              "text": "I",
+              "bold": true
+            },
+            {
+              "text": "n ",
+              "bold": true
+            },
+            {
+              "text": "an ",
+              "bold": true
+            },
+            {
+              "text": "AI-powered ",
+              "bold": true
+            },
+            {
+              "text": "workflow",
+              "bold": true
+            },
+            {
+              "text": " ",
+              "bold": true
+            },
+            {
+              "text": "where AI ",
+              "bold": true
+            },
+            {
+              "text": "calculates ",
+              "bold": true
+            },
+            {
+              "text": "at",
+              "bold": true
+            },
+            {
+              "text": " ",
+              "bold": true
+            },
+            {
+              "text": "lightening",
+              "bold": true
+            },
+            {
+              "text": " speed without human oversight",
+              "bold": true
+            },
+            {
+              "text": ", nothing catches it.",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Most teams try to solve this by focusing on the surface-level symptom. They try to write better prompts with narrower instructions and more guardrails."
+        },
+        {
+          "type": "paragraph",
+          "text": "But that doesn't fix the underlying issue of fragmented semantic logic. The AI model is still the one generating the query. Its probabilistic system won't guarantee a deterministic answer, no matter how carefully you word the prompt."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "The governance problem: rules don't travel with the data",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Row-level and column-level security rules can be tool-specific. One BI tool's governance may not travel through a different access path. The same risk appears when an AI agent queries the underlying data warehouse."
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "A policy that limits the claims a regional manager can see on a dashboard may not limit what that manager's AI can retrieve if the restriction exists only inside the BI tool.",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "When enterprises try to enforce governance separately inside each tool, it fragments the data further. Every time a team adds a data source or a new way to query it, the governance risk increases."
+        },
+        {
+          "type": "paragraph",
+          "text": "This issue is compounded by the fact that enterprises don't run one warehouse feeding one BI tool. They run several:"
+        },
+        {
+          "type": "list",
+          "style": "bullet",
+          "items": [
+            "A cloud warehouse for finance",
+            "A lakehouse for product data",
+            "Unique operational databases no one's consolidated"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "When a new AI agent or application connects to them, it must solve the same join-path and access-control problem on its own. This happens because no shared architecture layer guarantees that the same definitions, join paths, and access controls apply."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "The portability problem: business logic trapped in one tool",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Even where the logic is right, it's often stuck. Metrics and definitions written inside a specific BI tool, in that tool's proprietary format, may not be directly portable to another tool or AI model. The moment data or analysis moves outside that platform, the data logic must be rebuilt from scratch and revalidated."
+        },
+        {
+          "type": "paragraph",
+          "text": "This becomes an even larger issue if the enterprise decides to change anything: swap a BI tool, add a new warehouse, or try a different LLM."
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "If the business logic is embedded in the thing being replaced, ",
+              "bold": true
+            },
+            {
+              "text": "changing ",
+              "bold": true
+            },
+            {
+              "text": "it means rebuilding the ",
+              "bold": true
+            },
+            {
+              "text": "business ",
+              "bold": true
+            },
+            {
+              "text": "logic ",
+              "bold": true
+            },
+            {
+              "text": "again",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "The cost problem: re-explaining your schema on every query",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Without predefined logic and context, an AI model must reprocess the relevant parts of a schema on every query."
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "An enterprise analytics team runs hundreds or thousands of queries a day. ",
+              "bold": true
+            },
+            {
+              "text": "That",
+              "bold": true
+            },
+            {
+              "text": " amounts to",
+              "bold": true
+            },
+            {
+              "text": " ",
+              "bold": true
+            },
+            {
+              "text": "the ",
+              "bold": true
+            },
+            {
+              "text": "compute",
+              "bold": true
+            },
+            {
+              "text": " ",
+              "bold": true
+            },
+            {
+              "text": "budget ",
+              "bold": true
+            },
+            {
+              "text": "spent ",
+              "bold": true
+            },
+            {
+              "text": "re-deriving answers ",
+              "bold": true
+            },
+            {
+              "text": "that ",
+              "bold": true
+            },
+            {
+              "text": "were ",
+              "bold": true
+            },
+            {
+              "text": "already ",
+              "bold": true
+            },
+            {
+              "text": "established",
+              "bold": true
+            },
+            {
+              "text": " ",
+              "bold": true
+            },
+            {
+              "text": "the last time someone asked",
+              "bold": true
+            },
+            {
+              "text": " the same ",
+              "bold": true
+            },
+            {
+              "text": "question",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": true
+            },
+            {
+              "text": " ",
+              "bold": true
+            },
+            {
+              "text": "T",
+              "bold": true
+            },
+            {
+              "text": "hat overhead compounds. ",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Strategy Software has published the specific token and cost figures this produces in production. "
+            },
+            {
+              "text": "Explore it here →",
+              "url": "https://software.strategy.com/ai-token-cost-and-accuracy-benchmark"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "How a Universal Semantic Layer solves these problems",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "A Universal Semantic Layer fixes these problems by separating two jobs that most AI setups leave bundled together."
+        },
+        {
+          "type": "list",
+          "style": "numbered",
+          "items": [
+            "The AI model handles natural language: understanding what's being asked.",
+            "The Semantic Layer handles the query: translating that question into SQL using business logic a team has already defined once, the same way every time."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Strategy Mosaic does this by sitting above the warehouses and databases an enterprise already has, rather than requiring any of them to change.  Business logic, join paths, and access rules are"
+            },
+            {
+              "text": " defined once",
+              "bold": true
+            },
+            {
+              "text": " and "
+            },
+            {
+              "text": "applied consistentl",
+              "bold": true
+            },
+            {
+              "text": "y",
+              "bold": true
+            },
+            {
+              "text": ",",
+              "bold": true
+            },
+            {
+              "text": " no matter which system or application asks."
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "style": "bullet",
+          "items": [
+            "Connect and model a data source in Mosaic, and it can use the same centralized governance framework.",
+            "Add an AI agent through Mosaic, and it inherits the existing business logic and context.",
+            "Swap a BI tool or an LLM, and the logic underneath doesn't move because it was never tied to either one."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Because Mosaic itself generates the SQL instead of the AI model, the join paths are fixed and repeatable. The same governed definitions and query logic apply whether the request comes through Claude, Power BI, or a custom agent."
+        },
+        {
+          "type": "image",
+          "sourcePath": "image_1.png",
+          "assetUid": "",
+          "altText": "",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Universal Semantic Layer vs. traditional data architecture",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "table",
+          "headers": [
+            "Dimension",
+            "Traditional, tool-embedded approach",
+            "Universal Semantic Layer (Strategy Mosaic)"
+          ],
+          "rows": [
+            [
+              "Business logic",
+              "Defined separately inside each BI tool",
+              "Defined once, reused across connected tools"
+            ],
+            [
+              "Governance",
+              "Enforced per tool, and may not apply through other access paths",
+              "Enforced centrally across connected access paths"
+            ],
+            [
+              "AI readiness",
+              "AI infers joins and definitions from raw schema",
+              "AI receives governed context instead of relying on raw schema alone"
+            ],
+            [
+              "Portability",
+              "Logic rebuilt when a tool or platform changes",
+              "Logic can remain intact when a tool or platform changes"
+            ],
+            [
+              "Cost at scale",
+              "High; Schema re-interpreted on every query",
+              "Low; Business context defined once, reused per query"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "How to evaluate a semantic layer architecture",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Diagnosing these problems is one thing. Telling a genuinely universal semantic layer apart from a tool that just uses the term is another. Three questions do most of the work."
+        },
+        {
+          "type": "heading",
+          "text": "Is the logic independent of any single platform?",
+          "level": 4
+        },
+        {
+          "type": "paragraph",
+          "text": "Many semantic layers ship bundled into one cloud warehouse or one BI tool, which is convenient until that platform changes. Swap warehouses or bring in a new AI framework next year, and logic built inside the old one doesn't come with you. A genuinely universal layer sits as its own independent layer between any data platform and any consuming tool, not inside one of them."
+        },
+        {
+          "type": "paragraph",
+          "text": "For enterprise AI, also check who generates the SQL. If the LLM still owns query generation, probabilistic behavior can still enter the business-logic layer. Strategy Mosaic keeps SQL generation in its deterministic engine while the LLM handles natural language."
+        },
+        {
+          "type": "heading",
+          "text": "Does it control compute cost, not just correctness?",
+          "level": 4
+        },
+        {
+          "type": "paragraph",
+          "text": "Passing every query straight through to the warehouse without caching gets expensive fast at enterprise query volumes. Look for a semantic layer that caches and reuses computed results across users and models, so the same calculation isn't re-executed as a new warehouse query every time a similar question is asked."
+        },
+        {
+          "type": "heading",
+          "text": "Does it support open agent protocols like MCP?",
+          "level": 4
+        },
+        {
+          "type": "paragraph",
+          "text": "Remember that Model Context Protocol (MCP) provides the access path. It doesn't guarantee deterministic query generation. That depends on the semantic definitions, governance, and execution architecture behind the connection. A semantic layer that only exposes proprietary connectors limits which AI agents reach it. Strategy Mosaic supports MCP, so MCP-compatible agents such as Claude, ChatGPT, Copilot Studio, and Gemini can reach governed Mosaic metrics as pre-validated tools."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Is a Universal Semantic Layer right for your enterprise?",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "If your organization runs AI against more than one data platform, has more than one BI tool in production, or has already seen an AI agent produce a confident number nobody can fully explain, these problems are probably already showing up somewhere in the stack, whether or not they've been traced back to a root cause yet."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is a Universal Semantic Layer?",
+      "answer": "A Universal Semantic Layer is a governed layer that sits between an enterprise's data sources and the tools and AI systems that consume them, translating raw schema into business definitions that stay consistent everywhere. Strategy Mosaic is built as an independent, vendor-agnostic version of this architecture.",
+      "accordionEnabled": true
+    },
+    {
+      "question": "What problems does a Universal Semantic Layer solve?",
+      "answer": "It addresses AI generating wrong answers from guessed business logic, the same question returning different results depending on which model or tool asks, governance rules that don't travel with data once AI agents query it directly, and business logic that has to be rebuilt every time a team changes BI tools or platforms.",
+      "accordionEnabled": true
+    },
+    {
+      "question": "Does a Universal Semantic Layer replace my data warehouse?",
+      "answer": "No. Strategy Mosaic sits above existing warehouses, lakehouses, and databases rather than replacing them. Data stays where it is; Mosaic adds a governed layer of business definitions and access rules on top of the infrastructure an enterprise already has.",
+      "accordionEnabled": true
+    },
+    {
+      "question": "Can a Universal Semantic Layer work with the BI tools we already use?",
+      "answer": "Yes. Strategy Mosaic is designed to work with existing BI tools, including Power BI and Tableau, rather than requiring a replacement. Business logic is defined once in Mosaic and made available to connected BI and AI systems through supported access paths.",
+      "accordionEnabled": true
+    },
+    {
+      "question": "When should an enterprise consider implementing a Universal Semantic Layer?",
+      "answer": "Organizations running AI or BI across more than one data platform, seeing inconsistent metrics between tools or teams, or planning to scale AI agents on enterprise data are the clearest candidates. Implementing the layer earlier can reduce how much business logic becomes embedded in individual tools and later needs to be untangled.",
+      "accordionEnabled": true
+    }
+  ],
+  "postFaqContent": [],
+  "suggestedTaxonomyTerms": [
+    "Semantic Layer",
+    "Enterprise AI",
+    "Data Governance",
+    "Analytics Architecture",
+    "Business Intelligence"
+  ],
+  "cta_list": [
+    {
+      "headline": "Explore the Semantic Layer Comparison Hub",
+      "body": "Understanding the problems is the first step. Comparing how different semantic layer approaches handle governance, portability, and AI readiness is the next one.",
+      "buttonText": "Explore the Semantic Layer Comparison Hub →",
+      "buttonUrl": ""
+    }
+  ],
+  "internalLinks": [],
+  "externalLinks": [
+    "https://software.strategy.com/research-and-reports/make-data-ai-ready-via-semantic-layer-platforms",
+    "https://software.strategy.com/ai-token-cost-and-accuracy-benchmark"
+  ],
+  "validationWarnings": [
+    "No author or publish date found in the document.",
+    "The Quick Answer table contained a single narrative paragraph, not a bulleted list; it was split into sentence-level items as best-fit given the extraction rules. Human review recommended to confirm intended structure.",
+    "The comparison table near 'Is a Universal Semantic Layer right for your enterprise?' appears to be a CTA box with two cells ('Understanding the problems...' and 'Explore the Semantic Layer Comparison Hub →') but contains no explicit URL for the button; added to cta_list with empty buttonUrl — human review needed to supply the correct URL.",
+    "The [H4] headings inside 'How to evaluate a semantic layer architecture' were mapped as level-4 heading blocks inside the parent H2 section, as the extraction rules specify only H2 creates new sections. H3/H4 headings go inside blocks.",
+    "Two [IMAGE_EMBEDDED] markers were found with no source filenames or alt text; mapped as image_0.png and image_1.png respectively.",
+    "The [BOLD] paragraph in 'The consistency problem' section contains what appears to be a typo ('lightening' instead of 'lightning') — preserved verbatim as found in document.",
+    "The list items under 'Without shared business context' contained inline bold markers (e.g. [B]Accuracy[/B]); these were preserved in the items as plain text with the label prepended — the list block type does not support per-item rich formatting. Human review may want to convert these to paragraph runs if bold formatting is critical.",
+    "The FAQ section heading was 'Frequently asked questions' — matched and extracted correctly.",
+    "publishDate was not found in the document — defaulted to tomorrow (2026-07-22T00:00:00.000Z). Confirm before publishing."
+  ]
+}

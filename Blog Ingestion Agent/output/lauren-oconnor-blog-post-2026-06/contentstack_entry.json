@@ -1,0 +1,992 @@
+{
+  "entry": {
+    "title": "DRAFT -- Semantic Layer Governance vs. Portability: Why Moving Your Metrics Isn't the Same as Governing Them",
+    "url": "/software/blog/semantic-layer-governance-vs-portability",
+    "lead_paragraph": {
+      "type": "doc",
+      "attrs": {},
+      "uid": "f0039617ed7b46559a1b6ff722abc59e",
+      "children": [
+        {
+          "type": "p",
+          "uid": "bbdb9f974873412d9a4a06fc8187759d",
+          "attrs": {},
+          "children": [
+            {
+              "text": "When the Open Semantic Interchange launched at Snowflake Summit in June 2026, the announcement carried 54 vendors and a compelling promise, a common YAML format for semantic model definitions that any participating tool can read, write, and exchange. No more custom connectors between every platform pair. No more duplicated metric definitions in each BI tool. One format standard to move business logic across the ecosystem."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "uid": "ee2f57b6603541d6a61274611aab1c63",
+          "attrs": {},
+          "children": [
+            {
+              "text": "Format portability is genuinely useful. But the framing of \"open format equals consistency\" has a gap that every enterprise analytics team building for AI should understand. Moving a metric definition from one tool to another is not the same as enforcing it once it gets there."
+            }
+          ]
+        }
+      ],
+      "_version": 1
+    },
+    "content": [
+      {
+        "section_anchor": {
+          "header_text": "What \"Semantic Layer Portability\" Actually Means",
+          "_metadata": {
+            "uid": "csd68b4e1a0d1ece25"
+          },
+          "section_id": "what-semantic-layer-portability-actually-means"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "4b9f676f8c214b418f190c212b20de39",
+            "children": [
+              {
+                "type": "p",
+                "uid": "b3b96490a79b428295902ef459c74e30",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "A portable semantic layer can express its metric definitions, dimensions, joins, and relationships in a vendor-neutral schema that participating tools can import and export. OSI's YAML-based specification does exactly this, it provides a structure for describing a semantic model that any supporting tool can read."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "a4c108d64f6246fa8303dda01ce56a92",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Before format standards, moving metric definitions between tools meant rebuilding them by hand. OSI automates the exchange. A metric defined in dbt can now be expressed in an OSI-compatible format and imported by Tableau, Snowflake, Strategy, or any other supporting platform without manual reconstruction."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "f447215e288746faac9775086c95a134",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "What portability does not address is what happens after the import. The format specifies how to describe a metric. It does not specify how to govern or execute it."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "csa4a8a051d4de46d7"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "What \"Semantic Layer Governance\" Actually Means",
+          "_metadata": {
+            "uid": "csc8d971f9eaf75060"
+          },
+          "section_id": "what-semantic-layer-governance-actually-means"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "3e3e3355e0a44fcb8d6cf5d64414c0d0",
+            "children": [
+              {
+                "type": "p",
+                "uid": "ffecb9701aa74113b6d3199ef914e0ba",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Semantic layer governance is a runtime enforcement concern. A governed semantic layer ensures that when a user queries a metric through any connected tool, the query executes the correct access controls, correct business logic, and correct data filters applied for that user at that exact moment and context."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "b11cd33f01a34b9488d65ac349902d74",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Governance covers row-level and column-level security enforced at query time. It covers fiscal calendar logic calculated consistently whether the consumer is a Power BI dashboard, a Tableau sheet, or an AI agent. It covers the audit trail that records who accessed what data, when, and through which tool."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "5b7004e837994e59b32cd1df11bd056f",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The key distinction: governance is active and enforced, portability is passive and descriptive. A format standard describes a metric, governance ensures that metric behaves correctly everywhere it is used."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "csf5dde89153f7ef80"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "Why Portable Does Not Mean Governed",
+          "_metadata": {
+            "uid": "csdf114dffbd1a7775"
+          },
+          "section_id": "why-portable-does-not-mean-governed"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "55a39989e0874d6f84f02a6133056adb",
+            "children": [
+              {
+                "type": "p",
+                "uid": "9f053d6b46dd4205858a751425196cac",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "If you export your revenue metric definition via OSI and import it into a BI tool that supports the format, does that BI tool automatically apply your row-level security rules?"
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "44a76ee9e66b4e20bcab66c601b705ba",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "OSI defines how to describe the metric. It does not define how each consuming tool must enforce access controls on it. A tool that imports an OSI-formatted semantic model can apply its own security model, or none at all. The metric definition travels, the governance policy does not travel with it."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "e8fdffbb58564a3883a76b89a42b4754",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The same applies to fiscal calendars, multi-currency logic, and conditional calculations. A YAML file can describe that a metric uses a fiscal calendar offset. Whether each consuming tool calculates that offset correctly is a function of that tool's implementation, not the format standard."
+                  }
+                ]
+              },
+              {
+                "type": "table",
+                "uid": "4d6a4ebfd023453293a1e93496817901",
+                "attrs": {
+                  "rows": 7,
+                  "cols": 3,
+                  "colWidths": [
+                    100,
+                    100,
+                    100
+                  ]
+                },
+                "children": [
+                  {
+                    "type": "tr",
+                    "uid": "45b29db830b24b1684cd3e812e4b12ed",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "td",
+                        "uid": "4d4c6f5560bc4862a6770f9c953ffc76",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "f3787d41da154695bc79bd720faaa01a",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Attribute"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "06c199d5c51e48c6951c2199a3c7aa79",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "82070407a62048a3a68ccb42bf7d839c",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Portability (OSI format)"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "163c63cf54914ef084b0b67732a5e82b",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "598c0b43eae145f9bf9c3f9ea82d1b2b",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Governance (runtime enforcement)"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "tr",
+                    "uid": "92579d5a1f974a0a9b8bd7d94bb0cbde",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "td",
+                        "uid": "04053e6be21f47829bc0052b67873341",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "9413362af08d45fc87dc80f11e899cfc",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Metric definition exchange"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "7c91c1ecd044403d8ccf2dcf3d1fb846",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "9f2ab51c49b04ff0870feefa8d37dfa4",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Yes — standardized YAML/JSON format"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "597ad79f861a4fd488a6c226aa860e0c",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "c751d12b793e4df4a8ba56d93fd70905",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Not a format concern"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "tr",
+                    "uid": "7eef132956184362bb281b9fee66dacf",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "td",
+                        "uid": "c39f83230b9b4607a167cc98a62da1c7",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "ba8889eb3f51485e9b611f2a4f3a056b",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Row-level security enforcement"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "19d88da67fe141cea1c755cd0672a48d",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "dbac94254f7b4694a68438157c255698",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Out of scope for the format spec"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "895724bcd33b437d9ccbf71281d18d92",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "d4a76ab4adbc46348bc2efe8ed39192c",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Enforced at query time"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "tr",
+                    "uid": "19739c60b1df48a99e644317e6378a11",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "td",
+                        "uid": "e4eac4680ed7439ea497991bcc7565f8",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "e14ca78293534350a9874dca31575ede",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Fiscal calendar logic"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "f7013f46b3d2444d8f79573fefc48fa9",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "b5b6e8b10b5d400294e3518c1b88a46d",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Described in the model, not enforced"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "4de7ce1a6fd5445dad2dd4e19dd684af",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "8f27e8296a324ed7ac3cba1477108e47",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Calculated and applied uniformly"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "tr",
+                    "uid": "1ba0500ae8794095aa4edaf857de7257",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "td",
+                        "uid": "ded1502d4f6e4cbf9569381b8c77f0f7",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "03f800f02a6c4446b0cbc0d7f63c9060",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Multi-currency logic"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "ab688de0e13c469d9ed399817ae5ef4d",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "0399c3ad94064b7d9d4eab8b21fb8d4d",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Described in the model, not enforced"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "33ad57eb805f48de885fd60e55fe1e3a",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "b7a1474925634548ae9aab5233178d9b",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Applied per user context at runtime"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "tr",
+                    "uid": "4e28d267c0ab43979a4dce98a3bb5540",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "td",
+                        "uid": "11832eb20c2c45c2bf5ba1c47e7c2917",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "3ec75c0e47844e099d923da61fda4ef8",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Access audit trail"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "6de50a94549a422180b8c014f28247bc",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "cd8d10f85baf4e6bab725e396a7a20bd",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Not specified by the format"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "46e3d337e62b4b138c66c2da5b179ec5",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "3485e4a7cca049f4a5c997452b65ee06",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Full audit log per tool, user, and agent"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "tr",
+                    "uid": "6d15212621ff414587d9cbc775d09c79",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "td",
+                        "uid": "b98a9eacdf4f42d9b8b7146d9cc50ba0",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "661af22e9a47449e8976f02a1f5dec91",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "AI agent governance"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "162a342c0e764861bc9a6d431f2f8e19",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "e54a2b877d3b423eb4fdde3f056975e1",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Not addressed by the format"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "abe96dbd947244a7992acb5173dd7e92",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "ea416bb20dc04a9594991e66bb6bd91b",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Enforced identically for agent queries"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "cd4fc0b0085444609eaf48ae31369566",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Format standards advance interoperability at the definition layer. They do not resolve the execution gap."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs7333a261cb5f06a3"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "Why This Matters When AI Agents Enter the Picture",
+          "_metadata": {
+            "uid": "cs9572c7e1db84d24d"
+          },
+          "section_id": "why-this-matters-when-ai-agents-enter-the-picture"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "6e747271fcf74d76b54dd80c2c7002df",
+            "children": [
+              {
+                "type": "p",
+                "uid": "03df31769b324bd597a7f7c46381783a",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "AI agents raise the governance stakes significantly. When a BI analyst in Power BI queries revenue by region, a misconfigured access control produces a wrong report, which is a potentially costly error. When an AI agent queries the same metric autonomously, processes the result, and surfaces it in a customer-facing recommendation, a governance gap becomes a compliance and liability issue."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "dc5bfe4938f64f90bf9a419b48138c20",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "AI agents do not pause to verify whether their data access is authorized. They execute against whatever semantic layer they are pointed at. If that semantic layer applies governance at the tool level, inconsistently, or not at all, the agent's output reflects that. Consistent, centrally-enforced governance is not optional for agentic analytics, it is the safety model the entire stack depends on."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "a4d1e6ab819d466a87c09125fe8e7425",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Portability standards help AI agents find and read semantic definitions. Governance determines whether those definitions are trustworthy when the agent executes them."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "csa2c8e87b80e00d1a"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "How Strategy Mosaic Enforces Governance at Runtime",
+          "_metadata": {
+            "uid": "cs811a5aa06aba29d2"
+          },
+          "section_id": "how-strategy-mosaic-enforces-governance-at-runtime"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "919b8a0093ac4635b9a452719dc3c615",
+            "children": [
+              {
+                "type": "p",
+                "uid": "5e59692f538e495991dc3704f39ed25d",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Strategy built Mosaic to address governance as a runtime problem, not a format problem. Mosaic connects to 200+ data sources and enforces a single governance policy across every connected BI tool and AI agent simultaneously. Fiscal calendars, multi-currency logic, row-level and column-level security: these are defined once in the semantic layer and applied automatically at query time, regardless of which tool submits the query."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "0dba6044289a4e869e3b6ff7d600229a",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "When an AI agent queries fiscal-quarter revenue by sales territory, Mosaic applies the fiscal calendar offset, the currency conversion for the relevant territory, and the row-level filter for that agent's authorization scope. That logic does not live in the BI tool. It lives in the semantic layer, and it travels with every query."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "6f0b3cd497964447b16370dcafe7a79d",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Mosaic Sentinel, the governance intelligence layer, monitors every data access event in real time. Risk management, audit and compliance, and usage insights modules give data governance teams a complete view of who accessed what, through which tool, and when. That audit trail covers dashboards, reports, human and agentic access alike."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "c01b756a689a4e72a18b07887da77d32",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Format portability and runtime governance can coexist. OSI advancing the interchange standard is a positive development for the ecosystem. But governance is not delivered by the format. It is delivered by the semantic layer that enforces it."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "7234e576390e4d88b4d4d265eadc42df",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The semantic layer ecosystem is maturing, and format standards like OSI reduce real friction in moving metric definitions between tools. But the question enterprises should ask is not \"can my semantic models be exported?\" It is \"are my semantic models enforced consistently everywhere they are consumed?\""
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "7c77dd4311e642adbe79b44f8674b7d1",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Answering that second question requires governance at runtime, not portability at format level."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs66d29c42642b2aa3"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "Frequently Asked Questions",
+          "_metadata": {
+            "uid": "csa333056db557378a"
+          },
+          "section_id": "frequently-asked-questions"
+        }
+      },
+      {
+        "accordion": {
+          "accordion_item": [
+            {
+              "title": "What is the difference between semantic layer governance and portability?",
+              "_metadata": {
+                "uid": "cs7bf928e2a0a1cab8"
+              },
+              "content": {
+                "type": "doc",
+                "attrs": {},
+                "uid": "678ab5d5a5e6490c9469adb9f6f8d05e",
+                "children": [
+                  {
+                    "type": "p",
+                    "attrs": {},
+                    "uid": "63075e85677d44608d082804ce4952a0",
+                    "children": [
+                      {
+                        "text": "Portability refers to the ability to express and exchange semantic model definitions in a format that multiple tools can read and write. Governance refers to the enforcement of access controls, business logic, and audit requirements at query time. OSI provides portability of format. Strategy Mosaic provides runtime governance, enforcing the same security, fiscal logic, and access rules across every connected tool and AI agent automatically."
+                      }
+                    ]
+                  }
+                ],
+                "_version": 1
+              }
+            },
+            {
+              "title": "Does the Open Semantic Interchange (OSI) handle data governance?",
+              "_metadata": {
+                "uid": "cs1eab036daab3dd28"
+              },
+              "content": {
+                "type": "doc",
+                "attrs": {},
+                "uid": "42ff46cf069747aa92f59ed39a472c18",
+                "children": [
+                  {
+                    "type": "p",
+                    "attrs": {},
+                    "uid": "72f92ba4012d4809b69497831dfc4f06",
+                    "children": [
+                      {
+                        "text": "OSI is a format standard that defines how semantic model definitions are described and exchanged between tools. It does not define how each consuming tool must enforce row-level security, apply fiscal calendar logic, or audit data access. Governance remains a function of the semantic layer executing the queries, not the format standard moving the definitions."
+                      }
+                    ]
+                  }
+                ],
+                "_version": 1
+              }
+            },
+            {
+              "title": "Why does governance matter more than portability for enterprise AI analytics?",
+              "_metadata": {
+                "uid": "cse08ffd466f17bc37"
+              },
+              "content": {
+                "type": "doc",
+                "attrs": {},
+                "uid": "9e2beb8dfd5d4b9ba2a56c284d23513a",
+                "children": [
+                  {
+                    "type": "p",
+                    "attrs": {},
+                    "uid": "88d4ec4c2e19454d9cb32f0ddb0c8ef7",
+                    "children": [
+                      {
+                        "text": "AI agents execute autonomously against your data. If the semantic layer they query does not enforce governance consistently, the agent's output can violate access controls, apply incorrect business logic, or expose unauthorized data. Portability helps agents locate and read semantic definitions. Governance determines whether those definitions are trustworthy at execution time. For agentic analytics, governance is the safety model; portability is infrastructure."
+                      }
+                    ]
+                  }
+                ],
+                "_version": 1
+              }
+            },
+            {
+              "title": "How does Strategy Mosaic enforce governance across different BI tools?",
+              "_metadata": {
+                "uid": "cs0ce05266df4cea2a"
+              },
+              "content": {
+                "type": "doc",
+                "attrs": {},
+                "uid": "e774d5808dd045ec9e4ebbb74e8e31ab",
+                "children": [
+                  {
+                    "type": "p",
+                    "attrs": {},
+                    "uid": "ba7960e9516f4152bc2ca3734fd7d122",
+                    "children": [
+                      {
+                        "text": "Strategy Mosaic centralizes governance enforcement at the semantic layer. Row-level and column-level security, fiscal calendar calculations, and multi-currency logic are defined once and applied automatically to every query, whether it comes from Power BI, Tableau, Excel, or an AI agent. Mosaic Sentinel provides real-time monitoring, risk detection, and full audit trails across all connected tools and agents."
+                      }
+                    ]
+                  }
+                ],
+                "_version": 1
+              }
+            }
+          ],
+          "_metadata": {
+            "uid": "cs59816169e50510bd"
+          },
+          "accordion_options": "closed"
+        }
+      }
+    ],
+    "cta_section": [],
+    "related_posts": [],
+    "seo": {
+      "meta_title": "Semantic Layer Governance vs. Portability Explained",
+      "meta_description": "Semantic layer portability moves metric definitions. Governance enforces them. Learn why enterprises need both—and how Strategy delivers governed metrics at...",
+      "keywords": "semantic layer governance, semantic layer portability, governed metrics, universal semantic layer, enterprise semantic layer",
+      "social_thumbnail_override": null,
+      "enable_search_indexing": true
+    },
+    "page_properties": {
+      "navigation_title": "",
+      "header_color": null,
+      "hide_header_nav": false,
+      "hide_header_cta": false,
+      "hide_footer": false,
+      "disable_global_promo_banner": false,
+      "hide_auto_expert": false,
+      "sfid": "",
+      "marketo_id": "",
+      "cta_section": []
+    },
+    "resource_data": {
+      "date": "2026-06-12T00:00:00.000Z",
+      "type": "Blog",
+      "title": "Semantic Layer Governance vs. Portability: Why Moving Your Metrics Isn't the Same as Governing Them",
+      "description": "Semantic layer portability moves metric definitions. Governance enforces them. Learn why enterprises need both—and how Strategy delivers governed metrics at...",
+      "featured": false
+    },
+    "tags": [],
+    "publish_date": "2026-06-12T00:00:00.000Z",
+    "author": [
+      {
+        "uid": "blt39093ef8599fa669",
+        "_content_type_uid": "blog_author"
+      }
+    ]
+  },
+  "_mapping_warnings": [
+    "No author name or publish date found in the document.",
+    "No hero image or video found in the document.",
+    "No explicit meta description found; one was written based on content.",
+    "No CTA boxes with URLs or action-oriented language found; cta_list set to [].",
+    "The Quick Answer block was not wrapped in [BOX_START]/[BOX_END] tags but was identified by the [BOLD] 'Quick Answer' label followed by a paragraph near the top.",
+    "OSI launch date referenced as June 2026 — this may be a future date or placeholder; human review recommended.",
+    "The closing two paragraphs after the last H2 body section were placed within the 'How Strategy Mosaic Enforces Governance at Runtime' section as they follow that heading with no new H2 separator.",
+    "publishDate was not found in the document — defaulted to pipeline run date (2026-06-11T00:00:00.000Z). Confirm before publishing.",
+    "Meta description was 168 chars (over 160 limit) — truncated to 160. Original: \"Semantic layer portability moves metric definitions. Governance enforces them. Learn why enterprises need both—and how Strategy delivers governed metrics at query time.\""
+  ]
+}

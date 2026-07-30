@@ -1,0 +1,294 @@
+{
+  "title": "Are We Having Fun Yet?",
+  "subtitle": "How AI Has Created a New Kind of Work",
+  "slug": "are-we-having-fun-yet-how-ai-has-created-a-new-kind-of-work",
+  "url": "/are-we-having-fun-yet-how-ai-has-created-a-new-kind-of-work",
+  "author": "Juliana Schoettler",
+  "authorBio": "",
+  "publishDate": "2026-07-06T00:00:00.000Z",
+  "seo": {
+    "metaTitle": "Are We Having Fun Yet? How AI Created a New Kind of Work",
+    "metaDescription": "AI anxiety hits when purpose is unclear. Learn how Strategy helps enterprise teams define AI use cases and unlock real business value.",
+    "metaDescriptionFromDoc": false,
+    "targetKeywords": [
+      "enterprise AI analytics",
+      "AI use case definition",
+      "BI decision-making",
+      "AI business context",
+      "analytics strategy"
+    ],
+    "metaDescriptionAlternatives": [
+      "Discover why AI confusion stems from missing business context—and how Strategy helps BI leaders define purpose and drive results.",
+      "AI works best when you know what it's for. See how Strategy guides enterprise teams from AI anxiety to confident, outcome-driven use cases."
+    ],
+    "primaryKeywords": [
+      "enterprise AI analytics",
+      "AI use case definition",
+      "BI decision-making",
+      "AI business context",
+      "analytics strategy"
+    ],
+    "secondaryKeywords": [
+      "AI adoption for enterprise",
+      "AI integration challenges",
+      "business intelligence leaders",
+      "AI-powered sales intelligence",
+      "defining AI purpose",
+      "AI iteration and experimentation",
+      "analytics governance",
+      "enterprise data strategy",
+      "AI ROI for business",
+      "semantic layer for AI",
+      "BI team alignment",
+      "AI anxiety in the workplace"
+    ],
+    "longTailKeywords": [
+      "why does AI give wrong answers in enterprise analytics",
+      "how to define an AI use case for your business",
+      "best way to get value from AI in enterprise BI",
+      "how to reduce AI anxiety in enterprise teams",
+      "why AI tools fail without business context",
+      "how enterprise analytics leaders should evaluate AI",
+      "what should AI be used for in business intelligence",
+      "how to build an AI-powered analytics tool from scratch",
+      "why enterprise AI projects fail to deliver value",
+      "how to integrate AI meaningfully into business processes",
+      "best practices for AI experimentation in enterprise teams",
+      "how to align AI initiatives with business outcomes"
+    ],
+    "brandedKeywords": [
+      "Strategy",
+      "Strategy Mosaic",
+      "Strategy AI analytics",
+      "Strategy enterprise BI",
+      "Strategy semantic layer"
+    ]
+  },
+  "quickAnswer": [
+    {
+      "headline": "AI anxiety stems from a lack of clarity about purpose and business context.",
+      "body": "Without a clear use case or proper business context, AI tools produce answers that may seem wrong — but they simply don't know what's right for you."
+    },
+    {
+      "headline": "AI has created a new kind of work: figuring out what AI should work for.",
+      "body": "Rather than eliminating tedium, AI has introduced the challenge of defining its purpose and integrating it meaningfully into business processes."
+    },
+    {
+      "headline": "Embracing iteration and letting go of fixed outcomes unlocks AI's true potential.",
+      "body": "Teams that allow themselves to experiment, reframe failure, and stay open to unexpected possibilities get the most value from AI development."
+    }
+  ],
+  "quickAnswerFromDoc": false,
+  "heroMedia": null,
+  "body": [
+    {
+      "type": "section",
+      "heading": "",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "I was chatting with one of the engineers who had been on the AI Innovation team I ran at Strategy, and I asked what their favorite project was so far. They touched on a few things but eventually settled on an AI-powered sales intelligence tool our team built. They talked about how exciting it was to get to build something from the ground up, and how all the team members were able to bring their ideas and build something that ultimately was impactful to our organization."
+        },
+        {
+          "type": "paragraph",
+          "text": "It's telling to me the contrast that I see, then, in meetings with customers. The stress, frustration, and confusion that underlies those discussions as they struggle to figure out how to use AI or where it can provide value. The only thing they know for certain is that they have to do it."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Be Clear About What You're Evaluating",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "What I have seen at the core of the AI anxiety our industry is too afraid to name is not knowing how to answer the question: "
+            },
+            {
+              "text": "why isn't our AI working?",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The answer is one cause with two common symptoms."
+        },
+        {
+          "type": "paragraph",
+          "text": "The cause: lack of clarity. The symptoms: a tool built without clear purpose or a tool built with purpose but on a fragmented foundation that can't give clear answers."
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "I mentioned this in my "
+            },
+            {
+              "text": "last post",
+              "url": "https://www.strategy.com/software/blog/if-ai-freed-all-your-time-what-would-you-build"
+            },
+            {
+              "text": ", but if you don't have a clear use case, or if you're building an AI tool to satisfy a mandate instead of driving business value, whether the tool works becomes irrelevant. It's not that the tool doesn't work. It's that the tool doesn't work "
+            },
+            {
+              "text": "for you",
+              "italic": true
+            },
+            {
+              "text": "."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "The second, while easier to name, can often feel more intimidating (though in my experience, this is often the more manageable symptom of the two). The source is still a lack of clarity, but it's that the AI solution lacks clarity about your business. If a tool doesn't understand what signals in your data drive your business or what things you prioritize, it will infer those variables and produce an answer that may seem wrong. It's important to understand, though, that the answer is not necessarily wrong, the AI just doesn't know that it's wrong "
+            },
+            {
+              "text": "for you",
+              "italic": true
+            },
+            {
+              "text": ". (Variables, not coincidentally, Mosaic can explain to your AI solution to ensure that the answer is both right, and right for your business.)"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "As the industry and technologies move at an ever-increasing pace, the last thing that you want (or more accurately, can afford), is to be evaluating whether you have the right use case, or whether the tool has the right context about your business so that you're evaluating the tool and nothing else. "
+            },
+            {
+              "text": "This post",
+              "url": "https://www.strategy.com/software/blog/stop-overengineering-problems-you-dont-have"
+            },
+            {
+              "text": " can give you the framework for the first, and Mosaic can ensure your business context is available to any AI tool for the latter."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Beyond the AI Hype Cycle",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "The way AI was first positioned as tools like ChatGPT stepped forward into the wider public consciousness was that it was a means to unlock our true potential and productivity. It would take away the work we didn't want to do and free us up to focus on the things that we enjoy. A few years later, what I see instead is a new kind of work. The tedium of how to get AI to work, but more importantly, figuring out what it should work "
+            },
+            {
+              "text": "for",
+              "italic": true
+            },
+            {
+              "text": "."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "During my time working on internal AI enablement and product development, I've observed the varying ways in which people interact with AI. There are still many I know in my personal life who are skeptical. Others use it while setting clear boundaries on the things they know they don't want AI to do or know. A few have fully embraced AI, giving it even unnecessary tasks that, in my opinion, a search engine could handle just as easily if not better."
+        },
+        {
+          "type": "paragraph",
+          "text": "My interactions with AI have evolved over time, and I find that it works best for me when I use it as a way to brainstorm and unpack my thoughts and ideas. Almost like unzipping a file and looking more clearly at the contents of my brain."
+        },
+        {
+          "type": "paragraph",
+          "text": "What's recently stood out to me, though, are the ways in which people respond to the AI generated output that I share with them. I like to send people documents or decks outlining ideas that I have. To my mind, this is a menu of places that we can go, and potential steps that inform how we execute a larger overall project. What I've found, though, is that people take what is in the document verbatim, entering comments with feedback or reacting as if what I'm proposing is final stage."
+        },
+        {
+          "type": "paragraph",
+          "text": "In their defense, a ten plus page document is arguably not the easiest entry point into a discussion for most people. For me, though, I'm less attached to the specifics of the content but more to what we can grab and grow, discuss and bring to life outside of the spaces where LLMs live. What some might call the real world."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "The Cost of Failure Anxiety",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "I'm reminded of my time running the team that developed our Support chatbot, Auto Expert. When working on Auto Expert, I found that the developers were anxious that what we were doing was going to fail. They wanted to be able to know the final outcome from the beginning. But the reality is that most products, or at least any good product, like any truly self-realized person, exist in a place where there is no end state. It's a constant state of trying, iterating and growing what existed before to either an enhanced version of what already exists or something new entirely."
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "There was a moment working on the project the AI Innovation engineer mentioned that we realized that the project was going to cost over $60,000 per month to run. I remember the way the air went out of the room and how the team suddenly saw the project as a failure. But I reframed the problem for the team: it wasn't a failure; it was an opportunity to see where we could further enhance the tool we were working on to discover what we "
+            },
+            {
+              "text": "could ",
+              "italic": true
+            },
+            {
+              "text": "build instead of attaching ourselves to an idea of what we "
+            },
+            {
+              "text": "should ",
+              "italic": true
+            },
+            {
+              "text": "build."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "I strongly believe that there is an opportunity in this process of AI development, as we test the limits of what AI can do, to have fun. Instead of trying to shove AI into boxes that support how things have always been, there is the possibility to use AI to do new things, things that we can't even imagine yet. But, like my team, first we must allow ourselves to let go of what we believe AI should be and open ourselves to the possibility of what could be. And maybe have fun doing it."
+        }
+      ]
+    }
+  ],
+  "faq": [],
+  "postFaqContent": [],
+  "suggestedTaxonomyTerms": [
+    "Enterprise AI",
+    "AI Strategy",
+    "AI Implementation",
+    "Innovation",
+    "Business Intelligence"
+  ],
+  "cta_list": [
+    {
+      "headline": "See what possibilities AI can unlock for you",
+      "body": "See what possibilities AI can unlock for you with Strategy",
+      "buttonText": "Get Started with Strategy",
+      "buttonUrl": ""
+    }
+  ],
+  "internalLinks": [
+    "/software/blog/if-ai-freed-all-your-time-what-would-you-build",
+    "/software/blog/stop-overengineering-problems-you-dont-have"
+  ],
+  "externalLinks": [
+    "https://www.strategy.com/software/blog/if-ai-freed-all-your-time-what-would-you-build",
+    "https://www.strategy.com/software/blog/stop-overengineering-problems-you-dont-have"
+  ],
+  "validationWarnings": [
+    "No author name found in the document — author field left empty.",
+    "No publish date found in the document — publishDate left empty.",
+    "No hero image or media found in the document.",
+    "CTA at end of document ('CTA: See what possibilities AI can unlock for you with Strategy') has no button URL — buttonUrl left empty. Needs human review to add destination link.",
+    "Title and subtitle are presented as two consecutive [BOLD] lines at the top; interpreted the first as the main title and the second as the subtitle.",
+    "The [BOLD] heading lines ('Be Clear About What You're Evaluating', 'Beyond the AI Hype Cycle', 'The Cost of Failure Anxiety') were treated as H2 section headings based on document structure, as no explicit [H2] markers were present.",
+    "No FAQ section detected in the document.",
+    "publishDate was not found in the document — defaulted to pipeline run date (2026-07-06T00:00:00.000Z). Confirm before publishing.",
+    "No Quick Answer box found in document — 3 bullets synthesized from article content. Review before publishing and edit in the Contentstack editor if needed."
+  ]
+}

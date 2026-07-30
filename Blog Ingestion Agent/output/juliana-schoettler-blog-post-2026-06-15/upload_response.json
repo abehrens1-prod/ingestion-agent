@@ -1,0 +1,816 @@
+{
+  "notice": "Entry created successfully.",
+  "entry": {
+    "title": "FINAL -- If AI Freed All Your Time, What Would You Build?",
+    "url": "/software/blog/if-ai-freed-all-your-time-what-would-you-build",
+    "lead_paragraph": {
+      "type": "doc",
+      "attrs": {},
+      "uid": "bbbca2e1fdae406aa4c02c095088c91b",
+      "children": [
+        {
+          "type": "p",
+          "uid": "3bafd5c299a5499fb558b9928dd1ff7a",
+          "attrs": {},
+          "children": [
+            {
+              "text": "Quick Summary",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "ul",
+          "uid": "d34a2f2aedea4154aea31f8ff4ff0aaa",
+          "attrs": {},
+          "children": [
+            {
+              "type": "li",
+              "uid": "a45fe5a6996241218557e77d0d132c64",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "p",
+                  "uid": "2274b51ea13746d38ae5fb42ae0cf4d1",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "text": "Most organizations deploy AI to accelerate existing workflows rather than asking what they would build if capacity were no longer a constraint."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "li",
+              "uid": "ca6f3107cdb94375948c7572ce60acb7",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "p",
+                  "uid": "2024e9beb5004acabe1e799f6827ae36",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "text": "Before choosing AI tools, teams must first define their purpose: what outcome exists because of their work, and what they would build from scratch with unlimited resources."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "li",
+              "uid": "0c65d99a23d64691b2872dafd4e3a12d",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "p",
+                  "uid": "4f3411cdd2614a4e85d497999c09ee6e",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "text": "Organizations that know what they are trying to build before deploying AI see compounding value; those without clarity generate compounding activity that looks like progress but isn't."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "_version": 1
+    },
+    "content": [
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "15a549cfe695421eb951a668d48acce4",
+            "children": [
+              {
+                "type": "p",
+                "uid": "3ae70c2d8c744b00acdbc7f0a24ce4f9",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "I've noticed in conversations with customers as we discuss their AI requirements that there is uncertainty about what they're trying to do. They have an AI mandate from leadership, and so they start focusing on what tools or features will satisfy that requirement. But when they describe the desired business outcome, they are more often surfacing a different need entirely."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "a29b5f4d8222498fa4376ef7be990a7f",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The problem with accommodating this approach, as I've explained to our internal teams, is that, even if you build the greatest AI tool in the world, if there is no clear use case and it doesn't provide value, it may as well not work at all."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "421ad0db6e3f4d3b8ad7ed38ba681689",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "To drill in on the actual ask, not what features customers think they need, but the true business pain that they're trying to address, I've started asking a question at the end of those conversations, and it produces the same reaction almost every time."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "5de28339b6434d2e82f3b2e611f50ddb",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "\"AI has freed up all of your time and unlocked unlimited capacity for you. What do you want to build?\""
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "c8ff8da9af7d4194b6becb87b714f8d3",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Most people pause."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "94275d13a6704dc3af4c7859801bb70c",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Not because it's a hard question but because it's one most people have never been given permission to answer."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "8f29e93f2d894e6f8a640e52c0e36202",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The framing is AI but the question is older. It's the question of purpose: not what are you doing, but what are you doing it for? Not what's consuming your capacity, but what would you build if capacity weren't the constraint?"
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "340948a47a4041a48935cfe43e771569",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "[Please insert “check out last post” with link here 😀]",
+                    "bold": true
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs8ccee93513bc4a01"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "The Clarity Work That Comes Before the Tools",
+          "_metadata": {
+            "uid": "csa474fac96e39cf88"
+          },
+          "section_id": "the-clarity-work-that-comes-before-the-tools"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "a5b3de3b3e064ac4a4ed842fa3b96b94",
+            "children": [
+              {
+                "type": "p",
+                "uid": "a17ccba12c714ffab5d586b2decce877",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "In "
+                  },
+                  {
+                    "type": "a",
+                    "uid": "48a4a155e8bf4184abcd39d447e220bf",
+                    "attrs": {
+                      "url": "https://www.strategy.com/software/blog/stop-overengineering-problems-you-dont-have",
+                      "target": "_blank"
+                    },
+                    "children": [
+                      {
+                        "text": "Stop Overengineering Problems You Don't Have"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ", I wrote about the three questions every organization should be able to answer before any AI conversation starts: what the business does, how your function supports that, and what you need to know to do it well. Those questions are about aligning AI to a direction you already have."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "bca6234c839d440bb91c3f24ceae498b",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "This post is about finding that direction. The two conversations belong in sequence. You can't align to a direction you haven't named, and you can't name it if you've never sat down to work out what you're actually trying to build."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs2617fa7bad75e9c4"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "Why the Answer Doesn't Come Easily",
+          "_metadata": {
+            "uid": "csa301057ee3fd66ec"
+          },
+          "section_id": "why-the-answer-doesn-t-come-easily"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "acc60506591e4089995b556afaf8e24f",
+            "children": [
+              {
+                "type": "p",
+                "uid": "8a18411a8c16446dba6ecfe2638c865e",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The pause, when it comes, is rarely about not knowing. It's about three things that are usually in the way."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "1ea7b0b87d07454a9b2f1c406a200fb8",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "1. The work that's already there",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "2a2c5b967b3e47aca036ab56b2bc9850",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Think about how a new team member gets onboarded. On day one, they inherit the existing workflows: the reports that go out Monday morning, the standing syncs, the processes that have always run the way they run. It takes months before anyone asks what they'd change, or what they'd build differently if they were starting from scratch."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "ba7b2a34db8d4692a4f70d6407db2e05",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Capacity works the same way. When you don't know what you're building toward, you default to what's in front of you. AI accelerates this before it challenges it. The first thing most organizations reach for is making existing workflows faster. Faster execution of the wrong work is just a more efficient way to not build the thing you actually wanted to build."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "c3c4a95762e44f1b8f6055de0ec49e9e",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "2. The answer you think you're supposed to give",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "7a4716a1c9dd49c3ae0745baa4135225",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "When asked what they'd build with unlimited capacity, the first answer is almost always a slightly better version of what's already happening. More output. Faster delivery. Less friction in the current process."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "ef5e1cf1852247638a354bc8efd98198",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "That's not a vision; that's inertia with more resources. The question isn't what you'd optimize, it's what you'd build, from scratch, with full knowledge of the problem you exist to solve."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "de3853e5567b477488b79dcf3e568cd2",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "a",
+                    "uid": "03accd433c35485f86ddf9d8ee6d5c87",
+                    "attrs": {
+                      "url": "https://www.deloitte.com/us/en/what-we-do/capabilities/applied-artificial-intelligence/content/state-of-ai-in-the-enterprise.html?id=us:2ps:3gl:aisgm26:awa:CONS:em:K0218784:012626:kwd-2463983720143:192298133019:794247818303::&gclsrc=aw.ds&gad_source=1&gad_campaignid=23269751515&gbraid=0AAAAADenGPDiLRDQVzWJ8pf7wSFWzg5-C&gclid=EAIaIQobChMIjtnry973lAMVJVtHAR2XDQnIEAAYASAAEgIc4PD_BwE",
+                      "target": "_blank"
+                    },
+                    "children": [
+                      {
+                        "text": "Deloitte's 2026 State of AI in the Enterprise report found that only a third of organizations are actually reimagining their businesses through AI"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ". The other two thirds are either redesigning existing processes or using AI at a surface level with little change to how they work."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "f033032c61bf4f75977bfebdb69fc142",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The people who have a real answer to the build question tend to have one thing in common: they were asked it early enough to think about it before the constraints arrived. The ones who haven't been asked it are running someone else's answer at high speed."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "6d53da1f813140ea9aa5d32ce03556ce",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "3. The assumption that it has to be practical",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "698fe447ebf84b6889db35131fa9f853",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The answer doesn't have to fit the current org structure, the current tech stack, or this year's budget cycle. Not at this stage."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "616a1b6ace7440cc892e360f96b4450c",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The point is to find the real answer before the constraints get applied, because they will be applied regardless. An organization that knows what it's trying to build navigates those constraints differently than one that doesn't. What you'd build if resources weren't the constraint is diagnostic. It tells you exactly where the gap is between what you're doing and what you're trying to do."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs176dd59b95f3c4ff"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "A Framework for Getting to the Real Answer",
+          "_metadata": {
+            "uid": "cs7e3f65d6e165b4ea"
+          },
+          "section_id": "a-framework-for-getting-to-the-real-answer"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "c60ec548c43b4142b6be54964256f7c5",
+            "children": [
+              {
+                "type": "p",
+                "uid": "47aa0b96186a432f857dc3929551a465",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "There is always an answer past the pause, but it may not be immediate, and it may not be easy. You can get past the pause by taking the below steps to help move your thinking towards clarity. Even if you don't get fully there on the first try, each step will move you closer to the answer you need, and, more importantly, an answer you can act on."
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "uid": "a22f3ea8daa24ebf962cd100454e43b2",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "li",
+                    "uid": "6a0aa6c0b9704ae48e9286716e6a38da",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "fbb8dd4634a547a186d29eb6a5f8d282",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Start with inventory, not aspiration. What is your capacity actually going to right now? Which of those things are genuinely in service of something you care about, and which are habit? If you could eliminate (not delegate, not automate, eliminate) three things from your week, what would they be? That answer tells you more about your real priorities than any planning document."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "1cefb202ac3646578f94f41157b50dc8",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "858db6e413464dccb7d51b8a312df26c",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Name what you're actually for. What outcome exists in the world because of your work that wouldn't exist without it? Who is better off, and how? If you can't answer that in one sentence without consulting a document, the answer isn't clear enough yet. AI deployed on top of unclear purpose doesn't clarify it, it amplifies it."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "177bc63e25044a8fbe02eef25987ca38",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "4e45ad69da5b4542bc97651192fdcf79",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Ask the real question. If you had unlimited capacity, time, tools, people, budget, what would you build? Not what would you do with your current role and slightly more time. What problem would you actually solve? What would be different in your organization, your industry, or the world because you had the capacity to address it?"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "f126dff003a94fa2aa530fcaa59b8a36",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The first answer is usually the polite one. The second is closer. The one that arrives sometime after that, the one that feels slightly too ambitious or slightly too honest, is usually the right one."
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "uid": "31015e33a70943e8b956551a79846ff2",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "li",
+                    "uid": "bc9a8bfecabe437597b3f93586029c56",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "29aab2c4210941509dd066ce5dc3c4d7",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Stress-test it. Can you describe what you want to build in thirty seconds: what it is, who it's for, and why it matters? If not, the idea isn't clear enough yet. AI in service of an answer you can state in thirty seconds produces something. The same tools in service of a vague direction produce activity."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "csbf91cf9f081695cc"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "Why the AI Tool Conversation Isn't a Conversation of Purpose",
+          "_metadata": {
+            "uid": "cs8d05e222cbb3da2c"
+          },
+          "section_id": "why-the-ai-tool-conversation-isn-t-a-conversation-of-purpose"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "a6c7f8d2dc0147cc8c3cc2c0ecad07d3",
+            "children": [
+              {
+                "type": "p",
+                "uid": "4d037fe6081145f597edf7f472706ce2",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "a",
+                    "uid": "61d5ed694d7346a1a00feabbfd42623b",
+                    "attrs": {
+                      "url": "https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights/past-forward-the-modern-rethinking-of-marketings-core",
+                      "target": "_blank"
+                    },
+                    "children": [
+                      {
+                        "text": "McKinsey's research found that 94% of European organizations report not seeing significant value from their AI investments."
+                      }
+                    ]
+                  },
+                  {
+                    "text": " Most applications are accelerating existing work rather than enabling anything new. The enterprise AI conversation is almost entirely about tools: which models, which platforms, which infrastructure. Those are real questions. They're also downstream of a question almost nobody is asking in the same room."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "c4e9d3e850af45188e95003897acd309",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The organizations deploying AI effectively are not the ones with the best tools. They're the ones that knew what they were trying to build before they started. The clarity came first. The tools followed."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "cf741db2ddce45888c927f9bc683be5b",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "As I wrote in "
+                  },
+                  {
+                    "type": "a",
+                    "uid": "ad5fbe3c3d914f39b4b946de8165a2de",
+                    "attrs": {
+                      "url": "https://www.strategy.com/software/blog/more-ai-isn-t-the-answer-efficient-ai-is",
+                      "target": "_blank"
+                    },
+                    "children": [
+                      {
+                        "text": "More AI Isn't the Answer. Efficient AI Is."
+                      }
+                    ]
+                  },
+                  {
+                    "text": ", the cost of unclear purpose isn't just philosophical. It accumulates as validation overhead. Every AI output that requires a human to check it before anyone can act on it is a tax on the clarity you didn't do earlier. That overhead doesn't disappear. It just moves somewhere less visible."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "82c0f67d56bf403bad26c8a4a297864a",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The organizations that can answer the build question, specifically and consistently, across every team, have one thing in common. When they ask their data a question, they get the same answer regardless of which tool is asking. That's not accidental. It's what governed definitions make possible. Strategy Mosaic is the infrastructure layer that makes organizational clarity operational so the thing you decided to build doesn't get lost in translation between the people building it."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "8c3c03f4cd6c48a5b5009b95c3b1adcb",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The question is not really about AI. It's about what you believe is worth building.",
+                    "bold": true
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs2cad9fec71c78bda"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "Frequently Asked Questions",
+          "_metadata": {
+            "uid": "cs16f5c4dc630fd352"
+          },
+          "section_id": "frequently-asked-questions"
+        }
+      },
+      {
+        "accordion": {
+          "accordion_item": [
+            {
+              "title": "What does it mean to have an AI strategy without a clear vision?",
+              "_metadata": {
+                "uid": "cs959b3749833a9200"
+              },
+              "content": {
+                "type": "doc",
+                "attrs": {},
+                "uid": "0437d661365e46da89e4598bbed89faa",
+                "children": [
+                  {
+                    "type": "p",
+                    "attrs": {},
+                    "uid": "fb5ecb7c003742ada4cbe4685a7e6e68",
+                    "children": [
+                      {
+                        "text": "It means the tools are deployed but the direction isn't defined. Most organizations investing in enterprise AI can describe their technology stack but can't answer what they're ultimately trying to build with it. The gap between AI investment and organizational clarity is where most of the value loss happens. Deloitte's 2026 research confirms it: only a third of organizations are actually reimagining their businesses through AI. The rest are optimizing what already exists."
+                      }
+                    ]
+                  }
+                ],
+                "_version": 1
+              }
+            },
+            {
+              "title": "How do you figure out what to build with AI if you don't know where to start?",
+              "_metadata": {
+                "uid": "cscb4e3f6d9fcbe01d"
+              },
+              "content": {
+                "type": "doc",
+                "attrs": {},
+                "uid": "5ce326ab1593407c84af21f07a56738a",
+                "children": [
+                  {
+                    "type": "p",
+                    "attrs": {},
+                    "uid": "ba01794ab7fa4a8b82c40722d29e3885",
+                    "children": [
+                      {
+                        "text": "Start with inventory rather than aspiration. Before asking what AI should do, ask what your capacity is currently going to and which of those things are in service of something you actually care about. The gap between what you're doing and what you'd build if you had freedom to choose is the answer."
+                      }
+                    ]
+                  }
+                ],
+                "_version": 1
+              }
+            },
+            {
+              "title": "Why do most people struggle to answer the question 'what would you build with unlimited capacity'?",
+              "_metadata": {
+                "uid": "cs7c670bb5a34680b2"
+              },
+              "content": {
+                "type": "doc",
+                "attrs": {},
+                "uid": "a39457e8aa2a42ee864291c169c5c0f3",
+                "children": [
+                  {
+                    "type": "p",
+                    "attrs": {},
+                    "uid": "c820426c21284016a0f013e51982bcf4",
+                    "children": [
+                      {
+                        "text": "Because the question has never been professionally sanctioned before. Most organizations ask people to execute on a direction that was already set, not to define what that direction should be. The first answer is almost always an optimized version of the status quo: more of what's already happening, faster. The real answer, which takes longer to surface, describes a problem the person actually wants to solve, not just a workflow they want to improve."
+                      }
+                    ]
+                  }
+                ],
+                "_version": 1
+              }
+            },
+            {
+              "title": "What is the relationship between AI tools and organizational clarity?",
+              "_metadata": {
+                "uid": "cs7dc2988d1c472e62"
+              },
+              "content": {
+                "type": "doc",
+                "attrs": {},
+                "uid": "d96be037a0e449d48291df5699910d61",
+                "children": [
+                  {
+                    "type": "p",
+                    "attrs": {},
+                    "uid": "be1e8a401c9847a0a4c1d635b8788fbe",
+                    "children": [
+                      {
+                        "text": "AI tools accelerate whatever clarity, or lack of clarity, already exists in the organization they're deployed into. An organization that knows what it's building gets compounding value from AI. An organization that doesn't gets compounding activity that looks like progress from a distance. Strategy Mosaic, Strategy Software's universal semantic layer, is built on this premise: governed definitions and consistent metrics give AI tools a clear foundation to work from, which is what makes their outputs trustworthy enough to act on."
+                      }
+                    ]
+                  }
+                ],
+                "_version": 1
+              }
+            },
+            {
+              "title": "How does purpose-clarity affect enterprise AI ROI?",
+              "_metadata": {
+                "uid": "csf385fae9423914f4"
+              },
+              "content": {
+                "type": "doc",
+                "attrs": {},
+                "uid": "deb066c20772433ba6a6efc2ce9a8020",
+                "children": [
+                  {
+                    "type": "p",
+                    "attrs": {},
+                    "uid": "48684ae7dc7f43af809ad8b2c701d9fc",
+                    "children": [
+                      {
+                        "text": "Every AI output that requires human validation before anyone can act on it represents overhead that erodes the efficiency gain the tool was supposed to deliver. McKinsey found that 94% of European organizations weren't seeing significant value from AI investments as of November 2025, with most applications focused on accelerating existing work rather than enabling deeper transformation. Strategy Software's experience with enterprise AI teams shows the highest-ROI deployments start with the clarity question, not the technology question."
+                      }
+                    ]
+                  }
+                ],
+                "_version": 1
+              }
+            }
+          ],
+          "_metadata": {
+            "uid": "csf025068c9b917c64"
+          },
+          "accordion_options": "closed"
+        }
+      }
+    ],
+    "cta_section": [],
+    "related_posts": [],
+    "seo": {
+      "meta_title": "If AI Freed All Your Time, What Would You Build?",
+      "meta_description": "Enterprise AI forces a question most organizations avoid: what would you actually build if capacity weren't the constraint?",
+      "keywords": "enterprise AI analytics strategy, AI readiness for BI teams, analytics purpose before AI tools, data-driven decision making, AI use case definition",
+      "social_thumbnail_override": null,
+      "enable_search_indexing": true
+    },
+    "page_properties": {
+      "navigation_title": "",
+      "header_color": null,
+      "hide_header_nav": false,
+      "hide_header_cta": false,
+      "hide_footer": false,
+      "disable_global_promo_banner": false,
+      "hide_auto_expert": false,
+      "sfid": "",
+      "marketo_id": "",
+      "cta_section": []
+    },
+    "resource_data": {
+      "date": "2026-06-15",
+      "type": "Blog",
+      "title": "If AI Freed All Your Time, What Would You Build?",
+      "description": "Enterprise AI forces a question most organizations avoid: what would you actually build if capacity weren't the constraint?",
+      "featured": false
+    },
+    "tags": [],
+    "publish_date": "2026-06-15",
+    "author": [
+      {
+        "uid": "bltf194c847929be649",
+        "_content_type_uid": "blog_author"
+      }
+    ],
+    "locale": "en",
+    "uid": "bltb764bbfa001901e6",
+    "created_by": "blte12f8d786df2b4b9",
+    "updated_by": "blte12f8d786df2b4b9",
+    "created_at": "2026-06-15T15:23:43.391Z",
+    "updated_at": "2026-06-15T15:23:43.391Z",
+    "ACL": {},
+    "_version": 1,
+    "_in_progress": false
+  }
+}

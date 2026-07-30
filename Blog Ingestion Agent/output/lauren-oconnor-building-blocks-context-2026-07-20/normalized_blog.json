@@ -1,0 +1,433 @@
+{
+  "title": "The building blocks of context: metadata, semantic layer, ontology, and knowledge graph",
+  "subtitle": "",
+  "slug": "the-building-blocks-of-context-metadata-semantic-layer-ontology-and-knowledge-graph",
+  "url": "/the-building-blocks-of-context-metadata-semantic-layer-ontology-and-knowledge-graph",
+  "author": "Lauren O'Connor",
+  "authorBio": "",
+  "publishDate": "2026-07-21T00:00:00.000Z",
+  "seo": {
+    "metaTitle": "Building Blocks of Context: Semantic Layer, Ontology & More",
+    "metaDescription": "Learn how metadata, semantic layer, ontology, and knowledge graph combine to give AI accurate business context. See how Strategy Mosaic governs it.",
+    "metaDescriptionFromDoc": false,
+    "targetKeywords": [
+      "semantic layer",
+      "knowledge graph",
+      "metadata management",
+      "context layer for AI",
+      "enterprise AI analytics"
+    ],
+    "metaDescriptionAlternatives": [
+      "Discover how a governed context layer turns raw metadata into trusted AI answers. Strategy Mosaic makes business meaning consistent at scale.",
+      "Explore how metadata, ontology, and knowledge graphs build the context AI needs. Strategy Mosaic delivers governed, accurate answers for enterprise BI."
+    ],
+    "primaryKeywords": [
+      "semantic layer",
+      "knowledge graph",
+      "metadata management",
+      "context layer for AI",
+      "enterprise AI analytics"
+    ],
+    "secondaryKeywords": [
+      "ontology in data management",
+      "business data definitions",
+      "governed metrics",
+      "BI decision-making",
+      "data context for AI",
+      "AI-ready data foundation",
+      "business semantic layer",
+      "data governance for AI",
+      "analytics data layer",
+      "enterprise data strategy",
+      "consistent AI answers",
+      "trusted business intelligence"
+    ],
+    "longTailKeywords": [
+      "what is a semantic layer in enterprise analytics",
+      "how does a knowledge graph improve AI answers",
+      "why does AI get business metrics wrong without context",
+      "how to build a governed semantic layer for AI",
+      "what is the difference between metadata and a semantic layer",
+      "how to make AI answers consistent across the enterprise",
+      "best way to give AI accurate business definitions",
+      "why do AI analytics tools return inconsistent results",
+      "how ontology and knowledge graphs support enterprise BI",
+      "what is a context layer in data and AI strategy",
+      "how to govern business logic for AI-powered analytics",
+      "why metadata alone is not enough for trusted AI answers"
+    ],
+    "brandedKeywords": [
+      "Strategy",
+      "Strategy Mosaic",
+      "Strategy Mosaic semantic layer",
+      "Strategy governed analytics",
+      "Strategy Mosaic AI-ready data"
+    ]
+  },
+  "quickAnswer": [
+    {
+      "headline": "A context layer assembles business meaning at the moment a question is asked",
+      "body": ""
+    },
+    {
+      "headline": "It combines metadata, business definitions, and relationships so AI understands what your data means at your organization, not just that it exists",
+      "body": ""
+    },
+    {
+      "headline": "Without one, AI guesses at your business logic. The guess is often wrong.",
+      "body": ""
+    },
+    {
+      "headline": "Strategy Mosaic is the governed semantic layer that makes AI answers consistent, accurate, and trustworthy",
+      "body": ""
+    }
+  ],
+  "quickAnswerFromDoc": true,
+  "heroMedia": null,
+  "body": [
+    {
+      "type": "section",
+      "heading": "",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Metadata, semantic layer, ontology, knowledge graph, and context layer. These terms are moving from data engineering conversations into executive meetings, and they almost never get defined with any precision, or in a way that everyone can understand."
+        },
+        {
+          "type": "paragraph",
+          "text": "To explain what goes into building context, let's imagine we work at a large video streaming platform. Our goal is to decide whether to renew our latest hit series, Night Market. We'll build each layer and follow it through to the moment an executive gets a governed answer in seconds."
+        },
+        {
+          "type": "image",
+          "sourcePath": "image_0.png",
+          "assetUid": "",
+          "altText": "",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Metadata: data about data",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "When the Night Market show dropped on the platform, it came with a show ID, episode count, genre, release date, and production cost. None of that tells you whether to renew it. All of it describes the show. That's metadata."
+        },
+        {
+          "type": "paragraph",
+          "text": "In enterprise data, metadata works the same way. A column called completion_pct has metadata that describes it: what it measures (the percentage of viewers who watched to the end of an episode), who owns it (the data engineering team), how often it refreshes, and what quality checks it has passed."
+        },
+        {
+          "type": "paragraph",
+          "text": "Metadata makes data findable, governable, and trustworthy. But knowing a metric exists and knowing what it means to your business are different things."
+        },
+        {
+          "type": "image",
+          "sourcePath": "image_1.png",
+          "assetUid": "",
+          "altText": "",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "The semantic layer: what data means",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Metadata tells you what data exists and how it is managed. For example, Night Market has an 87% viewer completion rate. That value is data. Its field name, definition, owner, refresh schedule, lineage, and quality status are metadata."
+        },
+        {
+          "type": "paragraph",
+          "text": "A semantic layer goes further by defining what that data means to the business and how it should be used to answer questions."
+        },
+        {
+          "type": "paragraph",
+          "text": "At our streaming platform, \"renewal candidate\" isn't just a phrase, it's a governed definition built on explicit rules:"
+        },
+        {
+          "type": "list",
+          "style": "bullet",
+          "items": [
+            "Completion rate: Above 80%",
+            "New subscriber acquisition: Above 10,000 per season",
+            "Production ROI: Net positive"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Those rules live in the semantic layer so everyone, analysts, dashboards, AI agents, use the same definition when the question gets asked."
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "A data catalog",
+              "url": "https://www.strategy.com/software/blog/semantic-layer-for-ai-metadata-is-not-meaning"
+            },
+            {
+              "text": " documents the completion rate field. A semantic layer makes sure everyone calculates what \"renewal candidate\" means the same way."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "sourcePath": "image_2.png",
+          "assetUid": "",
+          "altText": "",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "The ontology: how everything connects",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "An ontology is a model of relationships. Not what data means, but how things relate to each other."
+        },
+        {
+          "type": "paragraph",
+          "text": "Night Market isn't just a row in a table. It's connected to a studio contract, a production budget, subscribers, viewing events, release windows, and the broader content slate. That web of connections is an ontology:"
+        },
+        {
+          "type": "paragraph",
+          "text": "For example:"
+        },
+        {
+          "type": "list",
+          "style": "bullet",
+          "items": [
+            "Show",
+            "...has Episodes",
+            "...that have Viewership Events",
+            "...that have Subscribers (with a Retention Status)"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Without an ontology, AI may discover (or invent) relationships, but it has no governed model of how your business is organized. With one, it can navigate your data the way your best analyst does."
+        },
+        {
+          "type": "image",
+          "sourcePath": "image_3.png",
+          "assetUid": "",
+          "altText": "",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "The knowledge graph: the blueprint, populated",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "An ontology is a blueprint. A knowledge graph is that blueprint filled with real, connected data. So, for Night Market:"
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Night Market (Show #S-2291)",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "style": "bullet",
+          "items": [
+            "The Node: Thriller, Released March 2026, 8 Episodes, 4.2/5 rating, 2 Emmy nominations.",
+            "Connected Viewership: 2.4M views, 87% completion rate.",
+            "Connected Financials: $4M production cost, 12K new subscribers acquired.",
+            "Contextual Note: Highest-performing debut in the drama category since 2023"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Three components make it work: entities (the specific nodes: the show, each episode, each subscriber event), connections (which show drove which subscriber acquisitions, which production budget maps to which slate window), and details (the completion rate, the cost, the rating)."
+        },
+        {
+          "type": "image",
+          "sourcePath": "image_4.png",
+          "assetUid": "",
+          "altText": "",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Now we can define context",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Context is the situational awareness that sits on top of everything else."
+        },
+        {
+          "type": "paragraph",
+          "text": "Here's what it looks like in practice. A VP of Content asks Monday morning, the week after Night Market's season finale: \"Do we greenlight Season 2?\""
+        },
+        {
+          "type": "paragraph",
+          "text": "To answer that correctly, the system assembles:"
+        },
+        {
+          "type": "list",
+          "style": "bullet",
+          "items": [
+            "The content calendar: greenlight window closes in 30 days, Q4 2027 slate has an open slot",
+            "The semantic definition: renewal threshold = retention impact above 8K new subs, completion rate above 75%, production ROI positive",
+            "Her role and permissions: VP Content, greenlight authority up to $6M budget",
+            "Live signals: 12K new subs, 87% completion, $4M cost, estimated $6.2M revenue impact"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The answer: \"Night Market meets all renewal thresholds. Estimated Season 2 ROI positive at $6M budget. Q4 2027 slate has a gap. Greenlight recommended.\""
+        },
+        {
+          "type": "paragraph",
+          "text": "The context layer doesn't store this. It assembles the right answer for the right person at the right moment."
+        },
+        {
+          "type": "paragraph",
+          "text": "Metadata tells you the completion rate exists. The semantic layer tells you what \"retention impact\" means at your company. The ontology maps Night Market to its subscribers, its budget, its slate window. The knowledge graph holds the live numbers. The context layer pulls it together on demand."
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "As my colleague Henry described, a "
+            },
+            {
+              "text": "context layer",
+              "url": "https://software.strategy.com/blog/the-semantic-layer-is-becoming-context-infrastructure-for-ai"
+            },
+            {
+              "text": " is the governed system that combines business definitions, relationships, and real-time signals so that AI and analytics tools can reason about your data the way your organization does, not the way a model guesses."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Do enterprises need all five?",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Not as five separate products. Several layers describe and connect your world. The semantic layer settles what the business means."
+        },
+        {
+          "type": "paragraph",
+          "text": "Metadata can tell you the completion-rate field exists. An ontology can map Night Market to its subscribers, budget, and content slate. A knowledge graph can connect the live facts, while the context layer brings the right information together for the right person at the right moment."
+        },
+        {
+          "type": "paragraph",
+          "text": "But none of those capabilities can reliably produce a trusted answer if \"renewal candidate\" means 80% completion in one meeting and 75% in the next. The semantic layer establishes the approved definition and applies it consistently. The final answer is only as trustworthy as the business logic behind it."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Where Strategy Mosaic fits",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Metadata tells AI where the data lives. An ontology tells it how the business is connected. A knowledge graph provides the facts. But someone still has to apply your company's definitions before an answer is generated."
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "That's the job of the semantic layer and where "
+            },
+            {
+              "text": "Strategy Mosaic",
+              "url": "https://www.strategy.com/software/strategymosaic"
+            },
+            {
+              "text": " fits."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Mosaic is the layer where your business definitions live, where metrics are calculated consistently, and where AI queries get answered deterministically rather than inferred. Most AI tools try to guide the LLM to a better answer. Mosaic takes a different approach: the LLM handles natural language, Mosaic handles the actual data request, applying your business definitions before a single row is read. In head-to-head testing, direct LLM-to-database connections produced an 11.8% wrong answer rate. Mosaic: 0%."
+        },
+        {
+          "type": "paragraph",
+          "text": "When your VP of Content asks whether to spend $6 million renewing Night Market, an 11.8% chance of the AI hallucinating the retention math isn't an option. The model shouldn't be guessing what your business means. With Strategy Mosaic, it doesn't have to."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is a context layer?",
+      "answer": "A context layer is the system that assembles business meaning at the moment a question is asked. It combines metadata, semantic definitions, relational structure, and live data so that AI can answer using your organization's actual business logic instead of guessing. Strategy Mosaic works as this layer, applying governed definitions before a query ever touches raw data.",
+      "accordionEnabled": true
+    },
+    {
+      "question": "What's the difference between a semantic layer and a data catalog?",
+      "answer": "A data catalog documents that a field exists and describes its metadata — owner, refresh schedule, quality status. A semantic layer goes further by defining what that field means to the business and enforcing that definition consistently across every tool that uses it. Strategy Mosaic applies this distinction directly: cataloging tells you a metric exists, Mosaic makes sure everyone calculates it the same way.",
+      "accordionEnabled": true
+    },
+    {
+      "question": "Do you need a semantic layer, an ontology, and a knowledge graph separately?",
+      "answer": "Not as five standalone products. Metadata, ontology, and knowledge graphs each describe or connect your data, but only a semantic layer settles what the business terms actually mean and applies that meaning consistently. Strategy Mosaic is built as the layer where those definitions live, so an answer means the same thing in every meeting regardless of which other systems supplied the underlying facts.",
+      "accordionEnabled": true
+    },
+    {
+      "question": "Why does AI give inconsistent answers without a semantic layer?",
+      "answer": "Without a governed semantic layer, an AI tool has to infer business logic on its own, and that inference changes depending on the prompt, the model, or the day. In head-to-head testing, direct LLM-to-database connections produced an 11.8% wrong answer rate, while Strategy Mosaic, which applies business definitions before a query runs rather than letting the model guess, produced 0%.",
+      "accordionEnabled": true
+    }
+  ],
+  "postFaqContent": [],
+  "suggestedTaxonomyTerms": [
+    "Semantic Layer",
+    "Enterprise AI",
+    "Data Governance",
+    "Knowledge Graph",
+    "Analytics"
+  ],
+  "cta_list": [],
+  "internalLinks": [],
+  "externalLinks": [
+    "https://www.strategy.com/software/blog/semantic-layer-for-ai-metadata-is-not-meaning",
+    "https://software.strategy.com/blog/the-semantic-layer-is-becoming-context-infrastructure-for-ai",
+    "https://www.strategy.com/software/strategymosaic"
+  ],
+  "validationWarnings": [
+    "No author name or publish date found in the document.",
+    "The [BOLD] heading 'The building blocks of context' appears to be a section heading (H2-level) but no H2 marker was provided; it was treated as a separate section with empty blocks since the sub-headings that follow it each have their own bold labels.",
+    "Ontology list items used bold markers inline (e.g. '[B]Show[/B]', '[B]Episodes[/B]') — bold formatting was flattened to plain text in list items for simplicity; human review recommended.",
+    "No hero image URL or asset UID available for any embedded images; sourcePaths assigned sequentially as image_0.png through image_4.png.",
+    "No CTA boxes detected in the document.",
+    "The 'The building blocks of context' bold heading could be interpreted as an H2 section or as a bold label intro; treated as its own section with empty blocks given no content followed before the next bold subheading.",
+    "Internal link paths could not be confirmed — all links found were absolute https:// URLs, so internalLinks array is empty.",
+    "publishDate was not found in the document — defaulted to tomorrow (2026-07-21T00:00:00.000Z). Confirm before publishing."
+  ]
+}

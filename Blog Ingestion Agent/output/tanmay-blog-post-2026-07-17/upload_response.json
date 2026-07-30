@@ -1,0 +1,1294 @@
+{
+  "notice": "Entry created successfully.",
+  "entry": {
+    "title": "v1 -- The Next Generation of Analytics Won't Be Built Around Dashboards",
+    "url": "/blog/the-next-generation-of-analytics-wont-be-built-around-dashboards",
+    "lead_paragraph": {
+      "type": "doc",
+      "attrs": {},
+      "uid": "4638e84fc75c4bfb9ccb5d5bcd2ebc03",
+      "children": [
+        {
+          "text": ""
+        }
+      ],
+      "_version": 1
+    },
+    "content": [
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "c5827ed4575742078061e28d9e32ad1d",
+            "children": [
+              {
+                "type": "h3",
+                "uid": "29ca6dcb2f9a4e7e888b7e5253c895b4",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Quick Answer",
+                    "attrs": {
+                      "style": {
+                        "color": "rgb(26, 78, 159)"
+                      }
+                    },
+                    "bold": true,
+                    "font-color": "#fa660f"
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "uid": "97ca44b8ccc34442ba9d7da715712b2e",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "li",
+                    "uid": "ebe697c4a54245238ee83ab8a4eba9b6",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "8db65bfa5ba243a7b9a8a6ddeeeac703",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Dashboards aren't obsolete, but dashboard-centric analytics is failing enterprises.",
+                            "bold": true
+                          },
+                          {
+                            "text": " Publishing more dashboards doesn't solve fragmented definitions or inconsistent business logic across tools and teams."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "f98ee3dfe91442dabcfe7ab39d6e0864",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "c69854ed22154b7b9168b8fedb7be460",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "The real constraint is fragmented architecture beneath the dashboard layer.",
+                            "bold": true
+                          },
+                          {
+                            "text": " Metrics and definitions locked inside individual dashboards break consistency when analytics scales across AI, apps, and workflows."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "2ae652daf09f44eea0c8120d4f752a87",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "b3e3a4d62d5a44678946a5ea8e00eaaf",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Governed business context must travel across every analytics surface to build trust.",
+                            "bold": true
+                          },
+                          {
+                            "text": " When definitions, hierarchies, and rules are reusable across dashboards, AI agents, and embedded apps, every insight becomes trustworthy."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs9a4e03c2e90ff97d"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "Dashboards aren't obsolete. Dashboard-centric analytics is.",
+          "_metadata": {
+            "uid": "cs977b05f00988abad"
+          },
+          "section_id": "dashboards-aren-t-obsolete-dashboard-centric-analytics-is"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "8e75795724d444188c2a64767a737a53",
+            "children": [
+              {
+                "type": "p",
+                "uid": "3c094826c91d4a92a4c9956a66304239",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The BI dashboard isn't disappearing."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "32e5dc246c734263b386269a6a35bc2a",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "But the idea that every analytics experience should orbit one interface is becoming harder to defend. For years, dashboards were the default destination for enterprise analytics:"
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "3a953c6cae0146c287d3f531b2126852",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "If a manager needed performance visibility, the answer was a dashboard. If a business user needed a recurring metric, the answer was another dashboard. If a company wanted to scale BI, the answer was more dashboards, in more places, for more teams."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "05719b7629fe4eb7a36740b19a899eed",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "That model had a clear goal. It gave the enterprise a shared surface for tracking performance. It pulled people away from static reports and one-off data requests by making analytics easier to access."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "2014a7e12f44436890df4ac517399461",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "But access is no longer enough."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "b690851f475c4a44af84dca66a5696c9",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Publishing more dashboards doesn't solve the deeper problem: whether every analytics experience can use the same trusted business meaning without another migration, consolidation project, or dashboard rebuild."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "csa118d0be495df481"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "Dashboards show the signal, but not the context.",
+          "_metadata": {
+            "uid": "cs4863ca32fb0012f8"
+          },
+          "section_id": "dashboards-show-the-signal-but-not-the-context"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "d1a8effa79434edf8f04fb9ef32cde3f",
+            "children": [
+              {
+                "type": "p",
+                "uid": "606c27580bfb47568d4f1e68565722d5",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "A BI dashboard gave teams a consistent interface for engaging with governed metrics and understanding performance without going back to technical teams for every question."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "ce1e6f34d93b4be9a5e5b647e1867313",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Power BI dashboards, Tableau dashboards, and similar BI experiences often became the enterprise visualization layer. But each dashboard was still built around a specific analytics pattern: "
+                  },
+                  {
+                    "text": "define the question, build the view, publish the answer, refresh the report.",
+                    "italic": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "06a69856eff043cc987ad780baee5795",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "That pattern works when the business needs visibility into known questions. It breaks down when the next decision depends on context the dashboard was not designed to carry."
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "uid": "c4b60e1d6fae4dd49fcc84f0a75714f4",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "li",
+                    "uid": "215f7b3ee935429985943700e749bce3",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "c3219247c57e414194f38e03b8347b11",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "A revenue dashboard can flag a decline. The harder question is whether the cause is pricing, churn, product mix, or a change in how revenue is defined."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "ab203f2ceae143558a3fa214ea0c7b93",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "5ad46ec89b264f65a07c061cb87e72bf",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "A supply chain dashboard can surface a delay. The next decision depends on which dependency caused it, which orders are exposed, and what operational action should follow."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "2d61fd7b7b0e4fc3bbe12994b0d46fca",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "658aee0817384ef9ac9e648bbc5bb647",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "A customer health dashboard can identify risk. The business still needs to understand whether that risk comes from product usage, support history, renewal timing, or account ownership."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "8b8eab6240af4a129aca4d27deb20e96",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The dashboard surfaces the issue. Leadership still needs the governed context behind it."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "csf716ba2f5cb8ea8a"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "Modern analytics must answer, explain, and act on business context",
+          "_metadata": {
+            "uid": "cs654d2c719501ec99"
+          },
+          "section_id": "modern-analytics-must-answer-explain-and-act-on-business-context"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "e6dd1b0b301f40c4ba89edc0673146ed",
+            "children": [
+              {
+                "type": "p",
+                "uid": "9488657d1dc84d08a4397b2c4a16641f",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Analytics expectations are shifting because enterprise decisions have become more dynamic and contextual."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "bc224e2c63b04b018589d999929ed2bc",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Today, users don't just consume a pre-built view. They want to ask follow-ups, drill into drivers, and use AI-powered analytics to understand what action to take next."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "99b4e40394514f87895820c4253da49d",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "That means the static, dashboard-driven path of consumption is too narrow for how decisions now happen.",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "65c0c3c73993424d9099cbf07239abda",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "A dashboard is usually designed around anticipated questions. The modern enterprise operates through decision paths that evolve as conditions change. Those paths depend on business context, definitions, and the relationships between data points."
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "uid": "15abdbc8c21d492abdacdf649cf8caa9",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "li",
+                    "uid": "9c04174e6c934954a0bdf01e0d510e73",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "66196f1cc57b4fe8860cf3955f28cccf",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Why did bookings fall for this department last month?"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "2f8eaf515394432991ade35f35f8b40c",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "bd16d96624d64ae8860a5c19a268793f",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Which customer segment is driving margin pressure in Q4?"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "b3993ecca9cc4e4786a383ed960d6b60",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "39f4bbc1208344748e4b23983c071787",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Why did forecast accuracy improve in one region but decline in another?"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "301d00df453841388ce2bab8ec8e9c8b",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Those aren't just reporting questions. They are operating questions. Answering them requires a consistent understanding of how the business defines, connects, and governs its data."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs82132f64fcf49a84"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "The real constraint is the architecture underneath the dashboard",
+          "_metadata": {
+            "uid": "cs709fe3786f49bcba"
+          },
+          "section_id": "the-real-constraint-is-the-architecture-underneath-the-dashboard"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "84e920521dfa415bb12dd074d418d441",
+            "children": [
+              {
+                "type": "p",
+                "uid": "8aaff0490e5844f48a1219a5dfc884c5",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "When dashboards stall, teams often blame visible blockers:"
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "uid": "192cd7e0d4214842ad0f33c4bba69ceb",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "li",
+                    "uid": "2609b2c0ba6e44d7bcb5f576d84dc500",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "1acbca50b98c4713a5d440e11eb139db",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "The chart is too static"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "ec5ac653bbd64a76b0af54e7bd5bf2a6",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "69c19667f42543faae5c11fb566db6c6",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "The drill path is too rigid"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "d3c535b025ec4245ba66233a9837a432",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "5f8236f0c9f24182840a194482b33f3d",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "The dashboard is too crowded"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "7f1acf859eb743a4a79c060a91a69deb",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "fcf0c15c22d44a9abeaea252b250d340",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "The report takes too long to change"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "006a730f9724486696c1f91e68fc5c4c",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "2df84576ab0244ec839d261fa4052c49",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "The business user doesn't know where to click"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "69df2f60e890467d8040aedf614571bb",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Those problems are visible, but they aren't the root cause."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "00775b4cacad432bbe7fd29e96369644",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The underlying problem is fragmentation. Definitions sit inside dashboards. Metrics are recreated inside BI tools. Context survives in documentation, disconnected systems, or the institutional memory of the people who built the reports."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "f63167ae22404c4595561b6277d3d7a8",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "In that environment, visualization tools can struggle to deliver consistent answers because the inconsistency starts below the visual layer. One dashboard can define "
+                  },
+                  {
+                    "text": "Customer ",
+                    "italic": true
+                  },
+                  {
+                    "text": "differently from another. An AI system can return an answer that sounds confident but reflects the wrong definition."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "2b72f25b622c454482ae0ea3137967fd",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "For analytics to scale reliably, business meaning must travel across the tools the enterprise already uses. Dashboards, applications, workflows, and AI shouldn't need separate definitions of the same metric."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cscb28f180f92ff26a"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "When analytics scales, business logic must stay consistent",
+          "_metadata": {
+            "uid": "cs62171a8f86be4870"
+          },
+          "section_id": "when-analytics-scales-business-logic-must-stay-consistent"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "8bcff7601bbe4871bf4ad4927324efb8",
+            "children": [
+              {
+                "type": "p",
+                "uid": "996946ddd0954fa6b62d468cf5b0a779",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Analytics used to flow through a single interface, the dashboard."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "c709f30fc5424ab7b58c2cab74caec8d",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Now insights appear across embedded applications, productivity tools, workflow systems, data products, and AI agents. They show up when someone opens a report, asks a question, receives an answer, or reviews an automated summary."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "2e1198bd47f94f06a4930aad2b7756ca",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "If each surface carries its own version of business logic, the enterprise scales interfaces, not trust."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "fc1acf95cb464e23b12bd87503e905c1",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "That's why definitions, relationships, hierarchies, rules, and governance need to be available before insights are generated, regardless of where the user encounters them.",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "680ab7751c9f4b5093c1d83080df0bc2",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "That consistency changes what each interface can do:"
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "uid": "292a30653ce2494d84982ed98c4d68b5",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "li",
+                    "uid": "c85abb6e9a394d8c825448ee6c1b0fc3",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "e4a182b514544286a66b485a4d7c98b7",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "A dashboard shows the metric"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "f460724e72054c51a2bb3399f8b265a7",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "c04829f82cbd4dcca274550ba485231e",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "An analytics experience explains the metric"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "5af728eaa5f147fe892a694c14df5576",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "4f5b9bd4dd9f42c4b2b4ece84921f81a",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "An embedded workflow acts on the metric"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "8e89d72cb5e34c9b9bae99bb9daf5c6c",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "161dcf0d616f456b9e108e1bf8d89565",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "An executive view monitors the metric"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "7b1494fccaab47ce8f5cb71f59198ff1",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "dddea47ac2b74ffbb1bf9befe663d249",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "A data product reuses the metric"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "csa4a924ef07f484b6"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "Adding AI into dashboards doesn't fix fragmented logic",
+          "_metadata": {
+            "uid": "csc21231bc08d0df68"
+          },
+          "section_id": "adding-ai-into-dashboards-doesn-t-fix-fragmented-logic"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "fd3f1e643c0d457da5f3749da9df0f3d",
+            "children": [
+              {
+                "type": "p",
+                "uid": "a50eedfe0e184d01bf4d94178c212fc3",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Artificial intelligence can enhance the dashboard experience. It can help users ask questions, summarize trends, and explore anomalies faster. Used well, it makes analytics more interactive and less dependent on predefined navigation paths."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "77da6f8ab38e466bad66386260e8d7b2",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "But adding AI to the dashboard layer doesn't repair the architecture underneath it. If the experience is built on fragmented definitions or disconnected governance, the result can look modern while still being ungrounded."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "9ea7fd7effee4b11906475854106a157",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "A user may ask why revenue changed in Q4 and receive a plausible explanation. But without governed context, the system may not know:"
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "uid": "daf34499b31f44a7b2d54cce145757a0",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "li",
+                    "uid": "baaead2b24d7456a9ecf54d771c4f6fe",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "f479509880d84b8386a779636085188a",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Which revenue definition applies"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "7a3d2032303e406ba1bbcc419e07ecb4",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "7afe64fc02cf4a34818a9ea4208d4f71",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Which customer records should be excluded for Q4"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "88c6bea16b704914b961c8ce2d2e52a2",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "6089a477d9d749dca7d5ad83b82a61c2",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Which access policy governs the user's request"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "bb41bb8d0ef0489db8a50f261354c585",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "AI-powered dashboards can transform how people interact with analytics. Governed business context determines whether those interactions can be trusted."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "17b606a0174a4713a865ea2842074ab6",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "That distinction matters because AI raises the cost of inconsistency. A dashboard may expose a disagreement, but an AI-powered workflow may act on it."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "csc3b99c82e99f13ee"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "The next analytics architecture starts with governed context",
+          "_metadata": {
+            "uid": "cs4ddbe85083fddd31"
+          },
+          "section_id": "the-next-analytics-architecture-starts-with-governed-context"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "9f8c447f559b4cb09cf0a7875028d178",
+            "children": [
+              {
+                "type": "p",
+                "uid": "c938a3e39b844947860ff306a0ec80ee",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "That foundation matters because the next generation of analytics won't rely on a single interface."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "329845ebf47f4a98a6bed36f1a4b25a4",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "A business user may start in a dashboard, ask a natural-language follow-up, receive an AI-generated explanation, and act inside a workflow. A data product may need the same metric in a different application."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "d44d001c585a456aa5f07dffbf930c0e",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Those experiences can't invent their own meaning. Dashboards, AI agents, APIs, embedded applications, and other analytics experiences need to work from the same governed definitions, relationships, rules, and policies."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "26ba43eb69be4773ab54c78657f5c05c",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "This is why semantic context matters."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "30f08e3f69264be39ce317cb5be99ad3",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Enterprises shouldn't have to take on another migration just to make analytics more consistent. The definitions should hold across regions, tools, and teams."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "7031af07324244d6ae728d29ad817a8b",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "That changes the leadership question from "
+                  },
+                  {
+                    "text": "“Which dashboard should users open?” to “Can every analytics experience work from the same context?”",
+                    "italic": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "f07e4e21a5694d34805dd8cf6169de1f",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "That’s where Strategy Mosaic fits."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs579b6572956a9504"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "How Strategy Mosaic strengthens the stack you already have",
+          "_metadata": {
+            "uid": "cs68cbb3d79a795d7e"
+          },
+          "section_id": "how-strategy-mosaic-strengthens-the-stack-you-already-have"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "3351a0aab2844775bc47ab853dfaa497",
+            "children": [
+              {
+                "type": "p",
+                "uid": "ddc589cb96bb4f389af699b8031b5a23",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "a",
+                    "uid": "554f1ee2fb7e4720bfd5b0dde98653e8",
+                    "attrs": {
+                      "url": "https://software.strategy.com/strategymosaic",
+                      "target": "_blank"
+                    },
+                    "children": [
+                      {
+                        "text": "Strategy Mosaic"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " is designed for enterprises that need more trusted analytics without moving all their data into one place first. Instead of relocating data, Mosaic makes business logic reusable across the systems already in place."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "96eb8d578cbc47b5be06f9827577c878",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Definitions are created once, governed consistently, and applied wherever analytics is consumed. Existing analytics experiences can remain part of the stack, and teams can keep working with their preferred LLMs, clouds, databases, data lakes, warehouses, connectors, and BI tools."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "44edda44e48341cca1587a6824eb49d8",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "That flexibility matters as analytics moves from static reporting into AI-powered experiences. Mosaic keeps query generation in a deterministic layer outside the LLM: the LLM handles natural language, and Mosaic handles the query logic. As a result, the query remains grounded in approved business definitions."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "7fc26d7d08c24d58a31add079785d3e8",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Mosaic offers a faster path to trusted analytics by ",
+                    "bold": true
+                  },
+                  {
+                    "text": "working with your existing systems",
+                    "bold": true
+                  },
+                  {
+                    "text": ", making definitions consistent across them, and avoiding another migration cycle.",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "c4248b14892d43369fb6ed5be4130343",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The dashboard may still show the number, but Mosaic keeps the logic behind it consistent on every interface."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs9239bcb7b198184d"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "Dashboards will still exist. They just will not own the future.",
+          "_metadata": {
+            "uid": "csc395f81c090334f5"
+          },
+          "section_id": "dashboards-will-still-exist-they-just-will-not-own-the-future"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "4a068f35fe7f4af9b20798aea9aeb77f",
+            "children": [
+              {
+                "type": "p",
+                "uid": "99c63903688d4e73bc92576f3b4f92eb",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Dashboards aren't going away. They will continue to matter for shared visibility, recurring performance management, and operational monitoring."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "e6b9f8fea4da4748a482790f1f448e71",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "But they will no longer sit at the center of enterprise analytics strategy. That role is moving to the system of governed definitions, relationships, and reusable logic that every analytics experience depends on."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "d4df3c87c93644f9bded74d457a49247",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The next generation of analytics will be defined by whether every experience can produce trusted, contextual, actionable insight from the same governed foundation."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs7f30b508e8c95c55"
+          }
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "ac03687aaa594571b62f9e315e56ab1b",
+            "children": [
+              {
+                "type": "p",
+                "uid": "0adbccd16f6844bb821de7643c3bca0a",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "[ PROMO PLACEHOLDER — Replace with Promo block in Contentstack editor ]"
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "449a80a63cdd44928b4ebbc6cdd02086",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "CTA: \"Keep the dashboards. Keep the stack. Make the logic consistent.\""
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "39ea8bf4e7aa4f75ba07d586984630ce",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Button: Explore Strategy Mosaic  →  https://software.strategy.com/strategymosaic"
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs0ac0d444c47763f5"
+          }
+        }
+      }
+    ],
+    "cta_section": [],
+    "related_posts": [],
+    "seo": {
+      "meta_title": "The Next Generation of Analytics Won't Be Built Around Dashboards",
+      "meta_description": "Dashboard-centric analytics is failing enterprises. Learn why governed metrics and a semantic layer are the foundation for trusted AI-ready analytics at scale.",
+      "keywords": "enterprise analytics, semantic layer, governed metrics, dashboard-centric analytics, AI-ready analytics",
+      "social_thumbnail_override": null,
+      "enable_search_indexing": true
+    },
+    "page_properties": {
+      "navigation_title": "",
+      "hide_header_nav": false,
+      "hide_header_cta": false,
+      "hide_footer": false,
+      "disable_global_promo_banner": false,
+      "hide_auto_expert": false,
+      "sfid": "",
+      "marketo_id": "",
+      "cta_section": []
+    },
+    "resource_data": {
+      "date": "2026-07-17T00:00:00.000Z",
+      "type": "Blog",
+      "title": "The Next Generation of Analytics Won't Be Built Around Dashboards",
+      "description": "Dashboard-centric analytics is failing enterprises. Learn why governed metrics and a semantic layer are the foundation for trusted AI-ready analytics at scale.",
+      "featured": false
+    },
+    "tags": [],
+    "publish_date": "2026-07-17T00:00:00.000Z",
+    "taxonomies": [
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "product_updates"
+      },
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "mosaic"
+      },
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "semantic_layer"
+      },
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "ai_trends"
+      },
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "analytics"
+      },
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "business_intelligence"
+      }
+    ],
+    "locale": "en",
+    "uid": "blt81ca6bf6251c5d4e",
+    "created_by": "blte12f8d786df2b4b9",
+    "updated_by": "blte12f8d786df2b4b9",
+    "created_at": "2026-07-16T17:22:39.894Z",
+    "updated_at": "2026-07-16T17:22:39.894Z",
+    "ACL": {},
+    "_version": 1,
+    "_in_progress": true
+  }
+}

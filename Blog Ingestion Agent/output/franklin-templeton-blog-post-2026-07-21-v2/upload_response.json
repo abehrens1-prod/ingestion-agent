@@ -1,0 +1,875 @@
+{
+  "notice": "Entry created successfully.",
+  "entry": {
+    "title": "v2 -- One Merger, Three BI Environments: How Franklin Templeton Built an AI-Ready Analytics Foundation",
+    "url": "/blog/one-merger-three-bi-environments-how-franklin-templeton-built-an-ai-ready-analytics-foundation",
+    "lead_paragraph": {
+      "type": "doc",
+      "attrs": {},
+      "uid": "1ae229e1738345ad9e40cd2bc61c8cb2",
+      "children": [
+        {
+          "text": ""
+        }
+      ],
+      "_version": 1
+    },
+    "content": [
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "3678c2ff109b451f85a4734cb1d0aa4b",
+            "children": [
+              {
+                "type": "h3",
+                "uid": "f7acf2dd28e9426a9c1248802c5b1b2a",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Quick Answer",
+                    "attrs": {
+                      "style": {
+                        "color": "rgb(26, 78, 159)"
+                      }
+                    },
+                    "bold": true,
+                    "font-color": "#fa660f"
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "uid": "8bf48bd7bca6497f94ba22c0f3356ec4",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "li",
+                    "uid": "31e5ac84a8904f788829e0afed222d3b",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "e0779e3230224e2f95bb704b84259e47",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Franklin Templeton unified three separate BI environments after acquiring Putnam Investments.",
+                            "bold": true
+                          },
+                          {
+                            "text": " Franklin Templeton unified three separate BI environments by standardizing identity and access, centralizing governed business logic, and consolidating its deployments on Strategy. The move reduced infrastructure and security-management overhead while creating a consistent analytics foundation for enterprise AI."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs7025f10857a0664a"
+          }
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "ee97380e0f1645b9a19b0277cb76d630",
+            "children": [
+              {
+                "type": "p",
+                "uid": "67136dbf04f34b9ca8efd39817bbc270",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Every acquisition creates a moment of reckoning for enterprise technology. Two companies, multiple tech stacks, one big decision: "
+                  },
+                  {
+                    "text": "how to consolidate without losing business logic, weakening security, or delaying strategic initiatives?",
+                    "italic": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "4e86a8db00314cc58e46fed15314ad83",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "For Franklin Templeton, a $1.6 trillion global asset manager, that moment arrived in 2024 with its acquisition of Putnam Investments, and it landed squarely on the BI team's desk. But the inherited environments introduced a significant integration challenge: "
+                  },
+                  {
+                    "text": "a fragmented analytics foundation spread across multiple deployments.",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "e7e505f97fbe4b6e85e2b8b801fe09d9",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "As Sulochana Modur, Director of Enterprise Business Intelligence, highlighted:"
+                  }
+                ]
+              },
+              {
+                "type": "blockquote",
+                "uid": "b5558613fad142fa8fdcb0503f3be2fd",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "p",
+                    "uid": "1b1f45c8cfc6445fb73b9c6e7e9bf5da",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "text": "\"We had to go back to evaluating, because Franklin Templeton had a few other tools.\"",
+                        "attrs": {
+                          "style": {
+                            "color": "rgb(0, 61, 91)"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs144a6aa9917d0934"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "Three BI environments created one integration problem",
+          "_metadata": {
+            "uid": "cs0e1bf03f84dff5a9"
+          },
+          "section_id": "three-bi-environments-created-one-integration-problem"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "8bad2cf9839748d7b18e5c295aa748e2",
+            "children": [
+              {
+                "type": "p",
+                "uid": "44c87d0dcb8b4e4d8fa5288931dabb98",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Most merger playbooks push teams to consolidate data onto whatever's already standard. Franklin Templeton paused first, testing the new ecosystem before making a decision."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "c22f2d936db74eefbfae9965be40135f",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The team found "
+                  },
+                  {
+                    "text": "three independent environments, each with its own contract, semantic layer, and authentication model",
+                    "italic": true
+                  },
+                  {
+                    "text": ". These differences created a complex integration challenge:"
+                  }
+                ]
+              },
+              {
+                "type": "ol",
+                "uid": "a10ac6e84b08421198d449dd8b44a1a4",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "li",
+                    "uid": "aab14b6664f740d082f1438c6f4140d4",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "c5e4b5a954c44341ad77c34c82b1451e",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "On-Premises (Standard): Data stored on physical, company-owned servers inside their own building, secured by basic, traditional corporate login methods."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "1a91f9b0a7ae45ca959f5484c29ba725",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "5b32fa8776c54a0cbdc6b6f49a7ccd06",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "On-Premises (Custom): Also stored on physical office servers, but locked behind a highly specific, home-grown security system built by engineers before the acquisition."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "4cd90daa6a5f4b2ab9ca7eb11e48daa6",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "b6160d7534844561b28c46e42b6d51d6",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Cloud-Native: Another modern data setup inherited from Putnam that lived entirely on the internet (AWS) and used a modern, centralized login tool (Okta Single Sign-On)."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "c9a438ee323641a88b695c08f68558d6",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Ultimately, this meant the organization now had three separate, locked data silos that couldn't talk to each other, preventing employees from getting a single, unified view of their business data."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "bf05d82139b747cd87a898601a5d8d31",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Reconciling three sets of business logic is difficult enough on its own. Doing it alongside three separate security architectures, under a regulated financial services compliance regime, was even more complex."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "a543af720a9e4e5b99e59a7049b3e5db",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "What are the risks of having multiple versions of business logic?",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "931a3d1961c54fe9bd79c90419a92e88",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Multiple versions of business logic create conflicting definitions, calculation paths, and governance rules. When different departments calculate core metrics (like revenue, risk, or growth) using different rules (such as definitions, structures, and security protocols), it leads to inaccurate reporting. This prevents the organization from achieving a single source of truth and introduces severe compliance risks in highly regulated industries."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs9b0d6a80dda1ef6d"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "Unifying business logic, identity, and governed access",
+          "_metadata": {
+            "uid": "cs3ed0ad1117ac1a8b"
+          },
+          "section_id": "unifying-business-logic-identity-and-governed-access"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "2dd4aded70cb46cb866c42caf40f02a7",
+            "children": [
+              {
+                "type": "p",
+                "uid": "575147f7c5f44df08c6293a5512679d9",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Franklin Templeton's first step was to perform a comprehensive security review, helping the team identify potential vulnerabilities and control gaps across the fragmented environments."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "b7b6bee122494230b744cf9113e7504e",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Sulochana Modur explained why Strategy was Franklin Templeton's preferred partner for this evaluation:"
+                  }
+                ]
+              },
+              {
+                "type": "blockquote",
+                "uid": "edb0cca939e7481e993231ce98957561",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "p",
+                    "uid": "69a4dd6e6ddb49178d419c58b1623ce4",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "text": "\"Our push was to consolidate existing platforms but having worked with Strategy for a long time at Putnam Investments, we decided to take a first look at what capabilities the tool brings us.\"",
+                        "attrs": {
+                          "style": {
+                            "color": "rgb(0, 61, 91)"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "38222dfecfad4e17997ca405dcf48965",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Its engineering and security teams worked alongside Strategy to evaluate the path toward "
+                  },
+                  {
+                    "type": "a",
+                    "uid": "dc4b0946d0ab4ead98d91f9ab16eac03",
+                    "attrs": {
+                      "url": "https://software.strategy.com/ecosystems/data-sources",
+                      "target": "_blank"
+                    },
+                    "children": [
+                      {
+                        "text": "Strategy's native cloud environment"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ", harden firewalls, validate the architecture against Franklin Templeton's data-protection, security, and regulatory requirements."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "fc32d3eba66848238d40cb02823300c5",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Once the foundation was secure, Franklin Templeton "
+                  },
+                  {
+                    "text": "standardized identity and access for all three instances",
+                    "italic": true
+                  },
+                  {
+                    "text": " through Okta single sign-on, with governed access to Snowflake. This delivered three core benefits:"
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "uid": "991bc3b02e5c4953839f7589eff1c669",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "li",
+                    "uid": "e693317fa0b94ea18a93ea04b38bc369",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "75b4ebd996f84fc3b1a7931660d13d3c",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Seamless Access: User credentials passed straight through to Snowflake's multi-cloud architecture without delays or operational friction."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "6ab2c411dc464c66916d440941f518c6",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "0a6bc9779d194cb896f937467100d749",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Strict Data Governance: Existing entitlements were applied so users could access only the data authorized for their roles, minimizing the risk of leaks and compliance issues."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "07ab3ece6fe7446f93f57ff8718702e8",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "bce14458996c452b9014999d02c7d6eb",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Zero Logic Duplication: The organization could manage reusable business logic through one semantic foundation rather than maintaining separate versions."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "6aca8c9366d14f73ba2aefb881a878a9",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "As a result, "
+                  },
+                  {
+                    "text": "Franklin Templeton retired its legacy on-prem servers and consolidated three separate contracts and data environments into one AI-ready platform",
+                    "bold": true
+                  },
+                  {
+                    "text": ", with monthly security patching handled by Strategy instead of an internal team's already-stretched bandwidth."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "csc590175569c1f087"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "Building a governed foundation for AI analytics",
+          "_metadata": {
+            "uid": "csd53744a752772599"
+          },
+          "section_id": "building-a-governed-foundation-for-ai-analytics"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "b1cebd0ce13545bdb1ed76c9272eaec8",
+            "children": [
+              {
+                "type": "p",
+                "uid": "06f8f96badf34fe692c8d22f546b3a97",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The unified semantic and security foundation gave Franklin Templeton a governed base for moving selected AI analytics use cases into production."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "0e11bbbe1e2949bc9b43a0ebe21d0571",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Users gained access to Strategy's "
+                  },
+                  {
+                    "type": "a",
+                    "uid": "336c3e43f15f433caf619fbf21223623",
+                    "attrs": {
+                      "url": "https://software.strategy.com/strategyai/agents",
+                      "target": "_blank"
+                    },
+                    "children": [
+                      {
+                        "text": "out-of-the-box AI tools"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ", including Auto Answers, Auto Dashboards, and Auto Narratives. Because the team had already unified the metadata within the semantic layer, the underlying business logic remained consistent, allowing AI outputs to follow the same approved definitions and calculation rules."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "bb101099bf644a91b66f46f5d240ffc6",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The value of this shared foundation is perfectly exemplified with the "
+                  },
+                  {
+                    "text": "\"organic growth rate\"",
+                    "italic": true
+                  },
+                  {
+                    "text": " metric. Originally, calculating this required a complex, multi-pass process: analysts had to manually pull sales for a specific period, extract assets for the same timeframe, and then carefully derive the final rate from both data sets."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "a7c297b8b5ef4b988d49dd369064342d",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "With the latest iteration of Strategy's AI agents, Franklin Templeton's team can now embed custom instructions directly at both the attribute and agent level. The AI agent can execute the defined mathematical sequence and return an answer based on the same governed logic."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "64f22e7e7d254479aac053e3985e829c",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Franklin Templeton's next focus is on leveraging "
+                  },
+                  {
+                    "type": "a",
+                    "uid": "05ebbfc13d0f40c6b8c8256ef691f6cb",
+                    "attrs": {
+                      "url": "https://software.strategy.com/strategybi/embedded-analytics",
+                      "target": "_blank"
+                    },
+                    "children": [
+                      {
+                        "text": "Strategy's HyperIntelligence"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ". The organization is exploring how HyperIntelligence can surface real-time, \"zero-click\" insights from these AI agents inside web browsers, emails, and other tools employees already use."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "csd3b84de6f4515ac4"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "The result: stronger governance with less infrastructure overhead",
+          "_metadata": {
+            "uid": "csfbed00d49f77d569"
+          },
+          "section_id": "the-result-stronger-governance-with-less-infrastructure-overhead"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "68dda9b3207046fc831eb01aa434cb47",
+            "children": [
+              {
+                "type": "p",
+                "uid": "2bb17f5f80094caf996b6414718c5cfa",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "As Khalil Parran, Senior Vice President of Enterprise Data & Analytics, put it:"
+                  }
+                ]
+              },
+              {
+                "type": "blockquote",
+                "uid": "5a37d750e0b74d299d5405cdc8011b9f",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "p",
+                    "uid": "d93dce29ec9148a29fe94f0f0bf13b5f",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "text": "\"Implementing Strategy One has opened up opportunities to provide data insights efficiently while reducing risk and ultimately enabling better data-driven decisions.\"",
+                        "attrs": {
+                          "style": {
+                            "color": "rgb(0, 61, 91)"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "6a1e162024704de4b9cd756778d6abfe",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The proof is in the results. By consolidating three separate environments and establishing a single, unified source of business logic, Franklin Templeton now possesses a data infrastructure that's ready for AI-driven analytics."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "400548f1d5444a74b321fd697ea2a840",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "This unified data foundation has delivered three major strategic advantages:"
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "uid": "2818d2af2aa844a4af29fd3a523ab535",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "li",
+                    "uid": "96837b923ae646729c1081173496701b",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "1549eda33fb842228a98067ece3b3e6a",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Comprehensive Market Benchmarking: The enterprise dashboard suite combines Franklin Templeton's own investment performance data with competitor metrics from Morningstar and Lipper."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "f412dea54d6b40c98bf06d294c9fe9c5",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "3c71e40f6faf445785076fd5cc2c349b",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Flawless Data Oversight: Teams possess unprecedented access controls through Strategy's enterprise-grade governance framework."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "9d7d6c493ed34bfa859498aa56b4bb6f",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "be2ae5dca66e43a9a4d862d3decae938",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Reduced IT Maintenance: The organization has reduced the internal overhead associated with platform upgrades, security patching, and infrastructure management."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs14d56d7d76afc2ab"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "What financial services leaders can learn from Franklin Templeton",
+          "_metadata": {
+            "uid": "csead27655015ee740"
+          },
+          "section_id": "what-financial-services-leaders-can-learn-from-franklin-templeton"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "8816f64638a8418cbd05a8f36b53adfe",
+            "children": [
+              {
+                "type": "p",
+                "uid": "25a0b05810734418ad8dc677cafa39b9",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "For any organization navigating a complex merger, or simply carrying the accumulated weight of multiple fragmented BI tools, Franklin Templeton's path offers a clear lesson."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "d95c80337b4c4599baa26d1c0da6c6c9",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "True data consolidation doesn't start by adding more tools. It starts by understanding how your organization collects, combines, and controls its data sources. A successful integration requires building a governed source of business logic that BI and AI applications can rely on."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "csf29394b889ccbc85"
+          }
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "b27a906dc6f24fe180db05bf324c5363",
+            "children": [
+              {
+                "type": "p",
+                "uid": "f21b9a0139e64fbbb13bcf222127cbe5",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "[ PROMO PLACEHOLDER — Replace with Promo block in Contentstack editor ]"
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "a93b39622b8b4307ac25a591374dd9af",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "CTA: \"Build a governed foundation for enterprise analytics and AI.\""
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "6fff6f249924431e8cf3002b5a317adb",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Button: Book a Demo"
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs95d04deebfc6d9e5"
+          }
+        }
+      }
+    ],
+    "cta_section": [],
+    "related_posts": [],
+    "seo": {
+      "meta_title": "How Franklin Templeton Built an AI-Ready Analytics Foundation",
+      "meta_description": "Learn how Franklin Templeton unified three BI environments post-merger using Strategy to build a governed, AI-ready analytics foundation.",
+      "keywords": "enterprise BI consolidation, post-merger analytics integration, AI-ready analytics foundation, governed business intelligence, semantic layer for enterprise AI",
+      "social_thumbnail_override": null,
+      "enable_search_indexing": true
+    },
+    "page_properties": {
+      "navigation_title": "",
+      "hide_header_nav": false,
+      "hide_header_cta": false,
+      "hide_footer": false,
+      "disable_global_promo_banner": false,
+      "hide_auto_expert": false,
+      "sfid": "",
+      "marketo_id": "",
+      "cta_section": []
+    },
+    "resource_data": {
+      "date": "2026-07-22T00:00:00.000Z",
+      "type": "Blog",
+      "title": "One Merger, Three BI Environments: How Franklin Templeton Built an AI-Ready Analytics Foundation",
+      "description": "Learn how Franklin Templeton unified three BI environments post-merger using Strategy to build a governed, AI-ready analytics foundation.",
+      "featured": false
+    },
+    "tags": [],
+    "publish_date": "2026-07-22T00:00:00.000Z",
+    "author": [
+      {
+        "uid": "bltf194c847929be649",
+        "_content_type_uid": "blog_author"
+      }
+    ],
+    "taxonomies": [
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "analytics"
+      }
+    ],
+    "locale": "en",
+    "uid": "blt9880af97a05bc7b8",
+    "created_by": "blte12f8d786df2b4b9",
+    "updated_by": "blte12f8d786df2b4b9",
+    "created_at": "2026-07-21T20:27:06.309Z",
+    "updated_at": "2026-07-21T20:27:06.309Z",
+    "ACL": {},
+    "_version": 1,
+    "_in_progress": false
+  }
+}

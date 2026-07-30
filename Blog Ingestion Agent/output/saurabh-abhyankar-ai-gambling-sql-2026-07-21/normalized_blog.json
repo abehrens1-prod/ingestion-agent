@@ -1,0 +1,273 @@
+{
+  "title": "AI and Gambling: Probabilities Aren't in Your Favor",
+  "subtitle": "",
+  "slug": "ai-and-gambling-probabilities-arent-in-your-favor",
+  "url": "/ai-and-gambling-probabilities-arent-in-your-favor",
+  "author": "Saurabh Abhyankar",
+  "authorBio": "",
+  "publishDate": "2026-07-21T00:00:00.000Z",
+  "seo": {
+    "metaTitle": "AI and Gambling: Probabilities Aren't in Your Favor",
+    "metaDescription": "LLMs guess. Semantic layers govern. Learn why deterministic SQL and trusted metrics beat probabilistic AI for enterprise data decisions.",
+    "metaDescriptionFromDoc": false,
+    "targetKeywords": [
+      "semantic layer for enterprise AI",
+      "AI analytics governance",
+      "deterministic SQL vs LLM",
+      "trusted business metrics",
+      "governed data for AI"
+    ],
+    "metaDescriptionAlternatives": [
+      "AI generates plausible SQL, not always correct answers. Discover how a semantic layer ensures governed, consistent metrics every time.",
+      "Probabilistic AI models misinterpret business terms. See how Strategy's semantic layer delivers trusted, reproducible data for BI teams."
+    ],
+    "primaryKeywords": [
+      "semantic layer for enterprise AI",
+      "AI analytics governance",
+      "deterministic SQL vs LLM",
+      "trusted business metrics",
+      "governed data for AI"
+    ],
+    "secondaryKeywords": [
+      "LLM SQL accuracy",
+      "business metric consistency",
+      "AI-ready data foundation",
+      "BI team data governance",
+      "enterprise analytics trust",
+      "probabilistic AI risks in analytics",
+      "revenue definition data consistency",
+      "semantic layer and AI assistants",
+      "governed metrics for dashboards",
+      "AI data reliability for finance",
+      "enterprise BI semantic modeling",
+      "data governance for decision-makers"
+    ],
+    "longTailKeywords": [
+      "why LLMs generate wrong SQL for business queries",
+      "how a semantic layer prevents AI data errors",
+      "best way to govern metrics for enterprise AI analytics",
+      "why probabilistic AI cannot replace deterministic data systems",
+      "how to ensure AI assistants use correct business definitions",
+      "why revenue definitions break in AI-generated queries",
+      "how to build a trusted AI-ready data foundation for BI teams",
+      "what is the difference between LLMs and deterministic SQL engines",
+      "how enterprise analytics leaders can trust AI-generated insights",
+      "why semantic layers are essential for governed AI analytics",
+      "how to prevent wrong table joins in AI-generated SQL",
+      "best way to scale consistent metrics across dashboards and AI tools"
+    ],
+    "brandedKeywords": [
+      "Strategy",
+      "Strategy Mosaic",
+      "Strategy semantic layer",
+      "Strategy AI analytics",
+      "Strategy governed metrics"
+    ]
+  },
+  "quickAnswer": [
+    {
+      "headline": "LLMs generate plausible SQL, but not always the correct business answer.",
+      "body": "Probabilistic systems predict likely queries, which can join wrong tables or misinterpret business terms like 'revenue.'"
+    },
+    {
+      "headline": "A semantic layer captures how the business defines itself, not just data.",
+      "body": "It ensures every AI assistant, dashboard, and analyst interprets business metrics consistently and correctly every time."
+    },
+    {
+      "headline": "Deterministic SQL engines and AI models solve fundamentally different problems.",
+      "body": "AI excels at understanding language and intent; deterministic systems ensure governed, reproducible, trusted data retrieval."
+    }
+  ],
+  "quickAnswerFromDoc": false,
+  "heroMedia": null,
+  "body": [
+    {
+      "type": "section",
+      "heading": "",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "AI and Gambling: Probabilities Aren't in Your Favor",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "By Saurabh Abhyankar",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Walk into any casino and you'll find games built on probabilities. Some odds are better than others, but in the long run the house always wins."
+        },
+        {
+          "type": "paragraph",
+          "text": "I've been thinking about that a lot as I watch the explosion of AI in the enterprise."
+        },
+        {
+          "type": "paragraph",
+          "text": "LLMs are, at their core, probabilistic systems. Every word they generate is based on the statistical likelihood that it should come next. It's why they can write compelling prose, summarize documents, explain complex ideas, and carry on conversations that feel remarkably natural."
+        },
+        {
+          "type": "paragraph",
+          "text": "But when the conversation turns from generating language to retrieving business data, that same probabilistic system can lead you astray."
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Suppose I ask, "
+            },
+            {
+              "text": "\"What were our gross margins in Europe last quarter?\"",
+              "italic": true
+            },
+            {
+              "text": " Suddenly I'm not looking for a plausible answer—I'm looking for "
+            },
+            {
+              "text": "the",
+              "italic": true
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "right",
+              "italic": true
+            },
+            {
+              "text": " answer."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "LLMs are remarkable at understanding intent. In fact, translating natural language into something that resembles SQL has become surprisingly easy. Most modern models do it well enough that it's easy to conclude the problem has been solved."
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "But it hasn't. The hard part was never generating SQL syntax. The hard part has always been generating the "
+            },
+            {
+              "text": "right",
+              "italic": true
+            },
+            {
+              "text": " SQL."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "When someone asks for \"revenue,\" what exactly do they mean? Gross revenue? Net revenue? Recognized revenue? Bookings? Revenue after returns? Different organizations use the same words to mean different things."
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "An LLM doesn't inherently know any of that. It sees tables, columns, relationships, and documentation if you're lucky enough to have it. From there it predicts the SQL that is "
+            },
+            {
+              "text": "most likely",
+              "italic": true
+            },
+            {
+              "text": " to answer the question."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Most of the time, the LLM generated SQL will fetch the wrong answer It may join the wrong table, aggregate at the wrong level, interpret a business term incorrectly, or omit a security filter that should always be applied."
+        },
+        {
+          "type": "paragraph",
+          "text": "In a casino, you're expecting uncertainty. In an enterprise, you shouldn't have to gamble every time you ask for your quarterly revenue."
+        },
+        {
+          "type": "paragraph",
+          "text": "Over the course of my career, I've worked on semantic technologies at SAP, Business Objects, and now Strategy. Across all those companies, spanning multiple generations of analytics, the underlying problem has remained consistent. Enterprises don't struggle because they can't write SQL. They struggle because they need every application, dashboard, analyst, and now every AI assistant to interpret the business the same way."
+        },
+        {
+          "type": "paragraph",
+          "text": "A semantic layer isn't just metadata describing tables and columns. It's a representation of how the business defines itself. Importantly, a good semantic layer must also generate the SQL deterministically, not probabilistically."
+        },
+        {
+          "type": "paragraph",
+          "text": "The request should be handed to a deterministic engine that understands the business semantics, applies the correct security policies, generates the appropriate SQL, and executes it the same way every single time."
+        },
+        {
+          "type": "paragraph",
+          "text": "At Strategy, that's exactly what we've been building for more than three decades. Our SQL engine wasn't designed because SQL is difficult to write. It was designed because businesses need deterministic answers. The semantic layer captures the organization's business definitions, while the SQL engine deterministically translates those definitions into optimized queries. The result is an architecture that's been trusted by some of the most regulated and risk-averse organizations in the world."
+        },
+        {
+          "type": "paragraph",
+          "text": "Let AI do what it's exceptional at: understanding language, interpreting intent, explaining results, surfacing insights, and making analytics accessible to everyone."
+        },
+        {
+          "type": "paragraph",
+          "text": "Then let deterministic systems do what they've always done best: retrieve trusted, governed, reproducible business data."
+        },
+        {
+          "type": "paragraph",
+          "text": "For decades we've talked about systems of record for transactions and systems of record for data. I think the AI era introduces a new requirement: a system of record for meaning."
+        },
+        {
+          "type": "paragraph",
+          "text": "That's what a semantic layer provides."
+        },
+        {
+          "type": "paragraph",
+          "text": "The future of enterprise AI isn't choosing between probabilistic models and deterministic systems. It's recognizing that they solve fundamentally different problems. One is best for reasoning. The other is best for calculating."
+        },
+        {
+          "type": "paragraph",
+          "text": "And when the question is about your company's numbers, probabilities simply aren't in your favor."
+        },
+        {
+          "type": "image",
+          "sourcePath": "image_0.png",
+          "assetUid": "",
+          "altText": "",
+          "url": ""
+        }
+      ]
+    }
+  ],
+  "faq": [],
+  "postFaqContent": [],
+  "suggestedTaxonomyTerms": [
+    "Semantic Layer",
+    "Enterprise AI",
+    "Data Governance",
+    "Business Intelligence",
+    "Analytics"
+  ],
+  "cta_list": [],
+  "internalLinks": [],
+  "externalLinks": [],
+  "validationWarnings": [
+    "No H2 headings found in the document — all content placed in a single intro section with empty heading.",
+    "The title and author lines are marked [BOLD] at the top of the document rather than as [H1] or standard byline markers; title and author have been inferred from their position and bold formatting.",
+    "No publish date found in the document.",
+    "No alt text available for the embedded image (image_0.png).",
+    "No FAQ section found in the document.",
+    "No CTA boxes found in the document.",
+    "No internal or external links ([LINK:] markers) found in the document.",
+    "The word 'Strategy' appears to refer to the company MicroStrategy or a rebranded entity — human review recommended to confirm proper noun usage throughout.",
+    "publishDate was not found in the document — defaulted to tomorrow (2026-07-21T00:00:00.000Z). Confirm before publishing.",
+    "No Quick Answer box found in document — 3 bullets synthesized from article content. Review before publishing and edit in the Contentstack editor if needed."
+  ]
+}

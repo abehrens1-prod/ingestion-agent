@@ -1,0 +1,240 @@
+{
+  "title": "Why This Gartner Recognition Matters to Us Now",
+  "subtitle": "Strategy Named as a Visionary in the 2026 Gartner® Magic Quadrant™ for Analytics and Business Intelligence Platforms",
+  "slug": "why-this-gartner-recognition-matters-to-us-now",
+  "url": "/why-this-gartner-recognition-matters-to-us-now",
+  "author": "Henry Guo",
+  "authorBio": "",
+  "publishDate": "2026-07-01T00:00:00.000Z",
+  "seo": {
+    "metaTitle": "Strategy Named a Visionary in 2026 Gartner MQ for BI",
+    "metaDescription": "Strategy is a 2026 Gartner Magic Quadrant Visionary. See why governed semantics and AI-ready analytics define the next era of BI.",
+    "metaDescriptionFromDoc": false,
+    "targetKeywords": [
+      "Gartner Magic Quadrant analytics and BI platforms",
+      "governed semantic layer",
+      "AI-ready analytics platform",
+      "enterprise BI decision-making",
+      "agentic AI analytics"
+    ],
+    "metaDescriptionAlternatives": [
+      "Learn why Strategy's 2026 Gartner MQ Visionary placement reflects the market shift toward governed metrics and agentic AI analytics.",
+      "Discover how Strategy's Gartner recognition aligns with the rise of governed business context for BI tools, apps, and AI agents."
+    ],
+    "primaryKeywords": [
+      "Gartner Magic Quadrant analytics and BI platforms",
+      "governed semantic layer",
+      "AI-ready analytics platform",
+      "enterprise BI decision-making",
+      "agentic AI analytics"
+    ],
+    "secondaryKeywords": [
+      "business intelligence visionary 2026",
+      "governed business metrics",
+      "reusable business logic BI",
+      "AI-augmented decision support",
+      "semantic layer for AI agents",
+      "enterprise analytics governance",
+      "BI platform evaluation criteria",
+      "analytics for finance and operations",
+      "consistent metrics across applications",
+      "self-service analytics governance",
+      "Gartner MQ BI 2026",
+      "data trust for enterprise AI"
+    ],
+    "longTailKeywords": [
+      "why governed semantics matter for AI-ready analytics",
+      "how to evaluate BI platforms for agentic AI readiness",
+      "what does Gartner Magic Quadrant Visionary mean for BI buyers",
+      "how to reuse business logic across BI tools and AI agents",
+      "best way to govern metrics across enterprise applications",
+      "why dashboards alone are not enough for AI analytics",
+      "how enterprise analytics platforms support AI decision-making",
+      "what is a semantic layer and why it matters for AI",
+      "how to ensure consistent metrics in enterprise BI and AI",
+      "why analytics governance is critical for agentic AI",
+      "how BI platforms are evolving for AI-augmented workflows",
+      "what enterprise analytics leaders should know about the 2026 Gartner MQ"
+    ],
+    "brandedKeywords": [
+      "Strategy",
+      "Strategy Mosaic",
+      "Strategy analytics platform",
+      "Strategy semantic layer",
+      "Strategy Gartner Magic Quadrant"
+    ]
+  },
+  "quickAnswer": [
+    {
+      "headline": "AI-ready analytics needs more than dashboards and data access.",
+      "body": "It needs governed business context that BI tools, applications, and AI agents can reuse consistently."
+    },
+    {
+      "headline": "Strategy has been positioned as a Visionary in the 2026 Gartner® Magic Quadrant™ for Analytics and Business Intelligence Platforms.",
+      "body": "In our view, this recognition aligns with a broader market shift toward platforms that can define, govern, and reuse business logic across people, applications, and AI agents."
+    }
+  ],
+  "quickAnswerFromDoc": true,
+  "heroMedia": null,
+  "body": [
+    {
+      "type": "section",
+      "heading": "",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The significance of the 2026 Gartner® Magic Quadrant™ is not only Strategy's Visionary placement. In our view, it also reflects a broader shift in how the analytics and BI market is evolving."
+        },
+        {
+          "type": "paragraph",
+          "text": "Analytics and BI platforms are no longer being defined only by dashboards, reports, and self-service analysis. The market conversation is moving toward agentic AI, governed semantics, and AI-augmented decision support. That changes the buyer question."
+        },
+        {
+          "type": "paragraph",
+          "text": "The era of duplicating business logic across every tool is ending. Enterprises cannot keep redefining metrics inside each dashboard, application, AI assistant, and data platform. That path creates metric drift at AI scale."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Why Governed Context Matters for AI-Ready Analytics",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "AI does not just need access to enterprise data. It needs to understand what the business means by that data: which revenue definition is approved, which customer population counts, and which hierarchy, permission, time period, or relationship should shape the answer."
+        },
+        {
+          "type": "paragraph",
+          "text": "In BI, those differences create reconciliation work. In agentic analytics, they can move directly into recommendations, workflows, and customer-facing actions. Dashboards exposed inconsistent definitions. AI agents can operationalize them. Closing that gap requires more than connecting an LLM to a warehouse, lakehouse, dashboard, or catalog. It requires business context that travels with every query, workflow, and agent interaction."
+        },
+        {
+          "type": "paragraph",
+          "text": "That is the role Strategy Mosaic is built to play: a governed universal semantic layer where metrics, relationships, permissions, and business logic can be defined once and reused across tools. AI agents do not replace dashboards, reports, or existing analytics investments. They make reusable business meaning more important because every new AI workflow needs the same trusted foundation."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "How We Believe Strategy Mosaic Supports This Shift",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "In our view, the practical enterprise question is clear: how can AI use analytics without rebuilding logic or weakening governance?"
+        },
+        {
+          "type": "list",
+          "style": "bullet",
+          "items": [
+            "Universal semantic layer. Define metrics and business logic once, then reuse them across BI tools, applications, embedded analytics, and AI agents.",
+            "Governed AI access. Give AI tools approved metrics and semantic definitions without exposing agents to raw schemas. MCP support is in preview, with APIs for other workflows.",
+            "Faster, cleaner modeling. Model business logic with flexible joins, custom calendars, business-friendly naming, AI-assisted controls, and Databricks Unity Catalog metadata integration.",
+            "Open semantic reuse. Use APIs and standards-oriented work, including participation in Open Semantic Interchange, to carry trusted definitions across data sources, BI tools, applications, and AI platforms.",
+            "Operational visibility. Monitor access, governance, anomalies, and cost with Mosaic Sentinel and Sentinel Cost Intelligence as usage grows."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Strategy Mosaic acts as the semantic control plane between enterprise data sources and downstream experiences, from dashboards and embedded analytics to AI assistants and operational workflows. Data stays where it lives. Business meaning stops being rebuilt in every tool."
+        },
+        {
+          "type": "image",
+          "sourcePath": "image_0.png",
+          "assetUid": "",
+          "altText": "",
+          "url": ""
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Figure: Strategy Mosaic connects enterprise data infrastructure to downstream decision experiences through a universal semantic layer.",
+              "italic": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "This is the practical answer: business context is governed once, then carried consistently into every query, workflow, and AI interaction."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "What Comes Next for Strategy",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The next phase of AI-ready analytics is not about adding more disconnected AI features. It is about making business meaning reusable, governed, and available across the full decision lifecycle."
+        },
+        {
+          "type": "paragraph",
+          "text": "That is where Strategy Mosaic is headed: richer business concepts, reusable relationships, stronger governance, broader AI access, and deeper visibility through Mosaic Sentinel. The goal is simple: help enterprises move faster without rebuilding logic, losing trust, or giving up control as AI usage scales."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Why does governed context matter more as analytics becomes AI-enabled?",
+      "answer": "AI-enabled tools can summarize, recommend, trigger workflows, and guide decisions, not just display answers. That makes trusted context operationally important: the same question should not produce different answers across tools, teams, or agents.",
+      "accordionEnabled": true
+    },
+    {
+      "question": "Why is Strategy Mosaic central to this positioning?",
+      "answer": "Mosaic provides the semantic foundation that connects BI, embedded analytics, applications, and AI agents to consistent business context. It helps analytics and AI use the same trusted metrics, relationships, permissions, and policies rather than rebuilding logic in each tool.",
+      "accordionEnabled": true
+    },
+    {
+      "question": "What role does MCP play in the Strategy Mosaic story?",
+      "answer": "Model Context Protocol support gives AI agents a more standardized path to approved semantic definitions and metrics. Rather than exposing agents directly to raw schemas, Mosaic can provide business-ready context with inherited governance and access controls. Mosaic MCP support is currently in preview, with broader availability planned for a future release.",
+      "accordionEnabled": true
+    },
+    {
+      "question": "How does Strategy handle governance as AI usage scales?",
+      "answer": "Mosaic Sentinel centralizes governance, monitoring, and auditability across governed semantic access and AI-driven analytics activity. Sentinel Cost Intelligence also helps connect analytics usage and spend back to governed assets so cost becomes part of the governance conversation.",
+      "accordionEnabled": true
+    }
+  ],
+  "postFaqContent": [
+    "Ready to build AI-ready analytics on governed business context? Request a Mosaic Demo",
+    "Download the Semantic Layer Buyer's Guide",
+    "Learn more about Strategy Mosaic",
+    "Gartner, Magic Quadrant for Analytics and Business Intelligence Platforms, Anirudh Ganeshan, Christopher Long, Edgar Macari, 29 June 2026.  Gartner® and Magic Quadrant™ are trademarks of Gartner Inc. and/or its affiliates.  Gartner does not endorse any vendor, product or service depicted in its research publications, and does not advise technology users to select only those vendors with the highest ratings or other designation. Gartner research publications consist of the opinions of Gartner's business and technology insights organization and should not be construed as statements of fact. Gartner disclaims all warranties, expressed or implied, with respect to this research, including any warranties of merchantability or fitness for a particular purpose."
+  ],
+  "suggestedTaxonomyTerms": [
+    "Semantic Layer",
+    "AI-Ready Analytics",
+    "Data Governance",
+    "Business Intelligence",
+    "Enterprise AI"
+  ],
+  "cta_list": [
+    {
+      "headline": "Go Deeper",
+      "body": "Ready to build AI-ready analytics on governed business context?",
+      "buttonText": "Request a Mosaic Demo",
+      "buttonUrl": ""
+    }
+  ],
+  "internalLinks": [],
+  "externalLinks": [],
+  "validationWarnings": [
+    "No author or publish date found in the document.",
+    "The 'Go Deeper' section uses [H1] heading level rather than [H2]; treated as a post-FAQ CTA section and also captured in cta_list. The bullet items 'Download the Semantic Layer Buyer's Guide' and 'Learn more about Strategy Mosaic' lack [LINK:] markers — no URLs available to map.",
+    "The FAQ section uses [H2] heading level rather than a dedicated FAQ heading pattern, but content clearly functions as FAQ; extracted accordingly.",
+    "All [H1] tags after the first appear to be used as section headings within the article (not additional titles). Mapped each as a top-level section in body using level 2 per schema rules, since only [H2] creates new sections — however, the source markup uses [H1] throughout. Human review recommended to confirm intended heading hierarchy.",
+    "The embedded image has no alt text, URL, or filename in the source document. Assigned sourcePath 'image_0.png' as placeholder.",
+    "No [LINK:] markers found in the document; internalLinks and externalLinks are empty.",
+    "The list items in 'How We Believe Strategy Mosaic Supports This Shift' contain inline bold markers ([B]...[/B]) for the label portion of each bullet. These are preserved as plain text in the list items array; rich-text formatting within list items is not supported by the list block schema — human review recommended if bold formatting must be preserved.",
+    "Attribution and Legal Disclaimers section treated as post-FAQ plain text content.",
+    "publishDate was not found in the document — defaulted to pipeline run date (2026-07-01T00:00:00.000Z). Confirm before publishing."
+  ]
+}

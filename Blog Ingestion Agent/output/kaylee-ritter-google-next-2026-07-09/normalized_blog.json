@@ -1,0 +1,455 @@
+{
+  "title": "Google Next '26 Made the Semantic Layer Impossible to Ignore",
+  "subtitle": "",
+  "slug": "google-next-26-made-the-semantic-layer-impossible-to-ignore",
+  "url": "/google-next-26-made-the-semantic-layer-impossible-to-ignore",
+  "author": "Kaylee Ritter",
+  "authorBio": "",
+  "publishDate": "2026-07-10T00:00:00.000Z",
+  "seo": {
+    "metaTitle": "Google Next '26 Made the Semantic Layer Impossible to Ignore",
+    "metaDescription": "Google Next '26 confirmed it: semantic layers are essential for agentic BI. See how Strategy Mosaic governs AI with trusted, consistent metrics.",
+    "metaDescriptionFromDoc": false,
+    "targetKeywords": [
+      "semantic layer",
+      "agentic BI",
+      "governed AI analytics",
+      "enterprise semantic layer",
+      "AI-ready data foundation"
+    ],
+    "metaDescriptionAlternatives": [
+      "AI agents hallucinate without governed metrics. Learn why Google Next '26 made the semantic layer non-negotiable—and how Strategy Mosaic delivers.",
+      "Discover how Strategy Mosaic's universal semantic layer stops AI hallucinations and governs agentic BI at enterprise scale."
+    ],
+    "primaryKeywords": [
+      "semantic layer",
+      "agentic BI",
+      "governed AI analytics",
+      "enterprise semantic layer",
+      "AI-ready data foundation"
+    ],
+    "secondaryKeywords": [
+      "Model Context Protocol MCP",
+      "metric governance",
+      "row-level security AI",
+      "business intelligence governance",
+      "KPI consistency",
+      "data lineage and audit",
+      "vendor-neutral semantic layer",
+      "BI decision-making",
+      "AI agent data access",
+      "governed metrics",
+      "enterprise analytics strategy",
+      "data fabric governance"
+    ],
+    "longTailKeywords": [
+      "why AI agents hallucinate KPI definitions without a semantic layer",
+      "how to govern AI agents in enterprise BI",
+      "best way to deploy agentic BI safely at scale",
+      "what is Model Context Protocol for AI data access",
+      "how to prevent AI from bypassing row-level security",
+      "why semantic layers are required for agentic AI",
+      "how to ensure consistent metrics across AI and BI tools",
+      "what Google Next 2026 announced about enterprise data and AI",
+      "how to scale governed AI analytics across business units",
+      "best semantic layer for enterprise AI and agentic workflows"
+    ],
+    "brandedKeywords": [
+      "Strategy",
+      "Strategy Mosaic",
+      "Strategy universal semantic layer",
+      "Strategy MCP-native analytics",
+      "Strategy governed BI"
+    ]
+  },
+  "quickAnswer": [
+    {
+      "headline": "The debate is closed. Semantic layers are not optional for agentic BI.",
+      "body": "Without one, AI agents fabricate KPIs, hallucinate metric definitions, and bypass row-level security."
+    },
+    {
+      "headline": "Governance cannot be retrofitted.",
+      "body": "Organizations with a governed semantic layer are far better positioned to deploy and scale agentic AI safely."
+    },
+    {
+      "headline": "MCP is becoming standard.",
+      "body": "Model Context Protocol is emerging as the universal standard for governed AI agent access to data, and vendors without it are already falling behind."
+    },
+    {
+      "headline": "Strategy Mosaic is the vendor-neutral answer.",
+      "body": "With 200+ data source connectors, MCP-native agent access, and full audit and lineage, Mosaic delivers portable, governed business logic above any single vendor's ecosystem."
+    }
+  ],
+  "quickAnswerFromDoc": true,
+  "heroMedia": null,
+  "body": [
+    {
+      "type": "section",
+      "heading": "",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Google made 260 announcements at its April 2026 conference in Las Vegas. For data teams, three of them changed everything, and they all pointed to the same thing: the semantic layer is no longer a forward-thinking concept."
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Looker BI Agents:",
+              "bold": true
+            },
+            {
+              "text": " AI agents grounded in a governed semantic layer so that every agent query returns a consistent, governed answer."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Native MCP server:",
+              "bold": true
+            },
+            {
+              "text": " Model Context Protocol becomes the standard for AI agent access to governed data. Vendors without it are now behind."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Agentic workflows:",
+              "bold": true
+            },
+            {
+              "text": " Agents that monitor metrics, detect anomalies, and surface recommendations autonomously within a governance boundary."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Google's investment in Looker and in the semantic layer wasn't a surprise to those already building on governed foundations. It was a signal that the direction is right and the market has now heard it at scale."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "What the Industry Just Confirmed",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Without a governed semantic layer, AI agents hallucinate metric definitions, fabricate KPIs, and bypass row-level security. The semantic layer isn't a new concept, and forward-looking data teams have understood its importance for years."
+        },
+        {
+          "type": "paragraph",
+          "text": "As Juliana Schoettler, Senior Outbound Product Manager at Strategy, puts it: \"AI needs to understand your business the same way any team member needs to in order to provide you with quality answers.\" The semantic layer is how you can make that happen. Semantics are not optional. They are how you organize what your business means and make it consistent."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "The Debate Is Closed",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "blockquote",
+          "text": "\"I think the debate is closed here. Semantics are not optional for agents or for BI.\" — Juliana Schoettler, Senior Outbound Product Manager, Strategy"
+        },
+        {
+          "type": "paragraph",
+          "text": "Three things the industry has now confirmed at scale:"
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "1. Semantic layers are not optional for agentic BI.",
+              "bold": true
+            },
+            {
+              "text": " Without a governed semantic layer, AI agents don't only return imprecise answers, they fabricate KPIs, hallucinate metric definitions, and bypass row-level security entirely."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "2. MCP is the emerging standard for governed data access.",
+              "bold": true
+            },
+            {
+              "text": " One of the biggest blockers to AI adoption is habit. People don't want to build new workflows from scratch. MCP really empowers meeting people where they're already working."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "3. Governed foundations cannot be retrofitted.",
+              "bold": true
+            },
+            {
+              "text": " Devon Plopper, Partner Enablement Director at Strategy, has seen this firsthand working directly with customers through Strategy's AI activation program confirms that, "
+            },
+            {
+              "text": "\"A lot of companies are feeling that pain now.\"",
+              "bold": false
+            },
+            {
+              "text": " A year ago, enterprise conversations were about experimenting with AI and getting value from it. Now, more organizations are hitting a wall."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Data frustrations: What Fragmented Data Looks Like in Action",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "image",
+          "sourcePath": "image_0.png",
+          "assetUid": "",
+          "altText": "",
+          "url": ""
+        },
+        {
+          "type": "paragraph",
+          "text": "A semantic layer is a common source of business definitions and metrics across your entire company, without it, the process is painful."
+        },
+        {
+          "type": "paragraph",
+          "text": "Comparing revenue from Tableau with its definition in Snowflake means asking the Tableau reporting team for one version and a separate data team for another. Days of work later, nobody trusts the answer."
+        },
+        {
+          "type": "paragraph",
+          "text": "A semantic layer changes that by creating unified business definitions, pulling consistent data from BI tools and warehouses, and layering AI on top to deliver fast, trustworthy answers. With Mosaic, common business definitions make it easier to pull information from BI tools and data warehouses, then use AI to generate an answer you can trust in a fraction of the time."
+        },
+        {
+          "type": "blockquote",
+          "text": "\"As a company, you have to make decisions about how you're defining different things. Maybe marketing defines a qualified lead as one thing and sales defines it as another. A semantic layer forces that conversation — and now, in the age of AI, it's no longer optional.\" — Devon Plopper, Partner Enablement Director, Strategy"
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "The AI landscape in 2026 didn't introduce the semantic layer to enterprise data teams. It made it impossible to ignore.",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Portability at Scale: How Mosaic Connects",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Centralizing your definitions in a semantic layer is essential to make sure that every metric is defined once and is governed across your stack. When you have row level security on the semantic layer, it allows you to get more granular with how you control the data."
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Mosaic reduces token consumption by over 30% by generating governed SQL and compressing context so AI isn't blindly hitting raw data sources for every query.",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Auditability that comes with governance also makes your answers more reliable and cost-efficient. Strategy Mosaic customers are seeing:"
+        },
+        {
+          "type": "list",
+          "style": "bullet",
+          "items": [
+            "$400M in annual savings across the customer base",
+            "551% ROI → $3.4M in net savings (UserEvidence)",
+            "5x faster analytics with semantic caching",
+            "83% faster time to market for new datasets"
+          ]
+        },
+        {
+          "type": "blockquote",
+          "text": "\"There's a lot of discussions I'm having right now with customers about tech stack consolidation. The thing you don't want to be slowed down on is rebuilding the understanding of your business to figure out if a tool works. You want to validate the tool, not re-explain your business to it.\" — Devon Plopper, Partner Enablement Director, Strategy"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Google Cloud on the AI Adoption Journey:",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "blockquote",
+          "text": "\"When we have partners like Strategy who are building incredible platforms like Mosaic that can integrate together — providing you with an outstanding experience for your everyday work.\" — Jim Fairweather, Head of AI GTM, Google Cloud"
+        },
+        {
+          "type": "paragraph",
+          "text": "Jim Fairweather, Head of AI GTM at Google Cloud, has a simple framework for how every person and company moves through AI adoption:"
+        },
+        {
+          "type": "list",
+          "style": "numbered",
+          "items": [
+            "Fall on your face. If you're not falling on your face, you're not going hard enough or trying enough new things.",
+            "Get the hang of it. You start to see how AI helps your day.",
+            "Loving life. \"Give AI your joyless and your friction work so you can spend more time on things that are uniquely you.\""
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "It's a framework that echoes a 1980 Apple internal memo from Mike Scott:"
+        },
+        {
+          "type": "image",
+          "sourcePath": "image_1.png",
+          "assetUid": "",
+          "altText": "",
+          "url": ""
+        },
+        {
+          "type": "paragraph",
+          "text": "Gemini Enterprise, Google Cloud's fastest-growing product ever, wins because it understands users' workflows and has the right context—exactly what Mosaic delivers for enterprise structured data."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "What Comes Next, and Who Will Be Ready for It",
+      "subheading": "",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Everybody knows there's value in AI, but there are still so many opportunities to unlock the potential with it."
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "For the industry:",
+              "bold": true
+            },
+            {
+              "text": " Semantic layers are now table stakes for Agentic AI. The next wave is federated governance, real-time decisioning, and AI agents that orchestrate across multiple domains."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "For Strategy:",
+              "bold": true
+            },
+            {
+              "text": " Mosaic continues to lead as the vendor-neutral semantic layer. 200+ connectors, MCP-native, and the only platform built for true multi-cloud portability."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "sourcePath": "image_2.png",
+          "assetUid": "",
+          "altText": "",
+          "url": ""
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "At World 2027:",
+              "bold": true
+            },
+            {
+              "text": " Join Strategy March 29-April 1, 2027, in Las Vegas to hear from industry leaders, see live product demos, and shape the roadmap for governed AI in the enterprise."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "What did Google Next '26 mean for enterprise data teams?",
+      "answer": "Google Next '26 made three things clear that validate the semantic layer's central role in enterprise AI: Looker BI Agents grounded in governed semantic models, a native MCP server making governed data access the standard, and agentic workflows that operate within governance boundaries.",
+      "accordionEnabled": true
+    },
+    {
+      "question": "Why can't governance be added to AI systems after the fact?",
+      "answer": "Once AI agents are deployed against ungoverned data, the effort required to retroactively impose governance is enormous. Organizations that skipped foundational work are now hitting a wall. Governed foundations don't just improve AI outputs, they also protect AI investments.",
+      "accordionEnabled": true
+    },
+    {
+      "question": "What is MCP and why does it matter for AI adoption?",
+      "answer": "MCP (Model Context Protocol), is the emerging open standard for how AI agents access governed data. One of the biggest blockers to AI adoption is asking people to build new habits. MCP eliminates that by meeting users where they already work — any MCP-compatible agent queries a single governed Mosaic server without rebuilding context or re-explaining your business.",
+      "accordionEnabled": true
+    },
+    {
+      "question": "What results are Strategy Mosaic customers seeing?",
+      "answer": "Mosaic customers are seeing $400M in annual savings, 551% ROI ($3.4M net savings per UserEvidence), 5x faster analytics through semantic caching, and 83% faster time to market for new datasets.",
+      "accordionEnabled": true
+    },
+    {
+      "question": "What does Google Cloud see as the new competitive advantage in enterprise AI?",
+      "answer": "Jim Fairweather, Head of AI GTM at Google Cloud, argues that the old enterprise moat is gone. The new moat is distribution, data, and trust. He also noted that Gemini Enterprise, Google Cloud's fastest-growing product ever, succeeds because it knows the workflows and has the context, which is exactly what Mosaic provides for enterprise structured data.",
+      "accordionEnabled": true
+    },
+    {
+      "question": "What is Strategy World 2027?",
+      "answer": "Strategy World 2027 takes place March 29-April 1, 2027 in Las Vegas. The event features industry leaders, live product demos, and sessions focused on the roadmap for governed AI in the enterprise. Learn more at software.strategy.com/strategyworld.",
+      "accordionEnabled": true
+    }
+  ],
+  "postFaqContent": [],
+  "suggestedTaxonomyTerms": [
+    "Semantic Layer",
+    "Enterprise AI",
+    "Data Governance",
+    "Agentic BI",
+    "Analytics"
+  ],
+  "cta_list": [
+    {
+      "headline": "Ready to Build Your Foundation?",
+      "body": "Learn more about Strategy Mosaic and join us at Strategy World 2027, March 29-April 1 in Las Vegas.",
+      "buttonText": "Learn more about Strategy Mosaic",
+      "buttonUrl": "https://software.strategy.com/strategymosaic"
+    }
+  ],
+  "internalLinks": [],
+  "externalLinks": [
+    "https://software.strategy.com/strategymosaic",
+    "http://software.strategy.com/strategyworld"
+  ],
+  "validationWarnings": [
+    "No author name or publish date found in the document.",
+    "No H1 heading marker present; title inferred from the most prominent italic paragraph at the top of the document.",
+    "The document uses [BOLD] paragraph markers rather than [H2] for section headings; these were interpreted as bold callout paragraphs or section headings based on context.",
+    "The section headings (e.g. 'Google Next '26 Changed the Conversation', 'What the Industry Just Confirmed', etc.) appear as [BOLD] paragraphs, not standard [H2] markers — mapped as H2 sections based on structural context.",
+    "The Quick Answer bullets were marked as [LIST_BULLET] items under a [BOLD] heading, not inside a [BOX_START]/[BOX_END]; interpreted as the Quick Answer box per content context.",
+    "Image blocks have no alt text or asset UIDs available in the source document.",
+    "The FAQ section heading 'Frequently Asked Questions' is marked as [BOLD] rather than a standard heading marker.",
+    "The last FAQ answer references 'software.strategy.com/strategyworld' via a [LINK:] marker with an http (not https) URL — preserved as-is.",
+    "Devon Plopper quote bullet items were combined with the blockquote above them as attribution; the bullet attribution pattern '[LIST_BULLET] Devon Plopper...' was treated as attribution for the preceding quote.",
+    "The [BOLD] marker for 'Mosaic reduces token consumption...' paragraph was treated as a bold callout paragraph rather than a section heading.",
+    "The numbered list items contained mixed bold/italic inline formatting; bold markers on item labels (e.g. 'Fall on your face.') were simplified to plain text in the list items array — rich formatting inside list items is not supported by the output schema.",
+    "publishDate was not found in the document — defaulted to tomorrow (2026-07-10T00:00:00.000Z). Confirm before publishing."
+  ]
+}

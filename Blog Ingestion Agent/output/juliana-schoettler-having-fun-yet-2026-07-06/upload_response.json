@@ -1,0 +1,528 @@
+{
+  "notice": "Entry created successfully.",
+  "entry": {
+    "title": "v1 Are We Having Fun Yet?",
+    "url": "/blog/are-we-having-fun-yet",
+    "lead_paragraph": {
+      "type": "doc",
+      "attrs": {},
+      "uid": "2c12e2bfaa674b1c8a591416e18170fb",
+      "children": [
+        {
+          "type": "p",
+          "uid": "202a6976e5df4beb869debd73e531bad",
+          "attrs": {},
+          "children": [
+            {
+              "text": "I was chatting with one of the engineers who had been on the AI Innovation team I ran at Strategy, and I asked what their favorite project was so far. They touched on a few things but eventually settled on an AI-powered sales intelligence tool our team built. They talked about how exciting it was to get to build something from the ground up, and how all the team members were able to bring their ideas and build something that ultimately was impactful to our organization.",
+              "attrs": {
+                "style": {
+                  "color": "rgb(26, 26, 26)"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "uid": "8020b6e33f2d43db971297ca78d03359",
+          "attrs": {},
+          "children": [
+            {
+              "text": "It's telling to me the contrast that I see, then, in meetings with customers. The stress, frustration, and confusion that underlies those discussions as they struggle to figure out how to use AI or where it can provide value. The only thing they know for certain is that they have to do it.",
+              "attrs": {
+                "style": {
+                  "color": "rgb(26, 26, 26)"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "_version": 1
+    },
+    "content": [
+      {
+        "section_anchor": {
+          "header_text": "Be Clear About What You're Evaluating",
+          "_metadata": {
+            "uid": "csd1dd3142d311064d"
+          },
+          "section_id": "be-clear-about-what-you-re-evaluating"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "e796f52953f041a2b0d2d4a9a1cccea7",
+            "children": [
+              {
+                "type": "p",
+                "uid": "409fa3170ac745b4a2d8b25094b0844d",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "What I have seen at the core of the AI anxiety our industry is too afraid to name is not knowing how to answer the question: ",
+                    "attrs": {
+                      "style": {
+                        "color": "rgb(26, 26, 26)"
+                      }
+                    }
+                  },
+                  {
+                    "text": "why isn't our AI working?",
+                    "italic": true,
+                    "attrs": {
+                      "style": {
+                        "color": "rgb(26, 26, 26)"
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "5a87fca073224a11b50e7dec586594db",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The answer is one cause with two common symptoms.",
+                    "attrs": {
+                      "style": {
+                        "color": "rgb(26, 26, 26)"
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "18b20699021f4417ad288c28e6fde0c5",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The cause: lack of clarity. The symptoms: a tool built without clear purpose or a tool built with purpose but on a fragmented foundation that can't give clear answers.",
+                    "attrs": {
+                      "style": {
+                        "color": "rgb(26, 26, 26)"
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "f3eceb350d0f4702a454e842a9beb7cf",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "I mentioned this in my ",
+                    "attrs": {
+                      "style": {
+                        "color": "rgb(26, 26, 26)"
+                      }
+                    }
+                  },
+                  {
+                    "type": "a",
+                    "uid": "6beb12ffb2d74690b362e178f46e5624",
+                    "attrs": {
+                      "url": "https://www.strategy.com/software/blog/if-ai-freed-all-your-time-what-would-you-build",
+                      "target": "_self"
+                    },
+                    "children": [
+                      {
+                        "text": "last post"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ", but if you don't have a clear use case, or if you're building an AI tool to satisfy a mandate instead of driving business value, whether the tool works becomes irrelevant. It's not that the tool doesn't work. It's that the tool doesn't work ",
+                    "attrs": {
+                      "style": {
+                        "color": "rgb(26, 26, 26)"
+                      }
+                    }
+                  },
+                  {
+                    "text": "for you",
+                    "italic": true,
+                    "attrs": {
+                      "style": {
+                        "color": "rgb(26, 26, 26)"
+                      }
+                    }
+                  },
+                  {
+                    "text": ".",
+                    "attrs": {
+                      "style": {
+                        "color": "rgb(26, 26, 26)"
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "b1530cfae1f74aa489239e6bc7af6978",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The second, while easier to name, can often feel more intimidating (though in my experience, this is often the more manageable symptom of the two). The source is still a lack of clarity, but it's that the AI solution lacks clarity about your business. If a tool doesn't understand what signals in your data drive your business or what things you prioritize, it will infer those variables and produce an answer that may seem wrong. It's important to understand, though, that the answer is not necessarily wrong, the AI just doesn't know that it's wrong ",
+                    "attrs": {
+                      "style": {
+                        "color": "rgb(26, 26, 26)"
+                      }
+                    }
+                  },
+                  {
+                    "text": "for you",
+                    "italic": true,
+                    "attrs": {
+                      "style": {
+                        "color": "rgb(26, 26, 26)"
+                      }
+                    }
+                  },
+                  {
+                    "text": ". (Variables, not coincidentally, Mosaic can explain to your AI solution to ensure that the answer is both right, and right for your business.)",
+                    "attrs": {
+                      "style": {
+                        "color": "rgb(26, 26, 26)"
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "9067175836534d6e9d2657e9464b87ae",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "As the industry and technologies move at an ever-increasing pace, the last thing that you want (or more accurately, can afford), is to be evaluating whether you have the right use case, or whether the tool has the right context about your business so that you're evaluating the tool and nothing else. ",
+                    "attrs": {
+                      "style": {
+                        "color": "rgb(26, 26, 26)"
+                      }
+                    }
+                  },
+                  {
+                    "type": "a",
+                    "uid": "46ae308fdd1449dc8ba1ed0d221ab1d0",
+                    "attrs": {
+                      "url": "https://www.strategy.com/software/blog/stop-overengineering-problems-you-dont-have",
+                      "target": "_self"
+                    },
+                    "children": [
+                      {
+                        "text": "This post"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " can give you the framework for the first, and Mosaic can ensure your business context is available to any AI tool for the latter.",
+                    "attrs": {
+                      "style": {
+                        "color": "rgb(26, 26, 26)"
+                      }
+                    }
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "csae84a8733d5bdf76"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "Beyond the AI Hype Cycle",
+          "_metadata": {
+            "uid": "csed8cde5e4bdd4116"
+          },
+          "section_id": "beyond-the-ai-hype-cycle"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "984651a53df443a496123b046f6e403a",
+            "children": [
+              {
+                "type": "p",
+                "uid": "735da50a0cbf433caba8080fefaa5fd8",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The way AI was first positioned as tools like ChatGPT stepped forward into the wider public consciousness was that it was a means to unlock our true potential and productivity. It would take away the work we didn't want to do and free us up to focus on the things that we enjoy. A few years later, what I see instead is a new kind of work. The tedium of how to get AI to work, but more importantly, figuring out what it should work ",
+                    "attrs": {
+                      "style": {
+                        "color": "rgb(26, 26, 26)"
+                      }
+                    }
+                  },
+                  {
+                    "text": "for",
+                    "italic": true,
+                    "attrs": {
+                      "style": {
+                        "color": "rgb(26, 26, 26)"
+                      }
+                    }
+                  },
+                  {
+                    "text": ".",
+                    "attrs": {
+                      "style": {
+                        "color": "rgb(26, 26, 26)"
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "2fbf40d04a76490d8afb903c2ad50084",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "During my time working on internal AI enablement and product development, I've observed the varying ways in which people interact with AI. There are still many I know in my personal life who are skeptical. Others use it while setting clear boundaries on the things they know they don't want AI to do or know. A few have fully embraced AI, giving it even unnecessary tasks that, in my opinion, a search engine could handle just as easily if not better.",
+                    "attrs": {
+                      "style": {
+                        "color": "rgb(26, 26, 26)"
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "7b28049eed1d452dbd2814f19cbd2a9c",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "My interactions with AI have evolved over time, and I find that it works best for me when I use it as a way to brainstorm and unpack my thoughts and ideas. Almost like unzipping a file and looking more clearly at the contents of my brain.",
+                    "attrs": {
+                      "style": {
+                        "color": "rgb(26, 26, 26)"
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "9ee19ba04255453c8e70a96475f059b0",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "What's recently stood out to me, though, are the ways in which people respond to the AI generated output that I share with them. I like to send people documents or decks outlining ideas that I have. To my mind, this is a menu of places that we can go, and potential steps that inform how we execute a larger overall project. What I've found, though, is that people take what is in the document verbatim, entering comments with feedback or reacting as if what I'm proposing is final stage.",
+                    "attrs": {
+                      "style": {
+                        "color": "rgb(26, 26, 26)"
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "b1e39fa77b0c4fcca28529a068df534a",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "In their defense, a ten plus page document is arguably not the easiest entry point into a discussion for most people. For me, though, I'm less attached to the specifics of the content but more to what we can grab and grow, discuss and bring to life outside of the spaces where LLMs live. What some might call the real world.",
+                    "attrs": {
+                      "style": {
+                        "color": "rgb(26, 26, 26)"
+                      }
+                    }
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "csff6e039a62df5f89"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "The Cost of Failure Anxiety",
+          "_metadata": {
+            "uid": "cs13deb3abf3ea586c"
+          },
+          "section_id": "the-cost-of-failure-anxiety"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "a5f965d329b04944b06128474b80783b",
+            "children": [
+              {
+                "type": "p",
+                "uid": "fdd31317aa334c04b1a1ece84ca6f922",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "I'm reminded of my time running the team that developed our Support chatbot, Auto Expert. When working on Auto Expert, I found that the developers were anxious that what we were doing was going to fail. They wanted to be able to know the final outcome from the beginning. But the reality is that most products, or at least any good product, like any truly self-realized person, exist in a place where there is no end state. It's a constant state of trying, iterating and growing what existed before to either an enhanced version of what already exists or something new entirely.",
+                    "attrs": {
+                      "style": {
+                        "color": "rgb(26, 26, 26)"
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "527bc34dfd5149408a1c725d03ac3c13",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "There was a moment working on the project the AI Innovation engineer mentioned that we realized that the project was going to cost over $60,000 per month to run. I remember the way the air went out of the room and how the team suddenly saw the project as a failure. But I reframed the problem for the team: it wasn't a failure; it was an opportunity to see where we could further enhance the tool we were working on to discover what we ",
+                    "attrs": {
+                      "style": {
+                        "color": "rgb(26, 26, 26)"
+                      }
+                    }
+                  },
+                  {
+                    "text": "could ",
+                    "italic": true,
+                    "attrs": {
+                      "style": {
+                        "color": "rgb(26, 26, 26)"
+                      }
+                    }
+                  },
+                  {
+                    "text": "build instead of attaching ourselves to an idea of what we ",
+                    "attrs": {
+                      "style": {
+                        "color": "rgb(26, 26, 26)"
+                      }
+                    }
+                  },
+                  {
+                    "text": "should ",
+                    "italic": true,
+                    "attrs": {
+                      "style": {
+                        "color": "rgb(26, 26, 26)"
+                      }
+                    }
+                  },
+                  {
+                    "text": "build.",
+                    "attrs": {
+                      "style": {
+                        "color": "rgb(26, 26, 26)"
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "e7a47499a8214d8fbe6bc9ebc7941215",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "I strongly believe that there is an opportunity in this process of AI development, as we test the limits of what AI can do, to have fun. Instead of trying to shove AI into boxes that support how things have always been, there is the possibility to use AI to do new things, things that we can't even imagine yet. But, like my team, first we must allow ourselves to let go of what we believe AI should be and open ourselves to the possibility of what could be. And maybe have fun doing it.",
+                    "attrs": {
+                      "style": {
+                        "color": "rgb(26, 26, 26)"
+                      }
+                    }
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs1a2f7cae2a72e876"
+          }
+        }
+      }
+    ],
+    "cta_section": [],
+    "related_posts": [],
+    "seo": {
+      "meta_title": "Are We Having Fun Yet? How AI Created a New Kind of Work",
+      "meta_description": "AI anxiety hits when purpose is unclear. Learn how Strategy helps enterprise teams define AI use cases and unlock real business value.",
+      "keywords": "enterprise AI analytics, AI use case definition, BI decision-making, AI business context, analytics strategy",
+      "social_thumbnail_override": null,
+      "enable_search_indexing": true
+    },
+    "page_properties": {
+      "navigation_title": "",
+      "header_color": null,
+      "hide_header_nav": false,
+      "hide_header_cta": false,
+      "hide_footer": false,
+      "disable_global_promo_banner": false,
+      "hide_auto_expert": false,
+      "sfid": "",
+      "marketo_id": "",
+      "cta_section": []
+    },
+    "resource_data": {
+      "date": "2026-07-06T00:00:00.000Z",
+      "type": "Blog",
+      "title": "Are We Having Fun Yet?",
+      "description": "AI anxiety hits when purpose is unclear. Learn how Strategy helps enterprise teams define AI use cases and unlock real business value.",
+      "featured": false
+    },
+    "tags": [],
+    "publish_date": "2026-07-06T00:00:00.000Z",
+    "author": [
+      {
+        "uid": "bltf194c847929be649",
+        "_content_type_uid": "blog_author"
+      }
+    ],
+    "taxonomies": [
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "ai_trends"
+      },
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "mosaic"
+      },
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "semantic_layer"
+      },
+      {
+        "taxonomy_uid": "blog",
+        "term_uid": "business_intelligence"
+      }
+    ],
+    "locale": "en",
+    "uid": "blt2adb7d591a8aac1a",
+    "created_by": "blte12f8d786df2b4b9",
+    "updated_by": "blte12f8d786df2b4b9",
+    "created_at": "2026-07-06T15:35:03.057Z",
+    "updated_at": "2026-07-06T15:35:03.057Z",
+    "ACL": {},
+    "_version": 1,
+    "_in_progress": false
+  }
+}

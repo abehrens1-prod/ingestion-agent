@@ -1,0 +1,2169 @@
+{
+  "entry": {
+    "title": "The Semantic Layer Is Becoming Context Infrastructure for AI",
+    "url": "/software/blog/the-semantic-layer-is-becoming-context-infrastructure-for-ai",
+    "lead_paragraph": {
+      "type": "doc",
+      "attrs": {},
+      "uid": "44aef66c65644b509a84803f57e18d23",
+      "children": [
+        {
+          "text": ""
+        }
+      ],
+      "_version": 1
+    },
+    "content": [
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "51c1d849012e42ec8cd26ea04c79a840",
+            "children": [
+              {
+                "type": "h2",
+                "uid": "1216a7dc16b644e78807d8951b553123",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Quick Answer"
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "uid": "1f9ee855688844b6b3dce3373c960e10",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "li",
+                    "uid": "c6c9fb97082d43a18e0f7700f6970f14",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "685e50186e8c4d0cb6509b2ba54f67ff",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "A context layer is governed infrastructure that defines business terms as enforced calculations.",
+                            "bold": true
+                          },
+                          {
+                            "text": " It models entity relationships and scopes answers to the user and decision at hand."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "7d4ca23625f84c6b955952a5924ed9ad",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "1d2454c9480040e996a1f4c269aa0378",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "The semantic layer is the natural foundation for AI context infrastructure.",
+                            "bold": true
+                          },
+                          {
+                            "text": " It already captures institutional knowledge about data and makes it machine-readable for consistent, governed query results."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "5a05f9b68f384bee9e56937de58498f7",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "d15c8f7dab8a48ebb7e71a866be331d1",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Organizations with governed metric definitions are one architectural step away from AI-ready data.",
+                            "bold": true
+                          },
+                          {
+                            "text": " With the right context layer, AI agents can reason correctly, act safely, and produce auditable outcomes."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs27b15a3af2842d22"
+          }
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "c60e44a7985b41a69b044a7624706dd9",
+            "children": [
+              {
+                "type": "p",
+                "uid": "5918b66b75ba4a959d1949509b3ce0e7",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Quick Answer: What is a context layer for enterprise AI?",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "6a40c722dbea4f6c8984fd186419a11a",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "A context layer is the governed infrastructure that tells AI systems what enterprise data actually means. It defines business terms as governed calculations, models the relationships between business entities, scopes answers to the user and decision at hand, and enforces access policy before any query reaches the database. The semantic layer is the natural foundation for this infrastructure. Organizations that have invested in governed metric definitions are one architectural evolution away from giving their AI agents the context they need to reason correctly and act safely."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "1bda411cac224b2d9607ff0b838b29fd",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Enterprise AI does not fail because models cannot generate answers. It fails when models are forced to infer what the business means."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "92a51504fe6c47c6a16b4953fdfb8871",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Ask an AI system about revenue, margin, churn, or claims exposure, and it can generate SQL in seconds. But unless the business logic is governed, the model still has to choose which definition applies, which table is authoritative, which join path is safe, and which records should be excluded."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "9c227d012f0d425484e28280f89a4865",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "This is the failure point."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "261d482428df43b68b1db34239d8b107",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The query executes, a number comes back, and the result looks entirely plausible. Nothing signals that the business logic was wrong before the first row was read."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "11d155da110e4dca87a3234b171c057b",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Human analysts bridge that gap through instinct and hard-won domain knowledge. AI agents need that context made explicit before they query, reason, or act."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "5dd9b318126c41f08dcb3ae82da8e4e2",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "That is why the semantic layer is evolving from BI infrastructure into context infrastructure for enterprise AI."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "c751096c0ae04348a67c1c4d8ebab28b",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "[IMAGE PLACEHOLDER]",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "76555ffea6bc466ea9920eebd13109ba",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Upload asset to Contentstack and replace this placeholder — source: image_0.png"
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "csc2b9ea6b35dae0c4"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "Why AI Agents Raise the Stakes for the Semantic Layer",
+          "_metadata": {
+            "uid": "cs78eb334d14466bc7"
+          },
+          "section_id": "why-ai-agents-raise-the-stakes-for-the-semantic-layer"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "9c4e4eb9b3b343428f5d290aac1f1eed",
+            "children": [
+              {
+                "type": "p",
+                "uid": "82bf2ec74078453495f2646956e200c2",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "For most of its history, the semantic layer was built around a practical assumption: the primary consumer was human."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "2237e18b7e204d4e8e9021887fe1a0c1",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The human analyst brought judgment, domain awareness, and accountability to every number they consumed. AI agents bring speed, scale, and autonomy. The governance infrastructure has to change to match."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "5162f2c69dae48a78636e75235046443",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "In traditional BI, the system was not the decision-maker. It reported. People interpreted, questioned, and acted. A wrong number might trigger a follow-up conversation. The cost of error was a corrected report. In an agentic deployment, the AI does not report. It acts. It sends the communication, updates the CRM record, triggers the procurement order, adjusts the pricing rule. The wrong interpretation does not produce a wrong number on a dashboard. It can produce a wrong action in a production system, sometimes before anyone reviews the decision."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "8be332a302864e2190975792d0fc8a1b",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Benchmarks increasingly point to the same architectural lesson: AI accuracy improves when models receive explicit business context instead of raw schema alone. Larger models can help, but the biggest gains often come from reducing how much business meaning the model has to infer on its own. That reframes the enterprise AI investment question from which model to deploy to what context infrastructure that model will operate on."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "9b22d3b5c5134818a20d888942bd15e6",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The shift is already documented. According to IDC's October 2025 Future Enterprise Resiliency and Spending Survey, 93% of respondents said GenAI and AI agents have increased focus on semantic layers in BI and analytics. The question is no longer whether semantic infrastructure matters for AI. It is whether organizations will build it deliberately or retrofit it under pressure."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs0cf90db1957d7e01"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "Context Is the Missing Infrastructure",
+          "_metadata": {
+            "uid": "cs574f4012c7c7e988"
+          },
+          "section_id": "context-is-the-missing-infrastructure"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "f7958d595a3346039b1b069a1e19e136",
+            "children": [
+              {
+                "type": "p",
+                "uid": "74c2999a92fe4c0bb5cae680dffaa657",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Enterprise AI failures follow a repeating pattern: wrong fact table selection, wrong data pulls from complex multi-row joins, incorrect aggregation of snapshot data, and metric definitions that differ across teams. The model may execute correctly in every case. The business context was wrong before the query started."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "541f2e2d73ab446b9fa9180b1ddf4d36",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The fix is architectural: make the correct interpretation explicit before the model generates a query."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "b78b0a006f834be89aa2fdc88600075d",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Consider a simple example. A model joins claims to coverage rows on a multi-year policy. The SQL executes successfully, but each claim is multiplied across five coverage-year rows before aggregation. The output looks valid. The number is wrong by 5x. No error appears because the SQL is syntactically correct; the failure is semantic. The model did not misunderstand SQL. It misunderstood business context."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "dba903c9ab46485aadc99edd7925767d",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "That infrastructure needs to tell AI not just what a metric is called, but how it is calculated, which entities it applies to, which users are entitled to see it, and how it should be scoped to the specific decision being made. A data catalog describes parts of it, but usually does not enforce it at query time. A semantic layer enforces much of it. A context layer brings the enforceable pieces together for AI."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "4ffd6031ab7e4576a347a8bdec57fbc3",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "[IMAGE PLACEHOLDER]",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "6d61a98b5e2f4561a7d94640f5e24b42",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Upload asset to Contentstack and replace this placeholder — source: image_1.png"
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "ebc65287e44342348299a5694d5769de",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Data tells you what happened. Metrics tell you how to measure it. Semantics tell you what it means. Context tells you what it means for this user, this workflow, this decision. Decisions are what the data was always meant to serve.",
+                    "bold": true
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs09a5cb4d5ac6fb64"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "The Semantic Layer Is the Natural Foundation",
+          "_metadata": {
+            "uid": "cs2106c2020d0e65de"
+          },
+          "section_id": "the-semantic-layer-is-the-natural-foundation"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "7af7afe3cf5b470088f1cb96edd3d8ae",
+            "children": [
+              {
+                "type": "p",
+                "uid": "cecf4b4513314b2292eb746577ab75c1",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Standardize meaning",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "3ffdc969c1374b5199f96767daadac0e",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "A semantic layer already does the hardest part of building context infrastructure: it captures institutional knowledge about data and makes it machine-readable. It defines what revenue means, which join path is authoritative, how a metric should aggregate across a hierarchy. That work is not easy, and organizations that have done it have a significant head start."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "ef2b9665e46f4e569bd3714896756180",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The question is what it takes to evolve that foundation into a full context layer. The evolution is not a replacement. It is an extension, adding capability in four directions."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "965f437e169549cbab5e9c30ef469442",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Standardize meaning",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "f698b8a6f6344631909d546b99ebf453",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Define and store metrics once with enforced calculation logic, dimensional scope, and aggregation rules. Every query, from every tool, produces the same result for the same question. An organization with ten different revenue definitions gets one. Every team, tool, and AI agent that touches revenue gets the same number, calculated the same way. This is where most organizations start, and it remains the most visible inconsistency fix a semantic layer delivers."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "5a5444d6604f4c74a239eddbe4ebf789",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Model business relationships",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "25d80139a1064b32b6eedfe094a6900f",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Metrics alone are not enough for AI. An agent reasoning about customer profitability needs to know not just how profitability is calculated, but which entities are involved, how they relate, and what business rules govern those relationships. Relationship context is a different category of problem entirely."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "ac98c8906548439f91764f335e99f03b",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Encode entities, relationships, cardinality, and approved join paths: customers, accounts, contracts, products, territories. This is the conceptual map that tells AI what exists in the business domain and how things connect. A model that knows what a metric means but not what it connects to cannot reason reliably across more than one entity at a time. Ontologies and knowledge graphs matter, and many sophisticated enterprise AI architectures will incorporate them. The governed semantic layer is the practical starting point for building that map: the relationships, policies, and lineage that turn metric definitions into something an AI agent can actually reason across."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "07d7045f79ac4f11ba98cc49365444a5",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Enforce governance and deliver decision context",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "e47500dcdb7c442193297cadaa58ad77",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Consider what happens when an AI agent queries revenue without governed context. It selects a table, infers a join path, and applies whatever aggregation logic the schema implies. The result executes cleanly and looks plausible. But if the wrong recognition rule applied, or the consolidation scope was too broad, or the user was not entitled to see results across all business units, nothing surfaces the error. The query succeeded. The answer was wrong."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "e62f2909d02e45b78ada8daf9540d0dc",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The context layer closes that gap before execution. Policies are enforced at the semantic object level. Lineage runs from metric to source. Scope is tied to the user and decision at hand. The same question asked by a finance analyst and a regional sales manager returns different answers because the rules are encoded, not because the AI made a judgment call."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "39fa3d9ab51647cab990ed0f7649ae2d",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Become agent infrastructure",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "3d84f3fe818c418b9ce68bd920e1b696",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The last step makes the semantic layer a first-class service for AI agents. Any agent can discover it, query it, and receive governed results from it, regardless of which framework, tool, or interface is asking."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "d0b589c4a94a48d0b1c2dc78b77c5dca",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "That requires the semantic layer to expose itself through open, standard interfaces rather than proprietary connectors. Model Context Protocol is one emerging standard that accelerates this. Organizations that deploy governed semantics through MCP make their context layer available to any compatible agent framework without rebuilding integration work for each new tool. But the principle is broader than any single protocol: governed context should travel with the query, enforce policy at compile time, and produce an auditable record of every access event, regardless of how the agent connects."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "0da9f33661ca40ef8da75c3c15bba50d",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The semantic layer is no longer a convenience for dashboard users. It is the governed foundation that AI agents depend on to reason correctly and act within policy."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "csd50c0e8434988e49"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "How Different AI Data Architectures Compare",
+          "_metadata": {
+            "uid": "cs38053ba94773beea"
+          },
+          "section_id": "how-different-ai-data-architectures-compare"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "5cd7a477b6124d89b3627d6f7dd4cc1a",
+            "children": [
+              {
+                "type": "table",
+                "uid": "abb9bafb72124ecdb42a71a3da0ea122",
+                "attrs": {
+                  "rows": 7,
+                  "cols": 5,
+                  "colWidths": [
+                    100,
+                    100,
+                    100,
+                    100,
+                    100
+                  ]
+                },
+                "children": [
+                  {
+                    "type": "tr",
+                    "uid": "9c879418468a4842848e8edb24243cd1",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "th",
+                        "uid": "f038c09df86a4597a384d882807bf532",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "7ceabaa2b9ff4213b856f81900b6570c",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Capability",
+                                "bold": true
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "th",
+                        "uid": "845258e8ace7479a86111f4520c145e0",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "08d59a07bedd46c9bb2eccbb438cb1bb",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Raw schema + text-to-SQL",
+                                "bold": true
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "th",
+                        "uid": "03544a379e4e406882121b22f77b3b58",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "693c27f984c348df89a937ffe52e8ef0",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "RAG-assisted AI",
+                                "bold": true
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "th",
+                        "uid": "3cbaad2f811b4878b8a95368e5994b43",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "ea29a5d7d2a24cb0902241c8f16cc809",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Semantic-layer AI",
+                                "bold": true
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "th",
+                        "uid": "2fd4bdabefcb4c2aa81ff8562cf9c22b",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "636f7739807942c1b666263abe141067",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Context-layer AI",
+                                "bold": true
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "tr",
+                    "uid": "bbafa657abee44b0bd88e19931a53ff0",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "td",
+                        "uid": "9f34dd37836a4ec58887fd2ee45018e6",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "c8a0c96826c546a382ebde419bd05f48",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Metric accuracy"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "7b292640a24e43a68d818e81be3b8ca1",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "aeee84b39da14ba781bb13cc19b7b61f",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Low"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "d13014318bf14d068810cdfdb05b14b2",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "8b4b9b9537684743b0ef74d656249ce6",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Medium"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "6365ebb30c8e4e26a4f3a9575b5c3b03",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "611b702c148741dfa37849ef07f0445c",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "High"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "af0c18181e164236b05614eaa7c5302e",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "ac49fb781b0840fc9b7a4eb640757c85",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Governed + enforced"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "tr",
+                    "uid": "e9f2263a9b3143a6aa943b552f3e70d6",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "td",
+                        "uid": "59cb60f2e1754bd390f58406d150afe7",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "ab5bbb3339e24684acf8de2ad532872f",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Join correctness"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "b069a5991f5e4bc6b35b71f62cd09d98",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "47af7c7c2ed849ec9d7a2689a60218e9",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Error-prone"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "1e0426d153344c38b0c630fdc426e689",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "0f0ae221b246470bb86c44113e3462fa",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Partial"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "e4eb908d651c496ba5beb46a241a0ec3",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "6bd7f09db4ca452e83091bd49d938023",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Consistent"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "6658ee6315db44b8aa705cf627cc0d0a",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "cb16fa4f1c8a404aa65cd6d24bc65d08",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Enforced at compile time"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "tr",
+                    "uid": "91675d7c357c4335a275ddf04267270c",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "td",
+                        "uid": "fd8f788035af4fbbb9376ac97a1d5d53",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "70db5052efef46e7a43ce3334f229b1e",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Decision context"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "e9e794a2734748f7b4605ea39f69ddf4",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "73173245725d4f11b0b2597be13f0f67",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "None"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "84cfbb63245e4177bb6752c247d73e80",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "9765158cb97e437ab26191960c445844",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Partial retrieval"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "704ad32bc5d948389cb0400cdc2514cf",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "9c41ad215d91435abe9bf9ff9c6434c1",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Metric scope only"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "010058ede5644cf4a6c64f8a16ed0855",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "eb991385b66c4e108b59cc0f73d1b989",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "User, role, workflow, decision"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "tr",
+                    "uid": "a195a44f9cd749ddb1063ee148a37fbe",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "td",
+                        "uid": "387f5263769f488c8ec604e242518d5e",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "96f7f724b50542f8bb48d998a3b171d2",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Access control"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "9d80cd8b46744a94bf9f1cdd7635503e",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "f4c61a680a194268b6c7676b9fa0873e",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "DB layer only"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "2e81b62bdd3942bebb0852a62ac66129",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "e4a1bebb0022418e998a94f684708b1b",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Not enforced"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "bbf2d47fd7e04085bcf4494eb989c6a2",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "882537f50d0949cd80449d1660e3810e",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Semantic layer"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "44cbd9b1275a44b1bd8f2d515c9c0428",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "6ce0710a6a864028a08913895d662f0d",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Compile-time + audit trail"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "tr",
+                    "uid": "ab3ec601f6a04bd299f78b665295d768",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "td",
+                        "uid": "069088b317e9431f9055b09965b54e58",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "bb93bb53cbdc49bca225d193b052b224",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Agent readiness"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "1f7a7e72951e439ea2d92e9202365106",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "015420bc15e14f56b786a5fb11e7eef9",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "None"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "dc58fe816112448281b982750b3a3eaf",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "27e72d700fa342dbbd6a36794791e576",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Partial"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "54ab6cb04bbb484a854bd2751c98150b",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "2ff880e3564841f28f28d31642bc1e05",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Good"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "44aba3a6cad743eb92f13461e63ce873",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "750a396781aa4b6db21584fd9876f38a",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Native via MCP"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "tr",
+                    "uid": "6587d1b9e60e4fb8827d1f8ee7c9e6ef",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "td",
+                        "uid": "e856005f5fcd4e2299143012e9663e5d",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "6f34abbd607c46dd98179a531a1a182f",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Business-logic error risk"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "1f0be9365fb44111a08278e01b14403d",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "16b96cd643dc4aefaab9cefe08803ad0",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "High"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "10969c4ec12b4287a12810b0af5a726a",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "04f84cf63dc543339bb8ceadf4169fa1",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Moderate"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "d185dfe6179840a996d75648a95375b6",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "4f0dbaf5a41443ccb3a28875e802f020",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Low"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "40d189274dfa4705be4ff067567beb87",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "a6529b68185e4d2e9045fbe22f110195",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Significantly lower"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "adb6f80ce2e0482ca7c8a285c5f19d8d",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The rightmost column represents a semantic layer that has evolved through all four stages. Each column to its left shows what is missing at each prior stage.",
+                    "bold": true
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "csa46b091d4b03faaf"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "Why This Matters for Enterprises Deploying AI Today",
+          "_metadata": {
+            "uid": "cs8cb941cf0990da11"
+          },
+          "section_id": "why-this-matters-for-enterprises-deploying-ai-today"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "3d26779b2f0445f9a2bb97e466ce765d",
+            "children": [
+              {
+                "type": "p",
+                "uid": "eb8d18bab8264f78a35ac10f591cc504",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "AI agents can now span across entire data estates",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "64e2d23f1640456f8ebd9dc6018924d6",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Most organizations piloting AI start with simple questions against clean data, and early results look encouraging. Then they move to production: complex schemas, multi-source queries, autonomous agents acting across systems. The gaps that did not exist in the controlled environment appear quickly. What worked in the pilot does not hold at scale."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "5cfa7bfb3aea42049d7effe6f5b9659e",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The context layer is the difference between AI that earns a place in workflows that matter and AI that stays in the sandbox."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "1a118ef74f1449b9af96971a98d92db3",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "AI agents can now span across entire data estates",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "319f472a419540e4b9d465ea63d66d33",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Modern AI deployments do not query a single table. Agents traverse CRM systems, cloud data warehouses, ERP platforms, SaaS applications, and financial systems simultaneously and autonomously. Each source has different schemas, different naming conventions, and different implicit business rules. Without a governed translation layer, the agent carries its inferences and its errors across every boundary it crosses. A context layer gives every agent, across every system, the same governed definitions. Definitions, relationships, policies, and lineage travel with the query."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "e5f518fa21114f6b9080f974bb09fb92",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Governance is not optional when AI acts",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "1948b504d0ab4c0a8c1f2d9dc3eb3cb9",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "As AI systems take action in business processes, organizations must demonstrate what data was accessed, which controls applied, and how conclusions were reached. A context layer with compile-time governance and audit logging provides this infrastructure. Every query is validated against governed definitions before it reaches the database. Every access event is recorded with the full governance decision captured. When an auditor or regulator asks how the AI reached a conclusion, the answer is in the audit trail."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "9689d176fda944e69bc2af399ff6cac4",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The architecture also changes the economics",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "c48db4de1d934191a3f675dd5af4b917",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Many text-to-SQL approaches send large portions of schema context to the AI model on each call. For production schemas with hundreds of tables, this overhead becomes a material cost that scales with schema size and query volume. A context layer compresses what the AI receives to only what is relevant for the question at hand. Strategy AI Agents take this further by minimizing schema context in the AI loop, so schema-context overhead does not scale in the same way as raw text-to-SQL approaches."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "702dac48273c46769b42fb6498057264",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "In our benchmark environment, the difference looked like this:"
+                  }
+                ]
+              },
+              {
+                "type": "table",
+                "uid": "886ff3de430a4a248c889f673552cc07",
+                "attrs": {
+                  "rows": 4,
+                  "cols": 3,
+                  "colWidths": [
+                    100,
+                    100,
+                    100
+                  ]
+                },
+                "children": [
+                  {
+                    "type": "tr",
+                    "uid": "18aca539308a4b13ba150e3e7f667b7b",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "th",
+                        "uid": "0b5c1273db8342fa8c158acf0dc1d5d3",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "39e81eca6d4244eb954e64b56902c5bf",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Approach",
+                                "bold": true
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "th",
+                        "uid": "2d80a937013a4793a455db0741cdb39b",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "cea1b0c7bcce4319840464e5b377c66e",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Schema tokens / query",
+                                "bold": true
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "th",
+                        "uid": "24d10ad73299449aadfb01ffe91c4e18",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "a44e33213fac4034908b1a88d1709576",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Indicative cost vs. baseline",
+                                "bold": true
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "tr",
+                    "uid": "6a4ac13496a44044a445b82ff49f9108",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "td",
+                        "uid": "0b4ce0cf01f04d9cac253d76bb5a86c0",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "94b8fb3189b741b1b9bd75a4f79d1410",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Direct SQL (text-to-SQL)"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "c7f887ad404146209a5ad8efffbab5f9",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "4e0070280d124b57a5dc8b9cecbc8fd3",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "~4,800 tokens"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "a6b63933c33147c9b34e15cbdfa3517d",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "c323691e979c4476a433ee071951e152",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Baseline"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "tr",
+                    "uid": "2e601fb3b1084b2990c85dc24f8e2249",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "td",
+                        "uid": "7f6d59d7f56a4b04b46cc8bdb7818d4d",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "9df726166e404998a6e8862c6aa7a970",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Mosaic MCP"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "b86b064a93b3483c8053be038ee93500",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "d8ce549f0e0b44b8a87b47810cb6ae3e",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "~2,400 tokens"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "8fcf97e045b0463f877bed7b273d5c1e",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "601dddaa97f5416cab2f8361f1aaceaa",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Significantly lower"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "tr",
+                    "uid": "f41b7e7219cd4a1482251294850f39f2",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "td",
+                        "uid": "a15bc7db167f413f9880e425fab5089e",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "5b0bbccdd3ee496ba3fc4176d955ce56",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Strategy AI Agents"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "9d512f43983b42ffbff17956ba15adbc",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "581ecfd94f464e37a3f244c1015b42d1",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "~50-100 tokens"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "1044b322c8144a0fa0a55d50b8af2acc",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
+                          {
+                            "type": "p",
+                            "uid": "e89de3b963164eeda1c44767c550905f",
+                            "attrs": {},
+                            "children": [
+                              {
+                                "text": "Near elimination of schema overhead"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs674edb193c6aa79f"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "Strategy Mosaic as the Universal Semantic Layer",
+          "_metadata": {
+            "uid": "cscb3c4902e8d5ff52"
+          },
+          "section_id": "strategy-mosaic-as-the-universal-semantic-layer"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "d73b36516f354e32b227418276bda902",
+            "children": [
+              {
+                "type": "p",
+                "uid": "9ba9d5929603419099f690d60443c887",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Historically, semantic layers were built around a specific stack or ecosystem. Definitions stay inside that environment. When the consumer changes, from a dashboard user to an AI agent, the layer either does not reach at all, or it reaches without governance."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "8eacbc3a40724b6d8e76a52983037db4",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Mosaic is designed to break that constraint by making governed semantics available beyond a single BI tool, data platform, or AI framework. Business definitions, governance rules, and access policies are defined once and applied consistently across dashboards, SQL, APIs, and AI agents. Queries are validated before they reach any data source. Those that fail policy return structured errors rather than executing. Mosaic Sentinel observes every access event and provides tamper-evident auditability across governance decisions."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "b31e5919fb1f4b5db017aa5f6aa8db31",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "a",
+                    "uid": "bc85f5e281c54811abae9f5e148f2044",
+                    "attrs": {
+                      "url": "https://www.goeasy.com/",
+                      "target": "_blank"
+                    },
+                    "children": [
+                      {
+                        "text": "goeasy"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " one of Canada's leading non-prime consumer lenders, has used Strategy Mosaic to scale trusted data across retail banking, loan underwriting, and branch operations. As goeasy modernized its data environment and began early work with agentic AI, Mosaic helped provide a universal semantic foundation that could carry trusted business definitions into the next generation of data and AI workflows. "
+                  },
+                  {
+                    "type": "a",
+                    "uid": "d53151cd7e1f4223ac98a458e1f2a242",
+                    "attrs": {
+                      "url": "https://www.strategy.com/software/blog/scaling-data-ai-at-goeasy-with-a-universal-semantic-layer",
+                      "target": "_blank"
+                    },
+                    "children": [
+                      {
+                        "text": "Read more about goeasy's data and AI journey with Strategy Mosaic."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "bb6712e9ceab4a0fb3e9bf6de9834f20",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "[IMAGE PLACEHOLDER]",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "2febb5fd96ed4dd69599bcd54af0ff8a",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Upload asset to Contentstack and replace this placeholder — source: image_2.png"
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "a7ec678ab6a4464bb2802fcb1167c3df",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Mosaic validates every query before it reaches underlying data. Requested metrics must be valid, dimensional segmentation permitted, and the requesting agent entitled to the data. Queries that fail return structured errors rather than executing. Through its native MCP server, any MCP-compatible AI agent can discover governed metrics as structured tools, query them in natural language, and receive governed results without custom integration work."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "cs8010982d6e2a5c84"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "From Semantic Layer to Context Infrastructure",
+          "_metadata": {
+            "uid": "cseaac156880a09d74"
+          },
+          "section_id": "from-semantic-layer-to-context-infrastructure"
+        }
+      },
+      {
+        "text": {
+          "text_content": {
+            "type": "doc",
+            "attrs": {},
+            "uid": "74b00431cc6740ac9c1cf09060cc6031",
+            "children": [
+              {
+                "type": "p",
+                "uid": "6d59f5a834ba48858249b78bbe593eb2",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Better AI models are necessary but not sufficient. A more capable model operating on ungoverned data does not produce better intelligence. It produces faster, more confident wrong answers. The semantic layer is the right foundation for what comes next. It is where business meaning becomes machine-readable, governance is enforced before queries run, and trust is built into the architecture rather than bolted on afterward."
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "53b821fe6ce34b04baada68696237bc3",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Getting that foundation right means governed definitions, encoded relationships, enforced access policy, and consistent business logic. That is what separates AI that reasons correctly from AI that scales errors at speed. Organizations that recognize this are not waiting for better models to solve a context problem. They are governing the context first. Strategy Mosaic is built on that principle: governed semantics as the foundation, extended into the relationships, policies, and agent-facing interfaces that make AI reliable at scale. For enterprise AI, context infrastructure is no longer optional. It is the foundation for trusted action."
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "_metadata": {
+            "uid": "csd774241acb5c4a31"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "Frequently Asked Questions",
+          "_metadata": {
+            "uid": "cs50802d578f32fac1"
+          },
+          "section_id": "frequently-asked-questions"
+        }
+      },
+      {
+        "accordion": {
+          "accordion_item": [
+            {
+              "title": "What is a semantic layer in the context of enterprise AI?",
+              "_metadata": {
+                "uid": "cs2742ce2ece987c24"
+              },
+              "content": {
+                "type": "doc",
+                "attrs": {},
+                "uid": "5e85f86520d74dcb9d4a207ec442bd23",
+                "children": [
+                  {
+                    "type": "p",
+                    "attrs": {},
+                    "uid": "f8b627bb4038453c9901cd1f85805944",
+                    "children": [
+                      {
+                        "text": "A semantic layer is a governed translation layer between raw enterprise data and the AI systems, analytics tools, and applications that consume it. It defines business terms as enforced, machine-executable calculations and delivers them consistently across every consuming system. For AI specifically, the semantic layer provides authoritative business context. It helps prevent models from inferring incorrect answers from raw schema names, table structures, and column types alone."
+                      }
+                    ]
+                  }
+                ],
+                "_version": 1
+              }
+            },
+            {
+              "title": "Why does AI fail on enterprise data without a semantic layer?",
+              "_metadata": {
+                "uid": "cs2b7305b5ab550698"
+              },
+              "content": {
+                "type": "doc",
+                "attrs": {},
+                "uid": "89443cf324b54203a21b3c6c5876c1ea",
+                "children": [
+                  {
+                    "type": "p",
+                    "attrs": {},
+                    "uid": "eb4dc9363e4a4e9b933cb36acca6cc35",
+                    "children": [
+                      {
+                        "text": "Without a semantic layer, AI agents must infer business meaning from raw schemas. These inferences can produce wrong answers that look correct: syntactically valid SQL that executes, returns rows, and appears plausible, but applies the wrong business logic. Common failure patterns include wrong fact table selection, fan-out inflation from multi-table joins, incorrect aggregation of snapshot data, and ambiguous metric definitions that produce different answers for different teams."
+                      }
+                    ]
+                  }
+                ],
+                "_version": 1
+              }
+            },
+            {
+              "title": "What is the difference between a semantic layer and a context layer for AI?",
+              "_metadata": {
+                "uid": "cs63db8c197e22e14f"
+              },
+              "content": {
+                "type": "doc",
+                "attrs": {},
+                "uid": "47f173406bb545ffa050c4710ee9c5dd",
+                "children": [
+                  {
+                    "type": "p",
+                    "attrs": {},
+                    "uid": "0bafd80649f24a739a11462b60ed4615",
+                    "children": [
+                      {
+                        "text": "A semantic layer standardizes business definitions, metric logic, relationships, and governance so data can be interpreted consistently across tools and users. A context layer is what the semantic layer becomes when it is extended for AI. It adds the broader context AI agents need to reason and act safely: entity relationships, access policies tied to semantic objects, user and role context, lineage from metric to source, and agent-facing APIs with compile-time governance and audit. The distinction matters because metrics alone are not enough for AI agents that reason across entities, act autonomously, and must operate within governed boundaries."
+                      }
+                    ]
+                  }
+                ],
+                "_version": 1
+              }
+            },
+            {
+              "title": "What is the difference between RAG and a semantic layer for AI accuracy?",
+              "_metadata": {
+                "uid": "cs92b6f62bb9802d98"
+              },
+              "content": {
+                "type": "doc",
+                "attrs": {},
+                "uid": "9336d2af7f2c4cbb94e702c94165755d",
+                "children": [
+                  {
+                    "type": "p",
+                    "attrs": {},
+                    "uid": "b5fd0ef87c114493afe858dda3c5c766",
+                    "children": [
+                      {
+                        "text": "RAG helps AI find relevant information before generating a response. A semantic layer helps AI correctly apply authoritative business definitions when executing queries. They solve different problems. RAG retrieves context candidates, but it cannot determine which revenue definition Finance has approved, enforce access policies, or validate business logic at compile time. The most robust enterprise AI architectures combine both: RAG for knowledge retrieval and the semantic layer for metric governance, policy enforcement, and trusted query execution."
+                      }
+                    ]
+                  }
+                ],
+                "_version": 1
+              }
+            },
+            {
+              "title": "What does it mean for a semantic layer to be universal?",
+              "_metadata": {
+                "uid": "cs883fa4940eb45ba8"
+              },
+              "content": {
+                "type": "doc",
+                "attrs": {},
+                "uid": "285c94af62b84771914c224026b2fdb9",
+                "children": [
+                  {
+                    "type": "p",
+                    "attrs": {},
+                    "uid": "289c0edd12e44d3a89a0eefe25487885",
+                    "children": [
+                      {
+                        "text": "A universal semantic layer is tool-independent, platform-independent, and consumer-independent. Business definitions and governance rules are authored once and applied consistently to every consuming system through open interfaces. This contrasts with semantic layers embedded inside a single BI platform, where definitions may be proprietary to that tool and difficult to reuse across AI agents, data products, applications, and other analytics environments. Strategy Mosaic connects to more than 200 data sources and serves multiple consumers through open APIs and its native MCP server."
+                      }
+                    ]
+                  }
+                ],
+                "_version": 1
+              }
+            },
+            {
+              "title": "What is Model Context Protocol, and why does it matter for semantic layers?",
+              "_metadata": {
+                "uid": "cs1e71071db0fe60d2"
+              },
+              "content": {
+                "type": "doc",
+                "attrs": {},
+                "uid": "e789269d817640969935a9b6759d0fb2",
+                "children": [
+                  {
+                    "type": "p",
+                    "attrs": {},
+                    "uid": "012d7082ac7c477691f2d294ea5d688e",
+                    "children": [
+                      {
+                        "text": "Model Context Protocol, or MCP, is an emerging standard for how AI agents discover and interact with external data capabilities. A semantic layer with native MCP support can expose governed metrics as structured tools that MCP-compatible AI agents can discover and query without custom integration work for each AI framework. Organizations can deploy semantic governance once, then make that governed context available to AI systems that support MCP, regardless of the underlying model or agent framework."
+                      }
+                    ]
+                  }
+                ],
+                "_version": 1
+              }
+            }
+          ],
+          "_metadata": {
+            "uid": "cs9076a9d2f97e3017"
+          },
+          "accordion_options": "closed"
+        }
+      }
+    ],
+    "cta_section": [],
+    "related_posts": [],
+    "seo": {
+      "meta_title": "Semantic Layer as Context Infrastructure for Enterprise AI",
+      "meta_description": "AI agents need governed context, not guesswork. Explore how the semantic layer becomes context infrastructure for consistent enterprise AI outcomes.",
+      "keywords": "semantic layer, AI context infrastructure, governed metrics, enterprise AI analytics, universal semantic layer",
+      "social_thumbnail_override": null,
+      "enable_search_indexing": true
+    },
+    "page_properties": {
+      "navigation_title": "",
+      "header_color": null,
+      "hide_header_nav": false,
+      "hide_header_cta": false,
+      "hide_footer": false,
+      "disable_global_promo_banner": false,
+      "hide_auto_expert": false,
+      "sfid": "",
+      "marketo_id": "",
+      "cta_section": []
+    },
+    "resource_data": {
+      "date": "2026-06-15T00:00:00.000Z",
+      "type": "Blog",
+      "title": "The Semantic Layer Is Becoming Context Infrastructure for AI",
+      "description": "AI agents need governed context, not guesswork. Explore how the semantic layer becomes context infrastructure for consistent enterprise AI outcomes.",
+      "featured": false
+    },
+    "tags": [],
+    "publish_date": "2026-06-15T00:00:00.000Z",
+    "author": [
+      {
+        "uid": "bltc4039c14acf38817",
+        "_content_type_uid": "blog_author"
+      }
+    ]
+  },
+  "_mapping_warnings": [
+    "No author name or publish date found in the document.",
+    "Three [IMAGE_EMBEDDED] markers present but no image filenames or alt text provided; assigned sequential sourcePaths image_0.png, image_1.png, image_2.png.",
+    "The Quick Answer box did not contain exactly 3 discrete bullet points; 3 summary bullets were synthesized from its content per extraction rules.",
+    "No explicit CTA boxes with action-oriented copy or [LINK:] annotations found; cta_list set to [].",
+    "The internal link for goeasy's story was extracted from a full absolute URL (https://www.strategy.com/software/blog/scaling-data-ai-at-goeasy-with-a-universal-semantic-layer); the /path portion is listed in internalLinks.",
+    "The H3 'Standardize meaning' appears immediately after the H2, so it was used as the section subheading; subsequent H3s within that section were rendered as heading blocks inside blocks array.",
+    "The subtitle ('What it means for enterprise AI architecture and how to build it right') appeared as a [P] immediately below the [H1] with no explicit subtitle tag; treated as subtitle.",
+    "publishDate was not found in the document — defaulted to pipeline run date (2026-06-15T00:00:00.000Z). Confirm before publishing.",
+    "Meta description was 163 chars (over 160 limit) — trimmed to 153. Original: \"The semantic layer is becoming AI context infrastructure. Learn how governed metrics give AI agents the context to reason correctly and produce auditable outcomes.\"",
+    "Image block missing assetUid — source: image_0.png",
+    "Image block missing assetUid — source: image_1.png",
+    "Image block missing assetUid — source: image_2.png",
+    "Suggested taxonomy terms (AI): Semantic Layer, Enterprise AI, Data Governance, AI Agents, Analytics Architecture. Populate contentstack.taxonomy_terms in config.yaml with term UIDs to auto-apply on future runs."
+  ]
+}

@@ -1,0 +1,55 @@
+contentstack:
+  # Confirmed: whitepapers use the generic 'page' content type (same as all strategy.com pages)
+  content_type_uid: "page"
+  url_prefix: "/software"
+
+  # Top-level field UIDs confirmed from live schema (GET /content_types/page)
+  field_map:
+    title: "title"
+    url: "url"
+    content_blocks: "content_blocks"
+    seo: "seo"
+    page_properties: "page_properties"
+    resource_data: "resource_data"
+    taxonomies: "taxonomies"
+
+  # Section bg_color values — confirmed valid against Contentstack staging API
+  # Invalid values found during testing: "Light Gray", "50% / 50%" (two_column_split)
+  section_bg_colors:
+    hero: "Gradient Brass & White"  # confirmed valid
+    brief: "Brass"                  # confirmed valid
+    content: "White"                # confirmed valid
+    callout: "White"                # "Light Gray" is invalid; use White until valid gray value found
+    cta: "Brass"                    # confirmed valid via blog agent
+
+  # resource_data.type: confirmed valid values
+  # "Blog" = blog posts, "Analyst Report" = whitepapers
+  resource_type: "Analyst Report"
+
+api:
+  base_url: "https://api-stg.microstrategy.com/cs-software"
+
+pipeline:
+  claude_model: "claude-sonnet-4-6"
+
+parser_hints:
+  # Headings to treat as the start of a major section (exact or partial match, case-insensitive)
+  section_heading_patterns:
+    - "executive summary"
+    - "introduction"
+    - "conclusion"
+    - "key takeaways"
+    - "appendix"
+  # Keywords that indicate a CTA section
+  cta_keywords:
+    - "Get Started"
+    - "Learn More"
+    - "Contact Us"
+    - "Request a Demo"
+    - "Schedule a Call"
+    - "Try"
+    - "Download"
+    - "Ready to"
+  cta_heading_pattern: "(?i)get started|learn more|contact us|ready to|request a|schedule|try it|sign up"
+  # Strip color styling from tables (always true for whitepapers)
+  strip_table_colors: true
