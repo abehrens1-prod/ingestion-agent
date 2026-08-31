@@ -201,7 +201,7 @@ def check_field_map_coverage(config: Optional[dict]) -> CheckResult:
     if not config:
         return CheckResult("Field map coverage", "WARN", "No config provided — cannot check field_map coverage.")
     field_map = config.get("contentstack", {}).get("field_map", {})
-    required_internal = ["title", "url", "body", "faq", "cta"]
+    required_internal = ["title", "url", "content"]
     missing = [k for k in required_internal if k not in field_map]
     if missing:
         return CheckResult("Field map coverage", "WARN", f"config.yaml field_map missing entries for: {missing}")

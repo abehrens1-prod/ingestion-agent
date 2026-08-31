@@ -142,20 +142,26 @@ def upload_entry(
     print(f"\nPre-flight: Checking schema for '{content_type}'...")
     _preflight_schema_check(base_url, content_type, set(entry.keys()), headers)
 
+    # Locale: Contentstack's documented CMA contract takes this as a query param on
+    # create/update (entry.locale in the body isn't necessarily enough on its own).
+    # Unverified against a real non-"en" upload — this org's only confirmed locale
+    # value in the wild so far is "en" (see live upload_response.json files).
+    locale = entry.get("locale") or config.get("contentstack", {}).get("default_locale", "en")
+
     # Create or update entry
-    print(f"\nUploading to Contentstack (content type: {content_type})...")
+    print(f"\nUploading to Contentstack (content type: {content_type}, locale: {locale})...")
     if entry_uid:
         url = f"{base_url}/entries/{content_type}/{entry_uid}"
         print(f"  Updating existing entry: {entry_uid}")
         try:
-            r = requests.put(url, headers=headers, json={"entry": entry}, timeout=30)
+            r = requests.put(url, headers=headers, params={"locale": locale}, json={"entry": entry}, timeout=30)
         except requests.RequestException as e:
             raise RuntimeError(f"Update request failed: {e}") from e
         action = "updated"
     else:
         url = f"{base_url}/entries/{content_type}"
         try:
-            r = requests.post(url, headers=headers, json={"entry": entry}, timeout=30)
+            r = requests.post(url, headers=headers, params={"locale": locale}, json={"entry": entry}, timeout=30)
         except requests.RequestException as e:
             raise RuntimeError(f"Upload request failed: {e}") from e
         action = "created"

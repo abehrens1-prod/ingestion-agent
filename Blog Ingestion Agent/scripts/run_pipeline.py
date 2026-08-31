@@ -79,6 +79,7 @@ def run_pipeline(
     output_dir: str = None,
     upload: bool = False,
     publish: bool = False,
+    locale: str = None,
 ) -> int:
     logging.basicConfig(
         level=logging.INFO,
@@ -122,12 +123,12 @@ def run_pipeline(
     print(f"Step 1/{total_steps}: Parsing and normalizing with Claude...")
     try:
         parse_mod = _import_script("parse_with_claude")
-        normalized = parse_mod.main(docx_path, str(normalized_path), config)
+        normalized = parse_mod.main(docx_path, str(normalized_path), config, locale=locale)
         normalized["_source_file"] = Path(docx_path).name
         print(f"  ✓ Title: {normalized.get('title', '(none)')[:60]}")
         print(f"  ✓ Sections: {len(normalized.get('body', []))}")
         print(f"  ✓ FAQ items: {len(normalized.get('faq', []))}")
-        print(f"  ✓ CTA: {'Yes' if normalized.get('cta') else 'No'}")
+        print(f"  ✓ CTA: {'Yes' if normalized.get('cta_list') else 'No'}")
         print(f"  ✓ Meta description: {'Yes' if normalized.get('seo', {}).get('metaDescription') else 'No'}")
         if normalized.get("validationWarnings"):
             print(f"  ⚠ Warnings: {len(normalized['validationWarnings'])}")
@@ -221,7 +222,7 @@ def run_pipeline(
     try:
         validate_mod = _import_script("validate_blog_json")
         results = validate_mod.validate_all(normalized, entry, config)
-        validate_mod.write_report(results, str(report_path))
+        validate_mod.write_report(results, str(report_path), normalized=normalized, entry_json=entry)
         errors = sum(1 for r in results if r.level == "ERROR")
         warns = sum(1 for r in results if r.level == "WARN")
         passes = sum(1 for r in results if r.level == "PASS")
@@ -298,6 +299,7 @@ Examples:
     parser.add_argument("--output-dir", "-o", default=None, help="Output directory (default: auto-named output/[author]-blog-post-[date])")
     parser.add_argument("--upload", action="store_true", help="Upload the entry to Contentstack after validation (requires MSTR_API_KEY)")
     parser.add_argument("--publish", action="store_true", help="Publish the entry to stage after upload (implies --upload)")
+    parser.add_argument("--locale", default=None, help="Locale code (e.g. es, fr) — defaults to contentstack.default_locale in config.yaml")
     args = parser.parse_args()
 
     exit_code = run_pipeline(
@@ -306,5 +308,6 @@ Examples:
         output_dir=args.output_dir,
         upload=args.upload or args.publish,
         publish=args.publish,
+        locale=args.locale,
     )
     sys.exit(exit_code)

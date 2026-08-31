@@ -4,59 +4,108 @@ rte_builder.py — Build Contentstack JSON RTE node structures from normalized b
 Each node has: type, uid (UUID v4), attrs, children.
 Imported by map_to_contentstack.py — not called directly.
 
+Formatting nodes (paragraphs, headings, lists, tables, blockquotes — anything with
+bold/italic/links/colors) are built by rendering a small HTML fragment and piping it
+through the Node serializer in rte_serializer_node/ (Contentstack's own open-source
+@contentstack/json-rte-serializer), so the exact node shapes always match what
+Contentstack's own editor produces. Structural placeholder nodes (image-pending,
+callout) stay hand-built here — they're plain paragraphs, not real RTE formatting.
+
 Contentstack JSON RTE spec:
   https://www.contentstack.com/docs/developers/json-rich-text-editor/
 """
 
+import html as html_lib
+import json
+import subprocess
 import uuid
+from pathlib import Path
 from typing import Optional
+
+_SERIALIZER_SCRIPT = Path(__file__).parent / "rte_serializer_node" / "serialize.js"
 
 
 def _uid() -> str:
     return uuid.uuid4().hex  # 32 hex chars, no hyphens — matches CS internal format
 
 
+def _esc(text: str) -> str:
+    return html_lib.escape(text, quote=True)
+
+
+def _serialize_html(html_fragment: str) -> list:
+    """Run one HTML element through the Node RTE serializer; return its doc children.
+
+    One subprocess call per node (paragraph, heading, list, table, blockquote) — a
+    typical post makes 20-50 of these, adding a handful of seconds to a pipeline
+    that already takes minutes for Claude parsing. Simpler and more reliable than
+    keeping a persistent Node process alive for a pipeline that only ever processes
+    one blog post at a time.
+    """
+    try:
+        result = subprocess.run(
+            ["node", str(_SERIALIZER_SCRIPT)],
+            input=html_fragment,
+            capture_output=True,
+            text=True,
+            timeout=15,
+        )
+    except FileNotFoundError as e:
+        raise RuntimeError(
+            "Node.js not found on PATH — required for RTE serialization. Install Node, "
+            "then run `npm install` inside scripts/rte_serializer_node/."
+        ) from e
+    if result.returncode != 0:
+        raise RuntimeError(
+            f"rte_serializer_node failed on:\n{html_fragment}\n\nstderr: {result.stderr.strip()}"
+        )
+    doc = json.loads(result.stdout)
+    return doc["children"]
+
+
+def _runs_to_html(runs: list) -> str:
+    """Convert normalized run dicts (text/bold/italic/url) to inline HTML."""
+    parts = []
+    for run in runs:
+        text = run.get("text", "")
+        if not text:
+            continue
+        chunk = _esc(text)
+        if run.get("bold"):
+            chunk = f"<b>{chunk}</b>"
+        if run.get("italic"):
+            chunk = f"<i>{chunk}</i>"
+        url = run.get("url")
+        if url:
+            chunk = f'<a href="{_esc(url)}" target="_blank">{chunk}</a>'
+        parts.append(chunk)
+    return "".join(parts)
+
+
 def p_node(runs: Optional[list] = None, text: Optional[str] = None) -> dict:
     """Paragraph node. Accepts either a runs list or a plain text string."""
     if runs:
-        children = _runs_to_children(runs)
+        inner = _runs_to_html(runs)
     elif text is not None:
-        children = [{"text": text}]
+        inner = _esc(text)
     else:
-        children = [{"text": ""}]
-    return {"type": "p", "uid": _uid(), "attrs": {}, "children": children}
+        inner = ""
+    return _serialize_html(f"<p>{inner}</p>")[0]
 
 
 def heading_node(text: str, level: int = 2) -> dict:
     tag = f"h{max(1, min(6, level))}"
-    return {"type": tag, "uid": _uid(), "attrs": {}, "children": [{"text": text}]}
+    return _serialize_html(f"<{tag}>{_esc(text)}</{tag}>")[0]
 
 
 def ul_node(items: list) -> dict:
-    return {
-        "type": "ul",
-        "uid": _uid(),
-        "attrs": {},
-        "children": [_li_node(item) for item in items],
-    }
+    lis = "".join(f"<li>{_esc(str(item))}</li>" for item in items)
+    return _serialize_html(f"<ul>{lis}</ul>")[0]
 
 
 def ol_node(items: list) -> dict:
-    return {
-        "type": "ol",
-        "uid": _uid(),
-        "attrs": {},
-        "children": [_li_node(item) for item in items],
-    }
-
-
-def _li_node(text: str) -> dict:
-    return {
-        "type": "li",
-        "uid": _uid(),
-        "attrs": {},
-        "children": [{"type": "p", "uid": _uid(), "attrs": {}, "children": [{"text": text}]}],
-    }
+    lis = "".join(f"<li>{_esc(str(item))}</li>" for item in items)
+    return _serialize_html(f"<ol>{lis}</ol>")[0]
 
 
 def img_node(asset_uid: str = "", alt: str = "", source_path: str = "", url: str = "") -> dict:
@@ -73,57 +122,20 @@ def img_node(asset_uid: str = "", alt: str = "", source_path: str = "", url: str
     return {"type": "img", "uid": _uid(), "attrs": attrs, "children": [{"text": ""}]}
 
 
-def _proportional_col_widths(headers: Optional[list], rows: list, total: int = 200) -> list:
-    """Compute column widths proportional to average content length, minimum 40 per column."""
-    ncols = len(headers) if headers else (len(rows[0]) if rows else 0)
-    if ncols == 0:
-        return []
-    all_rows = ([headers] if headers else []) + rows
-    col_avg_lens = []
-    for c in range(ncols):
-        texts = [str(row[c]) if c < len(row) and row[c] else "" for row in all_rows]
-        avg = sum(len(t) for t in texts) / len(texts) if texts else 10
-        col_avg_lens.append(max(avg, 5))
-    total_len = sum(col_avg_lens)
-    widths = [max(round(total * l / total_len), 40) for l in col_avg_lens]
-    # Fix rounding drift so widths always sum to total
-    diff = total - sum(widths)
-    widths[-1] = max(widths[-1] + diff, 40)
-    return widths
-
-
 def table_node(rows: list, headers: Optional[list] = None) -> dict:
-    ncols = len(headers) if headers else (len(rows[0]) if rows else 0)
-    nrows = len(rows) + (1 if headers else 0)
-    tr_nodes = []
+    """Table node. Column widths are the serializer's own default (equal split) —
+    the previous content-length-proportional heuristic was hand-rolled logic
+    duplicating what Contentstack's own editor already computes; dropped in favor
+    of letting the serializer own it, matching every other node type here."""
+    thead = ""
     if headers:
-        th_nodes = [
-            {
-                "type": "th",
-                "uid": _uid(),
-                "attrs": {"colspan": 1, "rowspan": 1},
-                "children": [{"type": "p", "uid": _uid(), "attrs": {}, "children": [{"text": h, "bold": True}]}],
-            }
-            for h in headers
-        ]
-        tr_nodes.append({"type": "tr", "uid": _uid(), "attrs": {}, "children": th_nodes})
-    for row in rows:
-        td_nodes = [
-            {
-                "type": "td",
-                "uid": _uid(),
-                "attrs": {"colspan": 1, "rowspan": 1},
-                "children": [{"type": "p", "uid": _uid(), "attrs": {}, "children": [{"text": str(cell) if cell else ""}]}],
-            }
-            for cell in row
-        ]
-        tr_nodes.append({"type": "tr", "uid": _uid(), "attrs": {}, "children": td_nodes})
-    return {
-        "type": "table",
-        "uid": _uid(),
-        "attrs": {"rows": nrows, "cols": ncols, "colWidths": _proportional_col_widths(headers, rows)},
-        "children": tr_nodes,
-    }
+        ths = "".join(f"<th><b>{_esc(str(h))}</b></th>" for h in headers)
+        thead = f"<thead><tr>{ths}</tr></thead>"
+    trs = "".join(
+        "<tr>" + "".join(f"<td>{_esc(str(cell)) if cell else ''}</td>" for cell in row) + "</tr>"
+        for row in rows
+    )
+    return _serialize_html(f"<table>{thead}<tbody>{trs}</tbody></table>")[0]
 
 
 def blockquote_node(text: str) -> dict:
@@ -134,9 +146,17 @@ def blockquote_node(text: str) -> dict:
     the quote body renders navy (``rgb(0, 61, 91)``) and the attribution renders
     bold medium-blue (``rgb(26, 78, 159)``). A plain pull-quote with no attribution
     is a single navy run. See whitepaper docs/formatting_guide.md §5.8.
+
+    The attribution's color is applied AFTER serializing, not in the HTML fed to the
+    serializer: the installed @contentstack/json-rte-serializer (3.1.0) silently drops
+    a text node's color style whenever it's combined with bold/italic in the source
+    HTML — verified directly against the package (every nesting order tested: span-in-b,
+    b-in-span, style on the <b> itself). Found 2026-08-27 because the real output for
+    this post's blockquote had the attribution rendering bold but colorless. Only this
+    function is affected — no other node type here combines a mark with a color.
     """
-    NAVY = {"style": {"color": "rgb(0, 61, 91)"}}
-    BLUE = {"style": {"color": "rgb(26, 78, 159)"}}
+    NAVY = "rgb(0, 61, 91)"
+    BLUE = "rgb(26, 78, 159)"
 
     quote, attribution = text, ""
     for sep in (" — ", " – ", " -- "):
@@ -146,22 +166,23 @@ def blockquote_node(text: str) -> dict:
             attribution = attribution.strip()
             break
 
-    children = [{"text": quote, "attrs": NAVY}]
+    inner = f'<span style="color: {NAVY}">{_esc(quote)}</span>'
     if attribution:
-        children.append({"text": f" — {attribution}", "bold": True, "attrs": BLUE})
+        inner += f'<b> — {_esc(attribution)}</b>'
 
-    return {
-        "type": "blockquote",
-        "uid": _uid(),
-        "attrs": {},
-        "children": [
-            {"type": "p", "uid": _uid(), "attrs": {}, "children": children}
-        ],
-    }
+    node = _serialize_html(f"<blockquote><p>{inner}</p></blockquote>")[0]
+    if attribution:
+        attribution_leaf = node["children"][0]["children"][-1]
+        attribution_leaf.setdefault("attrs", {}).setdefault("style", {})["color"] = BLUE
+    return node
 
 
 def callout_node(label: str = "", text: str = "") -> list:
-    """Return a list of plain paragraph nodes (avoids the CS blockquote/orange-line rendering)."""
+    """Return a list of plain paragraph nodes (avoids the CS blockquote/orange-line rendering).
+
+    Structural placeholder, not article-body formatting — stays hand-built rather
+    than round-tripping through the serializer for two inert plain-text paragraphs.
+    """
     nodes = []
     if label:
         nodes.append({"type": "p", "uid": _uid(), "attrs": {}, "children": [{"text": label, "bold": True}]})
@@ -170,59 +191,7 @@ def callout_node(label: str = "", text: str = "") -> list:
     return nodes if nodes else [{"type": "p", "uid": _uid(), "attrs": {}, "children": [{"text": ""}]}]
 
 
-def _runs_to_children(runs: list) -> list:
-    """Convert normalized run dicts to RTE inline child nodes."""
-    children = []
-    for run in runs:
-        run_text = run.get("text", "")
-        if not run_text:
-            continue
-        url = run.get("url")
-        if url:
-            link_child: dict = {"text": run_text}
-            if run.get("bold"):
-                link_child["bold"] = True
-            if run.get("italic"):
-                link_child["italic"] = True
-            children.append({
-                "type": "a",
-                "uid": _uid(),
-                "attrs": {"url": url, "target": "_blank"},
-                "children": [link_child],
-            })
-        else:
-            node: dict = {"text": run_text}
-            if run.get("bold"):
-                node["bold"] = True
-            if run.get("italic"):
-                node["italic"] = True
-            children.append(node)
-    return children or [{"text": ""}]
-
-
-def build_body(sections: list) -> list:
-    """Convert normalized body sections array to a flat list of JSON RTE nodes."""
-    nodes = []
-    for section in sections:
-        heading = section.get("heading", "")
-        level = section.get("level", 2)
-        if heading:
-            nodes.append(heading_node(heading, level))
-        subheading = section.get("subheading", "")
-        if subheading:
-            nodes.append(heading_node(subheading, level + 1))
-        for block in section.get("blocks", []):
-            node = _block_to_node(block)
-            if node is None:
-                continue
-            if isinstance(node, list):
-                nodes.extend(node)
-            else:
-                nodes.append(node)
-    return nodes
-
-
-def _block_to_node(block: dict) -> Optional[dict]:
+def _block_to_node(block: dict):
     btype = block.get("type", "")
     if btype == "paragraph":
         runs = block.get("runs")
@@ -261,5 +230,3 @@ def _block_to_node(block: dict) -> Optional[dict]:
     elif btype == "callout":
         return callout_node(label=block.get("label", ""), text=block.get("text", ""))
     return None
-
-

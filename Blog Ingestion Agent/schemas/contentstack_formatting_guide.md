@@ -24,8 +24,7 @@ This is the authoritative reference for how blog entries must be structured when
 | `resource_data` | object | Mirrors title/date/description; `"type": "Blog"`, `"featured": false` |
 | `seo` | object | See SEO Fields section |
 | `page_properties` | object | Leave all defaults (all false/null/empty) |
-| `tags` | array | Always empty `[]` — Contentstack silently drops this |
-| `locale` | string | Always `"en"` |
+| `locale` | string | Defaults to `contentstack.default_locale` in `config.yaml` (`"en"`). Override with `--locale` if the doc is in one of `contentstack.locales`: en, es, fr, de, it, ja, ko, pt, pl, zh, th |
 
 ### `lead_paragraph` — always empty
 

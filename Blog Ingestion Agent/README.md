@@ -165,7 +165,6 @@ Images are **not uploaded** by this pipeline:
 | Asset upload (images/videos) | Requires Contentstack Management Token and binary upload |
 | PDF parsing | Out of scope |
 | Scheduled publishing | Use Contentstack's built-in scheduler |
-| Multi-locale support | Can be added by extending `map_to_contentstack.py` |
 
 ---
 

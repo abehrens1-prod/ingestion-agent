@@ -112,7 +112,7 @@ def _make_image_content_block(block: dict) -> Optional[dict]:
         return None
     return {
         "image": {
-            "reference": {"uid": asset_uid},
+            "reference": asset_uid,
             "_metadata": {"uid": _cs_meta_uid()},
             "caption": block.get("caption", ""),
             "limit_width": None,
@@ -374,11 +374,12 @@ def _normalize_date(raw: str) -> Optional[str]:
     if not raw:
         return None
     raw = raw.strip()
-    try:
-        dt = datetime.strptime(raw, "%Y-%m-%d")
-        return dt.strftime("%Y-%m-%d")
-    except ValueError:
-        pass
+    for fmt in ("%Y-%m-%d", "%Y-%m-%dT%H:%M:%S.%fZ", "%Y-%m-%dT%H:%M:%SZ"):
+        try:
+            dt = datetime.strptime(raw, fmt)
+            return dt.strftime("%Y-%m-%d")
+        except ValueError:
+            continue
     parts = raw.split()
     if len(parts) == 2:
         month_str, year_str = parts
@@ -553,7 +554,7 @@ def map_normalized_to_entry(normalized: dict, config: dict) -> dict:
         "seo": seo,
         "page_properties": _build_page_properties(),
         "resource_data": _build_resource_data(normalized, publish_date or ""),
-        "tags": [],
+        "locale": normalized.get("locale") or config.get("contentstack", {}).get("default_locale", "en"),
     }
     if publish_date:
         entry["publish_date"] = publish_date

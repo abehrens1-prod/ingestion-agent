@@ -52,6 +52,11 @@ contentstack:
     "Igor Freitas": "blt992b703cf7c69ca1"
     "Sofia Martino": "blt5b16efba1c729a77"
 
+  # Locale codes live on the site (confirmed by Dale, ITS, 2026-08-26). Default is "en" —
+  # do not hardcode "en" elsewhere once locale selection is wired up; read from this list.
+  locales: ["en", "es", "fr", "de", "it", "ja", "ko", "pt", "pl", "zh", "th"]
+  default_locale: "en"
+
   # Taxonomy configuration. taxonomy_uid and term_uids confirmed from live entry blt3cd0f47c06e1cf66.
   taxonomy_uid: "blog"
   taxonomy_terms:
@@ -64,11 +69,12 @@ contentstack:
 
 api:
   base_url: "https://api-stg.microstrategy.com/cs-software"
-  # Assets endpoint for image upload. The proxy base_url does not expose /assets,
-  # so set this to the direct Contentstack CMA URL if you have a management token,
-  # or ask the proxy team to add an /assets route and set it to {base_url}/assets.
+  # Assets endpoint for image upload. Dedicated blog-post assets folder endpoint,
+  # provided by Dale (ITS), 2026-08-26. POST, multipart/form-data with a single
+  # "body" field holding the file — not Contentstack's native asset[upload]/
+  # asset[title]/asset[parent_uid] shape, since the folder is already baked in.
   # Leave blank to skip automatic asset upload (images will need manual UIDs).
-  assets_url: ""
+  assets_url: "https://api-stg.microstrategy.com/cs-software/uploadToBlogAssetsFolder"
 
 pipeline:
   run_claude_enrichment: false

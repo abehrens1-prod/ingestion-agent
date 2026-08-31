@@ -1,11 +1,12 @@
 {
+  "notice": "Entry created successfully.",
   "entry": {
-    "title": "Universal Semantic Layers Are Now Critical Infrastructure for Agentic AI",
+    "title": "TEST asset upload -- Universal Semantic Layers Are Now Critical Infrastructure for Agentic AI",
     "url": "/blog/universal-semantic-layers-critical-infrastructure-agentic-ai",
     "lead_paragraph": {
       "type": "doc",
       "attrs": {},
-      "uid": "64aa7829d0504306aeea75a7f073bef6",
+      "uid": "4df1537de75e45d98c2f998d23012d2c",
       "children": [
         {
           "text": ""
@@ -19,11 +20,11 @@
           "text_content": {
             "type": "doc",
             "attrs": {},
-            "uid": "512d90f1c01d4e87bd071b371e81aac5",
+            "uid": "3236d10b605947919277fde8b0abe110",
             "children": [
               {
                 "type": "h3",
-                "uid": "80de2def31dd4f9d8d7791b9613a54af",
+                "uid": "ba1bc28df4ac4db68dcf746238eb0728",
                 "attrs": {},
                 "children": [
                   {
@@ -40,17 +41,17 @@
               },
               {
                 "type": "ul",
-                "uid": "30392ce65f5944d1868bec02931f568d",
+                "uid": "a544150f9cbe4449a9c3192aafa814be",
                 "attrs": {},
                 "children": [
                   {
                     "type": "li",
-                    "uid": "6c40640b4aae40b692a779588f0e9755",
+                    "uid": "5a1d6a7ba722447f926f5728b8931489",
                     "attrs": {},
                     "children": [
                       {
                         "type": "p",
-                        "uid": "be04a0672733487aac1493a98b90c8f3",
+                        "uid": "18aeefd46c8e4f699cb053d29443f5f1",
                         "attrs": {},
                         "children": [
                           {
@@ -66,12 +67,12 @@
                   },
                   {
                     "type": "li",
-                    "uid": "3b753e4e466244c4b27e168d02d10011",
+                    "uid": "c0d8e4cc285d41c2bc0ff17eeab4693e",
                     "attrs": {},
                     "children": [
                       {
                         "type": "p",
-                        "uid": "dbc6d392f0d04e9ea5d61f8fed1e3a55",
+                        "uid": "dd48aad8c19d4c72a95edead3c6967d2",
                         "attrs": {},
                         "children": [
                           {
@@ -91,7 +92,7 @@
             "_version": 1
           },
           "_metadata": {
-            "uid": "csbe9995e717bd81f0"
+            "uid": "csc4738450033b463c"
           }
         }
       },
@@ -100,26 +101,23 @@
           "text_content": {
             "type": "doc",
             "attrs": {},
-            "uid": "ec8f1df4f9bc4ff29538c08420de1b3b",
+            "uid": "ded852e5156c4c3c983f6b544eabc0ec",
             "children": [
               {
                 "type": "p",
+                "uid": "f8460ea4214a4693a9686b0db936b530",
                 "attrs": {},
-                "uid": "5958da1d303041b19ebe34f72d4bd28a",
                 "children": [
                   {
                     "text": "Enterprise AI does not break only when a model hallucinates. It breaks when the model has to infer what the business means.",
-                    "attrs": {
-                      "style": {}
-                    },
                     "bold": true
                   }
                 ]
               },
               {
                 "type": "p",
+                "uid": "c177b3b01cce4713aad71a4ddd0801ac",
                 "attrs": {},
-                "uid": "f84570be574c4948a836811625b476e6",
                 "children": [
                   {
                     "text": "That risk compounds as AI agents move from experiments into live enterprise workflows. A human analyst may notice that two dashboards define revenue differently and stop to reconcile them. An AI agent may act before anyone notices. It needs governed business context before the first query runs."
@@ -128,21 +126,16 @@
               },
               {
                 "type": "p",
+                "uid": "50e238d9a9a4416e9717ecd0dc9420aa",
                 "attrs": {},
-                "uid": "58f3d94dab3f4722a0d97bf083cd01e1",
                 "children": [
                   {
                     "type": "a",
+                    "uid": "27adaa77ebe04073b66fb9bbfb7dcdb6",
                     "attrs": {
                       "url": "https://software.strategy.com/research-and-reports/idc-spotlight-universal-semantic-layers-agentic-ai",
-                      "target": "_blank",
-                      "style": {},
-                      "redactor-attributes": {
-                        "href": "https://software.strategy.com/research-and-reports/idc-spotlight-universal-semantic-layers-agentic-ai",
-                        "target": "_blank"
-                      }
+                      "target": "_blank"
                     },
-                    "uid": "c4fab7a1bb5c42598a3aa506c98417f7",
                     "children": [
                       {
                         "text": "IDC's new Spotlight paper"
@@ -156,13 +149,13 @@
               },
               {
                 "type": "blockquote",
+                "uid": "6cc6733f624e4315a9e89e12e7b7282e",
                 "attrs": {},
-                "uid": "786bf81596bb4329b2263b6336c91267",
                 "children": [
                   {
                     "type": "p",
+                    "uid": "b40f9d9b44c344b7917ec3fb13d6defa",
                     "attrs": {},
-                    "uid": "be2bcb748c16493bb5657057ca01fa56",
                     "children": [
                       {
                         "text": "\"What was once considered 'nice to have' is now a prerequisite for trustworthy agentic AI.\" — Megha Kumar, Research VP, IDC",
@@ -174,12 +167,12 @@
                       },
                       {
                         "text": " — The Role of Universal Semantic Layers in the Agentic Data Era, IDC Spotlight EUR154619926, sponsored by Strategy, July 2026",
+                        "bold": true,
                         "attrs": {
                           "style": {
                             "color": "rgb(26, 78, 159)"
                           }
-                        },
-                        "bold": true
+                        }
                       }
                     ]
                   }
@@ -189,7 +182,7 @@
             "_version": 1
           },
           "_metadata": {
-            "uid": "cs35af3d130e0af0e4"
+            "uid": "cs83c3722eb8637f07"
           }
         }
       },
@@ -197,7 +190,7 @@
         "section_anchor": {
           "header_text": "From dashboard reconciliation to AI execution risk",
           "_metadata": {
-            "uid": "cse3ef236961d587c6"
+            "uid": "csfbb9b02d1babf897"
           },
           "section_id": "from-dashboard-reconciliation-to-ai-execution-risk"
         }
@@ -207,12 +200,12 @@
           "text_content": {
             "type": "doc",
             "attrs": {},
-            "uid": "6a91cda1d3484c48a9ad6130c8b5e87a",
+            "uid": "6c946da9ee184f2fa5e0a797a2e40fda",
             "children": [
               {
                 "type": "p",
+                "uid": "7e37bcfebae446bfa5fbb082060bb21e",
                 "attrs": {},
-                "uid": "6559ab46f57f4ab28804007d2eaf4efc",
                 "children": [
                   {
                     "text": "When semantic logic was just about BI, inconsistent metrics were an internal annoyance. Analysts caught discrepancies. Teams reconciled definitions in long meetings. Decisions still got made."
@@ -221,22 +214,19 @@
               },
               {
                 "type": "p",
+                "uid": "2e277cc3f8bd4179aa6685fa287dd481",
                 "attrs": {},
-                "uid": "f4b43734b9804abe96bc1e75ce7053a4",
                 "children": [
                   {
                     "text": "AI agents do not wait for a reconciliation meeting. They act.",
-                    "attrs": {
-                      "style": {}
-                    },
                     "bold": true
                   }
                 ]
               },
               {
                 "type": "p",
+                "uid": "cbf880c81cf14d00b475b37048de4c94",
                 "attrs": {},
-                "uid": "27f1a8e4759e4d65b309911a6ec339bf",
                 "children": [
                   {
                     "text": "They summarize information, recommend actions, trigger workflows, and support decisions inside enterprise systems. When governed business context is absent or inconsistent, the result is not a bad report that someone will catch. It is a confident action grounded in the wrong business meaning, propagated across systems before anyone reviews it."
@@ -245,8 +235,8 @@
               },
               {
                 "type": "p",
+                "uid": "10e6d6c12eae474c8dcfc5b4167a9c2c",
                 "attrs": {},
-                "uid": "a2409c78f87149f3ba57131fe3f13bb8",
                 "children": [
                   {
                     "text": "That is the execution risk the IDC Spotlight brings into focus. It is why the semantic layer has moved from a BI modeling question to an AI architecture question."
@@ -257,15 +247,31 @@
             "_version": 1
           },
           "_metadata": {
-            "uid": "cs327a8afe478ee792"
+            "uid": "cs44935098e95a58dd"
           }
         }
       },
       {
         "image": {
-          "reference": "blt5aa365fd4729e2de",
+          "reference": {
+            "uid": "blt5aa365fd4729e2de",
+            "created_at": "2026-08-26T17:56:25.299Z",
+            "updated_at": "2026-08-26T17:56:25.299Z",
+            "created_by": "blte12f8d786df2b4b9",
+            "updated_by": "blte12f8d786df2b4b9",
+            "content_type": "image/png",
+            "file_size": "2083762",
+            "tags": [],
+            "filename": "image_0.png",
+            "url": "https://images.contentstack.io/v3/assets/bltb564490bc5201f31/blt5aa365fd4729e2de/6a8f28c973006e7a61d8ea43/image_0.png",
+            "ACL": [],
+            "is_dir": false,
+            "parent_uid": "bltda148474220061d9",
+            "_version": 1,
+            "title": "image_0.png"
+          },
           "_metadata": {
-            "uid": "csabc505bea007160c"
+            "uid": "cs366c79c2bee5e2bb"
           },
           "caption": "",
           "limit_width": null,
@@ -281,29 +287,29 @@
           "text_content": {
             "type": "doc",
             "attrs": {},
-            "uid": "e95fca82b5cb4e8eba713e13b8ccaaec",
+            "uid": "0d137e4d3c444dc5a540f95db5c957c1",
             "children": [
               {
                 "type": "p",
+                "uid": "f43b1d6c7fa04a238ba01118d342cdd4",
                 "attrs": {},
-                "uid": "e5fa5625179646db9ccad944466ba71e",
                 "children": [
                   {
                     "text": "Figure 1:",
-                    "attrs": {
-                      "style": {}
-                    },
                     "bold": true
                   },
                   {
-                    "text": " A universal semantic layer connects enterprise data to governed business context for analytics, applications, and AI agents"
+                    "text": " "
+                  },
+                  {
+                    "text": "A universal semantic layer connects enterprise data to governed business context for analytics, applications, and AI agents"
                   }
                 ]
               },
               {
                 "type": "p",
+                "uid": "13af4be6108a402486140e2e1dc08c46",
                 "attrs": {},
-                "uid": "9a7bfabbda7146dd9a0b3cdfb0b71599",
                 "children": [
                   {
                     "text": "As AI agents and generative AI continue to reshape the data landscape, semantic layers are emerging as a foundational priority for organizations. Nine out of ten respondents say GenAI and AI agents have increased focus on semantic layers in BI and analytics, reflecting how these technologies are raising the stakes for consistent, well-defined data. Nearly half identify a consistent semantic layer or ontology as critical to trustworthy agentic AI, underscoring that agents are only as reliable as the definitions they reason over."
@@ -312,8 +318,8 @@
               },
               {
                 "type": "p",
+                "uid": "b9eae439d7af49b6a5da3c030e33f66f",
                 "attrs": {},
-                "uid": "9c1b4304b68b42c9b8e97b6f85338306",
                 "children": [
                   {
                     "text": "Market data confirms this shift. According to IDC's October 2025 FERS Survey, 93% of data leaders say GenAI and AI agents have increased their focus on semantic layers. Yet 36% cite inconsistent definitions across systems as a primary data quality barrier stalling AI initiatives. When definitions live across fragmented platforms, AI agents resolve ambiguity the only way they know how: by running broader, more expensive queries across ungoverned schemas."
@@ -322,40 +328,53 @@
               },
               {
                 "type": "table",
+                "uid": "5b8f98e6c28d499d874674dc83a07b81",
                 "attrs": {
                   "rows": 2,
                   "cols": 2,
                   "colWidths": [
-                    250,
-                    250
+                    108,
+                    92
                   ]
                 },
-                "uid": "636a120d14d9428baa0a44773d51fbdb",
                 "children": [
                   {
-                    "type": "tbody",
+                    "type": "tr",
+                    "uid": "6d8fe708267f4679872686e7c0fdc207",
                     "attrs": {},
-                    "uid": "784be86c8e764a80ad0a144acb3a7b32",
                     "children": [
                       {
-                        "type": "tr",
-                        "attrs": {},
-                        "uid": "de784e5e3e0f4988bf1c53207d6af872",
+                        "type": "td",
+                        "uid": "0c054fadfe2e41d7943cf3a0b9f2c461",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
                         "children": [
                           {
-                            "type": "td",
+                            "type": "p",
+                            "uid": "f43b0aed8ddd4f12a3345fa85bfab4de",
                             "attrs": {},
-                            "uid": "3fb8a54f10314ed5be8b1eadceaabde7",
                             "children": [
                               {
                                 "text": "93% say GenAI and AI agents have increased focus on semantic layers in BI and analytics IDC FERS Survey Wave 8, October 2025"
                               }
                             ]
-                          },
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "71f1360849ea4dd8a14aa30d2b6fc3d0",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
                           {
-                            "type": "td",
+                            "type": "p",
+                            "uid": "b59c3ce7263e49439177cfec9983b869",
                             "attrs": {},
-                            "uid": "e1b294a817984916844e20901d45ae1f",
                             "children": [
                               {
                                 "text": "47% say a consistent semantic layer or ontology is critical to trustworthy agentic AI IDC Data Management QuickPoll, February 2026"
@@ -363,26 +382,46 @@
                             ]
                           }
                         ]
-                      },
+                      }
+                    ]
+                  },
+                  {
+                    "type": "tr",
+                    "uid": "f298ce9fc4ff4e04a303e69774e1420c",
+                    "attrs": {},
+                    "children": [
                       {
-                        "type": "tr",
-                        "attrs": {},
-                        "uid": "9aa2b1e0dec3472db6c7b6ffb5a7e502",
+                        "type": "td",
+                        "uid": "789c998569db4b21aab11a16f4818871",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
                         "children": [
                           {
-                            "type": "td",
+                            "type": "p",
+                            "uid": "1fc5ca13e9bb4a6282061c3eaf42cf4a",
                             "attrs": {},
-                            "uid": "ce779066c8f44fa6b0a1ee17cd0a9f4f",
                             "children": [
                               {
                                 "text": "36% identified inconsistent definitions across systems as a common data quality issue impacting AI initiatives IDC CIO QuickPoll, April 2026"
                               }
                             ]
-                          },
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "ba261de7b96f4cce8c3089e39a544fa4",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
                           {
-                            "type": "td",
+                            "type": "p",
+                            "uid": "5bda905b1787411db77dd5ffb1c2a340",
                             "attrs": {},
-                            "uid": "e1a6aa7eb82744569122c59b5648e82a",
                             "children": [
                               {
                                 "text": "41% are adopting semantic layers in data platforms IDC IT Data Management Poll, February 2026"
@@ -399,7 +438,7 @@
             "_version": 1
           },
           "_metadata": {
-            "uid": "cs741d58267192f82c"
+            "uid": "cs2d6588adad260eaf"
           }
         }
       },
@@ -407,7 +446,7 @@
         "section_anchor": {
           "header_text": "What enterprise AI agents actually need",
           "_metadata": {
-            "uid": "cs774299af36d12e09"
+            "uid": "cs51e3764e48aa69d9"
           },
           "section_id": "what-enterprise-ai-agents-actually-need"
         }
@@ -417,12 +456,12 @@
           "text_content": {
             "type": "doc",
             "attrs": {},
-            "uid": "ce13a4b1e4cd4b4abaa9d6c9e5e1b51a",
+            "uid": "4553560be9fe462283c12fb236bb79e8",
             "children": [
               {
                 "type": "p",
+                "uid": "7980bf09a27741248f6f428a635eb4a7",
                 "attrs": {},
-                "uid": "5f4c01f248284448a7bc8b1c755b9988",
                 "children": [
                   {
                     "text": "IDC defines the universal semantic layer as an enterprise-wide abstraction and governance framework between raw data infrastructure and the people, applications, and AI agents that consume it. One practical way to translate that architecture into the requirements of an AI agent is to think about five connected capabilities:"
@@ -431,8 +470,8 @@
               },
               {
                 "type": "p",
+                "uid": "af3892cae216460bb7a4079206bd754b",
                 "attrs": {},
-                "uid": "f439bae7979b4463b8fe29b91f39fc78",
                 "children": [
                   {
                     "text": "The word universal matters. This is not a semantic model confined to one warehouse, BI tool, or AI application. It is a shared business-definition layer that spans distributed data platforms and consumption experiences, so the meaning of revenue, customer, or risk does not change depending on where an agent asks the question."
@@ -441,65 +480,79 @@
               },
               {
                 "type": "table",
+                "uid": "4aa231f356bf4579a19880897b20634b",
                 "attrs": {
                   "rows": 6,
                   "cols": 3,
                   "colWidths": [
-                    250,
-                    250,
-                    250
+                    40,
+                    74,
+                    86
                   ]
                 },
-                "uid": "da438e345308488d8c3baa48bb4a3b63",
                 "children": [
                   {
-                    "type": "thead",
+                    "type": "tr",
+                    "uid": "1c8935790b4c457a93b91d17b7e6d816",
                     "attrs": {},
-                    "uid": "76e62a9ad593467b95e6008754a9d7bd",
                     "children": [
                       {
-                        "type": "tr",
-                        "attrs": {},
-                        "uid": "6385a7ba367c4f2781ac02e1607a543c",
+                        "type": "th",
+                        "uid": "d656115eda9e4248ab3b5167e59e5156",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
                         "children": [
                           {
-                            "type": "th",
+                            "type": "p",
+                            "uid": "276b1e538fc945f6b32a6285c15c8a9d",
                             "attrs": {},
-                            "uid": "4b7260caa9da4f5daf699167da922a1b",
                             "children": [
                               {
                                 "text": "Context Layer",
-                                "attrs": {
-                                  "style": {}
-                                },
                                 "bold": true
                               }
                             ]
-                          },
+                          }
+                        ]
+                      },
+                      {
+                        "type": "th",
+                        "uid": "6335bb7e7d2e49aca68a96555202dc1a",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
                           {
-                            "type": "th",
+                            "type": "p",
+                            "uid": "7ce912304f00485b98f841165626f301",
                             "attrs": {},
-                            "uid": "1ee5cbe300774cb5976dc638698d0897",
                             "children": [
                               {
                                 "text": "What it provides",
-                                "attrs": {
-                                  "style": {}
-                                },
                                 "bold": true
                               }
                             ]
-                          },
+                          }
+                        ]
+                      },
+                      {
+                        "type": "th",
+                        "uid": "97123772c273419f9946f000463923c0",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
                           {
-                            "type": "th",
+                            "type": "p",
+                            "uid": "c5668cc7c58d4f83a45a4539bc8eeeec",
                             "attrs": {},
-                            "uid": "3fd0961bbcfc4b49b4c7f32d50df5115",
                             "children": [
                               {
                                 "text": "Why it matters for AI agents",
-                                "attrs": {
-                                  "style": {}
-                                },
                                 "bold": true
                               }
                             ]
@@ -509,39 +562,62 @@
                     ]
                   },
                   {
-                    "type": "tbody",
+                    "type": "tr",
+                    "uid": "14d29cc6ecf4468a94f4fea4825d3892",
                     "attrs": {},
-                    "uid": "e5a488baafc94bf5b5c20192d94f8123",
                     "children": [
                       {
-                        "type": "tr",
-                        "attrs": {},
-                        "uid": "347f3d6d12644cc394acb2a1e1be0ab1",
+                        "type": "td",
+                        "uid": "d23b3bd7a119443498269b92bb85fac3",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
                         "children": [
                           {
-                            "type": "td",
+                            "type": "p",
+                            "uid": "a610176e0819438784ec75941586a2cf",
                             "attrs": {},
-                            "uid": "304fa7ea1735418682989776b17dc00a",
                             "children": [
                               {
                                 "text": "Data"
                               }
                             ]
-                          },
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "3fbb3c40c7374654b693822f4873ed68",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
                           {
-                            "type": "td",
+                            "type": "p",
+                            "uid": "4b8bd9a62d1f40788fcd43befee81a57",
                             "attrs": {},
-                            "uid": "6d22095b9c5f4782bd6e968e97ad2cec",
                             "children": [
                               {
                                 "text": "Records of what happened"
                               }
                             ]
-                          },
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "ab033202f9394c91bf5da70a8661f2e4",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
                           {
-                            "type": "td",
+                            "type": "p",
+                            "uid": "33ddf7052c5b462088d8ee8f646cf166",
                             "attrs": {},
-                            "uid": "70071c7015cd4ba7850c9dca70a53615",
                             "children": [
                               {
                                 "text": "Agents need trusted enterprise data, not raw storage sprawl."
@@ -549,36 +625,66 @@
                             ]
                           }
                         ]
-                      },
+                      }
+                    ]
+                  },
+                  {
+                    "type": "tr",
+                    "uid": "6e24c67b6df94173bca7c3657b55a0ff",
+                    "attrs": {},
+                    "children": [
                       {
-                        "type": "tr",
-                        "attrs": {},
-                        "uid": "21289f06e87944329739332fce5b0615",
+                        "type": "td",
+                        "uid": "1ddb78cee5964368b1d89153284d5a89",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
                         "children": [
                           {
-                            "type": "td",
+                            "type": "p",
+                            "uid": "067d110fbf224468a1ea3aa0c1d27d3e",
                             "attrs": {},
-                            "uid": "5f6b7e397fc24064b368907229952503",
                             "children": [
                               {
                                 "text": "Metrics"
                               }
                             ]
-                          },
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "4cc447f840c342dc99fd7550fc8a2971",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
                           {
-                            "type": "td",
+                            "type": "p",
+                            "uid": "e538cf7b6cbe4c4d952bc59af88dc889",
                             "attrs": {},
-                            "uid": "ee273da881834dc69df6dfe87fd019cf",
                             "children": [
                               {
                                 "text": "Consistent calculations, KPIs, and aggregations"
                               }
                             ]
-                          },
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "eaaf93e445b844578a60145157b910b5",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
                           {
-                            "type": "td",
+                            "type": "p",
+                            "uid": "9c73a8986fc1483aad982095a452cc6e",
                             "attrs": {},
-                            "uid": "be4e30a008fe43ea99cea6404124b67a",
                             "children": [
                               {
                                 "text": "Agents need the same math across regions, tools, and workflows."
@@ -586,36 +692,66 @@
                             ]
                           }
                         ]
-                      },
+                      }
+                    ]
+                  },
+                  {
+                    "type": "tr",
+                    "uid": "85180403798147d9a2e52386ae8ca905",
+                    "attrs": {},
+                    "children": [
                       {
-                        "type": "tr",
-                        "attrs": {},
-                        "uid": "fb39cae84e954d5f85d6be6a570aa8d2",
+                        "type": "td",
+                        "uid": "f27b109cc48941649a58cc32e89683eb",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
                         "children": [
                           {
-                            "type": "td",
+                            "type": "p",
+                            "uid": "3d1aaa4c29f645dea2d628acaf29b22f",
                             "attrs": {},
-                            "uid": "0e37b9565d1b49399b61cdc559536ca7",
                             "children": [
                               {
                                 "text": "Semantics"
                               }
                             ]
-                          },
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "d045b16aa002421c8f62a0c215ac7a47",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
                           {
-                            "type": "td",
+                            "type": "p",
+                            "uid": "4ce84cf06b294f77aef9803a9fb58d0e",
                             "attrs": {},
-                            "uid": "5a23d1ce87984926957ff3ab97ca01ef",
                             "children": [
                               {
                                 "text": "Approved definitions, relationships, and business terms"
                               }
                             ]
-                          },
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "41e1d2ef81e24140a4daee38e7fbcfb0",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
                           {
-                            "type": "td",
+                            "type": "p",
+                            "uid": "4691d49a402546ee8dff6cc2f812b99e",
                             "attrs": {},
-                            "uid": "291c6218f2a347a3afcc12d19a10cb3a",
                             "children": [
                               {
                                 "text": "Agents need meaning supplied in advance, not inferred from schemas."
@@ -623,36 +759,66 @@
                             ]
                           }
                         ]
-                      },
+                      }
+                    ]
+                  },
+                  {
+                    "type": "tr",
+                    "uid": "1e08332d30a34d729382933bd9e15fa3",
+                    "attrs": {},
+                    "children": [
                       {
-                        "type": "tr",
-                        "attrs": {},
-                        "uid": "4366e4b29c2744cf800ecedbd7554207",
+                        "type": "td",
+                        "uid": "d205624d7e8f4c0b9d590f839e7bb5d1",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
                         "children": [
                           {
-                            "type": "td",
+                            "type": "p",
+                            "uid": "1123b46612464295b8f638bff7adc3cd",
                             "attrs": {},
-                            "uid": "cc0a8e30aeaa43acb0d0d9b0721703b1",
                             "children": [
                               {
                                 "text": "Governed context"
                               }
                             ]
-                          },
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "f471f17c096d489aaa158289637829de",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
                           {
-                            "type": "td",
+                            "type": "p",
+                            "uid": "d548eeb080c944fb972da5e8cc557e2c",
                             "attrs": {},
-                            "uid": "b3b100efe00742178d59cc875336a66c",
                             "children": [
                               {
                                 "text": "Meaning connected to user scope, access policy, and workflow"
                               }
                             ]
-                          },
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "efbfe512e19549cabb1730be881aaf94",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
                           {
-                            "type": "td",
+                            "type": "p",
+                            "uid": "2127c1fcb736477499a6b07faa36b529",
                             "attrs": {},
-                            "uid": "148d39c2db1042ccaadaadac7f245e08",
                             "children": [
                               {
                                 "text": "Agents need to know what applies to this user, this request, and this action."
@@ -660,36 +826,66 @@
                             ]
                           }
                         ]
-                      },
+                      }
+                    ]
+                  },
+                  {
+                    "type": "tr",
+                    "uid": "e16bff0f8f964ce4bc872669e501a5a0",
+                    "attrs": {},
+                    "children": [
                       {
-                        "type": "tr",
-                        "attrs": {},
-                        "uid": "70602c05e8be4a14be5c65b488b20a8f",
+                        "type": "td",
+                        "uid": "0d75bf3ee92d498d89ac76cfda3024e8",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
                         "children": [
                           {
-                            "type": "td",
+                            "type": "p",
+                            "uid": "8a9cf661d990463d87c61ce0bfab284c",
                             "attrs": {},
-                            "uid": "2e68619704b04799877054dbb574850a",
                             "children": [
                               {
                                 "text": "Trusted workflows"
                               }
                             ]
-                          },
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "a4e3420a1d3c4d3ebdb07fa3bbd3fda2",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
                           {
-                            "type": "td",
+                            "type": "p",
+                            "uid": "4e53f54bd50c4341b9fb95f30fb71476",
                             "attrs": {},
-                            "uid": "84fc21142ea2454e8f9397aac842b72a",
                             "children": [
                               {
                                 "text": "Reusable business logic applied where work happens"
                               }
                             ]
-                          },
+                          }
+                        ]
+                      },
+                      {
+                        "type": "td",
+                        "uid": "afbca88fedde49d4b305c160dfb87b13",
+                        "attrs": {
+                          "colspan": 1,
+                          "rowspan": 1
+                        },
+                        "children": [
                           {
-                            "type": "td",
+                            "type": "p",
+                            "uid": "4807db9e28214967b6146db3418b0ecc",
                             "attrs": {},
-                            "uid": "a43776d79d634ed58843f9dc48c5df5e",
                             "children": [
                               {
                                 "text": "Agents support decisions without rebuilding logic in every tool."
@@ -706,7 +902,7 @@
             "_version": 1
           },
           "_metadata": {
-            "uid": "cs89ed48b0435a539c"
+            "uid": "csc3de9e8e6a968d8b"
           }
         }
       },
@@ -714,7 +910,7 @@
         "section_anchor": {
           "header_text": "Why semantic fragmentation is a cost problem, not just a governance risk",
           "_metadata": {
-            "uid": "csf1359c613d46fc0e"
+            "uid": "cs721e2bc279516c35"
           },
           "section_id": "why-semantic-fragmentation-is-a-cost-problem-not-just-a-governance-risk"
         }
@@ -724,12 +920,12 @@
           "text_content": {
             "type": "doc",
             "attrs": {},
-            "uid": "161fc6c7c680488fb1d4c483a9919380",
+            "uid": "c494a6bf69a641f2aeb76bf31a6bc3eb",
             "children": [
               {
                 "type": "p",
+                "uid": "b97d655783e448b79e7082aa43ffef0e",
                 "attrs": {},
-                "uid": "4623195be7644bd19239b6ffb0dd7851",
                 "children": [
                   {
                     "text": "Enterprise data environments are distributed across cloud platforms, warehouses, lakehouses, SaaS applications, BI tools, and custom workflows. Definitions live in too many places. Access policies drift from metric logic. Business meaning stops traveling consistently."
@@ -738,8 +934,8 @@
               },
               {
                 "type": "p",
+                "uid": "0e6786a772bf44768a908b7efc9c9f03",
                 "attrs": {},
-                "uid": "4463be8fb609406f9ae1ef5f8b834bc5",
                 "children": [
                   {
                     "text": "The problem also evolves over time. As products, organizational structures, and reporting rules change, unmanaged definitions drift, leaving agents with stale or conflicting business context."
@@ -748,24 +944,19 @@
               },
               {
                 "type": "p",
+                "uid": "fad025f591454444be040581bb6efc85",
                 "attrs": {},
-                "uid": "c0eb966b1c3941889e378373d49b9fdb",
                 "children": [
                   {
                     "text": "That fragmentation is not just a governance problem. IDC identifies a compounding cost risk that CIOs and CFOs should take seriously: without a consistent semantic layer, business logic gets duplicated across pipelines, models, and applications. Poorly defined data forces AI agents to run broader, "
                   },
                   {
                     "type": "a",
+                    "uid": "6ac30fccf6f44ec28e7e9375e187f7ab",
                     "attrs": {
                       "url": "https://software.strategy.com/blog/your-data-is-free-now-your-meaning-is-the-lock-in",
-                      "target": "_blank",
-                      "style": {},
-                      "redactor-attributes": {
-                        "href": "https://software.strategy.com/blog/your-data-is-free-now-your-meaning-is-the-lock-in",
-                        "target": "_blank"
-                      }
+                      "target": "_blank"
                     },
-                    "uid": "0a1264dfa11a4b2c8b26f1d57f948d5b",
                     "children": [
                       {
                         "text": "more expensive queries just to resolve ambiguity"
@@ -779,22 +970,19 @@
               },
               {
                 "type": "p",
+                "uid": "28ef7e592d7147a793a4e607cfe37e07",
                 "attrs": {},
-                "uid": "de487d15887f4d3d8c08e53a99ccb1d8",
                 "children": [
                   {
                     "text": "As agentic workloads scale, that overhead compounds fast.",
-                    "attrs": {
-                      "style": {}
-                    },
                     "bold": true
                   }
                 ]
               },
               {
                 "type": "p",
+                "uid": "03d11cf0f08c42efb1df414dfb612dca",
                 "attrs": {},
-                "uid": "ee2bdf1959804020bcb6ee9c894bf319",
                 "children": [
                   {
                     "text": "A universal semantic layer reduces that cost by authoring logic once, enabling governed workload routing, and optimizing query execution across the data estate. The efficiency case for governed semantics is not separate from the AI readiness case. They are the same argument."
@@ -805,7 +993,7 @@
             "_version": 1
           },
           "_metadata": {
-            "uid": "csd5ce9837a5a8c3fe"
+            "uid": "csef24b254a4692c78"
           }
         }
       },
@@ -813,7 +1001,7 @@
         "section_anchor": {
           "header_text": "Strategy Mosaic turns governed semantics into AI-ready context",
           "_metadata": {
-            "uid": "csd2a1630be6ecb4df"
+            "uid": "cs12eefdfeacca2143"
           },
           "section_id": "strategy-mosaic-turns-governed-semantics-into-ai-ready-context"
         }
@@ -823,12 +1011,12 @@
           "text_content": {
             "type": "doc",
             "attrs": {},
-            "uid": "d4ba29393b4541509a9aacf595994425",
+            "uid": "6df05ad5a157442bba7d53969933aa01",
             "children": [
               {
                 "type": "p",
+                "uid": "6dd053db1d254a869e4142fbeb0db9e7",
                 "attrs": {},
-                "uid": "d3a19de96afd444e93faeecf54b207f7",
                 "children": [
                   {
                     "text": "IDC's architecture points to three requirements: business logic should be authored once, governance should remain attached wherever that logic is consumed, and trusted context should be available across analytics tools and AI agents. That is the design center for Strategy Mosaic."
@@ -837,21 +1025,16 @@
               },
               {
                 "type": "p",
+                "uid": "c0e3a474167e498bbea54428af7fe996",
                 "attrs": {},
-                "uid": "bf688baa0c3b43beb432497f5900b9c0",
                 "children": [
                   {
                     "type": "a",
+                    "uid": "4e20661edb7d434e88402250df3a6c49",
                     "attrs": {
                       "url": "https://software.strategy.com/strategymosaic",
-                      "target": "_blank",
-                      "style": {},
-                      "redactor-attributes": {
-                        "href": "https://software.strategy.com/strategymosaic",
-                        "target": "_blank"
-                      }
+                      "target": "_blank"
                     },
-                    "uid": "421be1cc253f4e08b64a802151329805",
                     "children": [
                       {
                         "text": "Strategy Mosaic"
@@ -863,16 +1046,11 @@
                   },
                   {
                     "type": "a",
+                    "uid": "9935bebf583b46d1b6480abc1b1b8673",
                     "attrs": {
                       "url": "https://software.strategy.com/blog/the-semantic-layer-is-becoming-context-infrastructure-for-ai",
-                      "target": "_blank",
-                      "style": {},
-                      "redactor-attributes": {
-                        "href": "https://software.strategy.com/blog/the-semantic-layer-is-becoming-context-infrastructure-for-ai",
-                        "target": "_blank"
-                      }
+                      "target": "_blank"
                     },
-                    "uid": "e0c080b45fab47e8ac8768ca714421d8",
                     "children": [
                       {
                         "text": "AI-ready context"
@@ -886,8 +1064,8 @@
               },
               {
                 "type": "p",
+                "uid": "abf4366d538c44feb3d9e7927a5b4482",
                 "attrs": {},
-                "uid": "5832bff1c66e4a34b414e02e2c06841d",
                 "children": [
                   {
                     "text": "Native MCP access enables compatible AI tools to reach certified business metrics rather than raw schemas. Mosaic Sentinel keeps policy enforcement and auditability connected to the same semantic foundation as usage scales. Mosaic is designed around this architectural principle: business meaning should be governed before an agent is asked to interpret or act on enterprise data."
@@ -896,8 +1074,8 @@
               },
               {
                 "type": "p",
+                "uid": "a77f837cf6494b44b59877ddda231ddb",
                 "attrs": {},
-                "uid": "dc6e3fd0ea4e46b6b7370b9278f495fc",
                 "children": [
                   {
                     "text": "The next generation of enterprise AI architecture will not be defined only by the models an organization deploys. It will be defined by the context layer that tells those models what the business means, what they may access, and how to act consistently across systems. That is why universal semantic layers are becoming critical infrastructure for AI at scale."
@@ -908,7 +1086,7 @@
             "_version": 1
           },
           "_metadata": {
-            "uid": "cs5f9bf26d45aab62f"
+            "uid": "cs458394af465ac9a7"
           }
         }
       },
@@ -917,12 +1095,12 @@
           "text_content": {
             "type": "doc",
             "attrs": {},
-            "uid": "1af2097196d840cab29399c9f739266d",
+            "uid": "68be7667ce174808b50868f0d07b27ba",
             "children": [
               {
                 "type": "p",
+                "uid": "8ccb956fb9a0449981b855fe98df8376",
                 "attrs": {},
-                "uid": "f6ce1a6451964054af20af0a4361de03",
                 "children": [
                   {
                     "text": "[ PROMO PLACEHOLDER — Replace with Promo block in Contentstack editor ]"
@@ -931,8 +1109,8 @@
               },
               {
                 "type": "p",
+                "uid": "b7919415e32246afbab6315c7168405c",
                 "attrs": {},
-                "uid": "a4a8904b2bb3471b9abcb89775f04b93",
                 "children": [
                   {
                     "text": "CTA: \"IDC Spotlight: The Role of Universal Semantic Layers in the Agentic Data Era\""
@@ -941,8 +1119,8 @@
               },
               {
                 "type": "p",
+                "uid": "313db265ad8c4f00a87d5f917e927047",
                 "attrs": {},
-                "uid": "c6f3e35dd0cf471aabf8ae63a8e337ae",
                 "children": [
                   {
                     "text": "Button: Download the IDC Spotlight  →  https://www.strategy.com/software/research-and-reports/idc-spotlight-universal-semantic-layers-agentic-ai"
@@ -953,7 +1131,7 @@
             "_version": 1
           },
           "_metadata": {
-            "uid": "cs17ff1e8ba87c33b2"
+            "uid": "cs47387bc5e2bec395"
           }
         }
       },
@@ -961,7 +1139,7 @@
         "section_anchor": {
           "header_text": "Frequently Asked Questions",
           "_metadata": {
-            "uid": "csb2368d2e16572ac3"
+            "uid": "cs02f9195808ffbb8e"
           },
           "section_id": "frequently-asked-questions"
         }
@@ -972,17 +1150,17 @@
             {
               "title": "What is the difference between a semantic layer for BI and a semantic layer for agentic AI?",
               "_metadata": {
-                "uid": "csd7e1126454a897b5"
+                "uid": "csf5dcebcc3267f72d"
               },
               "content": {
                 "type": "doc",
                 "attrs": {},
-                "uid": "df0391d088d644f98bd6632c3f55cba6",
+                "uid": "2bb133c8887b422a89bb895aba0836eb",
                 "children": [
                   {
                     "type": "p",
                     "attrs": {},
-                    "uid": "028700a59d1d479bb94fd1797e8c3764",
+                    "uid": "d436a7abb2404551a33ca3d6a4da1d16",
                     "children": [
                       {
                         "text": "A BI semantic layer standardizes metrics and definitions for human analysts working in dashboards and reports. A semantic layer for agentic AI must go further. It connects business meaning to access policy, user scope, and workflow context so an agent understands not only what a metric means, but also what data it may access and which business rules apply to the request. In practical terms, trusted data, metrics, semantics, governed context, and reusable workflows must work together to make AI action reliable."
@@ -996,17 +1174,17 @@
             {
               "title": "Why does a semantic layer need to be universal?",
               "_metadata": {
-                "uid": "cs02f354d15bafdc7b"
+                "uid": "cs291942dd7e7cd67e"
               },
               "content": {
                 "type": "doc",
                 "attrs": {},
-                "uid": "39bbbf5a8c23430cab2084d85e87b883",
+                "uid": "e55c12d1c3794165af50e60d2239ce1b",
                 "children": [
                   {
                     "type": "p",
                     "attrs": {},
-                    "uid": "428f79612de84d56979d213970c86bd2",
+                    "uid": "ce0d2fca0e9d4946af48323f044b1ea8",
                     "children": [
                       {
                         "text": "Enterprise data and AI workloads span multiple warehouses, lakehouses, BI tools, applications, and models. A semantic layer embedded inside one platform can standardize meaning within that environment, but definitions may fragment again when another system consumes the data. A universal semantic layer keeps approved metrics, relationships, and policies consistent across the wider ecosystem."
@@ -1020,17 +1198,17 @@
             {
               "title": "What is semantic fragmentation and why does it create a cost problem for enterprise AI?",
               "_metadata": {
-                "uid": "cs705fc97f138537f7"
+                "uid": "csd66b5b9c6064a788"
               },
               "content": {
                 "type": "doc",
                 "attrs": {},
-                "uid": "b9f9de3bb9484bacb4102e19d4fc5a63",
+                "uid": "dc69f9d2a0df46529f718745537c2503",
                 "children": [
                   {
                     "type": "p",
                     "attrs": {},
-                    "uid": "9834e69bbd6f4779b7a3f8243ff989a5",
+                    "uid": "b63bb0fe4e134e2497843bd23ddeda92",
                     "children": [
                       {
                         "text": "Semantic fragmentation occurs when business definitions, metric calculations, and access policies exist in multiple inconsistent versions across an organization's data platforms, BI tools, SaaS applications, and custom workflows. For human analysts, fragmentation creates delays and reconciliation overhead. For AI agents, it creates a more serious problem: agents may resolve ambiguity by running broader, more expensive queries across more data than necessary, duplicating logic across pipelines and applications. IDC identifies this as a compounding cost risk, one that grows as agent workloads scale and the volume of AI-initiated queries increases."
@@ -1043,7 +1221,7 @@
             }
           ],
           "_metadata": {
-            "uid": "csca5e38a1cfd8b955"
+            "uid": "cs550d06a591cd2ff8"
           },
           "accordion_options": "closed"
         }
@@ -1053,12 +1231,12 @@
           "text_content": {
             "type": "doc",
             "attrs": {},
-            "uid": "ccdfb639688e4c4e90f7501c7dca4e9a",
+            "uid": "6ca9457f9464474d817c75f14e7ad0f3",
             "children": [
               {
                 "type": "p",
+                "uid": "e3e6bf5481544520aaf0f7a90fdce6cd",
                 "attrs": {},
-                "uid": "7a5697b1dd474a129e87f1e94925ccaa",
                 "children": [
                   {
                     "text": "All IDC statistics and the quoted passage are drawn from: Megha Kumar, The Role of Universal Semantic Layers in the Agentic Data Era, IDC Spotlight, sponsored by Strategy, July 2026. Each statistic is attributed to its source survey inline above."
@@ -1069,7 +1247,7 @@
             "_version": 1
           },
           "_metadata": {
-            "uid": "cs467b4176a317b330"
+            "uid": "cs8c302915ee4ac6d1"
           }
         }
       }
@@ -1085,7 +1263,6 @@
     },
     "page_properties": {
       "navigation_title": "",
-      "header_color": null,
       "hide_header_nav": false,
       "hide_header_cta": false,
       "hide_footer": false,
@@ -1102,7 +1279,7 @@
       "description": "AI agents act before humans notice errors. Learn why a universal semantic layer is now critical infrastructure for trustworthy agentic AI.",
       "featured": false
     },
-    "locale": "en",
+    "tags": [],
     "publish_date": "2026-08-01",
     "author": [
       {
@@ -1119,18 +1296,15 @@
         "taxonomy_uid": "blog",
         "term_uid": "analytics"
       }
-    ]
-  },
-  "_mapping_warnings": [
-    "The document header labels this as 'IDC SPOTLIGHT · JULY 2026' — treated as publication context, not part of the article title.",
-    "The figure caption paragraph ('Figure 1: A universal semantic layer...') was formatted with mixed bold/italic inline markers and mapped as a paragraph with runs. The italic portion was rendered without italic run flag since the schema does not include an italic run property — human review recommended.",
-    "The first table in the document (1x2, containing only the Megha Kumar blockquote) was mapped as a blockquote rather than a table block, as its content is clearly a pull-quote with attribution.",
-    "The 2x2 stats table has no clear header row; all four cells are data cells and were placed in 'rows' with empty headers array.",
-    "The 6x3 context layer table's first row ('Context Layer', 'What it provides', 'Why it matters for AI agents') was treated as headers.",
-    "postFaqContent italic attribution paragraph was stripped of italic formatting since postFaqContent is plain strings.",
-    "Internal link paths were inferred from the full URLs provided in [LINK:] markers — all software.strategy.com and strategy.com links were listed under externalLinks; the path-only versions are listed under internalLinks for reference.",
-    "The 'IDC SPOTLIGHT · JULY 2026' label at the top was treated as a publication label, not a heading or body content.",
-    "Suggested taxonomy terms with no configured match: Agentic AI, Enterprise AI, Data Governance. Add them to contentstack.taxonomy_terms in config.yaml (with UID from Contentstack) if relevant, or apply manually in the CS editor.",
-    "CTA 1 ('IDC Spotlight: The Role of Universal Semantic Layers in the Agentic Data Era') — placeholder text block inserted before FAQ. Create a Promo entry in CS using the extracted headline and button text, then replace the placeholder with the Promo block and move it to the correct position."
-  ]
+    ],
+    "locale": "en",
+    "uid": "blt0707610e8e0175d1",
+    "created_by": "blte12f8d786df2b4b9",
+    "updated_by": "blte12f8d786df2b4b9",
+    "created_at": "2026-08-26T18:02:03.620Z",
+    "updated_at": "2026-08-26T18:02:03.620Z",
+    "ACL": {},
+    "_version": 1,
+    "_in_progress": false
+  }
 }

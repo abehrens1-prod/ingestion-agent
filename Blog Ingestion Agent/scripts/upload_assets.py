@@ -200,9 +200,6 @@ def upload_assets(
 
     auth_headers = {"x-mstr-key": api_key}
 
-    # Optional folder UID from config
-    folder_uid = config.get("contentstack", {}).get("asset_folder_uid", "")
-
     uid_map = {}
     asset_urls = {}
 
@@ -211,14 +208,10 @@ def upload_assets(
         try:
             with open(img_path, "rb") as f:
                 ct = _guess_content_type(img_path)
-                form_data = {"asset[title]": img_path.stem}
-                if folder_uid:
-                    form_data["asset[parent_uid]"] = folder_uid
                 r = requests.post(
                     assets_url,
                     headers=auth_headers,
-                    files={"asset[upload]": (img_path.name, f, ct)},
-                    data=form_data,
+                    files={"body": (img_path.name, f, ct)},
                     timeout=60,
                 )
 
@@ -227,12 +220,14 @@ def upload_assets(
                 continue
 
             resp_json = r.json()
-            asset = resp_json.get("asset", resp_json)
+            # Response shape from this endpoint hasn't been confirmed yet — try the
+            # common spots (top-level, or nested under "asset") before giving up.
+            asset = resp_json.get("asset", resp_json) if isinstance(resp_json, dict) else {}
             asset_uid = asset.get("uid")
             asset_url = asset.get("url", "")
 
             if not asset_uid:
-                print(f"  ❌ No UID in response: {r.text[:200]}")
+                print(f"  ❌ No UID found in response — check response shape: {r.text[:300]}")
                 continue
 
             uid_map[canonical_name] = asset_uid

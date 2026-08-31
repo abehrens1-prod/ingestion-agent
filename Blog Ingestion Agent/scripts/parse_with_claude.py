@@ -485,7 +485,6 @@ def _enrich_seo(result: dict, client, model: str) -> dict:
         # No doc meta description — use the enriched version
         seo["metaDescription"] = seo_data.get("metaDescription", seo.get("metaDescription", ""))
         seo["metaDescriptionAlternatives"] = seo_data.get("metaDescriptionAlternatives", [])
-    seo["metaDescriptionAlternatives"] = seo_data.get("metaDescriptionAlternatives", [])
     seo["primaryKeywords"] = seo_data.get("primaryKeywords", [])
     seo["secondaryKeywords"] = seo_data.get("secondaryKeywords", [])
     seo["longTailKeywords"] = seo_data.get("longTailKeywords", [])
@@ -495,10 +494,12 @@ def _enrich_seo(result: dict, client, model: str) -> dict:
     result["seo"] = seo
     return result
 
-def parse_with_claude(docx_path: str, config: Optional[dict] = None) -> dict:
+def parse_with_claude(docx_path: str, config: Optional[dict] = None, locale: Optional[str] = None) -> dict:
     model = "claude-sonnet-4-6"
+    run_enrichment = True
     if config:
         model = config.get("pipeline", {}).get("claude_model", model)
+        run_enrichment = config.get("pipeline", {}).get("run_claude_enrichment", True)
 
     client = anthropic.Anthropic()
 
@@ -559,6 +560,12 @@ def parse_with_claude(docx_path: str, config: Optional[dict] = None) -> dict:
     result.setdefault("internalLinks", [])
     result.setdefault("externalLinks", [])
 
+    # Locale: explicit --locale wins, else config default, else "en". Never guessed
+    # from document content — misdetection on a mixed-language post is worse than
+    # requiring a human to say so explicitly.
+    if not result.get("locale"):
+        result["locale"] = locale or (config.get("contentstack", {}).get("default_locale", "en") if config else "en")
+
     # Default publishDate to tomorrow if missing
     if not result.get("publishDate"):
         tomorrow = (datetime.now(timezone.utc) + timedelta(days=1)).strftime("%Y-%m-%dT00:00:00.000Z")
@@ -575,7 +582,8 @@ def parse_with_claude(docx_path: str, config: Optional[dict] = None) -> dict:
         )
 
     # SEO enrichment — generate meta descriptions, keyword sets
-    result = _enrich_seo(result, client, model)
+    if run_enrichment:
+        result = _enrich_seo(result, client, model)
 
     # Truncate meta description only when AI-generated. Doc-provided descriptions are kept
     # verbatim — flag for human review if over 160 chars.
@@ -607,9 +615,9 @@ def parse_with_claude(docx_path: str, config: Optional[dict] = None) -> dict:
     return result
 
 
-def main(docx_path: str, output_path: Optional[str] = None, config: Optional[dict] = None) -> dict:
+def main(docx_path: str, output_path: Optional[str] = None, config: Optional[dict] = None, locale: Optional[str] = None) -> dict:
     logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
-    result = parse_with_claude(docx_path, config)
+    result = parse_with_claude(docx_path, config, locale=locale)
     if output_path:
         Path(output_path).parent.mkdir(parents=True, exist_ok=True)
         with open(output_path, "w", encoding="utf-8") as f:
@@ -624,8 +632,9 @@ if __name__ == "__main__":
     )
     parser.add_argument("docx_path", help="Path to .docx file")
     parser.add_argument("--output", "-o", default="output/normalized_blog.json")
+    parser.add_argument("--locale", default=None, help="Locale code (e.g. es, fr) — defaults to contentstack.default_locale in config.yaml")
     args = parser.parse_args()
-    result = main(args.docx_path, args.output)
+    result = main(args.docx_path, args.output, locale=args.locale)
     print(f"Done. Title: {result.get('title', '(none)')}")
     print(f"  Sections: {len(result.get('body', []))}")
     print(f"  FAQ items: {len(result.get('faq', []))}")
