@@ -19,6 +19,12 @@ Usage:
 """
 
 import sys
+
+if sys.platform == "win32":
+    # Native Windows consoles default to a legacy codepage, not UTF-8 — without
+    # this, the ✓/⚠/❌ status glyphs below crash with UnicodeEncodeError mid-run.
+    sys.stdout.reconfigure(encoding="utf-8")
+    sys.stderr.reconfigure(encoding="utf-8")
 import json
 import uuid
 import secrets

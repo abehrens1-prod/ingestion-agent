@@ -33,6 +33,17 @@ python3 scripts/upload_to_contentstack.py output/henry-guo-blog-post-2026-05/con
 
 **Dependencies:** `pip install -r requirements.txt`
 
+## Platform support (macOS + Windows, one shared codebase)
+
+This is a single codebase for both operating systems — there is no separate Mac/Windows copy of `scripts/`, `schemas/`, or `config.yaml`. Only two things vary by OS, and both are resolved automatically:
+
+- **Project root path.** On macOS it's the path shown above. On Windows, OneDrive for Business syncs the same SharePoint folder under the Windows user profile (typically `C:\Users\<you>\MicroStrategy, Inc\<library>\Desktop\Claude Code\Projects\Ingestion Agents\Blog Ingestion Agent` — the library folder name varies by tenant, so treat it as a starting guess, not a literal).
+- **Python binary.** `python3` on macOS/Linux; on Windows, `python3` may not be recognized even with Python installed, so fall back to `python`.
+
+The `/blog-ingestion` skill (and its standalone sub-skills `/blog-parse`, `/blog-map`, `/blog-validate`, `/blog-upload` in `~/.claude/skills/`) resolve both of these automatically at the start of a run by checking the session's own `Platform:` info, with a one-time discovery fallback (PowerShell `Get-ChildItem`/WSL `find`) if the guessed Windows path doesn't exist. If you're running scripts manually rather than through a skill, do the same substitution yourself: swap the project root and `python3`→`python` as needed.
+
+Everything else — the Python scripts, `config.yaml`, the Node RTE serializer subprocess — is written to be OS-agnostic (uses `pathlib`, not hardcoded `/` string concatenation). If you hit a Windows-specific failure in the scripts themselves (not just a path/binary mismatch), that's a real bug to fix here, not something to route around with a separate Windows copy of the code.
+
 ## Architecture
 
 Four-step pipeline: `parse_with_claude` → `map_to_contentstack` → `validate_blog_json` → `upload_to_contentstack` (optional). `run_pipeline.py` orchestrates all steps using `importlib.util` dynamic imports — every script is both a standalone CLI tool and an importable module.
@@ -66,6 +77,7 @@ Four-step pipeline: `parse_with_claude` → `map_to_contentstack` → `validate_
 - **`build_body()` removed** — it was dead code (the module docstring claimed `map_to_contentstack.py` called it for the whole `body` field, but the actual live code path has always called `_block_to_node()` per-block from `_build_content_blocks()`; that docstring claim was already stale before this change).
 - **Internal link UID references — the actual mechanism**, confirmed from the package's own test fixtures (not guessed): feed it an anchor shaped like `<a class="embedded-entry redactor-component block-entry" target="_blank" type="entry" data-sys-entry-uid="bltXXXX" data-sys-content-type-uid="blog_post" data-sys-entry-locale="en-us" sys-style-type="link">text</a>` and it emits a native `{"type": "reference", "attrs": {"entry-uid": ..., "content-type-uid": ..., "display-type": "link", "locale": ...}}` node — a real UID-backed reference, not a hyperlink. A plain `<a href="...">` still works fine for external links or unresolved internal ones. **Not wired in yet** — turning a resolved internal link path into those attributes requires the middleware endpoint (Mikhal, not yet built) to resolve URL → UID + content type; `_runs_to_html()` in `rte_builder.py` only emits plain `<a href>` today.
 - **Requires Node + `npm install` in `scripts/rte_serializer_node/`** — if that hasn't been run on a given machine, every mapping call fails immediately with a clear error pointing at the fix.
+- **Windows fix (2026-08-31): switched from a stdin pipe to a temp file.** `_serialize_html()` in `rte_builder.py` originally piped the HTML fragment to `serialize.js` via `subprocess.run(input=...)`, read on the Node side with `fs.readFileSync(0, "utf8")`. That call throws `EAGAIN` on native Windows when fd 0 is an anonymous pipe — exactly what `input=` creates — which would have broken every RTE-formatting call on Windows. Now the fragment is written to a `tempfile.NamedTemporaryFile(delete=False)` and passed via `serialize.js`'s existing `--file` flag, with the temp file explicitly deleted in a `finally` block (needed because Windows won't let a second process open a still-open `delete=True` temp file). `subprocess.run` also now sets `encoding="utf-8"` explicitly instead of relying on the platform default (cp1252 on Windows), to avoid mangling non-ASCII characters in captured output. Verified: output is byte-for-byte identical (aside from freshly-generated random uids) to the pre-fix version on a real post.
 
 `config.yaml` is the only configuration surface:
 - `contentstack.field_map` — maps normalized field names to Contentstack field UIDs (confirmed from a live exported entry)

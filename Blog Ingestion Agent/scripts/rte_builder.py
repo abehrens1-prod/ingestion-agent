@@ -17,7 +17,9 @@ Contentstack JSON RTE spec:
 
 import html as html_lib
 import json
+import os
 import subprocess
+import tempfile
 import uuid
 from pathlib import Path
 from typing import Optional
@@ -41,13 +43,25 @@ def _serialize_html(html_fragment: str) -> list:
     that already takes minutes for Claude parsing. Simpler and more reliable than
     keeping a persistent Node process alive for a pipeline that only ever processes
     one blog post at a time.
+
+    Hands the fragment to serialize.js via a temp file (--file), not a stdin pipe:
+    Node's synchronous `fs.readFileSync(0, ...)` throws EAGAIN on native Windows
+    when fd 0 is an anonymous pipe, which is exactly what subprocess.run(input=...)
+    creates. A real file avoids that failure mode entirely, on every OS.
     """
+    tmp_path = None
     try:
+        with tempfile.NamedTemporaryFile(
+            mode="w", suffix=".html", encoding="utf-8", delete=False
+        ) as tmp:
+            tmp.write(html_fragment)
+            tmp_path = tmp.name
+
         result = subprocess.run(
-            ["node", str(_SERIALIZER_SCRIPT)],
-            input=html_fragment,
+            ["node", str(_SERIALIZER_SCRIPT), "--file", tmp_path],
             capture_output=True,
             text=True,
+            encoding="utf-8",
             timeout=15,
         )
     except FileNotFoundError as e:
@@ -55,6 +69,9 @@ def _serialize_html(html_fragment: str) -> list:
             "Node.js not found on PATH — required for RTE serialization. Install Node, "
             "then run `npm install` inside scripts/rte_serializer_node/."
         ) from e
+    finally:
+        if tmp_path:
+            os.unlink(tmp_path)
     if result.returncode != 0:
         raise RuntimeError(
             f"rte_serializer_node failed on:\n{html_fragment}\n\nstderr: {result.stderr.strip()}"
