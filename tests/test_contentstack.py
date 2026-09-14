@@ -18,6 +18,7 @@ from ingestion_common.contentstack import (
     publish_entry,
     upload_entry,
 )
+from ingestion_common import schema_tools
 
 
 class FakeResponse:
@@ -124,7 +125,7 @@ class ContentstackTests(unittest.TestCase):
             posted = []
             responses = iter(
                 [
-                    FakeResponse(422, {"errors": {"title": ["already exists"]}}),
+                    FakeResponse(422, {"errors": {"title": ["is not unique"]}}),
                     FakeResponse(
                         201,
                         {"entry": {"uid": "blt123", "title": "v2 | Semantic Layer"}},
@@ -171,6 +172,55 @@ class ContentstackTests(unittest.TestCase):
         self.assertEqual("blt123", response_file["entry"]["uid"])
         self.assertEqual("blt123", result["entry_uid"])
         self.assertIn("  v1 | Semantic Layer — title taken, trying next version...\n", stdout.getvalue())
+
+    def test_versioned_upload_does_not_retry_non_uniqueness_title_validation_error(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            entry_path = self.write_entry(root)
+            (root / ".env").write_text("MSTR_API_KEY=secret\n", encoding="utf-8")
+            posted = []
+            validation_response = FakeResponse(
+                422,
+                {
+                    "error_message": "Validation failed",
+                    "errors": {"title": ["is too long"]},
+                },
+            )
+
+            def fake_post(url, **kwargs):
+                posted.append((url, copy.deepcopy(kwargs)))
+                return validation_response
+
+            stdout = io.StringIO()
+            with (
+                patch.dict(os.environ, {}, clear=True),
+                patch(
+                    "ingestion_common.contentstack.requests.get",
+                    return_value=FakeResponse(
+                        200,
+                        {"content_type": {"schema": [{"uid": "title"}, {"uid": "url"}]}},
+                    ),
+                ),
+                patch("ingestion_common.contentstack.requests.post", side_effect=fake_post),
+                redirect_stdout(stdout),
+                self.assertRaisesRegex(
+                    RuntimeError, "Entry creation failed with HTTP 422"
+                ),
+            ):
+                upload_entry(
+                    entry_path,
+                    config=self.config,
+                    project_root=root,
+                    title_versioning=True,
+                )
+
+        self.assertEqual(1, len(posted))
+        self.assertNotIn("title taken", stdout.getvalue())
+        self.assertIn(
+            'Response: {"error_message": "Validation failed", '
+            '"errors": {"title": ["is too long"]}}',
+            stdout.getvalue(),
+        )
 
     def test_locale_upload_sends_locale_query_parameter_and_reports_it(self):
         with tempfile.TemporaryDirectory() as tmp:
@@ -278,6 +328,76 @@ class ContentstackTests(unittest.TestCase):
         self.assertFalse(published)
         self.assertEqual(
             "  ❌ Publish failed (HTTP 500): server error\n", stdout.getvalue()
+        )
+
+
+class SchemaToolsTests(unittest.TestCase):
+    def test_main_routes_cli_request_and_output_through_explicit_project_root(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp) / "project"
+            outside = Path(tmp) / "outside"
+            root.mkdir()
+            outside.mkdir()
+            (root / "config.yaml").write_text(
+                "api:\n  base_url: https://schema.example.test/\n", encoding="utf-8"
+            )
+            (root / ".env").write_text("MSTR_API_KEY=schema-key\n", encoding="utf-8")
+            requests_seen = []
+
+            def fake_get(url, **kwargs):
+                requests_seen.append((url, copy.deepcopy(kwargs)))
+                return FakeResponse(
+                    200,
+                    {
+                        "entries": [
+                            {
+                                "uid": "blt-schema",
+                                "title": "Schema sample",
+                                "url": "/schema-sample",
+                            }
+                        ]
+                    },
+                )
+
+            stdout = io.StringIO()
+            with (
+                patch.dict(os.environ, {}, clear=True),
+                patch("ingestion_common.schema_tools.Path.cwd", return_value=outside),
+                patch("ingestion_common.schema_tools.requests.get", side_effect=fake_get),
+                redirect_stdout(stdout),
+            ):
+                result = schema_tools.main(
+                    root, ["--entries", "asset_page", "--limit", "1"]
+                )
+
+            saved = json.loads(
+                (root / "output" / "sample_entry_asset_page.json").read_text(
+                    encoding="utf-8"
+                )
+            )
+
+        self.assertEqual(0, result)
+        self.assertEqual("blt-schema", saved["uid"])
+        self.assertFalse((outside / "output").exists())
+        self.assertEqual(
+            [
+                (
+                    "https://schema.example.test/entries/asset_page?limit=1",
+                    {
+                        "headers": {
+                            "x-mstr-key": "schema-key",
+                            "Content-Type": "application/json",
+                        },
+                        "timeout": 15,
+                    },
+                )
+            ],
+            requests_seen,
+        )
+        self.assertIn("API base: https://schema.example.test\n", stdout.getvalue())
+        self.assertIn(
+            "✓ First entry saved to: output/sample_entry_asset_page.json\n",
+            stdout.getvalue(),
         )
 
 

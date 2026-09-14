@@ -236,10 +236,17 @@ def _post_versioned_entry(url, entry, request_kwargs):
         if response.status_code in (200, 201):
             return response, candidate
         try:
-            errors = response.json().get("errors", {})
+            title_errors = response.json().get("errors", {}).get("title", [])
         except ValueError:
-            errors = {}
-        if "title" not in errors:
+            title_errors = []
+        if not isinstance(title_errors, list):
+            title_errors = [title_errors]
+        is_title_collision = response.status_code == 422 and any(
+            isinstance(message, str)
+            and ("not unique" in message.lower() or "already exists" in message.lower())
+            for message in title_errors
+        )
+        if not is_title_collision:
             break
         print(f"  {candidate} — title taken, trying next version...")
     return response, None
