@@ -52,15 +52,15 @@ api:
   canonical_base_url: "https://software.strategy.com"
   cms_domain_prefix: "/software"
 
-  # Asset upload endpoint. NOT confirmed for glossary pages — the Blog Ingestion Agent
-  # has a confirmed endpoint (uploadToBlogAssetsFolder, from Dale/ITS, 2026-08-26) for
-  # its own dedicated blog-assets folder, but no equivalent has been requested or
-  # confirmed for glossary/page assets. scripts/upload_assets.py exists as a standalone
-  # utility (same corrected multipart shape as Blog's) that patches assetUid into
-  # image/video blocks in normalized_glossary.json — map_to_contentstack.py now turns a
-  # patched image block into a native asset_page `image` content block. Ask Dale for a
-  # glossary/page assets folder endpoint before relying on this for a real upload.
-  assets_url: ""
+  # Asset upload endpoint. Reused from the Blog Ingestion Agent (uploadToBlogAssetsFolder,
+  # confirmed by Dale/ITS, 2026-08-26) per Ash's decision on 2026-09-14 — no separate
+  # glossary/page assets folder endpoint has been requested, and Ash confirmed it's fine
+  # for glossary assets to land in the shared blog-assets folder for now.
+  # scripts/upload_assets.py (same corrected multipart shape as Blog's) patches assetUid
+  # into image/video blocks in normalized_glossary.json — map_to_contentstack.py's main()
+  # now runs it automatically before mapping whenever this URL is set, and turns a patched
+  # image block into a native asset_page `image` content block.
+  assets_url: "https://api-stg.microstrategy.com/cs-software/uploadToBlogAssetsFolder"
 
 pipeline:
   claude_model: "claude-sonnet-4-6"

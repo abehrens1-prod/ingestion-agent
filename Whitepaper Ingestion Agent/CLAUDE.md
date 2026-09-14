@@ -122,3 +122,12 @@ Per the 2026-08-26 Contentstack team review (originally scoped for the sibling B
 - PDF table extraction (pdfplumber) struggles with merged cells and complex layouts; these produce `validationWarnings` in the normalized JSON and pending checklist items in the validation report. They are expected and require human review.
 - The `tags` field appears in the entry payload but not in the CS content type schema. The API accepts it anyway — the preflight warning can be ignored.
 - Running `run_pipeline.py` end-to-end times out in some tool environments; run steps individually if needed.
+
+## Shared facts
+
+- All three pipelines use four steps: parse → map → validate → upload. Upload creates a draft only after explicit user confirmation.
+- `api.base_url` is exactly `https://api-stg.microstrategy.com/cs-software` in every project `config.yaml`.
+- The proxy has no PUT endpoint: an `--entry-uid` update request fails with HTTP 404. Do not promise updates; create a new draft version instead.
+- `upload_to_contentstack.py` automatically normalizes titles and applies/retries `vN | <title>` (`v1 |`, `v2 |`, ...) in Blog, Whitepaper, and Glossary. Do not manually prefix or mutate `contentstack_entry.json` titles.
+- Each script establishes an explicit `PROJECT_ROOT`, adds its parent repository root to `sys.path`, and imports shared utilities from `ingestion_common`; retain that contract when adding scripts or imports.
+- Shared-fact changes must update this AGENTS.md and this CLAUDE.md in the same commit, and `log.md` must record the change.

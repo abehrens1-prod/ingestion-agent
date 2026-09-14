@@ -157,6 +157,10 @@ def upload_entry(
             r = requests.put(url, headers=headers, params={"locale": locale}, json={"entry": entry}, timeout=30)
         except requests.RequestException as e:
             raise RuntimeError(f"Update request failed: {e}") from e
+        if r.status_code not in (200, 201):
+            print(f"  ❌ Update failed (HTTP {r.status_code})")
+            print(f"  Response: {r.text[:1000]}")
+            raise RuntimeError(f"Entry update failed with HTTP {r.status_code}: {r.text[:300]}")
         action = "updated"
     else:
         url = f"{base_url}/entries/{content_type}"

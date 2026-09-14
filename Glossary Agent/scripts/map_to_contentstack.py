@@ -9,11 +9,19 @@ revert to that pattern; see docs/glossary_page_spec.md open item history for why
 
 Structure:
 
+  Before mapping, main() calls _auto_upload_assets(): if config.yaml's api.assets_url is
+  set and the term has an input/sources/<slug>/assets/ folder, it runs upload_assets.py
+  and patches any resulting assetUid straight into normalized_glossary.json — folds the
+  old manual "run upload_assets.py, then re-run this script" two-step into one (Ash's
+  ask, 2026-09-14). No-ops quietly if assets_url is blank or there's nothing staged.
+
   page_header (native field group — no more improvised hero)
     headline: page title (H1)
-    subhead: the term's GEO query target (e.g. "What is a semantic layer?") — a
-      deliberate mapping choice, not an unconfirmed value; reinforces the AEO framing
-      right under the H1. Revisit if Frank/Jessica want something else here.
+    subhead: the definition block's first item's boldSentence (e.g. "A semantic layer is
+      a governed metadata layer that translates raw data into business-meaningful terms,
+      metrics, hierarchies, and definitions.") — changed 2026-09-14 per Ash's feedback,
+      replacing the earlier choice of using geoQueryTarget here. Falls back to
+      geoQueryTarget only if there's no definition item to draw from.
     brief_content: normalized["definition"] as a bulleted list (bold + supporting
       sentence per item) — this field's own instruction text says "should be formatted
       as a bulleted list," so this is the native replacement for the old hand-built
@@ -22,13 +30,19 @@ Structure:
     section_anchor block: native TOC entry (header_text, section_id) — replaces the
       old section_id-on-a-whitepaper-section workaround.
     divider block
-    text/image blocks: paragraphs, lists, and tables go into a `text` block's RTE;
-      images with a known Contentstack asset uid become their own native `image`
-      block (asset_page has a first-class file-reference image block, unlike `page`'s
-      RTE-only approach). Video sub-blocks and images without an uploaded asset yet
+    text/image/video blocks: paragraphs and tables go into a `text` block's RTE; list
+      items get a mechanically-derived bold+italic lead phrase (rte_builder.list_lead_runs
+      — split on the item's own colon/dash if present, else the nearest word boundary;
+      Ash's feedback, 2026-09-14, no new drafting). Images with a known Contentstack
+      asset uid become their own native `image` block; video blocks with a
+      `contentstackUid` (an existing Contentstack `video`-entry reference) become a
+      native `video` block. Video sub-blocks and images without an asset/reference yet
       stay as an inline placeholder paragraph — see NOTES below.
-  FAQ -> accordion block (same shape as the old `page` mapper — `accordion` is a
-    modular block on both content types with the same accordion_item structure)
+  FAQ -> its own section_anchor("Frequently Asked Questions") + divider + accordion
+    block, same as every body section gets (previously the accordion had neither and
+    visually blended into the last body section — Ash's feedback, 2026-09-14). accordion
+    itself is the same shape as the old `page` mapper — a modular block on both content
+    types with the same accordion_item structure.
 
 NOTES — things this content type changed or removed vs. the old `page` mapper:
 
@@ -44,9 +58,17 @@ NOTES — things this content type changed or removed vs. the old `page` mapper:
   silently dropped, plus a mapping warning. See docs/glossary_page_spec.md.
 
   Video: asset_page's `video` content block references a Contentstack `video` ENTRY,
-  not a raw file/URL. This pipeline doesn't create video entries, so a video sub-block
-  always becomes an inline placeholder paragraph (bold "[VIDEO PLACEHOLDER]" text) in
-  the surrounding text block, same as an image with no uploaded asset yet.
+  not a raw file/URL. This pipeline doesn't create video entries, but as of 2026-09-14
+  it can reference one that already exists — Strategy's site convention (Ash, 2026-09-14)
+  is that every on-site video is its own Contentstack `video` entry wrapping a
+  YouTube/Wistia/Wistia-Channel link, with its own Entry ID distinct from the video
+  host's own ID. Set a video block's `contentstackUid` to that entry's Entry ID (visible
+  in Contentstack's "Entry Information" panel — NOT the host's Video ID field) and
+  _make_video_block wires it up natively. This API proxy can't resolve entries by UID
+  (GET /entries/{type}/{uid} 404s even for entries this pipeline itself created), so
+  there's no automated way to verify the ID here — take it as given from Ash. Without a
+  `contentstackUid`, a video sub-block still falls back to an inline placeholder
+  paragraph (bold "[VIDEO PLACEHOLDER]" text), same as an image with no uploaded asset yet.
 
   Callouts (normalized "callout" blocks — asides, stat call-outs): asset_page's text
   block RTE toolbar options don't include "blockquote" (the old rte_builder.callout_node
@@ -74,6 +96,7 @@ from slugify import slugify
 logger = logging.getLogger(__name__)
 
 _rte_builder = None
+_upload_assets_mod = None
 
 
 def _get_rte():
@@ -87,6 +110,67 @@ def _get_rte():
         spec.loader.exec_module(mod)
         _rte_builder = mod
     return _rte_builder
+
+
+def _get_upload_assets():
+    global _upload_assets_mod
+    if _upload_assets_mod is None:
+        import importlib.util
+        spec = importlib.util.spec_from_file_location(
+            "upload_assets", Path(__file__).parent / "upload_assets.py"
+        )
+        mod = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(mod)
+        _upload_assets_mod = mod
+    return _upload_assets_mod
+
+
+def _has_pending_uploads(normalized: dict) -> bool:
+    """True if any image/video block still references a sourcePath with no assetUid yet."""
+    for section in normalized.get("sections", []):
+        for block in section.get("blocks", []):
+            if block.get("type") in ("image", "video") and block.get("sourcePath") and not block.get("assetUid"):
+                return True
+    return False
+
+
+def _auto_upload_assets(normalized_path: Path, config: dict) -> None:
+    """Upload any staged image/video files for this term and patch their assetUid into
+    normalized_glossary.json before mapping — folds in what used to be a manual
+    upload_assets.py step (Ash's ask, 2026-09-14), mirroring the Blog agent's
+    run_pipeline.py Step 1b, inlined here since this project has no separate orchestrator.
+    No-ops quietly if api.assets_url isn't configured, the term has no assets/ folder, or
+    every referenced file already has an assetUid — upload_assets.py has no "already
+    uploaded" check of its own and re-uploads every file in the directory unconditionally,
+    so without this guard every re-run of map_to_contentstack.py after the first would
+    create a duplicate Contentstack asset for the same file.
+    """
+    assets_url = config.get("api", {}).get("assets_url", "").strip()
+    if not assets_url:
+        logger.info("Asset upload skipped — set api.assets_url in config.yaml to enable.")
+        return
+
+    with open(normalized_path, "r", encoding="utf-8") as f:
+        normalized = json.load(f)
+    slug = normalized.get("slug", "")
+    if not slug:
+        logger.info("Asset upload skipped — normalized JSON has no 'slug' to locate an assets/ folder.")
+        return
+
+    media_dir = Path("input/sources") / slug / "assets"
+    if not media_dir.is_dir():
+        logger.info(f"Asset upload skipped — {media_dir} not found (nothing staged for this term).")
+        return
+
+    if not _has_pending_uploads(normalized):
+        logger.info("Asset upload skipped — every image/video block with a sourcePath already has an assetUid.")
+        return
+
+    upload_mod = _get_upload_assets()
+    uid_map = upload_mod.upload_assets(media_dir=str(media_dir), config=config)
+    if uid_map:
+        patched = upload_mod._patch_normalized(normalized_path, uid_map)
+        logger.info(f"Auto-uploaded {len(uid_map)} asset(s), patched {patched} block(s) in {normalized_path.name}.")
 
 
 def load_config(config_path: str = "config.yaml") -> dict:
@@ -137,9 +221,14 @@ def _build_page_header(normalized: dict) -> dict:
 
     brief_nodes = [rte.ul_node(li_items, text_color=rte.BODY_TEXT)] if li_items else []
 
+    definition = normalized.get("definition", [])
+    subhead = (definition[0].get("boldSentence") or "").strip() if definition else ""
+    if not subhead:
+        subhead = normalized.get("geoQueryTarget", "") or ""
+
     return {
         "headline": normalized.get("title", ""),
-        "subhead": normalized.get("geoQueryTarget", "") or "",
+        "subhead": subhead,
         "description": _rte_doc([]),
         "brief_header": "",
         "brief_content": _rte_doc(brief_nodes),
@@ -185,17 +274,56 @@ def _make_divider() -> dict:
 
 
 def _make_image_block(block: dict) -> dict:
+    """Image content block, confirmed 2026-09-14 against real HTTP 422s on this
+    pipeline's first-ever real image push (assetUid was always empty before the
+    asset-upload wiring landed, so none of this was tested until now):
+
+    `reference` is a bare asset-UID string, not an object — cross-checked against the
+    Blog Ingestion Agent's confirmed-live "IDC Spotlight" entry (real assetUid
+    blt5aa365fd4729e2de, sent as `"reference": "blt5aa365fd4729e2de"`). Two wrapped
+    shapes were tried first and rejected ("should be a single value instead of
+    multiple" for a list-wrapped object, then "is not a valid upload" for an unwrapped
+    object with `_content_type_uid` — that second one is the entry-reference pattern
+    the `video` block's `reference` genuinely needs, since `video` is a `data_type:
+    "reference"` field; assets aren't a custom content type, so it never applies here).
+
+    `alignment` is omitted entirely. asset_page's own schema export lists "Center" as
+    both a valid enum choice and the field's default, and the Blog agent's `blog_post`
+    content type accepts "Center" on its own identically-named Alignment field — but a
+    real push to *this* content type still rejected "Center" on its own, isolated from
+    every other field ("Center is not a valid enum value for content.N.image.alignment").
+    Each content type's enum choices are independently configured even when the field
+    UID and schema export look the same, so the Blog example doesn't transfer. Same
+    schema-export-vs-live-validation mismatch already hit once on `text.accent_box`
+    (docs/glossary_page_spec.md item #11) — omit and let Contentstack's own default
+    apply rather than guess at the real valid values.
+    """
     return {
         "image": {
-            "reference": [{"uid": block["assetUid"], "_content_type_uid": "sys_assets"}],
+            "reference": block["assetUid"],
             "caption": block.get("caption") or block.get("altText", ""),
             "limit_width": None,
-            "alignment": "Center",
             "rounded_corners": "Medium",
             "drop_shadow": "None",
             "outline": False,
             "highest_priority": False,
             "link": [],
+            "_metadata": {"uid": _cs_uid()},
+        }
+    }
+
+
+def _make_video_block(block: dict) -> dict:
+    """Native asset_page `video` content block, referencing an existing Contentstack
+    `video`-content-type entry directly (Ash's call, 2026-09-14) — no raw file upload
+    needed when the term already has a CMS video entry. Defaults (Inline / Center) match
+    the schema's own field defaults."""
+    return {
+        "video": {
+            "reference": [{"uid": block["contentstackUid"], "_content_type_uid": "video"}],
+            "playback_type": "Inline",
+            "play_icon": "Center",
+            "override_thumbnail": None,
             "_metadata": {"uid": _cs_uid()},
         }
     }
@@ -248,7 +376,7 @@ def _build_section_content_blocks(section_blocks: list, rte) -> list:
         if btype == "paragraph":
             current_nodes.append(rte.p_node(runs=blk.get("runs"), text=blk.get("text", ""), color=rte.BODY_TEXT))
         elif btype == "list":
-            items = blk.get("items", [])
+            items = [rte.list_lead_runs(item) for item in blk.get("items", [])]
             if blk.get("style") == "numbered":
                 current_nodes.append(rte.ol_node(items, text_color=rte.BODY_TEXT))
             else:
@@ -265,7 +393,11 @@ def _build_section_content_blocks(section_blocks: list, rte) -> list:
             else:
                 current_nodes.append(_placeholder_node(rte, "IMAGE", blk))
         elif btype == "video":
-            current_nodes.append(_placeholder_node(rte, "VIDEO", blk))
+            if blk.get("contentstackUid"):
+                flush()
+                result.append(_make_video_block(blk))
+            else:
+                current_nodes.append(_placeholder_node(rte, "VIDEO", blk))
 
     flush()
     return result
@@ -435,6 +567,11 @@ def map_normalized_to_entry(normalized: dict, config: dict) -> dict:
 
     faq_block = _build_faq_accordion(normalized.get("faq", []))
     if faq_block:
+        # Give FAQ its own section_anchor + divider, same as every body section
+        # (_build_body_content) — otherwise it has no heading/ToC entry and visually
+        # blends into the section above it (Ash's feedback, 2026-09-14).
+        content_blocks.append(_make_section_anchor("Frequently Asked Questions", "faq"))
+        content_blocks.append(_make_divider())
         content_blocks.append(faq_block)
     else:
         warnings.append("No FAQ items — accordion block not added.")
@@ -480,6 +617,7 @@ def map_normalized_to_entry(normalized: dict, config: dict) -> dict:
 def main(normalized_path: str, output_path: Optional[str] = None, config_path: str = "config.yaml") -> dict:
     logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
     config = load_config(config_path)
+    _auto_upload_assets(Path(normalized_path), config)
     with open(normalized_path, "r", encoding="utf-8") as f:
         normalized = json.load(f)
     result = map_normalized_to_entry(normalized, config)

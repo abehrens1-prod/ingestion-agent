@@ -37,6 +37,7 @@ Contentstack JSON RTE spec:
 
 import html as html_lib
 import json
+import re
 import subprocess
 import uuid
 from pathlib import Path
@@ -203,6 +204,82 @@ def ol_node(items: list, text_color: Optional[str] = None) -> dict:
         "attrs": {},
         "children": [_li_node(item, text_color=text_color) for item in items],
     }
+
+
+_LEAD_DELIM_RE = re.compile(r"[:–—]")  # colon, en dash, em dash — not a plain
+                                                   # hyphen, which is too common inside
+                                                   # compound words (e.g. "Business-meaningful")
+
+# Trailing conjunction/article/preposition left dangling by the raw word-boundary cut
+# (e.g. "...permissions and" before "governance") — trimmed so the bold lead doesn't
+# end mid-clause. Only reached on the rare item with neither a dash/colon nor a comma
+# in a reasonable prefix.
+_STOP_TAIL_RE = re.compile(
+    r"\s+(?:and|or|but|with|of|to|in|for|the|a|an|as|by|on|at)$", re.IGNORECASE
+)
+
+
+def _split_lead(text: str) -> tuple:
+    """Mechanically derive a short lead phrase from an existing list item's text — no new
+    drafting, just splitting text that's already there. Ash approved this "free" approach
+    (2026-09-14) over a Claude touch-up call, since the underlying copy is already
+    Henry/Frank-approved and shouldn't be rewritten.
+
+    Preference order, each cheaper/rougher than the last:
+    1. A colon/en-dash/em-dash within the first ~80 chars — the "Lead — detail" or
+       "Lead: detail" pattern most list items in this pipeline's drafts already use.
+    2. A comma in a reasonable prefix (15-60 chars) — a softer natural break for items
+       with no dash/colon.
+    3. The nearest word boundary at ~45 chars, trimmed of a dangling trailing
+       conjunction/article/preposition.
+    4. The whole string, if it's already shorter than ~45 chars.
+    """
+    text = text.strip()
+    m = _LEAD_DELIM_RE.search(text[:80])
+    if m:
+        idx = m.end()
+        lead, rest = text[:idx], text[idx:]
+        if rest.strip():
+            return lead, rest
+        return text, ""
+
+    if len(text) <= 45:
+        return text, ""
+
+    comma_idx = text.find(",", 15, 60)
+    if comma_idx != -1:
+        lead, rest = text[: comma_idx + 1], text[comma_idx + 1 :]
+        if rest.strip():
+            return lead, rest
+
+    cut = text.rfind(" ", 0, 45)
+    if cut <= 0:
+        cut = 45
+    lead = text[:cut]
+    trimmed = _STOP_TAIL_RE.sub("", lead)
+    while trimmed != lead and trimmed:
+        lead = trimmed
+        trimmed = _STOP_TAIL_RE.sub("", lead)
+    return lead, text[len(lead) :]
+
+
+def list_lead_runs(item):
+    """Convert a plain-string list item into runs with a bold+italic lead phrase
+    (Ash's chosen style, 2026-09-14) — the same `runs`-on-`_li_node` mechanism the
+    definition/"Brief" box already uses for its bold lead sentence, just mechanically
+    split instead of authored as boldSentence/supportingText. Items that are already a
+    runs list (e.g. authored lead/rest in a future draft) pass through unchanged.
+    """
+    if isinstance(item, list):
+        return item
+    text = str(item).strip()
+    if not text:
+        return [{"text": ""}]
+    lead, rest = _split_lead(text)
+    runs = [{"text": lead, "bold": True, "italic": True}]
+    if rest.strip():
+        runs.append({"text": rest})
+    return runs
 
 
 def _li_node(item, text_color: Optional[str] = None) -> dict:

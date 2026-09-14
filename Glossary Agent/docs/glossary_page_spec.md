@@ -130,9 +130,10 @@ entry, never `--publish`. AI-generated sections must be flagged (`provenance[].a
    need a real Contentstack `promo` entry to reference. No promo entries exist yet for
    this pipeline to point to; CTAs are omitted with a mapping warning until Jessica/Dale
    provide one (or a set, per Arrival-tier target).
-9. **NEW (2026-09-01):** `page_header.subhead` is currently mapped to the term's
-   `geoQueryTarget` (e.g. "What is a semantic layer?") — a deliberate choice, not a
-   guess, but not yet confirmed with Frank as the intended use of that field.
+9. ~~`page_header.subhead` mapping~~ — **CLOSED 2026-09-14.** Ash's call: `subhead` uses
+   the definition block's first item's `boldSentence` (falling back to `geoQueryTarget`
+   only if there's no definition item), not `geoQueryTarget` directly as originally
+   mapped.
 10. ~~`scripts/upload_to_contentstack.py` blocked with HTTP 403~~ — **CLOSED 2026-09-01.**
     The MicroStrategy API proxy's allowlist didn't include `asset_page` at first; Dale/ITS
     added it same-day.
@@ -145,3 +146,19 @@ entry, never `--publish`. AI-generated sections must be flagged (`provenance[].a
     403 — same allowlist gap `asset_page` itself had, item #10). `map_to_contentstack.py`
     no longer sets `accent_box` on callout blocks — they're a plain bold-lead paragraph
     instead until Dale/Jessica can confirm valid values.
+12. **NEW (2026-09-14) — Video workflow, confirmed with Ash:** Every on-site video is its
+    own Contentstack `video`-content-type entry wrapping a YouTube/Wistia/Wistia-Channel
+    link — that entry's own Entry ID (from its "Entry Information" panel, e.g.
+    `bltfb3d9af8e01be23d`) is distinct from the video host's own ID (e.g. a Wistia ID like
+    `4axrx3zvc9`). `map_to_contentstack.py`'s video block needs the **Entry ID** (field
+    `contentstackUid` in `normalized_glossary.json`) to build a native `video` content
+    block — the host ID alone can't be substituted. **The `video` content type is fully
+    blocked from this pipeline's API proxy** (`content_types/video` returns 403 "not
+    permitted through this middleware"; `entries/video/*` 404s even for real entries) —
+    there is no read, list, or create access to it at all, so an Entry ID can never be
+    looked up or verified programmatically and a new video entry can never be created by
+    this pipeline. **Process rule: before drafting/mapping a section that should include a
+    video, ask Ash for the Entry ID rather than defaulting straight to the
+    `[VIDEO PLACEHOLDER]` fallback** — only fall back if Ash confirms no entry exists yet.
+    Default-assume the source is Wistia (Ash: "90% of the time it'll be a Wistia video")
+    and only confirm otherwise if something (e.g. a youtube.com link) suggests it isn't.

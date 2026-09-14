@@ -1,13 +1,13 @@
 {
   "entry": {
-    "title": "v1 | What Is a Semantic Layer?",
+    "title": "v2 | What Is a Semantic Layer?",
     "url": "/assets/glossary/semantic-layer",
     "page_header": {
       "headline": "What Is a Semantic Layer?",
-      "subhead": "What is a semantic layer?",
+      "subhead": "A semantic layer is a governed metadata layer that translates raw data into business-meaningful terms, metrics, hierarchies, and definitions.",
       "description": {
         "type": "doc",
-        "uid": "04e459986be148c49a9df23a164be9da",
+        "uid": "17c1a8c1730a4184913bd6b357b1563d",
         "attrs": {},
         "children": [
           {
@@ -19,22 +19,22 @@
       "brief_header": "",
       "brief_content": {
         "type": "doc",
-        "uid": "765f9c7495f24c29a895515ee19620a1",
+        "uid": "239ade59262f4332b68f97c69b0750f1",
         "attrs": {},
         "children": [
           {
             "type": "ul",
-            "uid": "31762ab4cf764efc90f1c3dec020ea06",
+            "uid": "69d460ebc3324a979c8a888f20832928",
             "attrs": {},
             "children": [
               {
                 "type": "li",
-                "uid": "3a029137b02c4651b0fb934505458f35",
+                "uid": "d3d365e1e2894b77b0f5eaf3c7d81c1c",
                 "attrs": {},
                 "children": [
                   {
                     "type": "p",
-                    "uid": "e1cab0d1a0064a7d9632080242693d80",
+                    "uid": "06b5872b403d47be83ad0f4e88759f79",
                     "attrs": {},
                     "children": [
                       {
@@ -60,12 +60,12 @@
               },
               {
                 "type": "li",
-                "uid": "0b3f355c803a407f9e3e028c53860ced",
+                "uid": "ddc62d29bf5d45c099ea85ac9281b566",
                 "attrs": {},
                 "children": [
                   {
                     "type": "p",
-                    "uid": "30f16b6400f945ca996b058017e72b76",
+                    "uid": "95efc7d11c7c4c7a98b7afb4a34dbace",
                     "attrs": {},
                     "children": [
                       {
@@ -91,12 +91,12 @@
               },
               {
                 "type": "li",
-                "uid": "525c311cc985489aa9021f8f16efe018",
+                "uid": "56cda50930ca47fdbf5d9db89ba57cff",
                 "attrs": {},
                 "children": [
                   {
                     "type": "p",
-                    "uid": "46bcce5b105142068964f911a22862a9",
+                    "uid": "a3dd1142dcc640dea34d730abb671dea",
                     "attrs": {},
                     "children": [
                       {
@@ -136,7 +136,7 @@
           "no_toc": false,
           "no_numbering": false,
           "_metadata": {
-            "uid": "csbc8059ba1ef3ac3b"
+            "uid": "cs86c4794b68e52361"
           }
         }
       },
@@ -145,7 +145,7 @@
           "color": "colorOrange",
           "spacing": "spacingDefault",
           "_metadata": {
-            "uid": "cs43425ebeec3f2b86"
+            "uid": "cs4ccbf3995d13b77c"
           }
         }
       },
@@ -154,12 +154,12 @@
           "accent_box": [],
           "text_content": {
             "type": "doc",
-            "uid": "2ea56a425c454e41ab58c6c479ddda3e",
+            "uid": "0c0073e628ac4f4d8177bc71782ecf47",
             "attrs": {},
             "children": [
               {
                 "type": "p",
-                "uid": "53b296fb5d4b4168806fe8f1f56d9258",
+                "uid": "3c1dd8d9582c474f93809d4c31550cf6",
                 "attrs": {},
                 "children": [
                   {
@@ -178,7 +178,43 @@
           "text_override": null,
           "table_styles": [],
           "_metadata": {
-            "uid": "cs4ab2e5232a629956"
+            "uid": "csf9ae8a191354e2b1"
+          }
+        }
+      },
+      {
+        "video": {
+          "reference": [
+            {
+              "uid": "bltfb3d9af8e01be23d",
+              "_content_type_uid": "video"
+            }
+          ],
+          "playback_type": "Inline",
+          "play_icon": "Center",
+          "override_thumbnail": null,
+          "_metadata": {
+            "uid": "cs287985f4f27e538b"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "How Does a Semantic Layer Work?",
+          "section_id": "how-does-a-semantic-layer-work",
+          "no_toc": false,
+          "no_numbering": false,
+          "_metadata": {
+            "uid": "cs86e34bc77614fc34"
+          }
+        }
+      },
+      {
+        "divider": {
+          "color": "colorOrange",
+          "spacing": "spacingDefault",
+          "_metadata": {
+            "uid": "cs6d091f1c2902fc12"
           }
         }
       },
@@ -187,25 +223,16 @@
           "accent_box": [],
           "text_content": {
             "type": "doc",
-            "uid": "0f581a5f3fd7485e9b2de83a50e4ae71",
+            "uid": "9f19b275e29a4f1eb9a77a2d8f4e9a77",
             "attrs": {},
             "children": [
               {
                 "type": "p",
-                "uid": "d6a8f32e4fa3424493a5952dee32f6ac",
+                "uid": "374d1abd653c4593bfd5a3ee73796c54",
                 "attrs": {},
                 "children": [
                   {
-                    "text": "Video:",
-                    "attrs": {
-                      "style": {
-                        "color": "rgb(26, 26, 26)"
-                      }
-                    },
-                    "bold": true
-                  },
-                  {
-                    "text": " Insert \"Semantic Layer Overview\" video here once produced. No video asset exists yet — flagged for the web team; see validationWarnings.",
+                    "text": "The semantic layer sits between raw data sources and the AI and BI tools that consume them. Rather than letting every downstream tool interpret raw table structures and column names on its own, the semantic layer intercepts those queries and enforces a consistent layer of business logic before any answer is returned.",
                     "attrs": {
                       "style": {
                         "color": "rgb(26, 26, 26)"
@@ -220,27 +247,22 @@
           "text_override": null,
           "table_styles": [],
           "_metadata": {
-            "uid": "csbee8318b24f7366e"
+            "uid": "csacb35fb0707db0a8"
           }
         }
       },
       {
-        "section_anchor": {
-          "header_text": "How Does a Semantic Layer Work?",
-          "section_id": "how-does-a-semantic-layer-work",
-          "no_toc": false,
-          "no_numbering": false,
+        "image": {
+          "reference": "bltf2745815ffe78a79",
+          "caption": "How a semantic layer works: source data flows through the analytical engine, AI-assisted data modeling, and governed data product catalog to power BI tools, AI agents, and more.",
+          "limit_width": null,
+          "rounded_corners": "Medium",
+          "drop_shadow": "None",
+          "outline": false,
+          "highest_priority": false,
+          "link": [],
           "_metadata": {
-            "uid": "csb3066fedc55ef166"
-          }
-        }
-      },
-      {
-        "divider": {
-          "color": "colorOrange",
-          "spacing": "spacingDefault",
-          "_metadata": {
-            "uid": "cscda84e7de15d6617"
+            "uid": "csf1ebf9202a039360"
           }
         }
       },
@@ -249,51 +271,12 @@
           "accent_box": [],
           "text_content": {
             "type": "doc",
-            "uid": "3c97919275624017a07fde51546aa12e",
+            "uid": "d31940f8ebe84b959ffcd18a2fbc401c",
             "attrs": {},
             "children": [
               {
                 "type": "p",
-                "uid": "074b84d6a6b944e3b07c2bdc66868adf",
-                "attrs": {},
-                "children": [
-                  {
-                    "text": "The semantic layer sits between raw data sources and the AI and BI tools that consume them. Rather than letting every downstream tool interpret raw table structures and column names on its own, the semantic layer intercepts those queries and enforces a consistent layer of business logic before any answer is returned.",
-                    "attrs": {
-                      "style": {
-                        "color": "rgb(26, 26, 26)"
-                      }
-                    }
-                  }
-                ]
-              },
-              {
-                "type": "p",
-                "uid": "cfe8f106b4964351a58bc90896f3780e",
-                "attrs": {},
-                "children": [
-                  {
-                    "text": "[IMAGE PLACEHOLDER] ",
-                    "attrs": {
-                      "style": {
-                        "color": "rgb(26, 26, 26)"
-                      }
-                    },
-                    "bold": true
-                  },
-                  {
-                    "text": "Drop the file in the term's assets/ folder and run upload_assets.py --normalized to fill this in — source: how-semantic-layer-works.png",
-                    "attrs": {
-                      "style": {
-                        "color": "rgb(26, 26, 26)"
-                      }
-                    }
-                  }
-                ]
-              },
-              {
-                "type": "p",
-                "uid": "4ce3537fc5bf48d79370ae1e75efae01",
+                "uid": "9bc7e0d0815240f29d933a6f159b430d",
                 "attrs": {},
                 "children": [
                   {
@@ -308,7 +291,7 @@
               },
               {
                 "type": "p",
-                "uid": "ec8224a837ca4b6197e9ea1a82e488e9",
+                "uid": "98cf0946e7d44cd3bcefac82e5e6e202",
                 "attrs": {},
                 "children": [
                   {
@@ -323,21 +306,31 @@
               },
               {
                 "type": "ul",
-                "uid": "8221627c1a72436f8df6cc5af8b17215",
+                "uid": "57a82c2a639a44d99bfcd7867f3a3a91",
                 "attrs": {},
                 "children": [
                   {
                     "type": "li",
-                    "uid": "34af5f74daad4bdf9ac6f5dc30d24c0c",
+                    "uid": "a66103ac25d3439f8cc595b40661e119",
                     "attrs": {},
                     "children": [
                       {
                         "type": "p",
-                        "uid": "9c254ccf45d24e7c98130a59a54a9629",
+                        "uid": "ac233c0e2dde483f8974343a822c5f09",
                         "attrs": {},
                         "children": [
                           {
-                            "text": "Business-meaningful names for tables, columns, and metrics — so AI knows that tbl_rev_q3 means 'Q3 Revenue,' not just a string of characters.",
+                            "text": "Business-meaningful names for tables, columns, and metrics —",
+                            "attrs": {
+                              "style": {
+                                "color": "rgb(26, 26, 26)"
+                              }
+                            },
+                            "bold": true,
+                            "italic": true
+                          },
+                          {
+                            "text": " so AI knows that tbl_rev_q3 means 'Q3 Revenue,' not just a string of characters.",
                             "attrs": {
                               "style": {
                                 "color": "rgb(26, 26, 26)"
@@ -350,16 +343,26 @@
                   },
                   {
                     "type": "li",
-                    "uid": "eb567af0e309431bb908c2de004d7e7b",
+                    "uid": "49c079f5da31415ab69a44be303f1e9a",
                     "attrs": {},
                     "children": [
                       {
                         "type": "p",
-                        "uid": "fb9744fc9b49417f8084fcb89146c714",
+                        "uid": "7a7d3c4da85d4d9bac0bd755efc330a5",
                         "attrs": {},
                         "children": [
                           {
-                            "text": "Calculated metrics with consistent definitions, encoded once and reused across every dashboard, report, and AI interface.",
+                            "text": "Calculated metrics with consistent definitions,",
+                            "attrs": {
+                              "style": {
+                                "color": "rgb(26, 26, 26)"
+                              }
+                            },
+                            "bold": true,
+                            "italic": true
+                          },
+                          {
+                            "text": " encoded once and reused across every dashboard, report, and AI interface.",
                             "attrs": {
                               "style": {
                                 "color": "rgb(26, 26, 26)"
@@ -372,16 +375,26 @@
                   },
                   {
                     "type": "li",
-                    "uid": "33a0bdf9c0e84eeca8326fdcd18903ad",
+                    "uid": "fe4cc0e89bea4bb5ace797d8d1bc0754",
                     "attrs": {},
                     "children": [
                       {
                         "type": "p",
-                        "uid": "66cd90b591a64d61b723527f5806d7bb",
+                        "uid": "71db2896253a4b23bf51104d32bb542d",
                         "attrs": {},
                         "children": [
                           {
-                            "text": "Row- and column-level permissions and governance, so executives get high-level rollups and analysts get appropriately filtered views.",
+                            "text": "Row- and column-level permissions and governance,",
+                            "attrs": {
+                              "style": {
+                                "color": "rgb(26, 26, 26)"
+                              }
+                            },
+                            "bold": true,
+                            "italic": true
+                          },
+                          {
+                            "text": " so executives get high-level rollups and analysts get appropriately filtered views.",
                             "attrs": {
                               "style": {
                                 "color": "rgb(26, 26, 26)"
@@ -394,16 +407,26 @@
                   },
                   {
                     "type": "li",
-                    "uid": "714f4d624db04d458ae0892a31156bc1",
+                    "uid": "a15070d8c629470095f53e4eb8669716",
                     "attrs": {},
                     "children": [
                       {
                         "type": "p",
-                        "uid": "6d5618ef74ca4bc88f6586946d4ae514",
+                        "uid": "9d3e12f2f809410bbcffd9a1861fde41",
                         "attrs": {},
                         "children": [
                           {
-                            "text": "Lineage — where data came from and how it was transformed.",
+                            "text": "Lineage —",
+                            "attrs": {
+                              "style": {
+                                "color": "rgb(26, 26, 26)"
+                              }
+                            },
+                            "bold": true,
+                            "italic": true
+                          },
+                          {
+                            "text": " where data came from and how it was transformed.",
                             "attrs": {
                               "style": {
                                 "color": "rgb(26, 26, 26)"
@@ -416,16 +439,26 @@
                   },
                   {
                     "type": "li",
-                    "uid": "c7fb92ff58394f1aae1e6897f807aff4",
+                    "uid": "0338e7f5d6c74b5b89e5ec4db7e2f010",
                     "attrs": {},
                     "children": [
                       {
                         "type": "p",
-                        "uid": "c5571ea6041345a9b90e04308b4334bb",
+                        "uid": "57573cd1a7274edf857e416541f1c719",
                         "attrs": {},
                         "children": [
                           {
-                            "text": "Business hierarchies across geography, product, and time.",
+                            "text": "Business hierarchies across geography,",
+                            "attrs": {
+                              "style": {
+                                "color": "rgb(26, 26, 26)"
+                              }
+                            },
+                            "bold": true,
+                            "italic": true
+                          },
+                          {
+                            "text": " product, and time.",
                             "attrs": {
                               "style": {
                                 "color": "rgb(26, 26, 26)"
@@ -438,12 +471,12 @@
                   },
                   {
                     "type": "li",
-                    "uid": "21a5328221c5484f95982d32d2841079",
+                    "uid": "b3ebe30ba7dc4bdf857a10a2f2cbc48f",
                     "attrs": {},
                     "children": [
                       {
                         "type": "p",
-                        "uid": "1c4643f126774a2894a4e4250123c724",
+                        "uid": "fb1a2061a1dd42f8a3866ef5b5bd6721",
                         "attrs": {},
                         "children": [
                           {
@@ -452,7 +485,9 @@
                               "style": {
                                 "color": "rgb(26, 26, 26)"
                               }
-                            }
+                            },
+                            "bold": true,
+                            "italic": true
                           }
                         ]
                       }
@@ -460,16 +495,26 @@
                   },
                   {
                     "type": "li",
-                    "uid": "c45fcade672b4001a2ce4135b6e35c4d",
+                    "uid": "62473295429240faacc81792fd0d3dd0",
                     "attrs": {},
                     "children": [
                       {
                         "type": "p",
-                        "uid": "dace8b3f44024ed387c90b5be8d80993",
+                        "uid": "71021d7c28d84de29d50272867985e5e",
                         "attrs": {},
                         "children": [
                           {
-                            "text": "Full version control and audit trails — every change to a KPI, filter, or access rule is logged automatically.",
+                            "text": "Full version control and audit trails —",
+                            "attrs": {
+                              "style": {
+                                "color": "rgb(26, 26, 26)"
+                              }
+                            },
+                            "bold": true,
+                            "italic": true
+                          },
+                          {
+                            "text": " every change to a KPI, filter, or access rule is logged automatically.",
                             "attrs": {
                               "style": {
                                 "color": "rgb(26, 26, 26)"
@@ -484,7 +529,7 @@
               },
               {
                 "type": "p",
-                "uid": "cafab78cc9c5480f99a4ec8d8d5862d7",
+                "uid": "7fd61c4de982443e92e69fbb1a75a4bc",
                 "attrs": {},
                 "children": [
                   {
@@ -503,7 +548,7 @@
           "text_override": null,
           "table_styles": [],
           "_metadata": {
-            "uid": "cse00c35a054970bc0"
+            "uid": "cscd331fab6b547ac8"
           }
         }
       },
@@ -514,7 +559,7 @@
           "no_toc": false,
           "no_numbering": false,
           "_metadata": {
-            "uid": "cs4fc8ae414e40d8a3"
+            "uid": "cs5e77e2a18bc89f79"
           }
         }
       },
@@ -523,7 +568,7 @@
           "color": "colorOrange",
           "spacing": "spacingDefault",
           "_metadata": {
-            "uid": "csc385f0ecffbcf72a"
+            "uid": "cs84c4fc2a2de31c93"
           }
         }
       },
@@ -532,12 +577,12 @@
           "accent_box": [],
           "text_content": {
             "type": "doc",
-            "uid": "b61c8bbd440c48319c8dd70cdce033af",
+            "uid": "f5516bc5def0415c9ad8f102913f3362",
             "attrs": {},
             "children": [
               {
                 "type": "p",
-                "uid": "cc8ede582a4549f0bde9da971bf7cd01",
+                "uid": "064d761a71a5446b96eeaf40eeddd111",
                 "attrs": {},
                 "children": [
                   {
@@ -552,21 +597,31 @@
               },
               {
                 "type": "ol",
-                "uid": "f6dab5663c2d4071a7a596ba2c9e7cdb",
+                "uid": "5a3adfb974774faf89975518b51e5ec4",
                 "attrs": {},
                 "children": [
                   {
                     "type": "li",
-                    "uid": "aa9670f54eff42cbad8797e1e9e8c31a",
+                    "uid": "66602cdac0ef474cbf45558e8b5346f6",
                     "attrs": {},
                     "children": [
                       {
                         "type": "p",
-                        "uid": "cc231c7674994666847e994baad6cc07",
+                        "uid": "74ac14d57da14a298ffa0a27c3e3ee57",
                         "attrs": {},
                         "children": [
                           {
-                            "text": "Consistent Metrics Across Every Team — Sales, Finance, HR, Customer Success, and Marketing all pull from the same definitions, so terms like 'churn' or 'active user' never change from one meeting to the next.",
+                            "text": "Consistent Metrics Across Every Team —",
+                            "attrs": {
+                              "style": {
+                                "color": "rgb(26, 26, 26)"
+                              }
+                            },
+                            "bold": true,
+                            "italic": true
+                          },
+                          {
+                            "text": " Sales, Finance, HR, Customer Success, and Marketing all pull from the same definitions, so terms like 'churn' or 'active user' never change from one meeting to the next.",
                             "attrs": {
                               "style": {
                                 "color": "rgb(26, 26, 26)"
@@ -579,16 +634,26 @@
                   },
                   {
                     "type": "li",
-                    "uid": "314bbe58bad242bca0ee1fb1442a0443",
+                    "uid": "5574536d001f425eac160052a2702445",
                     "attrs": {},
                     "children": [
                       {
                         "type": "p",
-                        "uid": "0f5b82724c874733a35eb3435b83ee4b",
+                        "uid": "921d490d7d5c46ceb3934a75ecc2d675",
                         "attrs": {},
                         "children": [
                           {
-                            "text": "Faster, More Confident Decisions — real-time dashboards and AI-powered querying give teams actionable insights instantly, accessible from Slack, Excel, Chrome, Teams, and more.",
+                            "text": "Faster, More Confident Decisions —",
+                            "attrs": {
+                              "style": {
+                                "color": "rgb(26, 26, 26)"
+                              }
+                            },
+                            "bold": true,
+                            "italic": true
+                          },
+                          {
+                            "text": " real-time dashboards and AI-powered querying give teams actionable insights instantly, accessible from Slack, Excel, Chrome, Teams, and more.",
                             "attrs": {
                               "style": {
                                 "color": "rgb(26, 26, 26)"
@@ -601,16 +666,26 @@
                   },
                   {
                     "type": "li",
-                    "uid": "6efdc18c00fc4d32b13117dbfc04e7ba",
+                    "uid": "b0d015e37e0546ca82ffcc2bc359f44c",
                     "attrs": {},
                     "children": [
                       {
                         "type": "p",
-                        "uid": "abfb265b6ccb4af286b55fa8a6aa06c1",
+                        "uid": "67464be74b32430da55612671469fdb8",
                         "attrs": {},
                         "children": [
                           {
-                            "text": "Governed Access and Auditability — executives get high-level rollups, analysts get filtered views, and all activity is traceable. Every change to a KPI, filter, or access rule is logged with full version control.",
+                            "text": "Governed Access and Auditability —",
+                            "attrs": {
+                              "style": {
+                                "color": "rgb(26, 26, 26)"
+                              }
+                            },
+                            "bold": true,
+                            "italic": true
+                          },
+                          {
+                            "text": " executives get high-level rollups, analysts get filtered views, and all activity is traceable. Every change to a KPI, filter, or access rule is logged with full version control.",
                             "attrs": {
                               "style": {
                                 "color": "rgb(26, 26, 26)"
@@ -623,16 +698,26 @@
                   },
                   {
                     "type": "li",
-                    "uid": "8c966137c4854212b5b8c84127d1f4fa",
+                    "uid": "c4ee1fd32ffa49a394874e547eb3303e",
                     "attrs": {},
                     "children": [
                       {
                         "type": "p",
-                        "uid": "a0804435b0e44e938ab3127ec29ec59c",
+                        "uid": "ad41afbe32584d6d92aad20aa64da317",
                         "attrs": {},
                         "children": [
                           {
-                            "text": "Reusable Logic for Scalable Insights — define metrics once and reuse them across dashboards, business units, reports, and AI interfaces, eliminating the duplicated logic and compounding maintenance that occur when business rules get recreated across BI tools, data transformations, and spreadsheets.",
+                            "text": "Reusable Logic for Scalable Insights —",
+                            "attrs": {
+                              "style": {
+                                "color": "rgb(26, 26, 26)"
+                              }
+                            },
+                            "bold": true,
+                            "italic": true
+                          },
+                          {
+                            "text": " define metrics once and reuse them across dashboards, business units, reports, and AI interfaces, eliminating the duplicated logic and compounding maintenance that occur when business rules get recreated across BI tools, data transformations, and spreadsheets.",
                             "attrs": {
                               "style": {
                                 "color": "rgb(26, 26, 26)"
@@ -645,16 +730,26 @@
                   },
                   {
                     "type": "li",
-                    "uid": "732a6059e99b4e68815677af0a7c6382",
+                    "uid": "3770f5c5a7c545c595da9f1ddac3f9b5",
                     "attrs": {},
                     "children": [
                       {
                         "type": "p",
-                        "uid": "01edeefe51004ddeb7f2dadd0a665d4c",
+                        "uid": "34b9cf510ab74fe09169e2892bae3a70",
                         "attrs": {},
                         "children": [
                           {
-                            "text": "Seamless Integration Across Tools — from Salesforce to spreadsheets to custom BI dashboards, metrics stay accurate, unified, and live.",
+                            "text": "Seamless Integration Across Tools —",
+                            "attrs": {
+                              "style": {
+                                "color": "rgb(26, 26, 26)"
+                              }
+                            },
+                            "bold": true,
+                            "italic": true
+                          },
+                          {
+                            "text": " from Salesforce to spreadsheets to custom BI dashboards, metrics stay accurate, unified, and live.",
                             "attrs": {
                               "style": {
                                 "color": "rgb(26, 26, 26)"
@@ -667,16 +762,26 @@
                   },
                   {
                     "type": "li",
-                    "uid": "15b2d4f85c1c4f66b73b3e2fcfd33eab",
+                    "uid": "c01c232cd01f4665b69f20cfd18e7da0",
                     "attrs": {},
                     "children": [
                       {
                         "type": "p",
-                        "uid": "9b851969b827428982b019b3c26db2bd",
+                        "uid": "c141361dff9e4b5da065c7608407cbe9",
                         "attrs": {},
                         "children": [
                           {
-                            "text": "AI Accuracy and Trustworthiness — AI agents operating through a semantic layer produce results that are not just computationally valid but semantically correct, because they compute on governed definitions rather than guessing at business logic from raw SQL.",
+                            "text": "AI Accuracy and Trustworthiness —",
+                            "attrs": {
+                              "style": {
+                                "color": "rgb(26, 26, 26)"
+                              }
+                            },
+                            "bold": true,
+                            "italic": true
+                          },
+                          {
+                            "text": " AI agents operating through a semantic layer produce results that are not just computationally valid but semantically correct, because they compute on governed definitions rather than guessing at business logic from raw SQL.",
                             "attrs": {
                               "style": {
                                 "color": "rgb(26, 26, 26)"
@@ -695,7 +800,7 @@
           "text_override": null,
           "table_styles": [],
           "_metadata": {
-            "uid": "cs3c743b5996e5ba1f"
+            "uid": "csc99e4e7d24086d43"
           }
         }
       },
@@ -704,12 +809,12 @@
           "accent_box": [],
           "text_content": {
             "type": "doc",
-            "uid": "ae62d17415af48c2990749f65ac91feb",
+            "uid": "203409a013574f7bad9eec5179aed9ca",
             "attrs": {},
             "children": [
               {
                 "type": "p",
-                "uid": "9e168c4479f74bcca2d15006483c0228",
+                "uid": "6e2e2e3dd048488e9f989e16eedeaaf3",
                 "attrs": {},
                 "children": [
                   {
@@ -737,7 +842,7 @@
           "text_override": null,
           "table_styles": [],
           "_metadata": {
-            "uid": "cscc4175afd939912b"
+            "uid": "csa785d74b88cf7149"
           }
         }
       },
@@ -748,7 +853,7 @@
           "no_toc": false,
           "no_numbering": false,
           "_metadata": {
-            "uid": "cs1d7aa037027e9002"
+            "uid": "csd42c1e3f81526bd1"
           }
         }
       },
@@ -757,7 +862,7 @@
           "color": "colorOrange",
           "spacing": "spacingDefault",
           "_metadata": {
-            "uid": "cs19dcb4b7467be228"
+            "uid": "cs27261998cd1443e5"
           }
         }
       },
@@ -766,12 +871,12 @@
           "accent_box": [],
           "text_content": {
             "type": "doc",
-            "uid": "5491ea017299467fbe28725cdafcf7f7",
+            "uid": "dfecfff57b3a4c129d5676659f775699",
             "attrs": {},
             "children": [
               {
                 "type": "p",
-                "uid": "e1cf7778c3ba4f7eb0f6dce65d561c73",
+                "uid": "98dbfe0f591243cfa4da2b555475cc7e",
                 "attrs": {},
                 "children": [
                   {
@@ -786,21 +891,31 @@
               },
               {
                 "type": "ul",
-                "uid": "5647854886fa4dd1bbbc88073f75d4db",
+                "uid": "a39a2f908cfe4b86b69aad2558bbf703",
                 "attrs": {},
                 "children": [
                   {
                     "type": "li",
-                    "uid": "5fbbd5a534444293bccc1ca67dd34be8",
+                    "uid": "56b9f8619c2f48fcaa1f3fdc74b59878",
                     "attrs": {},
                     "children": [
                       {
                         "type": "p",
-                        "uid": "3e99caa0efde480aa19cb5d0474d6564",
+                        "uid": "95d30518733547c880f2e197be96d036",
                         "attrs": {},
                         "children": [
                           {
-                            "text": "Business Metric & Definition Layer — the authoritative, centrally maintained definitions for metrics like revenue, churn, or active user, encoded once and reused everywhere.",
+                            "text": "Business Metric & Definition Layer —",
+                            "attrs": {
+                              "style": {
+                                "color": "rgb(26, 26, 26)"
+                              }
+                            },
+                            "bold": true,
+                            "italic": true
+                          },
+                          {
+                            "text": " the authoritative, centrally maintained definitions for metrics like revenue, churn, or active user, encoded once and reused everywhere.",
                             "attrs": {
                               "style": {
                                 "color": "rgb(26, 26, 26)"
@@ -813,16 +928,26 @@
                   },
                   {
                     "type": "li",
-                    "uid": "9952e9f255e34956a2121aa8d4a03bf9",
+                    "uid": "859e232d77f84a5180fda482279808fa",
                     "attrs": {},
                     "children": [
                       {
                         "type": "p",
-                        "uid": "199b7bd17392464d899b3e9ed8d81a22",
+                        "uid": "50d90346794d408483d355c7fa694334",
                         "attrs": {},
                         "children": [
                           {
-                            "text": "Data Model, Hierarchies & Relationships — how tables, entities, and time, geography, or product hierarchies relate to each other, so a query can roll up or drill down consistently.",
+                            "text": "Data Model, Hierarchies & Relationships —",
+                            "attrs": {
+                              "style": {
+                                "color": "rgb(26, 26, 26)"
+                              }
+                            },
+                            "bold": true,
+                            "italic": true
+                          },
+                          {
+                            "text": " how tables, entities, and time, geography, or product hierarchies relate to each other, so a query can roll up or drill down consistently.",
                             "attrs": {
                               "style": {
                                 "color": "rgb(26, 26, 26)"
@@ -835,16 +960,26 @@
                   },
                   {
                     "type": "li",
-                    "uid": "3a05473a146f4fc49374bb26924ec2c0",
+                    "uid": "437883e5f76c478f9cb15431e1f79d2a",
                     "attrs": {},
                     "children": [
                       {
                         "type": "p",
-                        "uid": "a9e1d4b1042f41fcb1297843b4a47d46",
+                        "uid": "f1fafeb84e29451786b0ff33fee5ff25",
                         "attrs": {},
                         "children": [
                           {
-                            "text": "Governance & Access Control — row- and column-level permissions, so the same governed metric returns the right slice of data for an executive, an analyst, or an external partner.",
+                            "text": "Governance & Access Control —",
+                            "attrs": {
+                              "style": {
+                                "color": "rgb(26, 26, 26)"
+                              }
+                            },
+                            "bold": true,
+                            "italic": true
+                          },
+                          {
+                            "text": " row- and column-level permissions, so the same governed metric returns the right slice of data for an executive, an analyst, or an external partner.",
                             "attrs": {
                               "style": {
                                 "color": "rgb(26, 26, 26)"
@@ -857,16 +992,26 @@
                   },
                   {
                     "type": "li",
-                    "uid": "0e7addba77644f82ae183953614842a3",
+                    "uid": "4d1ac314255746c49c783e3b771cb84f",
                     "attrs": {},
                     "children": [
                       {
                         "type": "p",
-                        "uid": "c1afc3d55f264e2b9427fddf4d994ead",
+                        "uid": "72a801f22b214f5da4c6704e0af8fb12",
                         "attrs": {},
                         "children": [
                           {
-                            "text": "Calculation & Query Engine — the execution layer that computes a metric on demand and generates the query logic behind the scenes, rather than leaving that logic to whichever tool happens to be asking.",
+                            "text": "Calculation & Query Engine —",
+                            "attrs": {
+                              "style": {
+                                "color": "rgb(26, 26, 26)"
+                              }
+                            },
+                            "bold": true,
+                            "italic": true
+                          },
+                          {
+                            "text": " the execution layer that computes a metric on demand and generates the query logic behind the scenes, rather than leaving that logic to whichever tool happens to be asking.",
                             "attrs": {
                               "style": {
                                 "color": "rgb(26, 26, 26)"
@@ -879,16 +1024,26 @@
                   },
                   {
                     "type": "li",
-                    "uid": "980915f6df6c4c9c9b08fc4b3304bf02",
+                    "uid": "30ae373a03a042568f4133f385f8e6fe",
                     "attrs": {},
                     "children": [
                       {
                         "type": "p",
-                        "uid": "37247fb093904bdea836c1e97eb4285c",
+                        "uid": "ff2c0fd9800b4afa9a924e2a921b066e",
                         "attrs": {},
                         "children": [
                           {
-                            "text": "Lineage & Version Control — a record of where a definition came from, who changed it, and when, so every number is auditable back to its source.",
+                            "text": "Lineage & Version Control —",
+                            "attrs": {
+                              "style": {
+                                "color": "rgb(26, 26, 26)"
+                              }
+                            },
+                            "bold": true,
+                            "italic": true
+                          },
+                          {
+                            "text": " a record of where a definition came from, who changed it, and when, so every number is auditable back to its source.",
                             "attrs": {
                               "style": {
                                 "color": "rgb(26, 26, 26)"
@@ -901,16 +1056,26 @@
                   },
                   {
                     "type": "li",
-                    "uid": "b40e8757699c41598eeb3e9a8b591a07",
+                    "uid": "1575529f28f94578b597e01bb0e673f7",
                     "attrs": {},
                     "children": [
                       {
                         "type": "p",
-                        "uid": "4cbb56b75a57455ab342da2934f0fe1f",
+                        "uid": "5da02a5df487469dbd6163bb81bd4ddb",
                         "attrs": {},
                         "children": [
                           {
-                            "text": "Interfaces for BI, AI, and Natural Language — the connection points (APIs, MCP servers, BI connectors) that let dashboards, spreadsheets, and AI agents all query the same governed layer instead of the raw tables underneath it.",
+                            "text": "Interfaces for BI, AI, and Natural Language —",
+                            "attrs": {
+                              "style": {
+                                "color": "rgb(26, 26, 26)"
+                              }
+                            },
+                            "bold": true,
+                            "italic": true
+                          },
+                          {
+                            "text": " the connection points (APIs, MCP servers, BI connectors) that let dashboards, spreadsheets, and AI agents all query the same governed layer instead of the raw tables underneath it.",
                             "attrs": {
                               "style": {
                                 "color": "rgb(26, 26, 26)"
@@ -925,7 +1090,7 @@
               },
               {
                 "type": "p",
-                "uid": "e927c2080ad74953b8e7f8b8fefd92a1",
+                "uid": "2b9ff5a697fa43669b4a5d284e055082",
                 "attrs": {},
                 "children": [
                   {
@@ -944,7 +1109,7 @@
           "text_override": null,
           "table_styles": [],
           "_metadata": {
-            "uid": "csb7880d20b7ad3613"
+            "uid": "cs8e245800aa766661"
           }
         }
       },
@@ -955,7 +1120,7 @@
           "no_toc": false,
           "no_numbering": false,
           "_metadata": {
-            "uid": "cs6984f967bb49eb1a"
+            "uid": "cs3c78c631de7cf820"
           }
         }
       },
@@ -964,7 +1129,7 @@
           "color": "colorOrange",
           "spacing": "spacingDefault",
           "_metadata": {
-            "uid": "cs950b354f9b06268a"
+            "uid": "csf5beb0a3108b6238"
           }
         }
       },
@@ -973,12 +1138,12 @@
           "accent_box": [],
           "text_content": {
             "type": "doc",
-            "uid": "88e351abda4443d08a115f02f681641c",
+            "uid": "b7ab255b03184500940a5920922f8260",
             "attrs": {},
             "children": [
               {
                 "type": "p",
-                "uid": "607bdc09f37c4dfe99d502a80214e2b5",
+                "uid": "48b8dea8327e44baa0adab91dd025189",
                 "attrs": {},
                 "children": [
                   {
@@ -993,7 +1158,7 @@
               },
               {
                 "type": "p",
-                "uid": "c421c3e3df9d40c1a5069a35e186ad1a",
+                "uid": "43af9968335547cd850fd1ca93d27fed",
                 "attrs": {},
                 "children": [
                   {
@@ -1008,7 +1173,7 @@
               },
               {
                 "type": "p",
-                "uid": "55eedf977999486cae2bc4cb25de8b04",
+                "uid": "98b938716021498990fc296547dd0bbf",
                 "attrs": {},
                 "children": [
                   {
@@ -1023,7 +1188,7 @@
               },
               {
                 "type": "p",
-                "uid": "1d936f7371f0475cb6b26012f7f64abc",
+                "uid": "0e1a6361bffd459a880260d1329ef38f",
                 "attrs": {},
                 "children": [
                   {
@@ -1042,7 +1207,7 @@
           "text_override": null,
           "table_styles": [],
           "_metadata": {
-            "uid": "cs2a8d21ce338f3267"
+            "uid": "cs67c8181065c21651"
           }
         }
       },
@@ -1053,7 +1218,7 @@
           "no_toc": false,
           "no_numbering": false,
           "_metadata": {
-            "uid": "cs66dad74325b0045a"
+            "uid": "cs6673d8081de3540b"
           }
         }
       },
@@ -1062,7 +1227,7 @@
           "color": "colorOrange",
           "spacing": "spacingDefault",
           "_metadata": {
-            "uid": "csc0412c293105fd25"
+            "uid": "csc662102b3728b186"
           }
         }
       },
@@ -1071,12 +1236,12 @@
           "accent_box": [],
           "text_content": {
             "type": "doc",
-            "uid": "ed54bc973ec3498b8f95a6b044145af1",
+            "uid": "9e24095886fa42238fc0f94828967043",
             "attrs": {},
             "children": [
               {
                 "type": "p",
-                "uid": "4a7e004895fb4d9592feb16f288971a7",
+                "uid": "7c1ffb08962042a6b672e10e7d3ce8cf",
                 "attrs": {},
                 "children": [
                   {
@@ -1091,21 +1256,31 @@
               },
               {
                 "type": "ul",
-                "uid": "02612a69120f46ab953cb182076fc5d5",
+                "uid": "b3d1e56e3f464ab8a198eedda9867474",
                 "attrs": {},
                 "children": [
                   {
                     "type": "li",
-                    "uid": "81405adb2d654aabaa56553e50ea2a08",
+                    "uid": "36f43721ab1345f0bebd46d37fd42dd4",
                     "attrs": {},
                     "children": [
                       {
                         "type": "p",
-                        "uid": "701d7c691f81431487b1e2219a9f21d3",
+                        "uid": "4d631e59301c4acd946ea7762b1b6ee2",
                         "attrs": {},
                         "children": [
                           {
-                            "text": "Retail: Standardize KPIs like 'conversion rate' and 'average order value' across store locations; align inventory, sales, and marketing performance in real time. Learn more about Strategy's retail solutions.",
+                            "text": "Retail:",
+                            "attrs": {
+                              "style": {
+                                "color": "rgb(26, 26, 26)"
+                              }
+                            },
+                            "bold": true,
+                            "italic": true
+                          },
+                          {
+                            "text": " Standardize KPIs like 'conversion rate' and 'average order value' across store locations; align inventory, sales, and marketing performance in real time. Learn more about Strategy's retail solutions.",
                             "attrs": {
                               "style": {
                                 "color": "rgb(26, 26, 26)"
@@ -1118,16 +1293,26 @@
                   },
                   {
                     "type": "li",
-                    "uid": "9f1fe761f0f24b7e99f768496f23498a",
+                    "uid": "ecc8b1a53dd245d0902bbe3a2d1ee1a9",
                     "attrs": {},
                     "children": [
                       {
                         "type": "p",
-                        "uid": "44b01ec1e68547849c80358278dab9ba",
+                        "uid": "df83aacf04f74658bb9b9d6664e0eb5f",
                         "attrs": {},
                         "children": [
                           {
-                            "text": "Financial Services: Harmonize definitions across banking, insurance, and wealth platforms; build compliance-ready BI with auditable logic. Learn more about Strategy's financial services solutions.",
+                            "text": "Financial Services:",
+                            "attrs": {
+                              "style": {
+                                "color": "rgb(26, 26, 26)"
+                              }
+                            },
+                            "bold": true,
+                            "italic": true
+                          },
+                          {
+                            "text": " Harmonize definitions across banking, insurance, and wealth platforms; build compliance-ready BI with auditable logic. Learn more about Strategy's financial services solutions.",
                             "attrs": {
                               "style": {
                                 "color": "rgb(26, 26, 26)"
@@ -1140,16 +1325,26 @@
                   },
                   {
                     "type": "li",
-                    "uid": "6b14caed1f9642798ef99e1a39cdc558",
+                    "uid": "0b8db25e5d4b423d81b36112ee532495",
                     "attrs": {},
                     "children": [
                       {
                         "type": "p",
-                        "uid": "6f97f26921434c1fbc5b7df9e46a148c",
+                        "uid": "848b16ec04164ecc8c4bf4063c67a1e3",
                         "attrs": {},
                         "children": [
                           {
-                            "text": "Education: Track 'student success' or 'engagement' with consistent logic across departments and systems. Learn more about Strategy's education solutions.",
+                            "text": "Education:",
+                            "attrs": {
+                              "style": {
+                                "color": "rgb(26, 26, 26)"
+                              }
+                            },
+                            "bold": true,
+                            "italic": true
+                          },
+                          {
+                            "text": " Track 'student success' or 'engagement' with consistent logic across departments and systems. Learn more about Strategy's education solutions.",
                             "attrs": {
                               "style": {
                                 "color": "rgb(26, 26, 26)"
@@ -1162,16 +1357,26 @@
                   },
                   {
                     "type": "li",
-                    "uid": "d6d744585afb4ad9957467b6be5fa488",
+                    "uid": "99e7c4cec603467fa546225630e04eb2",
                     "attrs": {},
                     "children": [
                       {
                         "type": "p",
-                        "uid": "a7b6aa228c744504ad22cdae762d2bb6",
+                        "uid": "b35276b16df04d16abe9c5d55b704456",
                         "attrs": {},
                         "children": [
                           {
-                            "text": "Manufacturing: Unify supply chain, production, and quality metrics across facilities and partners. Learn more about Strategy's manufacturing solutions.",
+                            "text": "Manufacturing:",
+                            "attrs": {
+                              "style": {
+                                "color": "rgb(26, 26, 26)"
+                              }
+                            },
+                            "bold": true,
+                            "italic": true
+                          },
+                          {
+                            "text": " Unify supply chain, production, and quality metrics across facilities and partners. Learn more about Strategy's manufacturing solutions.",
                             "attrs": {
                               "style": {
                                 "color": "rgb(26, 26, 26)"
@@ -1184,16 +1389,26 @@
                   },
                   {
                     "type": "li",
-                    "uid": "e1d5f94d364841dd9b293f28b0a34bfe",
+                    "uid": "1d57ceeb518f412a8109a3a6f54eb6cc",
                     "attrs": {},
                     "children": [
                       {
                         "type": "p",
-                        "uid": "6f328c4760804e96aa9cefb63c8d1ae4",
+                        "uid": "e740dc10a21d41f3a5e7dca5eaa0e85f",
                         "attrs": {},
                         "children": [
                           {
-                            "text": "Technology: Align product, customer success, and sales teams on shared usage definitions; power AI and ML models with reusable KPI logic. Learn more about Strategy's technology solutions.",
+                            "text": "Technology:",
+                            "attrs": {
+                              "style": {
+                                "color": "rgb(26, 26, 26)"
+                              }
+                            },
+                            "bold": true,
+                            "italic": true
+                          },
+                          {
+                            "text": " Align product, customer success, and sales teams on shared usage definitions; power AI and ML models with reusable KPI logic. Learn more about Strategy's technology solutions.",
                             "attrs": {
                               "style": {
                                 "color": "rgb(26, 26, 26)"
@@ -1212,7 +1427,7 @@
           "text_override": null,
           "table_styles": [],
           "_metadata": {
-            "uid": "cs2723612c7ad57f0a"
+            "uid": "cs2f9c11a9a68c6729"
           }
         }
       },
@@ -1223,7 +1438,7 @@
           "no_toc": false,
           "no_numbering": false,
           "_metadata": {
-            "uid": "cs06f78edca42a8806"
+            "uid": "csc7ca92654d58af34"
           }
         }
       },
@@ -1232,7 +1447,7 @@
           "color": "colorOrange",
           "spacing": "spacingDefault",
           "_metadata": {
-            "uid": "csdb86c14a9c40f7a2"
+            "uid": "cs606e711be4284a13"
           }
         }
       },
@@ -1241,12 +1456,12 @@
           "accent_box": [],
           "text_content": {
             "type": "doc",
-            "uid": "53fb7898d2b24bebaf651a682caca770",
+            "uid": "acea20feba044b529a34da6c9e238a1c",
             "attrs": {},
             "children": [
               {
                 "type": "p",
-                "uid": "2c39864fb9af4b64ab17bb12b10a279b",
+                "uid": "e5ef552abf8d4b67891abbfaa3d9b574",
                 "attrs": {},
                 "children": [
                   {
@@ -1261,21 +1476,31 @@
               },
               {
                 "type": "ol",
-                "uid": "b5adec3bdf93464fbfa2fa051d327fac",
+                "uid": "3b7306c187824ba3b869d9c32729c19b",
                 "attrs": {},
                 "children": [
                   {
                     "type": "li",
-                    "uid": "0ef5eae980b94ad582d271ed925d70d6",
+                    "uid": "2466564f8ebb48d3a114141f44c83e26",
                     "attrs": {},
                     "children": [
                       {
                         "type": "p",
-                        "uid": "18cff59b62f34338a4c3b6d3d12bd977",
+                        "uid": "4eb032fd347b4d3abc91dfa1360b2331",
                         "attrs": {},
                         "children": [
                           {
-                            "text": "Audit existing definitions — inventory how key metrics like revenue, churn, or active user are currently calculated across BI tools, spreadsheets, and reports, and where those definitions conflict.",
+                            "text": "Audit existing definitions —",
+                            "attrs": {
+                              "style": {
+                                "color": "rgb(26, 26, 26)"
+                              }
+                            },
+                            "bold": true,
+                            "italic": true
+                          },
+                          {
+                            "text": " inventory how key metrics like revenue, churn, or active user are currently calculated across BI tools, spreadsheets, and reports, and where those definitions conflict.",
                             "attrs": {
                               "style": {
                                 "color": "rgb(26, 26, 26)"
@@ -1288,16 +1513,26 @@
                   },
                   {
                     "type": "li",
-                    "uid": "60d777e3b5e4498c97cec624cc77e40c",
+                    "uid": "d4341ff1ca5940af80193ce0c3184d65",
                     "attrs": {},
                     "children": [
                       {
                         "type": "p",
-                        "uid": "a94f1c6d893049e7bd11a3a297fa4f4b",
+                        "uid": "fe6554eb764f4cd2b7e7e49318250a06",
                         "attrs": {},
                         "children": [
                           {
-                            "text": "Establish ownership and governance — assign a data or analytics team as the steward of each metric definition, with a clear process for proposing and approving changes.",
+                            "text": "Establish ownership and governance —",
+                            "attrs": {
+                              "style": {
+                                "color": "rgb(26, 26, 26)"
+                              }
+                            },
+                            "bold": true,
+                            "italic": true
+                          },
+                          {
+                            "text": " assign a data or analytics team as the steward of each metric definition, with a clear process for proposing and approving changes.",
                             "attrs": {
                               "style": {
                                 "color": "rgb(26, 26, 26)"
@@ -1310,16 +1545,26 @@
                   },
                   {
                     "type": "li",
-                    "uid": "73cd11f2152046cf8cff432df04e917d",
+                    "uid": "4d1881d26256498e8645794c6a5d0c40",
                     "attrs": {},
                     "children": [
                       {
                         "type": "p",
-                        "uid": "190b084651e04176ae920d564ea2bde3",
+                        "uid": "847b4dd121d6497b8e4e125fefa6b405",
                         "attrs": {},
                         "children": [
                           {
-                            "text": "Model the semantic layer — encode the agreed-upon metrics, hierarchies, relationships, and access rules once, in a platform built to enforce them consistently rather than as documentation that has to be manually kept in sync.",
+                            "text": "Model the semantic layer —",
+                            "attrs": {
+                              "style": {
+                                "color": "rgb(26, 26, 26)"
+                              }
+                            },
+                            "bold": true,
+                            "italic": true
+                          },
+                          {
+                            "text": " encode the agreed-upon metrics, hierarchies, relationships, and access rules once, in a platform built to enforce them consistently rather than as documentation that has to be manually kept in sync.",
                             "attrs": {
                               "style": {
                                 "color": "rgb(26, 26, 26)"
@@ -1332,16 +1577,26 @@
                   },
                   {
                     "type": "li",
-                    "uid": "339b0591dd2d4dc5ab903cc08c33e3e5",
+                    "uid": "087e4d2904664912ab503a64d9bb9afd",
                     "attrs": {},
                     "children": [
                       {
                         "type": "p",
-                        "uid": "8f5c47d39c194ed6b5a181066888dca3",
+                        "uid": "f0ffe70c6ac84711865d6757e663c1b4",
                         "attrs": {},
                         "children": [
                           {
-                            "text": "Connect consuming tools to the layer, not the raw tables — point dashboards, reports, and AI agents at the semantic layer's governed metrics instead of letting each tool query source tables independently.",
+                            "text": "Connect consuming tools to the layer, not the raw tables —",
+                            "attrs": {
+                              "style": {
+                                "color": "rgb(26, 26, 26)"
+                              }
+                            },
+                            "bold": true,
+                            "italic": true
+                          },
+                          {
+                            "text": " point dashboards, reports, and AI agents at the semantic layer's governed metrics instead of letting each tool query source tables independently.",
                             "attrs": {
                               "style": {
                                 "color": "rgb(26, 26, 26)"
@@ -1354,16 +1609,26 @@
                   },
                   {
                     "type": "li",
-                    "uid": "1939dc5eb55c4201969d29f176724561",
+                    "uid": "47802912146946deb98032de63809245",
                     "attrs": {},
                     "children": [
                       {
                         "type": "p",
-                        "uid": "0918c0644b9a4426a3f5f4cf98ddbf53",
+                        "uid": "b8e31348f39d4319b61e52e5e959080c",
                         "attrs": {},
                         "children": [
                           {
-                            "text": "Monitor, version, and iterate — track every change to a definition with full version history, and revisit the model as the business adds new metrics, systems, or AI use cases.",
+                            "text": "Monitor, version, and iterate —",
+                            "attrs": {
+                              "style": {
+                                "color": "rgb(26, 26, 26)"
+                              }
+                            },
+                            "bold": true,
+                            "italic": true
+                          },
+                          {
+                            "text": " track every change to a definition with full version history, and revisit the model as the business adds new metrics, systems, or AI use cases.",
                             "attrs": {
                               "style": {
                                 "color": "rgb(26, 26, 26)"
@@ -1378,7 +1643,7 @@
               },
               {
                 "type": "p",
-                "uid": "7e83b56fd1244f19ac419cacff65ca68",
+                "uid": "e5aaeeb6ce5c49669635545e24d0009e",
                 "attrs": {},
                 "children": [
                   {
@@ -1397,7 +1662,7 @@
           "text_override": null,
           "table_styles": [],
           "_metadata": {
-            "uid": "cs10271a21fd3db04a"
+            "uid": "cs5b9d82676ecc4145"
           }
         }
       },
@@ -1408,7 +1673,7 @@
           "no_toc": false,
           "no_numbering": false,
           "_metadata": {
-            "uid": "csab1a655501f641f8"
+            "uid": "cs48ce4c55cde83816"
           }
         }
       },
@@ -1417,7 +1682,7 @@
           "color": "colorOrange",
           "spacing": "spacingDefault",
           "_metadata": {
-            "uid": "cs87290a8dc8c266ce"
+            "uid": "cs21e5eb2fc139bb88"
           }
         }
       },
@@ -1426,12 +1691,12 @@
           "accent_box": [],
           "text_content": {
             "type": "doc",
-            "uid": "4a3db59febf54907af8559ac986cebab",
+            "uid": "d816e2399fe549dbbe378ceead7ff4f9",
             "attrs": {},
             "children": [
               {
                 "type": "p",
-                "uid": "eb64d8f6df684d2984b311019cd09339",
+                "uid": "35ffc62b27b14673bc73c7f8c24c827c",
                 "attrs": {},
                 "children": [
                   {
@@ -1455,7 +1720,7 @@
               },
               {
                 "type": "p",
-                "uid": "ff3929e4ebb04489a4663b02eb908d65",
+                "uid": "a15baac7882b4922bd41682adf90f327",
                 "attrs": {},
                 "children": [
                   {
@@ -1483,7 +1748,7 @@
           "text_override": null,
           "table_styles": [],
           "_metadata": {
-            "uid": "csb29d162dc16573df"
+            "uid": "cs78f9a61c6c1712b9"
           }
         }
       },
@@ -1492,12 +1757,12 @@
           "accent_box": [],
           "text_content": {
             "type": "doc",
-            "uid": "420f04dbaae841ac8529ae531c98e796",
+            "uid": "19c16252e1fb4cb19f0d6072c611284b",
             "attrs": {},
             "children": [
               {
                 "type": "p",
-                "uid": "2a3132a4751a448ab0a7b2c3cb4f8269",
+                "uid": "a74edda129414f47ad1eed7393776c97",
                 "attrs": {},
                 "children": [
                   {
@@ -1525,7 +1790,27 @@
           "text_override": null,
           "table_styles": [],
           "_metadata": {
-            "uid": "cs9733784f7a723b23"
+            "uid": "cs30b6c18d9afd1a6f"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "Frequently Asked Questions",
+          "section_id": "faq",
+          "no_toc": false,
+          "no_numbering": false,
+          "_metadata": {
+            "uid": "csb0f818716954bfb3"
+          }
+        }
+      },
+      {
+        "divider": {
+          "color": "colorOrange",
+          "spacing": "spacingDefault",
+          "_metadata": {
+            "uid": "cse15d4ef5a7792260"
           }
         }
       },
@@ -1535,16 +1820,16 @@
             {
               "title": "What is a semantic layer?",
               "_metadata": {
-                "uid": "cse46f9c1a4f957cbd"
+                "uid": "cs6a3f78606f85e921"
               },
               "content": {
                 "type": "doc",
-                "uid": "9db71af4127a48dcbcfb4970cbc14b68",
+                "uid": "675c80600b2646658583f29a60bddab9",
                 "attrs": {},
                 "children": [
                   {
                     "type": "p",
-                    "uid": "637c27b102bc4450bb9bf30cbca55d00",
+                    "uid": "e7c509dd932f4fedbabffd20f792ad1a",
                     "attrs": {},
                     "children": [
                       {
@@ -1559,16 +1844,16 @@
             {
               "title": "What are the core components of a semantic layer?",
               "_metadata": {
-                "uid": "cs06879e4a546e1636"
+                "uid": "cs5b141ac1748ef9d9"
               },
               "content": {
                 "type": "doc",
-                "uid": "1b9f644c4d6841db8b632a09f8b60b06",
+                "uid": "dc45b40314d94b51a786be087d959ba8",
                 "attrs": {},
                 "children": [
                   {
                     "type": "p",
-                    "uid": "359d2269d2b34a36857df3b61d74990c",
+                    "uid": "013d99165da8466885f3129e71cd2387",
                     "attrs": {},
                     "children": [
                       {
@@ -1583,16 +1868,16 @@
             {
               "title": "Why do AI agents need a semantic layer?",
               "_metadata": {
-                "uid": "cs5faebf8058b7b03a"
+                "uid": "csd04073b3f3b5eb3a"
               },
               "content": {
                 "type": "doc",
-                "uid": "91b8e5e5a062497d9725ce0357e10f13",
+                "uid": "5e0aeecee5a345e0bb961aebc9efc053",
                 "attrs": {},
                 "children": [
                   {
                     "type": "p",
-                    "uid": "f9b8c84a4728494bbd6d7e020f1df52e",
+                    "uid": "aaba45e121914a67a48d85fa6350aec6",
                     "attrs": {},
                     "children": [
                       {
@@ -1607,16 +1892,16 @@
             {
               "title": "How does a semantic layer reduce LLM token costs?",
               "_metadata": {
-                "uid": "csb46208edc622f328"
+                "uid": "cs864208124f85aa43"
               },
               "content": {
                 "type": "doc",
-                "uid": "f63bd740a2944334a0863c374ce5e92f",
+                "uid": "d774c52b91f04b7ebace8e4387a4d0bc",
                 "attrs": {},
                 "children": [
                   {
                     "type": "p",
-                    "uid": "59ec8d9d960047a79302a6286eb288ff",
+                    "uid": "c7b1e21a8a5d400d86cebe261063f8a4",
                     "attrs": {},
                     "children": [
                       {
@@ -1631,16 +1916,16 @@
             {
               "title": "How do you implement a semantic layer?",
               "_metadata": {
-                "uid": "csa2d0a215c5ab5271"
+                "uid": "cs6f208ebf49c0350d"
               },
               "content": {
                 "type": "doc",
-                "uid": "bba34e6b1ee24b70a1486511d2dacf78",
+                "uid": "ca68efbf0e074346b09c67180122ec67",
                 "attrs": {},
                 "children": [
                   {
                     "type": "p",
-                    "uid": "92116ad2de5d40508c90172e3ba7e0ab",
+                    "uid": "d308afc604f7467899b723ed9784f39a",
                     "attrs": {},
                     "children": [
                       {
@@ -1655,16 +1940,16 @@
             {
               "title": "Why choose Strategy for a semantic layer?",
               "_metadata": {
-                "uid": "cs74d3a9d4d3be41e7"
+                "uid": "csb9310da44bba7949"
               },
               "content": {
                 "type": "doc",
-                "uid": "cb8c0fa6bd7f40e8a61fa98b2dcb40a5",
+                "uid": "c2e385266d33426d951bee3b3f7ef28c",
                 "attrs": {},
                 "children": [
                   {
                     "type": "p",
-                    "uid": "45416aa4b59a4ea790e58195f1563297",
+                    "uid": "ef193d5333504782836f49d87b3451d0",
                     "attrs": {},
                     "children": [
                       {
@@ -1679,16 +1964,16 @@
             {
               "title": "How long has Strategy been building a semantic layer?",
               "_metadata": {
-                "uid": "csae733d487882355f"
+                "uid": "csb01bd1dfb20c0a90"
               },
               "content": {
                 "type": "doc",
-                "uid": "47777d2aba86494b9012c901365631b6",
+                "uid": "c123d10786164c87a4f904cc1f63e6f6",
                 "attrs": {},
                 "children": [
                   {
                     "type": "p",
-                    "uid": "857f0cedd4104624a5d42a9537a94171",
+                    "uid": "0e0c679a7a064224866080f87a22b270",
                     "attrs": {},
                     "children": [
                       {
@@ -1702,7 +1987,7 @@
             }
           ],
           "_metadata": {
-            "uid": "cs8c2ec0fad205e19a"
+            "uid": "cs5df3fd072d7be986"
           },
           "accordion_options": "closed"
         }
@@ -1817,8 +2102,8 @@
   "_mapping_warnings": [
     "FRANK'S 2026-08-27 FEEDBACK — Applied. See input/sources/semantic-layer/feedback-2026-08-27-frank.md for the full ingested feedback and a section-by-section log of what changed. Raw feedback docx preserved at input/sources/semantic-layer/raw/glossary-mvp-feedback-2026-08-27.docx.",
     "URL CHANGE — Frank's feedback moves this page under the 'Asset' page for TOC purposes: /asset/glossary/semantic-layer (was /software/glossary/semantic-layer in the registry). This file's own `url` field stays a per-page suffix (/semantic-layer) — the /asset/glossary prefix now lives in config.yaml's contentstack.url_prefix, which was changed pipeline-wide (affects every glossary term, not just this one) from /software/glossary to /asset/glossary. This depends on the 'Asset' parent page and its TOC existing in Contentstack — needs Jessica/dev confirmation before this is real, not just a config change here. If the URL change was only meant for this one term, url_prefix should be reverted and the prefix instead built per-page.",
-    "VIDEO ASSET NEEDED — Frank requested a 'Semantic Layer Overview' video under the new lead section, right after the definition box. No video asset exists yet and this pipeline has no video block type — a callout placeholder was inserted in the 'What Is a Semantic Layer?' section. Web team to supply the asset and embed it once Jessica's template supports it.",
-    "DIAGRAM ASSET SUPPLIED (2026-09-01) — A new Source/Engine/Output diagram was provided (already vendor-neutral, no logo-removal needed) and staged at input/sources/semantic-layer/assets/how-semantic-layer-works.png, referenced by the 'How Does a Semantic Layer Work?' section's image block. Not yet uploaded to Contentstack — config.yaml's api.assets_url is still blank (no confirmed glossary/page assets endpoint from Dale/ITS), so scripts/upload_assets.py can't complete the real upload yet. Run it once that endpoint is confirmed to patch in a real assetUid and get the native asset_page image block instead of a placeholder.",
+    "VIDEO RESOLVED (2026-09-14) — Frank's requested 'Semantic Layer Overview' video is now wired in as the existing 'Strategy Mosaic Promo' Contentstack video entry (Entry ID bltfb3d9af8e01be23d, Wistia ID 4axrx3zvc9), referenced natively via the 'What Is a Semantic Layer?' section's video block. Confirm with Ash/Frank this is the intended video for this specific page (title suggests a Mosaic-product promo, not a semantic-layer concept overview) before publishing.",
+    "DIAGRAM ASSET UPLOADED (2026-09-14) — The Source/Engine/Output diagram staged at input/sources/semantic-layer/assets/how-semantic-layer-works.png was uploaded to Contentstack via the reused Blog assets endpoint (assetUid bltf2745815ffe78a79) and now renders as a native asset_page image block in the 'How Does a Semantic Layer Work?' section.",
     "STAT FLAG — '38% of analyst time' figure attributed to CIO Dive, 2026 (sourced from The Enterprise Semantic Layer Buyer's Guide). This figure must be independently verified against the original CIO Dive publication before publishing. Frank's 2026-08-27 feedback additionally asks for the Benefits section to cite a named research source (Gartner, Forrester, IDC, or similar) with a working link — no such citation was available to add without fabricating one. If unverifiable, remove the callout block or replace with a verifiable, cited alternative.",
     "STAT FLAG — LLM token cost reduction: The source (Lauren O'Connor's blog) notes this claim was 'truncated at cache time' and cautions against quoting a specific token-savings number. The FAQ answer and the 'Why Do AI Agents Need a Semantic Layer?' section describe the mechanism but cite no specific percentage or figure. Do not add a number without sourcing the original post and confirming the exact claim.",
     "SECTIONS REMOVED, SPUN OFF — Per Frank's 2026-08-27 feedback, 'What Is a Universal Semantic Layer?' and 'What Is the Difference Between a Semantic Layer and a Data Catalog?' were removed from this page; each should become its own glossary page. 'universal semantic layer' has been added to input/term_queue.json (P2) so the removed content isn't lost — it's the seed source for that future page. 'data catalog ai' was already queued (P2); the removed Data Catalog section here is a useful seed source when that term is drafted.",
