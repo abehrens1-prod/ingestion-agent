@@ -20,9 +20,19 @@ Usage:
 
 import json
 import re
+import sys
 import argparse
 import logging
 from pathlib import Path
+
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+REPOSITORY_ROOT = PROJECT_ROOT.parent
+if str(REPOSITORY_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPOSITORY_ROOT))
+
+from ingestion_common.console import enable_utf8
+
+enable_utf8()
 
 import openpyxl
 from slugify import slugify

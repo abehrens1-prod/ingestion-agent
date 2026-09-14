@@ -14,12 +14,6 @@ Usage:
 
 import re
 import sys
-
-if sys.platform == "win32":
-    # Native Windows consoles default to a legacy codepage, not UTF-8 — without
-    # this, the ✓/⚠/❌ status glyphs below crash with UnicodeEncodeError mid-run.
-    sys.stdout.reconfigure(encoding="utf-8")
-    sys.stderr.reconfigure(encoding="utf-8")
 import json
 import logging
 import argparse
@@ -27,8 +21,17 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Optional
 
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+REPOSITORY_ROOT = PROJECT_ROOT.parent
+if str(REPOSITORY_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPOSITORY_ROOT))
+
+from ingestion_common.console import enable_utf8
+
+enable_utf8()
+
 from dotenv import load_dotenv
-load_dotenv(Path(__file__).parent.parent / ".env")
+load_dotenv(PROJECT_ROOT / ".env")
 
 import anthropic
 from docx import Document

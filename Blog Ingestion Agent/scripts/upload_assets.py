@@ -14,19 +14,22 @@ Requires: MSTR_API_KEY in .env
 
 import os
 import sys
-
-if sys.platform == "win32":
-    # Native Windows consoles default to a legacy codepage, not UTF-8 — without
-    # this, the ✓/⚠/❌ status glyphs below crash with UnicodeEncodeError mid-run.
-    sys.stdout.reconfigure(encoding="utf-8")
-    sys.stderr.reconfigure(encoding="utf-8")
 import json
 import logging
 import argparse
 from pathlib import Path
 
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+REPOSITORY_ROOT = PROJECT_ROOT.parent
+if str(REPOSITORY_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPOSITORY_ROOT))
+
+from ingestion_common.config import load_config
+from ingestion_common.console import enable_utf8
+
+enable_utf8()
+
 import requests
-import yaml
 from dotenv import load_dotenv
 from docx import Document
 from docx.oxml.ns import qn
@@ -53,20 +56,6 @@ _EXT_FROM_MIME = {
     "image/tiff": "tif",
     "image/bmp": "bmp",
 }
-
-
-def _find_config(config_path: str = "config.yaml") -> Path:
-    p = Path(config_path)
-    for base in [Path.cwd(), Path(__file__).parent.parent]:
-        candidate = base / p if not p.is_absolute() else p
-        if candidate.exists():
-            return candidate
-    raise FileNotFoundError(f"Config not found: {config_path}")
-
-
-def _load_config(config_path: str = "config.yaml") -> dict:
-    with open(_find_config(config_path), "r", encoding="utf-8") as f:
-        return yaml.safe_load(f)
 
 
 def _guess_content_type(path: Path) -> str:
@@ -167,7 +156,7 @@ def upload_assets(
     Returns {canonical_name: asset_uid} for all successfully uploaded images.
     """
     if config is None:
-        config = _load_config(config_path)
+        config = load_config(config_path, project_root=PROJECT_ROOT)
 
     output_path = Path(output_dir)
     normalized_path = output_path / "normalized_blog.json"
@@ -191,7 +180,7 @@ def upload_assets(
         print(f"[Dry run] Would upload: {', '.join(str(p) for p in image_map.values())}")
         return {}
 
-    load_dotenv(Path(__file__).parent.parent / ".env")
+    load_dotenv(PROJECT_ROOT / ".env")
     api_key = os.getenv("MSTR_API_KEY")
     if not api_key:
         raise ValueError("MSTR_API_KEY is not set. Add it to .env:\n  MSTR_API_KEY=<your-key>")

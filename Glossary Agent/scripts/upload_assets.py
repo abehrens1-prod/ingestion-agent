@@ -51,8 +51,17 @@ import logging
 import argparse
 from pathlib import Path
 
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+REPOSITORY_ROOT = PROJECT_ROOT.parent
+if str(REPOSITORY_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPOSITORY_ROOT))
+
+from ingestion_common.config import load_config
+from ingestion_common.console import enable_utf8
+
+enable_utf8()
+
 import requests
-import yaml
 from dotenv import load_dotenv
 
 logger = logging.getLogger(__name__)
@@ -76,20 +85,6 @@ _CONTENT_TYPE_MAP = {
 }
 
 _VIDEO_EXTENSIONS = {"mp4", "mov", "webm", "m4v", "avi"}
-
-
-def _find_config(config_path: str = "config.yaml") -> Path:
-    p = Path(config_path)
-    for base in [Path.cwd(), Path(__file__).parent.parent]:
-        candidate = base / p if not p.is_absolute() else p
-        if candidate.exists():
-            return candidate
-    raise FileNotFoundError(f"Config not found: {config_path}")
-
-
-def _load_config(config_path: str = "config.yaml") -> dict:
-    with open(_find_config(config_path), "r", encoding="utf-8") as f:
-        return yaml.safe_load(f)
 
 
 def _guess_content_type(path: Path) -> str:
@@ -129,7 +124,7 @@ def upload_assets(
     Returns {filename: asset_uid} for all successfully uploaded files.
     """
     if config is None:
-        config = _load_config(config_path)
+        config = load_config(config_path, project_root=PROJECT_ROOT)
 
     media_path = Path(media_dir)
     if not media_path.is_dir():
@@ -149,7 +144,7 @@ def upload_assets(
         print(f"[Dry run] Would upload: {', '.join(str(p) for p in files)}")
         return {}
 
-    load_dotenv(Path(__file__).parent.parent / ".env")
+    load_dotenv(PROJECT_ROOT / ".env")
     api_key = os.getenv("MSTR_API_KEY")
     if not api_key:
         raise ValueError("MSTR_API_KEY is not set. Add it to .env:\n  MSTR_API_KEY=<your-key>")
