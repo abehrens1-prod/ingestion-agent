@@ -75,7 +75,7 @@ Examples:
     parser.add_argument(
         "--entry-uid",
         default=None,
-        help="Update an existing entry by UID instead of creating a new one",
+        help="Unsupported: proxy does not support updates; fails before network access",
     )
     args = parser.parse_args(argv)
 

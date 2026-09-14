@@ -223,7 +223,7 @@ def upload_entry(
 def _post_versioned_entry(url, entry, request_kwargs):
     raw_title = entry.get("title", "")
     base_title = re.sub(r"^v\d+\s*(?:\||--)\s*", "", raw_title)
-    base_title = re.sub(r"\s*\([^)]*\)\s*$", "", base_title).strip()
+    base_title = re.sub(r"\s*\(v\d+(?:\s*-\s*[^)]*)?\)\s*$", "", base_title).strip()
 
     response = None
     for version in range(1, 20):

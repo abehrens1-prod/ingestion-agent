@@ -173,6 +173,76 @@ class ContentstackTests(unittest.TestCase):
         self.assertEqual("blt123", result["entry_uid"])
         self.assertIn("  v1 | Semantic Layer — title taken, trying next version...\n", stdout.getvalue())
 
+    def test_versioned_upload_preserves_non_version_parenthetical_title_content(self):
+        cases = (
+            ("Understanding Business Intelligence (BI)", "v1 | Understanding Business Intelligence (BI)"),
+            ("v3 -- Analytics (Part 2)", "v1 | Analytics (Part 2)"),
+        )
+        for source_title, expected_title in cases:
+            with self.subTest(source_title=source_title), tempfile.TemporaryDirectory() as tmp:
+                entry_path = self.write_entry(tmp, title=source_title)
+                (Path(tmp) / ".env").write_text(
+                    "MSTR_API_KEY=secret\n", encoding="utf-8"
+                )
+                with (
+                    patch.dict(os.environ, {}, clear=True),
+                    patch(
+                        "ingestion_common.contentstack.requests.get",
+                        return_value=FakeResponse(
+                            200,
+                            {"content_type": {"schema": [{"uid": "title"}, {"uid": "url"}]}},
+                        ),
+                    ),
+                    patch(
+                        "ingestion_common.contentstack.requests.post",
+                        return_value=FakeResponse(201, {"entry": {"uid": "blt123"}}),
+                    ) as fake_post,
+                ):
+                    upload_entry(
+                        entry_path,
+                        config=self.config,
+                        project_root=Path(tmp),
+                        title_versioning=True,
+                        use_locale=False,
+                    )
+
+                self.assertEqual(
+                    expected_title, fake_post.call_args.kwargs["json"]["entry"]["title"]
+                )
+
+    def test_versioned_upload_removes_recognized_parenthetical_version_suffix(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            entry_path = self.write_entry(tmp, title="Semantic Layer (v2 - fixed)")
+            (Path(tmp) / ".env").write_text(
+                "MSTR_API_KEY=secret\n", encoding="utf-8"
+            )
+            with (
+                patch.dict(os.environ, {}, clear=True),
+                patch(
+                    "ingestion_common.contentstack.requests.get",
+                    return_value=FakeResponse(
+                        200,
+                        {"content_type": {"schema": [{"uid": "title"}, {"uid": "url"}]}},
+                    ),
+                ),
+                patch(
+                    "ingestion_common.contentstack.requests.post",
+                    return_value=FakeResponse(201, {"entry": {"uid": "blt123"}}),
+                ) as fake_post,
+            ):
+                upload_entry(
+                    entry_path,
+                    config=self.config,
+                    project_root=Path(tmp),
+                    title_versioning=True,
+                    use_locale=False,
+                )
+
+            self.assertEqual(
+                "v1 | Semantic Layer",
+                fake_post.call_args.kwargs["json"]["entry"]["title"],
+            )
+
     def test_versioned_upload_does_not_retry_non_uniqueness_title_validation_error(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)

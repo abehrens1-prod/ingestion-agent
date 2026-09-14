@@ -138,6 +138,20 @@ class UploadWrapperTests(unittest.TestCase):
                 fake_post.assert_not_called()
                 fake_put.assert_not_called()
 
+    def test_entry_uid_help_explains_that_updates_are_unsupported(self):
+        for pipeline, (project_name, _, _) in UPLOADERS.items():
+            with self.subTest(pipeline=pipeline):
+                module = load_script(project_name, "upload_to_contentstack")
+                stdout = io.StringIO()
+                with redirect_stdout(stdout), self.assertRaises(SystemExit) as exit_context:
+                    module.main(["--help"])
+
+                self.assertEqual(0, exit_context.exception.code)
+                help_text = " ".join(stdout.getvalue().split())
+                self.assertIn("--entry-uid", help_text)
+                self.assertIn("proxy does not support updates", help_text)
+                self.assertIn("fails before network access", help_text)
+
 
 class SchemaWrapperTests(unittest.TestCase):
     def test_schema_wrappers_expose_main_with_explicit_project_root(self):
