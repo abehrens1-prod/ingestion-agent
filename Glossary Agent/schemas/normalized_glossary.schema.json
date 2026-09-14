@@ -1,0 +1,141 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "normalized_glossary",
+  "description": "Intermediate representation of a glossary page, produced by draft_with_claude.py from a term_queue.json entry plus harvested_sources.json. Consumed by map_to_contentstack.py.",
+  "type": "object",
+  "required": ["term", "slug", "url", "title", "definition", "sections", "seo", "provenance"],
+  "properties": {
+    "term": { "type": "string", "description": "The glossary term as it appears in term_queue.json." },
+    "priority": { "type": "string", "enum": ["P1", "P2", "P3", "P4"] },
+    "slug": { "type": "string" },
+    "url": { "type": "string", "pattern": "^/" },
+    "title": { "type": "string" },
+    "geoQueryTarget": { "type": "string", "description": "The direct question this page must answer, e.g. \"What is a semantic layer?\" — matches the citation-example pattern in the template launch deck." },
+    "keywordTargets": { "type": "array", "items": { "type": "string" } },
+
+    "definition": {
+      "type": "array",
+      "description": "The AEO answer block — modeled on the whitepaper agent's \"The Brief\" pattern. 3-5 items.",
+      "items": {
+        "type": "object",
+        "required": ["boldSentence", "supportingText"],
+        "properties": {
+          "boldSentence": { "type": "string" },
+          "supportingText": { "type": "string" }
+        }
+      }
+    },
+
+    "sections": {
+      "type": "array",
+      "description": "Body sections. Headings should be phrased as questions matching geoQueryTarget's pattern where possible.",
+      "items": {
+        "type": "object",
+        "required": ["heading", "blocks"],
+        "properties": {
+          "heading": { "type": "string" },
+          "blocks": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["type"],
+              "properties": {
+                "type": { "type": "string", "enum": ["paragraph", "list", "table", "callout", "image", "video"] },
+                "sourcePath": { "type": "string", "description": "Filename of the source file dropped in the term's assets/ folder (e.g. 'diagram-semantic-layer.svg'), used by upload_assets.py to match an uploaded file back to this block. image/video blocks only." },
+                "assetUid": { "type": "string", "description": "Contentstack asset UID, patched in by upload_assets.py --normalized after upload. Empty until then. image/video blocks only." },
+                "altText": { "type": "string", "description": "image blocks only." },
+                "caption": { "type": "string", "description": "image/video blocks only." },
+                "url": { "type": "string", "description": "Fallback external URL (e.g. a live asset URL not yet uploaded to Contentstack). image/video blocks only." }
+              }
+            }
+          }
+        }
+      }
+    },
+
+    "faq": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["question", "answer"],
+        "properties": {
+          "question": { "type": "string" },
+          "answer": { "type": "string" }
+        }
+      }
+    },
+
+    "relatedTerms": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "term": { "type": "string" },
+          "url": { "type": "string" }
+        }
+      }
+    },
+
+    "internalLinks": {
+      "type": "object",
+      "description": "Detail<->Narrative is Critical, Narrative->Arrival is High per the template launch deck's link priority matrix. Frank's stated standard: >=3 in, >=3 out.",
+      "properties": {
+        "toDetail": {
+          "type": "array",
+          "items": { "type": "object", "properties": { "text": { "type": "string" }, "url": { "type": "string" } } }
+        },
+        "toArrival": {
+          "type": "array",
+          "items": { "type": "object", "properties": { "text": { "type": "string" }, "url": { "type": "string" } } }
+        },
+        "inbound": {
+          "type": "array",
+          "description": "Pages that should link INTO this one — informational only; not itself emitted onto this page.",
+          "items": { "type": "object", "properties": { "text": { "type": "string" }, "url": { "type": "string" } } }
+        }
+      }
+    },
+
+    "seo": {
+      "type": "object",
+      "required": ["metaTitle", "metaDescription"],
+      "properties": {
+        "metaTitle": { "type": "string" },
+        "metaDescription": { "type": "string" },
+        "targetKeywords": { "type": "array", "items": { "type": "string" } },
+        "primaryKeywords": { "type": "array", "items": { "type": "string" } },
+        "secondaryKeywords": { "type": "array", "items": { "type": "string" } },
+        "longTailKeywords": { "type": "array", "items": { "type": "string" } },
+        "brandedKeywords": { "type": "array", "items": { "type": "string" } },
+        "metaDescriptionAlternatives": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+
+    "schemaMarkup": {
+      "type": "object",
+      "description": "Provisional JSON-LD — Frank's schema-markup workstream with Doug/Dale/Jessica had not settled on a type as of 2026-08-25. DefinedTerm + FAQPage is a reasonable default, not a confirmed decision.",
+      "properties": {
+        "type": { "type": "string", "enum": ["DefinedTerm", "FAQPage", "Article"] },
+        "jsonLd": { "type": "object" }
+      }
+    },
+
+    "provenance": {
+      "type": "array",
+      "description": "Per-section source attribution. Required by the mandate: AI-generated content must be flagged for Henry's accuracy review, not auto-published.",
+      "items": {
+        "type": "object",
+        "required": ["section", "sourceType", "aiGenerated"],
+        "properties": {
+          "section": { "type": "string" },
+          "sourceType": { "type": "string", "enum": ["live_url", "local_doc", "wiki_concept", "model_generated"] },
+          "urlOrPath": { "type": "string" },
+          "title": { "type": "string" },
+          "aiGenerated": { "type": "boolean" }
+        }
+      }
+    },
+
+    "validationWarnings": { "type": "array", "items": { "type": "string" } }
+  }
+}

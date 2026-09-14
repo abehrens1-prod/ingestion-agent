@@ -1,0 +1,521 @@
+{
+  "title": "What Is a Semantic Layer?",
+  "definition": [
+    {
+      "boldSentence": "A semantic layer is a governed metadata layer that translates raw data into business-meaningful terms, metrics, hierarchies, and definitions.",
+      "supportingText": "It sits between raw data sources and the AI or BI tools that consume them, ensuring that calculated metrics, relationships, and business logic are applied consistently — so every downstream tool computes the same answer from the same governed source."
+    },
+    {
+      "boldSentence": "A semantic layer standardizes key business metrics and definitions across teams, ensuring consistent reporting, trusted insights, and more confident decision-making.",
+      "supportingText": "That means Finance, Marketing, and Sales calculate 'revenue' or 'active user' the same way every time — no reconciling numbers before a meeting, no conflicting dashboards."
+    },
+    {
+      "boldSentence": "A semantic layer gives AI agents governed business context, ensuring accurate, consistent insights from enterprise data by standardizing definitions for key metrics and entities.",
+      "supportingText": "Rather than guessing at business logic from raw tables, AI agents query the same governed definitions people already trust — so an AI-generated answer matches what an analyst would have produced by hand."
+    }
+  ],
+  "sections": [
+    {
+      "heading": "What Is a Semantic Layer?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "At its core, a semantic layer is the translation layer between how data is stored and how a business actually talks about it. Databases store rows, columns, and joins; the people and systems that consume that data think in terms of revenue, churn, active users, and quarterly hierarchies. A semantic layer sits in between and does that translation once, centrally, so every report, dashboard, and AI query draws from the same governed set of definitions instead of each tool or analyst re-deriving the logic independently."
+        },
+        {
+          "type": "callout",
+          "label": "Video:",
+          "text": "Insert \"Semantic Layer Overview\" video here once produced. No video asset exists yet — flagged for the web team; see validationWarnings."
+        }
+      ]
+    },
+    {
+      "heading": "How Does a Semantic Layer Work?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The semantic layer sits between raw data sources and the AI and BI tools that consume them. Rather than letting every downstream tool interpret raw table structures and column names on its own, the semantic layer intercepts those queries and enforces a consistent layer of business logic before any answer is returned."
+        },
+        {
+          "type": "image",
+          "sourcePath": "how-semantic-layer-works.png",
+          "assetUid": "",
+          "altText": "Diagram showing how a semantic layer connects source systems (cloud data, databases, apps, files) through an analytical engine, AI-assisted data modeling, and a consumer data product catalog to downstream outputs (BI tools, AI agents, embedded analytics, data science, productivity tools).",
+          "caption": "How a semantic layer works: source data flows through the analytical engine, AI-assisted data modeling, and governed data product catalog to power BI tools, AI agents, and more."
+        },
+        {
+          "type": "paragraph",
+          "text": "Think of it as a universal dictionary for your data. Each term — revenue, churn, active user — has one authoritative definition, enforced mathematically, so the number Finance sees in its report is the same number Marketing sees in its dashboard and the same number an AI agent returns when asked the question in natural language."
+        },
+        {
+          "type": "paragraph",
+          "text": "Concretely, the semantic layer provides:"
+        },
+        {
+          "type": "list",
+          "style": "bullet",
+          "items": [
+            "Business-meaningful names for tables, columns, and metrics — so AI knows that tbl_rev_q3 means 'Q3 Revenue,' not just a string of characters.",
+            "Calculated metrics with consistent definitions, encoded once and reused across every dashboard, report, and AI interface.",
+            "Row- and column-level permissions and governance, so executives get high-level rollups and analysts get appropriately filtered views.",
+            "Lineage — where data came from and how it was transformed.",
+            "Business hierarchies across geography, product, and time.",
+            "Relationships between business entities.",
+            "Full version control and audit trails — every change to a KPI, filter, or access rule is logged automatically."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "In Strategy Mosaic, that governed layer is also queryable in natural language. Ask, 'Which customers are at risk this quarter?' and get answers based on the same logic as your executive dashboard — from Slack, Excel, Chrome, Teams, and more."
+        }
+      ]
+    },
+    {
+      "heading": "What Are the Benefits of a Semantic Layer?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The semantic layer addresses one of the most persistent problems in enterprise data architecture: teams spending more time reconciling numbers than generating insights. When metrics are inconsistent across tools, AI initiatives stall and confidence in data erodes. The semantic layer resolves that at the infrastructure level."
+        },
+        {
+          "type": "list",
+          "style": "numbered",
+          "items": [
+            "Consistent Metrics Across Every Team — Sales, Finance, HR, Customer Success, and Marketing all pull from the same definitions, so terms like 'churn' or 'active user' never change from one meeting to the next.",
+            "Faster, More Confident Decisions — real-time dashboards and AI-powered querying give teams actionable insights instantly, accessible from Slack, Excel, Chrome, Teams, and more.",
+            "Governed Access and Auditability — executives get high-level rollups, analysts get filtered views, and all activity is traceable. Every change to a KPI, filter, or access rule is logged with full version control.",
+            "Reusable Logic for Scalable Insights — define metrics once and reuse them across dashboards, business units, reports, and AI interfaces, eliminating the duplicated logic and compounding maintenance that occur when business rules get recreated across BI tools, data transformations, and spreadsheets.",
+            "Seamless Integration Across Tools — from Salesforce to spreadsheets to custom BI dashboards, metrics stay accurate, unified, and live.",
+            "AI Accuracy and Trustworthiness — AI agents operating through a semantic layer produce results that are not just computationally valid but semantically correct, because they compute on governed definitions rather than guessing at business logic from raw SQL."
+          ]
+        },
+        {
+          "type": "callout",
+          "label": "Supporting data:",
+          "text": "Analysts spend 38% of their time on work a semantic layer could eliminate (CIO Dive, 2026). — See validation warning: this figure requires independent verification before publishing, and Frank has asked for it to be backed by a named research source (Gartner, Forrester, IDC, or similar) with a working citation link."
+        }
+      ]
+    },
+    {
+      "heading": "What Are the Core Components of a Semantic Layer?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "A semantic layer isn't a single tool — it's a set of layered capabilities that work together to turn raw data into governed, business-ready meaning. The core components are:"
+        },
+        {
+          "type": "list",
+          "style": "bullet",
+          "items": [
+            "Business Metric & Definition Layer — the authoritative, centrally maintained definitions for metrics like revenue, churn, or active user, encoded once and reused everywhere.",
+            "Data Model, Hierarchies & Relationships — how tables, entities, and time, geography, or product hierarchies relate to each other, so a query can roll up or drill down consistently.",
+            "Governance & Access Control — row- and column-level permissions, so the same governed metric returns the right slice of data for an executive, an analyst, or an external partner.",
+            "Calculation & Query Engine — the execution layer that computes a metric on demand and generates the query logic behind the scenes, rather than leaving that logic to whichever tool happens to be asking.",
+            "Lineage & Version Control — a record of where a definition came from, who changed it, and when, so every number is auditable back to its source.",
+            "Interfaces for BI, AI, and Natural Language — the connection points (APIs, MCP servers, BI connectors) that let dashboards, spreadsheets, and AI agents all query the same governed layer instead of the raw tables underneath it."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "That last component is what makes the semantic layer relevant to AI specifically: an AI agent is only as accurate as the layer it queries. Expose it to raw tables and it has to guess at business logic; expose it to a governed semantic layer and it inherits the same trusted definitions a human analyst already relies on."
+        }
+      ]
+    },
+    {
+      "heading": "Why Do AI Agents Need a Semantic Layer?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Most AI tools generate unpredictable SQL. When a large language model reasons through raw data tables to compute a metric, it infers schema structure, guesses at business logic, and generates SQL that may be syntactically valid but semantically wrong — returning a number that looks plausible but does not match the authoritative definition your business relies on."
+        },
+        {
+          "type": "paragraph",
+          "text": "AI agents querying raw data tables lack the business context required to produce semantically accurate results. Without a governed definition of which revenue calculation is authoritative, or what qualifies as an active customer, a model produces results that are computationally valid but semantically incorrect."
+        },
+        {
+          "type": "paragraph",
+          "text": "The semantic layer resolves this by exposing governed business semantics to AI agents directly. Strategy Mosaic exposes those governed metrics to AI agents through Mosaic MCP, so agents operate on authoritative metrics and defined relationships rather than guessing at business logic from raw SQL."
+        },
+        {
+          "type": "paragraph",
+          "text": "There is also a practical cost consideration: when an LLM reasons through raw data tables to compute a metric, it consumes API tokens on SQL generation, schema interpretation, and business logic inference — work the semantic layer should have already resolved. Routing LLM queries through a governed semantic layer reduces that overhead."
+        }
+      ]
+    },
+    {
+      "heading": "Which Industries Benefit From a Semantic Layer?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The semantic layer's core value — consistent, governed metrics across every team and tool — applies wherever inconsistent data definitions create costly downstream decisions. Several industries see particularly concentrated benefit:"
+        },
+        {
+          "type": "list",
+          "style": "bullet",
+          "items": [
+            "Retail: Standardize KPIs like 'conversion rate' and 'average order value' across store locations; align inventory, sales, and marketing performance in real time. Learn more about Strategy's retail solutions.",
+            "Financial Services: Harmonize definitions across banking, insurance, and wealth platforms; build compliance-ready BI with auditable logic. Learn more about Strategy's financial services solutions.",
+            "Education: Track 'student success' or 'engagement' with consistent logic across departments and systems. Learn more about Strategy's education solutions.",
+            "Manufacturing: Unify supply chain, production, and quality metrics across facilities and partners. Learn more about Strategy's manufacturing solutions.",
+            "Technology: Align product, customer success, and sales teams on shared usage definitions; power AI and ML models with reusable KPI logic. Learn more about Strategy's technology solutions."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "How to Implement a Semantic Layer?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Implementing a semantic layer is less about picking a single product and more about establishing one governed source of truth for how the business defines its data. A practical rollout typically follows five steps:"
+        },
+        {
+          "type": "list",
+          "style": "numbered",
+          "items": [
+            "Audit existing definitions — inventory how key metrics like revenue, churn, or active user are currently calculated across BI tools, spreadsheets, and reports, and where those definitions conflict.",
+            "Establish ownership and governance — assign a data or analytics team as the steward of each metric definition, with a clear process for proposing and approving changes.",
+            "Model the semantic layer — encode the agreed-upon metrics, hierarchies, relationships, and access rules once, in a platform built to enforce them consistently rather than as documentation that has to be manually kept in sync.",
+            "Connect consuming tools to the layer, not the raw tables — point dashboards, reports, and AI agents at the semantic layer's governed metrics instead of letting each tool query source tables independently.",
+            "Monitor, version, and iterate — track every change to a definition with full version history, and revisit the model as the business adds new metrics, systems, or AI use cases."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The most common failure mode isn't technical — it's treating the semantic layer as a one-time project instead of an ongoing governance practice. Definitions drift as the business changes, and a semantic layer only stays trustworthy if it's maintained the same way the data itself is."
+        }
+      ]
+    },
+    {
+      "heading": "Why Choose Strategy for Your Semantic Layer?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Strategy has been building a semantic layer for enterprise BI for decades, and it is now one of the critical pieces of infrastructure AI needs to work reliably in businesses.",
+              "bold": true
+            },
+            {
+              "text": " As AI becomes the primary consumer of enterprise data, the semantic layer becomes the critical foundation for AI accuracy and trustworthiness — encoding business logic in an execution engine rather than leaving it as a label in a data catalog."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "runs": [
+            {
+              "text": "Strategy Mosaic is the current product implementation: the most deployed universal semantic layer in the world.",
+              "bold": true
+            },
+            {
+              "text": " Mosaic sits between disparate systems, connecting all data and delivering governed access — generating predictable SQL from governed business definitions rather than the unpredictable SQL that most AI tools produce."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "label": "Strategy's position:",
+          "text": "That decades-long investment is now independently validated: Anthropic's own blog confirmed the need for a semantic layer to improve Claude's accuracy over business data — the same infrastructure thesis Strategy has been building toward all along."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is a semantic layer?",
+      "answer": "A semantic layer is a governed metadata layer that sits between raw data sources and the AI or BI tools that consume them. It translates raw data into business-meaningful terms, metrics, hierarchies, and definitions — ensuring that every downstream tool computes the same answer from the same governed source. Where a data catalog describes data, a semantic layer governs it: encoding business logic mathematically so that 'revenue' means exactly the same thing in Finance, Marketing, Sales, and in the answer an AI agent returns."
+    },
+    {
+      "question": "What are the core components of a semantic layer?",
+      "answer": "A semantic layer is made up of several layered components working together: a business metric and definition layer, a data model of relationships and hierarchies, governance and access control, a calculation and query engine, lineage and version control, and interfaces that expose all of it to BI tools, dashboards, and AI agents. Together, these components are what let a semantic layer enforce one governed definition everywhere it's queried, rather than just documenting it."
+    },
+    {
+      "question": "Why do AI agents need a semantic layer?",
+      "answer": "AI agents querying raw data tables lack the business context required to produce semantically accurate results. Without a governed definition of which revenue calculation is authoritative, or what qualifies as an active customer, a model produces results that are computationally valid but semantically incorrect. Strategy Mosaic exposes governed business semantics to AI agents through Mosaic MCP, so agents operate on authoritative metrics and defined relationships rather than guessing at business logic from raw SQL."
+    },
+    {
+      "question": "How does a semantic layer reduce LLM token costs?",
+      "answer": "When an LLM reasons through raw data tables to compute a metric, it consumes API tokens on SQL generation, schema interpretation, and business logic inference — work the semantic layer should have already resolved. Routing LLM queries through a governed semantic layer like Strategy Mosaic reduces that overhead by pre-resolving business logic before the query reaches the model."
+    },
+    {
+      "question": "How do you implement a semantic layer?",
+      "answer": "Implementing a semantic layer starts with auditing how key metrics are currently defined across existing tools, then assigning clear ownership for each definition. From there, the metrics, hierarchies, and access rules are modeled once in a platform built to enforce them, BI and AI tools are connected to that governed layer instead of raw source tables, and the whole model is version-controlled and revisited as the business evolves."
+    },
+    {
+      "question": "Why choose Strategy for a semantic layer?",
+      "answer": "Strategy has been building a semantic layer for enterprise BI for decades, making it one of the longest-standing providers in the category. Strategy Mosaic is the current product implementation — the most deployed universal semantic layer in the world — sitting between disparate systems to deliver governed access and generate predictable SQL from governed business definitions, an approach independently validated when Anthropic's own blog confirmed the need for a semantic layer to improve Claude's accuracy over business data."
+    },
+    {
+      "question": "How long has Strategy been building a semantic layer?",
+      "answer": "Strategy (formerly MicroStrategy) has been building a semantic layer for enterprise BI for decades, making it one of the longest-standing providers in the category. That foundational investment is what underpins Strategy Mosaic today — and why the semantic layer is Strategy's most credible long-term claim as AI becomes the primary consumer of enterprise data."
+    }
+  ],
+  "seo": {
+    "metaTitle": "What Is a Semantic Layer? Definition & Benefits",
+    "metaDescription": "A semantic layer translates raw data into governed business metrics and definitions, ensuring AI and BI tools compute consistent answers. Learn how it works...",
+    "metaDescriptionAlternatives": [
+      "A semantic layer is a governed metadata layer that translates raw data into consistent business metrics and definitions — ensuring every BI and AI tool computes the same answer from the same source.",
+      "Learn what a semantic layer is, why enterprise data teams need one, and how it enforces consistent definitions for metrics like revenue, customer, and active user across every downstream tool."
+    ],
+    "primaryKeywords": [
+      "what is a semantic layer",
+      "semantic layer",
+      "semantic layer definition",
+      "semantic layer in data analytics",
+      "semantic layer for BI"
+    ],
+    "secondaryKeywords": [
+      "governed metadata layer",
+      "business metrics consistency",
+      "metric definitions data governance",
+      "universal semantic layer",
+      "semantic layer vs data model",
+      "headless BI",
+      "metrics layer",
+      "data abstraction layer",
+      "business logic layer data",
+      "consistent KPI definitions",
+      "data governance for analytics",
+      "single source of truth analytics"
+    ],
+    "longTailKeywords": [
+      "what is a semantic layer in business intelligence",
+      "how does a semantic layer work in enterprise data",
+      "why do data teams need a semantic layer",
+      "what is the difference between a semantic layer and a data model",
+      "how does a semantic layer ensure consistent metrics across tools",
+      "what problems does a semantic layer solve for BI teams",
+      "how does a semantic layer support AI and machine learning",
+      "what is a universal semantic layer for enterprise analytics",
+      "how do you define revenue consistently across finance and marketing",
+      "why do companies get inconsistent data insights without a semantic layer",
+      "what is headless BI and how does it relate to a semantic layer",
+      "how does a semantic layer connect raw data to business definitions",
+      "what are the core components of a semantic layer",
+      "how to implement a semantic layer"
+    ],
+    "brandedKeywords": [
+      "Strategy",
+      "Strategy Mosaic",
+      "Strategy Mosaic semantic layer",
+      "Strategy Mosaic data governance",
+      "Strategy Mosaic BI analytics"
+    ],
+    "targetKeywords": [
+      "what is a semantic layer",
+      "semantic layer",
+      "semantic layer definition",
+      "semantic layer in data analytics",
+      "semantic layer for BI"
+    ]
+  },
+  "provenance": [
+    {
+      "section": "definition",
+      "sourceType": "wiki_concept",
+      "urlOrPath": "/Users/abehrens/Library/CloudStorage/OneDrive-MicroStrategy,Inc/Desktop/Strategy Brain/wiki/concepts/semantic-layer.md",
+      "title": "Semantic Layer (Strategy Brain wiki concept)",
+      "aiGenerated": true
+    },
+    {
+      "section": "definition",
+      "sourceType": "live_url",
+      "urlOrPath": "https://www.strategy.com/software/blog/semantic-layer-for-ai-metadata-is-not-meaning",
+      "title": "Semantic Layer vs. Data Catalog for AI: Why Metadata Isn't Meaning",
+      "aiGenerated": true
+    },
+    {
+      "section": "definition",
+      "sourceType": "live_url",
+      "urlOrPath": "https://www.strategy.com/software/blog/what-is-a-universal-semantic-layer",
+      "title": "What is a Universal Semantic Layer?",
+      "aiGenerated": true
+    },
+    {
+      "section": "definition",
+      "sourceType": "live_url",
+      "urlOrPath": "https://www.strategy.com/software",
+      "title": "Strategy Software homepage (Arrival tier)",
+      "aiGenerated": true
+    },
+    {
+      "section": "definition",
+      "sourceType": "local_doc",
+      "urlOrPath": "input/sources/semantic-layer/raw/glossary-mvp-feedback-2026-08-27.docx",
+      "title": "Frank Volinsky — Glossary MVP feedback, 2026-08-27 (bullets 2 & 3 replaced verbatim per this feedback)",
+      "aiGenerated": false
+    },
+    {
+      "section": "What Is a Semantic Layer?",
+      "sourceType": "model_generated",
+      "title": "New lead section requested by Frank's 2026-08-27 feedback — expanding paragraph has no dedicated harvested source; flag for Henry's accuracy review.",
+      "aiGenerated": true
+    },
+    {
+      "section": "How Does a Semantic Layer Work?",
+      "sourceType": "wiki_concept",
+      "urlOrPath": "/Users/abehrens/Library/CloudStorage/OneDrive-MicroStrategy,Inc/Desktop/Strategy Brain/wiki/concepts/semantic-layer.md",
+      "title": "Semantic Layer (Strategy Brain wiki concept)",
+      "aiGenerated": true
+    },
+    {
+      "section": "How Does a Semantic Layer Work?",
+      "sourceType": "live_url",
+      "urlOrPath": "https://www.strategy.com/software/blog/what-is-a-universal-semantic-layer",
+      "title": "What is a Universal Semantic Layer?",
+      "aiGenerated": true
+    },
+    {
+      "section": "What Are the Benefits of a Semantic Layer?",
+      "sourceType": "live_url",
+      "urlOrPath": "https://www.strategy.com/software/blog/what-is-a-universal-semantic-layer",
+      "title": "What is a Universal Semantic Layer?",
+      "aiGenerated": true
+    },
+    {
+      "section": "What Are the Benefits of a Semantic Layer?",
+      "sourceType": "live_url",
+      "urlOrPath": "https://www.strategy.com/software/enterprise-semantic-layer-buyers-guide",
+      "title": "The Enterprise Semantic Layer Buyer's Guide (2026 Edition)",
+      "aiGenerated": true
+    },
+    {
+      "section": "What Are the Core Components of a Semantic Layer?",
+      "sourceType": "model_generated",
+      "title": "New section requested by Frank's 2026-08-27 feedback ('tie-in with the AI agents section below'). Drafted from this page's own 'How Does a Semantic Layer Work?' content plus general semantic-layer domain knowledge — no dedicated harvested source; flag for Henry's accuracy review.",
+      "aiGenerated": true
+    },
+    {
+      "section": "Why Do AI Agents Need a Semantic Layer?",
+      "sourceType": "live_url",
+      "urlOrPath": "https://www.strategy.com/software/blog/semantic-layer-for-ai-metadata-is-not-meaning",
+      "title": "Semantic Layer vs. Data Catalog for AI: Why Metadata Isn't Meaning",
+      "aiGenerated": true
+    },
+    {
+      "section": "Why Do AI Agents Need a Semantic Layer?",
+      "sourceType": "wiki_concept",
+      "urlOrPath": "/Users/abehrens/Library/CloudStorage/OneDrive-MicroStrategy,Inc/Desktop/Strategy Brain/wiki/concepts/semantic-layer.md",
+      "title": "Semantic Layer (Strategy Brain wiki concept)",
+      "aiGenerated": true
+    },
+    {
+      "section": "Why Do AI Agents Need a Semantic Layer?",
+      "sourceType": "live_url",
+      "urlOrPath": "https://www.strategy.com/software",
+      "title": "Strategy Software homepage (Arrival tier)",
+      "aiGenerated": true
+    },
+    {
+      "section": "Which Industries Benefit From a Semantic Layer?",
+      "sourceType": "live_url",
+      "urlOrPath": "https://www.strategy.com/software/blog/what-is-a-universal-semantic-layer",
+      "title": "What is a Universal Semantic Layer?",
+      "aiGenerated": true
+    },
+    {
+      "section": "How to Implement a Semantic Layer?",
+      "sourceType": "model_generated",
+      "title": "New section requested by Frank's 2026-08-27 feedback. General implementation best-practice guidance, not a statistical/factual claim — no dedicated harvested source; flag for Henry's accuracy review.",
+      "aiGenerated": true
+    },
+    {
+      "section": "Why Choose Strategy for Your Semantic Layer?",
+      "sourceType": "local_doc",
+      "urlOrPath": "input/sources/semantic-layer/raw/glossary-mvp-feedback-2026-08-27.docx",
+      "title": "New closing section per Frank's 2026-08-27 feedback — reassembles the two Strategy/Mosaic definition bullets and the 'Strategy's position' callout that were removed from earlier in the page; no new claims introduced.",
+      "aiGenerated": false
+    },
+    {
+      "section": "faq",
+      "sourceType": "live_url",
+      "urlOrPath": "https://www.strategy.com/software/blog/semantic-layer-for-ai-metadata-is-not-meaning",
+      "title": "Semantic Layer vs. Data Catalog for AI: Why Metadata Isn't Meaning",
+      "aiGenerated": true
+    },
+    {
+      "section": "faq",
+      "sourceType": "wiki_concept",
+      "urlOrPath": "/Users/abehrens/Library/CloudStorage/OneDrive-MicroStrategy,Inc/Desktop/Strategy Brain/wiki/concepts/semantic-layer.md",
+      "title": "Semantic Layer (Strategy Brain wiki concept)",
+      "aiGenerated": true
+    },
+    {
+      "section": "faq",
+      "sourceType": "live_url",
+      "urlOrPath": "https://www.strategy.com/software/blog/what-is-a-universal-semantic-layer",
+      "title": "What is a Universal Semantic Layer?",
+      "aiGenerated": true
+    },
+    {
+      "section": "faq",
+      "sourceType": "model_generated",
+      "title": "New FAQ entries for the core components, implementation, and why-choose-Strategy sections added per Frank's 2026-08-27 feedback.",
+      "aiGenerated": true
+    }
+  ],
+  "validationWarnings": [
+    "FRANK'S 2026-08-27 FEEDBACK — Applied. See input/sources/semantic-layer/feedback-2026-08-27-frank.md for the full ingested feedback and a section-by-section log of what changed. Raw feedback docx preserved at input/sources/semantic-layer/raw/glossary-mvp-feedback-2026-08-27.docx.",
+    "URL CHANGE — Frank's feedback moves this page under the 'Asset' page for TOC purposes: /asset/glossary/semantic-layer (was /software/glossary/semantic-layer in the registry). This file's own `url` field stays a per-page suffix (/semantic-layer) — the /asset/glossary prefix now lives in config.yaml's contentstack.url_prefix, which was changed pipeline-wide (affects every glossary term, not just this one) from /software/glossary to /asset/glossary. This depends on the 'Asset' parent page and its TOC existing in Contentstack — needs Jessica/dev confirmation before this is real, not just a config change here. If the URL change was only meant for this one term, url_prefix should be reverted and the prefix instead built per-page.",
+    "VIDEO ASSET NEEDED — Frank requested a 'Semantic Layer Overview' video under the new lead section, right after the definition box. No video asset exists yet and this pipeline has no video block type — a callout placeholder was inserted in the 'What Is a Semantic Layer?' section. Web team to supply the asset and embed it once Jessica's template supports it.",
+    "DIAGRAM ASSET SUPPLIED (2026-09-01) — A new Source/Engine/Output diagram was provided (already vendor-neutral, no logo-removal needed) and staged at input/sources/semantic-layer/assets/how-semantic-layer-works.png, referenced by the 'How Does a Semantic Layer Work?' section's image block. Not yet uploaded to Contentstack — config.yaml's api.assets_url is still blank (no confirmed glossary/page assets endpoint from Dale/ITS), so scripts/upload_assets.py can't complete the real upload yet. Run it once that endpoint is confirmed to patch in a real assetUid and get the native asset_page image block instead of a placeholder.",
+    "STAT FLAG — '38% of analyst time' figure attributed to CIO Dive, 2026 (sourced from The Enterprise Semantic Layer Buyer's Guide). This figure must be independently verified against the original CIO Dive publication before publishing. Frank's 2026-08-27 feedback additionally asks for the Benefits section to cite a named research source (Gartner, Forrester, IDC, or similar) with a working link — no such citation was available to add without fabricating one. If unverifiable, remove the callout block or replace with a verifiable, cited alternative.",
+    "STAT FLAG — LLM token cost reduction: The source (Lauren O'Connor's blog) notes this claim was 'truncated at cache time' and cautions against quoting a specific token-savings number. The FAQ answer and the 'Why Do AI Agents Need a Semantic Layer?' section describe the mechanism but cite no specific percentage or figure. Do not add a number without sourcing the original post and confirming the exact claim.",
+    "SECTIONS REMOVED, SPUN OFF — Per Frank's 2026-08-27 feedback, 'What Is a Universal Semantic Layer?' and 'What Is the Difference Between a Semantic Layer and a Data Catalog?' were removed from this page; each should become its own glossary page. 'universal semantic layer' has been added to input/term_queue.json (P2) so the removed content isn't lost — it's the seed source for that future page. 'data catalog ai' was already queued (P2); the removed Data Catalog section here is a useful seed source when that term is drafted.",
+    "INTERNAL LINK REMINDER — The page spec requires at least 3 links in and 3 links out. Outbound links to /software/strategymosaic (Arrival), /software (Arrival), and five industry Detail pages (/software/solutions/retail, /software/solutions/financial-services, /software/solutions/education, /software/solutions/manufacturing, /software/solutions/technology) are present in the drafted content. Inbound links (3 minimum) must be confirmed and added by the web team when the page is published — this draft cannot verify which existing pages already link here.",
+    "TEMPLATE STATUS — Jessica's hybrid Contentstack template (whitepaper + TOC sidebar) was unconfirmed as of 2026-08-25 and remains unconfirmed after this feedback round. This draft targets the known 'page' content type using the whitepaper 'The Brief' hero pattern for the definition block and section_anchor blocks per H2 as a TOC stand-in. Replace with Jessica's confirmed template fields once available.",
+    "SCHEMA — No schema type has been confirmed by Frank/Doug/Dale/Jessica. This draft's JSON-LD output defaults to DefinedTerm + FAQPage per the spec's starting-point guidance. Do not treat this as final.",
+    "RESOURCE_DATA.TYPE — Valid values for a glossary page are unconfirmed. Only 'Blog' and 'Analyst Report' are known-valid today. Flag for Frank before publishing.",
+    "SOURCE GAP — No source explicitly covered the 'context layer' vs. 'semantic layer' distinction at length, though the wiki concept notes they are often used interchangeably in Saurabh's content. The wiki also references a Databricks competitive tension ('you don't need a data lake to have a context layer'). These are not surfaced in the drafted page because the harvested blog sources do not cover them directly. Henry should evaluate whether a short section or FAQ entry on the context layer relationship is warranted, pointing to any existing published post on that topic.",
+    "FRANK'S EXEMPLAR — Frank previously said he would send an exemplar glossary page to use as the reference for drafting; none had arrived as of 2026-08-25. As of 2026-08-27, Frank instead sent direct structural/content feedback on this specific drafted page (see input/sources/semantic-layer/feedback-2026-08-27-frank.md) — that feedback has now been applied and functions as the closest thing to a structural exemplar available. Still watch for a separate literal exemplar page if one arrives.",
+    "MOSAIC MCP LINK — The source references 'Mosaic MCP' as the mechanism for exposing governed semantics to AI agents. No internal URL for a Mosaic MCP detail page was surfaced in the harvested link candidates. If such a page exists, add it as an outbound link from the 'Why Do AI Agents Need a Semantic Layer?' section.",
+    "NEW SECTIONS UNSOURCED — 'What Are the Core Components of a Semantic Layer?' and 'How to Implement a Semantic Layer?' were drafted per Frank's feedback but have no dedicated harvested source behind them (marked model_generated in provenance). Both flagged for Henry's accuracy review before publishing, same as any other AI-generated content per the review chain in docs/glossary_page_spec.md.",
+    "Meta description was 176 chars — truncated to 160."
+  ],
+  "term": "semantic layer",
+  "priority": "P1",
+  "slug": "semantic-layer",
+  "url": "/semantic-layer",
+  "geoQueryTarget": "What is a semantic layer?",
+  "keywordTargets": [
+    "what is a semantic layer",
+    "semantic layer"
+  ],
+  "relatedTerms": [],
+  "internalLinks": {
+    "toDetail": [
+      {
+        "text": "Retail solutions",
+        "url": "/software/solutions/retail"
+      },
+      {
+        "text": "Financial Services solutions",
+        "url": "/software/solutions/financial-services"
+      },
+      {
+        "text": "Education solutions",
+        "url": "/software/solutions/education"
+      },
+      {
+        "text": "Manufacturing solutions",
+        "url": "/software/solutions/manufacturing"
+      },
+      {
+        "text": "Technology solutions",
+        "url": "/software/solutions/technology"
+      }
+    ],
+    "toArrival": [
+      {
+        "text": "Strategy Mosaic",
+        "url": "/software/strategymosaic"
+      },
+      {
+        "text": "Strategy Software",
+        "url": "/software"
+      }
+    ],
+    "inbound": []
+  }
+}

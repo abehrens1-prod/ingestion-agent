@@ -1,0 +1,1190 @@
+{
+  "content_type": {
+    "created_at": "2026-08-10T20:54:48.568Z",
+    "updated_at": "2026-08-27T20:57:54.016Z",
+    "title": "Asset Page",
+    "uid": "asset_page",
+    "_version": 30,
+    "inbuilt_class": false,
+    "schema": [
+      {
+        "data_type": "text",
+        "display_name": "Title",
+        "field_metadata": {
+          "_default": true,
+          "version": 3
+        },
+        "mandatory": true,
+        "uid": "title",
+        "unique": true,
+        "multiple": false,
+        "non_localizable": false
+      },
+      {
+        "data_type": "text",
+        "display_name": "URL",
+        "uid": "url",
+        "field_metadata": {
+          "_default": true,
+          "version": 3
+        },
+        "multiple": false,
+        "unique": false,
+        "mandatory": false,
+        "non_localizable": true
+      },
+      {
+        "data_type": "group",
+        "display_name": "Page Header",
+        "field_metadata": {
+          "description": "",
+          "instruction": ""
+        },
+        "schema": [
+          {
+            "data_type": "text",
+            "display_name": "Headline",
+            "uid": "headline",
+            "field_metadata": {
+              "description": "",
+              "default_value": "",
+              "instruction": "The H1 headline for the page",
+              "version": 3
+            },
+            "format": "",
+            "error_messages": {
+              "format": ""
+            },
+            "mandatory": false,
+            "multiple": false,
+            "non_localizable": false,
+            "unique": false
+          },
+          {
+            "data_type": "text",
+            "display_name": "Subhead",
+            "uid": "subhead",
+            "field_metadata": {
+              "description": "",
+              "default_value": "",
+              "version": 3
+            },
+            "format": "",
+            "error_messages": {
+              "format": ""
+            },
+            "mandatory": false,
+            "multiple": false,
+            "non_localizable": false,
+            "unique": false
+          },
+          {
+            "data_type": "json",
+            "display_name": "Description",
+            "uid": "description",
+            "field_metadata": {
+              "allow_json_rte": true,
+              "embed_entry": true,
+              "description": "",
+              "default_value": "",
+              "multiline": false,
+              "rich_text_type": "custom",
+              "options": [
+                "sub",
+                "sup",
+                "italic",
+                "underline",
+                "bold",
+                "widget",
+                "link",
+                "properties",
+                "deleted",
+                "removeFormatting"
+              ],
+              "max_height": "250"
+            },
+            "format": "",
+            "error_messages": {
+              "format": ""
+            },
+            "reference_to": [
+              "sys_assets",
+              "webinar",
+              "video",
+              "page",
+              "cvent_page",
+              "collateral",
+              "blog_post"
+            ],
+            "multiple": false,
+            "non_localizable": false,
+            "unique": false,
+            "mandatory": false,
+            "plugins": [
+              "blt7710ab6d931fb095"
+            ]
+          },
+          {
+            "data_type": "text",
+            "display_name": "Brief Header",
+            "uid": "brief_header",
+            "field_metadata": {
+              "description": "",
+              "default_value": "The Brief",
+              "placeholder": "",
+              "instruction": "If no header is added, \"The Brief\" will be used",
+              "version": 3
+            },
+            "format": "",
+            "error_messages": {
+              "format": ""
+            },
+            "mandatory": false,
+            "multiple": false,
+            "non_localizable": false,
+            "unique": false
+          },
+          {
+            "data_type": "json",
+            "display_name": "Brief Content",
+            "uid": "brief_content",
+            "field_metadata": {
+              "allow_json_rte": true,
+              "embed_entry": false,
+              "description": "",
+              "default_value": "",
+              "multiline": false,
+              "rich_text_type": "custom",
+              "options": [
+                "bold",
+                "underline",
+                "italic",
+                "deleted",
+                "sup",
+                "sub",
+                "lists",
+                "removeFormatting"
+              ],
+              "isTitle": false,
+              "instruction": "Content should be formatted as a bulleted list",
+              "max_height": ""
+            },
+            "format": "",
+            "error_messages": {
+              "format": ""
+            },
+            "reference_to": [
+              "sys_assets"
+            ],
+            "multiple": false,
+            "non_localizable": false,
+            "unique": false,
+            "mandatory": true,
+            "plugins": [
+              "blt7710ab6d931fb095"
+            ]
+          }
+        ],
+        "uid": "page_header",
+        "mandatory": false,
+        "multiple": false,
+        "non_localizable": false,
+        "unique": false
+      },
+      {
+        "data_type": "text",
+        "display_name": "Section Anchor Styles",
+        "display_type": "dropdown",
+        "enum": {
+          "advanced": true,
+          "choices": [
+            {
+              "value": "anchorsNumbered",
+              "key": "Numbered"
+            },
+            {
+              "value": "anchorsNumberedRoman",
+              "key": "Numbered (roman numerals)"
+            }
+          ]
+        },
+        "multiple": false,
+        "uid": "anchor_styles",
+        "field_metadata": {
+          "description": "",
+          "default_value": "",
+          "default_key": "",
+          "version": 3
+        },
+        "mandatory": false,
+        "non_localizable": false,
+        "unique": false
+      },
+      {
+        "data_type": "text",
+        "display_name": "Table of Contents Header",
+        "uid": "toc_header",
+        "field_metadata": {
+          "description": "",
+          "default_value": "",
+          "instruction": "If no header is defined, \"Table of Contents\" will be used",
+          "version": 3
+        },
+        "format": "",
+        "error_messages": {
+          "format": ""
+        },
+        "mandatory": false,
+        "multiple": false,
+        "non_localizable": false,
+        "unique": false
+      },
+      {
+        "data_type": "blocks",
+        "display_name": "Content body",
+        "blocks": [
+          {
+            "title": "Section anchor",
+            "uid": "section_anchor",
+            "schema": [
+              {
+                "data_type": "text",
+                "display_name": "Header text",
+                "uid": "header_text",
+                "field_metadata": {
+                  "description": "",
+                  "default_value": "",
+                  "instruction": "This will be the title of the section in the body of the post as well as the content sidebar",
+                  "is_modular_block_instance_title": true,
+                  "version": 3
+                },
+                "format": "",
+                "error_messages": {
+                  "format": ""
+                },
+                "mandatory": true,
+                "multiple": false,
+                "non_localizable": false,
+                "unique": false
+              },
+              {
+                "data_type": "text",
+                "display_name": "Section ID",
+                "uid": "section_id",
+                "field_metadata": {
+                  "description": "This can be used for anchor links to this section on a page, for example: if 'this-section' is the id, it can be linked to with microstrategy.com/this-page#this-section",
+                  "default_value": "",
+                  "instruction": "",
+                  "version": 3
+                },
+                "format": "^[a-zA-Z][\\w:.-]*$",
+                "error_messages": {
+                  "format": "Use lowercase alphanumeric characters and hyphens only, no spaces or special characters"
+                },
+                "mandatory": true,
+                "multiple": false,
+                "non_localizable": false,
+                "unique": false
+              },
+              {
+                "data_type": "boolean",
+                "display_name": "Exclude from ToC",
+                "uid": "no_toc",
+                "field_metadata": {
+                  "description": "",
+                  "default_value": false
+                },
+                "mandatory": false,
+                "multiple": false,
+                "non_localizable": false,
+                "unique": false
+              },
+              {
+                "data_type": "boolean",
+                "display_name": "Exclude from Numbering",
+                "uid": "no_numbering",
+                "field_metadata": {
+                  "description": "",
+                  "default_value": false
+                },
+                "mandatory": false,
+                "multiple": false,
+                "non_localizable": false,
+                "unique": false
+              }
+            ]
+          },
+          {
+            "title": "Text",
+            "uid": "text",
+            "schema": [
+              {
+                "data_type": "global_field",
+                "display_name": "Add Accent Box",
+                "reference_to": "accent_box_styles",
+                "field_metadata": {
+                  "description": "Add an accent box around the text"
+                },
+                "uid": "accent_box",
+                "mandatory": false,
+                "multiple": true,
+                "non_localizable": false,
+                "unique": false,
+                "max_instance": 1
+              },
+              {
+                "data_type": "json",
+                "display_name": "Text content",
+                "uid": "text_content",
+                "field_metadata": {
+                  "allow_json_rte": true,
+                  "embed_entry": true,
+                  "description": "",
+                  "default_value": "",
+                  "multiline": false,
+                  "rich_text_type": "custom",
+                  "options": [
+                    "undo",
+                    "redo",
+                    "blockquote",
+                    "pre",
+                    "h3",
+                    "h4",
+                    "h5",
+                    "h6",
+                    "bold",
+                    "underline",
+                    "italic",
+                    "deleted",
+                    "sup",
+                    "sub",
+                    "lists",
+                    "alignment",
+                    "table",
+                    "properties",
+                    "link",
+                    "widget",
+                    "removeFormatting"
+                  ],
+                  "is_modular_block_instance_title": true
+                },
+                "format": "",
+                "error_messages": {
+                  "format": ""
+                },
+                "reference_to": [
+                  "sys_assets",
+                  "webinar",
+                  "video",
+                  "page",
+                  "cvent_page",
+                  "education_page",
+                  "blog_post"
+                ],
+                "multiple": false,
+                "non_localizable": false,
+                "unique": false,
+                "mandatory": false,
+                "plugins": [
+                  "blt7710ab6d931fb095"
+                ]
+              },
+              {
+                "data_type": "text",
+                "display_name": "Text Color Override",
+                "display_type": "dropdown",
+                "enum": {
+                  "advanced": true,
+                  "choices": [
+                    {
+                      "value": "darkText",
+                      "key": "Dark"
+                    },
+                    {
+                      "value": "whiteText",
+                      "key": "White"
+                    }
+                  ]
+                },
+                "multiple": false,
+                "uid": "text_override",
+                "field_metadata": {
+                  "description": "",
+                  "default_value": "",
+                  "default_key": "",
+                  "version": 3
+                },
+                "mandatory": false,
+                "non_localizable": false,
+                "unique": false
+              },
+              {
+                "data_type": "group",
+                "display_name": "Table Style Options",
+                "field_metadata": {
+                  "description": "",
+                  "instruction": ""
+                },
+                "schema": [
+                  {
+                    "data_type": "text",
+                    "display_name": "Table Type",
+                    "display_type": "dropdown",
+                    "enum": {
+                      "advanced": true,
+                      "choices": [
+                        {
+                          "value": "tableTypeComparison",
+                          "key": "Comparison"
+                        },
+                        {
+                          "value": "tableTypeBanded",
+                          "key": "Banded"
+                        },
+                        {
+                          "value": "tableTypeBlock",
+                          "key": "Block"
+                        }
+                      ]
+                    },
+                    "multiple": false,
+                    "uid": "type",
+                    "field_metadata": {
+                      "description": "",
+                      "default_value": "",
+                      "default_key": "",
+                      "version": 3
+                    },
+                    "mandatory": false,
+                    "non_localizable": false,
+                    "unique": false
+                  },
+                  {
+                    "data_type": "number",
+                    "display_name": "Highlighted Column",
+                    "uid": "highlighted_col",
+                    "field_metadata": {
+                      "description": "",
+                      "default_value": ""
+                    },
+                    "mandatory": false,
+                    "multiple": false,
+                    "non_localizable": false,
+                    "unique": false
+                  },
+                  {
+                    "data_type": "text",
+                    "display_name": "Highlighted Column Label",
+                    "uid": "highlight_col_flag",
+                    "field_metadata": {
+                      "description": "",
+                      "default_value": "",
+                      "version": 3
+                    },
+                    "format": "",
+                    "error_messages": {
+                      "format": ""
+                    },
+                    "mandatory": false,
+                    "multiple": false,
+                    "non_localizable": false,
+                    "unique": false
+                  },
+                  {
+                    "data_type": "boolean",
+                    "display_name": "Mobile Sticky Frame",
+                    "uid": "sticky_header",
+                    "field_metadata": {
+                      "description": "",
+                      "default_value": false
+                    },
+                    "mandatory": false,
+                    "multiple": false,
+                    "non_localizable": false,
+                    "unique": false
+                  }
+                ],
+                "uid": "table_styles",
+                "mandatory": false,
+                "multiple": true,
+                "non_localizable": false,
+                "unique": false,
+                "max_instance": 1
+              }
+            ]
+          },
+          {
+            "title": "Image",
+            "uid": "image",
+            "schema": [
+              {
+                "data_type": "file",
+                "display_name": "Image",
+                "uid": "reference",
+                "field_metadata": {
+                  "description": "",
+                  "rich_text_type": "standard",
+                  "image": true,
+                  "is_modular_block_instance_title": true
+                },
+                "mandatory": false,
+                "multiple": false,
+                "non_localizable": false,
+                "unique": false,
+                "dimension": {
+                  "width": {
+                    "min": null,
+                    "max": null
+                  },
+                  "height": {
+                    "min": null,
+                    "max": null
+                  }
+                }
+              },
+              {
+                "data_type": "text",
+                "display_name": "Caption",
+                "uid": "caption",
+                "field_metadata": {
+                  "description": "",
+                  "default_value": "",
+                  "version": 3
+                },
+                "format": "",
+                "error_messages": {
+                  "format": ""
+                },
+                "mandatory": false,
+                "multiple": false,
+                "non_localizable": false,
+                "unique": false
+              },
+              {
+                "data_type": "number",
+                "display_name": "Limit Width",
+                "uid": "limit_width",
+                "field_metadata": {
+                  "description": "Limit the maximum width of the image to a set pixel value",
+                  "default_value": ""
+                },
+                "mandatory": false,
+                "multiple": false,
+                "non_localizable": false,
+                "unique": false,
+                "max": 1440
+              },
+              {
+                "data_type": "text",
+                "display_name": "Alignment",
+                "display_type": "dropdown",
+                "enum": {
+                  "advanced": false,
+                  "choices": [
+                    {
+                      "value": "Left"
+                    },
+                    {
+                      "value": "Center"
+                    },
+                    {
+                      "value": "Right"
+                    }
+                  ]
+                },
+                "multiple": false,
+                "uid": "alignment",
+                "field_metadata": {
+                  "description": "",
+                  "default_value": "Center",
+                  "version": 3
+                },
+                "mandatory": false,
+                "non_localizable": false,
+                "unique": false
+              },
+              {
+                "data_type": "text",
+                "display_name": "Rounded Corners",
+                "display_type": "dropdown",
+                "enum": {
+                  "advanced": false,
+                  "choices": [
+                    {
+                      "value": "None"
+                    },
+                    {
+                      "value": "Small"
+                    },
+                    {
+                      "value": "Medium"
+                    },
+                    {
+                      "value": "Large"
+                    }
+                  ]
+                },
+                "multiple": false,
+                "uid": "rounded_corners",
+                "field_metadata": {
+                  "description": "",
+                  "default_value": "Medium",
+                  "version": 3
+                },
+                "mandatory": false,
+                "non_localizable": false,
+                "unique": false
+              },
+              {
+                "data_type": "text",
+                "display_name": "Drop Shadow",
+                "display_type": "dropdown",
+                "enum": {
+                  "advanced": false,
+                  "choices": [
+                    {
+                      "value": "None"
+                    },
+                    {
+                      "value": "Small"
+                    },
+                    {
+                      "value": "Medium"
+                    },
+                    {
+                      "value": "Large"
+                    }
+                  ]
+                },
+                "multiple": false,
+                "uid": "drop_shadow",
+                "field_metadata": {
+                  "description": "",
+                  "default_value": "None",
+                  "version": 3
+                },
+                "mandatory": false,
+                "non_localizable": false,
+                "unique": false
+              },
+              {
+                "data_type": "boolean",
+                "display_name": "Add Outline",
+                "uid": "outline",
+                "field_metadata": {
+                  "description": "Add a thin gray border around the image",
+                  "default_value": false
+                },
+                "mandatory": false,
+                "multiple": false,
+                "non_localizable": false,
+                "unique": false
+              },
+              {
+                "data_type": "boolean",
+                "display_name": "Mark Image Highest Priority",
+                "uid": "highest_priority",
+                "field_metadata": {
+                  "description": "If this is the first or largest image on the page, use this toggle to improve SEO.",
+                  "default_value": false
+                },
+                "mandatory": false,
+                "multiple": false,
+                "non_localizable": false,
+                "unique": false
+              },
+              {
+                "data_type": "group",
+                "display_name": "Link",
+                "field_metadata": {
+                  "description": "",
+                  "instruction": "Add a link to the image"
+                },
+                "schema": [
+                  {
+                    "data_type": "link",
+                    "display_name": "External Link",
+                    "uid": "external_link",
+                    "field_metadata": {
+                      "description": "",
+                      "default_value": {
+                        "title": "",
+                        "url": ""
+                      }
+                    },
+                    "mandatory": false,
+                    "multiple": false,
+                    "non_localizable": false,
+                    "unique": false
+                  },
+                  {
+                    "data_type": "reference",
+                    "display_name": "Internal Link",
+                    "reference_to": [
+                      "webinar",
+                      "video",
+                      "page",
+                      "cvent_page",
+                      "education_page",
+                      "collateral",
+                      "blog_post"
+                    ],
+                    "field_metadata": {
+                      "ref_multiple": false,
+                      "ref_multiple_content_types": true
+                    },
+                    "uid": "internal_link",
+                    "mandatory": false,
+                    "multiple": false,
+                    "non_localizable": false,
+                    "unique": false
+                  },
+                  {
+                    "data_type": "boolean",
+                    "display_name": "Open link in new tab",
+                    "uid": "new_tab",
+                    "field_metadata": {
+                      "description": "",
+                      "default_value": false
+                    },
+                    "mandatory": false,
+                    "multiple": false,
+                    "non_localizable": false,
+                    "unique": false
+                  }
+                ],
+                "uid": "link",
+                "mandatory": false,
+                "multiple": true,
+                "non_localizable": false,
+                "unique": false,
+                "max_instance": 1
+              }
+            ]
+          },
+          {
+            "title": "Video",
+            "uid": "video",
+            "schema": [
+              {
+                "data_type": "reference",
+                "display_name": "Video",
+                "reference_to": [
+                  "video"
+                ],
+                "field_metadata": {
+                  "ref_multiple": false,
+                  "ref_multiple_content_types": true,
+                  "is_modular_block_instance_title": true
+                },
+                "uid": "reference",
+                "mandatory": false,
+                "multiple": false,
+                "non_localizable": false,
+                "unique": false
+              },
+              {
+                "data_type": "text",
+                "display_name": "Playback Type",
+                "display_type": "dropdown",
+                "enum": {
+                  "advanced": false,
+                  "choices": [
+                    {
+                      "value": "Lightbox"
+                    },
+                    {
+                      "value": "Inline"
+                    },
+                    {
+                      "value": "Inline - Silent Autoplay"
+                    },
+                    {
+                      "value": "Link to Page"
+                    }
+                  ]
+                },
+                "multiple": false,
+                "uid": "playback_type",
+                "field_metadata": {
+                  "description": "",
+                  "default_value": "Inline",
+                  "version": 3
+                },
+                "mandatory": false,
+                "non_localizable": false,
+                "unique": false
+              },
+              {
+                "data_type": "text",
+                "display_name": "Play Icon",
+                "display_type": "dropdown",
+                "enum": {
+                  "advanced": false,
+                  "choices": [
+                    {
+                      "value": "Center"
+                    },
+                    {
+                      "value": "Left"
+                    },
+                    {
+                      "value": "None"
+                    }
+                  ]
+                },
+                "multiple": false,
+                "uid": "play_icon",
+                "field_metadata": {
+                  "description": "",
+                  "default_value": "Center",
+                  "version": 3
+                },
+                "mandatory": false,
+                "non_localizable": false,
+                "unique": false
+              },
+              {
+                "data_type": "file",
+                "display_name": "Override Thumbnail",
+                "uid": "override_thumbnail",
+                "field_metadata": {
+                  "description": "Use a different thumbnail image for the video than the one referenced from its entry",
+                  "rich_text_type": "standard",
+                  "image": true
+                },
+                "mandatory": false,
+                "multiple": false,
+                "non_localizable": false,
+                "unique": false,
+                "dimension": {
+                  "width": {
+                    "min": null,
+                    "max": null
+                  },
+                  "height": {
+                    "min": null,
+                    "max": null
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "title": "CTA Promo Card",
+            "uid": "promo",
+            "schema": [
+              {
+                "data_type": "reference",
+                "display_name": "Promo content",
+                "reference_to": [
+                  "promo"
+                ],
+                "field_metadata": {
+                  "ref_multiple": false,
+                  "ref_multiple_content_types": true,
+                  "is_modular_block_instance_title": true
+                },
+                "uid": "reference",
+                "mandatory": false,
+                "multiple": false,
+                "non_localizable": false,
+                "unique": false
+              },
+              {
+                "data_type": "text",
+                "display_name": "Layout Style",
+                "display_type": "dropdown",
+                "enum": {
+                  "advanced": true,
+                  "choices": [
+                    {
+                      "value": "stacked_left",
+                      "key": "Stacked - Left Aligned"
+                    },
+                    {
+                      "value": "stacked_center",
+                      "key": "Stacked - Centered"
+                    },
+                    {
+                      "value": "inline_left",
+                      "key": "Inline - Left Aligned"
+                    },
+                    {
+                      "value": "inline_center",
+                      "key": "Inline - Centered"
+                    }
+                  ]
+                },
+                "multiple": false,
+                "uid": "layout_style",
+                "field_metadata": {
+                  "description": "Change how the text and button are laid out in the box",
+                  "default_value": "",
+                  "default_key": "",
+                  "version": 3
+                },
+                "mandatory": false,
+                "non_localizable": false,
+                "unique": false
+              }
+            ]
+          },
+          {
+            "title": "Accordion",
+            "uid": "accordion",
+            "reference_to": "accordion"
+          },
+          {
+            "title": "Divider",
+            "uid": "divider",
+            "schema": [
+              {
+                "data_type": "text",
+                "display_name": "Color",
+                "display_type": "dropdown",
+                "enum": {
+                  "advanced": true,
+                  "choices": [
+                    {
+                      "value": "colorGray",
+                      "key": "Gray"
+                    },
+                    {
+                      "value": "colorOrange",
+                      "key": "Orange"
+                    }
+                  ]
+                },
+                "multiple": false,
+                "uid": "color",
+                "field_metadata": {
+                  "description": "",
+                  "default_value": "colorGray",
+                  "default_key": "Gray",
+                  "version": 3
+                },
+                "mandatory": false,
+                "non_localizable": false,
+                "unique": false
+              },
+              {
+                "data_type": "text",
+                "display_name": "Spacing",
+                "display_type": "dropdown",
+                "enum": {
+                  "advanced": true,
+                  "choices": [
+                    {
+                      "value": "spacingDefault",
+                      "key": "Default"
+                    },
+                    {
+                      "value": "spacingSmall",
+                      "key": "Condensed"
+                    },
+                    {
+                      "value": "spacingExpanded",
+                      "key": "Expanded"
+                    }
+                  ]
+                },
+                "multiple": false,
+                "uid": "spacing",
+                "field_metadata": {
+                  "description": "",
+                  "default_value": "spacingDefault",
+                  "default_key": "Default",
+                  "version": 3
+                },
+                "mandatory": false,
+                "non_localizable": false,
+                "unique": false
+              }
+            ]
+          }
+        ],
+        "multiple": true,
+        "uid": "content",
+        "field_metadata": {
+          "instruction": "",
+          "description": ""
+        },
+        "mandatory": false,
+        "non_localizable": false,
+        "unique": false
+      },
+      {
+        "data_type": "reference",
+        "display_name": "CTA Section",
+        "reference_to": [
+          "promo"
+        ],
+        "field_metadata": {
+          "ref_multiple": false,
+          "ref_multiple_content_types": true,
+          "instruction": "Add a CTA section to the bottom of the post"
+        },
+        "uid": "cta_section",
+        "mandatory": false,
+        "multiple": false,
+        "non_localizable": false,
+        "unique": false
+      },
+      {
+        "data_type": "group",
+        "display_name": "Document Download",
+        "field_metadata": {
+          "description": "",
+          "instruction": ""
+        },
+        "schema": [
+          {
+            "data_type": "file",
+            "display_name": "File Reference",
+            "uid": "reference",
+            "extensions": [
+              "pdf"
+            ],
+            "field_metadata": {
+              "description": "",
+              "rich_text_type": "standard"
+            },
+            "mandatory": false,
+            "multiple": false,
+            "non_localizable": false,
+            "unique": false
+          },
+          {
+            "data_type": "boolean",
+            "display_name": "Show in ToC",
+            "uid": "add_to_toc",
+            "field_metadata": {
+              "description": "Show a button to download the document at the bottom of the Table of Contents",
+              "default_value": false
+            },
+            "mandatory": false,
+            "multiple": false,
+            "non_localizable": false,
+            "unique": false
+          }
+        ],
+        "uid": "document_download",
+        "mandatory": false,
+        "multiple": false,
+        "non_localizable": false,
+        "unique": false
+      },
+      {
+        "data_type": "taxonomy",
+        "display_name": "Taxonomy",
+        "uid": "taxonomies",
+        "taxonomies": [
+          {
+            "taxonomy_uid": "page_gallery",
+            "mandatory": false,
+            "multiple": true,
+            "non_localizable": false
+          },
+          {
+            "taxonomy_uid": "internal_tags",
+            "mandatory": false,
+            "multiple": true,
+            "non_localizable": false
+          }
+        ],
+        "field_metadata": {
+          "description": "",
+          "default_value": ""
+        },
+        "format": "",
+        "error_messages": {
+          "format": ""
+        },
+        "mandatory": false,
+        "multiple": true,
+        "non_localizable": false,
+        "unique": false
+      },
+      {
+        "data_type": "global_field",
+        "display_name": "Resource Data",
+        "reference_to": "resource_data",
+        "field_metadata": {
+          "description": "Used to provide extra data about the entry for galleries"
+        },
+        "uid": "resource_data",
+        "mandatory": false,
+        "multiple": false,
+        "non_localizable": false,
+        "unique": false
+      },
+      {
+        "data_type": "global_field",
+        "display_name": "SEO",
+        "reference_to": "seo",
+        "field_metadata": {
+          "description": ""
+        },
+        "uid": "seo",
+        "mandatory": false,
+        "multiple": false,
+        "non_localizable": false,
+        "unique": false
+      },
+      {
+        "data_type": "global_field",
+        "display_name": "Page Properties",
+        "reference_to": "page_properties",
+        "field_metadata": {
+          "description": ""
+        },
+        "uid": "page_properties",
+        "mandatory": false,
+        "multiple": false,
+        "non_localizable": false,
+        "unique": false
+      }
+    ],
+    "last_activity": {},
+    "maintain_revisions": true,
+    "description": "For creating a page consisting mostly of text, images, and a table of contents, like a report or white paper",
+    "DEFAULT_ACL": [
+      {
+        "k": "others",
+        "v": {
+          "read": false,
+          "create": false
+        }
+      },
+      {
+        "k": "users.blted6468f1975ff785",
+        "v": {
+          "read": true,
+          "sub_acl": {
+            "read": true
+          }
+        }
+      }
+    ],
+    "SYS_ACL": {
+      "roles": []
+    },
+    "options": {
+      "is_page": true,
+      "singleton": false,
+      "sub_title": [],
+      "title": "title",
+      "url_pattern": "/:title",
+      "url_prefix": "/assets/"
+    },
+    "abilities": {
+      "get_one_object": true,
+      "get_all_objects": true,
+      "create_object": true,
+      "update_object": true,
+      "delete_object": true,
+      "delete_all_objects": true
+    }
+  }
+}

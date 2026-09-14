@@ -1,0 +1,1132 @@
+{
+  "content_type": {
+    "created_at": "2023-09-27T19:33:35.330Z",
+    "updated_at": "2026-06-24T13:51:03.651Z",
+    "title": "Page",
+    "uid": "page",
+    "_version": 142,
+    "inbuilt_class": false,
+    "schema": [
+      {
+        "data_type": "text",
+        "display_name": "Title",
+        "field_metadata": {
+          "_default": true,
+          "version": 3
+        },
+        "mandatory": true,
+        "uid": "title",
+        "unique": true,
+        "multiple": false,
+        "non_localizable": false
+      },
+      {
+        "data_type": "text",
+        "display_name": "URL",
+        "uid": "url",
+        "field_metadata": {
+          "_default": true,
+          "version": 3
+        },
+        "multiple": false,
+        "unique": false,
+        "mandatory": false,
+        "non_localizable": false
+      },
+      {
+        "data_type": "blocks",
+        "display_name": "Content blocks",
+        "blocks": [
+          {
+            "title": "Section",
+            "uid": "section",
+            "reference_to": "v4_experimental_basic_section"
+          },
+          {
+            "title": "Card List",
+            "uid": "card_list",
+            "reference_to": "card_list"
+          },
+          {
+            "title": "Card List with Tabs",
+            "uid": "card_list_with_tabs",
+            "reference_to": "card_list_with_tabs"
+          },
+          {
+            "title": "Logo Carousel Section",
+            "uid": "logo_carousel",
+            "reference_to": "logo_carousel"
+          },
+          {
+            "title": "Accordion",
+            "uid": "accordion",
+            "reference_to": "accordion"
+          },
+          {
+            "title": "Carousel Slider",
+            "uid": "carousel_slider",
+            "reference_to": "carousel_slider"
+          },
+          {
+            "title": "Page Gallery",
+            "uid": "page_gallery",
+            "reference_to": "page_gallery"
+          },
+          {
+            "title": "Reusable Content",
+            "uid": "reusable",
+            "reference_to": "reusable_content_reference"
+          },
+          {
+            "title": "Reusable Section",
+            "uid": "re_section",
+            "reference_to": "reusable_section_reference"
+          },
+          {
+            "title": "Section with Tabs",
+            "uid": "tabbed_content",
+            "reference_to": "tabbed_content"
+          },
+          {
+            "title": "Breadcrumbs",
+            "uid": "breadcrumbs",
+            "reference_to": "breadcrumbs",
+            "max_instance": 1
+          },
+          {
+            "title": "Slim Banner",
+            "uid": "slim_banner",
+            "schema": [
+              {
+                "data_type": "text",
+                "display_name": "Heading",
+                "uid": "heading",
+                "field_metadata": {
+                  "description": "",
+                  "default_value": "",
+                  "version": 3
+                },
+                "format": "",
+                "error_messages": {
+                  "format": ""
+                },
+                "mandatory": false,
+                "multiple": false,
+                "non_localizable": false,
+                "unique": false
+              },
+              {
+                "data_type": "text",
+                "display_name": "Background Color",
+                "display_type": "dropdown",
+                "enum": {
+                  "advanced": false,
+                  "choices": [
+                    {
+                      "value": "Orange"
+                    },
+                    {
+                      "value": "White"
+                    },
+                    {
+                      "value": "Gray 100"
+                    },
+                    {
+                      "value": "Gray 200"
+                    },
+                    {
+                      "value": "Black"
+                    },
+                    {
+                      "value": "Tungsten"
+                    },
+                    {
+                      "value": "Brass"
+                    },
+                    {
+                      "value": "Zinc"
+                    },
+                    {
+                      "value": "Magnesium"
+                    },
+                    {
+                      "value": "Bronze"
+                    },
+                    {
+                      "value": "Cobalt"
+                    },
+                    {
+                      "value": "Gradient Orange & White"
+                    },
+                    {
+                      "value": "Gradient Black & White"
+                    },
+                    {
+                      "value": "Gradient Tungsten & White"
+                    },
+                    {
+                      "value": "Gradient Brass & White"
+                    },
+                    {
+                      "value": "Gradient Zinc & White"
+                    },
+                    {
+                      "value": "Gradient Magnesium & White"
+                    },
+                    {
+                      "value": "Gradient Bronze & White"
+                    },
+                    {
+                      "value": "Gradient Cobalt & White"
+                    },
+                    {
+                      "value": "Gradient Orange & Gold"
+                    }
+                  ]
+                },
+                "multiple": false,
+                "uid": "background_option",
+                "field_metadata": {
+                  "description": "",
+                  "default_value": "White",
+                  "version": 3
+                },
+                "mandatory": false,
+                "non_localizable": false,
+                "unique": false
+              },
+              {
+                "data_type": "text",
+                "display_name": "Custom color",
+                "uid": "custom_color",
+                "field_metadata": {
+                  "description": "",
+                  "default_value": "",
+                  "placeholder": "Hex Code (starting with #)",
+                  "version": 3
+                },
+                "format": "^#",
+                "error_messages": {
+                  "format": "Start color with #"
+                },
+                "mandatory": false,
+                "multiple": false,
+                "non_localizable": false,
+                "unique": false
+              },
+              {
+                "data_type": "file",
+                "display_name": "Background image",
+                "uid": "background_image",
+                "extensions": [],
+                "field_metadata": {
+                  "description": "",
+                  "rich_text_type": "standard"
+                },
+                "mandatory": false,
+                "multiple": false,
+                "non_localizable": false,
+                "unique": false
+              },
+              {
+                "data_type": "boolean",
+                "display_name": "Use white text",
+                "uid": "use_white_text",
+                "field_metadata": {
+                  "description": "",
+                  "default_value": false
+                },
+                "mandatory": false,
+                "multiple": false,
+                "non_localizable": false,
+                "unique": false
+              },
+              {
+                "data_type": "group",
+                "display_name": "CTA button(s)",
+                "field_metadata": {
+                  "description": "",
+                  "instruction": ""
+                },
+                "schema": [
+                  {
+                    "data_type": "link",
+                    "display_name": "Button",
+                    "uid": "button",
+                    "field_metadata": {
+                      "description": "",
+                      "default_value": {
+                        "title": "",
+                        "url": ""
+                      },
+                      "isTitle": true
+                    },
+                    "mandatory": false,
+                    "multiple": false,
+                    "non_localizable": false,
+                    "unique": false
+                  },
+                  {
+                    "data_type": "reference",
+                    "display_name": "Button Internal Link",
+                    "reference_to": [
+                      "webinar",
+                      "video",
+                      "press_release",
+                      "page",
+                      "cvent_page"
+                    ],
+                    "field_metadata": {
+                      "ref_multiple": false,
+                      "ref_multiple_content_types": true
+                    },
+                    "uid": "internal_link",
+                    "mandatory": false,
+                    "multiple": false,
+                    "non_localizable": false,
+                    "unique": false
+                  },
+                  {
+                    "data_type": "text",
+                    "display_name": "Button style",
+                    "display_type": "dropdown",
+                    "enum": {
+                      "advanced": false,
+                      "choices": [
+                        {
+                          "value": "Contained"
+                        },
+                        {
+                          "value": "Outlined"
+                        },
+                        {
+                          "value": "Text"
+                        }
+                      ]
+                    },
+                    "multiple": false,
+                    "uid": "button_style",
+                    "field_metadata": {
+                      "description": "",
+                      "default_value": "Contained",
+                      "version": 3
+                    },
+                    "mandatory": false,
+                    "non_localizable": false,
+                    "unique": false
+                  },
+                  {
+                    "data_type": "text",
+                    "display_name": "Button color",
+                    "display_type": "dropdown",
+                    "enum": {
+                      "advanced": false,
+                      "choices": [
+                        {
+                          "value": "Primary"
+                        },
+                        {
+                          "value": "Secondary"
+                        },
+                        {
+                          "value": "Orange"
+                        },
+                        {
+                          "value": "White"
+                        },
+                        {
+                          "value": "Black"
+                        },
+                        {
+                          "value": "Gradient - Orange & Gold"
+                        }
+                      ]
+                    },
+                    "multiple": false,
+                    "uid": "button_color",
+                    "field_metadata": {
+                      "description": "",
+                      "default_value": "Primary",
+                      "version": 3
+                    },
+                    "mandatory": false,
+                    "non_localizable": false,
+                    "unique": false
+                  },
+                  {
+                    "data_type": "text",
+                    "display_name": "Analytics ID",
+                    "uid": "analytics_id",
+                    "field_metadata": {
+                      "description": "",
+                      "default_value": "",
+                      "version": 3
+                    },
+                    "format": "",
+                    "error_messages": {
+                      "format": ""
+                    },
+                    "mandatory": false,
+                    "multiple": false,
+                    "non_localizable": false,
+                    "unique": false
+                  }
+                ],
+                "uid": "cta_buttons",
+                "mandatory": false,
+                "multiple": true,
+                "non_localizable": false,
+                "unique": false,
+                "max_instance": 3
+              }
+            ]
+          },
+          {
+            "title": "CTA Section",
+            "uid": "cta_section",
+            "schema": [
+              {
+                "data_type": "text",
+                "display_name": "Headline",
+                "uid": "headline",
+                "field_metadata": {
+                  "description": "",
+                  "default_value": "",
+                  "version": 3
+                },
+                "format": "",
+                "error_messages": {
+                  "format": ""
+                },
+                "mandatory": false,
+                "multiple": false,
+                "non_localizable": false,
+                "unique": false
+              },
+              {
+                "data_type": "text",
+                "display_name": "Lead text",
+                "uid": "lead_text",
+                "field_metadata": {
+                  "description": "",
+                  "default_value": "",
+                  "version": 3
+                },
+                "format": "",
+                "error_messages": {
+                  "format": ""
+                },
+                "mandatory": false,
+                "multiple": false,
+                "non_localizable": false,
+                "unique": false
+              },
+              {
+                "data_type": "group",
+                "display_name": "CTA button(s)",
+                "field_metadata": {
+                  "description": "",
+                  "instruction": ""
+                },
+                "schema": [
+                  {
+                    "data_type": "link",
+                    "display_name": "External Link",
+                    "uid": "button",
+                    "field_metadata": {
+                      "description": "",
+                      "default_value": {
+                        "title": "",
+                        "url": ""
+                      }
+                    },
+                    "mandatory": false,
+                    "multiple": false,
+                    "non_localizable": false,
+                    "unique": false
+                  },
+                  {
+                    "data_type": "reference",
+                    "display_name": "Internal Link",
+                    "reference_to": [
+                      "webinar",
+                      "video",
+                      "press_release",
+                      "page",
+                      "cvent_page",
+                      "collateral"
+                    ],
+                    "field_metadata": {
+                      "ref_multiple": false,
+                      "ref_multiple_content_types": true
+                    },
+                    "uid": "internal_link",
+                    "mandatory": false,
+                    "multiple": false,
+                    "non_localizable": false,
+                    "unique": false
+                  },
+                  {
+                    "data_type": "text",
+                    "display_name": "Button style",
+                    "display_type": "dropdown",
+                    "enum": {
+                      "advanced": false,
+                      "choices": [
+                        {
+                          "value": "Contained"
+                        },
+                        {
+                          "value": "Outlined"
+                        },
+                        {
+                          "value": "Text"
+                        }
+                      ]
+                    },
+                    "multiple": false,
+                    "uid": "button_style",
+                    "field_metadata": {
+                      "description": "",
+                      "default_value": "Contained",
+                      "version": 3
+                    },
+                    "mandatory": false,
+                    "non_localizable": false,
+                    "unique": false
+                  },
+                  {
+                    "data_type": "text",
+                    "display_name": "Button color",
+                    "display_type": "dropdown",
+                    "enum": {
+                      "advanced": false,
+                      "choices": [
+                        {
+                          "value": "Primary"
+                        },
+                        {
+                          "value": "Secondary"
+                        },
+                        {
+                          "value": "Orange"
+                        },
+                        {
+                          "value": "White"
+                        },
+                        {
+                          "value": "Black"
+                        },
+                        {
+                          "value": "Gradient - Orange & Gold"
+                        }
+                      ]
+                    },
+                    "multiple": false,
+                    "uid": "button_color",
+                    "field_metadata": {
+                      "description": "",
+                      "default_value": "Primary",
+                      "version": 3
+                    },
+                    "mandatory": false,
+                    "non_localizable": false,
+                    "unique": false
+                  },
+                  {
+                    "data_type": "boolean",
+                    "display_name": "Open link in new tab",
+                    "uid": "new_tab",
+                    "field_metadata": {
+                      "description": "",
+                      "default_value": false
+                    },
+                    "mandatory": false,
+                    "multiple": false,
+                    "non_localizable": false,
+                    "unique": false
+                  },
+                  {
+                    "data_type": "text",
+                    "display_name": "Analytics ID",
+                    "uid": "analytics_id",
+                    "field_metadata": {
+                      "description": "",
+                      "default_value": "",
+                      "version": 3
+                    },
+                    "format": "",
+                    "error_messages": {
+                      "format": ""
+                    },
+                    "mandatory": false,
+                    "multiple": false,
+                    "non_localizable": false,
+                    "unique": false
+                  }
+                ],
+                "uid": "cta_buttons",
+                "mandatory": false,
+                "multiple": true,
+                "non_localizable": false,
+                "unique": false,
+                "max_instance": 2
+              },
+              {
+                "data_type": "text",
+                "display_name": "Top and Bottom Padding",
+                "display_type": "dropdown",
+                "enum": {
+                  "advanced": false,
+                  "choices": [
+                    {
+                      "value": "Default"
+                    },
+                    {
+                      "value": "Tall"
+                    },
+                    {
+                      "value": "Tall top only"
+                    },
+                    {
+                      "value": "Tall bottom only"
+                    },
+                    {
+                      "value": "Short"
+                    },
+                    {
+                      "value": "Short top only"
+                    },
+                    {
+                      "value": "Short bottom only"
+                    },
+                    {
+                      "value": "None"
+                    },
+                    {
+                      "value": "None top only"
+                    },
+                    {
+                      "value": "None bottom only"
+                    }
+                  ]
+                },
+                "multiple": true,
+                "uid": "padding_options",
+                "field_metadata": {
+                  "description": "",
+                  "default_value": "Default",
+                  "version": 3
+                },
+                "mandatory": false,
+                "non_localizable": false,
+                "unique": false,
+                "schema": []
+              },
+              {
+                "data_type": "boolean",
+                "display_name": "Use white text",
+                "uid": "use_white_text",
+                "field_metadata": {
+                  "description": "",
+                  "default_value": true
+                },
+                "mandatory": false,
+                "multiple": false,
+                "non_localizable": false,
+                "unique": false
+              },
+              {
+                "data_type": "text",
+                "display_name": "Background Color",
+                "display_type": "dropdown",
+                "enum": {
+                  "advanced": false,
+                  "choices": [
+                    {
+                      "value": "Orange"
+                    },
+                    {
+                      "value": "White"
+                    },
+                    {
+                      "value": "Gray 100"
+                    },
+                    {
+                      "value": "Gray 200"
+                    },
+                    {
+                      "value": "Black"
+                    },
+                    {
+                      "value": "Tungsten"
+                    },
+                    {
+                      "value": "Brass"
+                    },
+                    {
+                      "value": "Zinc"
+                    },
+                    {
+                      "value": "Magnesium"
+                    },
+                    {
+                      "value": "Bronze"
+                    },
+                    {
+                      "value": "Cobalt"
+                    },
+                    {
+                      "value": "Gradient Orange & White"
+                    },
+                    {
+                      "value": "Gradient Black & White"
+                    },
+                    {
+                      "value": "Gradient Tungsten & White"
+                    },
+                    {
+                      "value": "Gradient Brass & White"
+                    },
+                    {
+                      "value": "Gradient Zinc & White"
+                    },
+                    {
+                      "value": "Gradient Magnesium & White"
+                    },
+                    {
+                      "value": "Gradient Bronze & White"
+                    },
+                    {
+                      "value": "Gradient Cobalt & White"
+                    },
+                    {
+                      "value": "Gradient Orange & Gold"
+                    },
+                    {
+                      "value": "Blue black"
+                    },
+                    {
+                      "value": "Dark purple"
+                    }
+                  ]
+                },
+                "multiple": false,
+                "uid": "background_option",
+                "field_metadata": {
+                  "description": "",
+                  "default_value": "White",
+                  "version": 3
+                },
+                "mandatory": false,
+                "non_localizable": false,
+                "unique": false
+              },
+              {
+                "data_type": "text",
+                "display_name": "Background custom color",
+                "uid": "custom_color",
+                "field_metadata": {
+                  "description": "",
+                  "default_value": "",
+                  "placeholder": "Hex Code (starting with #)",
+                  "version": 3
+                },
+                "format": "^#",
+                "error_messages": {
+                  "format": "Start color with #"
+                },
+                "mandatory": false,
+                "multiple": false,
+                "non_localizable": false,
+                "unique": false
+              },
+              {
+                "data_type": "file",
+                "display_name": "Background image",
+                "uid": "background_image",
+                "extensions": [],
+                "field_metadata": {
+                  "description": "",
+                  "rich_text_type": "standard"
+                },
+                "mandatory": false,
+                "multiple": false,
+                "non_localizable": false,
+                "unique": false
+              }
+            ]
+          },
+          {
+            "title": "Gated CTA Section",
+            "uid": "gated_cta_button",
+            "reference_to": "gated_cta_button"
+          },
+          {
+            "title": "Custom Code",
+            "uid": "custom_code",
+            "schema": [
+              {
+                "data_type": "text",
+                "display_name": "HTML code snippet",
+                "uid": "html_code_snippet",
+                "field_metadata": {
+                  "allow_rich_text": true,
+                  "description": "",
+                  "multiline": false,
+                  "rich_text_type": "custom",
+                  "options": [
+                    "html",
+                    "undo",
+                    "redo",
+                    "blockquote",
+                    "pre",
+                    "h1",
+                    "h2",
+                    "h3",
+                    "h4",
+                    "h5",
+                    "h6",
+                    "bold",
+                    "underline",
+                    "italic",
+                    "deleted",
+                    "sup",
+                    "sub",
+                    "lists",
+                    "alignment",
+                    "video",
+                    "imagemanager",
+                    "table",
+                    "properties",
+                    "link",
+                    "social-embeds",
+                    "widget"
+                  ],
+                  "embed_entry": true,
+                  "ref_multiple_content_types": true,
+                  "version": 3
+                },
+                "mandatory": false,
+                "multiple": false,
+                "non_localizable": false,
+                "unique": false,
+                "reference_to": [
+                  "page"
+                ]
+              }
+            ]
+          }
+        ],
+        "multiple": true,
+        "uid": "content_blocks",
+        "field_metadata": {
+          "instruction": "",
+          "description": ""
+        },
+        "mandatory": false,
+        "non_localizable": false,
+        "unique": false
+      },
+      {
+        "data_type": "global_field",
+        "display_name": "Page properties",
+        "reference_to": "page_properties",
+        "field_metadata": {
+          "description": ""
+        },
+        "uid": "page_properties",
+        "mandatory": false,
+        "multiple": false,
+        "non_localizable": false,
+        "unique": false
+      },
+      {
+        "data_type": "global_field",
+        "display_name": "SEO",
+        "reference_to": "seo",
+        "field_metadata": {
+          "description": ""
+        },
+        "uid": "seo",
+        "mandatory": false,
+        "multiple": false,
+        "non_localizable": false,
+        "unique": false
+      },
+      {
+        "data_type": "taxonomy",
+        "display_name": "Taxonomy",
+        "uid": "taxonomies",
+        "taxonomies": [
+          {
+            "taxonomy_uid": "page_gallery",
+            "mandatory": false,
+            "multiple": true,
+            "non_localizable": false
+          },
+          {
+            "taxonomy_uid": "internal_tags",
+            "mandatory": false,
+            "multiple": true,
+            "non_localizable": false
+          }
+        ],
+        "field_metadata": {
+          "description": "",
+          "default_value": ""
+        },
+        "format": "",
+        "error_messages": {
+          "format": ""
+        },
+        "mandatory": false,
+        "multiple": true,
+        "non_localizable": false,
+        "unique": false
+      },
+      {
+        "data_type": "global_field",
+        "display_name": "Resource Data",
+        "reference_to": "resource_data",
+        "field_metadata": {
+          "description": "Used to provide extra data about the entry for galleries"
+        },
+        "uid": "resource_data",
+        "mandatory": false,
+        "multiple": false,
+        "non_localizable": false,
+        "unique": false
+      }
+    ],
+    "last_activity": {},
+    "maintain_revisions": true,
+    "description": "",
+    "DEFAULT_ACL": {
+      "others": {
+        "read": false,
+        "create": false
+      },
+      "users": [
+        {
+          "uid": "blted6468f1975ff785",
+          "read": true,
+          "sub_acl": {
+            "read": true
+          }
+        }
+      ]
+    },
+    "SYS_ACL": {
+      "roles": [
+        {
+          "uid": "bltc51f60182f3c3435",
+          "read": true,
+          "sub_acl": {
+            "create": true,
+            "read": true,
+            "update": true,
+            "delete": true,
+            "publish": true
+          },
+          "update": true,
+          "delete": true
+        },
+        {
+          "uid": "blt6a0dfe787296a09a",
+          "read": true,
+          "sub_acl": {
+            "create": true,
+            "read": true,
+            "update": true,
+            "delete": true,
+            "publish": true
+          }
+        },
+        {
+          "uid": "blt44f42f9c17e812f6",
+          "read": true,
+          "sub_acl": {
+            "create": true,
+            "read": true,
+            "update": true,
+            "delete": true,
+            "publish": true
+          },
+          "update": true,
+          "delete": true
+        },
+        {
+          "uid": "blt7cdb35cefd346c47",
+          "read": true
+        },
+        {
+          "read": true,
+          "sub_acl": {
+            "read": true,
+            "create": true,
+            "update": true,
+            "publish": true
+          },
+          "uid": "blt0d8832ed11556ee9"
+        },
+        {
+          "read": true,
+          "sub_acl": {
+            "read": true,
+            "create": true,
+            "update": true,
+            "publish": true
+          },
+          "uid": "blt6385daadd6a6125f"
+        },
+        {
+          "read": true,
+          "sub_acl": {
+            "read": true,
+            "create": true,
+            "update": true,
+            "publish": true
+          },
+          "uid": "blt68d58f937fcd35ce"
+        },
+        {
+          "read": true,
+          "sub_acl": {
+            "read": true,
+            "create": true,
+            "update": true,
+            "publish": true
+          },
+          "uid": "blt63bfacf105b1bb26"
+        },
+        {
+          "read": true,
+          "sub_acl": {
+            "read": true,
+            "create": true,
+            "update": true,
+            "publish": true
+          },
+          "uid": "blt697526899e2642b5"
+        },
+        {
+          "read": true,
+          "sub_acl": {
+            "read": true,
+            "create": true,
+            "update": true,
+            "publish": true
+          },
+          "uid": "blt3925edb9694fc1e3"
+        },
+        {
+          "read": true,
+          "sub_acl": {
+            "read": true,
+            "create": true,
+            "update": true,
+            "publish": true
+          },
+          "uid": "bltf85a45c96d7e8ea2"
+        },
+        {
+          "read": true,
+          "sub_acl": {
+            "read": true,
+            "create": true,
+            "update": true,
+            "publish": true
+          },
+          "uid": "blt9229ca6cb27d3364"
+        },
+        {
+          "read": true,
+          "sub_acl": {
+            "read": true,
+            "create": true,
+            "update": true,
+            "publish": true
+          },
+          "uid": "blt8cc8f5d10b66cdab"
+        },
+        {
+          "read": true,
+          "sub_acl": {
+            "read": true,
+            "create": true,
+            "update": true,
+            "publish": true
+          },
+          "uid": "blt9dd8e16c771a6000"
+        },
+        {
+          "read": true,
+          "sub_acl": {
+            "read": true,
+            "create": true,
+            "update": true,
+            "publish": true
+          },
+          "uid": "blt596c58f90d5b6a5b"
+        },
+        {
+          "read": true,
+          "sub_acl": {
+            "read": true,
+            "create": true,
+            "update": true,
+            "publish": true
+          },
+          "uid": "blt5412b98eea46f792"
+        },
+        {
+          "uid": "blt898d785c0cf9d821",
+          "read": true,
+          "sub_acl": {
+            "read": true
+          }
+        },
+        {
+          "uid": "blt53bf925e1249edfd",
+          "read": true,
+          "sub_acl": {
+            "read": true,
+            "create": true,
+            "update": true,
+            "publish": true
+          }
+        }
+      ],
+      "others": {
+        "read": false,
+        "create": false,
+        "update": false,
+        "delete": false,
+        "sub_acl": {
+          "read": false,
+          "create": false,
+          "update": false,
+          "delete": false,
+          "publish": false
+        }
+      }
+    },
+    "options": {
+      "is_page": true,
+      "singleton": false,
+      "sub_title": [],
+      "title": "title",
+      "url_pattern": "/:title",
+      "url_prefix": "/"
+    },
+    "abilities": {
+      "get_one_object": true,
+      "get_all_objects": true,
+      "create_object": true,
+      "update_object": true,
+      "delete_object": true,
+      "delete_all_objects": true
+    }
+  }
+}

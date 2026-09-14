@@ -1,0 +1,81 @@
+contentstack:
+  # CONFIRMED 2026-09-01 via the real asset_page content-type export (schemas/
+  # contentstack_asset_page.schema.json) — this is the new standard for glossary pages,
+  # replacing the earlier 'page'-based mapper that combined the Whitepaper agent's hero
+  # pattern with the Blog agent's accordion builder. See docs/glossary_page_spec.md.
+  content_type_uid: "asset_page"
+  # asset_page's own content-type options.url_prefix is "/assets/" (confirmed in the
+  # schema export). "/glossary" is our own grouping segment on top of that, same as
+  # before — not itself reconfirmed by this export, but no longer resting on the
+  # guessed singular "/asset/glossary" prefix.
+  url_prefix: "/assets/glossary"
+
+  field_map:
+    title: "title"
+    url: "url"
+    page_header: "page_header"
+    content: "content"
+    seo: "seo"
+    page_properties: "page_properties"
+    resource_data: "resource_data"
+    taxonomies: "taxonomies"
+
+  # UNCONFIRMED. Only "Blog" and "Analyst Report" are known-valid resource_data.type
+  # values as of 2026-08-25 (Whitepaper agent's discover_schema.py output). Neither is a
+  # clean fit for a glossary/concept page. Run:
+  #   python3 scripts/discover_schema.py --type page
+  # and update this value before the first real upload. Defaulting to "Blog" as the
+  # closer analog (Narrative-tier content) rather than guessing something invalid.
+  resource_type: "Blog"  # TODO: confirm with Jessica/Dale — see docs/glossary_page_spec.md
+
+  # Locale codes live on the site (confirmed by Dale, ITS, 2026-08-26 — for the *blog*
+  # folder specifically; see the Blog Ingestion Agent's config.yaml). Locales are
+  # normally a stack-wide setting rather than per-content-type, so this list is very
+  # likely correct for 'page' entries too, but that has NOT been separately confirmed
+  # for glossary pages — verify with Dale before trusting a non-"en" upload. Default
+  # is "en" — do not hardcode "en" elsewhere once locale selection is wired up; read
+  # from this list.
+  locales: ["en", "es", "fr", "de", "it", "ja", "ko", "pt", "pl", "zh", "th"]
+  default_locale: "en"
+
+api:
+  base_url: "https://api-stg.microstrategy.com/cs-software"
+
+  # Live site domain, for absolute URLs in JSON-LD/canonical tags. Confirmed via
+  # https://software.strategy.com/sitemap.xml (2026-08-25) — live URLs on this domain do
+  # NOT carry a leading "/software" segment (e.g. the sitemap lists
+  # "https://software.strategy.com/research-and-reports/..." with no "/software/" in the
+  # path) — the subdomain itself stands in for it. ONLY that "/software" segment is
+  # confirmed elided; the rest of contentstack.url_prefix ("/glossary") is our own
+  # taxonomy choice and IS part of the real live path. Don't strip the whole url_prefix
+  # when building a canonical URL — see cms_domain_prefix below.
+  canonical_base_url: "https://software.strategy.com"
+  cms_domain_prefix: "/software"
+
+  # Asset upload endpoint. NOT confirmed for glossary pages — the Blog Ingestion Agent
+  # has a confirmed endpoint (uploadToBlogAssetsFolder, from Dale/ITS, 2026-08-26) for
+  # its own dedicated blog-assets folder, but no equivalent has been requested or
+  # confirmed for glossary/page assets. scripts/upload_assets.py exists as a standalone
+  # utility (same corrected multipart shape as Blog's) that patches assetUid into
+  # image/video blocks in normalized_glossary.json — map_to_contentstack.py now turns a
+  # patched image block into a native asset_page `image` content block. Ask Dale for a
+  # glossary/page assets folder endpoint before relying on this for a real upload.
+  assets_url: ""
+
+pipeline:
+  claude_model: "claude-sonnet-4-6"
+
+  # Internal-linking minimums Frank stated verbally (2026-08-24/25 calls) — not yet a
+  # written spec. Detail<->Narrative is "Critical" per the template launch deck's link
+  # priority matrix; Narrative->Arrival is "High".
+  internal_links:
+    min_inbound: 3
+    min_outbound: 3
+    require_detail_link: true
+
+glossary:
+  # Sourced from Content needs - Remaining Q3.xlsx (copied to input/). This is the closest
+  # artifact found to the "Q3 Content Strategy doc" Frank's operating plan references —
+  # the actual doc was not located on disk. See docs/glossary_page_spec.md.
+  term_queue_source: "input/Content needs - Remaining Q3.xlsx"
+  term_type_filter: "Glossary"

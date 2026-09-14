@@ -1,0 +1,1750 @@
+{
+  "notice": "Entry created successfully.",
+  "entry": {
+    "title": "v1 | What Is a Semantic Layer?",
+    "url": "/assets/glossary/semantic-layer",
+    "page_header": {
+      "headline": "What Is a Semantic Layer?",
+      "subhead": "What is a semantic layer?",
+      "description": {
+        "type": "doc",
+        "uid": "04e459986be148c49a9df23a164be9da",
+        "attrs": {},
+        "children": [
+          {
+            "text": ""
+          }
+        ],
+        "_version": 1
+      },
+      "brief_header": "",
+      "brief_content": {
+        "type": "doc",
+        "uid": "765f9c7495f24c29a895515ee19620a1",
+        "attrs": {},
+        "children": [
+          {
+            "type": "ul",
+            "uid": "31762ab4cf764efc90f1c3dec020ea06",
+            "attrs": {},
+            "children": [
+              {
+                "type": "li",
+                "uid": "3a029137b02c4651b0fb934505458f35",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "p",
+                    "uid": "e1cab0d1a0064a7d9632080242693d80",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "text": "A semantic layer is a governed metadata layer that translates raw data into business-meaningful terms, metrics, hierarchies, and definitions.",
+                        "attrs": {
+                          "style": {
+                            "color": "rgb(26, 26, 26)"
+                          }
+                        },
+                        "bold": true
+                      },
+                      {
+                        "text": " It sits between raw data sources and the AI or BI tools that consume them, ensuring that calculated metrics, relationships, and business logic are applied consistently — so every downstream tool computes the same answer from the same governed source.",
+                        "attrs": {
+                          "style": {
+                            "color": "rgb(26, 26, 26)"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "uid": "0b3f355c803a407f9e3e028c53860ced",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "p",
+                    "uid": "30f16b6400f945ca996b058017e72b76",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "text": "A semantic layer standardizes key business metrics and definitions across teams, ensuring consistent reporting, trusted insights, and more confident decision-making.",
+                        "attrs": {
+                          "style": {
+                            "color": "rgb(26, 26, 26)"
+                          }
+                        },
+                        "bold": true
+                      },
+                      {
+                        "text": " That means Finance, Marketing, and Sales calculate 'revenue' or 'active user' the same way every time — no reconciling numbers before a meeting, no conflicting dashboards.",
+                        "attrs": {
+                          "style": {
+                            "color": "rgb(26, 26, 26)"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "uid": "525c311cc985489aa9021f8f16efe018",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "p",
+                    "uid": "46bcce5b105142068964f911a22862a9",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "text": "A semantic layer gives AI agents governed business context, ensuring accurate, consistent insights from enterprise data by standardizing definitions for key metrics and entities.",
+                        "attrs": {
+                          "style": {
+                            "color": "rgb(26, 26, 26)"
+                          }
+                        },
+                        "bold": true
+                      },
+                      {
+                        "text": " Rather than guessing at business logic from raw tables, AI agents query the same governed definitions people already trust — so an AI-generated answer matches what an analyst would have produced by hand.",
+                        "attrs": {
+                          "style": {
+                            "color": "rgb(26, 26, 26)"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "_version": 1
+      }
+    },
+    "anchor_styles": "anchorsNumbered",
+    "toc_header": "",
+    "content": [
+      {
+        "section_anchor": {
+          "header_text": "What Is a Semantic Layer?",
+          "section_id": "what-is-a-semantic-layer",
+          "no_toc": false,
+          "no_numbering": false,
+          "_metadata": {
+            "uid": "csdaf2ab889dd8dd5e"
+          }
+        }
+      },
+      {
+        "divider": {
+          "color": "colorOrange",
+          "spacing": "spacingDefault",
+          "_metadata": {
+            "uid": "cs1410e7f5ee86293f"
+          }
+        }
+      },
+      {
+        "text": {
+          "accent_box": [],
+          "text_content": {
+            "type": "doc",
+            "uid": "2ea56a425c454e41ab58c6c479ddda3e",
+            "attrs": {},
+            "children": [
+              {
+                "type": "p",
+                "uid": "53b296fb5d4b4168806fe8f1f56d9258",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "At its core, a semantic layer is the translation layer between how data is stored and how a business actually talks about it. Databases store rows, columns, and joins; the people and systems that consume that data think in terms of revenue, churn, active users, and quarterly hierarchies. A semantic layer sits in between and does that translation once, centrally, so every report, dashboard, and AI query draws from the same governed set of definitions instead of each tool or analyst re-deriving the logic independently.",
+                    "attrs": {
+                      "style": {
+                        "color": "rgb(26, 26, 26)"
+                      }
+                    }
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "text_override": null,
+          "table_styles": [],
+          "_metadata": {
+            "uid": "cs27853629c9ff105f"
+          }
+        }
+      },
+      {
+        "text": {
+          "accent_box": [],
+          "text_content": {
+            "type": "doc",
+            "uid": "0f581a5f3fd7485e9b2de83a50e4ae71",
+            "attrs": {},
+            "children": [
+              {
+                "type": "p",
+                "uid": "d6a8f32e4fa3424493a5952dee32f6ac",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Video:",
+                    "attrs": {
+                      "style": {
+                        "color": "rgb(26, 26, 26)"
+                      }
+                    },
+                    "bold": true
+                  },
+                  {
+                    "text": " Insert \"Semantic Layer Overview\" video here once produced. No video asset exists yet — flagged for the web team; see validationWarnings.",
+                    "attrs": {
+                      "style": {
+                        "color": "rgb(26, 26, 26)"
+                      }
+                    }
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "text_override": null,
+          "table_styles": [],
+          "_metadata": {
+            "uid": "cs83ef2b610ff974ec"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "How Does a Semantic Layer Work?",
+          "section_id": "how-does-a-semantic-layer-work",
+          "no_toc": false,
+          "no_numbering": false,
+          "_metadata": {
+            "uid": "cs1dac9bd9dfff5830"
+          }
+        }
+      },
+      {
+        "divider": {
+          "color": "colorOrange",
+          "spacing": "spacingDefault",
+          "_metadata": {
+            "uid": "cs0761356748c12e03"
+          }
+        }
+      },
+      {
+        "text": {
+          "accent_box": [],
+          "text_content": {
+            "type": "doc",
+            "uid": "3c97919275624017a07fde51546aa12e",
+            "attrs": {},
+            "children": [
+              {
+                "type": "p",
+                "uid": "074b84d6a6b944e3b07c2bdc66868adf",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The semantic layer sits between raw data sources and the AI and BI tools that consume them. Rather than letting every downstream tool interpret raw table structures and column names on its own, the semantic layer intercepts those queries and enforces a consistent layer of business logic before any answer is returned.",
+                    "attrs": {
+                      "style": {
+                        "color": "rgb(26, 26, 26)"
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "cfe8f106b4964351a58bc90896f3780e",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "[IMAGE PLACEHOLDER] ",
+                    "attrs": {
+                      "style": {
+                        "color": "rgb(26, 26, 26)"
+                      }
+                    },
+                    "bold": true
+                  },
+                  {
+                    "text": "Drop the file in the term's assets/ folder and run upload_assets.py --normalized to fill this in — source: how-semantic-layer-works.png",
+                    "attrs": {
+                      "style": {
+                        "color": "rgb(26, 26, 26)"
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "4ce3537fc5bf48d79370ae1e75efae01",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Think of it as a universal dictionary for your data. Each term — revenue, churn, active user — has one authoritative definition, enforced mathematically, so the number Finance sees in its report is the same number Marketing sees in its dashboard and the same number an AI agent returns when asked the question in natural language.",
+                    "attrs": {
+                      "style": {
+                        "color": "rgb(26, 26, 26)"
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "ec8224a837ca4b6197e9ea1a82e488e9",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Concretely, the semantic layer provides:",
+                    "attrs": {
+                      "style": {
+                        "color": "rgb(26, 26, 26)"
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "uid": "8221627c1a72436f8df6cc5af8b17215",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "li",
+                    "uid": "34af5f74daad4bdf9ac6f5dc30d24c0c",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "9c254ccf45d24e7c98130a59a54a9629",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Business-meaningful names for tables, columns, and metrics — so AI knows that tbl_rev_q3 means 'Q3 Revenue,' not just a string of characters.",
+                            "attrs": {
+                              "style": {
+                                "color": "rgb(26, 26, 26)"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "eb567af0e309431bb908c2de004d7e7b",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "fb9744fc9b49417f8084fcb89146c714",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Calculated metrics with consistent definitions, encoded once and reused across every dashboard, report, and AI interface.",
+                            "attrs": {
+                              "style": {
+                                "color": "rgb(26, 26, 26)"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "33a0bdf9c0e84eeca8326fdcd18903ad",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "66cd90b591a64d61b723527f5806d7bb",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Row- and column-level permissions and governance, so executives get high-level rollups and analysts get appropriately filtered views.",
+                            "attrs": {
+                              "style": {
+                                "color": "rgb(26, 26, 26)"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "714f4d624db04d458ae0892a31156bc1",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "6d5618ef74ca4bc88f6586946d4ae514",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Lineage — where data came from and how it was transformed.",
+                            "attrs": {
+                              "style": {
+                                "color": "rgb(26, 26, 26)"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "c7fb92ff58394f1aae1e6897f807aff4",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "c5571ea6041345a9b90e04308b4334bb",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Business hierarchies across geography, product, and time.",
+                            "attrs": {
+                              "style": {
+                                "color": "rgb(26, 26, 26)"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "21a5328221c5484f95982d32d2841079",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "1c4643f126774a2894a4e4250123c724",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Relationships between business entities.",
+                            "attrs": {
+                              "style": {
+                                "color": "rgb(26, 26, 26)"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "c45fcade672b4001a2ce4135b6e35c4d",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "dace8b3f44024ed387c90b5be8d80993",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Full version control and audit trails — every change to a KPI, filter, or access rule is logged automatically.",
+                            "attrs": {
+                              "style": {
+                                "color": "rgb(26, 26, 26)"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "cafab78cc9c5480f99a4ec8d8d5862d7",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "In Strategy Mosaic, that governed layer is also queryable in natural language. Ask, 'Which customers are at risk this quarter?' and get answers based on the same logic as your executive dashboard — from Slack, Excel, Chrome, Teams, and more.",
+                    "attrs": {
+                      "style": {
+                        "color": "rgb(26, 26, 26)"
+                      }
+                    }
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "text_override": null,
+          "table_styles": [],
+          "_metadata": {
+            "uid": "cs7e7f0a6fc439db39"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "What Are the Benefits of a Semantic Layer?",
+          "section_id": "what-are-the-benefits-of-a-semantic-layer",
+          "no_toc": false,
+          "no_numbering": false,
+          "_metadata": {
+            "uid": "csb358f89d192b6953"
+          }
+        }
+      },
+      {
+        "divider": {
+          "color": "colorOrange",
+          "spacing": "spacingDefault",
+          "_metadata": {
+            "uid": "csa19d8999910c5945"
+          }
+        }
+      },
+      {
+        "text": {
+          "accent_box": [],
+          "text_content": {
+            "type": "doc",
+            "uid": "b61c8bbd440c48319c8dd70cdce033af",
+            "attrs": {},
+            "children": [
+              {
+                "type": "p",
+                "uid": "cc8ede582a4549f0bde9da971bf7cd01",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The semantic layer addresses one of the most persistent problems in enterprise data architecture: teams spending more time reconciling numbers than generating insights. When metrics are inconsistent across tools, AI initiatives stall and confidence in data erodes. The semantic layer resolves that at the infrastructure level.",
+                    "attrs": {
+                      "style": {
+                        "color": "rgb(26, 26, 26)"
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "ol",
+                "uid": "f6dab5663c2d4071a7a596ba2c9e7cdb",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "li",
+                    "uid": "aa9670f54eff42cbad8797e1e9e8c31a",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "cc231c7674994666847e994baad6cc07",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Consistent Metrics Across Every Team — Sales, Finance, HR, Customer Success, and Marketing all pull from the same definitions, so terms like 'churn' or 'active user' never change from one meeting to the next.",
+                            "attrs": {
+                              "style": {
+                                "color": "rgb(26, 26, 26)"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "314bbe58bad242bca0ee1fb1442a0443",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "0f5b82724c874733a35eb3435b83ee4b",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Faster, More Confident Decisions — real-time dashboards and AI-powered querying give teams actionable insights instantly, accessible from Slack, Excel, Chrome, Teams, and more.",
+                            "attrs": {
+                              "style": {
+                                "color": "rgb(26, 26, 26)"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "6efdc18c00fc4d32b13117dbfc04e7ba",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "abfb265b6ccb4af286b55fa8a6aa06c1",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Governed Access and Auditability — executives get high-level rollups, analysts get filtered views, and all activity is traceable. Every change to a KPI, filter, or access rule is logged with full version control.",
+                            "attrs": {
+                              "style": {
+                                "color": "rgb(26, 26, 26)"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "8c966137c4854212b5b8c84127d1f4fa",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "a0804435b0e44e938ab3127ec29ec59c",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Reusable Logic for Scalable Insights — define metrics once and reuse them across dashboards, business units, reports, and AI interfaces, eliminating the duplicated logic and compounding maintenance that occur when business rules get recreated across BI tools, data transformations, and spreadsheets.",
+                            "attrs": {
+                              "style": {
+                                "color": "rgb(26, 26, 26)"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "732a6059e99b4e68815677af0a7c6382",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "01edeefe51004ddeb7f2dadd0a665d4c",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Seamless Integration Across Tools — from Salesforce to spreadsheets to custom BI dashboards, metrics stay accurate, unified, and live.",
+                            "attrs": {
+                              "style": {
+                                "color": "rgb(26, 26, 26)"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "15b2d4f85c1c4f66b73b3e2fcfd33eab",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "9b851969b827428982b019b3c26db2bd",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "AI Accuracy and Trustworthiness — AI agents operating through a semantic layer produce results that are not just computationally valid but semantically correct, because they compute on governed definitions rather than guessing at business logic from raw SQL.",
+                            "attrs": {
+                              "style": {
+                                "color": "rgb(26, 26, 26)"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "text_override": null,
+          "table_styles": [],
+          "_metadata": {
+            "uid": "csb8a96ce6d42baa95"
+          }
+        }
+      },
+      {
+        "text": {
+          "accent_box": [],
+          "text_content": {
+            "type": "doc",
+            "uid": "ae62d17415af48c2990749f65ac91feb",
+            "attrs": {},
+            "children": [
+              {
+                "type": "p",
+                "uid": "9e168c4479f74bcca2d15006483c0228",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Supporting data:",
+                    "attrs": {
+                      "style": {
+                        "color": "rgb(26, 26, 26)"
+                      }
+                    },
+                    "bold": true
+                  },
+                  {
+                    "text": " Analysts spend 38% of their time on work a semantic layer could eliminate (CIO Dive, 2026). — See validation warning: this figure requires independent verification before publishing, and Frank has asked for it to be backed by a named research source (Gartner, Forrester, IDC, or similar) with a working citation link.",
+                    "attrs": {
+                      "style": {
+                        "color": "rgb(26, 26, 26)"
+                      }
+                    }
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "text_override": null,
+          "table_styles": [],
+          "_metadata": {
+            "uid": "cs11fa29defebeb1c5"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "What Are the Core Components of a Semantic Layer?",
+          "section_id": "what-are-the-core-components-of-a-semantic-layer",
+          "no_toc": false,
+          "no_numbering": false,
+          "_metadata": {
+            "uid": "cs859bc275d1bf155c"
+          }
+        }
+      },
+      {
+        "divider": {
+          "color": "colorOrange",
+          "spacing": "spacingDefault",
+          "_metadata": {
+            "uid": "csf854563beaf4bc16"
+          }
+        }
+      },
+      {
+        "text": {
+          "accent_box": [],
+          "text_content": {
+            "type": "doc",
+            "uid": "5491ea017299467fbe28725cdafcf7f7",
+            "attrs": {},
+            "children": [
+              {
+                "type": "p",
+                "uid": "e1cf7778c3ba4f7eb0f6dce65d561c73",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "A semantic layer isn't a single tool — it's a set of layered capabilities that work together to turn raw data into governed, business-ready meaning. The core components are:",
+                    "attrs": {
+                      "style": {
+                        "color": "rgb(26, 26, 26)"
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "uid": "5647854886fa4dd1bbbc88073f75d4db",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "li",
+                    "uid": "5fbbd5a534444293bccc1ca67dd34be8",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "3e99caa0efde480aa19cb5d0474d6564",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Business Metric & Definition Layer — the authoritative, centrally maintained definitions for metrics like revenue, churn, or active user, encoded once and reused everywhere.",
+                            "attrs": {
+                              "style": {
+                                "color": "rgb(26, 26, 26)"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "9952e9f255e34956a2121aa8d4a03bf9",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "199b7bd17392464d899b3e9ed8d81a22",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Data Model, Hierarchies & Relationships — how tables, entities, and time, geography, or product hierarchies relate to each other, so a query can roll up or drill down consistently.",
+                            "attrs": {
+                              "style": {
+                                "color": "rgb(26, 26, 26)"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "3a05473a146f4fc49374bb26924ec2c0",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "a9e1d4b1042f41fcb1297843b4a47d46",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Governance & Access Control — row- and column-level permissions, so the same governed metric returns the right slice of data for an executive, an analyst, or an external partner.",
+                            "attrs": {
+                              "style": {
+                                "color": "rgb(26, 26, 26)"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "0e7addba77644f82ae183953614842a3",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "c1afc3d55f264e2b9427fddf4d994ead",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Calculation & Query Engine — the execution layer that computes a metric on demand and generates the query logic behind the scenes, rather than leaving that logic to whichever tool happens to be asking.",
+                            "attrs": {
+                              "style": {
+                                "color": "rgb(26, 26, 26)"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "980915f6df6c4c9c9b08fc4b3304bf02",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "37247fb093904bdea836c1e97eb4285c",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Lineage & Version Control — a record of where a definition came from, who changed it, and when, so every number is auditable back to its source.",
+                            "attrs": {
+                              "style": {
+                                "color": "rgb(26, 26, 26)"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "b40e8757699c41598eeb3e9a8b591a07",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "4cbb56b75a57455ab342da2934f0fe1f",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Interfaces for BI, AI, and Natural Language — the connection points (APIs, MCP servers, BI connectors) that let dashboards, spreadsheets, and AI agents all query the same governed layer instead of the raw tables underneath it.",
+                            "attrs": {
+                              "style": {
+                                "color": "rgb(26, 26, 26)"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "e927c2080ad74953b8e7f8b8fefd92a1",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "That last component is what makes the semantic layer relevant to AI specifically: an AI agent is only as accurate as the layer it queries. Expose it to raw tables and it has to guess at business logic; expose it to a governed semantic layer and it inherits the same trusted definitions a human analyst already relies on.",
+                    "attrs": {
+                      "style": {
+                        "color": "rgb(26, 26, 26)"
+                      }
+                    }
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "text_override": null,
+          "table_styles": [],
+          "_metadata": {
+            "uid": "cs40aab9e56d5e2b8b"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "Why Do AI Agents Need a Semantic Layer?",
+          "section_id": "why-do-ai-agents-need-a-semantic-layer",
+          "no_toc": false,
+          "no_numbering": false,
+          "_metadata": {
+            "uid": "cs132fd003379ea9a9"
+          }
+        }
+      },
+      {
+        "divider": {
+          "color": "colorOrange",
+          "spacing": "spacingDefault",
+          "_metadata": {
+            "uid": "cs85f93572181cf58a"
+          }
+        }
+      },
+      {
+        "text": {
+          "accent_box": [],
+          "text_content": {
+            "type": "doc",
+            "uid": "88e351abda4443d08a115f02f681641c",
+            "attrs": {},
+            "children": [
+              {
+                "type": "p",
+                "uid": "607bdc09f37c4dfe99d502a80214e2b5",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Most AI tools generate unpredictable SQL. When a large language model reasons through raw data tables to compute a metric, it infers schema structure, guesses at business logic, and generates SQL that may be syntactically valid but semantically wrong — returning a number that looks plausible but does not match the authoritative definition your business relies on.",
+                    "attrs": {
+                      "style": {
+                        "color": "rgb(26, 26, 26)"
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "c421c3e3df9d40c1a5069a35e186ad1a",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "AI agents querying raw data tables lack the business context required to produce semantically accurate results. Without a governed definition of which revenue calculation is authoritative, or what qualifies as an active customer, a model produces results that are computationally valid but semantically incorrect.",
+                    "attrs": {
+                      "style": {
+                        "color": "rgb(26, 26, 26)"
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "55eedf977999486cae2bc4cb25de8b04",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The semantic layer resolves this by exposing governed business semantics to AI agents directly. Strategy Mosaic exposes those governed metrics to AI agents through Mosaic MCP, so agents operate on authoritative metrics and defined relationships rather than guessing at business logic from raw SQL.",
+                    "attrs": {
+                      "style": {
+                        "color": "rgb(26, 26, 26)"
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "1d936f7371f0475cb6b26012f7f64abc",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "There is also a practical cost consideration: when an LLM reasons through raw data tables to compute a metric, it consumes API tokens on SQL generation, schema interpretation, and business logic inference — work the semantic layer should have already resolved. Routing LLM queries through a governed semantic layer reduces that overhead.",
+                    "attrs": {
+                      "style": {
+                        "color": "rgb(26, 26, 26)"
+                      }
+                    }
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "text_override": null,
+          "table_styles": [],
+          "_metadata": {
+            "uid": "csb4178f6f4a5a0702"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "Which Industries Benefit From a Semantic Layer?",
+          "section_id": "which-industries-benefit-from-a-semantic-layer",
+          "no_toc": false,
+          "no_numbering": false,
+          "_metadata": {
+            "uid": "cs56f2edf55456af33"
+          }
+        }
+      },
+      {
+        "divider": {
+          "color": "colorOrange",
+          "spacing": "spacingDefault",
+          "_metadata": {
+            "uid": "cs9367a8c1b8e373c1"
+          }
+        }
+      },
+      {
+        "text": {
+          "accent_box": [],
+          "text_content": {
+            "type": "doc",
+            "uid": "ed54bc973ec3498b8f95a6b044145af1",
+            "attrs": {},
+            "children": [
+              {
+                "type": "p",
+                "uid": "4a7e004895fb4d9592feb16f288971a7",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The semantic layer's core value — consistent, governed metrics across every team and tool — applies wherever inconsistent data definitions create costly downstream decisions. Several industries see particularly concentrated benefit:",
+                    "attrs": {
+                      "style": {
+                        "color": "rgb(26, 26, 26)"
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "uid": "02612a69120f46ab953cb182076fc5d5",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "li",
+                    "uid": "81405adb2d654aabaa56553e50ea2a08",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "701d7c691f81431487b1e2219a9f21d3",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Retail: Standardize KPIs like 'conversion rate' and 'average order value' across store locations; align inventory, sales, and marketing performance in real time. Learn more about Strategy's retail solutions.",
+                            "attrs": {
+                              "style": {
+                                "color": "rgb(26, 26, 26)"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "9f1fe761f0f24b7e99f768496f23498a",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "44b01ec1e68547849c80358278dab9ba",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Financial Services: Harmonize definitions across banking, insurance, and wealth platforms; build compliance-ready BI with auditable logic. Learn more about Strategy's financial services solutions.",
+                            "attrs": {
+                              "style": {
+                                "color": "rgb(26, 26, 26)"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "6b14caed1f9642798ef99e1a39cdc558",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "6f97f26921434c1fbc5b7df9e46a148c",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Education: Track 'student success' or 'engagement' with consistent logic across departments and systems. Learn more about Strategy's education solutions.",
+                            "attrs": {
+                              "style": {
+                                "color": "rgb(26, 26, 26)"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "d6d744585afb4ad9957467b6be5fa488",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "a7b6aa228c744504ad22cdae762d2bb6",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Manufacturing: Unify supply chain, production, and quality metrics across facilities and partners. Learn more about Strategy's manufacturing solutions.",
+                            "attrs": {
+                              "style": {
+                                "color": "rgb(26, 26, 26)"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "e1d5f94d364841dd9b293f28b0a34bfe",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "6f328c4760804e96aa9cefb63c8d1ae4",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Technology: Align product, customer success, and sales teams on shared usage definitions; power AI and ML models with reusable KPI logic. Learn more about Strategy's technology solutions.",
+                            "attrs": {
+                              "style": {
+                                "color": "rgb(26, 26, 26)"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "text_override": null,
+          "table_styles": [],
+          "_metadata": {
+            "uid": "csf2ddc8f8f2a6c789"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "How to Implement a Semantic Layer?",
+          "section_id": "how-to-implement-a-semantic-layer",
+          "no_toc": false,
+          "no_numbering": false,
+          "_metadata": {
+            "uid": "csf59c71b304762811"
+          }
+        }
+      },
+      {
+        "divider": {
+          "color": "colorOrange",
+          "spacing": "spacingDefault",
+          "_metadata": {
+            "uid": "csafffd12245d040cf"
+          }
+        }
+      },
+      {
+        "text": {
+          "accent_box": [],
+          "text_content": {
+            "type": "doc",
+            "uid": "53fb7898d2b24bebaf651a682caca770",
+            "attrs": {},
+            "children": [
+              {
+                "type": "p",
+                "uid": "2c39864fb9af4b64ab17bb12b10a279b",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Implementing a semantic layer is less about picking a single product and more about establishing one governed source of truth for how the business defines its data. A practical rollout typically follows five steps:",
+                    "attrs": {
+                      "style": {
+                        "color": "rgb(26, 26, 26)"
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "ol",
+                "uid": "b5adec3bdf93464fbfa2fa051d327fac",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "li",
+                    "uid": "0ef5eae980b94ad582d271ed925d70d6",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "18cff59b62f34338a4c3b6d3d12bd977",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Audit existing definitions — inventory how key metrics like revenue, churn, or active user are currently calculated across BI tools, spreadsheets, and reports, and where those definitions conflict.",
+                            "attrs": {
+                              "style": {
+                                "color": "rgb(26, 26, 26)"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "60d777e3b5e4498c97cec624cc77e40c",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "a94f1c6d893049e7bd11a3a297fa4f4b",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Establish ownership and governance — assign a data or analytics team as the steward of each metric definition, with a clear process for proposing and approving changes.",
+                            "attrs": {
+                              "style": {
+                                "color": "rgb(26, 26, 26)"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "73cd11f2152046cf8cff432df04e917d",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "190b084651e04176ae920d564ea2bde3",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Model the semantic layer — encode the agreed-upon metrics, hierarchies, relationships, and access rules once, in a platform built to enforce them consistently rather than as documentation that has to be manually kept in sync.",
+                            "attrs": {
+                              "style": {
+                                "color": "rgb(26, 26, 26)"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "339b0591dd2d4dc5ab903cc08c33e3e5",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "8f5c47d39c194ed6b5a181066888dca3",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Connect consuming tools to the layer, not the raw tables — point dashboards, reports, and AI agents at the semantic layer's governed metrics instead of letting each tool query source tables independently.",
+                            "attrs": {
+                              "style": {
+                                "color": "rgb(26, 26, 26)"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "uid": "1939dc5eb55c4201969d29f176724561",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "type": "p",
+                        "uid": "0918c0644b9a4426a3f5f4cf98ddbf53",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "Monitor, version, and iterate — track every change to a definition with full version history, and revisit the model as the business adds new metrics, systems, or AI use cases.",
+                            "attrs": {
+                              "style": {
+                                "color": "rgb(26, 26, 26)"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "7e83b56fd1244f19ac419cacff65ca68",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The most common failure mode isn't technical — it's treating the semantic layer as a one-time project instead of an ongoing governance practice. Definitions drift as the business changes, and a semantic layer only stays trustworthy if it's maintained the same way the data itself is.",
+                    "attrs": {
+                      "style": {
+                        "color": "rgb(26, 26, 26)"
+                      }
+                    }
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "text_override": null,
+          "table_styles": [],
+          "_metadata": {
+            "uid": "csa99d52d9f31de978"
+          }
+        }
+      },
+      {
+        "section_anchor": {
+          "header_text": "Why Choose Strategy for Your Semantic Layer?",
+          "section_id": "why-choose-strategy-for-your-semantic-layer",
+          "no_toc": false,
+          "no_numbering": false,
+          "_metadata": {
+            "uid": "cs0301b0f1b54ae456"
+          }
+        }
+      },
+      {
+        "divider": {
+          "color": "colorOrange",
+          "spacing": "spacingDefault",
+          "_metadata": {
+            "uid": "csd76429f84afd1149"
+          }
+        }
+      },
+      {
+        "text": {
+          "accent_box": [],
+          "text_content": {
+            "type": "doc",
+            "uid": "4a3db59febf54907af8559ac986cebab",
+            "attrs": {},
+            "children": [
+              {
+                "type": "p",
+                "uid": "eb64d8f6df684d2984b311019cd09339",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Strategy has been building a semantic layer for enterprise BI for decades, and it is now one of the critical pieces of infrastructure AI needs to work reliably in businesses.",
+                    "attrs": {
+                      "style": {
+                        "color": "rgb(26, 26, 26)"
+                      }
+                    },
+                    "bold": true
+                  },
+                  {
+                    "text": " As AI becomes the primary consumer of enterprise data, the semantic layer becomes the critical foundation for AI accuracy and trustworthiness — encoding business logic in an execution engine rather than leaving it as a label in a data catalog.",
+                    "attrs": {
+                      "style": {
+                        "color": "rgb(26, 26, 26)"
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "uid": "ff3929e4ebb04489a4663b02eb908d65",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Strategy Mosaic is the current product implementation: the most deployed universal semantic layer in the world.",
+                    "attrs": {
+                      "style": {
+                        "color": "rgb(26, 26, 26)"
+                      }
+                    },
+                    "bold": true
+                  },
+                  {
+                    "text": " Mosaic sits between disparate systems, connecting all data and delivering governed access — generating predictable SQL from governed business definitions rather than the unpredictable SQL that most AI tools produce.",
+                    "attrs": {
+                      "style": {
+                        "color": "rgb(26, 26, 26)"
+                      }
+                    }
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "text_override": null,
+          "table_styles": [],
+          "_metadata": {
+            "uid": "csf57ac15cf93b3033"
+          }
+        }
+      },
+      {
+        "text": {
+          "accent_box": [],
+          "text_content": {
+            "type": "doc",
+            "uid": "420f04dbaae841ac8529ae531c98e796",
+            "attrs": {},
+            "children": [
+              {
+                "type": "p",
+                "uid": "2a3132a4751a448ab0a7b2c3cb4f8269",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Strategy's position:",
+                    "attrs": {
+                      "style": {
+                        "color": "rgb(26, 26, 26)"
+                      }
+                    },
+                    "bold": true
+                  },
+                  {
+                    "text": " That decades-long investment is now independently validated: Anthropic's own blog confirmed the need for a semantic layer to improve Claude's accuracy over business data — the same infrastructure thesis Strategy has been building toward all along.",
+                    "attrs": {
+                      "style": {
+                        "color": "rgb(26, 26, 26)"
+                      }
+                    }
+                  }
+                ]
+              }
+            ],
+            "_version": 1
+          },
+          "text_override": null,
+          "table_styles": [],
+          "_metadata": {
+            "uid": "cs1adba569b6e2c24c"
+          }
+        }
+      },
+      {
+        "accordion": {
+          "accordion_item": [
+            {
+              "title": "What is a semantic layer?",
+              "_metadata": {
+                "uid": "csbef2cdcfa19bd3d4"
+              },
+              "content": {
+                "type": "doc",
+                "uid": "9db71af4127a48dcbcfb4970cbc14b68",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "p",
+                    "uid": "637c27b102bc4450bb9bf30cbca55d00",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "text": "A semantic layer is a governed metadata layer that sits between raw data sources and the AI or BI tools that consume them. It translates raw data into business-meaningful terms, metrics, hierarchies, and definitions — ensuring that every downstream tool computes the same answer from the same governed source. Where a data catalog describes data, a semantic layer governs it: encoding business logic mathematically so that 'revenue' means exactly the same thing in Finance, Marketing, Sales, and in the answer an AI agent returns."
+                      }
+                    ]
+                  }
+                ],
+                "_version": 1
+              }
+            },
+            {
+              "title": "What are the core components of a semantic layer?",
+              "_metadata": {
+                "uid": "cs516c14718e4c8092"
+              },
+              "content": {
+                "type": "doc",
+                "uid": "1b9f644c4d6841db8b632a09f8b60b06",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "p",
+                    "uid": "359d2269d2b34a36857df3b61d74990c",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "text": "A semantic layer is made up of several layered components working together: a business metric and definition layer, a data model of relationships and hierarchies, governance and access control, a calculation and query engine, lineage and version control, and interfaces that expose all of it to BI tools, dashboards, and AI agents. Together, these components are what let a semantic layer enforce one governed definition everywhere it's queried, rather than just documenting it."
+                      }
+                    ]
+                  }
+                ],
+                "_version": 1
+              }
+            },
+            {
+              "title": "Why do AI agents need a semantic layer?",
+              "_metadata": {
+                "uid": "cs5bb36c670963c591"
+              },
+              "content": {
+                "type": "doc",
+                "uid": "91b8e5e5a062497d9725ce0357e10f13",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "p",
+                    "uid": "f9b8c84a4728494bbd6d7e020f1df52e",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "text": "AI agents querying raw data tables lack the business context required to produce semantically accurate results. Without a governed definition of which revenue calculation is authoritative, or what qualifies as an active customer, a model produces results that are computationally valid but semantically incorrect. Strategy Mosaic exposes governed business semantics to AI agents through Mosaic MCP, so agents operate on authoritative metrics and defined relationships rather than guessing at business logic from raw SQL."
+                      }
+                    ]
+                  }
+                ],
+                "_version": 1
+              }
+            },
+            {
+              "title": "How does a semantic layer reduce LLM token costs?",
+              "_metadata": {
+                "uid": "cs3e6f5d754b10ba0b"
+              },
+              "content": {
+                "type": "doc",
+                "uid": "f63bd740a2944334a0863c374ce5e92f",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "p",
+                    "uid": "59ec8d9d960047a79302a6286eb288ff",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "text": "When an LLM reasons through raw data tables to compute a metric, it consumes API tokens on SQL generation, schema interpretation, and business logic inference — work the semantic layer should have already resolved. Routing LLM queries through a governed semantic layer like Strategy Mosaic reduces that overhead by pre-resolving business logic before the query reaches the model."
+                      }
+                    ]
+                  }
+                ],
+                "_version": 1
+              }
+            },
+            {
+              "title": "How do you implement a semantic layer?",
+              "_metadata": {
+                "uid": "csbb8ab896599ddf35"
+              },
+              "content": {
+                "type": "doc",
+                "uid": "bba34e6b1ee24b70a1486511d2dacf78",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "p",
+                    "uid": "92116ad2de5d40508c90172e3ba7e0ab",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "text": "Implementing a semantic layer starts with auditing how key metrics are currently defined across existing tools, then assigning clear ownership for each definition. From there, the metrics, hierarchies, and access rules are modeled once in a platform built to enforce them, BI and AI tools are connected to that governed layer instead of raw source tables, and the whole model is version-controlled and revisited as the business evolves."
+                      }
+                    ]
+                  }
+                ],
+                "_version": 1
+              }
+            },
+            {
+              "title": "Why choose Strategy for a semantic layer?",
+              "_metadata": {
+                "uid": "cs9038db716e232e6e"
+              },
+              "content": {
+                "type": "doc",
+                "uid": "cb8c0fa6bd7f40e8a61fa98b2dcb40a5",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "p",
+                    "uid": "45416aa4b59a4ea790e58195f1563297",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "text": "Strategy has been building a semantic layer for enterprise BI for decades, making it one of the longest-standing providers in the category. Strategy Mosaic is the current product implementation — the most deployed universal semantic layer in the world — sitting between disparate systems to deliver governed access and generate predictable SQL from governed business definitions, an approach independently validated when Anthropic's own blog confirmed the need for a semantic layer to improve Claude's accuracy over business data."
+                      }
+                    ]
+                  }
+                ],
+                "_version": 1
+              }
+            },
+            {
+              "title": "How long has Strategy been building a semantic layer?",
+              "_metadata": {
+                "uid": "cse87ec58e4ee091de"
+              },
+              "content": {
+                "type": "doc",
+                "uid": "47777d2aba86494b9012c901365631b6",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "p",
+                    "uid": "857f0cedd4104624a5d42a9537a94171",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "text": "Strategy (formerly MicroStrategy) has been building a semantic layer for enterprise BI for decades, making it one of the longest-standing providers in the category. That foundational investment is what underpins Strategy Mosaic today — and why the semantic layer is Strategy's most credible long-term claim as AI becomes the primary consumer of enterprise data."
+                      }
+                    ]
+                  }
+                ],
+                "_version": 1
+              }
+            }
+          ],
+          "_metadata": {
+            "uid": "cs6b652c4289b13985"
+          },
+          "accordion_options": "closed"
+        }
+      }
+    ],
+    "cta_section": [],
+    "seo": {
+      "meta_title": "What Is a Semantic Layer? Definition & Benefits",
+      "meta_description": "A semantic layer translates raw data into governed business metrics and definitions, ensuring AI and BI tools compute consistent answers. Learn how it works...",
+      "keywords": "what is a semantic layer, semantic layer, semantic layer definition, semantic layer in data analytics, semantic layer for BI",
+      "social_thumbnail_override": null,
+      "enable_search_indexing": true
+    },
+    "resource_data": {
+      "date": null,
+      "type": "Blog",
+      "title": "What Is a Semantic Layer?",
+      "description": "A semantic layer translates raw data into governed business metrics and definitions, ensuring AI and BI tools compute consistent answers. Learn how it works...",
+      "featured": false
+    },
+    "taxonomies": [],
+    "page_properties": {
+      "navigation_title": "",
+      "hide_header_nav": false,
+      "hide_header_cta": false,
+      "hide_footer": false,
+      "disable_global_promo_banner": false,
+      "hide_auto_expert": false,
+      "sfid": "",
+      "marketo_id": "",
+      "cta_section": []
+    },
+    "locale": "en",
+    "uid": "blt319dea25cf5fdc50",
+    "created_by": "blte12f8d786df2b4b9",
+    "updated_by": "blte12f8d786df2b4b9",
+    "created_at": "2026-09-01T16:08:02.660Z",
+    "updated_at": "2026-09-01T16:08:02.660Z",
+    "ACL": {},
+    "_version": 1,
+    "tags": [],
+    "_in_progress": false
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "term": "semantic layer",
+  "slug": "semantic-layer",
+  "sources": [
+    {
+      "sourceType": "live_url",
+      "title": "What is a Universal Semantic Layer?",
+      "urlOrPath": "https://www.strategy.com/software/blog/what-is-a-universal-semantic-layer",
+      "notes": "Closest direct match to the geoQueryTarget (\"What is a semantic layer?\"). Primary source for the definition block and benefits list.",
+      "text": "# What is a Universal Semantic Layer?\n\nSource: https://www.strategy.com/software/blog/what-is-a-universal-semantic-layer\nAuthor: Tanmay Ratanpal\nCached: 2026-08-25\n\n## What is a Universal Semantic Layer?\n\nImagine a dictionary with thousands of words. Each word has a clear meaning, but can be\nused in hundreds of different contexts. Similarly, if teams understand data metrics\ndifferently, they extract inconsistent insights that get passed up the chain and affect\ndecision-making. However, if both parties share the same definitions and context\nupfront, they can verify details, simplify communication, and take action, without\nconfusion or costly missteps.\n\nThe Universal Semantic Layer elevates that process. It connects all business data into\none source of truth, and acts as a \"universal dictionary\" — delivering a governed,\nconsistent layer of metrics, definitions, and logic across systems. It ensures that\nterms like \"customer,\" \"revenue,\" or \"active user\" have the same meaning in Finance\nreports, Marketing dashboards, and Sales forecasts.\n\nHowever, the Universal Semantic Layer does more than define data — it leverages\nAI-powered analytics to operationalize data, resulting in faster and more accurate\ninsights.\n\n## How the Universal Semantic Layer Works\n\n(5-step flow; step 4 covers natural-language querying — \"Ask, 'Which customers are at\nrisk this quarter?' and get answers based on the same logic as your executive\ndashboard.\") Step 5: Track Every Change and Stay Compliant — every change to a KPI,\nfilter, or access rule is logged automatically, with full version control and audit\ntrails. Unlike a regular semantic layer that simply defines business terms, Strategy\nMosaic sits between disparate systems, connecting all data and delivering governed\naccess.\n\n## Benefits of a Universal Semantic Layer\n\n1. **Consistent Metrics Across Every Team** — Sales, Finance, HR, CS, and Marketing all\n   pull from the same definitions, so terms like \"churn\" or \"active user\" never change\n   from one meeting to the next.\n2. **Faster, More Confident Decisions** — real-time dashboards and AI-powered querying\n   give teams actionable insights instantly, from Slack, Excel, Chrome, Teams, and more.\n3. **Governed Access and Auditability** — execs get high-level rollups, analysts get\n   filtered views, and all activity is traceable.\n4. **Reusable Logic for Scalable Insights** — define metrics once and reuse them across\n   dashboards, business units, reports, and AI interfaces.\n5. **Seamless Integration Across Tools** — from Salesforce to spreadsheets to custom BI\n   dashboards, metrics stay accurate, unified, and live.\n\n## Universal Semantic Layer: Benefits Across Industries\n\n- Retail: standardize KPIs like \"conversion rate\" and \"average order value\" across\n  store locations; align inventory, sales, and marketing performance in real time.\n- Financial Services: harmonize definitions across banking, insurance, and wealth\n  platforms; compliance-ready BI with auditable logic.\n- Education: track \"student success\" or \"engagement\" with consistent logic.\n- Manufacturing: unify supply chain, production, and quality metrics.\n- Technology: align product, CS, and sales teams on shared usage definitions; power\n  AI/ML models with reusable KPI logic.\n\n## Internal links seen on this page\n\n- /solutions/retail, /solutions/financial-services, /solutions/education,\n  /solutions/manufacturing, /solutions/technology (industry Detail pages)\n- CTA links toward Strategy Mosaic / demo request\n\n## Page table of contents (their own H2 structure)\n\nWhy is a Universal Semantic Layer Important → What is a Universal Semantic Layer? →\nHow the Universal Semantic Layer Works → Benefits of a Universal Semantic Layer →\nUniversal Semantic Layer: Benefits Across Industries → Final Thoughts",
+      "hasText": true
+    },
+    {
+      "sourceType": "live_url",
+      "title": "Semantic Layer vs. Data Catalog for AI: Why Metadata Isn't Meaning",
+      "urlOrPath": "https://www.strategy.com/software/blog/semantic-layer-for-ai-metadata-is-not-meaning",
+      "notes": "This is \"Lauren's blog\" — Henry named it directly on 2026-08-24 as already defining most of the content needed. Has a near-publish-ready FAQ section; weight this source heavily for faq[].",
+      "text": "# Semantic Layer vs. Data Catalog for AI: Why Metadata Isn't Meaning\n\nSource: https://www.strategy.com/software/blog/semantic-layer-for-ai-metadata-is-not-meaning\nAuthor: Lauren O'Connor — this is the \"Lauren's blog\" Henry nominated on the 2026-08-24\ncall as already defining most of the content needed for the first glossary pages.\nCached: 2026-08-25\n\n## What This Means for Your Enterprise AI Architecture\n\nAI agents are only as reliable as the business logic they run on. If that logic lives\nin a label, you have a data dictionary. If it lives in an execution engine, you have a\nsemantic layer — a meaningfully different AI outcome. Strategy Software builds Strategy\nMosaic as the governed foundation for enterprise AI precisely because metadata, no\nmatter how rich, is not a substitute for governed meaning.\n\n## Frequently Asked Questions (usable near-verbatim for the glossary FAQ block)\n\n**Q: What is the difference between a semantic layer and a data catalog?**\nA: A data catalog describes data. It stores metadata like column names, lineage, and\nbusiness definitions. A semantic layer governs data: it encodes business logic and\nenforces metric definitions mathematically, so every downstream tool computes the same\nanswer from the same governed source. The distinction is the difference between telling\nan AI what \"revenue\" means and making the AI compute revenue correctly every time,\nwithout exception.\n\n**Q: Why do AI agents need a semantic layer?**\nA: AI agents querying raw data tables lack the business context required to produce\nsemantically accurate results. Without a governed definition of which revenue\ncalculation is authoritative, or what qualifies as an active customer, a model produces\nresults that are computationally valid but semantically incorrect. Strategy Mosaic\nexposes governed business semantics to AI agents through Mosaic MCP, so agents operate\non authoritative metrics and defined relationships rather than guessing at business\nlogic from raw SQL.\n\n**Q: How does a semantic layer reduce LLM token costs?**\nA: When an LLM reasons through raw data tables to compute a metric, it consumes API\ntokens on SQL generation, schema interpretation, and business logic inference — work\nthe semantic layer should have already resolved. Routing LLM queries through Strategy\nMosaic reduces that overhead. (Source truncated at cache time — verify exact figure\nbefore quoting a specific token-savings number in the glossary page.)\n\n## Internal links seen on this page\n\n- /strategymosaic (Arrival-tier product page — the primary Detail↔Narrative link\n  candidate for this term)\n\n## Why this source matters\n\nThis is the source Henry pointed to directly: \"The two I was talking to Frank about\nwas Lauren's blog and Joe Polis blog. Both of them I think already defined most of it.\nSo just run a couple of ones and I think you just get a pretty solid glossary page.\"\nIts FAQ section is close to publish-ready and should carry the most weight in\ndraft_with_claude.py's faq[] output for this term.",
+      "hasText": true
+    },
+    {
+      "sourceType": "live_url",
+      "title": "The Enterprise Semantic Layer Buyer's Guide (2026 Edition)",
+      "urlOrPath": "https://www.strategy.com/software/enterprise-semantic-layer-buyers-guide",
+      "notes": "Gated Detail-tier resource. Only partially cached (FAQ truncated) — re-fetch before drafting if the buyer's-guide framing needs more depth. Contains a stat (38% analyst time) that needs independent verification before publishing.",
+      "text": "# The Enterprise Semantic Layer Buyer's Guide (2026 Edition)\n\nSource: https://www.strategy.com/software/enterprise-semantic-layer-buyers-guide\nCached: 2026-08-25\n\n## Framing\n\n\"When metrics are inconsistent across tools, AI initiatives stall and teams spend more\ntime reconciling numbers than generating insights. This guide gives data & analytics\nleaders a comprehensive evaluation framework.\"\n\n## Four reasons your data architecture is holding you back\n\nMost enterprises don't have a data problem — they have an architecture problem. Four\npersistent challenges are named, including:\n\n**03 — Duplicated Logic, Compounding Maintenance.** Business rules get recreated\nacross BI, data transformations, and spreadsheets, causing rework and drift.\nStat: \"Analysts spend 38% of their time on work a semantic layer could eliminate\"\n(CIO Dive, 2026). — usable as a supporting stat in the glossary page's definition\nblock if the source can be independently verified before publishing.\n\n## Structure (gated content, Detail-tier resource)\n\nHas its own FAQ section (truncated at cache time — re-fetch before drafting if more\ndetail is needed) and a CTA to download the full guide PDF / request a Mosaic Proof of\nValue.\n\n## Internal links seen on this page\n\n- /software/start/strategymosaic (Mosaic demo/POV request — Arrival-adjacent CTA)",
+      "hasText": true
+    },
+    {
+      "sourceType": "live_url",
+      "title": "Strategy Software homepage (Arrival tier)",
+      "urlOrPath": "https://www.strategy.com/software",
+      "notes": "Not a content source — a positioning-language and internal-link source. Use for Narrative->Arrival link language, not for factual claims.",
+      "text": "# Strategy Software | Mosaic Universal Semantic Layer for Governed AI\n\nSource: https://www.strategy.com/software (Arrival tier — home page)\nCached: 2026-08-25\n\n## Headline framing\n\n\"AI guesses. Mosaic gives the right answer every time.\"\n\"The most deployed universal semantic layer in the world.\"\n\"Most AI tools generate unpredictable SQL. Mosaic generates predictable SQL from\ngoverned business definitions, for trust in every answer.\"\n\n## Why this matters for the glossary page\n\nThis is the top-of-funnel Arrival page. Per the template deck's link priority matrix,\nNarrative→Arrival is a High-priority internal link — the \"semantic layer\" glossary page\nshould link up to this page (or more specifically to /strategymosaic, the product page)\nusing language consistent with this framing (\"governed\", \"predictable\", \"trust in every\nanswer\") rather than inventing new positioning language.\n\n## Internal links seen on this page\n\n- /strategymosaic (\"See how Mosaic works\")\n- CTA: \"Get a custom ROI [estimate]\" (truncated)",
+      "hasText": true
+    },
+    {
+      "sourceType": "wiki_concept",
+      "title": "Semantic Layer (Strategy Brain wiki concept)",
+      "urlOrPath": "/Users/abehrens/Library/CloudStorage/OneDrive-MicroStrategy,Inc/Desktop/Strategy Brain/wiki/concepts/semantic-layer.md",
+      "notes": "Internal notes on Saurabh's social/LinkedIn framing of this term, not web copy. Useful for competitive positioning (\"longest-standing\" vs. Databricks) and for the context-layer relationship (feeds related_terms), but do not lift sentences verbatim onto the web page — this file documents social content strategy, not approved external-facing language.",
+      "text": "---\ntitle: Semantic Layer\ntype: concept\ntags: [enterprise-ai, data-architecture, bi, mosaic, context-layer]\nsources: []\ndate_added: 2026-06-16\ndate_updated: 2026-06-16\n---\n\n# Semantic Layer\n\n## Definition\n\nA governed metadata layer that translates raw data into business-meaningful terms, metrics, hierarchies, and definitions — making data consistently interpretable across tools, users, and AI systems.\n\n## Why Saurabh Covers This\n\nStrategy (formerly MicroStrategy) has been building a semantic layer for enterprise BI for decades. As AI becomes the primary consumer of enterprise data, the semantic layer becomes the critical infrastructure for AI accuracy and trustworthiness. It is Saurabh's most credible long-term thesis.\n\n## Saurabh's Take\n\n*\"AI needs business context to work. At Strategy, we've been building a context (semantic) layer for people for decades, and its now one of the critical pieces of technology AI needs to work in businesses.\"*\n\n*\"<tl/dr> version: You need a Semantic Layer\"* — on Anthropic's own blog post about improving Claude accuracy over business data.\n\nThe semantic layer is Strategy's claim to being \"the longest-standing\" provider in this category — a significant competitive positioning claim relative to newer entrants like Databricks.\n\n## How It Works\n\nThe semantic layer sits between raw data sources and AI/BI tools. It provides:\n- Business-meaningful names for tables, columns, and metrics\n- Calculated metrics with consistent definitions\n- Row/column-level permissions and governance\n- Lineage — where data came from and how it was transformed\n- Business hierarchies (geography, product, time)\n- Relationships between business entities\n\nWithout it, AI guesses at the meaning of `tbl_rev_q3` instead of knowing it means \"Q3 Revenue.\"\n\n## Relationship to Context Layer\n\nThe [[context-layer]] is the broader architectural concept — the intermediary layer between data and AI. The semantic layer is the most mature technical implementation of that concept. In Saurabh's content, the terms are often used interchangeably, though \"context layer\" is the more expansive framing for a general audience and \"semantic layer\" is used when speaking to practitioners.\n\n## Tensions & Debates\n\n- Databricks argues you need a data lake to have a context layer — Saurabh explicitly disagrees (\"you don't need a data lake to have a context layer\")\n- Anthropic's own blog confirmed the need for a semantic layer for accurate Claude responses over business data — Saurabh used this as external validation\n\n## Related Concepts\n\n- [[context-layer]] — the broader architectural concept\n- [[AI ROI Gap]] — what the semantic layer closes\n- [[Declauding]] — adjacent coined term\n\n## Related Entities\n\n- [[Saurabh Abhyankar]] — primary advocate in this wiki's context\n- [[Strategy]] — has built a semantic layer for 30+ years\n- [[Strategy Mosaic]] — the current product implementation\n- Databricks — competitor making conflicting architectural claims\n\n## Posts on This Topic\n\n- [[2026-05-22-mad-money-databricks-context-layer]]\n- [[2026-05-26-hamburger-stack-enterprise-ai-missing-middle]]\n- [[2026-06-04-anthropic-article-semantic-layer]]\n- [[2026-06-12-context-layer-between-data-and-ai]]\n- [[2026-06-25-ai-gut-feel-is-hallucination]]\n- [[2026-06-29-good-point-ontology-automation-repost]]\n- [[2026-06-30-just-shipped-mosaic-updates]]\n- [[2026-07-01-enterprise-ai-answering-to-acting]]\n- [[2026-07-10-cisco-financial-analyzer-webex]]\n- [[2026-07-10-world-rediscovered-semantic-layers]]\n- [[2026-07-17-strategyone-microstrategy-mcp]]\n- [[2026-07-22-mosaic-compatible-with-claude-mcp]]\n\n*(13 previously-untracked published posts ingested 2026-07-23 — see [[log]] entry of same date)*",
+      "hasText": true
+    },
+    {
+      "sourceType": "local_doc",
+      "title": "Joe Polise's blog (nominated by Henry, not yet located)",
+      "urlOrPath": "",
+      "notes": "Henry named this alongside Lauren's post on 2026-08-24 as covering most of what's needed. Not found during this harvest — ask Henry or Ash for the URL/file before the next term run if it should be included.",
+      "text": "",
+      "hasText": false
+    }
+  ],
+  "internalLinkCandidates": {
+    "arrival": [
+      {
+        "text": "Strategy Mosaic",
+        "url": "/software/strategymosaic"
+      },
+      {
+        "text": "Strategy Software",
+        "url": "/software"
+      }
+    ],
+    "detail": [
+      {
+        "text": "Retail solutions",
+        "url": "/software/solutions/retail"
+      },
+      {
+        "text": "Financial Services solutions",
+        "url": "/software/solutions/financial-services"
+      },
+      {
+        "text": "Education solutions",
+        "url": "/software/solutions/education"
+      },
+      {
+        "text": "Manufacturing solutions",
+        "url": "/software/solutions/manufacturing"
+      },
+      {
+        "text": "Technology solutions",
+        "url": "/software/solutions/technology"
+      }
+    ]
+  },
+  "warnings": [
+    "local_doc source 'Joe Polise's blog (nominated by Henry, not yet located)' not found on disk — (no path given)."
+  ]
+}

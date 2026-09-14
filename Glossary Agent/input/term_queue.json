@@ -1,0 +1,122 @@
+[
+  {
+    "term": "semantic layer",
+    "slug": "semantic-layer",
+    "priority": "P1",
+    "status": "Not started",
+    "keywordTargets": [
+      "what is a semantic layer",
+      "semantic layer"
+    ],
+    "geoQueryTarget": "What is a semantic layer?",
+    "creator": "Ash",
+    "sourceType": "Glossary",
+    "geoQueryTargetRaw": "What is a semantic later?"
+  },
+  {
+    "term": "semantic layer for data governance",
+    "slug": "semantic-layer-for-data-governance",
+    "priority": "P2",
+    "status": "Not started",
+    "keywordTargets": [
+      "semantic layer for data governance"
+    ],
+    "geoQueryTarget": "What is a semantic layer for governed AI?",
+    "creator": "Ash",
+    "sourceType": "Glossary",
+    "geoQueryTargetRaw": "What is a Semantic Later for Goverened AI?"
+  },
+  {
+    "term": "governed analytics",
+    "slug": "governed-analytics",
+    "priority": "P2",
+    "status": "Not started",
+    "keywordTargets": [],
+    "geoQueryTarget": "what is governed analytics",
+    "creator": "Ash",
+    "sourceType": "Glossary"
+  },
+  {
+    "term": "semantic layer in a data warehouse",
+    "slug": "semantic-layer-in-a-data-warehouse",
+    "priority": "P2",
+    "status": "Not started",
+    "keywordTargets": [],
+    "geoQueryTarget": "what is a semantic layer in a data warehouse?",
+    "creator": "Ash",
+    "sourceType": "Glossary"
+  },
+  {
+    "term": "universal semantic layer",
+    "slug": "universal-semantic-layer",
+    "priority": "P2",
+    "status": "Not started",
+    "keywordTargets": [
+      "universal semantic layer"
+    ],
+    "geoQueryTarget": "What is a universal semantic layer?",
+    "creator": "Ash",
+    "sourceType": "Glossary",
+    "notes": "Spun off from the semantic-layer page per Frank Volinsky's 2026-08-27 feedback (input/sources/semantic-layer/feedback-2026-08-27-frank.md). That page's removed 'What Is a Universal Semantic Layer?' section is seed content for this term."
+  },
+  {
+    "term": "context layer",
+    "slug": "context-layer",
+    "priority": "P2",
+    "status": "Not started",
+    "keywordTargets": [
+      "context layer"
+    ],
+    "geoQueryTarget": "What is a context layer?",
+    "creator": "Ash",
+    "sourceType": "Glossary"
+  },
+  {
+    "term": "metrics layer",
+    "slug": "metrics-layer",
+    "priority": "P2",
+    "status": "Not started",
+    "keywordTargets": [
+      "metrics layer"
+    ],
+    "geoQueryTarget": "What is a metrics layer?",
+    "creator": "Ash",
+    "sourceType": "Glossary"
+  },
+  {
+    "term": "business logic layer",
+    "slug": "business-logic-layer",
+    "priority": "P2",
+    "status": "Not started",
+    "keywordTargets": [
+      "business logic layer"
+    ],
+    "geoQueryTarget": "What is a business logic layer?",
+    "creator": "Ash",
+    "sourceType": "Glossary"
+  },
+  {
+    "term": "data catalog ai",
+    "slug": "data-catalog-ai",
+    "priority": "P2",
+    "status": "Not started",
+    "keywordTargets": [
+      "data catalog ai"
+    ],
+    "geoQueryTarget": "What is a data catalog?",
+    "creator": "Ash",
+    "sourceType": "Glossary"
+  },
+  {
+    "term": "decision intelligence platform",
+    "slug": "decision-intelligence-platform",
+    "priority": "P2",
+    "status": "Not started",
+    "keywordTargets": [
+      "decision intelligence platform"
+    ],
+    "geoQueryTarget": "What is a decision intelligence platform?",
+    "creator": "Ash",
+    "sourceType": "Blog / Glossary"
+  }
+]

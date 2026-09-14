@@ -1,0 +1,11 @@
+{
+  "name": "glossary-ingestion-rte-serializer",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Node boundary that converts HTML into Contentstack JSON RTE using the official @contentstack/json-rte-serializer, called by the Python pipeline as a subprocess. Mirrors the Blog Ingestion Agent's scripts/rte_serializer_node/ (2026-08-27) — projects don't share code, so this is a separate copy, not an import.",
+  "main": "serialize.js",
+  "dependencies": {
+    "@contentstack/json-rte-serializer": "3.1.0",
+    "jsdom": "^25.0.1"
+  }
+}

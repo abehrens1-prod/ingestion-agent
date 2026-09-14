@@ -1,0 +1,88 @@
+# Source manifest for the "semantic layer" glossary term (P1).
+#
+# Found via WebSearch("site:strategy.com \"semantic layer\"") + strategy.com's sitemap
+# (https://software.strategy.com/sitemap.xml — Ash confirmed this is available for future
+# term harvests too; see docs/glossary_page_spec.md). This is Frank's "aggregate what we
+# already have" step: Strategy has published four existing pieces that already cover this
+# term from different angles. Two of them — the Lauren O'Connor post and (separately,
+# still to locate) Joe Polise's — are the exact sources Henry pointed to on 2026-08-24.
+#
+# harvest_sources.py reads this file and does NOT hit the network itself — live_url
+# entries point at a locally cached snapshot (raw/*.md) fetched via ctx_fetch_and_index
+# during this session, keeping the script deterministic and offline-runnable.
+
+term: semantic layer
+slug: semantic-layer
+
+sources:
+  - source_type: live_url
+    url: https://www.strategy.com/software/blog/what-is-a-universal-semantic-layer
+    title: "What is a Universal Semantic Layer?"
+    cached_text_path: raw/what-is-a-universal-semantic-layer.md
+    notes: >
+      Closest direct match to the geoQueryTarget ("What is a semantic layer?").
+      Primary source for the definition block and benefits list.
+
+  - source_type: live_url
+    url: https://www.strategy.com/software/blog/semantic-layer-for-ai-metadata-is-not-meaning
+    title: "Semantic Layer vs. Data Catalog for AI: Why Metadata Isn't Meaning"
+    cached_text_path: raw/semantic-layer-vs-data-catalog.md
+    notes: >
+      This is "Lauren's blog" — Henry named it directly on 2026-08-24 as already
+      defining most of the content needed. Has a near-publish-ready FAQ section;
+      weight this source heavily for faq[].
+
+  - source_type: live_url
+    url: https://www.strategy.com/software/enterprise-semantic-layer-buyers-guide
+    title: "The Enterprise Semantic Layer Buyer's Guide (2026 Edition)"
+    cached_text_path: raw/enterprise-semantic-layer-buyers-guide.md
+    notes: >
+      Gated Detail-tier resource. Only partially cached (FAQ truncated) — re-fetch
+      before drafting if the buyer's-guide framing needs more depth. Contains a stat
+      (38% analyst time) that needs independent verification before publishing.
+
+  - source_type: live_url
+    url: https://www.strategy.com/software
+    title: "Strategy Software homepage (Arrival tier)"
+    cached_text_path: raw/strategy-software-homepage.md
+    notes: >
+      Not a content source — a positioning-language and internal-link source. Use
+      for Narrative->Arrival link language, not for factual claims.
+
+  - source_type: wiki_concept
+    url_or_path: "/Users/abehrens/Library/CloudStorage/OneDrive-MicroStrategy,Inc/Desktop/Strategy Brain/wiki/concepts/semantic-layer.md"
+    title: "Semantic Layer (Strategy Brain wiki concept)"
+    notes: >
+      Internal notes on Saurabh's social/LinkedIn framing of this term, not web copy.
+      Useful for competitive positioning ("longest-standing" vs. Databricks) and for
+      the context-layer relationship (feeds related_terms), but do not lift sentences
+      verbatim onto the web page — this file documents social content strategy, not
+      approved external-facing language.
+
+  - source_type: local_doc
+    url_or_path: null
+    title: "Joe Polise's blog (nominated by Henry, not yet located)"
+    notes: >
+      Henry named this alongside Lauren's post on 2026-08-24 as covering most of what's
+      needed. Not found during this harvest — ask Henry or Ash for the URL/file before
+      the next term run if it should be included.
+
+# Internal-link candidates surfaced while harvesting (see docs/glossary_page_spec.md —
+# Detail<->Narrative is Critical, Narrative->Arrival is High, >=3 in/>=3 out minimum).
+internal_link_candidates:
+  arrival:
+    - text: "Strategy Mosaic"
+      url: /software/strategymosaic
+    - text: "Strategy Software"
+      url: /software
+  detail:
+    - text: "Retail solutions"
+      url: /software/solutions/retail
+    - text: "Financial Services solutions"
+      url: /software/solutions/financial-services
+    - text: "Education solutions"
+      url: /software/solutions/education
+    - text: "Manufacturing solutions"
+      url: /software/solutions/manufacturing
+    - text: "Technology solutions"
+      url: /software/solutions/technology
