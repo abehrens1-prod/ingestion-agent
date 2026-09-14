@@ -111,3 +111,12 @@ This step now runs automatically, not manually: `run_pipeline.py` calls it as St
 **Bold + numbered framework steps** split across multiple list blocks (e.g. a four-step framework interrupted by an intervening paragraph) will not be automatically merged or renumbered. These must be corrected manually in the Contentstack editor or fixed in the source .docx before re-parsing.
 
 **lead_paragraph contains only the Quick Summary.** Intro paragraphs (all content before the first H2) are placed in the first content block, not in `lead_paragraph`. This is intentional — `lead_paragraph` maps to a visually distinct field in the blog template (gray background), so it should only hold the Quick Summary. Do not put intro paragraphs back into `lead_paragraph`.
+
+## Shared facts
+
+- All three pipelines use four steps: parse → map → validate → upload. Upload creates a draft only after explicit user confirmation.
+- `api.base_url` is exactly `https://api-stg.microstrategy.com/cs-software` in every project `config.yaml`.
+- The proxy has no PUT endpoint: an `--entry-uid` update request fails with HTTP 404. Do not promise updates; create a new draft version instead.
+- `upload_to_contentstack.py` automatically normalizes titles and applies/retries `vN | <title>` (`v1 |`, `v2 |`, ...) in Blog, Whitepaper, and Glossary. Do not manually prefix or mutate `contentstack_entry.json` titles.
+- Each script establishes an explicit `PROJECT_ROOT`, adds its parent repository root to `sys.path`, and imports shared utilities from `ingestion_common`; retain that contract when adding scripts or imports.
+- Shared-fact changes must update this AGENTS.md and this CLAUDE.md in the same commit, and `log.md` must record the change.
