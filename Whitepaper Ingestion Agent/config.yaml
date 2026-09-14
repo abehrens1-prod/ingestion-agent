@@ -26,6 +26,11 @@ contentstack:
   # "Blog" = blog posts, "Analyst Report" = whitepapers
   resource_type: "Analyst Report"
 
+  # Locale codes live on the site (confirmed by Dale, ITS, 2026-08-26). Default is "en" —
+  # do not hardcode "en" elsewhere once locale selection is wired up; read from this list.
+  locales: ["en", "es", "fr", "de", "it", "ja", "ko", "pt", "pl", "zh", "th"]
+  default_locale: "en"
+
 api:
   base_url: "https://api-stg.microstrategy.com/cs-software"
 

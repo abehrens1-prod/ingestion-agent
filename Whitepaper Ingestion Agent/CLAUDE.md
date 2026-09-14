@@ -111,6 +111,10 @@ Every whitepaper must have a "The Brief" — 3–5 bullets, each with `boldSente
 
 `config.yaml` is the single source of truth for the Contentstack content type UID, field map, bg_color values, API base URL, and parser hints (section heading patterns, CTA detection keywords). Read by the mapper and upload scripts at runtime.
 
+## Pending: RTE Serialization to Node
+
+Per the 2026-08-26 Contentstack team review (originally scoped for the sibling Blog Ingestion Agent, applies here too): `rte_builder.py`'s hand-rolled node construction duplicates Contentstack's own open-source RTE serializer, which tracks their RTE format changes automatically (incl. tables, colors) and is where UID-based internal link references will get resolved into RTE nodes: https://github.com/contentstack/json-rte-serializer. It's an NPM module (Python doesn't take NPM), so only the final serialization step should move to a small Node call — the rest of the pipeline stays in Python. Not yet started; blocked on the shared internal-link-resolution middleware endpoint (ITS team building it) and on porting `rte_builder.py` to call the serializer. Do this after the Blog Ingestion Agent's version is proven out — no need to duplicate the work independently.
+
 ## Known Quirks
 
 - Claude API call in Step 2 takes ~3 minutes for a 23-page PDF — don't kill the process.

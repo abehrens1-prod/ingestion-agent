@@ -21,6 +21,8 @@ node_modules/
 # Disposable intermediates
 .tmp/
 *.tmp
+.worktrees/
+.superpowers/
 
 # Editor
 .vscode/
