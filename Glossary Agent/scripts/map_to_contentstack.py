@@ -60,6 +60,7 @@ Usage:
         --output output/2026-08-25_semantic-layer/contentstack_entry.json
 """
 
+import sys
 import json
 import uuid
 import secrets
@@ -67,6 +68,15 @@ import logging
 import argparse
 from pathlib import Path
 from typing import Optional
+
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+REPOSITORY_ROOT = PROJECT_ROOT.parent
+if str(REPOSITORY_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPOSITORY_ROOT))
+
+from ingestion_common.console import enable_utf8
+
+enable_utf8()
 
 import yaml
 from slugify import slugify

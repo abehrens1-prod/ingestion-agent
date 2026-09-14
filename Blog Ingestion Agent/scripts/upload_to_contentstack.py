@@ -6,18 +6,16 @@ import sys
 from pathlib import Path
 
 
-if sys.platform == "win32":
-    sys.stdout.reconfigure(encoding="utf-8")
-    sys.stderr.reconfigure(encoding="utf-8")
-
-
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 REPOSITORY_ROOT = PROJECT_ROOT.parent
 if str(REPOSITORY_ROOT) not in sys.path:
     sys.path.insert(0, str(REPOSITORY_ROOT))
 
 from ingestion_common.config import load_config
+from ingestion_common.console import enable_utf8
 from ingestion_common.contentstack import upload_entry as shared_upload_entry
+
+enable_utf8()
 
 
 def upload_entry(
